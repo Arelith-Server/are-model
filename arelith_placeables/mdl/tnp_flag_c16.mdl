@@ -1,0 +1,721 @@
+# Exported from blender Wednesday, 2019-06-26
+filedependancy tnp_flag_b13.mdl
+newmodel tnp_flag_c16
+setsupermodel tnp_flag_c16 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom tnp_flag_c16
+node dummy tnp_flag_c16
+  parent null
+endnode
+node dummy flag_c16_ground
+  parent tnp_flag_c16
+  position -0.00363  0.00699  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node dummy flag_c16_head
+  parent tnp_flag_c16
+  position  0.00000  0.72285  3.55164
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node dummy flag_c16_head_hit
+  parent tnp_flag_c16
+  position  0.00000  0.72826  5.29905
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node dummy flag_c16_impact
+  parent tnp_flag_c16
+  position  0.00000  0.72403  3.47000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node trimesh pole
+  parent tnp_flag_c16
+  position  0.00000  0.75000  5.04993
+  orientation  0.00000  0.00000  1.00000  3.14160
+  wirecolor 0.48 0.29 0.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap tno01_wood011
+  shininess 2
+  render 1
+  shadow 0
+  verts 10
+     1.00000  0.00854 -0.03804
+     1.00000 -0.03618 -0.02351
+     1.00000 -0.03618  0.02351
+     1.00000  0.00854  0.03804
+     1.00000  0.03618 -0.00000
+    -1.00000  0.00854 -0.03804
+    -1.00000 -0.03618 -0.02351
+    -1.00000 -0.03618  0.02351
+    -1.00000  0.00854  0.03804
+    -1.00000  0.03618 -0.00000
+  tverts 12
+     0.254  0.997  0
+     0.203  0.997  0
+     0.254  0.000  0
+     0.203  0.000  0
+     0.153  0.997  0
+     0.153  0.000  0
+     0.103  0.997  0
+     0.103  0.000  0
+     0.053  0.997  0
+     0.053  0.000  0
+     0.003  0.997  0
+     0.003  0.000  0
+  faces 10
+     0  1  5  1   0  1  2  0
+     1  6  5  1   1  3  2  0
+     1  2  6  1   1  4  3  0
+     2  7  6  1   4  5  3  0
+     2  3  7  1   4  6  5  0
+     3  8  7  1   6  7  5  0
+     3  4  8  1   6  8  7  0
+     4  9  8  1   8  9  7  0
+     4  0  9  1   8 10  9  0
+     0  5  9  1  10 11  9  0
+endnode
+node danglymesh banner
+  parent pole
+  position  0.00000 -0.56558 -2.04993
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 0.03 0.03 0.53
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap tno01_flag_16
+  shininess 2
+  verts 25
+    -0.87500  0.60176  2.04993
+    -0.43750  0.60176  2.04993
+     0.00000  0.60176  2.04993
+     0.43750  0.60176  2.04993
+     0.87500  0.60176  2.04993
+    -0.87323  0.59499  1.49845
+    -0.00491  0.59307  1.47189
+     0.88525  0.59409  1.50245
+    -0.87146  0.58821  0.31052
+    -0.00982  0.58438  0.25740
+     0.89549  0.58643  0.31853
+    -0.86944  0.58334 -0.86371
+    -0.00982  0.58438 -0.92026
+     0.88376  0.57502 -0.89167
+    -0.86742  0.57846 -1.43263
+    -0.43750  0.56755 -1.49011
+    -0.01445  0.61803 -1.45752
+     0.42248  0.56755 -1.53016
+     0.87204  0.56360 -1.49657
+     0.88836  0.59177  0.93813
+    -0.00619  0.59022  0.89582
+    -0.87273  0.59310  0.96064
+     0.88930  0.58041 -0.31978
+    -0.00982  0.58438 -0.36588
+    -0.87044  0.58575 -0.28148
+  tverts 25
+     0.251  0.829  0
+     0.494  0.836  0
+     0.372  0.997  0
+     0.495  0.997  0
+     0.250  0.997  0
+     0.128  0.997  0
+     0.003  0.837  0
+     0.006  0.997  0
+     0.251  0.670  0
+     0.002  0.689  0
+     0.494  0.514  0
+     0.251  0.494  0
+     0.251  0.315  0
+     0.000  0.516  0
+     0.002  0.338  0
+     0.493  0.176  0
+     0.251  0.172  0
+     0.372 -0.002  0
+     0.492  0.014  0
+     0.254  0.007  0
+     0.132  0.003  0
+     0.003  0.169  0
+     0.007  0.013  0
+     0.494  0.696  0
+     0.493  0.349  0
+  faces 28
+     6  5  1  1   0  1  2  0
+     5  0  1  1   1  3  2  0
+     6  1  2  1   0  2  4  0
+     3  6  2  1   5  0  4  0
+     6  3  7  1   0  5  6  0
+     7  3  4  1   6  5  7  0
+     6 20  5  1   0  8  1  0
+    20  6 19  1   8  0  9  0
+    19  6  7  1   9  0  6  0
+     8  9 23  1  10 11 12  0
+    10 22  9  1  13 14 11  0
+     9 22 23  1  11 14 12  0
+    11 12 15  1  15 16 17  0
+    14 11 15  1  18 15 17  0
+    12 16 15  1  16 19 17  0
+    17 12 13  1  20 16 21  0
+    17 13 18  1  20 21 22  0
+    17 16 12  1  20 19 16  0
+    10  9 19  1  13 11  9  0
+     9 20 19  1  11  8  9  0
+     9  8 20  1  11 10  8  0
+    20 21  5  1   8 23  1  0
+    20  8 21  1   8 10 23  0
+    22 13 12  1  14 21 16  0
+    23 22 12  1  12 14 16  0
+    11 23 12  1  15 12 16  0
+     8 23 24  1  10 12 24  0
+    24 23 11  1  24 12 15  0
+  period 1.5
+  tightness 1.0
+  displacement 0.2
+  constraints 25
+      0.0
+      0.0
+      0.0
+      0.0
+      0.0
+     219.0
+     219.0
+     219.0
+     160.0
+     160.0
+     160.0
+     130.0
+     130.0
+     130.0
+     121.0
+     121.0
+     121.0
+     121.0
+     121.0
+     183.0
+     183.0
+     183.0
+     140.0
+     140.0
+     140.0
+endnode
+node trimesh mount1
+  parent pole
+  position -1.00000 -0.32843  0.00007
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 0.32 0.18 0.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap tno01_wood011
+  shininess 2
+  render 1
+  shadow 0
+  verts 8
+    -0.05000 -0.37173 -0.05000
+     0.05000 -0.37173 -0.05000
+    -0.05000 -0.37173  0.05000
+     0.05000 -0.37173  0.05000
+    -0.05000  0.37173  0.05000
+     0.05000  0.37173  0.05000
+    -0.05000  0.37173 -0.05000
+     0.05000  0.37173 -0.05000
+  tverts 18
+     0.411  0.078  0
+     0.544  0.078  0
+     0.411  0.922  0
+     0.544  0.922  0
+     0.423  0.667  0
+     0.670  0.667  0
+     0.423  0.914  0
+     0.670  0.914  0
+     0.676  0.922  0
+     0.808  0.078  0
+     0.808  0.922  0
+     0.676  0.078  0
+     0.279  0.922  0
+     0.279  0.078  0
+     0.000  0.000  0
+     1.000  0.000  0
+     0.000  1.000  0
+     1.000  1.000  0
+  faces 12
+    2 3 4  1   0  1  2  0
+    3 5 4  1   1  3  2  0
+    4 5 6  1   4  5  6  0
+    5 7 6  1   5  7  6  0
+    7 0 6  1   8  9 10  0
+    1 0 7  1  11  9  8  0
+    1 7 3  1  11  8  1  0
+    7 5 3  1   8  3  1  0
+    6 0 4  1  12 13  2  0
+    0 2 4  1  13  0  2  0
+    2 0 3  1  14 15 16  0
+    0 1 3  1  15 17 16  0
+endnode
+node trimesh mount
+  parent pole
+  position  1.00000 -0.32843  0.00007
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 0.32 0.18 0.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap tno01_wood011
+  shininess 2
+  render 1
+  shadow 0
+  verts 8
+    -0.05000 -0.37173 -0.05000
+     0.05000 -0.37173 -0.05000
+    -0.05000 -0.37173  0.05000
+     0.05000 -0.37173  0.05000
+    -0.05000  0.37173  0.05000
+     0.05000  0.37173  0.05000
+    -0.05000  0.37173 -0.05000
+     0.05000  0.37173 -0.05000
+  tverts 18
+     0.411  0.078  0
+     0.544  0.078  0
+     0.411  0.922  0
+     0.544  0.922  0
+     0.423  0.667  0
+     0.670  0.667  0
+     0.423  0.914  0
+     0.670  0.914  0
+     0.676  0.922  0
+     0.808  0.078  0
+     0.808  0.922  0
+     0.676  0.078  0
+     0.279  0.922  0
+     0.279  0.078  0
+     1.000  0.000  0
+     0.000  1.000  0
+     0.000  0.000  0
+     1.000  1.000  0
+  faces 12
+    2 3 4  1   0  1  2  0
+    3 5 4  1   1  3  2  0
+    4 5 6  1   4  5  6  0
+    5 7 6  1   5  7  6  0
+    7 0 6  1   8  9 10  0
+    1 0 7  1  11  9  8  0
+    1 7 3  1  11  8  1  0
+    7 5 3  1   8  3  1  0
+    6 0 4  1  12 13  2  0
+    0 2 4  1  13  0  2  0
+    3 0 1  1  14 15 16  0
+    2 0 3  1  17 15 14  0
+endnode
+node emitter echunkywood02
+  parent tnp_flag_c16
+  position  0.00845 -0.02213  0.56852
+  orientation  1.00000  0.00000  0.00000  0.00000
+xsize 355.9999942779541
+ysize 159.99999046325684
+  update explosion
+  render normal
+  blend normal
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 1
+  mass 3.00
+  velocity 8.00
+  randvel 0.30
+  particlerot 2.90
+  spread 1.22
+  splat 0
+  affectedbywind 0
+  colorstart 0.48 0.44 0.32
+  colorend 0.58 0.53 0.41
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.50
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_cloud02
+  twosidedtex 0
+  m_istinted 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter echunkywood01
+  parent tnp_flag_c16
+  position  0.00845 -0.02213  0.46230
+  orientation  1.00000  0.00000  0.00000  0.00000
+xsize 355.9999942779541
+ysize 159.99999046325684
+  update explosion
+  render normal
+  blend normal
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 1
+  mass 3.00
+  velocity 8.00
+  randvel 0.30
+  particlerot 5.00
+  spread 1.22
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.50
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_cloud02
+  twosidedtex 0
+  m_istinted 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter esmoke
+  parent tnp_flag_c16
+  position  0.00845 -0.02213  0.38826
+  orientation  1.00000  0.00000  0.00000  1.57080
+xsize 400.0
+ysize 396.00000381469727
+  update explosion
+  render normal
+  blend normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 2
+  mass 0.09
+  velocity 2.00
+  randvel 0.50
+  particlerot 0.50
+  spread 2.97
+  splat 0
+  affectedbywind 0
+  colorstart 0.47 0.44 0.36
+  colorend 0.82 0.80 0.71
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 4.00
+  sizeend 1.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.20
+  blastlength 1.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node dummy flag_c16_hand
+  parent tnp_flag_c16
+  position  0.00398  0.65961  1.55951
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+endmodelgeom tnp_flag_c16
+
+# ANIM ASCII
+newanim default tnp_flag_c16
+  length 0.0
+  transtime 0.25
+  animroot tnp_flag_c16
+  node dummy tnp_flag_c16
+  parent null
+    positionkey 1
+       0.000  0.00000  0.00000  0.00000
+    orientationkey 1
+       0.000  1.00000  0.00000  0.00000  0.00000
+  endnode
+  node dummy flag_c16_ground
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_head
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_head_hit
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_impact
+  parent tnp_flag_c16
+  endnode
+  node trimesh pole
+  parent tnp_flag_c16
+    positionkey 1
+       0.000  0.00000  0.75000  5.04993
+    orientationkey 1
+       0.000  0.00000  0.00000  1.00000  3.14160
+  endnode
+  node danglymesh banner
+  parent pole
+  endnode
+  node trimesh mount1
+  parent pole
+  endnode
+  node trimesh mount
+  parent pole
+  endnode
+  node emitter echunkywood02
+  parent tnp_flag_c16
+  endnode
+  node emitter echunkywood01
+  parent tnp_flag_c16
+  endnode
+  node emitter esmoke
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_hand
+  parent tnp_flag_c16
+  endnode
+doneanim default tnp_flag_c16
+
+newanim damage tnp_flag_c16
+  length 0.167
+  transtime 0.25
+  animroot tnp_flag_c16
+  node dummy tnp_flag_c16
+  parent null
+    positionkey 1
+       0.000  0.00000  0.00000  0.00000
+    orientationkey 1
+       0.000  1.00000  0.00000  0.00000  0.00000
+  endnode
+  node dummy flag_c16_ground
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_head
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_head_hit
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_impact
+  parent tnp_flag_c16
+  endnode
+  node trimesh pole
+  parent tnp_flag_c16
+    positionkey 2
+       0.000  0.00000  0.75000  5.04993
+       0.100  0.00000  0.73241  5.03510
+    orientationkey 1
+       0.000  0.00000  0.00000  1.00000  3.14160
+  endnode
+  node danglymesh banner
+  parent pole
+  endnode
+  node trimesh mount1
+  parent pole
+  endnode
+  node trimesh mount
+  parent pole
+  endnode
+  node emitter echunkywood02
+  parent tnp_flag_c16
+    positionkey 1
+       0.000  0.00845 -0.02213  0.56852
+    orientationkey 1
+       0.000  1.00000  0.00000  0.00000  0.00000
+  endnode
+  node emitter echunkywood01
+  parent tnp_flag_c16
+    positionkey 1
+       0.000  0.00845 -0.02213  0.46230
+    orientationkey 1
+       0.000  1.00000  0.00000  0.00000  0.00000
+  endnode
+  node emitter esmoke
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_hand
+  parent tnp_flag_c16
+  endnode
+doneanim damage tnp_flag_c16
+
+newanim die tnp_flag_c16
+  length 0.5
+  transtime 0.25
+  animroot tnp_flag_c16
+  event 0.167 detonate
+  event 0.3 detonate
+  node dummy tnp_flag_c16
+  parent null
+    positionkey 2
+       0.000  0.00000  0.00000  0.00000
+       0.500  0.00000  0.00000  0.00000
+    orientationkey 2
+       0.000  1.00000  0.00000  0.00000  0.00000
+       0.500  1.00000  0.00000  0.00000  0.00000
+  endnode
+  node dummy flag_c16_ground
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_head
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_head_hit
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_impact
+  parent tnp_flag_c16
+  endnode
+  node trimesh pole
+  parent tnp_flag_c16
+    positionkey 3
+       0.000  0.00000  0.75000  5.04993
+       0.167  0.00000  0.77101  4.41544
+       0.500  0.00000  0.75000 -5.00000
+    orientationkey 4
+       0.000  0.00000  0.00000  1.00000  3.14160
+       0.167 -0.08683 -0.08683  0.99243  3.15679
+       0.333 -0.08707 -0.04345  0.99525  3.14919
+       0.500  0.00000  0.00000  1.00000  3.14160
+  endnode
+  node danglymesh banner
+  parent pole
+  endnode
+  node trimesh mount1
+  parent pole
+  endnode
+  node trimesh mount
+  parent pole
+  endnode
+  node emitter echunkywood02
+  parent tnp_flag_c16
+    positionkey 4
+       0.000  0.00845 -0.02213  0.56852
+       0.167  0.00845 -0.02213  0.56852
+       0.333  0.00845 -0.02213  0.56852
+       0.500  0.00845 -0.02213  0.56852
+    orientationkey 5
+       0.000  1.00000  0.00000  0.00000  0.00000
+       0.167  1.00000  0.00000  0.00000  0.00000
+       0.333  1.00000  0.00000  0.00000  0.00000
+       0.367  1.00000  0.00000  0.00000  0.00000
+       0.500  1.00000  0.00000  0.00000  0.00000
+  endnode
+  node emitter echunkywood01
+  parent tnp_flag_c16
+    positionkey 4
+       0.000  0.00845 -0.02213  0.46230
+       0.167  0.00845 -0.02213  0.46230
+       0.333  0.00845 -0.02213  0.46230
+       0.500  0.00845 -0.02213  0.46230
+    orientationkey 5
+       0.000  1.00000  0.00000  0.00000  0.00000
+       0.167  1.00000  0.00000  0.00000  0.00000
+       0.333  1.00000  0.00000  0.00000  0.00000
+       0.367  1.00000  0.00000  0.00000  0.00000
+       0.500  1.00000  0.00000  0.00000  0.00000
+  endnode
+  node emitter esmoke
+  parent tnp_flag_c16
+    positionkey 4
+       0.000  0.00845 -0.02213  0.38826
+       0.167  0.00845 -0.02213  0.38826
+       0.333  0.00845 -0.02213  0.38826
+       0.500  0.00845 -0.02213  0.38826
+    orientationkey 4
+       0.000  1.00000  0.00000  0.00000  1.57080
+       0.167  1.00000  0.00000  0.00000  1.57080
+       0.333  1.00000  0.00000  0.00000  1.57080
+       0.500  1.00000  0.00000  0.00000  1.57080
+  endnode
+  node dummy flag_c16_hand
+  parent tnp_flag_c16
+  endnode
+doneanim die tnp_flag_c16
+
+newanim dead tnp_flag_c16
+  length 0.0
+  transtime 0.25
+  animroot tnp_flag_c16
+  node dummy tnp_flag_c16
+  parent null
+  endnode
+  node dummy flag_c16_ground
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_head
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_head_hit
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_impact
+  parent tnp_flag_c16
+  endnode
+  node trimesh pole
+  parent tnp_flag_c16
+    positionkey 1
+       0.000  0.00000  0.75000 -5.00000
+    orientationkey 1
+       0.000  0.00000  0.00000  1.00000  3.14160
+  endnode
+  node danglymesh banner
+  parent pole
+  endnode
+  node trimesh mount1
+  parent pole
+  endnode
+  node trimesh mount
+  parent pole
+  endnode
+  node emitter echunkywood02
+  parent tnp_flag_c16
+  endnode
+  node emitter echunkywood01
+  parent tnp_flag_c16
+  endnode
+  node emitter esmoke
+  parent tnp_flag_c16
+  endnode
+  node dummy flag_c16_hand
+  parent tnp_flag_c16
+  endnode
+doneanim dead tnp_flag_c16
+
+donemodel tnp_flag_c16

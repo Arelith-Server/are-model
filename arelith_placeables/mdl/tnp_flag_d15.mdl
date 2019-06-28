@@ -1,0 +1,458 @@
+# Exported from blender Wednesday, 2019-06-26
+filedependancy tnp_flag_b13.mdl
+newmodel tnp_flag_d15
+setsupermodel tnp_flag_d15 tnp_flag_c01
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom tnp_flag_d15
+node dummy tnp_flag_d15
+  parent null
+endnode
+node dummy flag_d15_ground
+  parent tnp_flag_d15
+  position -0.00363  0.00699  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node dummy flag_d15_head
+  parent tnp_flag_d15
+  position  0.00000  0.72285  3.55164
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node dummy flag_d15_impact
+  parent tnp_flag_d15
+  position  0.00000  0.72403  3.47000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node trimesh pole
+  parent tnp_flag_d15
+  position  0.00000  0.75000  5.04993
+  orientation  0.00000  0.00000  1.00000  3.14160
+  wirecolor 0.48 0.29 0.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap tno01_wood011
+  shininess 2
+  render 1
+  shadow 0
+  verts 10
+     1.00000  0.00854 -0.03803
+     1.00000 -0.03618 -0.02350
+     1.00000 -0.03618  0.02352
+     1.00000  0.00854  0.03805
+     1.00000  0.03618  0.00001
+    -1.00000  0.00854 -0.03803
+    -1.00000 -0.03618 -0.02350
+    -1.00000 -0.03618  0.02352
+    -1.00000  0.00854  0.03805
+    -1.00000  0.03618  0.00001
+  tverts 12
+     0.247  0.997  0
+     0.198  0.997  0
+     0.247  0.000  0
+     0.198  0.000  0
+     0.149  0.997  0
+     0.149  0.000  0
+     0.100  0.997  0
+     0.100  0.000  0
+     0.052  0.997  0
+     0.052  0.000  0
+     0.003  0.997  0
+     0.003  0.000  0
+  faces 10
+     0  1  5  1   0  1  2  0
+     1  6  5  1   1  3  2  0
+     1  2  6  1   1  4  3  0
+     2  7  6  1   4  5  3  0
+     2  3  7  1   4  6  5  0
+     3  8  7  1   6  7  5  0
+     3  4  8  1   6  8  7  0
+     4  9  8  1   8  9  7  0
+     4  0  9  1   8 10  9  0
+     0  5  9  1  10 11  9  0
+endnode
+node danglymesh vbanner
+  parent pole
+  position  0.00000 -0.56558 -2.04993
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 0.03 0.03 0.53
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap tno01_flag_15
+  shininess 2
+  verts 24
+    -0.87500  0.60176  2.04994
+    -0.43750  0.60176  2.04994
+     0.00000  0.60176  2.04994
+     0.43750  0.60176  2.04994
+     0.87500  0.60176  2.04994
+    -0.87323  0.59499  1.11003
+    -0.00491  0.59307  1.08347
+     0.88525  0.59409  1.11404
+    -0.87146  0.58821  0.00430
+    -0.00982  0.58438 -0.04882
+     0.89549  0.58643  0.01231
+    -0.86944  0.58334 -0.56105
+    -0.00982  0.58438 -0.61760
+     0.88376  0.57502 -0.58902
+    -0.43750  0.56755 -1.03589
+    -0.01445  0.61804 -1.45752
+     0.42248  0.56755 -1.07594
+    -0.01445  0.61804 -1.09226
+     0.87931  0.59853  1.59304
+    -0.00200  0.59830  1.57505
+    -0.87426  0.59894  1.59629
+     0.89043  0.59022  0.55700
+    -0.00724  0.58909  0.50471
+    -0.87229  0.59141  0.52601
+  tverts 24
+     0.380  0.965  0
+     0.256  0.831  0
+     0.505  0.836  0
+     0.255  0.965  0
+     0.131  0.965  0
+     0.005  0.835  0
+     0.006  0.965  0
+     0.256  0.687  0
+     0.256  0.519  0
+     0.504  0.697  0
+     0.001  0.540  0
+     0.003  0.698  0
+     0.504  0.382  0
+     0.256  0.362  0
+     0.256  0.204  0
+     0.503  0.221  0
+     0.000  0.384  0
+     0.003  0.213  0
+     0.380  0.085  0
+     0.259  0.069  0
+     0.135  0.074  0
+     0.259 -0.035  0
+     0.505  0.965  0
+     0.504  0.531  0
+  faces 28
+     1 19 20  1   0  1  2  0
+    19  1  2  1   1  0  3  0
+     3 19  2  1   4  1  3  0
+    19  3 18  1   1  4  5  0
+    18  3  4  1   5  4  6  0
+     6 22  5  1   7  8  9  0
+    22  6 21  1   8  7 10  0
+    21  6  7  1  10  7 11  0
+     8  9 12  1  12 13 14  0
+    11  8 12  1  15 12 14  0
+    10 13  9  1  16 17 13  0
+     9 13 12  1  13 17 14  0
+    14 11 12  1  18 15 14  0
+    12 17 14  1  14 19 18  0
+    17 12 16  1  19 14 20  0
+    12 13 16  1  14 17 20  0
+    15 17 16  1  21 19 20  0
+    17 15 14  1  19 21 18  0
+     7  6 18  1  11  7  5  0
+     6 19 18  1   7  1  5  0
+     6  5 19  1   7  9  1  0
+    20  0  1  1   2 22  0  0
+    19  5 20  1   1  9  2  0
+    10  9 21  1  16 13 10  0
+     9 22 21  1  13  8 10  0
+     9  8 22  1  13 12  8  0
+    22 23  5  1   8 23  9  0
+    22  8 23  1   8 12 23  0
+  period 1.2
+  tightness 1.0
+  displacement 0.25
+  constraints 24
+      0.0
+      0.0
+      0.0
+      0.0
+      0.0
+     183.0
+     183.0
+     183.0
+     140.0
+     140.0
+     140.0
+     121.0
+     121.0
+     121.0
+     111.0
+     111.0
+     111.0
+     111.0
+     219.0
+     219.0
+     219.0
+     163.0
+     163.0
+     163.0
+endnode
+node trimesh mount
+  parent pole
+  position  1.00000 -0.32843  0.00006
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 0.32 0.18 0.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap tno01_wood011
+  shininess 2
+  render 1
+  shadow 0
+  verts 8
+    -0.05000 -0.37173 -0.04999
+     0.05000 -0.37173 -0.04999
+    -0.05000 -0.37173  0.05001
+     0.05000 -0.37173  0.05001
+    -0.05000  0.37173  0.05001
+     0.05000  0.37173  0.05001
+    -0.05000  0.37173 -0.04999
+     0.05000  0.37173 -0.04999
+  tverts 18
+     0.411  0.078  0
+     0.544  0.078  0
+     0.411  0.922  0
+     0.544  0.922  0
+     0.423  0.667  0
+     0.670  0.667  0
+     0.423  0.914  0
+     0.670  0.914  0
+     0.676  0.922  0
+     0.808  0.078  0
+     0.808  0.922  0
+     0.676  0.078  0
+     0.279  0.922  0
+     0.279  0.078  0
+     1.000  0.000  0
+     0.000  1.000  0
+     0.000  0.000  0
+     1.000  1.000  0
+  faces 12
+    2 3 4  1   0  1  2  0
+    3 5 4  1   1  3  2  0
+    4 5 6  1   4  5  6  0
+    5 7 6  1   5  7  6  0
+    7 0 6  1   8  9 10  0
+    1 0 7  1  11  9  8  0
+    1 7 3  1  11  8  1  0
+    7 5 3  1   8  3  1  0
+    6 0 4  1  12 13  2  0
+    0 2 4  1  13  0  2  0
+    3 0 1  1  14 15 16  0
+    2 0 3  1  17 15 14  0
+endnode
+node trimesh mount1
+  parent pole
+  position -1.00000 -0.32843  0.00006
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 0.32 0.18 0.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap tno01_wood011
+  shininess 2
+  render 1
+  shadow 0
+  verts 8
+    -0.05000 -0.37173 -0.04999
+     0.05000 -0.37173 -0.04999
+    -0.05000 -0.37173  0.05001
+     0.05000 -0.37173  0.05001
+    -0.05000  0.37173  0.05001
+     0.05000  0.37173  0.05001
+    -0.05000  0.37173 -0.04999
+     0.05000  0.37173 -0.04999
+  tverts 18
+     0.411  0.078  0
+     0.544  0.078  0
+     0.411  0.922  0
+     0.544  0.922  0
+     0.423  0.667  0
+     0.670  0.667  0
+     0.423  0.914  0
+     0.670  0.914  0
+     0.676  0.922  0
+     0.808  0.078  0
+     0.808  0.922  0
+     0.676  0.078  0
+     0.279  0.922  0
+     0.279  0.078  0
+     0.000  0.000  0
+     1.000  0.000  0
+     0.000  1.000  0
+     1.000  1.000  0
+  faces 12
+    2 3 4  1   0  1  2  0
+    3 5 4  1   1  3  2  0
+    4 5 6  1   4  5  6  0
+    5 7 6  1   5  7  6  0
+    7 0 6  1   8  9 10  0
+    1 0 7  1  11  9  8  0
+    1 7 3  1  11  8  1  0
+    7 5 3  1   8  3  1  0
+    6 0 4  1  12 13  2  0
+    0 2 4  1  13  0  2  0
+    2 0 3  1  14 15 16  0
+    0 1 3  1  15 17 16  0
+endnode
+node emitter echunkywood02
+  parent tnp_flag_d15
+  position  0.00845 -0.02326  0.56852
+  orientation  1.00000  0.00000  0.00000  0.00000
+xsize 355.9999942779541
+ysize 159.99999046325684
+  update explosion
+  render normal
+  blend normal
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 1
+  mass 3.00
+  velocity 8.00
+  randvel 0.30
+  particlerot 2.90
+  spread 1.22
+  splat 0
+  affectedbywind 0
+  colorstart 0.48 0.44 0.32
+  colorend 0.58 0.53 0.41
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.50
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_cloud02
+  twosidedtex 0
+  m_istinted 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter esmoke
+  parent tnp_flag_d15
+  position  0.00845 -0.02326  0.38826
+  orientation  1.00000  0.00000  0.00000  1.57080
+xsize 400.0
+ysize 396.00000381469727
+  update explosion
+  render normal
+  blend normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 2
+  mass 0.09
+  velocity 2.00
+  randvel 0.50
+  particlerot 0.50
+  spread 2.97
+  splat 0
+  affectedbywind 0
+  colorstart 0.47 0.44 0.36
+  colorend 0.82 0.80 0.71
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 4.00
+  sizeend 1.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.20
+  blastlength 1.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter echunkywood01
+  parent tnp_flag_d15
+  position  0.00845 -0.02326  0.46230
+  orientation  1.00000  0.00000  0.00000  0.00000
+xsize 355.9999942779541
+ysize 159.99999046325684
+  update explosion
+  render normal
+  blend normal
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 1
+  mass 3.00
+  velocity 8.00
+  randvel 0.30
+  particlerot 5.00
+  spread 1.22
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.50
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_cloud02
+  twosidedtex 0
+  m_istinted 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node dummy flag_d15_hand
+  parent tnp_flag_d15
+  position  0.00398  0.70269  1.86437
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node dummy flag_d15_head_hit
+  parent tnp_flag_d15
+  position  0.00000  0.72826  5.04158
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+endmodelgeom tnp_flag_d15
+donemodel tnp_flag_d15
