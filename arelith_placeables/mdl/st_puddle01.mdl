@@ -1,0 +1,42 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: st_puddle01
+filedependancy Unknown
+newmodel st_puddle01
+setsupermodel st_puddle01 NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom st_puddle01
+node dummy st_puddle01
+  parent NULL
+endnode
+node trimesh Plane30
+  parent st_puddle01
+  position 0 0 0.005
+  orientation 0 0 0 0
+  wirecolor 0.652344 0.652344 0.652344
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_puddle01
+  verts 4
+    0.844726 0.844726 0
+    -0.621759 0.844726 0
+    0.844726 -0.844726 0
+    -0.621759 -0.844726 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499547 0.000499755 0
+    0.9995 0.000499547 0
+    0.000499815 0.999501 0
+    0.9995 0.9995 0
+endnode
+endmodelgeom st_puddle01
+donemodel st_puddle01
+
+

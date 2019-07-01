@@ -1,0 +1,893 @@
+# Exported from NWmax 0.8 b46 at 6/3/2010 3:20:55 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: msigns_v_049
+filedependancy Unknown
+newmodel msigns_v_049
+setsupermodel msigns_v_049 null
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom msigns_v_049
+node dummy msigns_v_049
+  parent NULL
+endnode
+node trimesh grabme
+  parent msigns_v_049
+  position -0.0125351 0.00103714 0.01
+  orientation -0.0122432 0.0122432 0.99985 -3.62512e-006
+  wirecolor 0.109804 0.34902 0.694118 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 0.0 0.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 0
+  center -0.5 0.5 166.5 
+  bitmap NULL
+  verts 8
+    -0.52 -0.04 0.0
+    0.51 -0.04 0.0
+    -0.52 0.05 0.0
+    0.51 0.05 0.0
+    -0.52 -0.04 2.0
+    0.51 -0.04 2.0
+    -0.52 0.05 2.0
+    0.51 0.05 2.0
+  faces 10
+    4 5 7  4  0 0 0  1
+    7 6 4  4  0 0 0  1
+    0 1 5  8  0 0 0  5
+    5 4 0  8  0 0 0  5
+    1 3 7  16  0 0 0  4
+    7 5 1  16  0 0 0  4
+    3 2 6  32  0 0 0  6
+    6 7 3  32  0 0 0  6
+    2 0 4  64  0 0 0  3
+    4 6 2  64  0 0 0  3
+endnode
+node dummy sign_005_ground
+  parent msigns_v_049
+  position -0.38 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.560784 0.882353 
+endnode
+node dummy sign_005_hand
+  parent msigns_v_049
+  position -0.00253516 0.00103708 1.24
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.345098 0.560784 0.882353 
+endnode
+node dummy sign_005_head
+  parent msigns_v_049
+  position -0.00253516 0.111037 1.49
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.345098 0.560784 0.882353 
+endnode
+node dummy sign_005_head_hit
+  parent msigns_v_049
+  position -0.00253517 -0.0789629 1.48
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.345098 0.560784 0.882353 
+endnode
+node dummy sign_005_impact
+  parent msigns_v_049
+  position -0.00253516 -0.0589629 1.41
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.341176 0.878431 0.560784 
+endnode
+node emitter echunkywood03
+  parent msigns_v_049
+  position 0.0174648 0.00103707 1.44
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_w01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter echunkywood04
+  parent msigns_v_049
+  position 0.0174648 0.00103707 1.55
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.482353 0.435294 0.317647 
+  colorEnd 0.584314 0.533333 0.407843 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_w02
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter esmoke01
+  parent msigns_v_049
+  position 0.0174648 0.00103708 1.37
+  orientation 0.0254865 0.0254865 0.99935 -4.71174
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 1.0
+  sizeEnd 0.3
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node trimesh obj0
+  parent msigns_v_049
+  position -0.452535 0.00103706 1.9
+  orientation -0.0120578 0.0120578 0.999855 -3.62512e-006
+  wirecolor 0.101961 0.694118 0.576471 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 20
+  center 0.5 0.0 -35.0 
+  bitmap msigns_049
+  verts 8
+    0.03 -0.05 -0.7
+    -0.02 -0.05 0.0
+    -0.02 -0.05 -0.7
+    0.03 -0.05 0.0
+    -0.02 0.05 -0.7
+    -0.02 0.05 0.0
+    0.03 0.05 0.0
+    0.03 0.05 -0.7
+  faces 10
+    0 1 2  0  0 1 2  1
+    0 3 1  0  0 3 1  1
+    1 4 2  0  4 5 6  1
+    1 5 4  0  4 7 5  1
+    3 5 1  0  8 9 10  1
+    3 6 5  0  8 11 9  1
+    7 3 0  0  12 13 14  1
+    7 6 3  0  12 15 13  1
+    5 7 4  0  7 6 4  1
+    5 6 7  0  7 5 6  1
+  tverts 16
+    0.0593 0.762662 0
+    0.979269 0.577862 0
+    0.0593 0.577862 0
+    0.979269 0.762662 0
+    0.902571 0.645549 0
+    0.0360669 0.893404 0
+    0.902571 0.893404 0
+    0.0360671 0.645549 0
+    0.96357 0.700217 0
+    0.750332 0.984535 0
+    0.750332 0.700217 0
+    0.96357 0.984535 0
+    1.99995 0.940936 0
+    0.995234 0.61104 0
+    1.99995 0.61104 0
+    0.995234 0.940936 0
+endnode
+node trimesh obj1
+  parent obj0
+  position 0.83 0.0 -0.43
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.839216 0.894118 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 20
+  center 0.0 0.0 -3.0 
+  bitmap aged_steel_dk
+  verts 8
+    0.01 -0.01 -0.06
+    -0.01 -0.01 0.0
+    -0.01 -0.01 -0.06
+    0.01 -0.01 0.0
+    -0.01 0.01 -0.06
+    -0.01 0.01 0.0
+    0.01 0.01 -0.06
+    0.01 0.01 0.0
+  faces 8
+    0 1 2  0  0 1 2  1
+    0 3 1  0  0 3 1  1
+    1 4 2  0  1 4 2  1
+    1 5 4  0  1 5 4  1
+    6 3 0  0  6 3 0  1
+    6 7 3  0  6 7 3  1
+    5 6 4  0  8 6 9  1
+    5 7 6  0  8 7 6  1
+  tverts 10
+    0.526098 0.535872 0
+    0.514198 0.596672 0
+    0.514198 0.535872 0
+    0.526098 0.596672 0
+    0.502298 0.535872 0
+    0.502298 0.596672 0
+    0.537998 0.535872 0
+    0.537998 0.596672 0
+    0.549898 0.596672 0
+    0.549898 0.535872 0
+endnode
+node trimesh obj1_1
+  parent obj0
+  position 0.36 0.0 -0.43
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.45098 0.137255 0.705882 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 20
+  center 0.0 0.0 -3.0 
+  bitmap aged_steel_dk
+  verts 8
+    0.01 -0.01 -0.06
+    -0.01 -0.01 0.0
+    -0.01 -0.01 -0.06
+    0.01 -0.01 0.0
+    -0.01 0.01 -0.06
+    -0.01 0.01 0.0
+    0.01 0.01 -0.06
+    0.01 0.01 0.0
+  faces 8
+    0 1 2  0  0 1 2  1
+    0 3 1  0  0 3 1  1
+    1 4 2  0  1 4 2  1
+    1 5 4  0  1 5 4  1
+    6 3 0  0  6 3 0  1
+    6 7 3  0  6 7 3  1
+    5 6 4  0  8 6 9  1
+    5 7 6  0  8 7 6  1
+  tverts 10
+    0.526098 0.535872 0
+    0.514198 0.596672 0
+    0.514198 0.535872 0
+    0.526098 0.596672 0
+    0.502298 0.535872 0
+    0.502298 0.596672 0
+    0.537998 0.535872 0
+    0.537998 0.596672 0
+    0.549898 0.596672 0
+    0.549898 0.535872 0
+endnode
+node trimesh obj0_1
+  parent msigns_v_049
+  position 0.0274648 0.00103707 1.57
+  orientation -0.0120578 0.0120578 0.999855 -3.62512e-006
+  wirecolor 0.94902 0.772549 0.192157 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 20
+  center -0.5 0.0 -5.0 
+  bitmap msigns_049
+  verts 8
+    0.41 -0.05 -0.1
+    -0.46 -0.05 0.0
+    -0.46 -0.05 -0.1
+    0.45 -0.05 0.0
+    -0.46 0.05 -0.1
+    0.41 0.05 -0.1
+    -0.46 0.05 0.0
+    0.45 0.05 0.0
+  faces 12
+    0 1 2  0  0 1 2  1
+    0 3 1  0  0 3 1  1
+    4 0 2  0  1 0 2  1
+    4 5 0  0  1 3 0  1
+    6 5 4  0  4 5 6  1
+    6 7 5  0  4 7 5  1
+    3 6 1  0  5 4 6  1
+    3 7 6  0  5 7 4  1
+    5 3 0  0  8 9 10  1
+    5 7 3  0  8 11 9  1
+    1 4 2  0  9 12 13  1
+    1 6 4  0  9 11 12  1
+  tverts 14
+    0.994813 0.742477 0
+    0.00124948 0.826625 0
+    0.00124948 0.742477 0
+    0.994813 0.826625 0
+    0.0511181 0.901397 0
+    0.957166 0.824661 0
+    0.0511181 0.824661 0
+    0.957166 0.901397 0
+    0.59386 0.880088 0
+    0.46762 0.997697 0
+    0.46762 0.880088 0
+    0.59386 0.997697 0
+    0.59386 0.882503 0
+    0.46762 0.882503 0
+endnode
+node trimesh obj0_2
+  parent msigns_v_049
+  position -0.432535 0.00103706 1.87
+  orientation -0.0120578 0.0120578 0.999855 -3.62512e-006
+  wirecolor 0.768628 0.435294 0.270588 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 20
+  center 35.0 0.0 -15.0 
+  bitmap msigns_049
+  verts 8
+    0.0 -0.02 0.0
+    0.0 0.02 -0.1
+    0.0 -0.02 -0.1
+    0.0 0.02 0.0
+    0.7 0.02 -0.3
+    0.7 -0.02 -0.3
+    0.5 0.02 -0.3
+    0.5 -0.02 -0.3
+  faces 8
+    0 1 2  0  0 1 2  1
+    0 3 1  0  0 3 1  1
+    4 0 5  0  4 5 6  1
+    4 3 0  0  4 7 5  1
+    6 3 4  0  8 9 10  1
+    6 1 3  0  8 11 9  1
+    0 7 5  0  12 13 14  1
+    0 2 7  0  12 15 13  1
+  tverts 16
+    0.714204 0.963136 0
+    0.836124 0.851884 0
+    0.714204 0.851884 0
+    0.836124 0.963136 0
+    0.993026 0.79514 0
+    0.0186538 0.752776 0
+    0.993026 0.752776 0
+    0.0186538 0.79514 0
+    0.743626 0.592854 0
+    0.0266792 0.690726 0
+    0.984874 0.685052 0
+    0.0646206 0.58127 0
+    0.0406889 0.737131 0
+    0.740401 0.641611 0
+    0.975851 0.731593 0
+    0.0777183 0.630306 0
+endnode
+node trimesh obj0_3
+  parent msigns_v_049
+  position 0.147465 0.00103707 1.41
+  orientation -0.0120578 0.0120578 0.999855 -3.62512e-006
+  wirecolor 0.501961 0.772549 0.662745 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 20
+  center 0.0 0.0 -54.0 
+  bitmap msigns_049
+  verts 8
+    0.29 -0.02 -1.08
+    -0.29 -0.02 0.0
+    -0.29 -0.02 -1.08
+    0.29 -0.02 0.0
+    -0.29 0.02 -1.08
+    -0.29 0.02 0.0
+    0.29 0.02 0.0
+    0.29 0.02 -1.08
+  faces 10
+    0 1 2  0  0 1 2  1
+    0 3 1  0  0 3 1  1
+    1 4 2  0  4 5 6  1
+    1 5 4  0  4 7 5  1
+    3 5 1  0  8 9 10  1
+    3 6 5  0  8 11 9  1
+    7 3 0  0  12 13 14  1
+    7 6 3  0  12 15 13  1
+    4 6 7  0  0 1 2  1
+    4 5 6  0  0 3 1  1
+  tverts 16
+    0.990374 0.49787 0
+    0.0102153 0.00282023 0
+    0.990374 0.00282024 0
+    0.00903602 0.49787 0
+    0.992203 0.497607 0
+    0.0118108 0.454925 0
+    0.0118108 0.497607 0
+    0.992203 0.454925 0
+    0.997963 0.941115 0
+    0.00203687 0.734352 0
+    0.00101843 0.941115 0
+    0.998982 0.733007 0
+    0.0120293 0.453796 0
+    0.992327 0.497102 0
+    0.0120294 0.497102 0
+    0.992327 0.453796 0
+endnode
+endmodelgeom msigns_v_049
+#NWmax ANIM ASCII
+newanim damage msigns_v_049
+  length 0.166667
+  transtime 0.0
+  animroot msigns_v_049
+    node dummy msigns_v_049
+        parent NULL
+    endnode
+    node trimesh grabme
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_ground
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_hand
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_head
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_head_hit
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_impact
+        parent msigns_v_049
+    endnode
+    node emitter echunkywood03
+        parent msigns_v_049
+    endnode
+    node emitter echunkywood04
+        parent msigns_v_049
+    endnode
+    node emitter esmoke01
+        parent msigns_v_049
+    endnode
+    node trimesh obj0
+        parent msigns_v_049
+    endnode
+    node trimesh obj1
+        parent obj0
+    endnode
+    node trimesh obj1_1
+        parent obj0
+    endnode
+    node trimesh obj0_1
+        parent msigns_v_049
+    endnode
+    node trimesh obj0_2
+        parent msigns_v_049
+    endnode
+    node trimesh obj0_3
+        parent msigns_v_049
+    endnode
+    node dummy msigns_v_049_pwk
+        parent msigns_v_049
+    endnode
+    node pwk msigns_v_049_wg
+        parent msigns_v_049_pwk
+    endnode
+    node dummy msigns_v_049_pwk_use01
+        parent msigns_v_049_pwk
+    endnode
+    node dummy msigns_v_049_pwk_use02
+        parent msigns_v_049_pwk
+    endnode
+doneanim damage msigns_v_049
+#NWmax ANIM ASCII
+newanim dead msigns_v_049
+  length 0.0333333
+  transtime 0.25
+  animroot msigns_v_049
+    node dummy msigns_v_049
+        parent NULL
+    endnode
+    node trimesh grabme
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_ground
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_hand
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_head
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_head_hit
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_impact
+        parent msigns_v_049
+    endnode
+    node emitter echunkywood03
+        parent msigns_v_049
+    endnode
+    node emitter echunkywood04
+        parent msigns_v_049
+    endnode
+    node emitter esmoke01
+        parent msigns_v_049
+    endnode
+    node trimesh obj0
+        parent msigns_v_049
+    endnode
+    node trimesh obj1
+        parent obj0
+    endnode
+    node trimesh obj1_1
+        parent obj0
+    endnode
+    node trimesh obj0_1
+        parent msigns_v_049
+    endnode
+    node trimesh obj0_2
+        parent msigns_v_049
+    endnode
+    node trimesh obj0_3
+        parent msigns_v_049
+    endnode
+    node dummy msigns_v_049_pwk
+        parent msigns_v_049
+    endnode
+    node pwk msigns_v_049_wg
+        parent msigns_v_049_pwk
+    endnode
+    node dummy msigns_v_049_pwk_use01
+        parent msigns_v_049_pwk
+    endnode
+    node dummy msigns_v_049_pwk_use02
+        parent msigns_v_049_pwk
+    endnode
+doneanim dead msigns_v_049
+#NWmax ANIM ASCII
+newanim default msigns_v_049
+  length 0.0333333
+  transtime 0.0
+  animroot msigns_v_049
+    node dummy msigns_v_049
+        parent NULL
+    endnode
+    node trimesh grabme
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_ground
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_hand
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_head
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_head_hit
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_impact
+        parent msigns_v_049
+    endnode
+    node emitter echunkywood03
+        parent msigns_v_049
+    endnode
+    node emitter echunkywood04
+        parent msigns_v_049
+    endnode
+    node emitter esmoke01
+        parent msigns_v_049
+    endnode
+    node trimesh obj0
+        parent msigns_v_049
+    endnode
+    node trimesh obj1
+        parent obj0
+    endnode
+    node trimesh obj1_1
+        parent obj0
+    endnode
+    node trimesh obj0_1
+        parent msigns_v_049
+    endnode
+    node trimesh obj0_2
+        parent msigns_v_049
+    endnode
+    node trimesh obj0_3
+        parent msigns_v_049
+    endnode
+    node dummy msigns_v_049_pwk
+        parent msigns_v_049
+    endnode
+    node pwk msigns_v_049_wg
+        parent msigns_v_049_pwk
+    endnode
+    node dummy msigns_v_049_pwk_use01
+        parent msigns_v_049_pwk
+    endnode
+    node dummy msigns_v_049_pwk_use02
+        parent msigns_v_049_pwk
+    endnode
+doneanim default msigns_v_049
+#NWmax ANIM ASCII
+newanim die msigns_v_049
+  length 0.5
+  transtime 0.25
+  animroot msigns_v_049
+  event 0.366667 detonate
+    node dummy msigns_v_049
+        parent NULL
+    endnode
+    node trimesh grabme
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_ground
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_hand
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_head
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_head_hit
+        parent msigns_v_049
+    endnode
+    node dummy sign_005_impact
+        parent msigns_v_049
+    endnode
+    node emitter echunkywood03
+        parent msigns_v_049
+    endnode
+    node emitter echunkywood04
+        parent msigns_v_049
+    endnode
+    node emitter esmoke01
+        parent msigns_v_049
+    endnode
+    node trimesh obj0
+        parent msigns_v_049
+    endnode
+    node trimesh obj1
+        parent obj0
+    endnode
+    node trimesh obj1_1
+        parent obj0
+    endnode
+    node trimesh obj0_1
+        parent msigns_v_049
+    endnode
+    node trimesh obj0_2
+        parent msigns_v_049
+    endnode
+    node trimesh obj0_3
+        parent msigns_v_049
+    endnode
+    node dummy msigns_v_049_pwk
+        parent msigns_v_049
+    endnode
+    node pwk msigns_v_049_wg
+        parent msigns_v_049_pwk
+    endnode
+    node dummy msigns_v_049_pwk_use01
+        parent msigns_v_049_pwk
+    endnode
+    node dummy msigns_v_049_pwk_use02
+        parent msigns_v_049_pwk
+    endnode
+doneanim die msigns_v_049
+donemodel msigns_v_049

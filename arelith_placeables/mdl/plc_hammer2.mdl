@@ -1,0 +1,97 @@
+filedependancy Unknown
+newmodel plc_hammer2
+setsupermodel plc_hammer2 NULL
+classification Character
+setanimationscale 1.0
+beginmodelgeom plc_hammer2
+node dummy plc_hammer2
+    parent NULL
+endnode
+node trimesh Mesh3026
+    parent plc_hammer2
+    position -0.181885 0.0141513 0.079431
+    orientation -0.022451 0.514212 0.857369 -0.101761
+    scale 1.0
+    shininess 1.000000
+    render 1
+    diffuse 0.603922 0.584314 0.592157
+    ambient 0.603922 0.584314 0.592157
+    specular 0.0 0.0 0.0
+    selfillumcolor 0.0 0.0 0.0
+    alpha 1.0
+    bitmap TIN01_shpFLR1
+    verts 8
+        -0.05 0.02 -0.03
+        -0.05 0.02 0.04
+        0.43 0.06 -0.03
+        0.43 0.06 -0.1
+        -0.04 -0.04 0.04
+        0.44 0.0 -0.03
+        -0.05 -0.04 -0.03
+        0.43 -0.01 -0.1
+    faces 8
+        0 1 2 1 0 1 2 2
+        2 3 0 1 2 3 0 2
+        1 4 5 1 4 5 6 2
+        5 2 1 1 6 7 4 2
+        4 6 7 1 5 8 9 2
+        7 5 4 1 9 6 5 2
+        7 3 2 1 6 7 10 2
+        2 5 7 1 10 11 6 2
+    tverts 12
+        0.061619 0.9995 0
+        -0.061619 0.9995 0
+        -0.061619 0.000499 0
+        0.061619 0.000499 0
+        0.368381 0.9995 0
+        0.276619 0.9995 0
+        0.276619 0.000499 0
+        0.368381 0.000499 0
+        0.153381 0.9995 0
+        0.153381 0.000499 0
+        0.368381 0.10678 0
+        0.276619 0.10678 0
+endnode
+node trimesh Box2616
+    parent plc_hammer2
+    position -0.181885 0.0141513 0.079431
+    orientation -0.022451 0.514212 0.857369 -0.101761
+    scale 1.0
+    shininess 1.000000
+    render 1
+    diffuse 1.0 1.0 1.0
+    ambient 1.0 1.0 1.0
+    specular 0.0 0.0 0.0
+    selfillumcolor 0.0 0.0 0.0
+    alpha 1.0
+    bitmap TIN01__metal01
+    verts 8
+        -0.11 -0.14 -0.06
+        -0.09 -0.14 0.08
+        -0.11 0.12 0.08
+        -0.13 0.12 -0.06
+        0.05 -0.13 -0.08
+        0.06 -0.13 0.07
+        0.04 0.13 0.07
+        0.03 0.13 -0.08
+    faces 10
+        0 1 2 1 0 1 2 1
+        2 3 0 1 2 3 0 1
+        4 5 1 1 0 1 2 5
+        1 0 4 1 2 3 0 5
+        5 6 2 1 0 1 2 4
+        2 1 5 1 2 3 0 4
+        6 7 3 1 0 1 2 6
+        3 2 6 1 2 3 0 6
+        4 7 6 1 0 1 4 4
+        6 5 4 1 4 5 0 4
+    tverts 6
+        0.341772 0.341772 0
+        0.658228 0.341772 0
+        0.658228 0.658228 0
+        0.341772 0.658228 0
+        0.658228 0.154043 0
+        0.341772 0.154043 0
+endnode
+endmodelgeom plc_hammer2
+donemodel plc_hammer2

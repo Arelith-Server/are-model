@@ -1,0 +1,46 @@
+# Exported from NWmax 0.5-beta at 1/7/2004 9:06:35 AM
+# pwk file
+#
+#NWmaxPWKMESH  ASCII
+node trimesh lkg_pwk
+  parent PLV_lkg_pwk
+  position 0.0204894 -0.030125 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.603922 0.603922 
+  multimaterial 20
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    bitmap NULL
+    verts 4
+     1.64951 2.40013 0.0
+     -1.65049 2.40013 0.0
+     1.64951 -2.39987 0.0
+     -1.65049 -2.39987 0.0
+    faces 2
+     2 0 3  1  0 0 0  65536
+     1 3 0  1  0 0 0  65536
+endnode
+node dummy lkg_pwk_use01
+  parent PLV_lkg_pwk
+  position -0.017121 2.85957 1.12387
+  orientation 1.0 0.0 0.0 -1.5708
+  wirecolor 0.345098 0.345098 0.882353 
+endnode

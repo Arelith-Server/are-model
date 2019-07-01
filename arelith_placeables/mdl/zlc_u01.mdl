@@ -1,0 +1,336 @@
+#MAXMODEL ASCII
+# model: zlc_u01
+filedependancy zlc_u01.max
+newmodel zlc_u01
+setsupermodel zlc_u01 null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom zlc_u01
+node dummy zlc_u01
+  parent NULL
+  #part-number 0
+endnode
+node dummy u01_hand
+  parent zlc_u01
+  #part-number 1
+  position 0.0039843698 -0.505195022 0.934401989
+  orientation 0 0 0 0
+endnode
+node emitter omenemitter240
+  parent zlc_u01
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Motion_Blur
+  blend Lighten
+  texture fxpa_splash
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.0218790993 -0.0130565995 0.112567
+  orientation 0 0 1 -0.516453028
+  colorStart 0.549018979 0.00392099982 0.0274500009
+  colorEnd 0.549018979 0.00392099982 0.0274500009
+  alphaStart 0.800000012
+  alphaEnd 0.200000003
+  sizeStart 0.200000003
+  sizeEnd 1.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 50
+  lifeExp 3.5999999
+  mass 1
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 2
+  ysize 300
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node dummy u01_ground
+  parent zlc_u01
+  #part-number 3
+  position -0.00363280997 0.00698729977 0
+  orientation 0 0 0 0
+endnode
+node dummy u01_head
+  parent zlc_u01
+  #part-number 4
+  position 0.0039843698 0.0108252 0.883889973
+  orientation 0 0 0 0
+endnode
+node dummy u01_head_hit
+  parent zlc_u01
+  #part-number 5
+  position 0.0039843698 0.0108252 0.402411997
+  orientation 0 0 0 0
+endnode
+node dummy u01_impact
+  parent zlc_u01
+  #part-number 6
+  position 0.0039843698 0.0110010002 0.247025996
+  orientation 0 0 0 0
+endnode
+node trimesh rectangle121
+  parent zlc_u01
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 8
+    -0.300000012 -0.300000012 0.952548027
+    0.300000012 -0.300000012 0.952548027
+    0.300000012 0.300000012 0.952548027
+    -0.300000012 0.300000012 0.952548027
+    -0.300000012 -0.300000012 0
+    0.300000012 -0.300000012 0
+    0.300000012 0.300000012 0
+    -0.300000012 0.300000012 0
+  faces 10
+    0 1 2 1 0 0 0 0
+    3 0 2 1 0 0 0 0
+    4 5 1 1 0 0 0 0
+    1 0 4 1 0 0 0 0
+    5 6 2 1 0 0 0 0
+    2 1 5 1 0 0 0 0
+    7 4 0 1 0 0 0 0
+    0 3 7 1 0 0 0 0
+    6 7 3 1 0 0 0 0
+    3 2 6 1 0 0 0 0
+  position -0.0305605996 -0.00637451001 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom zlc_u01
+
+#MAXANIM ASCII
+newanim off zlc_u01
+  length 0.0333333015
+  transtime 0
+  animroot zlc_u01
+node dummy zlc_u01
+  parent NULL
+  #part-number 0
+endnode
+node dummy u01_hand
+  parent zlc_u01
+  #part-number 1
+endnode
+node emitter omenemitter240
+  parent zlc_u01
+  #part-number 2
+  birthratekey 2
+    0 40
+    0.0333333015 40
+endnode
+node dummy u01_ground
+  parent zlc_u01
+  #part-number 3
+endnode
+node dummy u01_head
+  parent zlc_u01
+  #part-number 4
+endnode
+node dummy u01_head_hit
+  parent zlc_u01
+  #part-number 5
+endnode
+node dummy u01_impact
+  parent zlc_u01
+  #part-number 6
+endnode
+node dummy rectangle121
+  parent zlc_u01
+  #part-number 7
+endnode
+node dummy plane25
+  parent zlc_u01
+  #part-number -1
+endnode
+doneanim off zlc_u01
+
+#MAXANIM ASCII
+newanim off2on zlc_u01
+  length 0.0333333015
+  transtime 0
+  animroot zlc_u01
+node dummy zlc_u01
+  parent NULL
+  #part-number 0
+endnode
+node dummy u01_hand
+  parent zlc_u01
+  #part-number 1
+endnode
+node emitter omenemitter240
+  parent zlc_u01
+  #part-number 2
+  xsizekey 2
+    0 -28
+    0.0333333015 2
+  ysizekey 2
+    0 270
+    0.0333333015 300
+  birthratekey 2
+    0 40
+    0.0333333015 50
+endnode
+node dummy u01_ground
+  parent zlc_u01
+  #part-number 3
+endnode
+node dummy u01_head
+  parent zlc_u01
+  #part-number 4
+endnode
+node dummy u01_head_hit
+  parent zlc_u01
+  #part-number 5
+endnode
+node dummy u01_impact
+  parent zlc_u01
+  #part-number 6
+endnode
+node dummy rectangle121
+  parent zlc_u01
+  #part-number 7
+endnode
+node dummy plane25
+  parent zlc_u01
+  #part-number -1
+endnode
+doneanim off2on zlc_u01
+
+#MAXANIM ASCII
+newanim on zlc_u01
+  length 0.0333333015
+  transtime 0
+  animroot zlc_u01
+node dummy zlc_u01
+  parent NULL
+  #part-number 0
+endnode
+node dummy u01_hand
+  parent zlc_u01
+  #part-number 1
+endnode
+node emitter omenemitter240
+  parent zlc_u01
+  #part-number 2
+  xsizekey 2
+    0 2
+    0.0333333015 2
+  ysizekey 2
+    0 300
+    0.0333333015 300
+  birthratekey 2
+    0 50
+    0.0333333015 47
+endnode
+node dummy u01_ground
+  parent zlc_u01
+  #part-number 3
+endnode
+node dummy u01_head
+  parent zlc_u01
+  #part-number 4
+endnode
+node dummy u01_head_hit
+  parent zlc_u01
+  #part-number 5
+endnode
+node dummy u01_impact
+  parent zlc_u01
+  #part-number 6
+endnode
+node dummy rectangle121
+  parent zlc_u01
+  #part-number 7
+endnode
+node dummy plane25
+  parent zlc_u01
+  #part-number -1
+endnode
+doneanim on zlc_u01
+
+#MAXANIM ASCII
+newanim on2off zlc_u01
+  length 0.0333333015
+  transtime 0
+  animroot zlc_u01
+node dummy zlc_u01
+  parent NULL
+  #part-number 0
+endnode
+node dummy u01_hand
+  parent zlc_u01
+  #part-number 1
+endnode
+node emitter omenemitter240
+  parent zlc_u01
+  #part-number 2
+  birthratekey 2
+    0 47
+    0.0333333015 40
+endnode
+node dummy u01_ground
+  parent zlc_u01
+  #part-number 3
+endnode
+node dummy u01_head
+  parent zlc_u01
+  #part-number 4
+endnode
+node dummy u01_head_hit
+  parent zlc_u01
+  #part-number 5
+endnode
+node dummy u01_impact
+  parent zlc_u01
+  #part-number 6
+endnode
+node dummy rectangle121
+  parent zlc_u01
+  #part-number 7
+endnode
+node dummy plane25
+  parent zlc_u01
+  #part-number -1
+endnode
+doneanim on2off zlc_u01
+
+donemodel zlc_u01

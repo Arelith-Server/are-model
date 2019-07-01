@@ -1,0 +1,170 @@
+# Exported from NWmax 0.8 b46 at 10/5/2013 11:02:27 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: PX2_E04f
+filedependancy Unknown
+newmodel PX2_E04f
+setsupermodel PX2_E04f NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom PX2_E04f
+node dummy PX2_E04f
+  parent NULL
+endnode
+node trimesh Plane11
+  parent PX2_E04f
+  position 0.281593 0.32921 0.0
+  orientation 0.0 0.0 1.0 -0.152879
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -0.313551 -2.06145 3.97909 
+  bitmap plc_tome_03
+  verts 9
+    -0.366221 -0.0379777 0.01
+    -0.345443 -0.288977 0.01
+    0.0022481 0.0071692 0.04749
+    0.0022478 -0.244689 0.01
+    0.370717 -0.0039112 0.01
+    0.360706 -0.255569 0.0695818
+    -0.387 0.21302 0.01
+    0.002248 0.241943 0.01
+    0.380729 0.247748 0.0334618
+  faces 8
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+    2 3 4  1  2 3 4  1
+    5 4 3  1  5 4 3  1
+    6 0 7  1  6 0 7  1
+    2 7 0  1  2 7 0  1
+    7 2 8  1  7 2 8  1
+    4 8 2  1  4 8 2  1
+  tverts 9
+    0.0195313 0.220703 0
+    0.0195313 0.015625 0
+    0.33699 0.250084 0
+    0.341797 0.0136719 0
+    0.669922 0.244141 0
+    0.667969 0.015625 0
+    0.0175781 0.439453 0
+    0.332031 0.441406 0
+    0.669922 0.441406 0
+endnode
+node trimesh Plane10
+  parent PX2_E04f
+  position -0.112098 -0.0771899 0.0
+  orientation 0.0 0.0 -1.0 -0.428465
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -0.313551 -2.06145 3.97909 
+  bitmap plc_tome_03
+  verts 9
+    -0.366221 -0.0379777 0.01
+    -0.345443 -0.288977 0.01
+    0.0022481 0.0071692 0.04749
+    0.0022478 -0.244689 0.01
+    0.370717 -0.0039112 0.01
+    0.360706 -0.255569 0.0695818
+    -0.387 0.21302 0.01
+    0.0022479 0.241943 0.01
+    0.380729 0.247748 0.0334618
+  faces 8
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+    2 3 4  1  2 3 4  1
+    5 4 3  1  5 4 3  1
+    6 0 7  1  6 0 7  1
+    2 7 0  1  2 7 0  1
+    7 2 8  1  7 2 8  1
+    4 8 2  1  4 8 2  1
+  tverts 9
+    0.166016 0.445313 0
+    0.0175781 0.447266 0
+    0.175781 0.222656 0
+    0.0195313 0.228516 0
+    0.175781 0.00976563 0
+    0.0175781 0.00976563 0
+    0.326172 0.445313 0
+    0.324219 0.222656 0
+    0.330078 0.00976563 0
+endnode
+node trimesh Plane09
+  parent PX2_E04f
+  position 0.181571 0.432351 0.034665
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -0.538351 -1.6704 3.97909 
+  bitmap plc_tome_03
+  verts 9
+    -0.368469 -0.0340672 0.01
+    -0.347691 -0.285066 0.01
+    0.0 0.0110794 0.04749
+    0.0 -0.240778 0.01
+    0.368469 0.0 0.01
+    0.358457 -0.251658 0.0695818
+    -0.389248 0.216932 0.01
+    0.0 0.245854 0.01
+    0.378481 0.251658 0.01
+  faces 8
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+    2 3 4  1  2 3 4  1
+    5 4 3  1  5 4 3  1
+    6 0 7  1  6 0 7  1
+    2 7 0  1  2 7 0  1
+    7 2 8  1  7 2 8  1
+    4 8 2  1  4 8 2  1
+  tverts 9
+    0.513672 0.015625 0
+    0.667969 0.015625 0
+    0.494141 0.230469 0
+    0.667969 0.234375 0
+    0.507813 0.447266 0
+    0.671875 0.447266 0
+    0.353516 0.0136719 0
+    0.349609 0.234375 0
+    0.349609 0.447266 0
+endnode
+endmodelgeom PX2_E04f
+donemodel PX2_E04f

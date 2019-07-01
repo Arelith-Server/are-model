@@ -1,0 +1,23 @@
+node trimesh plc_sca01_wg
+    parent plc_sca01_pwk
+    position -0.0734481 -0.39861 0.0
+    orientation 1.0 0.0 0.0 0.0
+    scale 1.0
+    diffuse 0.8000 0.8000 0.8000
+    ambient 0.2000 0.2000 0.2000
+    specular 0.0000 0.0000 0.0000
+    render 0
+    bitmap NULL
+    verts 6
+        1.1 -0.6 0.0
+        -1.1 0.6 0.0
+        1.1 0.6 0.0
+        0.48841 -0.149235 0.0
+        0.48841 -0.6 0.0
+        -1.1 -0.149235 0.0
+    faces 4
+        3 4 0 1 0 0 0 1
+        3 0 2 1 0 0 0 1
+        3 2 1 1 0 0 0 1
+        3 1 5 1 0 0 0 1
+endnode

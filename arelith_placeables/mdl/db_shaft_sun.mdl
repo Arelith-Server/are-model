@@ -1,0 +1,137 @@
+# Exported from NWmax 0.8 b47 at 03/02/2006 3:23:35 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: db_shaft_sun
+filedependancy Unknown
+newmodel db_shaft_sun
+setsupermodel db_shaft_sun NULL
+classification Character
+setanimationscale 1
+#NWmax GEOM  ASCII
+beginmodelgeom db_shaft_sun
+node dummy db_shaft_sun
+  parent NULL
+endnode
+node emitter AuroraEmitter00
+  parent db_shaft_sun
+  position 0 5 13
+  orientation 0 0 0 -90
+  update_sel 2
+  update Fountain
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 200
+  ySize 200
+  opacity 0.9
+  colorStart 0.7 0.8 1
+  alphaEnd 0.9
+  sizeStart 1.0
+  sizeEnd 1.0
+  sizeStart_y 30.0
+  sizeEnd_y 30.0
+  birthrate 1
+  lifeExp 5
+  particleRot 0.005
+  blurlength 10
+  affectedByWind false
+  texture plc_sunlight
+  twosidedtex 1
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 10.0
+  frameEnd 10.0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+endnode
+node emitter AuroraEmitter01
+  parent db_shaft_sun
+  position 0.5 4 13
+  orientation 0 0 0 -90
+  update_sel 2
+  update Fountain
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 150
+  ySize 150
+  opacity 0.9
+  colorStart 0.85 0.95 1
+  alphaEnd 0.9
+  sizeStart 1.0
+  sizeEnd 1.0
+  sizeStart_y 30.0
+  sizeEnd_y 30.0
+  birthrate 1
+  lifeExp 5
+  particleRot 0.005
+  blurlength 10
+  affectedByWind false
+  texture plc_sunlight
+  twosidedtex 1
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 10.0
+  frameEnd 10.0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+endnode
+node emitter AuroraEmitter02
+  parent db_shaft_sun
+  position -0.5 6 13
+  orientation 0 0 0 -90
+  update_sel 2
+  update Fountain
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 150
+  ySize 150
+  opacity 0.9
+  colorStart 0.8 0.9 1 
+  alphaEnd 0.9
+  sizeStart 1.0
+  sizeEnd 1.0
+  sizeStart_y 30.0
+  sizeEnd_y 30.0
+  birthrate 1
+  lifeExp 5
+  particleRot 0.005
+  blurlength 10
+  affectedByWind false
+  texture plc_sunlight
+  twosidedtex 1
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 10.0
+  frameEnd 10.0
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+endnode
+endmodelgeom db_shaft_sun
+donemodel db_shaft_sun

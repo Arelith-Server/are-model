@@ -1,0 +1,144 @@
+# Exported from NWmax 0.8 b46 at 7/29/2012 4:09:17 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: plc_lilly3
+filedependancy Unknown
+newmodel plc_lilly3
+setsupermodel plc_lilly3 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom plc_lilly3
+node dummy plc_lilly3
+  parent NULL
+endnode
+node trimesh Mesh01
+  parent plc_lilly3
+  position -0.0135791 -0.0088501 0.0025
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 92.1106 
+  bitmap tno01_lillies01
+  verts 11
+    0.0 0.0 0.921106
+    0.482081 0.0 0.921106
+    0.390011 0.28336 0.921106
+    0.148971 0.458486 0.921106
+    -0.148971 0.458486 0.921106
+    -0.390011 0.28336 0.921106
+    -0.482081 0.0 0.921106
+    -0.390011 -0.28336 0.921106
+    -0.148971 -0.458486 0.921106
+    0.148971 -0.458486 0.921106
+    0.390011 -0.28336 0.921106
+  faces 10
+    0 1 2  1  11 12 13  1
+    0 2 3  1  14 2 15  1
+    0 3 4  1  16 3 17  1
+    0 4 5  1  18 4 19  1
+    0 5 6  1  20 5 21  1
+    0 6 7  1  22 6 23  1
+    0 7 8  1  24 7 25  1
+    0 8 9  1  26 8 27  1
+    0 9 10  1  28 9 29  1
+    0 10 1  1  0 10 1  1
+  tverts 30
+    0.245958 0.262992 0
+    0.509384 0.244733 0
+    0.470626 0.410604 0
+    0.349848 0.518745 0
+    0.178588 0.534092 0
+    0.0442684 0.438271 0
+    -0.0031992 0.28364 0
+    0.024858 0.115977 0
+    0.142069 0.0072395 0
+    0.312134 -0.000973271 0
+    0.447647 0.0877134 0
+    0.245958 0.262992 0
+    0.509384 0.244733 0
+    0.470626 0.410604 0
+    0.245958 0.262992 0
+    0.349848 0.518745 0
+    0.245958 0.262992 0
+    0.178588 0.534092 0
+    0.245958 0.262992 0
+    0.0442684 0.438271 0
+    0.245958 0.262992 0
+    -0.0031992 0.28364 0
+    0.245958 0.262992 0
+    0.024858 0.115977 0
+    0.245958 0.262992 0
+    0.142069 0.0072395 0
+    0.245958 0.262992 0
+    0.312134 -0.000973271 0
+    0.245958 0.262992 0
+    0.447647 0.0877134 0
+endnode
+endmodelgeom plc_lilly3
+#NWmax ANIM ASCII
+newanim damage plc_lilly3
+  length 0.133333
+  transtime 0.0
+  animroot plc_lilly3
+    node dummy plc_lilly3
+        parent NULL
+    endnode
+    node trimesh Mesh01
+        parent plc_lilly3
+    endnode
+doneanim damage plc_lilly3
+#NWmax ANIM ASCII
+newanim die plc_lilly3
+  length 0.166667
+  transtime 0.0
+  animroot plc_lilly3
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+    node dummy plc_lilly3
+        parent NULL
+    endnode
+    node trimesh Mesh01
+        parent plc_lilly3
+    endnode
+doneanim die plc_lilly3
+#NWmax ANIM ASCII
+newanim dead plc_lilly3
+  length 0.0333333
+  transtime 0.0
+  animroot plc_lilly3
+    node dummy plc_lilly3
+        parent NULL
+    endnode
+    node trimesh Mesh01
+        parent plc_lilly3
+    endnode
+doneanim dead plc_lilly3
+#NWmax ANIM ASCII
+newanim default plc_lilly3
+  length 0.0
+  transtime 0.25
+  animroot plc_lilly3
+    node dummy plc_lilly3
+        parent NULL
+    endnode
+    node trimesh Mesh01
+        parent plc_lilly3
+    endnode
+doneanim default plc_lilly3
+donemodel plc_lilly3

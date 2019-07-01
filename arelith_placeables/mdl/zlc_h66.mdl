@@ -1,0 +1,1197 @@
+#MAXMODEL ASCII
+# model: zlc_h66
+filedependancy zlc_h66.max
+newmodel zlc_h66
+setsupermodel zlc_h66 null
+classification character
+setanimationscale 3
+#MAXGEOM  ASCII
+beginmodelgeom zlc_h66
+node dummy zlc_h66
+  parent NULL
+  #part-number 0
+endnode
+node dummy c06_ground
+  parent zlc_h66
+  #part-number 1
+  position -0.0108984001 -0.0104809003 0
+  orientation 0 0 0 0
+endnode
+node dummy c06_hand
+  parent zlc_h66
+  #part-number 2
+  position 0.0119677996 -0.295558006 0.962243974
+  orientation 0 0 0 0
+endnode
+node dummy c06_head
+  parent zlc_h66
+  #part-number 3
+  position 0.0119677996 -0.379904985 1.68697
+  orientation 0 0 0 0
+endnode
+node dummy c06_head_hit
+  parent zlc_h66
+  #part-number 4
+  position 0.0119677996 0.00103270996 0.242540002
+  orientation 0 0 0 0
+endnode
+node dummy c06_impact
+  parent zlc_h66
+  #part-number 5
+  position 0.0119677996 0.00155456003 0.159567997
+  orientation 0 0 0 0
+endnode
+node trimesh damage101
+  parent zlc_h66
+  #part-number 6
+  ambient 0.0705882013 0 1
+  diffuse 1 0.501960993 0.643136978
+  specular 0 0 0
+  shininess 27
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 12
+    -0.586245 -0.55864799 0
+    -0.586245 0.55864799 0
+    0.586245 0.55864799 0
+    0.586245 -0.55864799 0
+    -0.586245 -0.55864799 1.5
+    0.586245 -0.55864799 1.5
+    0.586245 0.55864799 1.5
+    -0.586245 0.55864799 1.5
+    0.311832011 -0.297154009 0.75
+    -0.311832011 -0.297154009 0.75
+    0.311832011 0.297154009 0.75
+    -0.311832011 0.297154009 0.75
+  faces 20
+    0 1 2 1 0 0 0 2
+    2 3 0 1 0 0 0 2
+    4 5 6 1 0 0 0 1
+    6 7 4 1 0 0 0 1
+    0 3 8 2 0 0 0 5
+    8 9 0 2 0 0 0 5
+    9 8 5 2 0 0 0 5
+    5 4 9 2 0 0 0 5
+    3 2 10 4 0 0 0 4
+    10 8 3 4 0 0 0 4
+    8 10 6 4 0 0 0 4
+    6 5 8 4 0 0 0 4
+    2 1 11 2 0 0 0 6
+    11 10 2 2 0 0 0 6
+    10 11 7 2 0 0 0 6
+    7 6 10 2 0 0 0 6
+    1 0 9 4 0 0 0 3
+    9 11 1 4 0 0 0 3
+    11 9 4 4 0 0 0 3
+    4 7 11 4 0 0 0 3
+  position 0.113957003 -0.373293012 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node danglymesh plane20
+  parent damage101
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  shadow 0
+  bitmap plc_trans
+  verts 18
+    -0.499401003 -0.461852998 -0.0705702007
+    -0.499401003 -0.881555974 -0.275840998
+    0.499401003 -0.461852998 -0.0705702007
+    0.499401003 -0.881555974 -0.275840998
+    -0.499401003 0 0
+    0.499401003 0 0
+    -0.499401003 0.461852998 -0.0705702007
+    0.499401003 0.461852998 -0.0705702007
+    -0.499401003 0.881559014 -0.275840998
+    0.499401003 0.881559014 -0.275840998
+    -0.499401003 -0.485787004 -0.0830292031
+    -0.499401003 -0.0239330009 -0.0124588003
+    0.499401003 -0.0239330009 -0.0124588003
+    0.499401003 -0.485787004 -0.0830292031
+    -0.499401003 0.437918991 -0.0830292031
+    0.499401003 0.437918991 -0.0830292031
+    -0.499401003 0.857625008 -0.288300008
+    0.499401003 0.857625008 -0.288300008
+  tverts 10
+    0.76424098 0.600879014 0
+    0.76424098 0.723604023 0
+    1.00058997 0.600879014 0
+    1.00058997 0.723604023 0
+    0.76424098 0.478154004 0
+    1.00058997 0.478154004 0
+    0.76424098 0.355428994 0
+    1.00058997 0.355428994 0
+    0.76424098 0.232703999 0
+    1.00058997 0.232703999 0
+  faces 14
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 0 4 5 1
+    12 13 10 1 5 2 0 1
+    11 14 15 1 4 6 7 1
+    15 12 11 1 7 5 4 1
+    14 16 17 1 6 8 9 1
+    17 15 14 1 9 7 6 1
+  displacement 0.0500000007
+  period 9
+  tightness 5
+  constraints 18
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+  position -0.156529993 -0.534603 0.626205027
+  orientation 1 0 0 -0.479966015
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+endnode
+node danglymesh plane451
+  parent damage101
+  #part-number 8
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  shadow 0
+  bitmap plc_trans
+  verts 20
+    -0.499401003 -0.445737004 -0.125710994
+    -0.499401003 -0.760104001 -0.465792
+    0.499401003 -0.445737004 -0.125710994
+    0.499401003 -0.760104001 -0.465792
+    -0.499401003 0 0
+    0.499401003 0 0
+    -0.499401003 0.445737004 -0.125710994
+    0.499401003 0.445737004 -0.125710994
+    -0.499401003 0.760104001 -0.465792
+    0.499401003 0.760104001 -0.465792
+    -0.525638998 -0.765693009 -0.468701988
+    -0.525638998 -0.451323003 -0.128619
+    0.473165989 -0.451323003 -0.128619
+    0.473165989 -0.765693009 -0.468701988
+    -0.525638998 -0.00558699993 -0.00290845009
+    -0.525638998 0.440147996 -0.128619
+    0.473165989 0.440147996 -0.128619
+    0.473165989 -0.00558697991 -0.00290845009
+    -0.525638998 0.754517972 -0.468701988
+    0.473165989 0.754517972 -0.468701988
+  tverts 10
+    0.76424098 0.600879014 0
+    0.76424098 0.723604023 0
+    1.00058997 0.600879014 0
+    1.00058997 0.723604023 0
+    0.76424098 0.478154004 0
+    1.00058997 0.478154004 0
+    0.76424098 0.355428994 0
+    1.00058997 0.355428994 0
+    0.76424098 0.232703999 0
+    1.00058997 0.232703999 0
+  faces 14
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 1 0 2 1
+    12 13 10 1 2 3 1 1
+    14 15 16 1 4 6 7 1
+    16 17 14 1 7 5 4 1
+    15 18 19 1 6 8 9 1
+    19 16 15 1 9 7 6 1
+  displacement 0.0500000007
+  period 9
+  tightness 5
+  constraints 20
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+  position 0.442616999 0.170822993 0.626205027
+  orientation 0.22258094 0.141827956 -0.964542687 -1.37883008
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+endnode
+node danglymesh plane453
+  parent damage101
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  shadow 0
+  bitmap plc_trans
+  verts 20
+    -0.499401003 -0.445737004 -0.125709996
+    -0.499401003 -0.760104001 -0.465792
+    0.499401003 -0.445737004 -0.125710994
+    0.499401003 -0.760104001 -0.465792
+    -0.499401003 0 0
+    0.499401003 0 0
+    -0.499401003 0.445737004 -0.125709996
+    0.499401003 0.445737004 -0.125710994
+    -0.499401003 0.760104001 -0.465792
+    0.499401003 0.760104001 -0.465792
+    -0.525638998 -0.765693009 -0.468701988
+    -0.525638998 -0.451323003 -0.128619
+    0.473165989 -0.451323003 -0.128619
+    0.473165989 -0.765693009 -0.468701988
+    -0.525638998 -0.00558699016 -0.00290843006
+    -0.525638998 0.440147996 -0.128619
+    0.473165989 0.440147996 -0.128619
+    0.473165989 -0.00558699016 -0.0029084601
+    -0.525638998 0.754517972 -0.468701988
+    0.473165989 0.754517972 -0.468701988
+  tverts 10
+    0.76424098 0.600879014 0
+    0.76424098 0.723604023 0
+    1.00058997 0.600879014 0
+    1.00058997 0.723604023 0
+    0.76424098 0.478154004 0
+    1.00058997 0.478154004 0
+    0.76424098 0.355428994 0
+    1.00058997 0.355428994 0
+    0.76424098 0.232703999 0
+    1.00058997 0.232703999 0
+  faces 14
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 1 0 2 1
+    12 13 10 1 2 3 1 1
+    14 15 16 1 4 6 7 1
+    16 17 14 1 7 5 4 1
+    15 18 19 1 6 8 9 1
+    19 16 15 1 9 7 6 1
+  displacement 0.0500000007
+  period 9
+  tightness 5
+  constraints 20
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+  position -0.641516984 0.56576699 0.626205027
+  orientation -0.0636805743 0.174911916 -0.982522547 -4.03496981
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+endnode
+node danglymesh plane454
+  parent damage101
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  shadow 0
+  bitmap plc_trans
+  verts 18
+    -0.499401003 -0.461852998 -0.0705702007
+    -0.499401003 -0.881555974 -0.275840998
+    0.499401003 -0.461852998 -0.0705702007
+    0.499401003 -0.881555974 -0.275840998
+    -0.499401003 0 0
+    0.499401003 0 0
+    -0.499401003 0.461852998 -0.0705702007
+    0.499401003 0.461852998 -0.0705702007
+    -0.499401003 0.881559014 -0.275840998
+    0.499401003 0.881559014 -0.275840998
+    -0.499401003 -0.485787004 -0.0830292031
+    -0.499401003 -0.0239330009 -0.0124588003
+    0.499401003 -0.0239330009 -0.0124588003
+    0.499401003 -0.485787004 -0.0830292031
+    -0.499401003 0.437918991 -0.0830292031
+    0.499401003 0.437918991 -0.0830292031
+    -0.499401003 0.857625008 -0.288300008
+    0.499401003 0.857625008 -0.288300008
+  tverts 10
+    0.76424098 0.600879014 0
+    0.76424098 0.723604023 0
+    1.00058997 0.600879014 0
+    1.00058997 0.723604023 0
+    0.76424098 0.478154004 0
+    1.00058997 0.478154004 0
+    0.76424098 0.355428994 0
+    1.00058997 0.355428994 0
+    0.76424098 0.232703999 0
+    1.00058997 0.232703999 0
+  faces 14
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 0 4 5 1
+    12 13 10 1 5 2 0 1
+    11 14 15 1 4 6 7 1
+    15 12 11 1 7 5 4 1
+    14 16 17 1 6 8 9 1
+    17 15 14 1 9 7 6 1
+  displacement 0.0500000007
+  period 9
+  tightness 5
+  constraints 18
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+  position 0.199619994 0.951891005 0.626205027
+  orientation 0.0526207127 0.237357065 -0.969996214 -2.71795988
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+endnode
+node danglymesh plane455
+  parent damage101
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  shadow 0
+  bitmap plc_trans
+  verts 20
+    -0.499401003 -0.646317005 -0.182280004
+    -0.499401003 -1.10214996 -0.675399005
+    0.499401003 -0.646317005 -0.182280004
+    0.499401003 -1.10214996 -0.675399005
+    -0.499401003 0 0
+    0.499401003 0 0
+    -0.499401003 0.646317005 -0.182280004
+    0.499401003 0.646317005 -0.182280004
+    -0.499401003 1.10214996 -0.675399005
+    0.499401003 1.10214996 -0.675399005
+    -0.508929014 -1.10978997 -0.693717003
+    -0.508929014 -0.653952003 -0.200597003
+    0.489876002 -0.653952003 -0.200597003
+    0.489876002 -1.10978997 -0.693717003
+    -0.508929014 -0.00763498014 -0.0183166992
+    -0.508929014 0.638682008 -0.200597003
+    0.489876002 0.638682008 -0.200597003
+    0.489876002 -0.00763492985 -0.0183166992
+    -0.508929014 1.09451997 -0.693717003
+    0.489876002 1.09451997 -0.693717003
+  tverts 10
+    0.76424098 0.600879014 0
+    0.76424098 0.723604023 0
+    1.00058997 0.600879014 0
+    1.00058997 0.723604023 0
+    0.76424098 0.478154004 0
+    1.00058997 0.478154004 0
+    0.76424098 0.355428994 0
+    1.00058997 0.355428994 0
+    0.76424098 0.232703999 0
+    1.00058997 0.232703999 0
+  faces 14
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 1 0 2 1
+    12 13 10 1 2 3 1 1
+    14 15 16 1 4 6 7 1
+    16 17 14 1 7 5 4 1
+    15 18 19 1 6 8 9 1
+    19 16 15 1 9 7 6 1
+  displacement 0.0500000007
+  period 9
+  tightness 5
+  constraints 20
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    0
+    0
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    0
+    0
+  position -0.223959997 0.818765998 1.16535997
+  orientation 0.0053581195 0.224453986 -0.97446996 -3.35600996
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+endnode
+node danglymesh plane456
+  parent damage101
+  #part-number 12
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  shadow 0
+  bitmap plc_trans
+  verts 20
+    -0.499401003 -0.445737004 -0.125710994
+    -0.499401003 -0.760104001 -0.465792
+    0.499401003 -0.445737004 -0.125710994
+    0.499401003 -0.760104001 -0.465792
+    -0.499401003 0 0
+    0.499401003 0 0
+    -0.499401003 0.445737004 -0.125710994
+    0.499401003 0.445737004 -0.125710994
+    -0.499401003 0.760104001 -0.465792
+    0.499401003 0.760104001 -0.465792
+    -0.525638998 -0.765693009 -0.468701988
+    -0.525638998 -0.451323003 -0.128619
+    0.473165989 -0.451323003 -0.128619
+    0.473165989 -0.765693009 -0.468701988
+    -0.525638998 -0.00558699016 -0.00290845009
+    -0.525638998 0.440147996 -0.128619
+    0.473165989 0.440147996 -0.128619
+    0.473165989 -0.00558699016 -0.00290845009
+    -0.525638998 0.754517972 -0.468701988
+    0.473165989 0.754517972 -0.468701988
+  tverts 10
+    0.76424098 0.600879014 0
+    0.76424098 0.723604023 0
+    1.00058997 0.600879014 0
+    1.00058997 0.723604023 0
+    0.76424098 0.478154004 0
+    1.00058997 0.478154004 0
+    0.76424098 0.355428994 0
+    1.00058997 0.355428994 0
+    0.76424098 0.232703999 0
+    1.00058997 0.232703999 0
+  faces 14
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 1 0 2 1
+    12 13 10 1 2 3 1 1
+    14 15 16 1 4 6 7 1
+    16 17 14 1 7 5 4 1
+    15 18 19 1 6 8 9 1
+    19 16 15 1 9 7 6 1
+  displacement 0.0500000007
+  period 9
+  tightness 5
+  constraints 20
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+  position -0.492924005 -0.612749994 0.626205027
+  orientation 0.562776327 -0.196473077 0.802920401 -0.570999026
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+endnode
+node danglymesh plane457
+  parent damage101
+  #part-number 13
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  shadow 0
+  bitmap plc_trans
+  verts 18
+    -0.499401003 -0.461852998 -0.0705702007
+    -0.499401003 -0.881555974 -0.275840998
+    0.499401003 -0.461852998 -0.0705702007
+    0.499401003 -0.881555974 -0.275840998
+    -0.499401003 0 0
+    0.499401003 0 0
+    -0.499401003 0.461852998 -0.0705702007
+    0.499401003 0.461852998 -0.0705702007
+    -0.499401003 0.881559014 -0.275840998
+    0.499401003 0.881559014 -0.275840998
+    -0.499401003 -0.485787004 -0.0830292031
+    -0.499401003 -0.0239330009 -0.0124588003
+    0.499401003 -0.0239330009 -0.0124588003
+    0.499401003 -0.485787004 -0.0830292031
+    -0.499401003 0.437918991 -0.0830292031
+    0.499401003 0.437918991 -0.0830292031
+    -0.499401003 0.857625008 -0.288300008
+    0.499401003 0.857625008 -0.288300008
+  tverts 10
+    0.76424098 0.600879014 0
+    0.76424098 0.723604023 0
+    1.00058997 0.600879014 0
+    1.00058997 0.723604023 0
+    0.76424098 0.478154004 0
+    1.00058997 0.478154004 0
+    0.76424098 0.355428994 0
+    1.00058997 0.355428994 0
+    0.76424098 0.232703999 0
+    1.00058997 0.232703999 0
+  faces 14
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 0 4 5 1
+    12 13 10 1 5 2 0 1
+    11 14 15 1 4 6 7 1
+    15 12 11 1 7 5 4 1
+    14 16 17 1 6 8 9 1
+    17 15 14 1 9 7 6 1
+  displacement 0.0500000007
+  period 9
+  tightness 5
+  constraints 18
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+  position -1.03899002 0.134508997 0.626205027
+  orientation 0.18417111 -0.233620107 0.954726458 -1.85121
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+endnode
+node danglymesh plane458
+  parent damage101
+  #part-number 14
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  shadow 0
+  bitmap plc_trans
+  verts 20
+    -0.499401003 -0.646317005 -0.182280004
+    -0.499401003 -1.10214996 -0.675399005
+    0.499401003 -0.646317005 -0.182280004
+    0.499401003 -1.10214996 -0.675399005
+    -0.499401003 0 0
+    0.499401003 0 0
+    -0.499401003 0.646317005 -0.182280004
+    0.499401003 0.646317005 -0.182280004
+    -0.499401003 1.10214996 -0.675399005
+    0.499401003 1.10214996 -0.675399005
+    -0.508929014 -1.10978997 -0.693717003
+    -0.508929014 -0.653952003 -0.200597003
+    0.489876002 -0.653952003 -0.200597003
+    0.489876002 -1.10978997 -0.693717003
+    -0.508929014 -0.00763496989 -0.0183166992
+    -0.508929014 0.638682008 -0.200597003
+    0.489876002 0.638682008 -0.200597003
+    0.489876002 -0.00763494009 -0.0183166992
+    -0.508929014 1.09451997 -0.693717003
+    0.489876002 1.09451997 -0.693717003
+  tverts 10
+    0.76424098 0.600879014 0
+    0.76424098 0.723604023 0
+    1.00058997 0.600879014 0
+    1.00058997 0.723604023 0
+    0.76424098 0.478154004 0
+    1.00058997 0.478154004 0
+    0.76424098 0.355428994 0
+    1.00058997 0.355428994 0
+    0.76424098 0.232703999 0
+    1.00058997 0.232703999 0
+  faces 14
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 1 0 2 1
+    12 13 10 1 2 3 1 1
+    14 15 16 1 4 6 7 1
+    16 17 14 1 7 5 4 1
+    15 18 19 1 6 8 9 1
+    19 16 15 1 9 7 6 1
+  displacement 0.0500000007
+  period 9
+  tightness 5
+  constraints 20
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+    1
+  position -0.824093997 -0.254025996 1.05464005
+  orientation 0.231877938 -0.18773596 0.954456806 -1.19528008
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+endnode
+node danglymesh plane452
+  parent damage101
+  #part-number 15
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 4
+  shadow 0
+  transparencyhint 1
+  bitmap plc_trans
+  verts 20
+    -0.499401003 -0.646317005 -0.182280004
+    -0.499401003 -1.10214996 -0.675399005
+    0.499401003 -0.646317005 -0.182280004
+    0.499401003 -1.10214996 -0.675399005
+    -0.499401003 0 0
+    0.499401003 0 0
+    -0.499401003 0.646317005 -0.182280004
+    0.499401003 0.646317005 -0.182280004
+    -0.499401003 1.10214996 -0.675399005
+    0.499401003 1.10214996 -0.675399005
+    -0.508929014 -1.10978997 -0.693717003
+    -0.508929014 -0.653952003 -0.200597003
+    0.489876002 -0.653952003 -0.200597003
+    0.489876002 -1.10978997 -0.693717003
+    -0.508929014 -0.00763498014 -0.0183166992
+    -0.508929014 0.638682008 -0.200597003
+    0.489876002 0.638682008 -0.200597003
+    0.489876002 -0.00763492985 -0.0183166992
+    -0.508929014 1.09451997 -0.693717003
+    0.489876002 1.09451997 -0.693717003
+  tverts 10
+    0.76424098 0.600879014 0
+    0.76424098 0.723604023 0
+    1.00058997 0.600879014 0
+    1.00058997 0.723604023 0
+    0.76424098 0.478154004 0
+    1.00058997 0.478154004 0
+    0.76424098 0.355428994 0
+    1.00058997 0.355428994 0
+    0.76424098 0.232703999 0
+    1.00058997 0.232703999 0
+  faces 14
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 0 5 1 4 0 5 1
+    2 5 0 1 2 5 0 1
+    6 4 7 1 6 4 7 1
+    5 7 4 1 5 7 4 1
+    8 6 9 1 8 6 9 1
+    7 9 6 1 7 9 6 1
+    10 11 12 1 1 0 2 1
+    12 13 10 1 2 3 1 1
+    14 15 16 1 4 6 7 1
+    16 17 14 1 7 5 4 1
+    15 18 19 1 6 8 9 1
+    19 16 15 1 9 7 6 1
+  displacement 0.0500001982
+  period 9
+  tightness 5
+  constraints 20
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+    23.3834991
+  position 0.171104997 -0.234938994 0.909866989
+  orientation 0.297737151 -0.147069082 -0.943251431 -0.722880125
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+endnode
+endmodelgeom zlc_h66
+
+#MAXANIM ASCII
+newanim damage zlc_h66
+  length 0.133332998
+  transtime 0.25
+  animroot zlc_h66
+node dummy zlc_h66
+  parent NULL
+  #part-number 0
+endnode
+node dummy c06_ground
+  parent zlc_h66
+  #part-number 1
+endnode
+node dummy c06_hand
+  parent zlc_h66
+  #part-number 2
+endnode
+node dummy c06_head
+  parent zlc_h66
+  #part-number 3
+endnode
+node dummy c06_head_hit
+  parent zlc_h66
+  #part-number 4
+endnode
+node dummy c06_impact
+  parent zlc_h66
+  #part-number 5
+endnode
+node trimesh damage101
+  parent zlc_h66
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 3
+    0 0.113957003 -0.373293012 0
+    0.0333333015 0.113957003 -0.373293012 0.0733743012
+    0.133332998 0.113957003 -0.373293012 0
+endnode
+node dummy plane20
+  parent damage101
+  #part-number 7
+endnode
+node dummy plane451
+  parent damage101
+  #part-number 8
+endnode
+node dummy plane453
+  parent damage101
+  #part-number 9
+endnode
+node dummy plane454
+  parent damage101
+  #part-number 10
+endnode
+node dummy plane455
+  parent damage101
+  #part-number 11
+endnode
+node dummy plane456
+  parent damage101
+  #part-number 12
+endnode
+node dummy plane457
+  parent damage101
+  #part-number 13
+endnode
+node dummy plane458
+  parent damage101
+  #part-number 14
+endnode
+node dummy plane452
+  parent damage101
+  #part-number 15
+endnode
+node dummy zlc_h66_pwk
+  parent zlc_h66
+  #part-number -1
+endnode
+node dummy walkarea
+  parent zlc_h66_pwk
+  #part-number 17
+endnode
+doneanim damage zlc_h66
+
+#MAXANIM ASCII
+newanim dead zlc_h66
+  length 0.0333333015
+  transtime 0.25
+  animroot zlc_h66
+node dummy zlc_h66
+  parent NULL
+  #part-number 0
+endnode
+node dummy c06_ground
+  parent zlc_h66
+  #part-number 1
+endnode
+node dummy c06_hand
+  parent zlc_h66
+  #part-number 2
+endnode
+node dummy c06_head
+  parent zlc_h66
+  #part-number 3
+endnode
+node dummy c06_head_hit
+  parent zlc_h66
+  #part-number 4
+endnode
+node dummy c06_impact
+  parent zlc_h66
+  #part-number 5
+endnode
+node trimesh damage101
+  parent zlc_h66
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 0.113957003 -0.373293012 -20.8542995
+    0.0333333015 0.113957003 -0.373293012 -20.8542995
+endnode
+node dummy plane20
+  parent damage101
+  #part-number 7
+endnode
+node dummy plane451
+  parent damage101
+  #part-number 8
+endnode
+node dummy plane453
+  parent damage101
+  #part-number 9
+endnode
+node dummy plane454
+  parent damage101
+  #part-number 10
+endnode
+node dummy plane455
+  parent damage101
+  #part-number 11
+endnode
+node dummy plane456
+  parent damage101
+  #part-number 12
+endnode
+node dummy plane457
+  parent damage101
+  #part-number 13
+endnode
+node dummy plane458
+  parent damage101
+  #part-number 14
+endnode
+node dummy plane452
+  parent damage101
+  #part-number 15
+endnode
+node dummy zlc_h66_pwk
+  parent zlc_h66
+  #part-number -1
+endnode
+node dummy walkarea
+  parent zlc_h66_pwk
+  #part-number 17
+endnode
+doneanim dead zlc_h66
+
+#MAXANIM ASCII
+newanim default zlc_h66
+  length 0
+  transtime 0.25
+  animroot zlc_h66
+node dummy zlc_h66
+  parent NULL
+  #part-number 0
+endnode
+node dummy c06_ground
+  parent zlc_h66
+  #part-number 1
+endnode
+node dummy c06_hand
+  parent zlc_h66
+  #part-number 2
+endnode
+node dummy c06_head
+  parent zlc_h66
+  #part-number 3
+endnode
+node dummy c06_head_hit
+  parent zlc_h66
+  #part-number 4
+endnode
+node dummy c06_impact
+  parent zlc_h66
+  #part-number 5
+endnode
+node dummy damage101
+  parent zlc_h66
+  #part-number 6
+endnode
+node dummy plane20
+  parent damage101
+  #part-number 7
+endnode
+node dummy plane451
+  parent damage101
+  #part-number 8
+endnode
+node dummy plane453
+  parent damage101
+  #part-number 9
+endnode
+node dummy plane454
+  parent damage101
+  #part-number 10
+endnode
+node dummy plane455
+  parent damage101
+  #part-number 11
+endnode
+node dummy plane456
+  parent damage101
+  #part-number 12
+endnode
+node dummy plane457
+  parent damage101
+  #part-number 13
+endnode
+node dummy plane458
+  parent damage101
+  #part-number 14
+endnode
+node dummy plane452
+  parent damage101
+  #part-number 15
+endnode
+node dummy zlc_h66_pwk
+  parent zlc_h66
+  #part-number -1
+endnode
+node dummy walkarea
+  parent zlc_h66_pwk
+  #part-number 17
+endnode
+doneanim default zlc_h66
+
+#MAXANIM ASCII
+newanim die zlc_h66
+  length 0.0333333015
+  transtime 0.25
+  animroot zlc_h66
+node dummy zlc_h66
+  parent NULL
+  #part-number 0
+endnode
+node dummy c06_ground
+  parent zlc_h66
+  #part-number 1
+endnode
+node dummy c06_hand
+  parent zlc_h66
+  #part-number 2
+endnode
+node dummy c06_head
+  parent zlc_h66
+  #part-number 3
+endnode
+node dummy c06_head_hit
+  parent zlc_h66
+  #part-number 4
+endnode
+node dummy c06_impact
+  parent zlc_h66
+  #part-number 5
+endnode
+node trimesh damage101
+  parent zlc_h66
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 0.113957003 -0.373293012 0
+    0.0333333015 0.113957003 -0.373293012 -20.8542995
+endnode
+node dummy plane20
+  parent damage101
+  #part-number 7
+endnode
+node dummy plane451
+  parent damage101
+  #part-number 8
+endnode
+node dummy plane453
+  parent damage101
+  #part-number 9
+endnode
+node dummy plane454
+  parent damage101
+  #part-number 10
+endnode
+node dummy plane455
+  parent damage101
+  #part-number 11
+endnode
+node dummy plane456
+  parent damage101
+  #part-number 12
+endnode
+node dummy plane457
+  parent damage101
+  #part-number 13
+endnode
+node dummy plane458
+  parent damage101
+  #part-number 14
+endnode
+node dummy plane452
+  parent damage101
+  #part-number 15
+endnode
+node dummy zlc_h66_pwk
+  parent zlc_h66
+  #part-number -1
+endnode
+node dummy walkarea
+  parent zlc_h66_pwk
+  #part-number 17
+endnode
+doneanim die zlc_h66
+
+donemodel zlc_h66

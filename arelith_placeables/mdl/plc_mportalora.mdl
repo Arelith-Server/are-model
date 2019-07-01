@@ -1,0 +1,370 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLC_MPortalOra
+filedependancy Unknown
+newmodel PLC_MPortalOra
+setsupermodel PLC_MPortalOra NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom PLC_MPortalOra
+node dummy PLC_MPortalOra
+  parent NULL
+endnode
+node dummy MPortalOra_hand
+  parent PLC_MPortalOra
+  position 0.00398437 -0.505195 0.934402
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+endnode
+node dummy MPortalOra_impact
+  parent PLC_MPortalOra
+  position 0 0 0.868134
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+endnode
+node trimesh Rectangle137
+  parent PLC_MPortalOra
+  position 0.010625 -0.00295166 0
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  render 0
+  Shadow 0
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 8
+    -0.3 -0.3 0.0987959
+    0.3 -0.3 0.0987959
+    0.3 0.3 0.0987959
+    -0.3 0.3 0.0987959
+    -0.3 -0.3 0
+    0.3 -0.3 0
+    0.3 0.3 0
+    -0.3 0.3 0
+  faces 10
+    0 1 2  1  0 0 0  0
+    3 0 2  1  0 0 0  0
+    4 5 1  1  0 0 0  0
+    1 0 4  1  0 0 0  0
+    5 6 2  1  0 0 0  0
+    2 1 5  1  0 0 0  0
+    7 4 0  1  0 0 0  0
+    0 3 7  1  0 0 0  0
+    6 7 3  1  0 0 0  0
+    3 2 6  1  0 0 0  0
+  tverts 1
+    0 0 0
+endnode
+node dummy MPortalOra_head
+  parent PLC_MPortalOra
+  position 0 0 2.1763
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+endnode
+node dummy MPortalOra_head_hit
+  parent PLC_MPortalOra
+  position 0 0 1.69482
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+endnode
+node dummy MPortalOra_ground
+  parent PLC_MPortalOra
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+endnode
+node emitter MPortalOra_Emitter01
+  parent PLC_MPortalOra
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+    colorStart 0.776471 0.439216 0
+    colorEnd 0.933333 0.607843 0.321569
+    alphaStart 1
+    alphaEnd 0.02
+    sizeStart 2
+    sizeEnd 2
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 0
+    birthrate 2
+    spawnType 0
+    lifeExp 3
+    mass 0
+    spread 0
+    particleRot 1
+    velocity 0.77
+    randvel 0
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Billboard_to_Local_Z
+    Blend Lighten
+    update_sel 1
+    render_sel 3
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture Symbolic_Shape
+    xgrid 0
+    ygrid 0
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter MPortalOra_Emitter05
+  parent PLC_MPortalOra
+  position 0 0 0.02
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.605469 0.605469 0.605469
+    colorStart 0.694118 0.309804 0
+    colorEnd 0.964706 0.572549 0.282353
+    alphaStart 0
+    alphaEnd 0.5
+    sizeStart 8
+    sizeEnd 4
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 3
+    birthrate 5
+    spawnType 0
+    lifeExp 2
+    mass 0
+    spread 0
+    particleRot 1
+    velocity 0
+    randvel 0
+    fps 15
+    random 1
+    inherit 0
+    inherit_local 1
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Billboard_to_World_Z
+    Blend Lighten
+    update_sel 1
+    render_sel 4
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_lensflare
+    xgrid 1
+    ygrid 1
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom PLC_MPortalOra
+
+#MAXANIM ASCII
+newanim off2on PLC_MPortalOra
+  length 8.33333
+  transtime 0
+  animroot PLC_MPortalOra
+node dummy PLC_MPortalOra
+  parent NULL
+endnode
+node dummy MPortalOra_hand
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_impact
+  parent PLC_MPortalOra
+endnode
+node trimesh Rectangle137
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_head
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_head_hit
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_ground
+  parent PLC_MPortalOra
+endnode
+node emitter MPortalOra_Emitter01
+  parent PLC_MPortalOra
+    birthratekey
+      0  -2
+      0.0333333  2
+      8.33333  2
+    endlist
+endnode
+node emitter MPortalOra_Emitter05
+  parent PLC_MPortalOra
+endnode
+doneanim off2on PLC_MPortalOra
+
+#MAXANIM ASCII
+newanim on2off PLC_MPortalOra
+  length 8.23333
+  transtime 0
+  animroot PLC_MPortalOra
+node dummy PLC_MPortalOra
+  parent NULL
+endnode
+node dummy MPortalOra_hand
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_impact
+  parent PLC_MPortalOra
+endnode
+node trimesh Rectangle137
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_head
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_head_hit
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_ground
+  parent PLC_MPortalOra
+endnode
+node emitter MPortalOra_Emitter01
+  parent PLC_MPortalOra
+    birthratekey
+      0  -2
+      8.23333  -2
+    endlist
+endnode
+node emitter MPortalOra_Emitter05
+  parent PLC_MPortalOra
+endnode
+doneanim on2off PLC_MPortalOra
+
+#MAXANIM ASCII
+newanim off PLC_MPortalOra
+  length 0.0333333
+  transtime 0
+  animroot PLC_MPortalOra
+node dummy PLC_MPortalOra
+  parent NULL
+endnode
+node dummy MPortalOra_hand
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_impact
+  parent PLC_MPortalOra
+endnode
+node trimesh Rectangle137
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_head
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_head_hit
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_ground
+  parent PLC_MPortalOra
+endnode
+node emitter MPortalOra_Emitter01
+  parent PLC_MPortalOra
+    birthratekey
+      0  -2
+      0.0333333  -2
+    endlist
+endnode
+node emitter MPortalOra_Emitter05
+  parent PLC_MPortalOra
+endnode
+doneanim off PLC_MPortalOra
+
+#MAXANIM ASCII
+newanim on PLC_MPortalOra
+  length 0.0333333
+  transtime 0
+  animroot PLC_MPortalOra
+node dummy PLC_MPortalOra
+  parent NULL
+endnode
+node dummy MPortalOra_hand
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_impact
+  parent PLC_MPortalOra
+endnode
+node trimesh Rectangle137
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_head
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_head_hit
+  parent PLC_MPortalOra
+endnode
+node dummy MPortalOra_ground
+  parent PLC_MPortalOra
+endnode
+node emitter MPortalOra_Emitter01
+  parent PLC_MPortalOra
+    birthratekey
+      0  2
+      0.0333333  2
+    endlist
+endnode
+node emitter MPortalOra_Emitter05
+  parent PLC_MPortalOra
+endnode
+doneanim on PLC_MPortalOra
+donemodel PLC_MPortalOra

@@ -1,0 +1,30 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLV_WBG
+filedependancy Unknown
+node trimesh PLV_WBG_wg
+  parent PLV_WBG_pwk
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+  ambient 0 0 0
+  diffuse 0.705882 0 1
+  specular 0 0 0
+  shininess 11
+  bitmap NULL
+  verts 4
+    -0.999999 -0.355197 0
+    0.999999 -0.355197 0
+    -1 0.350359 0
+    1 0.350359 0
+  faces 2
+    3 0 1  1  0 0 0  7
+    2 0 3  1  0 0 0  7
+endnode
+node dummy WBG_pwk_use01
+  parent PLV_WBG_pwk
+  position 0 -0.851951 0.0294646
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+endnode

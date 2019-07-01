@@ -1,0 +1,864 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLV_UT2
+filedependancy Unknown
+newmodel PLV_UT2
+setsupermodel PLV_UT2 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom PLV_UT2
+node dummy PLV_UT2
+  parent NULL
+endnode
+node dummy UT2_hand
+  parent PLV_UT2
+  position 0.003989 -0.505195 0.734439
+  orientation 0 0 0 0
+  wirecolor 0.839844 0.839844 0.839844
+endnode
+node dummy UT2_head
+  parent PLV_UT2
+  position 0.003989 0.010825 0.900655
+  orientation 0 0 0 0
+  wirecolor 0.839844 0.839844 0.839844
+endnode
+node dummy UT2_head_hit
+  parent PLV_UT2
+  position 0.003989 0.010825 0.806779
+  orientation 0 0 0 0
+  wirecolor 0.839844 0.839844 0.839844
+endnode
+node dummy UT2_impact
+  parent PLV_UT2
+  position 0.003989 0.011001 0.58331
+  orientation 0 0 0 0
+  wirecolor 0.839844 0.839844 0.839844
+endnode
+node dummy UT2_ground
+  parent PLV_UT2
+  position -0.003633 0.006987 0
+  orientation 0 0 0 0
+  wirecolor 0.839844 0.839844 0.839844
+endnode
+node trimesh damage08
+  parent PLV_UT2
+  position 0.014752 0.014497 0
+  orientation 0 0 0 0
+  wirecolor 0.226563 0.226563 0.226563
+  ambient 0.070588 0 1
+  diffuse 1 0.501961 0.643137
+  specular 0 0 0
+  shininess 25
+  bitmap NULL
+  render 0
+  Shadow 1
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 12
+    -0.195415 -0.186216 0
+    -0.195415 0.186216 0
+    0.195415 0.186216 0
+    0.195415 -0.186216 0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.099051 0.25
+    -0.103944 -0.099051 0.25
+    0.103944 0.099051 0.25
+    -0.103944 0.099051 0.25
+  faces 20
+    0 1 2  1  0 0 0  2
+    2 3 0  1  0 0 0  2
+    4 5 6  1  0 0 0  1
+    6 7 4  1  0 0 0  1
+    0 3 8  1  0 0 0  5
+    8 9 0  1  0 0 0  5
+    9 8 5  1  0 0 0  5
+    5 4 9  1  0 0 0  5
+    3 2 10  1  0 0 0  4
+    10 8 3  1  0 0 0  4
+    8 10 6  1  0 0 0  4
+    6 5 8  1  0 0 0  4
+    2 1 11  1  0 0 0  6
+    11 10 2  1  0 0 0  6
+    10 11 7  1  0 0 0  6
+    7 6 10  1  0 0 0  6
+    1 0 9  1  0 0 0  3
+    9 11 1  1  0 0 0  3
+    11 9 4  1  0 0 0  3
+    4 7 11  1  0 0 0  3
+endnode
+node trimesh TableTop
+  parent damage08
+  position -0.014752 -0.014497 0.456881
+  orientation 0 0 0 0
+  wirecolor 0.542969 0.542969 0.542969
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap sp_ttu_stonegld
+  render 1
+  Shadow 1
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 32
+    -0.000583334 0.398052 0.19488
+    -0.50783 0.369753 0.316125
+    -0.000583334 0.398052 0.316125
+    -0.50783 0.369753 0.19488
+    -0.945043 0.28405 0.316125
+    -0.945043 0.28405 0.19488
+    -1.23467 0.150197 0.316125
+    -1.23467 0.150197 0.19488
+    -1.30504 0.00511706 0.316125
+    -1.30504 0.00511706 0.19488
+    -1.22826 -0.152059 0.316125
+    -1.22826 -0.152059 0.19488
+    -0.941035 -0.278964 0.316125
+    -0.941035 -0.278964 0.19488
+    -0.510038 -0.368078 0.316125
+    -0.510038 -0.368078 0.19488
+    -0.00486318 -0.398052 0.316125
+    -0.00486318 -0.398052 0.19488
+    0.504591 0.368078 0.316125
+    0.504591 0.368078 0.19488
+    0.941035 0.28735 0.316125
+    0.941035 0.28735 0.19488
+    1.22281 0.152059 0.316125
+    1.22281 0.152059 0.19488
+    1.30504 0.00326969 0.316125
+    1.30504 0.00326969 0.19488
+    1.22922 -0.150197 0.316125
+    1.22922 -0.150197 0.19488
+    0.939596 -0.28405 0.316125
+    0.939596 -0.28405 0.19488
+    0.50783 -0.361366 0.316125
+    0.50783 -0.361366 0.19488
+  faces 46
+    0 1 2  1  0 1 2  3
+    0 3 1  1  0 3 1  3
+    3 4 1  1  3 4 1  3
+    3 5 4  1  3 5 4  3
+    5 6 4  1  5 6 4  3
+    5 7 6  1  5 7 6  3
+    7 8 6  1  8 9 6  3
+    7 9 8  1  8 10 9  3
+    9 10 8  1  10 11 9  3
+    9 11 10  1  10 12 11  3
+    11 12 10  1  13 14 15  3
+    11 13 12  1  13 16 14  3
+    13 14 12  1  16 17 14  3
+    13 15 14  1  16 18 17  3
+    15 16 14  1  18 19 17  3
+    15 17 16  1  18 20 19  3
+    2 1 4  1  2 1 4  1
+    2 4 6  1  2 4 6  1
+    2 6 8  1  2 6 9  1
+    2 8 10  1  2 9 11  1
+    2 10 12  1  2 11 21  1
+    2 12 14  1  2 21 22  1
+    2 14 16  1  2 22 23  1
+    18 0 2  1  1 0 2  3
+    19 0 18  1  3 0 1  3
+    20 19 18  1  4 3 1  3
+    21 19 20  1  5 3 4  3
+    22 21 20  1  6 5 4  3
+    23 21 22  1  7 5 6  3
+    24 23 22  1  9 8 6  3
+    25 23 24  1  10 8 9  3
+    26 25 24  1  11 10 9  3
+    27 25 26  1  12 10 11  3
+    28 27 26  1  14 13 15  3
+    29 27 28  1  16 13 14  3
+    30 29 28  1  17 16 14  3
+    31 29 30  1  18 16 17  3
+    16 31 30  1  19 18 17  3
+    17 31 16  1  20 18 19  3
+    18 2 20  1  1 2 4  1
+    20 2 22  1  4 2 6  1
+    22 2 24  1  6 2 9  1
+    24 2 26  1  9 2 11  1
+    26 2 28  1  11 2 21  1
+    28 2 30  1  21 2 22  1
+    30 2 16  1  22 2 23  1
+  tverts 38
+    0.0990525 0.251701 0
+    0.310208 0.545248 0
+    0.0783302 0.313295 0
+    0.33093 0.483654 0
+    0.545838 0.708533 0
+    0.566561 0.646938 0
+    0.749349 0.77829 0
+    0.770072 0.716696 0
+    0.749349 0.710657 0
+    0.878878 0.731162 0
+    0.845722 0.693287 0
+    0.945689 0.610601 0
+    0.912533 0.561905 0
+    0.776508 0.359056 0
+    1.0906 0.238217 0
+    0.777867 0.306764 0
+    1.08924 0.290509 0
+    0.804264 0.224316 0
+    0.802905 0.276608 0
+    0.4791 0.267178 0
+    0.47774 0.31947 0
+    0.908626 0.398682 0
+    0.784213 0.140409 0
+    0.59139 -0.124899 0
+    -0.00184141 0.726077 0
+    0.012438 0.203441 0
+    0.21641 0.249651 0
+    0.201555 0.613727 0
+    -0.140438 0.0455213 0
+    0.166148 0.169395 0
+    -0.0351251 0.226212 0
+    0.207765 0.690565 0
+    -0.00123347 0.589014 0
+    0.154377 0.556699 0
+    0.0656114 1.00532 0
+    -0.0734137 0.942023 0
+    -0.0496632 0.667877 0
+    0.178143 0.88631 0
+endnode
+node trimesh LegL
+  parent TableTop
+  position 0.611916 0.00335614 -0.245
+  orientation 0 0 0 0
+  wirecolor 0.695313 0.695313 0.695313
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap sp_ttu_stonegld
+  render 1
+  Shadow 1
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 14
+    -0.0770528 0.154286 0.489438
+    -0.419071 -0.00516115 0.489438
+    0.418532 -0.000620062 0.489438
+    -0.0760849 -0.156357 0.489438
+    -0.107324 0.364722 -0.205
+    -0.419071 -0.00516116 0.0465316
+    -0.0770528 0.154286 0.0465316
+    0.610893 0.148703 -0.205
+    0.418532 -0.00062007 0.0465316
+    0.617307 -0.153553 -0.205
+    -0.104086 -0.364722 -0.205
+    -0.0760849 -0.156357 0.0465316
+    -0.617007 0.0756662 -0.205
+    -0.617307 -0.0823785 -0.205
+  faces 20
+    0 1 2  1  11 10 12  1
+    2 1 3  1  12 10 13  1
+    4 5 6  1  15 14 16  1
+    5 4 12  1  14 15 39  1
+    7 4 8  1  18 17 19  1
+    6 8 4  1  20 19 17  1
+    9 7 8  1  22 21 23  1
+    10 9 11  1  24 22 25  1
+    8 11 9  1  23 25 22  1
+    13 10 5  1  40 26 27  1
+    11 5 10  1  28 27 26  1
+    12 13 5  1  39 41 14  1
+    6 5 0  1  30 29 31  1
+    1 0 5  1  32 31 29  1
+    8 6 2  1  34 33 35  1
+    0 2 6  1  36 35 33  1
+    11 8 3  1  37 34 38  1
+    2 3 8  1  35 38 34  1
+    5 11 1  1  29 37 32  1
+    3 1 11  1  38 32 37  1
+  tverts 42
+    1.0906 0.238217 0
+    0.777867 0.306764 0
+    1.08924 0.290509 0
+    0.804264 0.224316 0
+    0.802905 0.276608 0
+    0.4791 0.267178 0
+    0.47774 0.31947 0
+    0.908626 0.398682 0
+    0.784213 0.140409 0
+    0.59139 -0.124899 0
+    0.424479 0.5 0
+    0.295672 0.693459 0
+    0.104814 0.500003 0
+    0.295672 0.306542 0
+    0.192727 0.734253 0
+    0.00646131 0.327229 0
+    0.197762 0.459125 0
+    -0.00184141 0.726077 0
+    0.012438 0.203441 0
+    0.21641 0.249651 0
+    0.201555 0.613727 0
+    -0.140438 0.0455213 0
+    0.166148 0.169395 0
+    -0.0351251 0.226212 0
+    0.207765 0.690565 0
+    -0.00123347 0.589014 0
+    0.154377 0.556699 0
+    -0.0734137 0.942023 0
+    -0.0496632 0.667877 0
+    0.741721 0.760104 0
+    0.746045 0.264657 0
+    1.10799 0.267816 0
+    1.10366 0.763263 0
+    0.745802 0.29246 0
+    0.741709 0.761446 0
+    1.10365 0.764604 0
+    1.10775 0.295619 0
+    0.74602 0.267456 0
+    1.10796 0.270615 0
+    0.0478473 0.782669 0
+    0.0656114 1.00532 0
+    0.178143 0.88631 0
+endnode
+node trimesh LegR
+  parent TableTop
+  position -0.619883 0.000837266 -0.245
+  orientation 0 0 0 0
+  wirecolor 0.695313 0.695313 0.695313
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0.05 0.05 0.05
+  shininess 26
+  bitmap sp_ttu_stonegld
+  render 1
+  Shadow 1
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 14
+    0.421592 0.000967794 0.485011
+    0.0840522 0.160551 0.485011
+    -0.416011 -0.00357328 0.485011
+    0.08502 -0.150092 0.485011
+    0.421592 0.000967786 0.0547623
+    0.112053 0.368916 -0.205
+    0.0840522 0.160551 0.0547623
+    0.614786 0.0781851 -0.205
+    -0.614786 0.14936 -0.205
+    -0.416011 -0.00357329 0.0547623
+    -0.608372 -0.152896 -0.205
+    0.109845 -0.368916 -0.205
+    0.08502 -0.150092 0.0547623
+    0.614445 -0.0798596 -0.205
+  faces 20
+    0 1 2  1  24 25 26  1
+    0 2 3  1  24 26 27  1
+    4 5 6  1  28 29 30  1
+    5 4 7  1  29 28 31  1
+    5 8 9  1  32 33 34  1
+    9 6 5  1  34 35 32  1
+    8 10 9  1  36 37 38  1
+    10 11 12  1  37 39 40  1
+    12 9 10  1  40 38 37  1
+    11 13 4  1  41 42 43  1
+    4 12 11  1  43 44 41  1
+    13 7 4  1  45 31 28  1
+    4 6 1  1  46 47 48  1
+    1 0 4  1  48 49 46  1
+    6 9 2  1  50 51 52  1
+    2 1 6  1  52 53 50  1
+    9 12 3  1  51 54 55  1
+    3 2 9  1  55 52 51  1
+    12 4 0  1  54 46 49  1
+    0 3 12  1  49 55 54  1
+  tverts 56
+    0.0990525 0.251701 0
+    0.310208 0.545248 0
+    0.0783302 0.313295 0
+    0.33093 0.483654 0
+    0.545838 0.708533 0
+    0.566561 0.646938 0
+    0.749349 0.77829 0
+    0.770072 0.716696 0
+    0.749349 0.710657 0
+    0.878878 0.731162 0
+    0.845722 0.693287 0
+    0.945689 0.610601 0
+    0.912533 0.561905 0
+    0.776508 0.359056 0
+    1.0906 0.238217 0
+    0.777867 0.306764 0
+    1.08924 0.290509 0
+    0.804264 0.224316 0
+    0.802905 0.276608 0
+    0.4791 0.267178 0
+    0.47774 0.31947 0
+    0.908626 0.398682 0
+    0.784213 0.140409 0
+    0.59139 -0.124899 0
+    0.424479 0.5 0
+    0.295672 0.693459 0
+    0.104814 0.500003 0
+    0.295672 0.306542 0
+    0.192727 0.734253 0
+    0.00646131 0.327229 0
+    0.197762 0.459125 0
+    0.0478473 0.782669 0
+    -0.00184141 0.726077 0
+    0.012438 0.203441 0
+    0.21641 0.249651 0
+    0.201555 0.613727 0
+    -0.140438 0.0455213 0
+    0.166148 0.169395 0
+    -0.0351251 0.226212 0
+    0.207765 0.690565 0
+    -0.00123347 0.589014 0
+    0.154377 0.556699 0
+    0.0656114 1.00532 0
+    -0.0734137 0.942023 0
+    -0.0496632 0.667877 0
+    0.178143 0.88631 0
+    0.741721 0.760104 0
+    0.746045 0.264657 0
+    1.10799 0.267816 0
+    1.10366 0.763263 0
+    0.745802 0.29246 0
+    0.741709 0.761446 0
+    1.10365 0.764604 0
+    1.10775 0.295619 0
+    0.74602 0.267456 0
+    1.10796 0.270615 0
+endnode
+node emitter ChunkyWood70
+  parent PLV_UT2
+  position 0.013185 0.022652 0.373465
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+    colorStart 0.701961 0.67451 0.603922
+    colorEnd 0.854902 0.847059 0.82353
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 2.9
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter fire!42
+  parent PLV_UT2
+  position 0.013185 -0.025341 0.532671
+  orientation -1 0 0 -1.5708
+  wirecolor 0.0351563 0.0351563 0.0351563
+    colorStart 0.415686 0.403922 0.376471
+    colorEnd 0.682353 0.678431 0.662745
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 4
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 10
+    spawnType 0
+    lifeExp 2.5
+    mass 0.09
+    spread 2.96706
+    particleRot 0.5
+    velocity 2
+    randvel 0.5
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0.2
+    blastLength 1
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 1
+    renderorder 0
+    Splat 0
+endnode
+node emitter ChunkyWood71
+  parent PLV_UT2
+  position 0.013185 0.022652 0.267244
+  orientation 0 0 0 0
+  wirecolor 0.0351563 0.0351563 0.0351563
+    colorStart 1 1 1
+    colorEnd 1 1 1
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 5
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom PLV_UT2
+
+#MAXANIM ASCII
+newanim damage PLV_UT2
+  length 0.133333
+  transtime 0
+  animroot PLV_UT2
+node dummy PLV_UT2
+  parent NULL
+endnode
+node dummy UT2_hand
+  parent PLV_UT2
+endnode
+node dummy UT2_head
+  parent PLV_UT2
+endnode
+node dummy UT2_head_hit
+  parent PLV_UT2
+endnode
+node dummy UT2_impact
+  parent PLV_UT2
+endnode
+node dummy UT2_ground
+  parent PLV_UT2
+endnode
+node trimesh damage08
+  parent PLV_UT2
+    positionkey
+      0  0.014752 0.014497 0
+      0.0333333  0.014752 0.014497 0.024458
+      0.133333  0.014752 0.014497 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+      0.0333333  -0.371336 0.928463 -0.008103 0.0469942
+      0.1  0.599949 -0.79997 -0.010472 0.0436321
+      0.133333  0 0 0 0
+    endlist
+endnode
+node trimesh TableTop
+  parent damage08
+endnode
+node trimesh LegL
+  parent TableTop
+endnode
+node trimesh LegR
+  parent TableTop
+endnode
+node emitter ChunkyWood70
+  parent PLV_UT2
+endnode
+node emitter fire!42
+  parent PLV_UT2
+endnode
+node emitter ChunkyWood71
+  parent PLV_UT2
+endnode
+node trimesh PLV_UT2_wg
+  parent PLV_UT2
+endnode
+doneanim damage PLV_UT2
+
+#MAXANIM ASCII
+newanim die PLV_UT2
+  length 0.166667
+  transtime 0
+  animroot PLV_UT2
+node dummy PLV_UT2
+  parent NULL
+endnode
+node dummy UT2_hand
+  parent PLV_UT2
+endnode
+node dummy UT2_head
+  parent PLV_UT2
+endnode
+node dummy UT2_head_hit
+  parent PLV_UT2
+endnode
+node dummy UT2_impact
+  parent PLV_UT2
+endnode
+node dummy UT2_ground
+  parent PLV_UT2
+endnode
+node trimesh damage08
+  parent PLV_UT2
+    positionkey
+      0  0.014752 0.014497 0
+      0.166667  0.014752 0.014497 -3.77999
+    endlist
+    orientationkey
+      0  0 0 0 0
+    endlist
+endnode
+node trimesh TableTop
+  parent damage08
+endnode
+node trimesh LegL
+  parent TableTop
+endnode
+node trimesh LegR
+  parent TableTop
+endnode
+node emitter ChunkyWood70
+  parent PLV_UT2
+endnode
+node emitter fire!42
+  parent PLV_UT2
+endnode
+node emitter ChunkyWood71
+  parent PLV_UT2
+endnode
+node trimesh PLV_UT2_wg
+  parent PLV_UT2
+endnode
+event 0  detonate
+event 0  detonate
+event 0  detonate
+doneanim die PLV_UT2
+
+#MAXANIM ASCII
+newanim dead PLV_UT2
+  length 0.0333333
+  transtime 0
+  animroot PLV_UT2
+node dummy PLV_UT2
+  parent NULL
+endnode
+node dummy UT2_hand
+  parent PLV_UT2
+endnode
+node dummy UT2_head
+  parent PLV_UT2
+endnode
+node dummy UT2_head_hit
+  parent PLV_UT2
+endnode
+node dummy UT2_impact
+  parent PLV_UT2
+endnode
+node dummy UT2_ground
+  parent PLV_UT2
+endnode
+node trimesh damage08
+  parent PLV_UT2
+    positionkey
+      0  0.014752 0.014497 -3.77999
+      0.0333333  0.014752 0.014497 -3.77999
+    endlist
+endnode
+node trimesh TableTop
+  parent damage08
+endnode
+node trimesh LegL
+  parent TableTop
+endnode
+node trimesh LegR
+  parent TableTop
+endnode
+node emitter ChunkyWood70
+  parent PLV_UT2
+endnode
+node emitter fire!42
+  parent PLV_UT2
+endnode
+node emitter ChunkyWood71
+  parent PLV_UT2
+endnode
+node trimesh PLV_UT2_wg
+  parent PLV_UT2
+endnode
+doneanim dead PLV_UT2
+
+#MAXANIM ASCII
+newanim default PLV_UT2
+  length 0
+  transtime 0.25
+  animroot PLV_UT2
+node dummy PLV_UT2
+  parent NULL
+endnode
+node dummy UT2_hand
+  parent PLV_UT2
+endnode
+node dummy UT2_head
+  parent PLV_UT2
+endnode
+node dummy UT2_head_hit
+  parent PLV_UT2
+endnode
+node dummy UT2_impact
+  parent PLV_UT2
+endnode
+node dummy UT2_ground
+  parent PLV_UT2
+endnode
+node trimesh damage08
+  parent PLV_UT2
+    positionkey
+      0  0.014752 0.014497 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+    endlist
+endnode
+node trimesh TableTop
+  parent damage08
+endnode
+node trimesh LegL
+  parent TableTop
+endnode
+node trimesh LegR
+  parent TableTop
+endnode
+node emitter ChunkyWood70
+  parent PLV_UT2
+endnode
+node emitter fire!42
+  parent PLV_UT2
+endnode
+node emitter ChunkyWood71
+  parent PLV_UT2
+endnode
+node trimesh PLV_UT2_wg
+  parent PLV_UT2
+endnode
+doneanim default PLV_UT2
+donemodel PLV_UT2

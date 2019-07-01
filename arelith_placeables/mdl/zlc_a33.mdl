@@ -1,0 +1,104 @@
+#MAXMODEL ASCII
+# model: zlc_a33
+filedependancy zlc_a33.max
+newmodel zlc_a33
+setsupermodel zlc_a33 null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom zlc_a33
+node dummy zlc_a33
+  parent NULL
+  #part-number 0
+endnode
+node trimesh box01
+  parent zlc_a33
+  #part-number 1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 12
+  shadow 0
+  bitmap fp_marble
+  verts 8
+    0.339464009 0.339464009 0
+    0.339464009 -0.339464009 0
+    -0.339464009 -0.339464009 0
+    -0.339464009 0.339464009 0
+    0.339464009 0.339464009 0.0339463986
+    -0.339464009 0.339464009 0.0339463986
+    -0.339464009 -0.339464009 0.0339463986
+    0.339464009 -0.339464009 0.0339463986
+  tverts 8
+    0.769024014 0.769024014 0
+    0.769024014 2.23097992 0
+    2.23097992 2.23097992 0
+    2.23097992 0.769024014 0
+    2.23097992 0.769024014 0
+    0.769024014 0.769024014 0
+    2.23097992 2.23097992 0
+    0.769024014 2.23097992 0
+  faces 12
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 6 1 0 3 2 65536
+    6 7 4 1 2 1 0 65536
+    0 3 5 2 0 3 4 4
+    5 4 0 2 3 0 5 4
+    3 2 6 4 3 2 6 3
+    6 5 3 4 2 3 4 3
+    2 1 7 2 2 1 7 5
+    7 6 2 2 1 2 6 5
+    1 0 4 4 1 0 5 2
+    4 7 1 4 0 1 7 2
+  position -0.00152907998 0 0.00406830013
+  orientation 0 0 -1 -0.785398006
+  scale 1
+  setfillumcolor 0 0 0
+  alpha 1
+endnode
+node trimesh box02
+  parent zlc_a33
+  #part-number 2
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 12
+  shadow 0
+  bitmap fp_checker
+  verts 8
+    0.20826 0.20826 0
+    0.20826 -0.20826 0
+    -0.20826 -0.20826 0
+    -0.20826 0.20826 0
+    0.20826 0.20826 0.0208260007
+    -0.20826 0.20826 0.0208260007
+    -0.20826 -0.20826 0.0208260007
+    0.20826 -0.20826 0.0208260007
+  tverts 4
+    0 0 0
+    1 0 0
+    1 1 0
+    0 1 0
+  faces 12
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 6 1 0 1 2 65536
+    6 7 4 1 2 3 0 65536
+    0 3 5 2 0 1 2 4
+    5 4 0 2 2 3 0 4
+    3 2 6 4 0 1 2 3
+    6 5 3 4 2 3 0 3
+    2 1 7 2 0 1 2 5
+    7 6 2 2 2 3 0 5
+    1 0 4 4 0 1 2 2
+    4 7 1 4 2 3 0 2
+  position -0.00152907998 0 0.0184713006
+  orientation 0 0 -1 -0.785398006
+  scale 1
+  setfillumcolor 0 0 0
+  alpha 1
+endnode
+endmodelgeom zlc_a33
+
+donemodel zlc_a33

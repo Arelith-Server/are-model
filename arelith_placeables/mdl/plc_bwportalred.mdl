@@ -1,0 +1,404 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLC_BWPORTALRED
+filedependancy Unknown
+newmodel PLC_BWPORTALRED
+setsupermodel PLC_BWPORTALRED NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom PLC_BWPORTALRED
+node dummy PLC_BWPORTALRED
+  parent NULL
+endnode
+node dummy BWPORTALRED_hand
+  parent PLC_BWPORTALRED
+  position 0.00398926 -0.505195 0.934402
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+endnode
+node dummy BWPORTALRED_head
+  parent PLC_BWPORTALRED
+  position 0.00398926 0.0108252 2.1763
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+endnode
+node dummy BWPORTALRED_head_hit
+  parent PLC_BWPORTALRED
+  position 0.00398926 0.0108252 1.69482
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+endnode
+node dummy BWPORTALRED_impact
+  parent PLC_BWPORTALRED
+  position 0.00398926 0.011001 0.868134
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+endnode
+node dummy BWPORTALRED_ground
+  parent PLC_BWPORTALRED
+  position -0.00363281 0.0069873 0
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+endnode
+node trimesh Box54
+  parent PLC_BWPORTALRED
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  render 0
+  Shadow 0
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 8
+    -0.25 -0.25 0
+    -0.25 0.25 0
+    0.25 0.25 0
+    0.25 -0.25 0
+    -0.25 -0.25 0.1
+    0.25 -0.25 0.1
+    0.25 0.25 0.1
+    -0.25 0.25 0.1
+  faces 12
+    0 1 2  1  0 0 0  0
+    2 3 0  1  0 0 0  0
+    4 5 6  1  0 0 0  0
+    6 7 4  1  0 0 0  0
+    0 3 5  1  0 0 0  0
+    5 4 0  1  0 0 0  0
+    3 2 6  1  0 0 0  0
+    6 5 3  1  0 0 0  0
+    2 1 7  1  0 0 0  0
+    7 6 2  1  0 0 0  0
+    1 0 4  1  0 0 0  0
+    4 7 1  1  0 0 0  0
+  tverts 1
+    0 0 0
+endnode
+node emitter BWPortal_Emitter262
+  parent PLC_BWPORTALRED
+  position 0.0302332 0.0504858 -0.00731155
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.601563 0.601563 0.601563
+    colorStart 0.898039 0.262745 0.176471
+    colorEnd 0.890196 0.262745 0.176471
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 1
+    sizeEnd 0
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 3
+    birthrate 10
+    spawnType 0
+    lifeExp 1
+    mass -0.5
+    spread 0
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 5
+    random 1
+    inherit 0
+    inherit_local 1
+    inherit_part 0
+    inheritvel 0
+    xsize 50
+    ysize 20
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_StarBnW
+    xgrid 2
+    ygrid 2
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter BWPortal_Emitter263
+  parent PLC_BWPORTALRED
+  position -0.00924194 0.0137012 0.02
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.601563 0.601563 0.601563
+    colorStart 0.882353 0.258824 0.176471
+    colorEnd 0.886275 0.227451 0.176471
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 1.5
+    sizeEnd 2
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 3
+    birthrate 3
+    spawnType 0
+    lifeExp 1
+    mass 0
+    spread 0
+    particleRot 0
+    velocity 1
+    randvel 0
+    fps 15
+    random 1
+    inherit 0
+    inherit_local 1
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Billboard_to_World_Z
+    Blend Lighten
+    update_sel 1
+    render_sel 4
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_ring02
+    xgrid 1
+    ygrid 1
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter BWPortal_Emitter268
+  parent PLC_BWPORTALRED
+  position -0.00924194 0.0137012 0.02
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.601563 0.601563 0.601563
+    colorStart 0.882353 0.207843 0.176471
+    colorEnd 0.886275 0.227451 0.176471
+    alphaStart 0
+    alphaEnd 0.5
+    sizeStart 8
+    sizeEnd 4
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 3
+    birthrate 5
+    spawnType 0
+    lifeExp 2
+    mass 0
+    spread 0
+    particleRot 1
+    velocity 0
+    randvel 0
+    fps 15
+    random 1
+    inherit 0
+    inherit_local 1
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Billboard_to_World_Z
+    Blend Lighten
+    update_sel 1
+    render_sel 4
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_lensflare
+    xgrid 1
+    ygrid 1
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom PLC_BWPORTALRED
+
+#MAXANIM ASCII
+newanim on PLC_BWPORTALRED
+  length 0.0333333
+  transtime 0.25
+  animroot PLC_BWPORTALRED
+node dummy PLC_BWPORTALRED
+  parent NULL
+endnode
+node dummy BWPORTALRED_hand
+  parent PLC_BWPORTALRED
+endnode
+node dummy BWPORTALRED_head
+  parent PLC_BWPORTALRED
+endnode
+node dummy BWPORTALRED_head_hit
+  parent PLC_BWPORTALRED
+endnode
+node dummy BWPORTALRED_impact
+  parent PLC_BWPORTALRED
+endnode
+node dummy BWPORTALRED_ground
+  parent PLC_BWPORTALRED
+endnode
+node trimesh Box54
+  parent PLC_BWPORTALRED
+endnode
+node emitter BWPortal_Emitter262
+  parent PLC_BWPORTALRED
+    birthratekey
+      0  10
+      0.0333333  10
+    endlist
+endnode
+node emitter BWPortal_Emitter263
+  parent PLC_BWPORTALRED
+    birthratekey
+      0  3
+      0.0333333  3
+    endlist
+endnode
+node emitter BWPortal_Emitter268
+  parent PLC_BWPORTALRED
+endnode
+doneanim on PLC_BWPORTALRED
+
+#MAXANIM ASCII
+newanim off PLC_BWPORTALRED
+  length 0
+  transtime 0.25
+  animroot PLC_BWPORTALRED
+node dummy PLC_BWPORTALRED
+  parent NULL
+endnode
+node dummy BWPORTALRED_hand
+  parent PLC_BWPORTALRED
+endnode
+node dummy BWPORTALRED_head
+  parent PLC_BWPORTALRED
+endnode
+node dummy BWPORTALRED_head_hit
+  parent PLC_BWPORTALRED
+endnode
+node dummy BWPORTALRED_impact
+  parent PLC_BWPORTALRED
+endnode
+node dummy BWPORTALRED_ground
+  parent PLC_BWPORTALRED
+endnode
+node trimesh Box54
+  parent PLC_BWPORTALRED
+endnode
+node emitter BWPortal_Emitter262
+  parent PLC_BWPORTALRED
+endnode
+node emitter BWPortal_Emitter263
+  parent PLC_BWPORTALRED
+endnode
+node emitter BWPortal_Emitter268
+  parent PLC_BWPORTALRED
+endnode
+doneanim off PLC_BWPORTALRED
+
+#MAXANIM ASCII
+newanim default PLC_BWPORTALRED
+  length 0
+  transtime 0.25
+  animroot PLC_BWPORTALRED
+node dummy PLC_BWPORTALRED
+  parent NULL
+endnode
+node dummy BWPORTALRED_hand
+  parent PLC_BWPORTALRED
+endnode
+node dummy BWPORTALRED_head
+  parent PLC_BWPORTALRED
+endnode
+node dummy BWPORTALRED_head_hit
+  parent PLC_BWPORTALRED
+endnode
+node dummy BWPORTALRED_impact
+  parent PLC_BWPORTALRED
+endnode
+node dummy BWPORTALRED_ground
+  parent PLC_BWPORTALRED
+endnode
+node trimesh Box54
+  parent PLC_BWPORTALRED
+endnode
+node emitter BWPortal_Emitter262
+  parent PLC_BWPORTALRED
+endnode
+node emitter BWPortal_Emitter263
+  parent PLC_BWPORTALRED
+endnode
+node emitter BWPortal_Emitter268
+  parent PLC_BWPORTALRED
+endnode
+doneanim default PLC_BWPORTALRED
+donemodel PLC_BWPORTALRED
