@@ -1,0 +1,542 @@
+# Exported from NWmax 0.8 b46 at 3/13/2012 3:13:29 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: plc_x0_DKSa
+filedependancy Unknown
+newmodel plc_x0_DKSa
+setsupermodel plc_x0_DKSa NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom plc_x0_DKSa
+node dummy plc_x0_DKSa
+  parent NULL
+endnode
+node trimesh damage28
+  parent plc_x0_DKSa
+  position 0.0008 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0705882 0.0 1.0 
+  diffuse 1.0 0.501961 0.643137 
+  specular 0.0 0.0 0.0 
+  shininess 24
+  center 0.0 0.0 25.0 
+  bitmap NULL
+  verts 12
+    -0.195415 -0.186216 0.0
+    -0.195415 0.186216 0.0
+    0.195415 0.186216 0.0
+    0.195415 -0.186216 0.0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 0.0990513 0.25
+  faces 20
+    0 1 2  1  0 1 2  0
+    2 3 0  1  0 1 2  0
+    4 5 6  1  0 1 2  0
+    6 7 4  1  0 1 2  0
+    0 3 8  1  0 1 2  0
+    8 9 0  1  0 1 2  0
+    9 8 5  1  0 1 2  0
+    5 4 9  1  0 1 2  0
+    3 2 10  1  0 1 2  0
+    10 8 3  1  0 1 2  0
+    8 10 6  1  0 1 2  0
+    6 5 8  1  0 1 2  0
+    2 1 11  1  0 1 2  0
+    11 10 2  1  0 1 2  0
+    10 11 7  1  0 1 2  0
+    7 6 10  1  0 1 2  0
+    1 0 9  1  0 1 2  0
+    9 11 1  1  0 1 2  0
+    11 9 4  1  0 1 2  0
+    4 7 11  1  0 1 2  0
+  tverts 3
+    0.0 0.0 0
+    0.0 0.0 0
+    0.0 0.0 0
+endnode
+node emitter ChunkyWood108
+  parent plc_x0_DKSa
+  position -0.00077 0.0 0.606715
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName PLC_Chunk_S01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter fire!65
+  parent plc_x0_DKSa
+  position -0.00077 0.0 0.532671
+  orientation 1.0 0.0 0.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.431373 0.329412 
+  colorEnd 0.819608 0.772549 0.584314 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood109
+  parent plc_x0_DKSa
+  position -0.00077 0.0 0.712937
+  orientation 1.0 0.0 0.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.482353 0.435294 0.317647 
+  colorEnd 0.584314 0.533333 0.407843 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 2
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName PLC_Chunk_S02
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node trimesh Desk
+  parent plc_x0_DKSa
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0531006 -0.344902 50.0 
+  bitmap tni02_furnat01
+  verts 16
+    0.852944 -0.757421 1.0
+    0.851882 0.749131 1.0
+    -0.845704 0.750523 1.0
+    -0.851882 -0.749131 1.0
+    0.852944 -0.757421 0.0
+    0.851882 0.749131 0.0
+    0.775661 0.68363 0.12
+    0.773305 -0.681542 0.12
+    0.775661 0.68363 0.88
+    0.773305 -0.681542 0.88
+    -0.845704 0.750523 0.0
+    -0.773305 0.681542 0.12
+    -0.773305 0.681542 0.88
+    -0.851882 -0.749131 0.0
+    -0.775661 -0.68363 0.12
+    -0.775661 -0.68363 0.88
+  faces 26
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    4 5 6  1  4 5 6  0
+    6 7 4  1  6 7 4  0
+    7 6 8  1  7 6 8  0
+    8 9 7  1  8 9 7  0
+    9 8 1  1  9 8 10  0
+    1 0 9  1  10 11 9  0
+    5 10 11  1  5 4 7  0
+    11 6 5  1  7 6 5  0
+    6 11 12  1  6 7 9  0
+    12 8 6  1  9 8 6  0
+    8 12 2  1  8 9 11  0
+    2 1 8  1  11 10 8  0
+    10 13 14  1  4 5 6  0
+    14 11 10  1  6 7 4  0
+    11 14 15  1  7 6 8  0
+    15 12 11  1  8 9 7  0
+    12 15 3  1  9 8 10  0
+    3 2 12  1  10 11 9  0
+    13 4 7  1  5 4 7  0
+    7 14 13  1  7 6 5  0
+    14 7 9  1  6 7 9  0
+    9 15 14  1  9 8 6  0
+    15 9 0  1  8 9 11  0
+    0 3 15  1  11 10 8  0
+  tverts 12
+    0.5 1.0 0
+    0.25 1.0 0
+    0.25 0.0723637 0
+    0.5 0.0723637 0
+    0.5 0.0 0
+    1.0 0.0 0
+    1.0 0.125 0
+    0.5 0.125 0
+    1.0 0.5 0
+    0.5 0.5 0
+    1.0 0.626982 0
+    0.5 0.626982 0
+endnode
+endmodelgeom plc_x0_DKSa
+#NWmax ANIM ASCII
+newanim damage plc_x0_DKSa
+  length 1.86667
+  transtime 0.0
+  animroot plc_x0_DKSa
+    node dummy plc_x0_DKSa
+        parent NULL
+    endnode
+    node trimesh damage28
+        parent plc_x0_DKSa
+        positionkey
+            0.0 0.000799966 0.0 0.0
+            0.0333333 0.000799966 0.0 0.0244581
+            0.133333 0.000799966 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.371336 -0.928463 0.0081026 -0.0469942
+            0.1 -0.599949 0.79997 0.0104721 -0.0436326
+            0.133333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node emitter ChunkyWood108
+        parent plc_x0_DKSa
+    endnode
+    node emitter fire!65
+        parent plc_x0_DKSa
+    endnode
+    node emitter ChunkyWood109
+        parent plc_x0_DKSa
+    endnode
+    node trimesh Desk
+        parent plc_x0_DKSa
+    endnode
+    node dummy plc_x0_dksa_pwk
+        parent plc_x0_DKSa
+    endnode
+    node pwk NoWalkArea
+        parent plc_x0_dksa_pwk
+    endnode
+    node dummy DKS_pwk_use01
+        parent plc_x0_dksa_pwk
+    endnode
+    node dummy DKS_pwk_use02
+        parent plc_x0_dksa_pwk
+    endnode
+doneanim damage plc_x0_DKSa
+#NWmax ANIM ASCII
+newanim die plc_x0_DKSa
+  length 0.166667
+  transtime 0.0
+  animroot plc_x0_DKSa
+  event 0.0 detonate
+  event 0.0 detonate
+  event 0.0 detonate
+    node dummy plc_x0_DKSa
+        parent NULL
+    endnode
+    node trimesh damage28
+        parent plc_x0_DKSa
+        positionkey
+            0.0 0.000799966 0.0 0.0
+            0.166667 0.000799966 0.0 -6.07193
+        endlist
+    endnode
+    node emitter ChunkyWood108
+        parent plc_x0_DKSa
+    endnode
+    node emitter fire!65
+        parent plc_x0_DKSa
+    endnode
+    node emitter ChunkyWood109
+        parent plc_x0_DKSa
+    endnode
+    node trimesh Desk
+        parent plc_x0_DKSa
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 -7.46769
+            0.166667 0.0 0.0 -7.46769
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy plc_x0_dksa_pwk
+        parent plc_x0_DKSa
+    endnode
+    node pwk NoWalkArea
+        parent plc_x0_dksa_pwk
+    endnode
+    node dummy DKS_pwk_use01
+        parent plc_x0_dksa_pwk
+    endnode
+    node dummy DKS_pwk_use02
+        parent plc_x0_dksa_pwk
+    endnode
+doneanim die plc_x0_DKSa
+#NWmax ANIM ASCII
+newanim dead plc_x0_DKSa
+  length 0.0333333
+  transtime 0.0
+  animroot plc_x0_DKSa
+    node dummy plc_x0_DKSa
+        parent NULL
+    endnode
+    node trimesh damage28
+        parent plc_x0_DKSa
+        positionkey
+            0.0 0.000799966 0.0 -6.07193
+            0.0333333 0.000799966 0.0 -6.07193
+        endlist
+    endnode
+    node emitter ChunkyWood108
+        parent plc_x0_DKSa
+    endnode
+    node emitter fire!65
+        parent plc_x0_DKSa
+    endnode
+    node emitter ChunkyWood109
+        parent plc_x0_DKSa
+    endnode
+    node trimesh Desk
+        parent plc_x0_DKSa
+        positionkey
+            0.0 0.0 0.0 -7.46769
+            0.0333333 0.0 0.0 -7.46769
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy plc_x0_dksa_pwk
+        parent plc_x0_DKSa
+    endnode
+    node pwk NoWalkArea
+        parent plc_x0_dksa_pwk
+    endnode
+    node dummy DKS_pwk_use01
+        parent plc_x0_dksa_pwk
+    endnode
+    node dummy DKS_pwk_use02
+        parent plc_x0_dksa_pwk
+    endnode
+doneanim dead plc_x0_DKSa
+#NWmax ANIM ASCII
+newanim default plc_x0_DKSa
+  length 0.0
+  transtime 0.25
+  animroot plc_x0_DKSa
+    node dummy plc_x0_DKSa
+        parent NULL
+    endnode
+    node trimesh damage28
+        parent plc_x0_DKSa
+    endnode
+    node emitter ChunkyWood108
+        parent plc_x0_DKSa
+    endnode
+    node emitter fire!65
+        parent plc_x0_DKSa
+    endnode
+    node emitter ChunkyWood109
+        parent plc_x0_DKSa
+    endnode
+    node trimesh Desk
+        parent plc_x0_DKSa
+    endnode
+    node dummy plc_x0_dksa_pwk
+        parent plc_x0_DKSa
+    endnode
+    node pwk NoWalkArea
+        parent plc_x0_dksa_pwk
+    endnode
+    node dummy DKS_pwk_use01
+        parent plc_x0_dksa_pwk
+    endnode
+    node dummy DKS_pwk_use02
+        parent plc_x0_dksa_pwk
+    endnode
+doneanim default plc_x0_DKSa
+donemodel plc_x0_DKSa

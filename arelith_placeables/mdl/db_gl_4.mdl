@@ -1,0 +1,67 @@
+#MAXMODEL ASCII
+# model: db_gl_4
+filedependancy db_gl_4.max
+newmodel db_gl_4
+setsupermodel db_gl_4 null
+classification character
+setanimationscale 0
+#MAXGEOM  ASCII
+beginmodelgeom db_gl_4
+node dummy db_gl_4
+  parent NULL
+  #part-number 0
+endnode
+node dummy rootdummy
+  parent db_gl_4
+  #part-number 1
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh plane01
+  parent rootdummy
+  #part-number 2
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 2
+  bitmap plc_gl_04
+  verts 8
+    -0.00999999978 -1.25 2.54999995
+    -0.00999999978 -1.25 0.0700000003
+    0.00999999978 -1.25 2.54999995
+    0.00999999978 -1.25 0.0700000003
+    0.00999999978 1.25 2.54999995
+    0.00999999978 1.25 0.0700000003
+    -0.00999999978 1.25 2.54999995
+    -0.00999999978 1.25 0.0700000003
+  tverts 8
+    1 1 0
+    1 0 0
+    1 1 0
+    1 0 0
+    0 1 0
+    0 0 0
+    0 1 0
+    0 0 0
+  faces 12
+    0 1 2 1 0 1 2 65536
+    1 3 2 1 1 3 0 65536
+    2 3 4 1 0 1 4 65536
+    3 5 4 1 1 5 4 65536
+    4 5 6 1 4 5 6 65536
+    5 7 6 1 5 7 4 65536
+    6 7 0 1 4 5 0 65536
+    7 1 0 1 5 1 0 65536
+    6 0 4 1 4 0 6 65536
+    0 2 4 1 0 2 4 65536
+    1 7 3 1 1 5 3 65536
+    7 5 3 1 5 7 1 65536
+  position 0 0 0
+  orientation 0 0 -1 -1.57079995
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+endnode
+endmodelgeom db_gl_4
+
+donemodel db_gl_4

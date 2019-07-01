@@ -1,0 +1,767 @@
+0
+        0.0545652 0.529613 0
+endnode
+endmodelgeom plc_marystat
+donemodel plc_marystat
+ # Exported from NWmax 0.8 b60 at 09.04.2012 19:27:36
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: plc_mca01
+#local file: Unknown
+filedependancy Unknown
+newmodel plc_mca01
+setsupermodel plc_mca01 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom plc_mca01
+node dummy plc_mca01
+  parent NULL
+endnode
+node trimesh animate
+  parent plc_mca01
+  position 0.00519775 -0.129317 0.00683006
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -11.3705 16.1209 7.30885 
+  bitmap PLC_wood256
+  verts 8
+    -0.18891 0.107012 -0.0068301
+    -0.14848 0.251077 -0.0068301
+    -0.0450324 0.220528 -0.0068301
+    -0.0385006 0.0713419 -0.0068301
+    -0.164943 0.113783 0.153007
+    -0.0385006 0.0713419 0.153007
+    -0.0450324 0.220528 0.153007
+    -0.14848 0.251077 0.153007
+  faces 10
+    4 7 1  4  13 14 15  2
+    1 0 4  4  15 16 13  2
+    7 6 2  8  17 18 2  2
+    2 1 7  8  2 1 17  2
+    6 5 3  4  19 20 21  2
+    3 2 6  4  21 22 19  2
+    5 4 0  8  20 13 0  2
+    0 3 5  8  0 3 20  2
+    5 6 7  0  20 18 14  1
+    5 7 4  0  20 14 13  1
+  tverts 23
+    0.0004997 0.0004999 0
+    0.189752 0.9995 0
+    0.810249 0.9995 0
+    0.9995 0.0004996 0
+    0.668178 0.269745 0
+    0.331822 0.269745 0
+    0.999907 0.992012 0
+    0.668315 0.603579 0
+    0.604458 0.6061 0
+    0.395542 0.606101 0
+    9.3e-005 0.9995 0
+    0.331685 0.606101 0
+    0.5 0.406413 0
+    0.0004997 -0.165297 0
+    0.189752 0.976457 0
+    0.0097634 0.9995 0
+    -0.179488 -0.167616 0
+    0.189752 1.14457 0
+    0.810249 1.14457 0
+    0.810249 1.01124 0
+    0.9995 -0.165298 0
+    1.15581 -0.132834 0
+    0.966554 0.9995 0
+endnode
+node trimesh top01
+  parent animate
+  position -1.59319 0.270781 2.92317
+  orientation 0.0 0.0 1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 2.0 149.5 0.5 
+  bitmap tcm01_wood01
+  verts 6
+    0.07 0.99 0.07
+    0.07 0.99 -0.06
+    0.09 1.99 -0.06
+    0.09 1.99 0.07
+    -0.05 1.0 0.0
+    -0.02 2.0 0.0
+  faces 8
+    0 1 2  1  0 1 2  3
+    0 2 3  1  0 2 3  3
+    1 4 5  2  1 4 5  3
+    1 5 2  2  1 5 2  3
+    4 0 3  4  4 6 7  3
+    4 3 5  4  4 7 5  3
+    0 4 1  8  8 12 9  1
+    3 2 5  8  11 10 13  1
+  tverts 14
+    0.285504 0.3335 0
+    0.355988 0.3335 0
+    0.355988 0.6665 0
+    0.285504 0.6665 0
+    0.415021 0.3335 0
+    0.415021 0.6665 0
+    0.485504 0.3335 0
+    0.485504 0.6665 0
+    0.285504 0.3335 0
+    0.351157 0.420457 0
+    0.346326 0.760703 0
+    0.285504 0.6665 0
+    0.415021 0.3335 0
+    0.415021 0.6665 0
+endnode
+node danglymesh flag01
+  parent animate
+  position -0.0931904 0.310781 1.92317
+  orientation 0.0 0.0 1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 1.0 -0.5 0.0 
+  period 0.3
+  tightness 0.5
+  displacement 0.4
+  showdispl true
+  displtype 1
+  center 1.0 -0.5 0.0 
+  bitmap plc_mcflag01
+  verts 10
+    -0.03 -0.38 0.5
+    0.0 -0.38 1.0
+    -0.01 0.37 0.5
+    0.02 0.37 1.0
+    0.03 -0.38 0.0
+    0.05 0.37 0.0
+    -0.01 -0.38 -0.5
+    0.01 0.37 -0.5
+    -0.02 -0.38 -1.0
+    0.0 0.37 -1.0
+  faces 16
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+    4 0 5  1  4 0 5  1
+    2 5 0  1  2 5 0  1
+    6 4 7  1  6 4 7  1
+    5 7 4  1  5 7 4  1
+    8 6 9  1  8 6 9  1
+    7 9 6  1  7 9 6  1
+    1 0 2  2  1 0 2  1
+    2 3 1  2  2 3 1  1
+    0 4 5  2  0 4 5  1
+    5 2 0  2  5 2 0  1
+    4 6 7  2  4 6 7  1
+    7 5 4  2  7 5 4  1
+    6 8 9  2  6 8 9  1
+    9 7 6  2  9 7 6  1
+  tverts 10
+    0.998019 0.743902 0
+    0.998019 0.995969 0
+    0.498541 0.743903 0
+    0.498541 0.995969 0
+    0.998019 0.5 0
+    0.498541 0.5 0
+    0.998019 0.256097 0
+    0.498541 0.256098 0
+    0.998019 0.0121951 0
+    0.49854 0.0121952 0
+  constraints 10
+    212.0
+    0.0
+    212.0
+    0.0
+    190.0
+    190.0
+    168.0
+    168.0
+    135.0
+    135.0
+endnode
+node trimesh bottom01
+  parent animate
+  position -0.0931904 0.160781 -0.00683006
+  orientation 0.0 0.0 1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 3.0 -1.0 150.0 
+  bitmap tcm01_wood01
+  verts 12
+    -0.03 0.05 0.0
+    -0.04 -0.07 0.0
+    0.02 -0.05 1.0
+    0.03 0.03 1.0
+    0.07 -0.01 0.0
+    0.1 -0.01 1.0
+    0.02 -0.05 2.0
+    0.03 0.03 2.0
+    0.1 -0.01 2.0
+    -0.03 -0.06 3.0
+    -0.03 0.04 3.0
+    0.06 -0.01 3.0
+  faces 19
+    0 1 2  1  0 1 2  3
+    0 2 3  1  0 2 3  3
+    1 4 5  2  1 4 5  3
+    1 5 2  2  1 5 2  3
+    4 0 3  4  4 6 7  3
+    4 3 5  4  4 7 5  3
+    3 2 6  1  3 2 8  3
+    3 6 7  1  3 8 9  3
+    2 5 8  2  2 5 10  3
+    2 8 6  2  2 10 8  3
+    5 3 7  4  5 7 11  3
+    5 7 8  4  5 11 10  3
+    7 6 9  1  9 8 12  3
+    7 9 10  1  9 12 13  3
+    6 8 11  2  8 10 14  3
+    6 11 9  2  8 14 12  3
+    8 7 10  4  10 11 15  3
+    8 10 11  4  10 15 14  3
+    9 11 10  8  12 14 13  1
+  tverts 16
+    -0.05 0.0004996 0
+    0.0204833 0.0004996 0
+    0.0204833 0.3335 0
+    -0.05 0.3335 0
+    0.0795167 0.0004996 0
+    0.0795167 0.3335 0
+    0.15 0.0004996 0
+    0.15 0.3335 0
+    0.0204833 0.6665 0
+    -0.05 0.6665 0
+    0.0795167 0.6665 0
+    0.15 0.6665 0
+    0.0204833 0.9995 0
+    -0.05 0.9995 0
+    0.0795167 0.9995 0
+    0.15 0.9995 0
+endnode
+node emitter fire!29
+  parent plc_mca01
+  position 0.0 0.0 0.655706
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood45
+  parent plc_mca01
+  position 0.0 0.0 0.835972
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.482353 0.435294 0.317647 
+  colorEnd 0.584314 0.533333 0.407843 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName PLC_Chunk_W02
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood44
+  parent plc_mca01
+  position 0.0 0.0 0.72975
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName PLC_Chunk_W01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node dummy mca01_hand
+  parent plc_mca01
+  position 0.0 0.0 1.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.560784 0.341176 
+endnode
+node dummy mca01_head
+  parent plc_mca01
+  position 0.00398926 0.0108258 1.59774
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.560784 0.341176 
+endnode
+node dummy mca01_head_hit
+  parent plc_mca01
+  position 0.0 0.0 2.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.560784 0.341176 
+endnode
+node dummy mca01_impact
+  parent plc_mca01
+  position 0.00398926 0.0109997 0.464163
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.560784 0.341176 
+endnode
+node dummy mca01_ground
+  parent plc_mca01
+  position -0.00363525 0.00698791 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.341176 0.560784 
+endnode
+endmodelgeom plc_mca01
+#NWmax ANIM ASCII
+newanim damage plc_mca01
+  length 0.1
+  transtime 0.0
+  animroot plc_mca01
+    node dummy plc_mca01
+        parent NULL
+    endnode
+    node trimesh animate
+        parent plc_mca01
+        positionkey
+            0.0 0.0051977 -0.129317 0.0068301
+            0.0333333 0.0051977 -0.129317 0.0348324
+            0.1 0.0051977 -0.129317 0.0068301
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 1.0 0.0 0.0 -0.0261799
+            0.0666667 0.0 -1.0 0.0 -0.0261799
+            0.1 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh top01
+        parent animate
+    endnode
+    node danglymesh flag01
+        parent animate
+    endnode
+    node trimesh bottom01
+        parent animate
+    endnode
+    node emitter fire!29
+        parent plc_mca01
+    endnode
+    node emitter ChunkyWood45
+        parent plc_mca01
+    endnode
+    node emitter ChunkyWood44
+        parent plc_mca01
+    endnode
+    node dummy mca01_hand
+        parent plc_mca01
+    endnode
+    node dummy mca01_head
+        parent plc_mca01
+    endnode
+    node dummy mca01_head_hit
+        parent plc_mca01
+    endnode
+    node dummy mca01_impact
+        parent plc_mca01
+    endnode
+    node dummy mca01_ground
+        parent plc_mca01
+    endnode
+    node dummy plc_mca01_pwk
+        parent plc_mca01
+    endnode
+    node trimesh plc_mca01_wg
+        parent plc_mca01_pwk
+    endnode
+    node dummy mca01_pwk_use01
+        parent plc_mca01_pwk
+    endnode
+doneanim damage plc_mca01
+#NWmax ANIM ASCII
+newanim die plc_mca01
+  length 0.233333
+  transtime 0.0
+  animroot plc_mca01
+  event 0.133333 detonate
+  event 0.133333 detonate
+  event 0.133333 detonate
+    node dummy plc_mca01
+        parent NULL
+    endnode
+    node trimesh animate
+        parent plc_mca01
+        positionkey
+            0.0 0.0051977 -0.129317 0.0068301
+            0.0333333 0.0051977 -0.129317 0.0348324
+            0.1 0.0051977 -0.129317 0.0068301
+            0.233333 0.0051977 -0.129317 -6.22158
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 1.0 0.0 0.0 -0.0261799
+            0.0666667 0.0 -1.0 0.0 -0.0261799
+            0.1 0.0 0.0 0.0 0.0
+            0.233333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh top01
+        parent animate
+    endnode
+    node danglymesh flag01
+        parent animate
+    endnode
+    node trimesh bottom01
+        parent animate
+    endnode
+    node emitter fire!29
+        parent plc_mca01
+    endnode
+    node emitter ChunkyWood45
+        parent plc_mca01
+    endnode
+    node emitter ChunkyWood44
+        parent plc_mca01
+    endnode
+    node dummy mca01_hand
+        parent plc_mca01
+    endnode
+    node dummy mca01_head
+        parent plc_mca01
+    endnode
+    node dummy mca01_head_hit
+        parent plc_mca01
+    endnode
+    node dummy mca01_impact
+        parent plc_mca01
+    endnode
+    node dummy mca01_ground
+        parent plc_mca01
+    endnode
+    node dummy plc_mca01_pwk
+        parent plc_mca01
+    endnode
+    node trimesh plc_mca01_wg
+        parent plc_mca01_pwk
+    endnode
+    node dummy mca01_pwk_use01
+        parent plc_mca01_pwk
+    endnode
+doneanim die plc_mca01
+#NWmax ANIM ASCII
+newanim dead plc_mca01
+  length 0.0333333
+  transtime 0.0
+  animroot plc_mca01
+    node dummy plc_mca01
+        parent NULL
+    endnode
+    node trimesh animate
+        parent plc_mca01
+    endnode
+    node trimesh top01
+        parent animate
+    endnode
+    node danglymesh flag01
+        parent animate
+    endnode
+    node trimesh bottom01
+        parent animate
+    endnode
+    node emitter fire!29
+        parent plc_mca01
+    endnode
+    node emitter ChunkyWood45
+        parent plc_mca01
+    endnode
+    node emitter ChunkyWood44
+        parent plc_mca01
+    endnode
+    node dummy mca01_hand
+        parent plc_mca01
+    endnode
+    node dummy mca01_head
+        parent plc_mca01
+    endnode
+    node dummy mca01_head_hit
+        parent plc_mca01
+    endnode
+    node dummy mca01_impact
+        parent plc_mca01
+    endnode
+    node dummy mca01_ground
+        parent plc_mca01
+    endnode
+    node dummy plc_mca01_pwk
+        parent plc_mca01
+    endnode
+    node trimesh plc_mca01_wg
+        parent plc_mca01_pwk
+    endnode
+    node dummy mca01_pwk_use01
+        parent plc_mca01_pwk
+    endnode
+doneanim dead plc_mca01
+#NWmax ANIM ASCII
+newanim default plc_mca01
+  length 0.0
+  transtime 0.25
+  animroot plc_mca01
+    node dummy plc_mca01
+        parent NULL
+    endnode
+    node trimesh animate
+        parent plc_mca01
+    endnode
+    node trimesh top01
+        parent animate
+    endnode
+    node danglymesh flag01
+        parent animate
+    endnode
+    node trimesh bottom01
+        parent animate
+    endnode
+    node emitter fire!29
+        parent plc_mca01
+    endnode
+    node emitter ChunkyWood45
+        parent plc_mca01
+    endnode
+    node emitter ChunkyWood44
+        parent plc_mca01
+    endnode
+    node dummy mca01_hand
+        parent plc_mca01
+    endnode
+    node dummy mca01_head
+        parent plc_mca01
+    endnode
+    node dummy mca01_head_hit
+        parent plc_mca01
+    endnode
+    node dummy mca01_impact
+        parent plc_mca01
+    endnode
+    node dummy mca01_ground
+        parent plc_mca01
+    endnode
+    node dummy plc_mca01_pwk
+        parent plc_mca01
+    endnode
+    node trimesh plc_mca01_wg
+        parent plc_mca01_pwk
+    endnode
+    node dummy mca01_pwk_use011

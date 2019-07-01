@@ -1,0 +1,962 @@
+#MAXMODEL ASCII
+# model: dag_window01
+filedependancy dag_window01.max
+newmodel dag_window01
+setsupermodel dag_window01 null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom dag_window01
+node dummy dag_window01
+  parent NULL
+  #part-number 0
+endnode
+node dummy window01_ground
+  parent dag_window01
+  #part-number 1
+  position -0.00141246 0.00497986004 0.0268786997
+  orientation 0 0 0 0
+endnode
+node dummy window01_hand
+  parent dag_window01
+  #part-number 2
+  position -0.043166399 0.213073 1.56262004
+  orientation 0 0 0 0
+endnode
+node dummy window01_head
+  parent dag_window01
+  #part-number 3
+  position -0.0266516991 0.204655007 1.57692003
+  orientation 0 0 0 0
+endnode
+node dummy window01_head_hit
+  parent dag_window01
+  #part-number 4
+  position -0.0280050002 0.122943997 1.55567002
+  orientation 0 0 0 0
+endnode
+node dummy window01_impact
+  parent dag_window01
+  #part-number 5
+  position 0.00290381 0.238953993 1.64271998
+  orientation 0 0 0 0
+endnode
+node trimesh windows
+  parent dag_window01
+  #part-number 6
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap tno01_leaded01
+  verts 8
+    -0.150000006 -0.175564006 -0.320571005
+    -0.800000012 -0.175564006 0.279428989
+    -0.800000012 -0.175564006 -0.320571005
+    -0.150000006 -0.175564006 0.279428989
+    0.800000012 -0.175564006 0.279428989
+    0.150000006 -0.175564006 -0.320571005
+    0.800000012 -0.175564006 -0.320571005
+    0.150000006 -0.175564006 0.279428989
+  tverts 4
+    1 0 0
+    0 1 0
+    0 0 0
+    1 1 0
+  faces 4
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    4 5 6 1 1 0 2 1
+    4 7 5 1 1 3 0 1
+  position 0 0.455563992 1.97247005
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh obj0
+  parent dag_window01
+  #part-number 7
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap tni01_lwalls
+  verts 8
+    1.03999996 -0.145245999 -0.0461368002
+    -1.03999996 -0.145245999 0.0538632013
+    -1.03999996 -0.145245999 -0.0461368002
+    1.03999996 -0.145245999 0.0538632013
+    -1.03999996 0.154753998 -0.0461368002
+    -1.03999996 0.154753998 0.0538632013
+    1.03999996 0.154753998 0.0538632013
+    1.03999996 0.154753998 -0.0461368002
+  tverts 16
+    1.63199997 0.38499999 0
+    0.632000029 0.479999989 0
+    0.632000029 0.38499999 0
+    1.63199997 0.479999989 0
+    0.601903021 0.385131001 0
+    0.714214981 0.478938997 0
+    0.601903021 0.478938997 0
+    0.714214981 0.385131001 0
+    1.32000005 0.38499999 0
+    0.319999993 0.479999989 0
+    0.319999993 0.38499999 0
+    1.32000005 0.479999989 0
+    0 0.384766012 0
+    1 0.479999989 0
+    0 0.479999989 0
+    1 0.38499999 0
+  faces 10
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    1 4 2 2 4 5 6 1
+    1 5 4 2 4 7 5 1
+    3 5 1 4 8 9 10 1
+    3 6 5 4 8 11 9 1
+    7 3 0 2 4 5 6 1
+    7 6 3 2 4 7 5 1
+    4 0 2 4 12 13 14 1
+    4 7 0 4 12 15 13 1
+  position 0 0.245245993 1.49803996
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh obj1
+  parent dag_window01
+  #part-number 8
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap tni01_lwalls
+  verts 8
+    1.03999996 -0.145245999 -0.0540799014
+    -1.03999996 -0.145245999 0.0459201001
+    -1.03999996 -0.145245999 -0.0540799014
+    1.03999996 -0.145245999 0.0459201001
+    -1.03999996 0.154753998 -0.0540799014
+    -1.03999996 0.154753998 0.0459201001
+    1.03999996 0.154753998 0.0459201001
+    1.03999996 0.154753998 -0.0540799014
+  tverts 13
+    1.89199996 0.38499999 0
+    0.89200002 0.479999989 0
+    0.89200002 0.38499999 0
+    1.89199996 0.479999989 0
+    0.714214981 0.478938997 0
+    0.601903021 0.385131001 0
+    0.601903021 0.478938997 0
+    0.714214981 0.385131001 0
+    1 0.38499999 0
+    0 0.479999989 0
+    0 0.38499999 0
+    1 0.479999989 0
+    0 0.384766012 0
+  faces 10
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    1 4 2 2 4 5 6 1
+    1 5 4 2 4 7 5 1
+    3 5 1 4 8 9 10 1
+    3 6 5 4 8 11 9 1
+    7 3 0 2 5 4 6 1
+    7 6 3 2 5 7 4 1
+    4 0 2 4 12 11 9 1
+    4 7 0 4 12 8 11 1
+  position 0 0.245245993 2.40598011
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh obj3
+  parent dag_window01
+  #part-number 9
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap plc_rck
+  verts 16
+    0.0200238004 -0.0219874997 0.0318555012
+    -0.0199762005 0.00801246986 0.0318555012
+    -0.0199762005 -0.0219874997 0.0318555012
+    0.0200238004 0.00801246986 0.0318555012
+    -0.0199762005 0.0280124992 -0.0281444993
+    -0.0199762005 0.00801246986 -0.0281444993
+    -0.0199762005 0.0280124992 0.0318555012
+    0.0200238004 0.0280124992 0.0318555012
+    0.0200238004 0.0280124992 -0.0281444993
+    0.0200238004 0.00801246986 -0.0281444993
+    0.0200238004 -0.0219874997 -0.0281444993
+    -0.0199762005 -0.0219874997 -0.0281444993
+    0.0100237997 -0.0219874997 -0.148145005
+    -0.00997615978 -0.0219874997 -0.148145005
+    -0.00997615978 -0.0119874999 -0.148145005
+    0.0100237997 -0.0119874999 -0.148145005
+  tverts 11
+    0.970000029 0.0250000004 0
+    0.670000017 0.204999998 0
+    0.670000017 0.0250000004 0
+    0.970000029 0.204999998 0
+    0.850000024 0.324999988 0
+    0.970000029 0.224999994 0
+    0.850000024 0.224999994 0
+    0.970000029 0.324999988 0
+    0.670000017 0.324999988 0
+    0.670000017 0.224999994 0
+    0.850000024 0.0250000004 0
+  faces 20
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    1 4 5 2 4 5 6 1
+    1 6 4 2 4 7 5 1
+    3 6 1 1 3 8 1 1
+    3 7 6 1 3 7 8 1
+    8 3 9 2 5 4 6 1
+    8 7 3 2 5 7 4 1
+    2 10 0 4 8 5 7 1
+    2 11 10 4 8 9 5 1
+    12 11 13 4 0 9 2 1
+    12 10 11 4 0 5 9 1
+    5 2 1 2 6 8 4 1
+    5 11 2 2 6 9 8 1
+    13 5 14 1 2 6 10 1
+    13 11 5 1 2 9 6 1
+    0 9 3 2 8 6 4 1
+    0 10 9 2 8 9 6 1
+    15 10 12 1 10 9 2 1
+    15 9 10 1 10 6 9 1
+  position -0.100024 0.221988007 2.00005007
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh obj4
+  parent dag_window01
+  #part-number 10
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap tni01_lwalls
+  verts 8
+    0.0553245991 -0.141350001 -0.447470993
+    -0.0446753986 -0.141350001 0.352528989
+    -0.0446753986 -0.141350001 -0.447470993
+    0.0553245991 -0.141350001 0.352528989
+    0.0553245991 0.108649999 -0.447470993
+    0.0553245991 0.108649999 0.352528989
+    -0.0446753986 0.108649999 -0.447470993
+    -0.0446753986 0.108649999 0.352528989
+  tverts 12
+    0.465000004 0.384499997 0
+    1.07500005 0.480450004 0
+    0.465000004 0.480450004 0
+    1.07500005 0.384499997 0
+    0.964999974 0.384499997 0
+    1.57500005 0.480450004 0
+    0.964999974 0.480450004 0
+    1.57500005 0.384499997 0
+    0.115000002 0.479622006 0
+    0.725000024 0.384499997 0
+    0.725000024 0.480450004 0
+    0.115000002 0.384499997 0
+  faces 6
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    4 3 0 2 4 5 6 1
+    4 5 3 2 4 7 5 1
+    1 6 2 2 8 9 10 1
+    1 7 6 2 8 11 9 1
+  position -0.955325007 0.291350007 1.99936998
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh obj5
+  parent dag_window01
+  #part-number 11
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap tni01_lwalls
+  verts 8
+    0.0500000007 -0.103598997 -0.411698997
+    -0.0500000007 -0.103598997 0.388301015
+    -0.0500000007 -0.103598997 -0.411698997
+    0.0500000007 -0.103598997 0.388301015
+    0.0500000007 0.0964004993 -0.411698997
+    0.0500000007 0.0964004993 0.388301015
+    -0.0500000007 0.0964004993 -0.411698997
+    -0.0500000007 0.0964004993 0.388301015
+  tverts 12
+    0.660000026 0.384499997 0
+    1.26999998 0.480450004 0
+    0.660000026 0.480450004 0
+    1.26999998 0.384499997 0
+    0.310000002 0.384499997 0
+    0.920000017 0.480450004 0
+    0.310000002 0.480450004 0
+    0.920000017 0.384499997 0
+    0.0250000004 0.479382992 0
+    0.63499999 0.384499997 0
+    0.63499999 0.480450004 0
+    0.0250000004 0.384499997 0
+  faces 6
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    4 3 0 2 4 5 6 1
+    4 5 3 2 4 7 5 1
+    1 6 2 2 8 9 10 1
+    1 7 6 2 8 11 9 1
+  position 0 0.303599 1.96360004
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh obj6
+  parent dag_window01
+  #part-number 12
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap tni01_lwalls
+  verts 8
+    0.0443849005 -0.135224998 -0.409574986
+    -0.055615101 -0.135224998 0.390424013
+    -0.055615101 -0.135224998 -0.409574986
+    0.0443849005 -0.135224998 0.390424013
+    0.0443849005 0.114775002 -0.409574986
+    0.0443849005 0.114775002 0.390424013
+    -0.055615101 0.114775002 -0.409574986
+    -0.055615101 0.114775002 0.390424013
+  tverts 12
+    0.360000014 0.384499997 0
+    0.970000029 0.480450004 0
+    0.360000014 0.480450004 0
+    0.970000029 0.384499997 0
+    0.0549999997 0.384499997 0
+    0.665000021 0.480450004 0
+    0.0549999997 0.480450004 0
+    0.665000021 0.384499997 0
+    0.310000002 0.479382992 0
+    0.920000017 0.384499997 0
+    0.920000017 0.480450004 0
+    0.310000002 0.384499997 0
+  faces 6
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    4 3 0 2 4 5 6 1
+    4 5 3 2 4 7 5 1
+    1 6 2 2 8 9 10 1
+    1 7 6 2 8 11 9 1
+  position 0.955614984 0.285225004 1.96148002
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh obj7
+  parent dag_window01
+  #part-number 13
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap tni01_lwalls
+  verts 32
+    -0.800000012 -0.102597997 -0.387995988
+    -0.899999976 -0.102597997 0.412003994
+    -0.899999976 -0.102597997 -0.387995988
+    -0.800000012 -0.102597997 0.412003994
+    -0.0500000007 -0.102597997 -0.387995988
+    -0.150000006 -0.102597997 0.412003994
+    -0.150000006 -0.102597997 -0.387995988
+    -0.0500000007 -0.102597997 0.412003994
+    -0.150000006 -0.102597997 0.312004
+    -0.800000012 -0.102597997 0.312004
+    -0.800000012 -0.102597997 -0.287995994
+    -0.150000006 -0.102597997 -0.287995994
+    -0.800000012 -0.0725978985 -0.287995994
+    -0.150000006 -0.0725978985 -0.287995994
+    -0.800000012 -0.0725978985 0.312004
+    -0.150000006 -0.0725978985 0.312004
+    0.899999976 -0.102597997 0.412003994
+    0.800000012 -0.102597997 -0.387995988
+    0.899999976 -0.102597997 -0.387995988
+    0.800000012 -0.102597997 0.412003994
+    0.150000006 -0.102597997 0.412003994
+    0.0500000007 -0.102597997 -0.387995988
+    0.150000006 -0.102597997 -0.387995988
+    0.0500000007 -0.102597997 0.412003994
+    0.150000006 -0.102597997 0.312004
+    0.800000012 -0.102597997 0.312004
+    0.800000012 -0.102597997 -0.287995994
+    0.150000006 -0.102597997 -0.287995994
+    0.800000012 -0.0725978985 -0.287995994
+    0.150000006 -0.0725978985 -0.287995994
+    0.800000012 -0.0725978985 0.312004
+    0.150000006 -0.0725978985 0.312004
+  tverts 5
+    0.310000002 0.384499997 0
+    0.920000017 0.480450004 0
+    0.310000002 0.480450004 0
+    0.920000017 0.384499997 0
+    0.310000002 0.384443015 0
+  faces 32
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    4 5 6 1 0 1 2 1
+    4 7 5 1 0 3 1 1
+    8 3 9 1 2 3 1 1
+    8 5 3 1 2 0 3 1
+    6 10 0 1 2 3 1 1
+    6 11 10 1 2 0 3 1
+    11 12 10 2 2 3 1 1
+    11 13 12 2 2 0 3 1
+    14 8 9 2 0 1 2 1
+    14 15 8 2 0 3 1 1
+    12 9 10 4 0 1 2 1
+    12 14 9 4 0 3 1 1
+    8 13 11 4 2 3 1 1
+    8 15 13 4 2 0 3 1
+    16 17 18 1 1 0 2 1
+    16 19 17 1 1 3 0 1
+    20 21 22 1 1 0 2 1
+    20 23 21 1 1 3 0 1
+    19 24 25 1 3 2 1 1
+    19 20 24 1 3 0 2 1
+    26 22 17 1 3 2 1 1
+    26 27 22 1 3 0 2 1
+    28 27 26 2 3 2 1 1
+    28 29 27 2 3 0 2 1
+    24 30 25 2 1 0 2 1
+    24 31 30 2 1 3 0 1
+    25 28 26 4 1 0 2 1
+    25 30 28 4 1 3 0 1
+    29 24 27 4 3 2 1 1
+    29 31 24 4 3 4 2 1
+  position 0 0.352598011 1.93990004
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh obj8
+  parent dag_window01
+  #part-number 14
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap plc_rck
+  verts 16
+    0.0218578 0.0111060003 0.0298351999
+    -0.0181421991 -0.018894 0.0298351999
+    0.0218578 -0.018894 0.0298351999
+    -0.0181421991 0.0111060003 0.0298351999
+    0.0218578 0.0311060008 -0.0301648006
+    0.0218578 0.0111060003 -0.0301648006
+    0.0218578 0.0311060008 0.0298351999
+    -0.0181421991 0.0311060008 0.0298351999
+    -0.0181421991 0.0311060008 -0.0301648006
+    -0.0181421991 0.0111060003 -0.0301648006
+    -0.0181421991 -0.018894 -0.0301648006
+    0.0218578 -0.018894 -0.0301648006
+    -0.00814216956 -0.018894 -0.150165007
+    0.0118578002 -0.018894 -0.150165007
+    0.0118578002 -0.0088939704 -0.150165007
+    -0.00814216956 -0.0088939704 -0.150165007
+  tverts 11
+    0.670000017 0.204999998 0
+    0.970000029 0.0250000004 0
+    0.670000017 0.0250000004 0
+    0.970000029 0.204999998 0
+    0.970000029 0.224999994 0
+    0.850000024 0.324999988 0
+    0.850000024 0.224999994 0
+    0.970000029 0.324999988 0
+    0.670000017 0.324999988 0
+    0.670000017 0.224999994 0
+    0.850000024 0.0250000004 0
+  faces 20
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    4 0 5 2 4 5 6 1
+    4 6 0 2 4 7 5 1
+    6 3 0 1 8 3 0 1
+    6 7 3 1 8 7 3 1
+    3 8 9 2 5 4 6 1
+    3 7 8 2 5 7 4 1
+    10 2 1 4 4 8 7 1
+    10 11 2 4 4 9 8 1
+    11 12 13 4 9 1 2 1
+    11 10 12 4 9 4 1 1
+    2 5 0 2 8 6 5 1
+    2 11 5 2 8 9 6 1
+    5 13 14 1 6 2 10 1
+    5 11 13 1 6 9 2 1
+    9 1 3 2 6 8 5 1
+    9 10 1 2 6 9 8 1
+    10 15 12 1 9 10 2 1
+    10 9 15 1 9 6 10 1
+  position 0.0981421992 0.218894005 2.00206995
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh forinvisselection
+  parent dag_window01
+  #part-number 15
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 8
+    -1.05630004 -0.351163 0
+    -1.05641997 0.264227986 0
+    1.04064 0.264227986 0
+    1.04076004 -0.351163 0
+    -1.05630004 -0.351163 0.170736998
+    1.04076004 -0.351163 0.170736998
+    1.04064 0.264227986 0.170736998
+    -1.05641997 0.264227986 0.170736998
+  faces 12
+    0 1 2 1 0 0 0 2
+    2 3 0 1 0 0 0 2
+    4 5 6 1 0 0 0 1
+    6 7 4 1 0 0 0 1
+    0 3 5 2 0 0 0 5
+    5 4 0 2 0 0 0 5
+    3 2 6 4 0 0 0 4
+    6 5 3 4 0 0 0 4
+    2 1 7 2 0 0 0 6
+    7 6 2 2 0 0 0 6
+    1 0 4 4 0 0 0 3
+    4 7 1 4 0 0 0 3
+  position -9.19914019e-005 0.143776998 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh forshadow
+  parent dag_window01
+  #part-number 16
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 1
+  render 0
+  bitmap black
+  verts 8
+    -0.154409006 0.493252009 1.08352995
+    -0.154409006 -0.493252009 1.08352995
+    0.154409006 0.493252009 1.08352995
+    0.154409006 -0.493252009 1.08352995
+    0.154409006 -0.493252009 -1.02082002
+    -0.154409006 -0.493252009 -1.02082002
+    0.154409006 0.493252009 -1.02082002
+    -0.154409006 0.493252009 -1.02082002
+  faces 12
+    0 1 2 1 0 0 0 1
+    3 2 1 1 0 0 0 1
+    4 5 6 1 0 0 0 2
+    7 6 5 1 0 0 0 2
+    3 1 4 2 0 0 0 5
+    5 4 1 2 0 0 0 5
+    2 3 6 4 0 0 0 4
+    4 6 3 4 0 0 0 4
+    0 2 7 2 0 0 0 6
+    6 7 2 2 0 0 0 6
+    1 0 5 4 0 0 0 3
+    7 5 0 4 0 0 0 3
+  position 0.0268082004 0.254354 1.95694005
+  orientation -0.577350259 0.577350259 0.577350259 -2.09440017
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+endnode
+endmodelgeom dag_window01
+
+#MAXANIM ASCII
+newanim damage dag_window01
+  length 0.133332998
+  transtime 0.25
+  animroot dag_window01
+node dummy dag_window01
+  parent NULL
+  #part-number 0
+endnode
+node dummy window01_ground
+  parent dag_window01
+  #part-number 1
+  positionkey 2
+    0 -0.00141246 0.00497986004 0.0268786997
+    0.133332998 -0.00141246 0.00497986004 0.0268786997
+endnode
+node dummy window01_hand
+  parent dag_window01
+  #part-number 2
+  positionkey 2
+    0 -0.043166399 0.213073 1.56262004
+    0.133332998 -0.0429480001 0.213073 1.56262004
+endnode
+node dummy window01_head
+  parent dag_window01
+  #part-number 3
+  positionkey 2
+    0 -0.0266516991 0.204655007 1.57692003
+    0.133332998 -0.0264331996 0.204655007 1.57692003
+endnode
+node dummy window01_head_hit
+  parent dag_window01
+  #part-number 4
+  positionkey 2
+    0 -0.0280050002 0.122943997 1.55567002
+    0.133332998 -0.0277865995 0.122943997 1.55567002
+endnode
+node dummy window01_impact
+  parent dag_window01
+  #part-number 5
+  positionkey 2
+    0 0.00290381 0.238953993 1.64271998
+    0.133332998 0.00312222005 0.238953993 1.64271998
+endnode
+node dummy windows
+  parent dag_window01
+  #part-number 6
+endnode
+node dummy obj0
+  parent dag_window01
+  #part-number 7
+endnode
+node dummy obj1
+  parent dag_window01
+  #part-number 8
+endnode
+node dummy obj3
+  parent dag_window01
+  #part-number 9
+endnode
+node dummy obj4
+  parent dag_window01
+  #part-number 10
+endnode
+node dummy obj5
+  parent dag_window01
+  #part-number 11
+endnode
+node dummy obj6
+  parent dag_window01
+  #part-number 12
+endnode
+node dummy obj7
+  parent dag_window01
+  #part-number 13
+endnode
+node dummy obj8
+  parent dag_window01
+  #part-number 14
+endnode
+node dummy forinvisselection
+  parent dag_window01
+  #part-number 15
+endnode
+node dummy forshadow
+  parent dag_window01
+  #part-number 16
+endnode
+node dummy window01_pwk
+  parent dag_window01
+  #part-number -1
+endnode
+node dummy nowalk
+  parent window01_pwk
+  #part-number 18
+endnode
+doneanim damage dag_window01
+
+#MAXANIM ASCII
+newanim dead dag_window01
+  length 0.0333333015
+  transtime 0.25
+  animroot dag_window01
+node dummy dag_window01
+  parent NULL
+  #part-number 0
+endnode
+node dummy window01_ground
+  parent dag_window01
+  #part-number 1
+  positionkey 2
+    0 -0.00141246 0.00497986004 0.0268786997
+    0.0333333015 -0.00141246 0.00497986004 0.0268786997
+endnode
+node dummy window01_hand
+  parent dag_window01
+  #part-number 2
+endnode
+node dummy window01_head
+  parent dag_window01
+  #part-number 3
+endnode
+node dummy window01_head_hit
+  parent dag_window01
+  #part-number 4
+endnode
+node dummy window01_impact
+  parent dag_window01
+  #part-number 5
+endnode
+node dummy windows
+  parent dag_window01
+  #part-number 6
+endnode
+node dummy obj0
+  parent dag_window01
+  #part-number 7
+endnode
+node dummy obj1
+  parent dag_window01
+  #part-number 8
+endnode
+node dummy obj3
+  parent dag_window01
+  #part-number 9
+endnode
+node dummy obj4
+  parent dag_window01
+  #part-number 10
+endnode
+node dummy obj5
+  parent dag_window01
+  #part-number 11
+endnode
+node dummy obj6
+  parent dag_window01
+  #part-number 12
+endnode
+node dummy obj7
+  parent dag_window01
+  #part-number 13
+endnode
+node dummy obj8
+  parent dag_window01
+  #part-number 14
+endnode
+node dummy forinvisselection
+  parent dag_window01
+  #part-number 15
+endnode
+node dummy forshadow
+  parent dag_window01
+  #part-number 16
+endnode
+node dummy window01_pwk
+  parent dag_window01
+  #part-number -1
+endnode
+node dummy nowalk
+  parent window01_pwk
+  #part-number 18
+endnode
+doneanim dead dag_window01
+
+#MAXANIM ASCII
+newanim default dag_window01
+  length 0.0333333015
+  transtime 0.25
+  animroot dag_window01
+node dummy dag_window01
+  parent NULL
+  #part-number 0
+endnode
+node dummy window01_ground
+  parent dag_window01
+  #part-number 1
+  positionkey 2
+    0 -0.00141246 0.00497986004 0.0268786997
+    0.0333333015 -0.00119126996 0.00497986004 0.0268786997
+endnode
+node dummy window01_hand
+  parent dag_window01
+  #part-number 2
+endnode
+node dummy window01_head
+  parent dag_window01
+  #part-number 3
+endnode
+node dummy window01_head_hit
+  parent dag_window01
+  #part-number 4
+endnode
+node dummy window01_impact
+  parent dag_window01
+  #part-number 5
+endnode
+node dummy windows
+  parent dag_window01
+  #part-number 6
+endnode
+node dummy obj0
+  parent dag_window01
+  #part-number 7
+endnode
+node dummy obj1
+  parent dag_window01
+  #part-number 8
+endnode
+node dummy obj3
+  parent dag_window01
+  #part-number 9
+endnode
+node dummy obj4
+  parent dag_window01
+  #part-number 10
+endnode
+node dummy obj5
+  parent dag_window01
+  #part-number 11
+endnode
+node dummy obj6
+  parent dag_window01
+  #part-number 12
+endnode
+node dummy obj7
+  parent dag_window01
+  #part-number 13
+endnode
+node dummy obj8
+  parent dag_window01
+  #part-number 14
+endnode
+node dummy forinvisselection
+  parent dag_window01
+  #part-number 15
+endnode
+node dummy forshadow
+  parent dag_window01
+  #part-number 16
+endnode
+node dummy window01_pwk
+  parent dag_window01
+  #part-number -1
+endnode
+node dummy nowalk
+  parent window01_pwk
+  #part-number 18
+endnode
+doneanim default dag_window01
+
+#MAXANIM ASCII
+newanim die dag_window01
+  length 0.166666999
+  transtime 0.25
+  animroot dag_window01
+  event 0.0333333015 detonate
+node dummy dag_window01
+  parent NULL
+  #part-number 0
+endnode
+node dummy window01_ground
+  parent dag_window01
+  #part-number 1
+  positionkey 2
+    0 -0.00141246 0.00497986004 0.0268786997
+    0.166666999 -0.00141246 0.00497986004 0.0268786997
+endnode
+node dummy window01_hand
+  parent dag_window01
+  #part-number 2
+endnode
+node dummy window01_head
+  parent dag_window01
+  #part-number 3
+endnode
+node dummy window01_head_hit
+  parent dag_window01
+  #part-number 4
+endnode
+node dummy window01_impact
+  parent dag_window01
+  #part-number 5
+endnode
+node dummy windows
+  parent dag_window01
+  #part-number 6
+endnode
+node dummy obj0
+  parent dag_window01
+  #part-number 7
+endnode
+node dummy obj1
+  parent dag_window01
+  #part-number 8
+endnode
+node dummy obj3
+  parent dag_window01
+  #part-number 9
+endnode
+node dummy obj4
+  parent dag_window01
+  #part-number 10
+endnode
+node dummy obj5
+  parent dag_window01
+  #part-number 11
+endnode
+node dummy obj6
+  parent dag_window01
+  #part-number 12
+endnode
+node dummy obj7
+  parent dag_window01
+  #part-number 13
+endnode
+node dummy obj8
+  parent dag_window01
+  #part-number 14
+endnode
+node dummy forinvisselection
+  parent dag_window01
+  #part-number 15
+endnode
+node dummy forshadow
+  parent dag_window01
+  #part-number 16
+endnode
+node dummy window01_pwk
+  parent dag_window01
+  #part-number -1
+endnode
+node dummy nowalk
+  parent window01_pwk
+  #part-number 18
+endnode
+doneanim die dag_window01
+
+donemodel dag_window01

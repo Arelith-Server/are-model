@@ -1,0 +1,82 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLC_ET01
+filedependancy PLC_FF01.max
+newmodel PLC_ET01
+setsupermodel PLC_ET01 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom PLC_ET01
+node dummy PLC_ET01
+  parent NULL
+endnode
+node emitter emitter
+  parent PLC_ET01
+  position 0 0 1
+  orientation 1 0 0 -1.57207
+  wirecolor 0.878906 0.878906 0.878906
+    colorStart 0.956863 0.996078 0.745098
+    colorEnd 0.956863 0.996078 0.745098
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 1
+    spawnType 0
+    lifeExp 3.3
+    mass 0
+    spread 6.28319
+    particleRot 0
+    velocity 0.1
+    randvel 0.04
+    fps 1
+    random 0
+    inherit 0
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 400
+    ysize 1200
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 1
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_flare
+    xgrid 1
+    ygrid 1
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom PLC_ET01
+donemodel PLC_ET01

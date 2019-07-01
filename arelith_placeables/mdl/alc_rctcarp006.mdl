@@ -1,0 +1,313 @@
+# Exported from NWmax 0.8 b61 at 12/5/2015 5:04:04 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: alc_rctcarp006
+#local file: Unknown
+filedependancy Unknown
+newmodel alc_rctcarp006
+setsupermodel alc_rctcarp006 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom alc_rctcarp006
+node dummy alc_rctcarp006
+  parent NULL
+endnode
+node dummy K09_hand
+  parent alc_rctcarp006
+  position 0.00398926 -0.505195 0.934402
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.101961 0.694118 0.580392 
+endnode
+node dummy K09_head
+  parent alc_rctcarp006
+  position 0.00398926 0.0108252 1.8473
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.443137 0.52549 0.0235294 
+endnode
+node dummy K09_head_hit
+  parent alc_rctcarp006
+  position 0.00398926 0.0108252 0.24531
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.443137 0.52549 0.0235294 
+endnode
+node dummy K09_impact
+  parent alc_rctcarp006
+  position 0.00398926 0.011001 0.17352
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.52549 0.0235294 0.0235294 
+endnode
+node dummy K09_ground
+  parent alc_rctcarp006
+  position -0.00363281 0.0069873 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.52549 0.0235294 0.0235294 
+endnode
+node emitter fire!78
+  parent alc_rctcarp006
+  position 0.00370824 0.0440756 0.532671
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.454902 0.407843 
+  colorEnd 0.819608 0.803922 0.745098 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh Mesh625
+  parent alc_rctcarp006
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 -0.5 4.0 
+  bitmap alc_rctcarp006
+  verts 9
+    -2.5 0.0 0.04
+    -2.5 -3.18 0.04
+    0.0 0.0 0.04
+    0.0 -3.18 0.04
+    2.5 0.0 0.04
+    2.5 -3.18 0.04
+    -2.5 3.17 0.04
+    0.0 3.17 0.04
+    2.5 3.17 0.04
+  faces 8
+    0 1 2  1  0 1 2  0
+    3 2 1  1  3 2 1  0
+    2 3 4  1  2 3 4  0
+    5 4 3  1  5 4 3  0
+    6 0 7  1  6 0 7  0
+    2 7 0  1  2 7 0  0
+    7 2 8  1  7 2 8  0
+    4 8 2  1  4 8 2  0
+  tverts 9
+    0.5 1.0 0
+    1.0 1.0 0
+    0.5 0.5 0
+    1.0 0.499046 0
+    0.5 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    0.0 0.5 0
+    0.0 0.0 0
+endnode
+endmodelgeom alc_rctcarp006
+
+#NWmax ANIM ASCII
+newanim damage alc_rctcarp006
+  length 0.566667
+  transtime 0.0
+  animroot alc_rctcarp006
+  event 0.2 detonate
+    node dummy alc_rctcarp006
+        parent NULL
+    endnode
+    node dummy K09_hand
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_head
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_head_hit
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_impact
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_ground
+        parent alc_rctcarp006
+    endnode
+    node emitter fire!78
+        parent alc_rctcarp006
+    endnode
+    node trimesh Mesh625
+        parent alc_rctcarp006
+    endnode
+doneanim damage alc_rctcarp006
+
+
+#NWmax ANIM ASCII
+newanim die alc_rctcarp006
+  length 0.166667
+  transtime 0.0
+  animroot alc_rctcarp006
+    node dummy alc_rctcarp006
+        parent NULL
+    endnode
+    node dummy K09_hand
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_head
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_head_hit
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_impact
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_ground
+        parent alc_rctcarp006
+    endnode
+    node emitter fire!78
+        parent alc_rctcarp006
+    endnode
+    node trimesh Mesh625
+        parent alc_rctcarp006
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 -6.73353
+            0.166667 0.0 0.0 -6.73353
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+doneanim die alc_rctcarp006
+
+
+#NWmax ANIM ASCII
+newanim dead alc_rctcarp006
+  length 0.0333333
+  transtime 0.0
+  animroot alc_rctcarp006
+    node dummy alc_rctcarp006
+        parent NULL
+    endnode
+    node dummy K09_hand
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_head
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_head_hit
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_impact
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_ground
+        parent alc_rctcarp006
+    endnode
+    node emitter fire!78
+        parent alc_rctcarp006
+    endnode
+    node trimesh Mesh625
+        parent alc_rctcarp006
+        positionkey
+            0.0 0.0 0.0 -6.73353
+            0.0333333 0.0 0.0 -6.73353
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+doneanim dead alc_rctcarp006
+
+
+#NWmax ANIM ASCII
+newanim default alc_rctcarp006
+  length 0.0
+  transtime 0.25
+  animroot alc_rctcarp006
+    node dummy alc_rctcarp006
+        parent NULL
+    endnode
+    node dummy K09_hand
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_head
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_head_hit
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_impact
+        parent alc_rctcarp006
+    endnode
+    node dummy K09_ground
+        parent alc_rctcarp006
+    endnode
+    node emitter fire!78
+        parent alc_rctcarp006
+    endnode
+    node trimesh Mesh625
+        parent alc_rctcarp006
+    endnode
+doneanim default alc_rctcarp006
+
+donemodel alc_rctcarp006

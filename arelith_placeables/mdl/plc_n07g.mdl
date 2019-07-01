@@ -1,0 +1,654 @@
+# Exported from NWmax 0.8 b46 at 1/11/2013 5:05:19 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: plc_n07g
+filedependancy Unknown
+newmodel plc_n07g
+setsupermodel plc_n07g NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom plc_n07g
+node dummy plc_n07g
+  parent NULL
+endnode
+node dummy N07_ground
+  parent plc_n07g
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.721569 0.607843 0.898039 
+endnode
+node dummy N07_hand
+  parent plc_n07g
+  position 0.0 0.5 1.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.721569 0.607843 0.898039 
+endnode
+node dummy N07_head
+  parent plc_n07g
+  position -3.17968e-005 -0.00999064 0.108232
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.721569 0.607843 0.898039 
+endnode
+node dummy N07_head_hit
+  parent plc_n07g
+  position -3.17968e-005 -0.0904276 0.108232
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.843137 0.898039 
+endnode
+node dummy N07_impact
+  parent plc_n07g
+  position -3.17968e-005 -0.0886566 0.108232
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.843137 0.898039 
+endnode
+node trimesh Bark
+  parent plc_n07g
+  position -0.0149748 0.0472054 0.0499415
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.529412 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap ttf01_bark04
+  verts 20
+    0.13312 0.362538 0.0374529
+    -0.112282 0.362538 0.080724
+    -0.0937383 0.362538 -0.0165135
+    -0.00589473 0.362538 -0.0598862
+    0.0824374 0.362538 -0.047578
+    0.13312 0.101567 0.0374529
+    -0.0913787 0.101567 0.0770381
+    -0.081364 0.106191 0.000754273
+    -0.00389665 0.106191 -0.0485545
+    0.0857634 0.106191 -0.0287148
+    0.125125 -0.159299 0.0388626
+    -0.103234 -0.159299 0.0791285
+    -0.0821955 -0.144783 -0.00396158
+    -0.012168 -0.149572 -0.0487169
+    0.0769376 -0.144783 -0.0320211
+    0.13312 -0.362538 0.0374529
+    -0.103234 -0.362538 0.0791285
+    -0.0833552 -0.362538 -0.0105384
+    -0.00589473 -0.362538 -0.0598862
+    0.0837722 -0.362538 -0.0400075
+  faces 24
+    1 7 6  8  1 7 6  3
+    1 2 7  8  1 2 7  3
+    2 8 7  8  2 8 7  3
+    2 3 8  8  2 3 8  3
+    3 9 8  8  3 9 8  3
+    3 4 9  8  3 4 9  3
+    4 5 9  8  4 5 9  3
+    4 0 5  8  4 0 5  3
+    6 12 11  8  6 12 11  3
+    6 7 12  8  6 7 12  3
+    7 13 12  8  7 13 12  3
+    7 8 13  8  7 8 13  3
+    8 14 13  8  8 14 13  3
+    8 9 14  8  8 9 14  3
+    9 10 14  8  9 10 14  3
+    9 5 10  8  9 5 10  3
+    11 17 16  8  11 17 16  3
+    11 12 17  8  11 12 17  3
+    12 18 17  8  12 18 17  3
+    12 13 18  8  12 13 18  3
+    13 19 18  8  13 19 18  3
+    13 14 19  8  13 14 19  3
+    14 15 19  8  14 15 19  3
+    14 10 15  8  14 10 15  3
+  tverts 20
+    0.75 0.000499547 0
+    0.25 0.000499547 0
+    0.374716 0.000499547 0
+    0.506323 0.000499547 0
+    0.625284 0.000499547 0
+    0.75 0.360062 0
+    0.25 0.360062 0
+    0.364913 0.353691 0
+    0.506993 0.353691 0
+    0.643568 0.353691 0
+    0.75 0.71948 0
+    0.25 0.71948 0
+    0.36992 0.69948 0
+    0.494713 0.706079 0
+    0.631132 0.69948 0
+    0.75 0.9995 0
+    0.25 0.9995 0
+    0.37644 0.9995 0
+    0.506323 0.9995 0
+    0.632176 0.9995 0
+endnode
+node trimesh Log
+  parent Bark
+  position 0.0 0.0 0.0
+  orientation -0.992433 -0.0868266 0.0868266 -1.57839
+  wirecolor 0.0313726 0.0313726 0.529412 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap plc_wood05
+  verts 18
+    0.0045941 0.06 -0.362459
+    0.124594 0.06 -0.362538
+    -0.124594 0.06 -0.362538
+    -0.0894467 -0.0325401 -0.362538
+    0.00459395 -0.06 -0.362538
+    0.0894468 -0.0325401 -0.362538
+    0.124594 0.06 -0.101567
+    0.00459416 0.06 -0.10146
+    -0.103368 0.06 -0.101567
+    0.116476 0.06 0.159299
+    0.00459416 0.06 0.159405
+    -0.115406 0.06 0.159299
+    0.124594 0.06 0.362538
+    0.0045941 0.06 0.34658
+    -0.115406 0.06 0.362538
+    -0.0802589 -0.0248528 0.362538
+    0.00459395 -0.06 0.362538
+    0.0894468 -0.0248528 0.362538
+  faces 20
+    0 3 2  1  0 3 2  2
+    0 4 3  1  0 4 3  2
+    0 5 4  1  0 5 4  2
+    0 1 5  1  0 1 5  2
+    1 7 6  8  1 7 6  3
+    1 0 7  8  1 0 7  3
+    0 8 7  8  0 8 7  3
+    0 2 8  8  0 2 8  3
+    6 10 9  8  6 10 9  3
+    6 7 10  8  6 7 10  3
+    7 11 10  8  7 11 10  3
+    7 8 11  8  7 8 11  3
+    9 13 12  8  9 13 12  3
+    9 10 13  8  9 10 13  3
+    10 14 13  8  10 14 13  3
+    10 11 14  8  10 11 14  3
+    13 14 15  1  13 14 15  1
+    13 15 16  1  13 15 16  1
+    13 16 17  1  13 16 17  1
+    13 17 12  1  13 17 12  1
+  tverts 18
+    0.518418 0.5 0
+    0.9995 0.5 0
+    0.000499636 0.5 0
+    0.141406 0.114802 0
+    0.518417 0.000499696 0
+    0.858594 0.114801 0
+    0.9995 0.5 0
+    0.518418 0.5 0
+    0.0855952 0.5 0
+    0.966955 0.5 0
+    0.518418 0.5 0
+    0.0373346 0.5 0
+    0.9995 0.5 0
+    0.518418 0.5 0
+    0.0373346 0.5 0
+    0.17824 0.1468 0
+    0.518417 0.000499696 0
+    0.858594 0.1468 0
+endnode
+node trimesh Bark01
+  parent plc_n07g
+  position 0.00624739 0.0472054 0.167922
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.529412 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap ttf01_bark04
+  verts 20
+    -0.132735 0.362538 -0.0376495
+    0.111898 0.362538 -0.0805274
+    0.10162 0.362538 0.0106775
+    0.0145586 0.362538 0.0584873
+    -0.0737735 0.362538 0.0461791
+    -0.112601 0.101567 -0.0409422
+    0.111898 0.101567 -0.0805274
+    0.0900278 0.106191 -0.00215308
+    0.0125605 0.106191 0.0471556
+    -0.0770995 0.106191 0.0273159
+    -0.124456 -0.159299 -0.0388518
+    0.103904 -0.159299 -0.0791179
+    0.0908593 -0.144783 0.00256267
+    0.0208319 -0.149572 0.047318
+    -0.0682738 -0.144783 0.0306222
+    -0.124456 -0.362538 -0.0388518
+    0.111898 -0.362538 -0.0805273
+    0.092019 -0.362538 0.00913951
+    0.0145586 -0.362538 0.0584873
+    -0.0751083 -0.362538 0.0386086
+  faces 24
+    1 7 6  8  1 7 6  3
+    1 2 7  8  1 2 7  3
+    2 8 7  8  2 8 7  3
+    2 3 8  8  2 3 8  3
+    3 9 8  8  20 9 21  3
+    3 4 9  8  22 4 9  3
+    4 5 9  8  4 5 9  3
+    4 0 5  8  4 0 5  3
+    6 12 11  8  6 12 11  3
+    6 7 12  8  6 7 12  3
+    7 13 12  8  7 13 12  3
+    7 8 13  8  7 8 13  3
+    8 14 13  8  23 14 24  3
+    8 9 14  8  25 9 14  3
+    9 10 14  8  9 10 14  3
+    9 5 10  8  9 5 10  3
+    11 17 16  8  11 17 16  3
+    11 12 17  8  11 12 17  3
+    12 18 17  8  12 18 17  3
+    12 13 18  8  12 13 18  3
+    13 19 18  8  26 19 27  3
+    13 14 19  8  28 14 19  3
+    14 15 19  8  14 15 19  3
+    14 10 15  8  14 10 15  3
+  tverts 29
+    0.250314 0.000499547 0
+    0.75 0.000499547 0
+    0.863009 0.000499547 0
+    0.993677 0.000499547 0
+    0.116674 0.000499547 0
+    0.25 0.360062 0
+    0.75 0.360062 0
+    0.856432 0.353691 0
+    0.993007 0.353691 0
+    0.135087 0.353691 0
+    0.25 0.71948 0
+    0.75 0.71948 0
+    0.861359 0.69948 0
+    0.98101 0.706079 0
+    0.121599 0.69948 0
+    0.25 0.9995 0
+    0.75 0.9995 0
+    0.867824 0.9995 0
+    0.993677 0.9995 0
+    0.12356 0.9995 0
+    -0.0063228 0.000499547 0
+    -0.00699258 0.353691 0
+    -0.0063228 0.000499547 0
+    -0.00699258 0.353691 0
+    -0.0189896 0.706079 0
+    -0.00699258 0.353691 0
+    -0.0189896 0.706079 0
+    -0.0063228 0.9995 0
+    -0.0189896 0.706079 0
+endnode
+node trimesh Log01
+  parent Bark01
+  position 0.0 0.0 0.0
+  orientation -0.992433 -0.0868266 0.0868266 -1.57839
+  wirecolor 0.0313726 0.0313726 0.529412 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap plc_wood05
+  verts 18
+    0.00418103 -0.0598732 -0.362459
+    -0.124181 -0.0601268 -0.362538
+    0.124181 -0.0598732 -0.362538
+    0.0982218 0.0281614 -0.362538
+    0.00418117 0.0601268 -0.362538
+    -0.0806716 0.0326669 -0.362538
+    -0.103781 -0.0598732 -0.101567
+    0.00418098 -0.0598732 -0.10146
+    0.124181 -0.0598732 -0.101567
+    -0.115819 -0.0598732 0.159299
+    0.00418098 -0.0598732 0.159405
+    0.116064 -0.0598732 0.159299
+    -0.115819 -0.0598732 0.362538
+    0.00418103 -0.0598732 0.34658
+    0.124181 -0.0598731 0.362538
+    0.089034 0.0249796 0.362538
+    0.00418117 0.0601268 0.362538
+    -0.0806716 0.0249796 0.362538
+  faces 20
+    0 3 2  1  0 3 2  2
+    0 4 3  1  0 4 3  2
+    0 5 4  1  0 5 4  2
+    0 1 5  1  0 1 5  2
+    1 7 6  8  1 7 6  3
+    1 0 7  8  1 0 7  3
+    0 8 7  8  0 8 7  3
+    0 2 8  8  0 2 8  3
+    6 10 9  8  6 10 9  3
+    6 7 10  8  6 7 10  3
+    7 11 10  8  7 11 10  3
+    7 8 11  8  7 8 11  3
+    9 13 12  8  9 13 12  3
+    9 10 13  8  9 10 13  3
+    10 14 13  8  10 14 13  3
+    10 11 14  8  10 11 14  3
+    13 14 15  1  13 14 15  1
+    13 15 16  1  13 15 16  1
+    13 16 17  1  13 16 17  1
+    13 17 12  1  13 17 12  1
+  tverts 18
+    0.518416 0.5 0
+    0.00380996 0.498945 0
+    0.999499 0.5 0
+    0.895428 0.866444 0
+    0.518417 0.9995 0
+    0.17824 0.885198 0
+    0.0855941 0.5 0
+    0.518416 0.5 0
+    0.999499 0.5 0
+    0.0373335 0.5 0
+    0.518416 0.5 0
+    0.966958 0.5 0
+    0.0373335 0.5 0
+    0.518416 0.5 0
+    0.999499 0.5 0
+    0.858594 0.8532 0
+    0.518417 0.9995 0
+    0.17824 0.8532 0
+endnode
+endmodelgeom plc_n07g
+#NWmax ANIM ASCII
+newanim default plc_n07g
+  length 0.0333333
+  transtime 0.0
+  animroot plc_n07g
+    node dummy plc_n07g
+        parent NULL
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy N07_ground
+        parent plc_n07g
+    endnode
+    node dummy N07_hand
+        parent plc_n07g
+    endnode
+    node dummy N07_head
+        parent plc_n07g
+    endnode
+    node dummy N07_head_hit
+        parent plc_n07g
+    endnode
+    node dummy N07_impact
+        parent plc_n07g
+    endnode
+    node trimesh Bark
+        parent plc_n07g
+        positionkey
+            0.0 -0.0149748 0.0472054 0.0499415
+            0.0333333 -0.0149748 0.0472054 0.0499415
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Log
+        parent Bark
+    endnode
+    node trimesh Bark01
+        parent plc_n07g
+        positionkey
+            0.0 0.00624739 0.0472054 0.167922
+            0.0333333 0.00624739 0.0472054 0.167922
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Log01
+        parent Bark01
+    endnode
+doneanim default plc_n07g
+#NWmax ANIM ASCII
+newanim damage plc_n07g
+  length 0.166667
+  transtime 0.0
+  animroot plc_n07g
+    node dummy plc_n07g
+        parent NULL
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.166667 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.166667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy N07_ground
+        parent plc_n07g
+    endnode
+    node dummy N07_hand
+        parent plc_n07g
+    endnode
+    node dummy N07_head
+        parent plc_n07g
+    endnode
+    node dummy N07_head_hit
+        parent plc_n07g
+    endnode
+    node dummy N07_impact
+        parent plc_n07g
+    endnode
+    node trimesh Bark
+        parent plc_n07g
+        positionkey
+            0.0 -0.0149748 0.0472054 0.0499415
+            0.1 -0.0149748 0.0472054 0.0561094
+            0.166667 -0.0149748 0.0472054 0.0499415
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.166667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Log
+        parent Bark
+    endnode
+    node trimesh Bark01
+        parent plc_n07g
+        positionkey
+            0.0 0.00624739 0.0472054 0.167922
+            0.1 0.00624739 0.0472054 0.17409
+            0.166667 0.00624739 0.0472054 0.167922
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.166667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Log01
+        parent Bark01
+    endnode
+doneanim damage plc_n07g
+#NWmax ANIM ASCII
+newanim die plc_n07g
+  length 0.5
+  transtime 0.0
+  animroot plc_n07g
+    node dummy plc_n07g
+        parent NULL
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.5 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.5 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy N07_ground
+        parent plc_n07g
+    endnode
+    node dummy N07_hand
+        parent plc_n07g
+    endnode
+    node dummy N07_head
+        parent plc_n07g
+    endnode
+    node dummy N07_head_hit
+        parent plc_n07g
+    endnode
+    node dummy N07_impact
+        parent plc_n07g
+    endnode
+    node trimesh Bark
+        parent plc_n07g
+        positionkey
+            0.0 -0.0149748 0.0472054 0.0499415
+            0.166667 -0.0367119 -0.0647676 0.0852295
+            0.333333 -0.112434 -0.293076 0.0623765
+            0.433333 -0.236205 -0.623614 -0.749317
+            0.466667 -0.236205 -0.623614 -0.741295
+            0.5 -0.236205 -0.623614 -0.749317
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.166667 -0.948351 0.314509 -0.0414059 -0.275882
+            0.333333 -0.803131 0.578728 -0.141614 -0.591491
+            0.433333 -0.970288 0.171088 0.171088 -1.60095
+            0.466667 -0.970288 0.171088 0.171088 -1.60095
+            0.5 -0.970288 0.171088 0.171088 -1.60095
+        endlist
+    endnode
+    node trimesh Log
+        parent Bark
+    endnode
+    node trimesh Bark01
+        parent plc_n07g
+        positionkey
+            0.0 0.00624739 0.0472054 0.167922
+            0.166667 -0.0335167 0.186736 0.184117
+            0.333333 -0.0251311 0.319895 0.138331
+            0.433333 -0.0403829 0.591411 -0.631335
+            0.466667 -0.0403829 0.591411 -0.626294
+            0.5 -0.0403829 0.591411 -0.631335
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.166667 0.893056 0.44311 0.0781323 -0.38987
+            0.333333 0.96282 0.238386 0.12708 -0.615601
+            0.433333 0.995539 0.0667167 -0.0667168 -1.57527
+            0.466667 0.995539 0.0667167 -0.0667168 -1.57527
+            0.5 0.995539 0.0667167 -0.0667168 -1.57527
+        endlist
+    endnode
+    node trimesh Log01
+        parent Bark01
+    endnode
+doneanim die plc_n07g
+#NWmax ANIM ASCII
+newanim dead plc_n07g
+  length 0.0333333
+  transtime 0.0
+  animroot plc_n07g
+    node dummy plc_n07g
+        parent NULL
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy N07_ground
+        parent plc_n07g
+    endnode
+    node dummy N07_hand
+        parent plc_n07g
+    endnode
+    node dummy N07_head
+        parent plc_n07g
+    endnode
+    node dummy N07_head_hit
+        parent plc_n07g
+    endnode
+    node dummy N07_impact
+        parent plc_n07g
+    endnode
+    node trimesh Bark
+        parent plc_n07g
+        positionkey
+            0.0 -0.236205 -0.623614 -0.749317
+            0.0333333 -0.236205 -0.623614 -0.749317
+        endlist
+        orientationkey
+            0.0 -0.970288 0.171088 0.171088 -1.60095
+            0.0333333 -0.970288 0.171088 0.171088 -1.60095
+        endlist
+    endnode
+    node trimesh Log
+        parent Bark
+    endnode
+    node trimesh Bark01
+        parent plc_n07g
+        positionkey
+            0.0 -0.0403829 0.591411 -0.631335
+            0.0333333 -0.0403829 0.591411 -0.631335
+        endlist
+        orientationkey
+            0.0 0.995539 0.0667167 -0.0667168 -1.57527
+            0.0333333 0.995539 0.0667167 -0.0667168 -1.57527
+        endlist
+    endnode
+    node trimesh Log01
+        parent Bark01
+    endnode
+doneanim dead plc_n07g
+donemodel plc_n07g

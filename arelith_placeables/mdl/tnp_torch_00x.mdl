@@ -1,0 +1,476 @@
+# Exported from NWmax 0.8 b46 at 10/15/2011 12:34:53 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: tnp_torch_00x
+filedependancy Unknown
+newmodel tnp_torch_00x
+setsupermodel tnp_torch_00x NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom tnp_torch_00x
+node dummy tnp_torch_00x
+  parent NULL
+endnode
+node dummy base
+  parent tnp_torch_00x
+  position 0.0 0.0 0.0
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 0.0235294 0.52549 0.227451
+endnode
+node trimesh Rectangle123
+  parent tnp_torch_00x
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 8
+      -0.3000000   -0.3000000    0.1770000
+       0.3000000   -0.3000000    0.1770000
+       0.3000000    0.3000000    0.1770000
+      -0.3000000    0.3000000    0.1770000
+      -0.3000000   -0.3000000    0.0000000
+       0.3000000   -0.3000000    0.0000000
+       0.3000000    0.3000000    0.0000000
+      -0.3000000    0.3000000    0.0000000
+  faces 10
+    0 1 2  1           0          0          0   1
+    3 0 2  1           0          0          0   1
+    4 5 1  2           0          0          0   1
+    1 0 4  2           0          0          0   1
+    5 6 2  4           0          0          0   1
+    2 1 5  4           0          0          0   1
+    7 4 0  4           0          0          0   1
+    0 3 7  4           0          0          0   1
+    6 7 3  2           0          0          0   1
+    3 2 6  2           0          0          0   1
+  position -0.030559 -0.00637619 0
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  selfillumcolor 0 0 0
+endnode
+node emitter torch_em_flame03
+  parent base
+  position 3.47771e-007 -0.0221269 1.0
+  orientation 0.0 -0.996195 0.0871557 -3.14159
+  wirecolor 0.537255 0.0313726 0.431373
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 4.0
+  ySize 4.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 1
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0
+  colorEnd 0.427451 0.427451 0.427451
+  alphaStart 0.7
+  alphaEnd 0.1
+  sizeStart 0.3
+  sizeEnd 0.1
+  sizeStart_y 0.7
+  sizeEnd_y 0.1
+  birthrate 0
+  lifeExp 2.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_flame00
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 24
+  frameStart 0
+  frameEnd 15
+  random 1
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter torch_em_smoke12
+  parent base
+  position 3.3879e-007 -0.0185845 1.0
+  orientation 0.0 -1.0 0.0 -3.14159
+  wirecolor 0.537255 0.0313726 0.431373
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 4.0
+  ySize 4.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.419608 0.419608 0.419608 
+  colorEnd 0.215686 0.215686 0.215686
+  alphaStart 0.4
+  alphaEnd 0.0
+  sizeStart 0.2
+  sizeEnd 0.5
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 1.5
+  mass -0.1
+  spread 0.0
+  particleRot 1.5
+  velocity 0.2
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 1
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node light torch_light12
+  parent base
+  position 2.65206e-007 0.00544088 1.0
+  orientation 1.0 0.0 0.0 -6.28319
+  wirecolor 0.686275 0.101961 0.101961
+  radius 0.0
+  multiplier 1.0
+  color 0.941177 0.788236 0.172549
+  ambientonly 0
+  nDynamicType 1
+  affectDynamic 1
+  shadow 0
+  lightpriority 2
+  fadingLight 1
+endnode
+endmodelgeom tnp_torch_00x
+#NWmax ANIM ASCII
+newanim default tnp_torch_00x
+  length 0.666667
+  transtime 0.25
+  animroot tnp_torch_00x
+    node dummy tnp_torch_00x
+        parent NULL
+    endnode
+    node dummy base
+        parent tnp_torch_00x
+    endnode
+    node emitter torch_em_flame03
+        parent base
+        birthratekey
+            0.0 5
+            0.666667 5
+        endlist
+    endnode
+    node emitter torch_em_smoke12
+        parent base
+        birthratekey
+            0.0 10
+            0.666667 10
+        endlist
+    endnode
+    node light torch_light12
+        parent base
+        radiuskey
+            0.0 3.0
+            0.333333 4.0
+            0.666667 3.0
+        endlist
+    endnode
+doneanim default tnp_torch_00x
+#NWmax ANIM ASCII
+newanim on tnp_torch_00x
+  length 0.666667
+  transtime 0.25
+  animroot tnp_torch_00x
+    node dummy tnp_torch_00x
+        parent NULL
+    endnode
+    node dummy base
+        parent tnp_torch_00x
+    endnode
+    node emitter torch_em_flame03
+        parent base
+        birthratekey
+            0.0 5
+            0.666667 5
+        endlist
+    endnode
+    node emitter torch_em_smoke12
+        parent base
+        birthratekey
+            0.0 10
+            0.666667 10
+        endlist
+    endnode
+    node light torch_light12
+        parent base
+        radiuskey
+            0.0 3.0
+            0.333333 4.0
+            0.666667 3.0
+        endlist
+    endnode
+doneanim on tnp_torch_00x
+#NWmax ANIM ASCII
+newanim off tnp_torch_00x
+  length 0.0
+  transtime 0.25
+  animroot tnp_torch_00x
+    node dummy tnp_torch_00x
+        parent NULL
+    endnode
+    node dummy base
+        parent tnp_torch_00x
+    endnode
+    node emitter torch_em_flame03
+        parent base
+        positionkey
+            0.0 3.47771e-007 -0.0221269 3.82243
+        endlist
+        orientationkey
+            0.0 -1.26759e-006 0.0871557 0.996195 -3.14159
+        endlist
+        alphaStartkey
+            0.0 0.7
+        endlist
+        alphaEndkey
+            0.0 0.1 
+        endlist
+        birthratekey
+            0.0 0 
+        endlist
+        bounce_cokey
+            0.0 0.0 
+        endlist
+        colorStartkey
+            0.0 1.0 1.0 1.0 
+        endlist
+        colorEndkey
+            0.0 0.427451 0.427451 0.427451 
+        endlist
+        combinetimekey
+            0.0 0.0 
+        endlist
+        dragkey
+            0.0 0.0 
+        endlist
+        fpskey
+            0.0 24 
+        endlist
+        frameStartkey
+            0.0 0 
+        endlist
+        frameEndkey
+            0.0 15 
+        endlist
+        gravkey
+            0.0 0.0 
+        endlist
+        lifeExpkey
+            0.0 2.0 
+        endlist
+        lightningDelaykey
+            0.0 0.0 
+        endlist
+        lightningRadiuskey
+            0.0 0.0 
+        endlist
+        lightningScalekey
+            0.0 0.0
+        endlist
+        masskey
+            0.0 0.0 
+        endlist
+        p2p_bezier2key
+            0.0 0.0 
+        endlist
+        p2p_bezier3key
+            0.0 0.0 
+        endlist
+        particleRotkey
+            0.0 0.0 
+        endlist
+        sizeStartkey
+            0.0 0.3 
+        endlist
+        sizeEndkey
+            0.0 0.1 
+        endlist
+        spreadkey
+            0.0 0.0 
+        endlist
+        velocitykey
+            0.0 0.0 
+        endlist
+        xsizekey
+            0.0 4.0 
+        endlist
+        ysizekey
+            0.0 4.0 
+        endlist
+    endnode
+    node emitter torch_em_smoke12
+        parent base
+        positionkey
+            0.0 3.3879e-007 -0.0185845 3.80878
+        endlist
+        orientationkey
+            0.0 -1.26759e-006 0.0 1.0 -3.14159
+        endlist
+        alphaStartkey
+            0.0 0.4 
+        endlist
+        alphaEndkey
+            0.0 0.0
+        endlist
+        birthratekey
+            0.0 0 
+        endlist
+        bounce_cokey
+            0.0 0.0 
+        endlist
+        colorStartkey
+            0.0 0.419608 0.419608 0.419608 
+        endlist
+        colorEndkey
+            0.0 0.215686 0.215686 0.215686 
+        endlist
+        combinetimekey
+            0.0 0.0 
+        endlist
+        dragkey
+            0.0 0.0 
+        endlist
+        fpskey
+            0.0 10 
+        endlist
+        frameStartkey
+            0.0 0 
+        endlist
+        frameEndkey
+            0.0 24 
+        endlist
+        gravkey
+            0.0 0.0 
+        endlist
+        lifeExpkey
+            0.0 1.5 
+        endlist
+        lightningDelaykey
+            0.0 0.0 
+        endlist
+        lightningRadiuskey
+            0.0 0.0 
+        endlist
+        lightningScalekey
+            0.0 0.0 
+        endlist
+        masskey
+            0.0 -0.1
+        endlist
+        p2p_bezier2key
+            0.0 0.0 
+        endlist
+        p2p_bezier3key
+            0.0 0.0 
+        endlist
+        particleRotkey
+            0.0 1.5 
+        endlist
+        sizeStartkey
+            0.0 0.2 
+        endlist
+        sizeEndkey
+            0.0 0.5 
+        endlist
+        spreadkey
+            0.0 0.0 
+        endlist
+        velocitykey
+            0.0 0.2 
+        endlist
+        xsizekey
+            0.0 4.0 
+        endlist
+        ysizekey
+            0.0 4.0 
+        endlist
+    endnode
+    node light torch_light12
+        parent base
+        positionkey
+            0.0 2.65206e-007 0.00544088 3.82999
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 -6.28319
+        endlist
+        colorkey
+            0.0 0.941177 0.788236 0.172549 
+        endlist
+        radiuskey
+            0.0 0.0 
+        endlist
+    endnode
+doneanim off tnp_torch_00x
+donemodel tnp_torch_00x

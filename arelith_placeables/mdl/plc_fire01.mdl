@@ -1,0 +1,540 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: plc_fire01
+filedependancy Unknown
+newmodel plc_fire01
+setsupermodel plc_fire01 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom plc_fire01
+node dummy plc_fire01
+  parent NULL
+endnode
+node emitter burst
+  parent plc_fire01
+  position -0.960402 -1.90459 1.05413
+  orientation 0.0087265 -0.00161737 -0.999961 -2.77509
+  wirecolor 0.894531 0.894531 0.894531
+    colorStart 0.223529 0.223529 0.223529
+    colorEnd 0.823529 0.0980392 0
+    alphaStart 0.9
+    alphaEnd 0.11
+    sizeStart 0.78
+    sizeEnd 2.60389
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 7
+    spawnType 0
+    lifeExp 1.2
+    mass 0
+    spread 2.0944
+    particleRot 0.1
+    velocity 0.5
+    randvel 0.2
+    fps 16
+    random 0
+    inherit 0
+    inherit_local 1
+    inherit_part 0
+    inheritvel 0
+    xsize 20
+    ysize 20
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_Smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 1
+    Splat 0
+endnode
+node trimesh Cone01
+  parent plc_fire01
+  position -0.978244 -1.93548 0.666774
+  orientation 0 0 -1 -2.77507
+  wirecolor 0.601563 0.601563 0.601563
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_crater
+  verts 15
+    -0.965614 0 -0.00381276
+    -0.602051 -0.754948 -0.00381276
+    0.214869 -0.941404 -0.00381276
+    0.869988 -0.418964 -0.00381276
+    0.869988 0.418964 -0.00381276
+    0.214869 0.941404 -0.00381276
+    -0.602051 0.754948 -0.00381276
+    -0.358011 0 0.47012
+    -0.224844 -0.283798 0.439376
+    0.0799871 -0.353891 0.498703
+    0.323861 -0.157496 0.532978
+    0.323861 0.157496 0.532978
+    0.0799872 0.353891 0.498703
+    -0.224844 0.283798 0.439376
+    0 0 0.309551
+  faces 21
+    0 8 7  1  0 8 7  2
+    0 1 8  1  0 1 8  2
+    1 9 8  1  1 9 8  2
+    1 2 9  1  1 2 9  2
+    2 10 9  1  2 10 9  2
+    2 3 10  1  2 3 10  2
+    3 11 10  1  3 11 10  2
+    3 4 11  1  3 4 11  2
+    4 12 11  1  4 12 11  2
+    4 5 12  1  4 5 12  2
+    5 13 12  1  5 13 12  2
+    5 6 13  1  5 6 13  2
+    6 7 13  1  6 7 13  2
+    6 0 7  1  6 0 7  2
+    14 7 8  1  14 7 8  0
+    14 8 9  1  14 8 9  0
+    14 9 10  1  14 9 10  0
+    14 10 11  1  14 10 11  0
+    14 11 12  1  14 11 12  0
+    14 12 13  1  14 12 13  0
+    14 13 7  1  14 13 7  0
+  tverts 15
+    0.776041 0.357408 0
+    0.629475 0.654126 0
+    0.300143 0.727409 0
+    0.03604 0.522074 0
+    0.0360399 0.192743 0
+    0.300143 -0.0125919 0
+    0.629475 0.0606909 0
+    0.531093 0.357408 0
+    0.477408 0.46895 0
+    0.354519 0.496498 0
+    0.256204 0.419309 0
+    0.256204 0.295508 0
+    0.354519 0.218319 0
+    0.477408 0.245867 0
+    0.386765 0.357408 0
+endnode
+node trimesh Cone02
+  parent plc_fire01
+  position -2.63996 -1.38922 -0.0448854
+  orientation 0.125681 0.248723 0.960386 -0.559962
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_crater
+  verts 15
+    -0.735435 0.000471154 0.000116199
+    -0.451438 -0.569061 0.0378612
+    0.156878 -0.723422 -0.0406723
+    0.932999 -0.0888178 -0.241663
+    0.878808 0.503564 -0.0492814
+    0.483263 0.952391 0.0764584
+    -0.45888 0.575418 -0.00290605
+    -0.272874 0 0.358323
+    -0.171375 -0.216309 0.33489
+    0.374117 -0.168481 0.420362
+    0.701815 0.0643212 0.340162
+    0.678115 0.284164 0.418508
+    0.431333 0.419853 0.396446
+    -0.0427758 0.326143 0.374452
+    0.337912 0.1224 0.458206
+  faces 21
+    0 8 7  1  0 8 7  2
+    0 1 8  1  0 1 8  2
+    1 9 8  1  1 9 8  2
+    1 2 9  1  1 2 9  2
+    2 10 9  1  2 10 9  2
+    2 3 10  1  2 3 10  2
+    3 11 10  1  3 11 10  2
+    3 4 11  1  3 4 11  2
+    4 12 11  1  4 12 11  2
+    4 5 12  1  4 5 12  2
+    5 13 12  1  5 13 12  2
+    5 6 13  1  5 6 13  2
+    6 7 13  1  6 7 13  2
+    6 0 7  1  6 0 7  2
+    14 7 8  1  14 7 8  0
+    14 8 9  1  14 8 9  0
+    14 9 10  1  14 9 10  0
+    14 10 11  1  14 10 11  0
+    14 11 12  1  14 11 12  0
+    14 12 13  1  14 12 13  0
+    14 13 7  1  14 13 7  0
+  tverts 15
+    0.974696 0.578033 0
+    0.891155 0.737004 0
+    0.740935 0.784311 0
+    0.569166 0.615051 0
+    0.569042 0.442348 0
+    0.662542 0.311382 0
+    0.909966 0.417621 0
+    0.817022 0.566995 0
+    0.790977 0.628645 0
+    0.641625 0.613554 0
+    0.568216 0.551779 0
+    0.568352 0.487441 0
+    0.635864 0.449609 0
+    0.759504 0.475556 0
+    0.650099 0.530659 0
+endnode
+node trimesh Cone03
+  parent plc_fire01
+  position 0.762685 -2.03027 -0.0462357
+  orientation -0.0639133 -0.000835034 -0.997955 -1.04905
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_crater
+  verts 15
+    -0.577244 0 -0.00227925
+    -0.359906 -0.451308 -0.00227925
+    0.128449 -0.562771 -0.00227926
+    0.606718 -0.23683 -0.00575634
+    0.606719 0.264084 -0.00575634
+    0.128449 0.562771 -0.00227927
+    -0.359906 0.451308 -0.00227927
+    -0.214019 0 0.281038
+    -0.134412 -0.169654 0.262659
+    0.200444 -0.211556 0.298125
+    0.346232 -0.0941511 0.318614
+    0.346232 0.094151 0.318614
+    0.200444 0.211556 0.298125
+    -0.134412 0.169654 0.262659
+    0.152627 0 0.371841
+  faces 21
+    0 8 7  1  0 8 7  2
+    0 1 8  1  0 1 8  2
+    1 9 8  1  1 9 8  2
+    1 2 9  1  1 2 9  2
+    2 10 9  1  2 10 9  2
+    2 3 10  1  2 3 10  2
+    3 11 10  1  3 11 10  2
+    3 4 11  1  3 4 11  2
+    4 12 11  1  4 12 11  2
+    4 5 12  1  4 5 12  2
+    5 13 12  1  5 13 12  2
+    5 6 13  1  5 6 13  2
+    6 7 13  1  6 7 13  2
+    6 0 7  1  6 0 7  2
+    14 7 8  1  14 7 8  0
+    14 8 9  1  14 8 9  0
+    14 9 10  1  14 9 10  0
+    14 10 11  1  14 10 11  0
+    14 11 12  1  14 11 12  0
+    14 12 13  1  14 12 13  0
+    14 13 7  1  14 13 7  0
+  tverts 15
+    0.70376 0.637322 0
+    0.71351 0.76875 0
+    0.616839 0.858261 0
+    0.464983 0.846735 0
+    0.399178 0.732521 0
+    0.468975 0.601624 0
+    0.594932 0.562944 0
+    0.622737 0.683272 0
+    0.626765 0.732515 0
+    0.556165 0.785803 0
+    0.507639 0.778043 0
+    0.482902 0.735108 0
+    0.500581 0.689328 0
+    0.58219 0.655149 0
+    0.539733 0.730842 0
+endnode
+node trimesh Cone04
+  parent plc_fire01
+  position -0.927742 -1.95488 0.00785088
+  orientation 0 0 -1 -2.77507
+  wirecolor 0.34375 0.34375 0.34375
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_crater
+  verts 15
+    -2.00551 0 -0.00791881
+    -1.25041 -1.56797 -0.00791881
+    0.446266 -1.95522 -0.00791881
+    1.8069 -0.870156 -0.00791881
+    1.8069 0.870156 -0.00791881
+    0.446266 1.95522 -0.00791881
+    -1.25041 1.56797 -0.00791881
+    -0.743561 0 0.976403
+    -0.466983 -0.589427 0.91255
+    0.166127 -0.735004 1.03577
+    0.672635 -0.327107 1.10695
+    0.672635 0.327107 1.10695
+    0.166127 0.735004 1.03577
+    -0.466983 0.589427 0.91255
+    0 0 0.642914
+  faces 21
+    0 8 7  1  0 8 7  2
+    0 1 8  1  0 1 8  2
+    1 9 8  1  1 9 8  2
+    1 2 9  1  1 2 9  2
+    2 10 9  1  2 10 9  2
+    2 3 10  1  2 3 10  2
+    3 11 10  1  3 11 10  2
+    3 4 11  1  3 4 11  2
+    4 12 11  1  4 12 11  2
+    4 5 12  1  4 5 12  2
+    5 13 12  1  5 13 12  2
+    5 6 13  1  5 6 13  2
+    6 7 13  1  6 7 13  2
+    6 0 7  1  6 0 7  2
+    14 7 8  1  14 7 8  0
+    14 8 9  1  14 8 9  0
+    14 9 10  1  14 9 10  0
+    14 10 11  1  14 10 11  0
+    14 11 12  1  14 11 12  0
+    14 12 13  1  14 12 13  0
+    14 13 7  1  14 13 7  0
+  tverts 15
+    0.895981 0.359916 0
+    0.707538 0.741411 0
+    0.284113 0.835631 0
+    -0.055448 0.57163 0
+    -0.0554481 0.148203 0
+    0.284113 -0.115798 0
+    0.707538 -0.0215786 0
+    0.581048 0.359916 0
+    0.512025 0.503327 0
+    0.354025 0.538747 0
+    0.22762 0.439503 0
+    0.22762 0.28033 0
+    0.354025 0.181086 0
+    0.512025 0.216506 0
+    0.395484 0.359916 0
+endnode
+node emitter shater
+  parent plc_fire01
+  position -0.946514 -1.87747 0.964269
+  orientation 0.0127765 0.0089361 -0.999878 -1.18803
+  wirecolor 0.34375 0.34375 0.34375
+    colorStart 0.741176 0.113725 0.113725
+    colorEnd 0.768628 0.74902 0.203922
+    alphaStart 0.84
+    alphaEnd 0.15
+    sizeStart 0.7
+    sizeEnd 0.5
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 3
+    birthrate 50
+    spawnType 0
+    lifeExp 1
+    mass 0.2
+    spread 5.23599
+    particleRot 1.1
+    velocity 2
+    randvel 0.5
+    fps 2
+    random 1
+    inherit 0
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 0
+    bounce_co 0.3
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture Blood
+    xgrid 2
+    ygrid 2
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 7
+    Splat 0
+endnode
+node emitter UPcloud
+  parent plc_fire01
+  position -0.944044 -1.87789 0.80819
+  orientation 0.0087265 -0.00161737 -0.999961 -2.77509
+  wirecolor 0.34375 0.34375 0.34375
+    colorStart 0.647059 0.243137 0.243137
+    colorEnd 0.133333 0.0431373 0
+    alphaStart 0.2
+    alphaEnd 0.8
+    sizeStart 0.2
+    sizeEnd 2
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 60
+    spawnType 0
+    lifeExp 1
+    mass 0.3
+    spread 0.523599
+    particleRot 2
+    velocity 4
+    randvel 0.6
+    fps 15
+    random 0
+    inherit 0
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 20
+    ysize 30
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_Smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 1
+    Splat 0
+endnode
+node emitter UPcloud01
+  parent plc_fire01
+  position -0.944044 -1.87789 0.870706
+  orientation 0.0087265 -0.00161737 -0.999961 -2.77509
+  wirecolor 0.34375 0.34375 0.34375
+    colorStart 0 0 0
+    colorEnd 0.623529 0.180392 0.156863
+    alphaStart 0.73
+    alphaEnd 0.22
+    sizeStart 0.2
+    sizeEnd 2
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 60
+    spawnType 0
+    lifeExp 1
+    mass 0.3
+    spread 0.523599
+    particleRot -2
+    velocity 4
+    randvel 0.3
+    fps 15
+    random 0
+    inherit 0
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 30
+    ysize 20
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_Smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom plc_fire01
+donemodel plc_fire01

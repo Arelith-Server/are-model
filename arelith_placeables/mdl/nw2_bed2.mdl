@@ -1,0 +1,1268 @@
+#MAXMODEL ASCII
+# model: NW2_BED2
+filedependancy NW2_BED2.max
+newmodel NW2_BED2
+setsupermodel NW2_BED2 NULL
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom NW2_BED2
+node dummy NW2_BED2
+  parent NULL
+  #part-number 0
+endnode
+node dummy H08_hand
+  parent NW2_BED2
+  #part-number 1
+  position 0.00398926018 -0.505195022 0.934401989
+  orientation 0 0 0 0
+endnode
+node dummy H08_head
+  parent NW2_BED2
+  #part-number 2
+  position 0.00398926018 0.0108252 0.994988978
+  orientation 0 0 0 0
+endnode
+node dummy H08_head_hit
+  parent NW2_BED2
+  #part-number 3
+  position 0.00398926018 0.0108252 0.513511002
+  orientation 0 0 0 0
+endnode
+node dummy H08_impact
+  parent NW2_BED2
+  #part-number 4
+  position 0.00398926018 0.0110010002 0.346096992
+  orientation 0 0 0 0
+endnode
+node dummy H08_ground
+  parent NW2_BED2
+  #part-number 5
+  position -0.00363280997 0.00698729977 0
+  orientation 0 0 0 0
+endnode
+node emitter ChunkyWood74
+  parent NW2_BED2
+  #part-number 6
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_W01
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.0131847998 -0.00441497983 0.606715024
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 5
+  velocity 8
+  randvel 0.300000012
+  fps 0
+  xsize 89
+  ysize 40
+  bounce_co 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter ChunkyWood75
+  parent NW2_BED2
+  #part-number 7
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_M01
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0.0131847998 -0.00441497983 0.712936997
+  orientation 0 0 0 0
+  colorStart 0.701960981 0.674510002 0.603922009
+  colorEnd 0.854902029 0.847059011 0.823530018
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 2.9000001
+  velocity 8
+  randvel 0.300000012
+  fps 0
+  xsize 89
+  ysize 40
+  bounce_co 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter fire!44
+  parent NW2_BED2
+  #part-number 8
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.200000003
+  blastLength 1
+  position 0.0131847998 -0.00441497983 0.532670975
+  orientation -1 0 0 -1.57079995
+  colorStart 0.733332992 0.674510002 0.533333004
+  colorEnd 0.803921998 0.780391991 0.678430974
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 10
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  fps 10
+  xsize 100
+  ysize 99
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node trimesh damage10
+  parent NW2_BED2
+  #part-number 9
+  ambient 0.0705882013 0 1
+  diffuse 1 0.501960993 0.643136978
+  specular 0 0.899999976 0.105881996
+  shininess 24
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 12
+    -0.195415005 -0.186215997 0
+    -0.195415005 0.186215997 0
+    0.195415005 0.186215997 0
+    0.195415005 -0.186215997 0
+    -0.195415005 -0.186215997 0.5
+    0.195415005 -0.186215997 0.5
+    0.195415005 0.186215997 0.5
+    -0.195415005 0.186215997 0.5
+    0.103944004 -0.0990512967 0.25
+    -0.103944004 -0.0990512967 0.25
+    0.103944004 0.0990512967 0.25
+    -0.103944004 0.0990512967 0.25
+  faces 20
+    0 1 2 1 0 0 0 2
+    2 3 0 1 0 0 0 2
+    4 5 6 1 0 0 0 1
+    6 7 4 1 0 0 0 1
+    0 3 8 2 0 0 0 5
+    8 9 0 2 0 0 0 5
+    9 8 5 2 0 0 0 5
+    5 4 9 2 0 0 0 5
+    3 2 10 4 0 0 0 4
+    10 8 3 4 0 0 0 4
+    8 10 6 4 0 0 0 4
+    6 5 8 4 0 0 0 4
+    2 1 11 2 0 0 0 6
+    11 10 2 2 0 0 0 6
+    10 11 7 2 0 0 0 6
+    7 6 10 2 0 0 0 6
+    1 0 9 4 0 0 0 3
+    9 11 1 4 0 0 0 3
+    11 9 4 4 0 0 0 3
+    4 7 11 4 0 0 0 3
+  position 0.0147516001 0.0354239009 0
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  setfillumcolor 0 0 0
+endnode
+node trimesh bed
+  parent NW2_BED2
+  bitmap plc_mc_bed02
+  position 0.0 0.0 0
+  orientation 0 0 0 0
+    verts 105
+        -0.00200297 1.29653 0.364724
+        -0.493799 1.33318 0.602182
+        -0.493791 1.27037 0.59944
+        -0.545397 1.09487 0.431882
+        -0.621655 -0.0677508 0.157455
+        -0.623595 -0.0682427 0.338835
+        -0.616409 1.26469 0.00232292
+        -0.632321 1.26489 0.734471
+        -0.626783 1.39263 0.736916
+        -0.60827 1.39242 0.00476818
+        -0.490293 1.25897 0.735266
+        -0.475299 1.25928 0.00311838
+        -0.480609 1.39403 0.00467613
+        -0.628877 1.25976 0.41172
+        -0.617409 1.39065 0.414413
+        -0.489734 1.3924 0.413901
+        -0.487868 1.25846 0.412817
+        -0.482838 1.39283 0.166239
+        -0.533959 -1.113 0.455461
+        -0.532604 -0.0670065 0.416103
+        -0.624433 -1.2317 -0.0072717
+        -0.629873 -1.23029 0.402724
+        -0.62803 -1.23234 0.613973
+        -0.624929 -1.37132 0.613549
+        -0.619219 -1.37068 -0.00769554
+        -0.453502 -1.22353 0.619824
+        -0.450668 -1.36768 0.625112
+        -0.444841 -1.36651 0.00386761
+        -0.624467 -1.37244 0.401949
+        -0.450161 -1.36819 0.412847
+        -0.455489 -1.31626 0.588267
+        -0.454321 -1.24214 0.589598
+        -0.450495 -1.31612 0.156518
+        -0.480545 1.25724 0.164624
+        -0.454918 -1.23393 0.391859
+        -0.450469 -1.22237 -0.00141975
+        -0.627599 -1.23276 0.154331
+        -0.453468 -1.22349 0.160148
+        -0.316735 0.847523 0.468792
+        -0.341882 1.1359 0.494856
+        -0.408518 0.74288 0.448122
+        -0.432513 1.22646 0.432352
+        -0.0063068 1.25319 0.372009
+        -0.621276 1.2634 0.163905
+        -0.626783 1.39263 0.736916
+        -0.499121 1.39385 0.736824
+        -0.450668 -1.36768 0.625112
+        -0.00792073 1.29443 0.599112
+        -0.00215673 -1.10854 0.358505
+        -0.00573612 -1.37095 0.590899
+        -0.00643938 -1.29421 0.590321
+        -0.000423243 -1.3702 0.159145
+        -0.0128997 1.118 0.408871
+        -0.000602606 -0.0775683 0.292674
+        -0.00501096 -1.2942 0.345488
+        0.481569 1.33519 0.608326
+        0.476201 1.27234 0.599118
+        0.520505 1.09795 0.436922
+        0.625026 -0.0643398 0.157653
+        0.624514 -0.0634373 0.339033
+        0.630272 1.26542 0.00581462
+        0.61436 1.26718 0.737963
+        0.615871 1.3949 0.748479
+        0.634383 1.39311 0.0163313
+        0.472349 1.26024 0.733827
+        0.487343 1.25609 0.00167951
+        0.506722 1.3912 0.0197045
+        0.616505 1.26458 0.415059
+        0.625245 1.39545 0.425976
+        0.497597 1.39457 0.428929
+        0.474949 1.26036 0.411442
+        -0.00510903 1.35695 0.602415
+        0.504493 1.39275 0.181268
+        0.0112474 1.41555 0.175656
+        0.531942 -1.10991 0.448003
+        0.533297 -0.0639386 0.417381
+        0.622248 -1.23096 -0.00508483
+        0.618236 -1.22545 0.404976
+        0.618651 -1.22882 0.61616
+        0.617833 -1.36782 0.60713
+        0.623543 -1.36999 -0.0141149
+        0.444707 -1.22203 0.615964
+        0.443439 -1.36621 0.603467
+        0.449266 -1.37067 -0.0177773
+        0.618295 -1.36764 0.39553
+        0.443946 -1.36704 0.391202
+        0.442475 -1.31472 0.578458
+        0.443643 -1.2406 0.58528
+        0.447482 -1.31751 0.146709
+        0.48246 1.25679 0.163134
+        0.443197 -1.23274 0.387817
+        0.447741 -1.22648 -0.0052799
+        0.619223 -1.22935 0.156524
+        0.444741 -1.22487 0.156288
+        0.000388755 -0.0777682 0.157032
+        0.341086 0.847289 0.496463
+        0.315891 1.13565 0.473848
+        0.43769 0.743807 0.47025
+        0.413695 1.22725 0.425893
+        0.0135445 0.814645 0.433083
+        -0.0127435 1.16049 0.444557
+        0.0140021 0.722546 0.3929
+        0.625179 1.26681 0.167401
+        0.488209 1.39518 0.751852
+        0.443439 -1.36621 0.603467
+    faces 184
+        52 3 19 1 143 8 47 1
+        19 53 52 1 47 145 143 1
+        43 4 5 2 101 9 12 1
+        5 13 43 2 12 31 101 1
+        5 19 3 1 12 47 8 1
+        3 13 5 1 8 31 12 1
+        8 14 13 2 18 34 32 1
+        13 7 8 2 32 16 18 1
+        45 10 16 2 112 23 38 1
+        16 15 45 2 38 36 112 1
+        11 6 9 1 25 13 20 1
+        9 12 11 1 20 28 25 1
+        8 45 15 4 19 113 37 1
+        15 14 8 4 37 35 19 1
+        7 13 16 4 17 33 39 1
+        16 10 7 4 39 24 17 1
+        9 14 15 4 21 35 37 1
+        15 12 9 4 37 29 21 1
+        71 73 17 1 189 197 42 1
+        17 1 71 1 42 4 189 1
+        4 36 21 2 9 89 51 1
+        21 5 4 2 51 12 9 1
+        18 19 5 1 46 47 12 1
+        5 21 18 1 12 51 46 1
+        18 48 53 1 46 129 145 1
+        53 19 18 1 145 47 46 1
+        54 48 18 1 147 129 46 1
+        18 21 54 1 46 51 147 1
+        36 20 24 2 90 48 58 1
+        20 35 27 1 49 86 67 1
+        27 24 20 1 67 59 49 1
+        24 27 29 4 60 68 72 1
+        29 28 24 4 72 70 60 1
+        25 34 21 4 61 83 52 1
+        21 22 25 4 52 54 61 1
+        21 28 23 2 53 71 56 1
+        23 22 21 2 56 55 53 1
+        23 28 29 4 57 70 72 1
+        29 26 23 4 72 65 57 1
+        29 34 25 2 73 84 62 1
+        25 26 29 2 62 66 73 1
+        30 49 50 1 74 131 135 1
+        50 31 30 1 135 76 74 1
+        30 32 51 2 75 78 139 1
+        51 49 30 2 139 132 75 1
+        2 16 0 8 6 40 0 1
+        0 47 2 8 0 125 6 1
+        16 3 52 1 41 8 143 1
+        52 0 16 1 143 1 41 1
+        3 16 13 1 8 41 31 1
+        73 94 33 4 198 250 80 1
+        33 17 73 4 80 43 198 1
+        33 11 12 8 81 26 30 1
+        12 17 33 8 30 44 81 1
+        31 50 54 8 77 136 148 1
+        54 34 31 8 148 85 77 1
+        29 27 35 2 73 69 87 1
+        35 34 29 2 87 84 73 1
+        21 36 24 2 53 90 58 1
+        24 28 21 2 58 71 53 1
+        35 20 36 8 88 50 91 1
+        36 37 35 8 91 93 88 1
+        51 32 37 4 140 79 94 1
+        37 94 51 4 94 251 140 1
+        37 36 4 4 94 92 10 1
+        4 94 37 4 10 251 94 1
+        33 94 4 4 80 250 11 1
+        4 43 33 4 11 102 80 1
+        6 11 33 16 14 27 82 1
+        33 43 6 16 82 103 14 1
+        40 38 39 1 97 95 96 1
+        39 41 40 1 96 98 97 1
+        42 41 39 2 99 98 96 1
+        39 100 42 2 96 260 99 1
+        38 99 100 1 95 258 260 1
+        100 39 38 1 260 96 95 1
+        101 99 38 1 262 258 95 1
+        38 40 101 1 95 97 262 1
+        9 43 13 2 22 104 32 1
+        13 14 9 2 32 34 22 1
+        6 43 9 2 15 104 22 1
+        2 47 71 2 7 126 190 1
+        71 1 2 2 190 5 7 1
+        17 15 16 2 45 36 38 1
+        10 7 44 1 110 105 108 1
+        44 45 10 1 108 114 110 1
+        22 25 46 1 117 63 122 1
+        46 23 22 8 122 120 117 1
+        52 53 75 1 144 146 202 1
+        75 57 52 1 202 155 144 1
+        102 67 59 2 264 178 159 1
+        59 58 102 2 159 156 264 1
+        59 67 57 1 159 178 155 1
+        57 75 59 1 155 202 159 1
+        62 61 67 2 165 163 179 1
+        67 68 62 2 179 181 165 1
+        103 69 70 2 275 183 185 1
+        70 64 103 2 185 170 275 1
+        65 66 63 1 172 175 167 1
+        63 60 65 1 167 160 172 1
+        62 68 69 4 166 182 184 1
+        69 103 62 4 184 276 166 1
+        61 64 70 4 164 171 186 1
+        70 67 61 4 186 180 164 1
+        63 66 69 4 168 176 184 1
+        69 68 63 4 184 182 168 1
+        71 55 72 1 191 151 193 1
+        72 73 71 1 193 199 191 1
+        58 59 77 2 156 159 206 1
+        77 92 58 2 206 244 156 1
+        74 77 59 1 201 206 159 1
+        59 75 74 1 159 202 201 1
+        74 75 53 1 201 202 146 1
+        53 48 74 1 146 130 201 1
+        54 77 74 1 149 206 201 1
+        74 48 54 1 201 130 149 1
+        92 80 76 2 245 213 203 1
+        76 80 83 1 204 214 222 1
+        83 91 76 1 222 241 204 1
+        80 84 85 4 215 225 227 1
+        85 83 80 4 227 223 215 1
+        81 78 77 4 216 209 207 1
+        77 90 81 4 207 238 216 1
+        77 78 79 2 208 210 211 1
+        79 84 77 2 211 226 208 1
+        79 82 85 4 212 220 227 1
+        85 84 79 4 227 225 212 1
+        85 82 81 2 228 221 217 1
+        81 90 85 2 217 239 228 1
+        86 87 50 1 229 231 137 1
+        50 49 86 1 137 133 229 1
+        86 49 51 2 230 134 141 1
+        51 88 86 2 141 233 230 1
+        56 47 0 8 153 127 2 1
+        0 70 56 8 2 187 153 1
+        70 0 52 1 188 3 144 1
+        52 57 70 1 144 155 188 1
+        57 67 70 1 155 178 188 1
+        73 72 89 4 200 194 235 1
+        89 94 73 4 235 252 200 1
+        89 72 66 8 236 195 177 1
+        66 65 89 8 177 173 236 1
+        87 90 54 8 232 240 150 1
+        54 50 87 8 150 138 232 1
+        85 90 91 2 228 239 242 1
+        91 83 85 2 242 224 228 1
+        77 84 80 2 208 226 213 1
+        80 92 77 2 213 245 208 1
+        91 93 92 8 243 248 246 1
+        92 76 91 8 246 205 243 1
+        51 94 93 4 142 253 249 1
+        93 88 51 4 249 234 142 1
+        93 94 58 4 249 253 157 1
+        58 92 93 4 157 247 249 1
+        89 102 58 4 235 265 158 1
+        58 94 89 4 158 252 235 1
+        60 102 89 16 161 266 237 1
+        89 65 60 16 237 174 161 1
+        97 98 96 1 256 257 255 1
+        96 95 97 1 255 254 256 1
+        42 100 96 2 100 261 255 1
+        96 98 42 2 255 257 100 1
+        95 96 100 1 254 255 261 1
+        100 99 95 1 261 259 254 1
+        101 97 95 1 263 256 254 1
+        95 99 101 1 254 259 263 1
+        63 68 67 2 169 181 179 1
+        67 102 63 2 179 267 169 1
+        60 63 102 2 162 169 267 1
+        56 55 71 2 154 152 192 1
+        71 47 56 2 192 128 154 1
+        72 70 69 2 196 185 183 1
+        64 103 62 1 273 277 271 1
+        62 61 64 1 271 268 273 1
+        78 79 104 1 280 283 285 1
+        104 81 78 8 285 218 280 1
+        104 79 78 16 286 284 281 1
+        78 81 104 32 282 219 287 1
+        46 25 22 16 123 64 118 1
+        22 23 46 32 119 121 124 1
+        7 10 45 8 106 111 115 1
+        45 44 7 8 116 109 107 1
+        103 64 61 8 278 274 269 1
+        61 62 103 8 270 272 279 1
+    tverts 288
+        0.899705 0.794623 0
+        0.840318 0.989507 0
+        0.899705 0.794623 0
+        0.840318 0.989507 0
+        0.0101053 0.229598 0
+        0.98253 0.586602 0
+        0.959352 0.586563 0
+        0.959352 0.586563 0
+        0.774196 0.792686 0
+        0.402567 0.658775 0
+        0.915894 0.438248 0
+        0.990559 0.0153785 0
+        0.40303 0.753602 0
+        0.664481 0.170215 0
+        0.201441 0.239145 0
+        0.303136 0.243019 0
+        0.307803 0.636708 0
+        0.202473 0.63515 0
+        0.255815 0.637325 0
+        0.255815 0.637325 0
+        0.562593 0.168072 0
+        0.251147 0.243635 0
+        0.251147 0.243635 0
+        0.257972 0.634908 0
+        0.257972 0.634908 0
+        0.669252 0.0190534 0
+        0.256948 0.240154 0
+        0.256948 0.240154 0
+        0.562593 0.0321928 0
+        0.201295 0.244228 0
+        0.311577 0.240929 0
+        0.827442 0.757648 0
+        0.306184 0.410415 0
+        0.201765 0.408848 0
+        0.253137 0.411044 0
+        0.253137 0.411044 0
+        0.311314 0.408179 0
+        0.203283 0.411494 0
+        0.256957 0.408605 0
+        0.256957 0.408605 0
+        0.883347 0.587996 0
+        0.828027 0.81023 0
+        0.00896703 0.00617871 0
+        0.948468 0.429968 0
+        0.310796 0.295157 0
+        0.310796 0.295157 0
+        0.0693388 0.796945 0
+        0.403378 0.794296 0
+        0.344385 0.239058 0
+        0.454416 0.213958 0
+        0.483603 0.241073 0
+        0.0314864 0.762127 0
+        0.484963 0.414492 0
+        0.34289 0.413227 0
+        0.483603 0.642195 0
+        0.344385 0.641923 0
+        0.417617 0.64295 0
+        0.417617 0.64295 0
+        0.417617 0.240084 0
+        0.557854 0.212397 0
+        0.417617 0.240084 0
+        0.416424 0.642503 0
+        0.416424 0.642503 0
+        0.451021 0.0751585 0
+        0.556757 0.11028 0
+        0.48367 0.641921 0
+        0.342715 0.642186 0
+        0.55701 0.0735244 0
+        0.48367 0.239055 0
+        0.342715 0.241065 0
+        0.417616 0.414254 0
+        0.417616 0.414254 0
+        0.48367 0.412992 0
+        0.342715 0.414249 0
+        0.984907 0.980531 0
+        0.44703 0.22696 0
+        0.959567 0.983302 0
+        0.959567 0.983302 0
+        0.446775 0.0125236 0
+        0.848947 0.025324 0
+        0.94452 0.384497 0
+        0.2559 0.294384 0
+        0.2559 0.294384 0
+        0.413061 0.414228 0
+        0.413061 0.414228 0
+        0.881859 0.984109 0
+        0.451021 0.0751585 0
+        0.416424 0.241381 0
+        0.416424 0.241381 0
+        0.0315352 0.654714 0
+        0.344237 0.295482 0
+        0.483738 0.297254 0
+        0.915921 0.0537261 0
+        0.416424 0.297562 0
+        0.848992 0.0558977 0
+        0.78596 0.509433 0
+        0.78596 0.570349 0
+        0.819422 0.453991 0
+        0.819422 0.62579 0
+        0.669778 0.63433 0
+        0.669778 0.63433 0
+        0.826571 0.650227 0
+        0.990522 0.386783 0
+        0.200496 0.293378 0
+        0.303752 0.297257 0
+        0.664481 0.170215 0
+        0.564748 0.147262 0
+        0.564748 0.147262 0
+        0.562593 0.168072 0
+        0.653045 0.159088 0
+        0.669252 0.0190534 0
+        0.574661 0.0526575 0
+        0.312605 0.6346 0
+        0.205962 0.637915 0
+        0.562593 0.0321928 0
+        0.665664 0.0746017 0
+        0.665664 0.0746017 0
+        0.454416 0.213958 0
+        0.55464 0.202678 0
+        0.55464 0.202678 0
+        0.557854 0.212397 0
+        0.458907 0.202701 0
+        0.55701 0.0735244 0
+        0.458664 0.11028 0
+        0.458664 0.11028 0
+        0.959511 0.79456 0
+        0.959511 0.79456 0
+        0.959511 0.79456 0
+        0.959511 0.79456 0
+        0.0705048 0.995497 0
+        0.0705048 0.995497 0
+        0.98469 0.799867 0
+        0.25622 0.227201 0
+        0.98469 0.799867 0
+        0.25622 0.227201 0
+        0.958459 0.802745 0
+        0.958459 0.802745 0
+        0.958459 0.802745 0
+        0.958459 0.802745 0
+        0.255962 0.0127647 0
+        0.676548 0.00664803 0
+        0.255962 0.0127647 0
+        0.676548 0.00664803 0
+        0.781241 0.991257 0
+        0.781241 0.991257 0
+        0.399276 0.991419 0
+        0.399276 0.991419 0
+        0.00919222 0.994417 0
+        0.896274 0.803064 0
+        0.00919222 0.994417 0
+        0.896274 0.803064 0
+        0.0101053 0.229598 0
+        0.98253 0.586602 0
+        0.959352 0.586563 0
+        0.959352 0.586563 0
+        0.774196 0.792686 0
+        0.402567 0.658775 0
+        0.915894 0.438248 0
+        0.990559 0.0153785 0
+        0.40303 0.753602 0
+        0.664481 0.170215 0
+        0.201441 0.239145 0
+        0.303136 0.243019 0
+        0.307803 0.636708 0
+        0.202473 0.63515 0
+        0.255815 0.637325 0
+        0.255815 0.637325 0
+        0.562593 0.168072 0
+        0.251147 0.243635 0
+        0.251147 0.243635 0
+        0.257972 0.634908 0
+        0.257972 0.634908 0
+        0.669252 0.0190534 0
+        0.256948 0.240154 0
+        0.256948 0.240154 0
+        0.562593 0.0321928 0
+        0.201295 0.244228 0
+        0.311577 0.240929 0
+        0.827442 0.757648 0
+        0.306184 0.410415 0
+        0.201765 0.408848 0
+        0.253137 0.411044 0
+        0.253137 0.411044 0
+        0.311314 0.408179 0
+        0.203283 0.411494 0
+        0.256957 0.408605 0
+        0.256957 0.408605 0
+        0.883347 0.587996 0
+        0.828027 0.81023 0
+        0.23382 0.2296 0
+        0.982528 0.795115 0
+        0.23382 0.2296 0
+        0.982528 0.795115 0
+        0.00896703 0.00617871 0
+        0.948468 0.429968 0
+        0.310796 0.295157 0
+        0.310796 0.295157 0
+        0.234778 0.00631404 0
+        0.788233 0.435438 0
+        0.234778 0.00631404 0
+        0.788233 0.435438 0
+        0.0693388 0.796945 0
+        0.403378 0.794296 0
+        0.344385 0.239058 0
+        0.454416 0.213958 0
+        0.483603 0.241073 0
+        0.0314864 0.762127 0
+        0.484963 0.414492 0
+        0.34289 0.413227 0
+        0.483603 0.642195 0
+        0.344385 0.641923 0
+        0.417617 0.64295 0
+        0.417617 0.64295 0
+        0.417617 0.240084 0
+        0.557854 0.212397 0
+        0.417617 0.240084 0
+        0.416424 0.642503 0
+        0.416424 0.642503 0
+        0.451021 0.0751585 0
+        0.456326 0.107631 0
+        0.48367 0.641921 0
+        0.342715 0.642186 0
+        0.55701 0.0735244 0
+        0.48367 0.239055 0
+        0.342715 0.241065 0
+        0.417616 0.414254 0
+        0.417616 0.414254 0
+        0.48367 0.412992 0
+        0.342715 0.414249 0
+        0.984907 0.980531 0
+        0.44703 0.22696 0
+        0.959567 0.983302 0
+        0.959567 0.983302 0
+        0.446775 0.0125236 0
+        0.848947 0.025324 0
+        0.94452 0.384497 0
+        0.2559 0.294384 0
+        0.2559 0.294384 0
+        0.413061 0.414228 0
+        0.413061 0.414228 0
+        0.881859 0.984109 0
+        0.451021 0.0751585 0
+        0.416424 0.241381 0
+        0.416424 0.241381 0
+        0.0315352 0.654714 0
+        0.344237 0.295482 0
+        0.483738 0.297254 0
+        0.915921 0.0537261 0
+        0.416424 0.297562 0
+        0.848992 0.0558977 0
+        0.788232 0.0111333 0
+        0.676548 0.433226 0
+        0.788232 0.0111333 0
+        0.676548 0.433226 0
+        0.78596 0.509433 0
+        0.78596 0.570349 0
+        0.819422 0.453991 0
+        0.819422 0.62579 0
+        0.669778 0.497318 0
+        0.669778 0.497318 0
+        0.669778 0.578652 0
+        0.669778 0.578652 0
+        0.669778 0.445829 0
+        0.669778 0.445829 0
+        0.826571 0.650227 0
+        0.990522 0.386783 0
+        0.200496 0.293378 0
+        0.303752 0.297257 0
+        0.664481 0.170215 0
+        0.651612 0.155953 0
+        0.651612 0.155953 0
+        0.562593 0.168072 0
+        0.564544 0.145329 0
+        0.669252 0.0190534 0
+        0.665623 0.0633484 0
+        0.312605 0.6346 0
+        0.205962 0.637915 0
+        0.562593 0.0321928 0
+        0.573467 0.0616947 0
+        0.573467 0.0616947 0
+        0.454416 0.213958 0
+        0.458555 0.20393 0
+        0.458555 0.20393 0
+        0.557854 0.212397 0
+        0.558329 0.20393 0
+        0.55701 0.0735244 0
+        0.55856 0.107607 0
+        0.55856 0.107607 0
+endnode
+endmodelgeom NW2_BED2
+
+#MAXANIM ASCII
+newanim die NW2_BED2
+  length 0.166666999
+  transtime 0
+  animroot NW2_BED2
+  event 0.0333333015 detonate
+  event 0.0333333015 detonate
+  event 0.0333333015 detonate
+node dummy NW2_BED2
+  parent NULL
+  #part-number 0
+endnode
+node dummy NW2_BED2_pwk
+  parent NW2_BED2
+  #part-number -1
+endnode
+node dummy NW2_BED2_wg
+  parent NW2_BED2_pwk
+  #part-number 2
+endnode
+node dummy H08_pwk_use02
+  parent NW2_BED2_pwk
+  #part-number 3
+endnode
+node dummy H08_pwk_use01
+  parent NW2_BED2_pwk
+  #part-number 4
+endnode
+node dummy H08_hand
+  parent NW2_BED2
+  #part-number 1
+endnode
+node dummy H08_head
+  parent NW2_BED2
+  #part-number 2
+endnode
+node dummy H08_head_hit
+  parent NW2_BED2
+  #part-number 3
+endnode
+node dummy H08_impact
+  parent NW2_BED2
+  #part-number 4
+endnode
+node dummy H08_ground
+  parent NW2_BED2
+  #part-number 5
+endnode
+node emitter ChunkyWood74
+  parent NW2_BED2
+  #part-number 6
+endnode
+node emitter ChunkyWood75
+  parent NW2_BED2
+  #part-number 7
+endnode
+node emitter fire!44
+  parent NW2_BED2
+  #part-number 8
+endnode
+node trimesh damage10
+  parent NW2_BED2
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 0.0147516001 0.0354239009 0
+    0.166666999 0.0147516001 0.0354239009 -3.77998996
+  orientation 0 0 0 0
+endnode
+node dummy Box75
+  parent damage10
+  #part-number 10
+endnode
+node dummy Line18
+  parent damage10
+  #part-number 11
+endnode
+node dummy Box1243
+  parent damage10
+  #part-number 12
+endnode
+node dummy Mesh146
+  parent damage10
+  #part-number 13
+endnode
+node dummy Box76
+  parent damage10
+  #part-number 14
+endnode
+node dummy Box1060
+  parent damage10
+  #part-number 15
+endnode
+node dummy Box1061
+  parent damage10
+  #part-number 16
+endnode
+doneanim die NW2_BED2
+
+#MAXANIM ASCII
+newanim damage NW2_BED2
+  length 0.133332998
+  transtime 0
+  animroot NW2_BED2
+node dummy NW2_BED2
+  parent NULL
+  #part-number 0
+endnode
+node dummy NW2_BED2_pwk
+  parent NW2_BED2
+  #part-number -1
+endnode
+node dummy NW2_BED2_wg
+  parent NW2_BED2_pwk
+  #part-number 2
+endnode
+node dummy H08_pwk_use02
+  parent NW2_BED2_pwk
+  #part-number 3
+endnode
+node dummy H08_pwk_use01
+  parent NW2_BED2_pwk
+  #part-number 4
+endnode
+node dummy H08_hand
+  parent NW2_BED2
+  #part-number 1
+endnode
+node dummy H08_head
+  parent NW2_BED2
+  #part-number 2
+endnode
+node dummy H08_head_hit
+  parent NW2_BED2
+  #part-number 3
+endnode
+node dummy H08_impact
+  parent NW2_BED2
+  #part-number 4
+endnode
+node dummy H08_ground
+  parent NW2_BED2
+  #part-number 5
+endnode
+node emitter ChunkyWood74
+  parent NW2_BED2
+  #part-number 6
+endnode
+node emitter ChunkyWood75
+  parent NW2_BED2
+  #part-number 7
+endnode
+node emitter fire!44
+  parent NW2_BED2
+  #part-number 8
+endnode
+node trimesh damage10
+  parent NW2_BED2
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 3
+    0 0.0147516001 0.0354239009 0
+    0.0333333015 0.0147516001 0.0354239009 0.0244580992
+    0.133332998 0.0147516001 0.0354239009 0
+  orientationkey 4
+    0 0 0 0 0
+    0.0333333015 0.371336102 -0.928463161 0.00810258184 -0.0469939038
+    0.100000001 -0.599949956 0.799968958 0.0104721989 -0.0436323993
+    0.133332998 0 0 0 0
+endnode
+node dummy Box75
+  parent damage10
+  #part-number 10
+endnode
+node dummy Line18
+  parent damage10
+  #part-number 11
+endnode
+node dummy Box1243
+  parent damage10
+  #part-number 12
+endnode
+node dummy Mesh146
+  parent damage10
+  #part-number 13
+endnode
+node dummy Box76
+  parent damage10
+  #part-number 14
+endnode
+node dummy Box1060
+  parent damage10
+  #part-number 15
+endnode
+node dummy Box1061
+  parent damage10
+  #part-number 16
+endnode
+doneanim damage NW2_BED2
+
+#MAXANIM ASCII
+newanim dead NW2_BED2
+  length 0.0333333015
+  transtime 0
+  animroot NW2_BED2
+node dummy NW2_BED2
+  parent NULL
+  #part-number 0
+endnode
+node dummy NW2_BED2_pwk
+  parent NW2_BED2
+  #part-number -1
+endnode
+node dummy NW2_BED2_wg
+  parent NW2_BED2_pwk
+  #part-number 2
+endnode
+node dummy H08_pwk_use02
+  parent NW2_BED2_pwk
+  #part-number 3
+endnode
+node dummy H08_pwk_use01
+  parent NW2_BED2_pwk
+  #part-number 4
+endnode
+node dummy H08_hand
+  parent NW2_BED2
+  #part-number 1
+endnode
+node dummy H08_head
+  parent NW2_BED2
+  #part-number 2
+endnode
+node dummy H08_head_hit
+  parent NW2_BED2
+  #part-number 3
+endnode
+node dummy H08_impact
+  parent NW2_BED2
+  #part-number 4
+endnode
+node dummy H08_ground
+  parent NW2_BED2
+  #part-number 5
+endnode
+node emitter ChunkyWood74
+  parent NW2_BED2
+  #part-number 6
+endnode
+node emitter ChunkyWood75
+  parent NW2_BED2
+  #part-number 7
+endnode
+node emitter fire!44
+  parent NW2_BED2
+  #part-number 8
+endnode
+node trimesh damage10
+  parent NW2_BED2
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 0.0147516001 0.0354239009 -3.77998996
+    0.0333333015 0.0147516001 0.0354239009 -3.77998996
+endnode
+node dummy Box75
+  parent damage10
+  #part-number 10
+endnode
+node dummy Line18
+  parent damage10
+  #part-number 11
+endnode
+node dummy Box1243
+  parent damage10
+  #part-number 12
+endnode
+node dummy Mesh146
+  parent damage10
+  #part-number 13
+endnode
+node dummy Box76
+  parent damage10
+  #part-number 14
+endnode
+node dummy Box1060
+  parent damage10
+  #part-number 15
+endnode
+node dummy Box1061
+  parent damage10
+  #part-number 16
+endnode
+doneanim dead NW2_BED2
+
+#MAXANIM ASCII
+newanim default NW2_BED2
+  length 0
+  transtime 0.25
+  animroot NW2_BED2
+node dummy NW2_BED2
+  parent NULL
+  #part-number 0
+endnode
+node dummy NW2_BED2_pwk
+  parent NW2_BED2
+  #part-number -1
+endnode
+node dummy NW2_BED2_wg
+  parent NW2_BED2_pwk
+  #part-number 2
+endnode
+node dummy H08_pwk_use02
+  parent NW2_BED2_pwk
+  #part-number 3
+endnode
+node dummy H08_pwk_use01
+  parent NW2_BED2_pwk
+  #part-number 4
+endnode
+node dummy H08_hand
+  parent NW2_BED2
+  #part-number 1
+endnode
+node dummy H08_head
+  parent NW2_BED2
+  #part-number 2
+endnode
+node dummy H08_head_hit
+  parent NW2_BED2
+  #part-number 3
+endnode
+node dummy H08_impact
+  parent NW2_BED2
+  #part-number 4
+endnode
+node dummy H08_ground
+  parent NW2_BED2
+  #part-number 5
+endnode
+node emitter ChunkyWood74
+  parent NW2_BED2
+  #part-number 6
+endnode
+node emitter ChunkyWood75
+  parent NW2_BED2
+  #part-number 7
+endnode
+node emitter fire!44
+  parent NW2_BED2
+  #part-number 8
+endnode
+node trimesh damage10
+  parent NW2_BED2
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  position 0.0147516001 0.0354239009 0
+  orientation 0 0 0 0
+endnode
+node dummy Box75
+  parent damage10
+  #part-number 10
+endnode
+node dummy Line18
+  parent damage10
+  #part-number 11
+endnode
+node dummy Box1243
+  parent damage10
+  #part-number 12
+endnode
+node dummy Mesh146
+  parent damage10
+  #part-number 13
+endnode
+node dummy Box76
+  parent damage10
+  #part-number 14
+endnode
+node dummy Box1060
+  parent damage10
+  #part-number 15
+endnode
+node dummy Box1061
+  parent damage10
+  #part-number 16
+endnode
+doneanim default NW2_BED2
+
+donemodel NW2_BED2

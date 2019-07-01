@@ -1,0 +1,553 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLV_BX1
+filedependancy Unknown
+newmodel PLV_BX1
+setsupermodel PLV_BX1 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom PLV_BX1
+node dummy PLV_BX1
+  parent NULL
+endnode
+node dummy BX1_hand
+  parent PLV_BX1
+  position 0.003989 -0.505195 0.649577
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+endnode
+node dummy BX1_head
+  parent PLV_BX1
+  position 0.003989 0.010825 0.84084
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+endnode
+node dummy BX1_head_hit
+  parent PLV_BX1
+  position 0.003989 0.010825 0.784453
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+endnode
+node dummy BX1_impact
+  parent PLV_BX1
+  position 0.003989 0.011001 0.58331
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+endnode
+node dummy BX1_ground
+  parent PLV_BX1
+  position -0.003633 0.006987 0
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+endnode
+node trimesh damage08
+  parent PLV_BX1
+  position 0.014752 0.014497 0
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 25
+  bitmap NULL
+  render 0
+  Shadow 0
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 12
+    -0.195415 -0.186216 0
+    -0.195415 0.186216 0
+    0.195415 0.186216 0
+    0.195415 -0.186216 0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.099051 0.25
+    -0.103944 -0.099051 0.25
+    0.103944 0.099051 0.25
+    -0.103944 0.099051 0.25
+  faces 20
+    0 1 2  1  0 0 0  2
+    2 3 0  1  0 0 0  2
+    4 5 6  1  0 0 0  1
+    6 7 4  1  0 0 0  1
+    0 3 8  1  0 0 0  5
+    8 9 0  1  0 0 0  5
+    9 8 5  1  0 0 0  5
+    5 4 9  1  0 0 0  5
+    3 2 10  1  0 0 0  4
+    10 8 3  1  0 0 0  4
+    8 10 6  1  0 0 0  4
+    6 5 8  1  0 0 0  4
+    2 1 11  1  0 0 0  6
+    11 10 2  1  0 0 0  6
+    10 11 7  1  0 0 0  6
+    7 6 10  1  0 0 0  6
+    1 0 9  1  0 0 0  3
+    9 11 1  1  0 0 0  3
+    11 9 4  1  0 0 0  3
+    4 7 11  1  0 0 0  3
+endnode
+node trimesh BX1
+  parent damage08
+  position -0.118754 -0.014497 0
+  orientation 0 0 0 0
+  wirecolor 0.347656 0.347656 0.347656
+  setfillumcolor 0 0 0
+    diffuse 1.0 1.0 1.0
+    ambient 1.0 1.0 1.0
+  specular 0 0 0
+  shininess 10
+  bitmap sp_ttd_caravan01
+  verts 8
+    0.336473 0.36087 0
+    0.336473 -0.351208 0
+    -0.0784669 -0.351208 0
+    -0.0784668 0.36087 0
+    0.336473 0.36087 0.744444
+    -0.0784668 0.36087 0.744444
+    -0.0784669 -0.351208 0.744444
+    0.336473 -0.351208 0.744444
+  faces 12
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    4 5 6  1  0 3 2  0
+    6 7 4  1  2 1 0  0
+    0 3 5  1  4 5 6  0
+    5 4 0  1  6 7 4  0
+    1 0 4  1  8 9 10  0
+    4 7 1  1  10 11 8  0
+    3 2 6  1  12 13 14  0
+    6 5 3  1  14 15 12  0
+    2 1 7  1  16 17 18  0
+    7 6 2  1  18 19 16  0
+  tverts 20
+    0.337896 0.932105 0
+    0.670746 0.932105 0
+    0.668331 0.829689 0
+    0.335481 0.829689 0
+    0.942254 0.109993 0
+    0.717983 0.11183 0
+    0.718018 0.418114 0
+    0.942266 0.419159 0
+    0.668156 0.129812 0
+    0.338628 0.12756 0
+    0.338628 0.415899 0
+    0.668156 0.419615 0
+    0.338096 0.128646 0
+    0.665511 0.129209 0
+    0.665511 0.41437 0
+    0.338378 0.41437 0
+    0.713483 0.114998 0
+    0.941528 0.114568 0
+    0.939605 0.42224 0
+    0.711557 0.422506 0
+endnode
+node emitter ChunkyWood70
+  parent PLV_BX1
+  position 0.013185 -0.025341 0.712937
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+    colorStart 0.701961 0.67451 0.603922
+    colorEnd 0.854902 0.847059 0.82353
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 2.9
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter fire!42
+  parent PLV_BX1
+  position 0.013185 -0.025341 0.532671
+  orientation -1 0 0 -1.5708
+  wirecolor 0.777344 0.777344 0.777344
+    colorStart 0.415686 0.403922 0.376471
+    colorEnd 0.682353 0.678431 0.662745
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 4
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 10
+    spawnType 0
+    lifeExp 2.5
+    mass 0.09
+    spread 2.96706
+    particleRot 0.5
+    velocity 2
+    randvel 0.5
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0.2
+    blastLength 1
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 1
+    renderorder 0
+    Splat 0
+endnode
+node emitter ChunkyWood71
+  parent PLV_BX1
+  position 0.013185 -0.025341 0.606715
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+    colorStart 1 1 1
+    colorEnd 1 1 1
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 5
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom PLV_BX1
+
+#MAXANIM ASCII
+newanim damage PLV_BX1
+  length 0.133333
+  transtime 0
+  animroot PLV_BX1
+node dummy PLV_BX1
+  parent NULL
+endnode
+node dummy BX1_hand
+  parent PLV_BX1
+endnode
+node dummy BX1_head
+  parent PLV_BX1
+endnode
+node dummy BX1_head_hit
+  parent PLV_BX1
+endnode
+node dummy BX1_impact
+  parent PLV_BX1
+endnode
+node dummy BX1_ground
+  parent PLV_BX1
+endnode
+node trimesh damage08
+  parent PLV_BX1
+    positionkey
+      0  0.014752 0.014497 0
+      0.0333333  0.014752 0.014497 0.024458
+      0.133333  0.014752 0.014497 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+      0.0333333  -0.371336 0.928463 -0.008103 0.0469942
+      0.1  0.599949 -0.79997 -0.010472 0.0436321
+      0.133333  0 0 0 0
+    endlist
+endnode
+node trimesh BX1
+  parent damage08
+endnode
+node emitter ChunkyWood70
+  parent PLV_BX1
+endnode
+node emitter fire!42
+  parent PLV_BX1
+endnode
+node emitter ChunkyWood71
+  parent PLV_BX1
+endnode
+node trimesh Plane01
+  parent PLV_BX1
+endnode
+doneanim damage PLV_BX1
+
+#MAXANIM ASCII
+newanim die PLV_BX1
+  length 0.166667
+  transtime 0
+  animroot PLV_BX1
+node dummy PLV_BX1
+  parent NULL
+endnode
+node dummy BX1_hand
+  parent PLV_BX1
+endnode
+node dummy BX1_head
+  parent PLV_BX1
+endnode
+node dummy BX1_head_hit
+  parent PLV_BX1
+endnode
+node dummy BX1_impact
+  parent PLV_BX1
+endnode
+node dummy BX1_ground
+  parent PLV_BX1
+endnode
+node trimesh damage08
+  parent PLV_BX1
+    positionkey
+      0  0.014752 0.014497 0
+      0.166667  0.014752 0.014497 -3.77999
+    endlist
+    orientationkey
+      0  0 0 0 0
+    endlist
+endnode
+node trimesh BX1
+  parent damage08
+endnode
+node emitter ChunkyWood70
+  parent PLV_BX1
+endnode
+node emitter fire!42
+  parent PLV_BX1
+endnode
+node emitter ChunkyWood71
+  parent PLV_BX1
+endnode
+node trimesh Plane01
+  parent PLV_BX1
+endnode
+event 0  detonate
+event 0  detonate
+event 0  detonate
+doneanim die PLV_BX1
+
+#MAXANIM ASCII
+newanim dead PLV_BX1
+  length 0.0333333
+  transtime 0
+  animroot PLV_BX1
+node dummy PLV_BX1
+  parent NULL
+endnode
+node dummy BX1_hand
+  parent PLV_BX1
+endnode
+node dummy BX1_head
+  parent PLV_BX1
+endnode
+node dummy BX1_head_hit
+  parent PLV_BX1
+endnode
+node dummy BX1_impact
+  parent PLV_BX1
+endnode
+node dummy BX1_ground
+  parent PLV_BX1
+endnode
+node trimesh damage08
+  parent PLV_BX1
+    positionkey
+      0  0.014752 0.014497 -3.77999
+      0.0333333  0.014752 0.014497 -3.77999
+    endlist
+endnode
+node trimesh BX1
+  parent damage08
+endnode
+node emitter ChunkyWood70
+  parent PLV_BX1
+endnode
+node emitter fire!42
+  parent PLV_BX1
+endnode
+node emitter ChunkyWood71
+  parent PLV_BX1
+endnode
+node trimesh Plane01
+  parent PLV_BX1
+endnode
+doneanim dead PLV_BX1
+
+#MAXANIM ASCII
+newanim default PLV_BX1
+  length 0
+  transtime 0.25
+  animroot PLV_BX1
+node dummy PLV_BX1
+  parent NULL
+endnode
+node dummy BX1_hand
+  parent PLV_BX1
+endnode
+node dummy BX1_head
+  parent PLV_BX1
+endnode
+node dummy BX1_head_hit
+  parent PLV_BX1
+endnode
+node dummy BX1_impact
+  parent PLV_BX1
+endnode
+node dummy BX1_ground
+  parent PLV_BX1
+endnode
+node trimesh damage08
+  parent PLV_BX1
+    positionkey
+      0  0.014752 0.014497 0
+    endlist
+    orientationkey
+      0  0 0 0 0
+    endlist
+endnode
+node trimesh BX1
+  parent damage08
+endnode
+node emitter ChunkyWood70
+  parent PLV_BX1
+endnode
+node emitter fire!42
+  parent PLV_BX1
+endnode
+node emitter ChunkyWood71
+  parent PLV_BX1
+endnode
+node trimesh Plane01
+  parent PLV_BX1
+endnode
+doneanim default PLV_BX1
+donemodel PLV_BX1

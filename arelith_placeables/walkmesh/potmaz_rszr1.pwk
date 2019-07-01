@@ -1,0 +1,56 @@
+# Exported from NWmax 0.8 b61 at 3/1/2008 7:24:54 PM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node dummy potmaz_rszr1_pwk_use02
+  parent potmaz_rszr1_pwk
+  position -0.46375 0.00595214 0.271824
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.898039 0.65098 0.843137 
+endnode
+node trimesh potmaz_medr_wg
+  parent potmaz_rszr1_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.431373 0.0313726 
+  multimaterial 20
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+  ambient 0.0 0.0 0.0 
+  diffuse 0.705882 0.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Nonwalk
+  verts 4
+    -0.197825 -0.181 0.0
+    0.212162 -0.179733 0.0
+    -0.19794 0.190759 0.0
+    0.216089 0.20164 0.0
+  faces 2
+    2 0 3  1  0 0 0  7
+    3 0 1  1  0 0 0  7
+endnode
+node dummy potmaz_rszr1_pwk_use01
+  parent potmaz_rszr1_pwk
+  position 0.471671 0.00727599 0.213724
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.898039 0.65098 0.843137 
+endnode

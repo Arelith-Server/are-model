@@ -1,0 +1,1647 @@
+#MAXMODEL ASCII
+# model: more_barrels_10
+filedependancy more_barrels_10.max
+newmodel more_barrels_10
+setsupermodel more_barrels_10 NULL
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom more_barrels_10
+node dummy more_barrels_10
+  parent NULL
+  #part-number 0
+endnode
+node dummy H07_hand
+  parent more_barrels_10
+  #part-number 1
+  position 0.00398926018 -0.904311001 0.629330993
+  orientation 0 0 0 0
+endnode
+node dummy H07_head
+  parent more_barrels_10
+  #part-number 2
+  position 0.00398926018 0.0108252 1.32924998
+  orientation 0 0 0 0
+endnode
+node dummy H07_head_hit
+  parent more_barrels_10
+  #part-number 3
+  position 0.00398926018 0.0108252 0.847772002
+  orientation 0 0 0 0
+endnode
+node dummy H07_impact
+  parent more_barrels_10
+  #part-number 4
+  position 0.00398926018 0.0110010002 0.384467006
+  orientation 0 0 0 0
+endnode
+node dummy H07_ground
+  parent more_barrels_10
+  #part-number 5
+  position -0.00363280997 0.00698729977 0
+  orientation 0 0 0 0
+endnode
+node emitter fire!43
+  parent more_barrels_10
+  #part-number 6
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.200000003
+  blastLength 1
+  position 0.0131847998 -0.0381347984 0.532670975
+  orientation -1 0 0 -1.57079995
+  colorStart 0.733332992 0.674510002 0.533333004
+  colorEnd 0.803921998 0.780391991 0.678430974
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 10
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  fps 10
+  xsize 100
+  ysize 99
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter ChunkyWood72
+  parent more_barrels_10
+  #part-number 7
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_S01
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.0131847998 -0.0381347984 0.606715024
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 5
+  velocity 8
+  randvel 0.300000012
+  fps 0
+  xsize 89
+  ysize 40
+  bounce_co 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter ChunkyWood73
+  parent more_barrels_10
+  #part-number 8
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_M01
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0.0131847998 -0.0381347984 0.712936997
+  orientation 0 0 0 0
+  colorStart 0.701960981 0.674510002 0.603922009
+  colorEnd 0.854902029 0.847059011 0.823530018
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 2.9000001
+  velocity 8
+  randvel 0.300000012
+  fps 0
+  xsize 89
+  ysize 40
+  bounce_co 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node trimesh damage09
+  parent more_barrels_10
+  #part-number 9
+  ambient 0.0705882013 0 1
+  diffuse 1 0.501960993 0.643136978
+  specular 0 0.899999976 0.105881996
+  shininess 24
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 12
+    -0.195415005 -0.186215997 0
+    -0.195415005 0.186215997 0
+    0.195415005 0.186215997 0
+    0.195415005 -0.186215997 0
+    -0.195415005 -0.186215997 0.5
+    0.195415005 -0.186215997 0.5
+    0.195415005 0.186215997 0.5
+    -0.195415005 0.186215997 0.5
+    0.103944004 -0.0990512967 0.25
+    -0.103944004 -0.0990512967 0.25
+    0.103944004 0.0990512967 0.25
+    -0.103944004 0.0990512967 0.25
+  faces 20
+    0 1 2 1 0 0 0 2
+    2 3 0 1 0 0 0 2
+    4 5 6 1 0 0 0 1
+    6 7 4 1 0 0 0 1
+    0 3 8 2 0 0 0 5
+    8 9 0 2 0 0 0 5
+    9 8 5 2 0 0 0 5
+    5 4 9 2 0 0 0 5
+    3 2 10 4 0 0 0 4
+    10 8 3 4 0 0 0 4
+    8 10 6 4 0 0 0 4
+    6 5 8 4 0 0 0 4
+    2 1 11 2 0 0 0 6
+    11 10 2 2 0 0 0 6
+    10 11 7 2 0 0 0 6
+    7 6 10 2 0 0 0 6
+    1 0 9 4 0 0 0 3
+    9 11 1 4 0 0 0 3
+    11 9 4 4 0 0 0 3
+    4 7 11 4 0 0 0 3
+  position 0.0147516001 0.00170410005 0
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  setfillumcolor 0 0 0
+endnode
+node trimesh Object84
+  parent damage09
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap barrel_tex_10
+  verts 18
+    -0.230989993 0.125331998 -0.356947005
+    -0.00575758982 -0.0506843999 -0.149344996
+    -0.289481997 0.0668378994 -0.149343997
+    -0.00575760007 0.0320375003 -0.356947988
+    0.277967006 0.0668355972 -0.149343997
+    0.219475001 0.125329003 -0.356947005
+    -0.00575758982 -0.0506881997 0.300655007
+    -0.289481997 0.0668341964 0.300655991
+    0.277967006 0.0668317974 0.300655991
+    -0.00599490991 0.0247399006 0.505007029
+    -0.236213997 0.120099999 0.505007982
+    0.224225 0.120096996 0.505007982
+    -0.00118957995 0.0768517032 0.504007995
+    -0.197957993 0.158355996 0.504007995
+    0.195579007 0.158353999 0.504007995
+    0.00504074991 0.0846479014 0.296921998
+    -0.191727996 0.166152 0.296921998
+    0.201810002 0.166150004 0.296921998
+  tverts 28
+    0.696537971 0.000499517017 0
+    1.03342998 0.275225013 0
+    0.671558976 0.275225013 0
+    1.01678002 0.000499517017 0
+    1.39531004 0.275225013 0
+    1.33702004 0.000499517017 0
+    1.03342998 0.724775016 0
+    0.671558976 0.724775016 0
+    1.39531004 0.724775016 0
+    1.03342998 0.999499977 0
+    0.671558976 0.999499977 0
+    1.39531004 0.999499977 0
+    0.664608002 0.878571987 0
+    0.348704994 0.884086013 0
+    0.373746991 0.82051301 0
+    0.637362003 0.815912008 0
+    0.338701993 0.120006002 0
+    0.654640973 0.117248997 0
+    0.629046023 0.180601001 0
+    0.365399987 0.182901993 0
+    0.415136993 0.943901002 0
+    0.148773 0.911127985 0
+    0.148773 0.251706988 0
+    0.415136993 0.284480989 0
+    0.581704974 0.506054997 0
+    0.87816602 0.519021988 0
+    0.87816602 0.0551332012 0
+    0.559009016 0.0421663001 0
+  faces 20
+    0 1 2 1 0 1 2 3
+    0 3 1 1 0 3 1 3
+    3 4 1 1 3 4 1 3
+    3 5 4 1 3 5 4 3
+    2 6 7 1 2 6 7 3
+    2 1 6 1 2 1 6 3
+    1 8 6 1 1 8 6 3
+    1 4 8 1 1 4 8 3
+    7 9 10 1 7 9 10 3
+    7 6 9 1 7 6 9 3
+    6 11 9 1 6 11 9 3
+    6 8 11 1 6 8 11 3
+    10 9 12 2 12 13 14 1
+    12 13 10 4 14 15 12 1
+    9 11 14 4 16 17 18 1
+    14 12 9 8 18 19 16 1
+    13 12 15 1 20 21 22 1
+    15 16 13 1 22 23 20 1
+    12 14 17 16 24 25 26 1
+    17 15 12 16 26 27 24 1
+  position -0.0264429003 -0.374065012 0.356945008
+  orientation 0 0 0 0
+endnode
+node trimesh Object35
+  parent damage09
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap barrel_tex_10
+  verts 16
+    0.196718007 -0.0369177982 -0.0112365
+    0.000928952999 0.0468515009 -0.00805786997
+    -0.196789995 -0.0322180018 -0.0120620998
+    -0.280618012 -0.227807999 -0.0209033992
+    -0.201449007 -0.425345987 -0.0294027999
+    -0.00565967988 -0.509114981 -0.0325814001
+    0.192059994 -0.430045009 -0.0285771992
+    0.275887012 -0.234455004 -0.0197359007
+    0.197972998 -0.0340417996 -0.0440968014
+    0.00218325993 0.0497274995 -0.0409182012
+    -0.195536003 -0.0293419994 -0.0449224003
+    -0.27936399 -0.224932 -0.0537637994
+    -0.200195 -0.422470003 -0.0622631013
+    -0.00440538023 -0.506238997 -0.0654416978
+    0.193314001 -0.427168995 -0.0614375994
+    0.277141988 -0.231579006 -0.0525962003
+  tverts 39
+    0.853200018 0.853200018 0
+    0.5 0.999499977 0
+    0.146799996 0.853200018 0
+    0.000499666028 0.5 0
+    0.146799996 0.146799996 0
+    0.5 0.000499666028 0
+    0.853200018 0.146799996 0
+    0.999499977 0.5 0
+    0.50394702 1.05989003 0
+    0.87688297 0.899093986 0
+    0.119170003 0.911171019 0
+    0.531517982 0.593735993 0
+    0.514841974 0.211797997 0
+    0.477531999 0.216212004 0
+    0.485727012 0.638760984 0
+    0.565181017 0.439150989 0
+    0.594133019 0.791377008 0
+    0.643779993 0.795809984 0
+    0.629161 0.412914008 0
+    0.111276001 0.0936598033 0
+    0.498026013 -0.0188239999 0
+    0.495757014 0.0376976989 0
+    0.149068996 0.153200999 0
+    0.867015004 0.0960752964 0
+    0.858528972 0.145108998 0
+    0.788802981 0.346190006 0
+    0.80547899 0.728127003 0
+    0.855733991 0.722769976 0
+    0.844292998 0.313178003 0
+    0.911835015 0.494001001 0
+    0.928511024 0.875937998 0
+    0.969371021 0.907522976 0
+    0.958836973 0.501401007 0
+    0.5 0.999499977 0
+    0.146799996 0.853200018 0
+    0.000499666028 0.5 0
+    0.146799996 0.146799996 0
+    0.5 0.000499666028 0
+    0.853200018 0.146799996 0
+  faces 28
+    0 1 2 1 0 1 2 1
+    0 2 3 1 0 2 3 1
+    0 3 4 1 0 3 4 1
+    0 4 5 1 0 4 5 1
+    0 5 6 1 0 5 6 1
+    0 6 7 1 0 6 7 1
+    8 9 1 1 0 1 8 1
+    1 0 8 1 8 9 0 1
+    9 10 2 1 1 2 10 1
+    2 1 9 1 10 8 1 1
+    10 11 3 1 11 12 13 1
+    3 2 10 1 13 14 11 1
+    11 12 4 1 15 16 17 1
+    4 3 11 1 17 18 15 1
+    12 13 5 1 19 20 21 1
+    5 4 12 1 21 22 19 1
+    13 14 6 1 20 23 24 1
+    6 5 13 1 24 21 20 1
+    14 15 7 1 25 26 27 1
+    7 6 14 1 27 28 25 1
+    15 8 0 1 29 30 31 1
+    0 7 15 1 31 32 29 1
+    10 9 8 1 2 1 33 1
+    11 10 8 1 3 2 34 1
+    12 11 8 1 4 3 35 1
+    13 12 8 1 5 4 36 1
+    14 13 8 1 6 5 37 1
+    15 14 8 1 7 6 38 1
+  position -0.0279833991 0.212876007 0.842400014
+  orientation 0 0 0 0
+endnode
+node trimesh Object83
+  parent damage09
+  #part-number 12
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap barrel_tex_10
+  verts 18
+    0.123628996 0.194793001 -0.356943011
+    -0.0523855984 -0.0304410998 -0.149342
+    0.0651367977 0.253282994 -0.149339005
+    0.0303345993 -0.0304393005 -0.356945008
+    -0.0523855984 -0.0304448009 0.300657988
+    0.0651367977 0.253280014 0.300660998
+    0.0230442006 -0.0306838006 0.505010009
+    0.118404001 0.199535996 0.505011976
+    0.0751560032 -0.0258783996 0.504010022
+    0.156660005 0.170891002 0.504011989
+    0.0813862979 -0.0180823002 0.296923995
+    0.162891001 0.178687006 0.296925992
+    0.0651367977 -0.314166009 -0.149343997
+    0.123628996 -0.255672008 -0.356947005
+    0.0651367977 -0.31416899 0.300655991
+    0.118404001 -0.260904014 0.505007982
+    0.156660005 -0.222647995 0.504007995
+    0.162891001 -0.214851007 0.296921998
+  tverts 27
+    -0.0700782016 0.0190719999 0
+    0.309684008 0.275225013 0
+    -0.0521912016 0.275225013 0
+    0.254857004 0.0190719999 0
+    0.309684008 0.724775016 0
+    -0.0521912016 0.724775016 0
+    0.243888006 0.999499977 0
+    -0.0302594006 0.999499977 0
+    0.338701993 0.120006002 0
+    0.654640973 0.117248997 0
+    0.629046023 0.180601001 0
+    0.365399987 0.182901993 0
+    0.306658 0.215518996 0
+    0.0261559002 0.219806999 0
+    0.0261559002 0.5 0
+    0.306658 0.495712012 0
+    0.445948988 0.0190719999 0
+    0.723749995 0.275225013 0
+    0.579792023 0.0190719999 0
+    0.671558976 0.275225013 0
+    0.671558976 0.724775016 0
+    0.723749995 0.724775016 0
+    0.671558976 0.999499977 0
+    0.309684008 0.999499977 0
+    0.0261559002 -0.00966178998 0
+    0.318498999 -0.00295854011 0
+    0.318498999 0.506703019 0
+  faces 20
+    0 1 2 1 0 1 2 3
+    0 3 1 1 0 3 1 3
+    2 4 5 1 2 4 5 3
+    2 1 4 1 2 1 4 3
+    5 6 7 1 5 6 7 3
+    5 4 6 1 5 4 6 3
+    7 6 8 2 8 9 10 1
+    8 9 7 2 10 11 8 1
+    9 8 10 1 12 13 14 1
+    10 11 9 1 14 15 12 1
+    3 12 1 1 16 17 1 3
+    3 13 12 1 3 18 19 3
+    1 14 4 1 1 20 4 3
+    1 12 14 1 1 17 21 3
+    4 15 6 1 4 22 23 3
+    4 14 15 1 4 20 22 3
+    6 15 16 4 8 9 10 1
+    16 8 6 4 10 11 8 1
+    8 16 17 8 24 25 26 1
+    17 10 8 8 26 14 24 1
+  position -0.381060004 0.00693847984 0.356945008
+  orientation 0 0 0 0
+endnode
+node trimesh Cylinder03
+  parent damage09
+  #part-number 13
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap barrel_tex_10
+  verts 18
+    -0.0380428992 -0.0266848002 -0.356945008
+    -0.0728451014 0.257037997 -0.149339005
+    0.0446772985 -0.0266865995 -0.149342
+    -0.131337002 0.198547006 -0.356943011
+    -0.131337002 -0.251915008 -0.356947005
+    -0.0728451014 -0.310407996 -0.149343997
+    -0.0728451014 0.257034004 0.300660998
+    0.0446772985 -0.0266903006 0.300657988
+    -0.0728451014 -0.31041199 0.300655991
+    -0.126587003 0.203290001 0.505011976
+    -0.0312271006 -0.0269293003 0.505010009
+    -0.126587003 -0.257146001 0.505007982
+    -0.155231997 0.174645007 0.504011989
+    -0.0737281963 -0.0221238993 0.504010022
+    -0.155231997 -0.218889996 0.504007995
+    -0.0674977973 -0.0143277999 0.296923995
+    -0.149002001 -0.211094007 0.296921998
+    -0.149002001 0.182440996 0.296925992
+  tverts 24
+    1.74608004 0.000499517017 0
+    2.11906004 0.275225013 0
+    1.75717998 0.275225013 0
+    2.06631994 0.000499517017 0
+    1.42583001 0.000499517017 0
+    1.39531004 0.275225013 0
+    2.11906004 0.724775016 0
+    1.75717998 0.724775016 0
+    1.39531004 0.724775016 0
+    2.11906004 0.999499977 0
+    1.75717998 0.999499977 0
+    1.39531004 0.999499977 0
+    0.661297977 0.879993975 0
+    0.345358998 0.882750988 0
+    0.370954007 0.819398999 0
+    0.634599984 0.817098022 0
+    0.685447991 0.977717996 0
+    0.963976026 0.978260994 0
+    0.963976026 0.5 0
+    0.685447991 0.499457002 0
+    0.983712018 0.359903008 0
+    0.68939501 0.362861991 0
+    0.68939501 0.853200018 0
+    0.983712018 0.850241005 0
+  faces 20
+    0 1 2 1 0 1 2 3
+    0 3 1 1 0 3 1 3
+    4 2 5 1 4 2 5 3
+    4 0 2 1 4 0 2 3
+    2 6 7 1 2 6 7 3
+    2 1 6 1 2 1 6 3
+    5 7 8 1 5 7 8 3
+    5 2 7 1 5 2 7 3
+    7 9 10 1 7 9 10 3
+    7 6 9 1 7 6 9 3
+    8 10 11 1 8 10 11 3
+    8 7 10 1 8 7 10 3
+    10 9 12 2 12 13 14 1
+    12 13 10 2 14 15 12 1
+    11 10 13 4 12 13 14 1
+    13 14 11 4 14 15 12 1
+    14 13 15 1 16 17 18 1
+    15 16 14 1 18 19 16 1
+    13 12 17 8 20 21 22 1
+    17 15 13 8 22 23 20 1
+  position 0.324369997 0.00317870989 0.356945008
+  orientation 0 0 0 0
+endnode
+node trimesh Object61
+  parent damage09
+  #part-number 14
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_black00
+  verts 8
+    0.207567006 0.209124997 0.721266985
+    0.0107982997 0.290630013 0.721267998
+    0.207567006 -0.184412003 0.721264005
+    -0.185969993 0.209124997 0.721266985
+    -0.267475009 0.0123565001 0.721265972
+    -0.185969993 -0.184412003 0.721264005
+    0.0107984003 -0.265917003 0.721262991
+    0.289070994 0.0123565001 0.721265972
+  tverts 13
+    0.853200018 0.853200018 0
+    0.5 0.999499977 0
+    0.5 0.999499977 0
+    0.146799996 0.853200018 0
+    0.146799996 0.853200018 0
+    0.000499666028 0.5 0
+    0.000499666028 0.5 0
+    0.146799996 0.146799996 0
+    0.146799996 0.146799996 0
+    0.5 0.000499666028 0
+    0.5 0.000499666028 0
+    0.999499977 0.5 0
+    0.853200018 0.853200018 0
+  faces 6
+    0 1 2 1 0 1 2 1
+    1 3 2 1 1 3 4 1
+    3 4 2 1 3 5 6 1
+    4 5 2 1 5 7 8 1
+    5 6 2 1 7 9 10 1
+    7 0 2 1 11 0 12 1
+  position -0.0321996994 -0.0235009994 -0.0673964992
+  orientation 0 0 0 0
+endnode
+node trimesh Cylinder04
+  parent damage09
+  #part-number 15
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap rivet_tex_03
+  verts 32
+    0.405218989 0 0.275000006
+    0.286532998 0.286532998 0.275000006
+    0.405218989 0 0.34255299
+    0.286532998 0.286532998 0.34255299
+    0 0.405218989 0.275000006
+    0 0.405218989 0.34255299
+    -0.286532998 0.286532998 0.275000006
+    -0.286532998 0.286532998 0.34255299
+    -0.405218989 0 0.275000006
+    -0.405218989 0 0.34255299
+    -0.286532998 -0.286532998 0.275000006
+    -0.286532998 -0.286532998 0.34255299
+    0 -0.405218989 0.275000006
+    0 -0.405218989 0.34255299
+    0.286532998 -0.286532998 0.275000006
+    0.286532998 -0.286532998 0.34255299
+    0.286532998 0.286532998 0.654030025
+    0.286532998 0.286532998 0.725000024
+    0.405218989 0 0.654030025
+    0.405218989 0 0.725000024
+    0 0.405218989 0.654030025
+    0 0.405218989 0.725000024
+    -0.286532998 0.286532998 0.654030025
+    -0.286532998 0.286532998 0.725000024
+    -0.405218989 0 0.654030025
+    -0.405218989 0 0.725000024
+    -0.286532998 -0.286532998 0.654030025
+    -0.286532998 -0.286532998 0.725000024
+    0 -0.405218989 0.654030025
+    0 -0.405218989 0.725000024
+    0.286532998 -0.286532998 0.654030025
+    0.286532998 -0.286532998 0.725000024
+  tverts 36
+    0.491457999 -0.364468992 0
+    0.491457999 -0.596969008 0
+    0.55656302 -0.364468992 0
+    0.55656302 -0.596969008 0
+    0.491457999 -0.829469025 0
+    0.55656302 -0.829469025 0
+    0.491457999 1.03052998 0
+    0.491457999 0.798030972 0
+    0.55656302 1.03052998 0
+    0.55656302 0.798030972 0
+    0.491457999 0.565531015 0
+    0.55656302 0.565531015 0
+    0.491457999 0.333030999 0
+    0.55656302 0.333030999 0
+    0.491457999 0.100530997 0
+    0.55656302 0.100530997 0
+    0.491457999 -0.131969005 0
+    0.55656302 -0.131969005 0
+    0.49378401 0.158090994 0
+    0.556607008 0.158090994 0
+    0.49378401 0.394340992 0
+    0.556607008 0.394340992 0
+    0.49378401 -0.0781593025 0
+    0.556607008 -0.0781593025 0
+    0.49378401 1.57559001 0
+    0.556607008 1.57559001 0
+    0.49378401 1.81184006 0
+    0.556607008 1.81184006 0
+    0.49378401 1.33933997 0
+    0.556607008 1.33933997 0
+    0.49378401 1.10309005 0
+    0.556607008 1.10309005 0
+    0.49378401 0.866841018 0
+    0.556607008 0.866841018 0
+    0.49378401 0.630590975 0
+    0.556607008 0.630590975 0
+  faces 32
+    0 1 2 1 0 1 2 3
+    3 2 1 1 3 2 1 3
+    1 4 3 1 1 4 3 3
+    5 3 4 1 5 3 4 3
+    4 6 5 1 6 7 8 3
+    7 5 6 1 9 8 7 3
+    6 8 7 1 7 10 9 3
+    9 7 8 1 11 9 10 3
+    8 10 9 1 10 12 11 3
+    11 9 10 1 13 11 12 3
+    10 12 11 1 12 14 13 3
+    13 11 12 1 15 13 14 3
+    12 14 13 1 14 16 15 3
+    15 13 14 1 17 15 16 3
+    14 0 15 1 16 0 17 3
+    2 15 0 1 2 17 0 3
+    16 17 18 1 18 19 20 3
+    19 18 17 1 21 20 19 3
+    20 21 16 1 22 23 18 3
+    17 16 21 1 19 18 23 3
+    22 23 20 1 24 25 26 3
+    21 20 23 1 27 26 25 3
+    24 25 22 1 28 29 24 3
+    23 22 25 1 25 24 29 3
+    26 27 24 1 30 31 28 3
+    25 24 27 1 29 28 31 3
+    28 29 26 1 32 33 30 3
+    27 26 29 1 31 30 33 3
+    30 31 28 1 34 35 32 3
+    29 28 31 1 33 32 35 3
+    18 19 30 1 20 21 34 3
+    31 30 19 1 35 34 21 3
+  position -0.0321995988 -0.0235008001 -0.0673964992
+  orientation 0 0 0 0
+endnode
+node trimesh Object64
+  parent damage09
+  #part-number 16
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap barrel_tex_10
+  verts 18
+    0 -0.0545892008 -0.430976987
+    -0.28372401 -0.0893903971 -0.223373994
+    0 0.0281293001 -0.223372996
+    -0.225232005 -0.147881001 -0.430978
+    -0.28372401 -0.0893941969 0.226625994
+    0 0.0281255003 0.226627007
+    -0.230456993 -0.143138006 0.430976987
+    -0.000237326996 -0.0477805994 0.430978
+    -0.192201003 -0.171783 0.429977
+    0.0045680101 -0.0902815983 0.429977
+    -0.185969993 -0.163986996 0.222891003
+    0.0107982997 -0.0824854001 0.222892001
+    0.225232005 -0.147885993 -0.430978
+    0.28372401 -0.0893959031 -0.223373994
+    0.28372401 -0.0893995985 0.226625994
+    0.229982004 -0.143142998 0.430976987
+    0.201336995 -0.171789005 0.429977
+    0.207567006 -0.163992003 0.222891003
+  tverts 32
+    -0.395013005 0.0190719999 0
+    -0.0521912016 0.275225013 0
+    -0.414065987 0.275225013 0
+    -0.0700782016 0.0190719999 0
+    -0.0521912016 0.724775016 0
+    -0.414065987 0.724775016 0
+    -0.0302594006 0.999499977 0
+    -0.304407001 0.999499977 0
+    0.661297977 0.879993975 0
+    0.345358998 0.882750988 0
+    0.370954007 0.819398999 0
+    0.634599984 0.817098022 0
+    0.415136993 0.313510001 0
+    0.146799996 0.167209998 0
+    0.146799996 0.853200018 0
+    0.415136993 0.999499977 0
+    2.12257004 0.000499517017 0
+    2.48093009 0.275225013 0
+    2.11906004 0.275225013 0
+    2.41024995 0.000499517017 0
+    2.48093009 0.724775016 0
+    2.11906004 0.724775016 0
+    2.42652988 0.999499977 0
+    2.17347002 0.999499977 0
+    0.335391998 0.121427998 0
+    0.651295006 0.115914002 0
+    0.626253009 0.179487005 0
+    0.362637997 0.184088007 0
+    0.853200018 0.242089003 0
+    0.594730973 0.388388991 0
+    0.594730973 0.999499977 0
+    0.853200018 0.853200018 0
+  faces 20
+    0 1 2 1 0 1 2 3
+    0 3 1 1 0 3 1 3
+    2 4 5 1 2 4 5 3
+    2 1 4 1 2 1 4 3
+    5 6 7 1 5 6 7 3
+    5 4 6 1 5 4 6 3
+    7 6 8 2 8 9 10 1
+    8 9 7 4 10 11 8 1
+    9 8 10 1 12 13 14 1
+    10 11 9 1 14 15 12 1
+    12 2 13 1 16 17 18 3
+    12 0 2 1 16 19 17 3
+    13 5 14 1 18 20 21 3
+    13 2 5 1 18 17 20 3
+    14 7 15 1 21 22 23 3
+    14 5 7 1 21 20 22 3
+    15 7 9 8 24 25 26 1
+    9 16 15 2 26 27 24 1
+    16 9 11 16 28 29 30 1
+    11 17 16 16 30 31 28 1
+  position -0.0321996994 0.349611998 0.430979997
+  orientation 0 0 0 0
+endnode
+endmodelgeom more_barrels_10
+
+#MAXANIM ASCII
+newanim open2close more_barrels_10
+  length 0.366667002
+  transtime 0.25
+  animroot more_barrels_10
+node dummy more_barrels_10
+  parent NULL
+  #part-number 0
+endnode
+node dummy more_barrels_10_pwk
+  parent more_barrels_10
+  #part-number -1
+endnode
+node dummy more_barrels_10_wg
+  parent more_barrels_10_pwk
+  #part-number 2
+endnode
+node dummy H07_pwk_use02
+  parent more_barrels_10_pwk
+  #part-number 3
+endnode
+node dummy H07_pwk_use01
+  parent more_barrels_10_pwk
+  #part-number 4
+endnode
+node dummy H07_hand
+  parent more_barrels_10
+  #part-number 1
+endnode
+node dummy H07_head
+  parent more_barrels_10
+  #part-number 2
+endnode
+node dummy H07_head_hit
+  parent more_barrels_10
+  #part-number 3
+endnode
+node dummy H07_impact
+  parent more_barrels_10
+  #part-number 4
+endnode
+node dummy H07_ground
+  parent more_barrels_10
+  #part-number 5
+endnode
+node emitter fire!43
+  parent more_barrels_10
+  #part-number 6
+endnode
+node emitter ChunkyWood72
+  parent more_barrels_10
+  #part-number 7
+endnode
+node emitter ChunkyWood73
+  parent more_barrels_10
+  #part-number 8
+endnode
+node trimesh damage09
+  parent more_barrels_10
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Object84
+  parent damage09
+  #part-number 10
+endnode
+node dummy Object35
+  parent damage09
+  #part-number 11
+  orientationkey 5
+    0 0.999390602 0.0133687938 0.0322451815 -0.610865057
+    0.0333333015 0.999390602 0.0133687938 0.0322451815 -0.610865057
+    0.100000001 0.999390602 0.0133687947 0.0322451852 -0.549778998
+    0.333332986 -0.999390602 -0.0133687956 -0.0322452858 -0.0185441002
+    0.366667002 0 0 0 0
+endnode
+node dummy Object83
+  parent damage09
+  #part-number 12
+endnode
+node dummy Cylinder03
+  parent damage09
+  #part-number 13
+endnode
+node dummy Object61
+  parent damage09
+  #part-number 14
+endnode
+node dummy Cylinder04
+  parent damage09
+  #part-number 15
+endnode
+node dummy Object64
+  parent damage09
+  #part-number 16
+endnode
+doneanim open2close more_barrels_10
+
+#MAXANIM ASCII
+newanim close2open more_barrels_10
+  length 0.300000012
+  transtime 0.25
+  animroot more_barrels_10
+node dummy more_barrels_10
+  parent NULL
+  #part-number 0
+endnode
+node dummy more_barrels_10_pwk
+  parent more_barrels_10
+  #part-number -1
+endnode
+node dummy more_barrels_10_wg
+  parent more_barrels_10_pwk
+  #part-number 2
+endnode
+node dummy H07_pwk_use02
+  parent more_barrels_10_pwk
+  #part-number 3
+endnode
+node dummy H07_pwk_use01
+  parent more_barrels_10_pwk
+  #part-number 4
+endnode
+node dummy H07_hand
+  parent more_barrels_10
+  #part-number 1
+endnode
+node dummy H07_head
+  parent more_barrels_10
+  #part-number 2
+endnode
+node dummy H07_head_hit
+  parent more_barrels_10
+  #part-number 3
+endnode
+node dummy H07_impact
+  parent more_barrels_10
+  #part-number 4
+endnode
+node dummy H07_ground
+  parent more_barrels_10
+  #part-number 5
+endnode
+node emitter fire!43
+  parent more_barrels_10
+  #part-number 6
+endnode
+node emitter ChunkyWood72
+  parent more_barrels_10
+  #part-number 7
+endnode
+node emitter ChunkyWood73
+  parent more_barrels_10
+  #part-number 8
+endnode
+node trimesh damage09
+  parent more_barrels_10
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Object84
+  parent damage09
+  #part-number 10
+endnode
+node dummy Object35
+  parent damage09
+  #part-number 11
+  orientationkey 2
+    0 0 0 0 0
+    0.266667008 0.999390602 0.0133687947 0.0322451852 -0.549778998
+endnode
+node dummy Object83
+  parent damage09
+  #part-number 12
+endnode
+node dummy Cylinder03
+  parent damage09
+  #part-number 13
+endnode
+node dummy Object61
+  parent damage09
+  #part-number 14
+endnode
+node dummy Cylinder04
+  parent damage09
+  #part-number 15
+endnode
+node dummy Object64
+  parent damage09
+  #part-number 16
+endnode
+doneanim close2open more_barrels_10
+
+#MAXANIM ASCII
+newanim open more_barrels_10
+  length 0.0333333015
+  transtime 0.25
+  animroot more_barrels_10
+node dummy more_barrels_10
+  parent NULL
+  #part-number 0
+endnode
+node dummy more_barrels_10_pwk
+  parent more_barrels_10
+  #part-number -1
+endnode
+node dummy more_barrels_10_wg
+  parent more_barrels_10_pwk
+  #part-number 2
+endnode
+node dummy H07_pwk_use02
+  parent more_barrels_10_pwk
+  #part-number 3
+endnode
+node dummy H07_pwk_use01
+  parent more_barrels_10_pwk
+  #part-number 4
+endnode
+node dummy H07_hand
+  parent more_barrels_10
+  #part-number 1
+endnode
+node dummy H07_head
+  parent more_barrels_10
+  #part-number 2
+endnode
+node dummy H07_head_hit
+  parent more_barrels_10
+  #part-number 3
+endnode
+node dummy H07_impact
+  parent more_barrels_10
+  #part-number 4
+endnode
+node dummy H07_ground
+  parent more_barrels_10
+  #part-number 5
+endnode
+node emitter fire!43
+  parent more_barrels_10
+  #part-number 6
+endnode
+node emitter ChunkyWood72
+  parent more_barrels_10
+  #part-number 7
+endnode
+node emitter ChunkyWood73
+  parent more_barrels_10
+  #part-number 8
+endnode
+node trimesh damage09
+  parent more_barrels_10
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Object84
+  parent damage09
+  #part-number 10
+endnode
+node dummy Object35
+  parent damage09
+  #part-number 11
+  orientationkey 1
+    0.0333333015 0.999390602 0.0133687938 0.0322451815 -0.610865057
+endnode
+node dummy Object83
+  parent damage09
+  #part-number 12
+endnode
+node dummy Cylinder03
+  parent damage09
+  #part-number 13
+endnode
+node dummy Object61
+  parent damage09
+  #part-number 14
+endnode
+node dummy Cylinder04
+  parent damage09
+  #part-number 15
+endnode
+node dummy Object64
+  parent damage09
+  #part-number 16
+endnode
+doneanim open more_barrels_10
+
+#MAXANIM ASCII
+newanim close more_barrels_10
+  length 0.0333333015
+  transtime 0.25
+  animroot more_barrels_10
+node dummy more_barrels_10
+  parent NULL
+  #part-number 0
+endnode
+node dummy more_barrels_10_pwk
+  parent more_barrels_10
+  #part-number -1
+endnode
+node dummy more_barrels_10_wg
+  parent more_barrels_10_pwk
+  #part-number 2
+endnode
+node dummy H07_pwk_use02
+  parent more_barrels_10_pwk
+  #part-number 3
+endnode
+node dummy H07_pwk_use01
+  parent more_barrels_10_pwk
+  #part-number 4
+endnode
+node dummy H07_hand
+  parent more_barrels_10
+  #part-number 1
+endnode
+node dummy H07_head
+  parent more_barrels_10
+  #part-number 2
+endnode
+node dummy H07_head_hit
+  parent more_barrels_10
+  #part-number 3
+endnode
+node dummy H07_impact
+  parent more_barrels_10
+  #part-number 4
+endnode
+node dummy H07_ground
+  parent more_barrels_10
+  #part-number 5
+endnode
+node emitter fire!43
+  parent more_barrels_10
+  #part-number 6
+endnode
+node emitter ChunkyWood72
+  parent more_barrels_10
+  #part-number 7
+endnode
+node emitter ChunkyWood73
+  parent more_barrels_10
+  #part-number 8
+endnode
+node trimesh damage09
+  parent more_barrels_10
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy Object84
+  parent damage09
+  #part-number 10
+endnode
+node dummy Object35
+  parent damage09
+  #part-number 11
+  orientationkey 2
+    0 0 0 0 0
+    0.0333333015 0 0 0 0
+endnode
+node dummy Object83
+  parent damage09
+  #part-number 12
+endnode
+node dummy Cylinder03
+  parent damage09
+  #part-number 13
+endnode
+node dummy Object61
+  parent damage09
+  #part-number 14
+endnode
+node dummy Cylinder04
+  parent damage09
+  #part-number 15
+endnode
+node dummy Object64
+  parent damage09
+  #part-number 16
+endnode
+doneanim close more_barrels_10
+
+#MAXANIM ASCII
+newanim damage more_barrels_10
+  length 0.133332998
+  transtime 0
+  animroot more_barrels_10
+node dummy more_barrels_10
+  parent NULL
+  #part-number 0
+endnode
+node dummy more_barrels_10_pwk
+  parent more_barrels_10
+  #part-number -1
+endnode
+node dummy more_barrels_10_wg
+  parent more_barrels_10_pwk
+  #part-number 2
+endnode
+node dummy H07_pwk_use02
+  parent more_barrels_10_pwk
+  #part-number 3
+endnode
+node dummy H07_pwk_use01
+  parent more_barrels_10_pwk
+  #part-number 4
+endnode
+node dummy H07_hand
+  parent more_barrels_10
+  #part-number 1
+endnode
+node dummy H07_head
+  parent more_barrels_10
+  #part-number 2
+endnode
+node dummy H07_head_hit
+  parent more_barrels_10
+  #part-number 3
+endnode
+node dummy H07_impact
+  parent more_barrels_10
+  #part-number 4
+endnode
+node dummy H07_ground
+  parent more_barrels_10
+  #part-number 5
+endnode
+node emitter fire!43
+  parent more_barrels_10
+  #part-number 6
+endnode
+node emitter ChunkyWood72
+  parent more_barrels_10
+  #part-number 7
+endnode
+node emitter ChunkyWood73
+  parent more_barrels_10
+  #part-number 8
+endnode
+node trimesh damage09
+  parent more_barrels_10
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 3
+    0 0.0147516001 0.00170410005 0
+    0.0333333015 0.0147516001 0.00170410005 0.0244580992
+    0.133332998 0.0147516001 0.00170410005 0
+  orientationkey 4
+    0 0 0 0 0
+    0.0333333015 0.371336102 -0.928463161 0.00810258184 -0.0469939038
+    0.100000001 -0.599949956 0.799968958 0.0104721989 -0.0436323993
+    0.133332998 0 0 0 0
+endnode
+node dummy Object84
+  parent damage09
+  #part-number 10
+endnode
+node dummy Object35
+  parent damage09
+  #part-number 11
+endnode
+node dummy Object83
+  parent damage09
+  #part-number 12
+endnode
+node dummy Cylinder03
+  parent damage09
+  #part-number 13
+endnode
+node dummy Object61
+  parent damage09
+  #part-number 14
+endnode
+node dummy Cylinder04
+  parent damage09
+  #part-number 15
+endnode
+node dummy Object64
+  parent damage09
+  #part-number 16
+endnode
+doneanim damage more_barrels_10
+
+#MAXANIM ASCII
+newanim die more_barrels_10
+  length 0.166666999
+  transtime 0
+  animroot more_barrels_10
+  event 0.0333333015 detonate
+  event 0.0333333015 detonate
+  event 0.0333333015 detonate
+node dummy more_barrels_10
+  parent NULL
+  #part-number 0
+endnode
+node dummy more_barrels_10_pwk
+  parent more_barrels_10
+  #part-number -1
+endnode
+node dummy more_barrels_10_wg
+  parent more_barrels_10_pwk
+  #part-number 2
+endnode
+node dummy H07_pwk_use02
+  parent more_barrels_10_pwk
+  #part-number 3
+endnode
+node dummy H07_pwk_use01
+  parent more_barrels_10_pwk
+  #part-number 4
+endnode
+node dummy H07_hand
+  parent more_barrels_10
+  #part-number 1
+endnode
+node dummy H07_head
+  parent more_barrels_10
+  #part-number 2
+endnode
+node dummy H07_head_hit
+  parent more_barrels_10
+  #part-number 3
+endnode
+node dummy H07_impact
+  parent more_barrels_10
+  #part-number 4
+endnode
+node dummy H07_ground
+  parent more_barrels_10
+  #part-number 5
+endnode
+node emitter fire!43
+  parent more_barrels_10
+  #part-number 6
+endnode
+node emitter ChunkyWood72
+  parent more_barrels_10
+  #part-number 7
+endnode
+node emitter ChunkyWood73
+  parent more_barrels_10
+  #part-number 8
+endnode
+node trimesh damage09
+  parent more_barrels_10
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 0.0147516001 0.00170410005 0
+    0.166666999 0.0147516001 0.00170410005 -3.77998996
+  orientation 0 0 0 0
+endnode
+node dummy Object84
+  parent damage09
+  #part-number 10
+endnode
+node dummy Object35
+  parent damage09
+  #part-number 11
+endnode
+node dummy Object83
+  parent damage09
+  #part-number 12
+endnode
+node dummy Cylinder03
+  parent damage09
+  #part-number 13
+endnode
+node dummy Object61
+  parent damage09
+  #part-number 14
+endnode
+node dummy Cylinder04
+  parent damage09
+  #part-number 15
+endnode
+node dummy Object64
+  parent damage09
+  #part-number 16
+endnode
+doneanim die more_barrels_10
+
+#MAXANIM ASCII
+newanim dead more_barrels_10
+  length 0.0333333015
+  transtime 0
+  animroot more_barrels_10
+node dummy more_barrels_10
+  parent NULL
+  #part-number 0
+endnode
+node dummy more_barrels_10_pwk
+  parent more_barrels_10
+  #part-number -1
+endnode
+node dummy more_barrels_10_wg
+  parent more_barrels_10_pwk
+  #part-number 2
+endnode
+node dummy H07_pwk_use02
+  parent more_barrels_10_pwk
+  #part-number 3
+endnode
+node dummy H07_pwk_use01
+  parent more_barrels_10_pwk
+  #part-number 4
+endnode
+node dummy H07_hand
+  parent more_barrels_10
+  #part-number 1
+endnode
+node dummy H07_head
+  parent more_barrels_10
+  #part-number 2
+endnode
+node dummy H07_head_hit
+  parent more_barrels_10
+  #part-number 3
+endnode
+node dummy H07_impact
+  parent more_barrels_10
+  #part-number 4
+endnode
+node dummy H07_ground
+  parent more_barrels_10
+  #part-number 5
+endnode
+node emitter fire!43
+  parent more_barrels_10
+  #part-number 6
+endnode
+node emitter ChunkyWood72
+  parent more_barrels_10
+  #part-number 7
+endnode
+node emitter ChunkyWood73
+  parent more_barrels_10
+  #part-number 8
+endnode
+node trimesh damage09
+  parent more_barrels_10
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 0.0147516001 0.00170410005 -3.77998996
+    0.0333333015 0.0147516001 0.00170410005 -3.77998996
+endnode
+node dummy Object84
+  parent damage09
+  #part-number 10
+endnode
+node dummy Object35
+  parent damage09
+  #part-number 11
+endnode
+node dummy Object83
+  parent damage09
+  #part-number 12
+endnode
+node dummy Cylinder03
+  parent damage09
+  #part-number 13
+endnode
+node dummy Object61
+  parent damage09
+  #part-number 14
+endnode
+node dummy Cylinder04
+  parent damage09
+  #part-number 15
+endnode
+node dummy Object64
+  parent damage09
+  #part-number 16
+endnode
+doneanim dead more_barrels_10
+
+#MAXANIM ASCII
+newanim default more_barrels_10
+  length 0
+  transtime 0.25
+  animroot more_barrels_10
+node dummy more_barrels_10
+  parent NULL
+  #part-number 0
+endnode
+node dummy more_barrels_10_pwk
+  parent more_barrels_10
+  #part-number -1
+endnode
+node dummy more_barrels_10_wg
+  parent more_barrels_10_pwk
+  #part-number 2
+endnode
+node dummy H07_pwk_use02
+  parent more_barrels_10_pwk
+  #part-number 3
+endnode
+node dummy H07_pwk_use01
+  parent more_barrels_10_pwk
+  #part-number 4
+endnode
+node dummy H07_hand
+  parent more_barrels_10
+  #part-number 1
+endnode
+node dummy H07_head
+  parent more_barrels_10
+  #part-number 2
+endnode
+node dummy H07_head_hit
+  parent more_barrels_10
+  #part-number 3
+endnode
+node dummy H07_impact
+  parent more_barrels_10
+  #part-number 4
+endnode
+node dummy H07_ground
+  parent more_barrels_10
+  #part-number 5
+endnode
+node emitter fire!43
+  parent more_barrels_10
+  #part-number 6
+endnode
+node emitter ChunkyWood72
+  parent more_barrels_10
+  #part-number 7
+endnode
+node emitter ChunkyWood73
+  parent more_barrels_10
+  #part-number 8
+endnode
+node trimesh damage09
+  parent more_barrels_10
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  position 0.0147516001 0.00170410005 0
+  orientation 0 0 0 0
+endnode
+node dummy Object84
+  parent damage09
+  #part-number 10
+endnode
+node dummy Object35
+  parent damage09
+  #part-number 11
+endnode
+node dummy Object83
+  parent damage09
+  #part-number 12
+endnode
+node dummy Cylinder03
+  parent damage09
+  #part-number 13
+endnode
+node dummy Object61
+  parent damage09
+  #part-number 14
+endnode
+node dummy Cylinder04
+  parent damage09
+  #part-number 15
+endnode
+node dummy Object64
+  parent damage09
+  #part-number 16
+endnode
+doneanim default more_barrels_10
+
+donemodel more_barrels_10

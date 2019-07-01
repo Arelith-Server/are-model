@@ -1,0 +1,116 @@
+# Exported from NWmax 0.8 b60 at 17.01.2013 14:47:30
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: plc_mcr01
+#local file: Unknown
+filedependancy Unknown
+newmodel plc_mcr01
+setsupermodel plc_mcr01 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom plc_mcr01
+node dummy plc_mcr01
+  parent NULL
+endnode
+node dummy mcr01_hand
+  parent plc_mcr01
+  position 0.0 0.0 1.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.835294 0.603922 0.898039 
+endnode
+node dummy mcr01_head
+  parent plc_mcr01
+  position 0.00398926 0.0108258 1.59774
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.835294 0.603922 0.898039 
+endnode
+node dummy mcr01_head_hit
+  parent plc_mcr01
+  position 0.0 0.0 2.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.835294 0.603922 0.898039 
+endnode
+node dummy mcr01_impact
+  parent plc_mcr01
+  position 0.00398926 0.0109997 0.464163
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.835294 0.603922 0.898039 
+endnode
+node dummy mcr01_ground
+  parent plc_mcr01
+  position -0.00363525 0.00698791 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.72549 0.898039 
+endnode
+node emitter Splash16
+  parent plc_mcr01
+  position 0.0 0.0 0.0
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 4
+  render Billboard_to_World_Z
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 300.0
+  ySize 300.0
+  inherit 1
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.537255 0.545098 0.427452 
+  colorEnd 0.537255 0.545098 0.427452 
+  alphaStart 0.5
+  alphaEnd 0.0
+  sizeStart 0.0
+  sizeEnd 2.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 2.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_ripple
+  twosidedtex 0
+  xgrid 2
+  ygrid 2
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+endmodelgeom plc_mcr01
+donemodel plc_mcr01

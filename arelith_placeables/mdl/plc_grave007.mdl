@@ -1,0 +1,141 @@
+# Exported from Wayland's NWN Maxscript v0.3b at 1/18/2004 12:14:44 AM
+# mdl file
+#
+filedependancy TTR01_O10_01.max
+newmodel PLC_Grave007
+setsupermodel PLC_Grave007 NULL
+classification tile
+setanimationscale 1
+beginmodelgeom PLC_Grave007
+node dummy PLC_Grave007
+    parent NULL
+endnode
+node light TTR01_O10_01ml1
+    parent PLC_Grave007
+    position 0.0 0.0 5.0
+    orientation 1.0 0.0 0.0 0.0
+    scale 1.0
+#   Fake light data
+    ambientonly 0
+    shadow 0
+    isdynamic 0
+    affectdynamic 1
+    lightpriority 5
+    fadingLight 1
+    flareradius 0
+    radius 14
+    multiplier 1
+    color 0 0 0	
+endnode
+node trimesh graves001
+    parent PLC_Grave007
+    position -0.0251189 -0.138543 0.45
+    orientation 1.0 0.0 0.0 0.0
+    scale 1.0
+    shininess 1
+    diffuse 1.0 1.0 1.0
+    ambient 1.0 1.0 1.0
+    specular 0.0 0.0 0.0
+    selfillumcolor 0.0 0.0 0.0
+    alpha 1.0
+    bitmap TTR01_tomb01
+    verts 16
+        0.41 0.05 -0.46
+        0.41 0.13 0.31
+        0.41 -0.06 0.33
+        0.41 -0.15 -0.44
+        0.31 0.15 0.51
+        0.31 -0.05 0.53
+        0.11 0.16 0.61
+        0.11 -0.04 0.63
+        -0.09 0.16 0.61
+        -0.09 -0.04 0.63
+        -0.29 0.15 0.51
+        -0.29 -0.05 0.53
+        -0.39 0.13 0.31
+        -0.39 -0.06 0.33
+        -0.39 0.05 -0.46
+        -0.39 -0.15 -0.44
+    faces 26
+        0 1 2 1 0 1 2 3
+        0 2 3 1 0 2 3 3
+        1 4 5 2 1 4 5 3
+        1 5 2 2 1 5 2 3
+        4 6 7 2 4 6 7 3
+        4 7 5 2 4 7 5 3
+        6 8 9 2 6 8 9 3
+        6 9 7 2 6 9 7 3
+        8 10 11 2 10 11 12 3
+        8 11 9 2 10 12 13 3
+        10 12 13 2 11 14 15 3
+        10 13 11 2 11 15 12 3
+        12 14 15 1 14 16 17 3
+        12 15 13 1 14 17 15 3
+        12 0 14 4 18 19 20 2
+        12 1 0 4 18 21 19 2
+        10 1 12 4 22 21 18 2
+        8 1 10 4 23 21 22 2
+        6 1 8 4 24 21 23 2
+        4 1 6 4 25 21 24 2
+        13 15 3 4 26 27 28 1
+        13 3 2 4 26 28 29 1
+        11 13 2 4 30 26 29 1
+        9 11 2 4 31 30 29 1
+        7 9 2 4 32 31 29 1
+        5 7 2 4 33 32 29 1
+    tverts 34
+        0.674677 0.501595 0
+        0.674677 0.717759 0
+        0.579569 0.717759 0
+        0.579568 0.501596 0
+        0.674677 0.860669 0
+        0.579569 0.860669 0
+        0.674677 0.93888 0
+        0.579569 0.93888 0
+        0.674677 0.996549 0
+        0.579569 0.996537 0
+        0.674677 0.938855 0
+        0.674677 0.86061 0
+        0.579569 0.860611 0
+        0.579569 0.938848 0
+        0.674677 0.717757 0
+        0.579569 0.717757 0
+        0.674677 0.502094 0
+        0.579568 0.502094 0
+        0.501503 0.835666 0
+        0.753776 0.502665 0
+        0.501503 0.502665 0
+        0.753776 0.835665 0
+        0.533037 0.946666 0
+        0.596106 1.00217 0
+        0.659174 1.00217 0
+        0.722242 0.946666 0
+        0.753531 0.823659 0
+        0.753531 0.501792 0
+        1.00175 0.501792 0
+        1.00175 0.823659 0
+        0.784559 0.930948 0
+        0.846613 0.984592 0
+        0.908667 0.984592 0
+        0.970721 0.930948 0
+endnode
+node light TTR01_O10_01ml2
+    parent PLC_Grave007
+    position 0.119841 -1.42954 2.33065
+    orientation 1.0 0.0 0.0 0.0
+    scale 1.0
+#   Fake light data
+    ambientonly 0
+    shadow 0
+    isdynamic 0
+    affectdynamic 1
+    lightpriority 5
+    fadingLight 1
+    flareradius 0
+    radius 14
+    multiplier 1
+    color 0 0 0	
+endnode
+endmodelgeom PLC_Grave007
+donemodel PLC_Grave007
+

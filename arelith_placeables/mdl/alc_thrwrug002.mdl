@@ -1,0 +1,124 @@
+# Exported from NWmax 0.8 b61 at 12/5/2015 2:31:13 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: alc_thrwrug002
+#local file: C:\3dsmax7\scenes\throwrugbase.max
+filedependancy throwrugbase.max
+newmodel alc_thrwrug002
+setsupermodel alc_thrwrug002 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom alc_thrwrug002
+node dummy alc_thrwrug002
+  parent NULL
+endnode
+node trimesh Plane01
+  parent alc_thrwrug002
+  position 0.0643555 -0.0121582 0.01
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center -6.43555 41.6458 0.0 
+  bitmap alc_throw002
+  verts 15
+    -0.632186 1.0 0.0
+    -0.632186 0.416458 0.0
+    -0.0821864 0.999998 0.0
+    -0.0643555 0.416458 0.0
+    -0.0643555 -1.0 0.0
+    0.467814 -1.0 0.0
+    -0.0643555 -0.49914 0.0
+    0.467814 -0.49914 0.0
+    -0.632186 0.0101805 0.0
+    -0.0643555 0.0101805 0.0
+    0.467814 0.416458 0.0
+    0.467814 1.0 0.0
+    0.467814 0.0101806 0.0
+    -0.632186 -0.49914 0.0
+    -0.632186 -1.0 0.0
+  faces 16
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+    4 5 6  1  4 5 6  1
+    7 6 5  1  7 6 5  1
+    1 8 3  1  1 8 3  1
+    9 3 8  1  9 3 8  1
+    10 11 3  1  10 11 12  1
+    2 3 11  1  13 12 11  1
+    12 10 9  1  14 10 15  1
+    3 9 10  1  12 15 10  1
+    8 13 9  1  8 16 9  1
+    6 9 13  1  17 9 16  1
+    7 12 6  1  7 14 6  1
+    9 6 12  1  15 6 14  1
+    13 14 6  1  16 18 17  1
+    4 6 14  1  19 17 18  1
+  tverts 20
+    1.0 0.98803 0
+    0.705 0.988 0
+    1.0 0.504 0
+    0.70542 0.504 0
+    0.0 0.504 0
+    0.0 0.0 0
+    0.25 0.504 0
+    0.25 0.0 0
+    0.487173 0.988 0
+    0.487173 0.504 0
+    0.705 0.0 0
+    1.001 0.0 0
+    0.705 0.504 0
+    1.0 0.504 0
+    0.487 0.0 0
+    0.486429 0.504 0
+    0.25 0.988 0
+    0.250152 0.504 0
+    0.0 0.988 0
+    0.0 0.504 0
+endnode
+node dummy V10_hand
+  parent alc_thrwrug002
+  position 0.00398437 0.00821327 0.484883
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.835294 0.603922 0.898039 
+endnode
+node dummy V10_head
+  parent alc_thrwrug002
+  position 0.00398437 0.0108252 0.487122
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.835294 0.603922 0.898039 
+endnode
+node dummy V10_head_hit
+  parent alc_thrwrug002
+  position 0.00398437 0.0108252 0.00564354
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.72549 0.898039 
+endnode
+node dummy V10_impact
+  parent alc_thrwrug002
+  position 0.00398437 0.011001 0.00741898
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.341176 0.878431 0.341176 
+endnode
+node dummy V10_ground
+  parent alc_thrwrug002
+  position -0.00363281 0.0069873 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.776471 0.341176 
+endnode
+endmodelgeom alc_thrwrug002
+donemodel alc_thrwrug002

@@ -1,0 +1,53 @@
+# Exported from NWmax 0.8 b53 at 9/28/2005 8:34:15 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: plc_lotrmap
+#local file: Unknown
+filedependancy Unknown
+newmodel plc_lotrmap
+setsupermodel plc_lotrmap NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom plc_lotrmap
+node dummy plc_lotrmap
+  parent NULL
+endnode
+node trimesh map
+  parent plc_lotrmap
+  position 0.0 0.0 0.01
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.839216 0.894118 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap plc_map_lotr
+  verts 4
+    -0.96 -0.72 0.0
+    0.96 -0.72 0.0
+    -0.96 0.72 0.0
+    0.96 0.72 0.0
+  faces 2
+    2 0 3  1  2 0 3  1
+    1 3 0  1  1 3 0  1
+  tverts 4
+    0.000499457 0.24431 0
+    0.9995 0.24431 0
+    0.000499636 0.993561 0
+    0.999501 0.993561 0
+endnode
+endmodelgeom plc_lotrmap
+donemodel plc_lotrmap

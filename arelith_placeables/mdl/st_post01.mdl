@@ -1,0 +1,143 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: st_post01
+filedependancy Stem_placeables0031.max
+newmodel st_post01
+setsupermodel st_post01 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom st_post01
+node dummy st_post01
+  parent NULL
+endnode
+node trimesh Cone04
+  parent st_post01
+  position -0.186536 -0.025459 1.84309
+  orientation 0 0 0 0
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 0.294118 0.294118 0.294118
+  diffuse 0.294118 0.294118 0.294118
+  specular 0 0 0
+  shininess 10
+  bitmap NULL
+  verts 4
+    0 0.0282706 0.0091658
+    -0.010584 0.0282706 -0.00916595
+    0.0105838 0.0282706 -0.00916595
+    0 -0.0282737 -0.00305542
+  faces 4
+    0 2 1  1  0 0 0  1
+    0 1 3  1073741824  0 0 0  2
+    1 2 3  8  0 0 0  2
+    2 0 3  2097152  0 0 0  2
+endnode
+node trimesh Cone01
+  parent st_post01
+  position 0.299094 -0.025459 1.8473
+  orientation 0 0 0 0
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 0.294118 0.294118 0.294118
+  diffuse 0.294118 0.294118 0.294118
+  specular 0 0 0
+  shininess 10
+  bitmap NULL
+  verts 4
+    0 0.0282706 0.0091658
+    -0.010584 0.0282706 -0.00916595
+    0.0105838 0.0282706 -0.00916595
+    0 -0.0282737 -0.00305542
+  faces 4
+    0 2 1  1  0 0 0  1
+    0 1 3  1073741824  0 0 0  2
+    1 2 3  8  0 0 0  2
+    2 0 3  2097152  0 0 0  2
+endnode
+node trimesh Plane12
+  parent st_post01
+  position -0.0428143 -0.0289795 1.37843
+  orientation 1 0 0 -1.5708
+  wirecolor 0.695313 0.695313 0.695313
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_poster26
+  verts 10
+    0.377598 0.5 0.0607196
+    0.263609 0.5 0
+    -0.39174 0.5 0
+    0.377598 0.407273 0
+    0.377598 -0.5 0
+    -0.166877 -0.37777 0
+    -0.39174 -0.287769 0
+    -0.39174 -0.37777 0.0318793
+    -0.0979055 -0.5 0
+    -0.39174 -0.5 0.10956
+  faces 9
+    3 0 1  1  3 0 1  0
+    4 3 5  1  4 3 5  0
+    1 5 3  1  1 5 3  0
+    5 1 6  1  5 1 6  0
+    2 6 1  1  2 6 1  0
+    6 7 5  1  6 7 5  0
+    5 8 4  1  5 8 4  0
+    8 5 7  1  8 5 7  0
+    7 9 8  1  7 9 8  0
+  tverts 10
+    0.122779 0.000499755 6.57196
+    0.236655 0.000499725 0.5
+    0.891349 0.000499576 0.5
+    0.122779 0.0931341 0.5
+    0.122779 0.9995 0.5
+    0.66671 0.877393 0.5
+    0.891349 0.787482 0.5
+    0.891349 0.877393 3.68793
+    0.597808 0.9995 0.5
+    0.891349 0.9995 11.456
+endnode
+node trimesh Cone03
+  parent st_post01
+  position 0.21757 -0.025459 0.921855
+  orientation 0 0 0 0
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 0.294118 0.294118 0.294118
+  diffuse 0.294118 0.294118 0.294118
+  specular 0 0 0
+  shininess 10
+  bitmap NULL
+  verts 4
+    0 0.0282706 0.0091658
+    -0.010584 0.0282706 -0.00916595
+    0.0105838 0.0282706 -0.00916595
+    0 -0.0282737 -0.00305542
+  faces 4
+    0 2 1  1  0 0 0  1
+    0 1 3  1073741824  0 0 0  2
+    1 2 3  8  0 0 0  2
+    2 0 3  2097152  0 0 0  2
+endnode
+node trimesh Cone02
+  parent st_post01
+  position -0.388231 -0.025459 0.932187
+  orientation 0 0 0 0
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 0.294118 0.294118 0.294118
+  diffuse 0.294118 0.294118 0.294118
+  specular 0 0 0
+  shininess 10
+  bitmap NULL
+  verts 4
+    0 0.0282706 0.0091658
+    -0.010584 0.0282706 -0.00916595
+    0.0105838 0.0282706 -0.00916595
+    0 -0.0282737 -0.00305542
+  faces 4
+    0 2 1  1  0 0 0  1
+    0 1 3  1073741824  0 0 0  2
+    1 2 3  8  0 0 0  2
+    2 0 3  2097152  0 0 0  2
+endnode
+endmodelgeom st_post01
+donemodel st_post01

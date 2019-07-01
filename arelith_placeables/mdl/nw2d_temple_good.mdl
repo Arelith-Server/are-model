@@ -1,0 +1,55 @@
+#MAXMODEL ASCII
+# model: nw2d_temple_good
+filedependancy nw2d_temple_good.max
+newmodel nw2d_temple_good
+setsupermodel nw2d_temple_good null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom nw2d_temple_good
+node dummy nw2d_temple_good
+  parent NULL
+  #part-number 0
+endnode
+node trimesh plc_dr_templeg01
+  parent nw2d_temple_good
+  #part-number 1
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  bitmap nw2_br_townhll01
+  verts 8
+    1.5 0.1015625 2.703125
+    1.5 0.1015625 0
+    0 0.1015625 0
+    0 0.1015625 2.703125
+    0 0 2.703125
+    1.5 0 2.703125
+    0 0 0
+    1.5 0 0
+  tverts 8
+    0.750346005 0.999482989 0
+    0.750346005 0.812931001 0
+    0.86283797 0.812931001 0
+    0.862838984 0.999481976 0
+    0.750344992 0.995572984 0
+    0.86283797 0.995573997 0
+    0.755203009 0.812931001 0
+    0.755203009 0.999481976 0
+  faces 8
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    0 3 4 2 3 0 4 1
+    4 5 0 2 4 5 3 1
+    3 2 6 4 0 1 6 1
+    6 4 3 4 6 7 0 1
+    6 7 5 1 2 1 0 1
+    5 4 6 1 0 3 2 1
+  scale 1
+  orientation 0 0 0 0
+  position 0 0 0
+endnode
+endmodelgeom nw2d_temple_good
+
+donemodel nw2d_temple_good
