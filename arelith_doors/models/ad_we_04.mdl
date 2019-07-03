@@ -1,0 +1,692 @@
+# Exported from NWmax 0.8 b61 at 6/15/2019 9:08:21 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: ad_we_04
+#local file: Unknown
+filedependancy Unknown
+newmodel ad_we_04
+setsupermodel ad_we_04 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom ad_we_04
+node dummy ad_we_04
+  parent NULL
+endnode
+node dummy TIN01_B13_05
+  parent ad_we_04
+  position -1.0 0.0 -2.44141e-006
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.6 0.894118 0.721569 
+endnode
+node trimesh Box07
+  parent TIN01_B13_05
+  position 0.0 -1.0 2.44141e-006
+  orientation 0.0 0.0 1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.992157 0.992157 0.992157 
+  diffuse 0.992157 0.992157 0.992157 
+  specular 0.0496078 0.0496078 0.0496078 
+  shininess 26
+  center 0.0 0.0 149.5 
+  bitmap ad_we_04
+  verts 8
+    -1.0 -0.1 0.0
+    -1.0 0.1 0.0
+    1.0 0.1 0.0
+    1.0 -0.1 0.0
+    -1.0 -0.1 2.99
+    1.0 -0.1 2.99
+    1.0 0.1 2.99
+    -1.0 0.1 2.99
+  faces 12
+    0 1 2  1  0 1 2  2
+    2 3 0  1  2 3 0  2
+    4 5 6  1  4 5 6  1
+    6 7 4  1  6 7 4  1
+    0 3 5  2  0 2 6  5
+    5 4 0  2  6 7 0  5
+    3 2 6  4  8 2 9  4
+    6 5 3  4  9 10 8  4
+    2 1 7  2  2 0 7  6
+    7 6 2  2  7 6 2  6
+    1 0 4  4  0 11 12  3
+    4 7 1  4  12 13 0  3
+  tverts 14
+    0.000499517 0.000499606 0
+    0.000499517 0.000499606 0
+    0.49427 0.000499487 0
+    0.49427 0.000499487 0
+    0.000499785 0.825588 0
+    0.494271 0.825587 0
+    0.494271 0.869066 0
+    0.000499785 0.869066 0
+    0.442958 0.000499487 0
+    0.494271 0.873897 0
+    0.442958 0.873897 0
+    0.0478648 0.000499606 0
+    0.0478651 0.873897 0
+    0.000499785 0.873897 0
+endnode
+node trimesh sam
+  parent ad_we_04
+  position -1.0 -0.00794434 0.0
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 1
+  selfillumcolor 0.0705882 0.0 1.0 
+  ambient 0.2 0.2 0.2 
+  diffuse 0.8 0.8 0.8 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 1.54124 -100.623 148.5 
+  bitmap NULL
+  verts 8
+    -0.00317644 -0.0062291 -1.83105e-006
+    -0.00317644 -2.00623 -1.83105e-006
+    -0.00317644 -2.00623 2.97
+    -0.00317644 -0.0062291 2.97
+    0.0340013 -2.00623 -1.83105e-006
+    0.0340013 -0.0062291 -1.83105e-006
+    0.0340013 -2.00623 2.97
+    0.0340013 -0.0062291 2.97
+  faces 4
+    0 1 2  1  0 1 2  18
+    2 3 0  1  2 3 0  18
+    4 5 6  1  1 0 2  18
+    7 6 5  1  3 2 0  18
+  tverts 4
+    0.000499517 0.000499666 0
+    0.49427 0.000499547 0
+    0.494271 0.876312 0
+    0.000499815 0.876312 0
+endnode
+node emitter fire!11
+  parent ad_we_04
+  position -0.00162842 0.0249237 0.928905
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node dummy ad_we_04head
+  parent ad_we_04
+  position 0.0 0.0 2.50064
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.835294 0.603922 0.898039 
+endnode
+node dummy ad_we_04hhit
+  parent ad_we_04
+  position 0.0 0.0 2.17507
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.835294 0.603922 0.898039 
+endnode
+node dummy ad_we_04impc
+  parent ad_we_04
+  position 0.0 0.0 1.63648
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.780392 0.882353 
+endnode
+node dummy ad_we_04grnd
+  parent ad_we_04
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.780392 0.882353 
+endnode
+endmodelgeom ad_we_04
+#NWmax ANIM ASCII
+newanim opening1 ad_we_04
+  length 1.0
+  transtime 0.25
+  animroot ad_we_04
+    node dummy ad_we_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_05
+        parent ad_we_04
+        positionkey
+            0.0 -1.0 0.0 -2.44141e-006
+            0.0333333 -1.0 0.0 -2.44141e-006
+            1.0 -1.0 0.0 -2.44141e-006
+        endlist
+        orientationkey
+            0.0 0.0 0.0 -1.0 -1.5708
+            0.0333333 0.0 0.0 -1.0 -1.5708
+            0.333333 0.0 0.0 -1.0 -1.5708
+            0.433333 0.0 0.0 -1.0 -1.47299
+            0.533333 0.0 0.0 -1.0 -1.43808
+            0.733333 0.0 0.0 -1.0 -0.583658
+            0.766667 0.0 0.0 -1.0 -0.515247
+            0.866667 0.0 0.0 -1.0 -0.310014
+            0.933333 0.0 0.0 -1.0 -0.2618
+            1.0 0.0 3.08389e-007 -1.0 -0.23562
+        endlist
+    endnode
+    node trimesh Box07
+        parent TIN01_B13_05
+    endnode
+    node trimesh sam
+        parent ad_we_04
+        alphakey
+            0.0 0.0 
+            1.0 0.0 
+        endlist
+    endnode
+    node emitter fire!11
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04head
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04hhit
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04impc
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04grnd
+        parent ad_we_04
+    endnode
+doneanim opening1 ad_we_04
+#NWmax ANIM ASCII
+newanim closing1 ad_we_04
+  length 0.666667
+  transtime 0.25
+  animroot ad_we_04
+    node dummy ad_we_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_05
+        parent ad_we_04
+        positionkey
+            0.0 -1.0 0.0 -2.44141e-006
+            0.0333333 -1.0 0.0 -2.44141e-006
+            0.666667 -1.0 0.0 -2.44141e-006
+        endlist
+        orientationkey
+            0.0 0.0 3.08389e-007 -1.0 -0.23562
+            0.0333333 3.08388e-007 2.71889e-007 -1.0 -0.23562
+            0.1 0.0 2.62031e-007 -1.0 -0.278195
+            0.166667 0.0 2.43911e-007 -1.0 -0.306578
+            0.3 0.0 1.4632e-007 -1.0 -0.504164
+            0.366667 0.0 0.0 -1.0 -0.602957
+            0.5 0.0 0.0 -1.0 -1.50128
+            0.566667 0.0 0.0 -1.0 -1.5708
+            0.6 0.0 0.0 -1.0 -1.5708
+            0.633333 0.0 0.0 -1.0 -1.5708
+            0.666667 0.0 0.0 -1.0 -1.5708
+        endlist
+    endnode
+    node trimesh Box07
+        parent TIN01_B13_05
+    endnode
+    node trimesh sam
+        parent ad_we_04
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+            0.633333 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node emitter fire!11
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04head
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04hhit
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04impc
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04grnd
+        parent ad_we_04
+    endnode
+doneanim closing1 ad_we_04
+#NWmax ANIM ASCII
+newanim opening2 ad_we_04
+  length 1.0
+  transtime 0.25
+  animroot ad_we_04
+    node dummy ad_we_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_05
+        parent ad_we_04
+        positionkey
+            0.0 -1.0 0.0 -2.44141e-006
+            0.0333333 -1.0 0.0 -2.44141e-006
+            1.0 -1.0 0.0 -2.44141e-006
+        endlist
+        orientationkey
+            0.0 9.38651e-007 -9.38655e-007 -1.0 -1.5708
+            0.0333333 1.8773e-006 -1.87731e-006 -1.0 -1.5708
+            0.333333 0.0 0.0 -1.0 -1.5708
+            0.433333 0.0 0.0 -1.0 -1.6686
+            0.533333 0.0 0.0 -1.0 -1.70351
+            0.733333 0.0 0.0 -1.0 -2.55794
+            0.766667 0.0 0.0 -1.0 -2.62635
+            0.866667 0.0 0.0 -1.0 -2.83157
+            0.933333 0.0 0.0 -1.0 -2.87979
+            1.0 0.0 0.0 -1.0 -2.90597
+        endlist
+    endnode
+    node trimesh Box07
+        parent TIN01_B13_05
+    endnode
+    node trimesh sam
+        parent ad_we_04
+        alphakey
+            0.0 0.0 
+            1.0 0.0 
+        endlist
+    endnode
+    node emitter fire!11
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04head
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04hhit
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04impc
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04grnd
+        parent ad_we_04
+    endnode
+doneanim opening2 ad_we_04
+#NWmax ANIM ASCII
+newanim die ad_we_04
+  length 0.666667
+  transtime 0.25
+  animroot ad_we_04
+  event 0.0333333 detonate
+    node dummy ad_we_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_05
+        parent ad_we_04
+        positionkey
+            0.0 -1.0 0.0 -2.44141e-006
+            0.1 -0.895449 0.0 -0.570152
+            0.133333 -0.895449 0.0 -0.81911
+            0.366667 -0.721199 0.0 -0.901047
+            0.666667 0.262883 1.08646 -2.83311
+        endlist
+        orientationkey
+            0.0 0.0 0.0 -1.0 -1.5708
+            0.1 -0.0700964 -0.0906631 -0.993412 -1.43993
+            0.133333 -0.0700964 -0.0906631 -0.993412 -1.43993
+            0.266667 -0.0711772 0.023546 -0.997186 -1.4857
+            0.333333 -0.105541 0.0251409 -0.994097 -1.51399
+            0.666667 -0.326389 0.362491 -0.872966 -1.60174
+        endlist
+    endnode
+    node trimesh Box07
+        parent TIN01_B13_05
+    endnode
+    node trimesh sam
+        parent ad_we_04
+    endnode
+    node emitter fire!11
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04head
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04hhit
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04impc
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04grnd
+        parent ad_we_04
+    endnode
+doneanim die ad_we_04
+#NWmax ANIM ASCII
+newanim closing2 ad_we_04
+  length 0.633333
+  transtime 0.25
+  animroot ad_we_04
+    node dummy ad_we_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_05
+        parent ad_we_04
+        positionkey
+            0.0 -1.0 0.0 -2.44141e-006
+            0.0333333 -1.0 0.0 -2.44141e-006
+        endlist
+        orientationkey
+            0.0 0.0 0.0 -1.0 -2.90597
+            0.0333333 0.0 0.0 -1.0 -2.90597
+            0.1 0.0 0.0 -1.0 -2.8634
+            0.166667 0.0 0.0 -1.0 -2.83501
+            0.3 0.0 0.0 -1.0 -2.63744
+            0.366667 0.0 0.0 -1.0 -2.53863
+            0.5 0.0 0.0 -1.0 -1.64031
+            0.566667 0.0 0.0 -1.0 -1.5708
+            0.6 0.0 0.0 -1.0 -1.5708
+            0.633333 0.0 0.0 -1.0 -1.5708
+        endlist
+    endnode
+    node trimesh Box07
+        parent TIN01_B13_05
+    endnode
+    node trimesh sam
+        parent ad_we_04
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+            0.633333 0.0 
+        endlist
+    endnode
+    node emitter fire!11
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04head
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04hhit
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04impc
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04grnd
+        parent ad_we_04
+    endnode
+doneanim closing2 ad_we_04
+#NWmax ANIM ASCII
+newanim closed ad_we_04
+  length 0.0333333
+  transtime 0.25
+  animroot ad_we_04
+    node dummy ad_we_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_05
+        parent ad_we_04
+        positionkey
+            0.0 -1.0 0.0 -2.44141e-006
+            0.0333333 -1.0 0.0 -2.44141e-006
+        endlist
+        orientationkey
+            0.0 9.16553e-007 -9.16556e-007 -1.0 -1.5708
+            0.0333333 1.83415e-006 -1.83416e-006 -1.0 -1.5708
+        endlist
+    endnode
+    node trimesh Box07
+        parent TIN01_B13_05
+    endnode
+    node trimesh sam
+        parent ad_we_04
+    endnode
+    node emitter fire!11
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04head
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04hhit
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04impc
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04grnd
+        parent ad_we_04
+    endnode
+doneanim closed ad_we_04
+#NWmax ANIM ASCII
+newanim opened2 ad_we_04
+  length 0.0333333
+  transtime 0.25
+  animroot ad_we_04
+    node dummy ad_we_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_05
+        parent ad_we_04
+        positionkey
+            0.0 -1.0 0.0 -2.44141e-006
+            0.0333333 -1.0 0.0 -2.44141e-006
+        endlist
+        orientationkey
+            0.0 0.0 0.0 -1.0 -2.90597
+            0.0333333 0.0 0.0 -1.0 -2.90597
+        endlist
+    endnode
+    node trimesh Box07
+        parent TIN01_B13_05
+    endnode
+    node trimesh sam
+        parent ad_we_04
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node emitter fire!11
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04head
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04hhit
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04impc
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04grnd
+        parent ad_we_04
+    endnode
+doneanim opened2 ad_we_04
+#NWmax ANIM ASCII
+newanim opened1 ad_we_04
+  length 0.0333333
+  transtime 0.25
+  animroot ad_we_04
+    node dummy ad_we_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_05
+        parent ad_we_04
+        positionkey
+            0.0 -1.0 0.0 -2.44141e-006
+            0.0333333 -1.0 0.0 -2.44141e-006
+        endlist
+        orientationkey
+            0.0 0.0 3.08389e-007 -1.0 -0.23562
+            0.0333333 0.0 3.08389e-007 -1.0 -0.23562
+        endlist
+    endnode
+    node trimesh Box07
+        parent TIN01_B13_05
+    endnode
+    node trimesh sam
+        parent ad_we_04
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node emitter fire!11
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04head
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04hhit
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04impc
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04grnd
+        parent ad_we_04
+    endnode
+doneanim opened1 ad_we_04
+#NWmax ANIM ASCII
+newanim trans ad_we_04
+  length 0.0333333
+  transtime 0.25
+  animroot ad_we_04
+    node dummy ad_we_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_05
+        parent ad_we_04
+    endnode
+    node trimesh Box07
+        parent TIN01_B13_05
+    endnode
+    node trimesh sam
+        parent ad_we_04
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node emitter fire!11
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04head
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04hhit
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04impc
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04grnd
+        parent ad_we_04
+    endnode
+doneanim trans ad_we_04
+#NWmax ANIM ASCII
+newanim dead ad_we_04
+  length 0.0333333
+  transtime 0.25
+  animroot ad_we_04
+    node dummy ad_we_04
+        parent NULL
+    endnode
+    node dummy TIN01_B13_05
+        parent ad_we_04
+        positionkey
+            0.0 0.262883 1.08646 -2.83311
+            0.0333333 0.262883 1.08646 -2.83311
+        endlist
+        orientationkey
+            0.0 -0.326389 0.362491 -0.872966 -1.60174
+            0.0333333 -0.326389 0.362491 -0.872966 -1.60174
+        endlist
+    endnode
+    node trimesh Box07
+        parent TIN01_B13_05
+    endnode
+    node trimesh sam
+        parent ad_we_04
+    endnode
+    node emitter fire!11
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04head
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04hhit
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04impc
+        parent ad_we_04
+    endnode
+    node dummy ad_we_04grnd
+        parent ad_we_04
+    endnode
+doneanim dead ad_we_04
+donemodel ad_we_04

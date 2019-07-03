@@ -1,0 +1,1676 @@
+# Exported from NWmax 0.8 b60 at 15.04.2012 17:15:19
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: ad_window_03
+#local file: Unknown
+filedependancy Unknown
+newmodel ad_window_03
+setsupermodel ad_window_03 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom ad_window_03
+node dummy ad_window_03
+  parent NULL
+endnode
+node dummy double01
+  parent ad_window_03
+  position 0.0 -0.18 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.568627 0.109804 0.694118 
+endnode
+node dummy helper01
+  parent double01
+  position -1.0 0.0499999 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.568627 0.109804 0.694118 
+endnode
+node trimesh shutter02
+  parent helper01
+  position 0.0 -0.1 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 100.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.588235 0.588235 0.588235 
+  diffuse 0.588235 0.588235 0.588235 
+  specular 0.0 0.0 0.0 
+  shininess 10
+  center 50.0 5.0 225.0 
+  bitmap tcm02_shutters01
+  verts 8
+    0.0 0.0 3.0
+    1.0 0.0 3.0
+    1.0 0.1 3.0
+    0.0 0.1 3.0
+    0.0 0.0 1.5
+    1.0 0.0 1.5
+    1.0 0.1 1.5
+    0.0 0.1 1.5
+  faces 12
+    0 1 2  1  0 1 2  1
+    2 3 0  1  2 3 0  1
+    4 5 1  2  4 5 6  5
+    1 0 4  2  6 7 4  5
+    5 6 2  4  8 9 10  4
+    2 1 5  4  10 11 8  4
+    6 7 3  2  5 4 7  6
+    3 2 6  2  7 6 5  6
+    7 4 0  4  12 13 14  3
+    0 3 7  4  14 15 12  3
+    7 5 4  0  16 17 18  1
+    6 5 7  0  19 17 16  1
+  tverts 20
+    0.0 0.4875 0
+    0.5 0.4875 0
+    0.5 0.5375 0
+    0.0 0.5375 0
+    0.0 0.0 0
+    0.5 0.0 0
+    0.5 1.0 0
+    0.0 1.0 0
+    0.38 0.0 0
+    0.48 0.0 0
+    0.48 1.0 0
+    0.38 1.0 0
+    0.0125 0.0 0
+    0.0625 0.0 0
+    0.0625 1.0 0
+    0.0125 1.0 0
+    0.000499547 0.0695488 0
+    0.497085 0.000499517 0
+    0.000499517 0.000501901 0
+    0.497085 0.0695465 0
+endnode
+node trimesh handle01
+  parent shutter02
+  position 0.85 0.0499991 2.235
+  orientation -1.0 0.0 0.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 100.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 -11.5 0.0 
+  bitmap tcm02_metaltop
+  verts 36
+    -0.025 0.055 0.05
+    0.025 0.055 0.05
+    0.025 0.0549999 0.105
+    -0.025 0.0549999 0.105
+    0.02 -0.13 0.135
+    -0.02 -0.13 0.135
+    0.015 -0.295 0.05
+    -0.015 -0.295 0.05
+    0.025 0.095 0.05
+    0.025 0.0700001 0.12
+    0.02 -0.125 0.15
+    0.015 -0.285 0.06
+    0.02 -0.325 0.08
+    -0.025 0.095 0.05
+    -0.025 0.0700001 0.12
+    -0.02 -0.125 0.15
+    -0.015 -0.285 0.06
+    -0.02 -0.325 0.08
+    -0.025 0.055 -0.05
+    0.025 0.0549999 -0.105
+    0.025 0.055 -0.05
+    -0.025 0.0549999 -0.105
+    0.02 -0.13 -0.135
+    -0.02 -0.13 -0.135
+    0.015 -0.295 -0.05
+    -0.015 -0.295 -0.05
+    0.025 0.0700001 -0.12
+    0.025 0.095 -0.05
+    0.02 -0.125 -0.15
+    0.015 -0.285 -0.06
+    0.02 -0.325 -0.08
+    -0.025 0.0700001 -0.12
+    -0.025 0.095 -0.05
+    -0.02 -0.125 -0.15
+    -0.015 -0.285 -0.06
+    -0.02 -0.325 -0.08
+  faces 56
+    0 1 2  1  0 1 2  5
+    2 3 0  1  2 3 0  5
+    3 2 4  1  3 2 4  5
+    4 5 3  1  4 5 3  5
+    5 4 6  1  5 4 6  5
+    6 7 5  1  6 7 5  5
+    1 8 9  2  0 1 2  4
+    9 2 1  2  2 3 0  4
+    2 9 10  2  3 2 4  4
+    10 4 2  2  4 5 3  4
+    4 10 11  2  5 4 6  4
+    11 6 4  2  6 7 5  4
+    6 11 12  2  7 6 8  4
+    8 13 14  1  0 1 9  6
+    14 9 8  1  9 10 0  6
+    9 14 15  1  10 9 11  6
+    15 10 9  1  11 12 10  6
+    10 15 16  1  12 11 13  6
+    16 11 10  1  13 14 12  6
+    11 16 17  1  15 16 8  6
+    17 12 11  1  8 17 15  6
+    13 0 3  2  0 1 2  3
+    3 14 13  2  2 3 0  3
+    14 3 5  2  3 2 4  3
+    5 15 14  2  4 5 3  3
+    15 5 7  2  5 4 6  3
+    7 16 15  2  6 7 5  3
+    16 7 17  2  7 6 8  3
+    18 19 20  1  0 2 1  5
+    19 18 21  1  2 0 3  5
+    21 22 19  1  3 4 2  5
+    22 21 23  1  4 3 5  5
+    23 24 22  1  5 6 4  5
+    24 23 25  1  6 5 7  5
+    20 26 27  2  0 2 1  4
+    26 20 19  2  2 0 3  4
+    19 28 26  2  3 4 2  4
+    28 19 22  2  4 3 5  4
+    22 29 28  2  5 6 4  4
+    29 22 24  2  6 5 7  4
+    24 30 29  2  7 8 6  4
+    27 31 32  1  0 9 1  6
+    31 27 26  1  9 0 10  6
+    26 33 31  1  10 11 9  6
+    33 26 28  1  11 10 12  6
+    28 34 33  1  12 13 11  6
+    34 28 29  1  13 12 14  6
+    29 35 34  1  15 8 16  6
+    35 29 30  1  8 15 17  6
+    32 21 18  2  0 2 1  3
+    21 32 31  2  2 0 3  3
+    31 23 21  2  3 4 2  3
+    23 31 33  2  4 3 5  3
+    33 25 23  2  5 6 4  3
+    25 33 34  2  6 5 7  3
+    34 35 25  2  7 8 6  3
+  tverts 18
+    0.988544 0.0230367 0
+    0.995553 0.523028 0
+    0.749521 0.525176 0
+    0.74251 0.025185 0
+    0.503489 0.527323 0
+    0.496478 0.0273314 0
+    0.257457 0.529469 0
+    0.250446 0.0294779 0
+    0.0114273 0.531617 0
+    0.667511 0.525891 0
+    0.6605 0.0258992 0
+    0.339469 0.528755 0
+    0.332458 0.0287635 0
+    0.0110149 0.531621 0
+    0.0040039 0.0316299 0
+    0.299653 0.0290486 0
+    0.306664 0.52904 0
+    0.00441632 0.0316261 0
+endnode
+node dummy helper02
+  parent double01
+  position 1.0 0.0500001 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.839216 0.6 
+endnode
+node trimesh shutter01
+  parent helper02
+  position 0.0 -0.0999988 0.0
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 100.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.588235 0.588235 0.588235 
+  diffuse 0.588235 0.588235 0.588235 
+  specular 0.0 0.0 0.0 
+  shininess 10
+  center 50.0 -5.0 225.0 
+  bitmap tcm02_shutters01
+  verts 8
+    0.0 -0.1 3.0
+    1.0 -0.1 3.0
+    1.0 0.0 3.0
+    0.0 0.0 3.0
+    0.0 -0.1 1.5
+    1.0 -0.1 1.5
+    1.0 0.0 1.5
+    0.0 0.0 1.5
+  faces 12
+    0 1 2  1  0 1 2  1
+    2 3 0  1  2 3 0  1
+    4 5 1  2  4 5 6  5
+    1 0 4  2  6 7 4  5
+    5 6 2  4  8 9 10  4
+    2 1 5  4  10 11 8  4
+    6 7 3  2  5 4 7  6
+    3 2 6  2  7 6 5  6
+    7 4 0  4  12 13 14  3
+    0 3 7  4  14 15 12  3
+    5 7 6  0  16 17 18  1
+    5 4 7  0  16 19 17  1
+  tverts 20
+    0.0 0.4875 0
+    0.5 0.4875 0
+    0.5 0.5375 0
+    0.0 0.5375 0
+    0.0 0.0 0
+    0.5 0.0 0
+    0.5 1.0 0
+    0.0 1.0 0
+    0.38 0.0 0
+    0.48 0.0 0
+    0.48 1.0 0
+    0.38 1.0 0
+    0.0125 0.0 0
+    0.0625 0.0 0
+    0.0625 1.0 0
+    0.0125 1.0 0
+    0.989839 0.000499517 0
+    0.531901 0.059887 0
+    0.989839 0.0598846 0
+    0.5319 0.000501901 0
+endnode
+node trimesh handle02
+  parent shutter01
+  position 0.85 -0.049994 2.235
+  orientation 0.0 -0.707107 -0.707107 -3.1416
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 100.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 -11.5 0.0 
+  bitmap tcm02_metaltop
+  verts 36
+    -0.025 0.055 0.05
+    0.025 0.055 0.05
+    0.025 0.0549999 0.105
+    -0.025 0.0549999 0.105
+    0.02 -0.13 0.135
+    -0.02 -0.13 0.135
+    0.015 -0.295 0.05
+    -0.015 -0.295 0.05
+    0.025 0.095 0.05
+    0.025 0.0700001 0.12
+    0.02 -0.125 0.15
+    0.015 -0.285 0.06
+    0.02 -0.325 0.08
+    -0.025 0.095 0.05
+    -0.025 0.0700001 0.12
+    -0.02 -0.125 0.15
+    -0.015 -0.285 0.06
+    -0.02 -0.325 0.08
+    -0.025 0.055 -0.05
+    0.025 0.0549999 -0.105
+    0.025 0.055 -0.05
+    -0.025 0.0549999 -0.105
+    0.02 -0.13 -0.135
+    -0.02 -0.13 -0.135
+    0.015 -0.295 -0.05
+    -0.015 -0.295 -0.05
+    0.025 0.0700001 -0.12
+    0.025 0.095 -0.05
+    0.02 -0.125 -0.15
+    0.015 -0.285 -0.06
+    0.02 -0.325 -0.08
+    -0.025 0.0700001 -0.12
+    -0.025 0.095 -0.05
+    -0.02 -0.125 -0.15
+    -0.015 -0.285 -0.06
+    -0.02 -0.325 -0.08
+  faces 56
+    0 1 2  1  0 1 2  5
+    2 3 0  1  2 3 0  5
+    3 2 4  1  3 2 4  5
+    4 5 3  1  4 5 3  5
+    5 4 6  1  5 4 6  5
+    6 7 5  1  6 7 5  5
+    1 8 9  2  0 1 2  4
+    9 2 1  2  2 3 0  4
+    2 9 10  2  3 2 4  4
+    10 4 2  2  4 5 3  4
+    4 10 11  2  5 4 6  4
+    11 6 4  2  6 7 5  4
+    6 11 12  2  7 6 8  4
+    8 13 14  1  0 1 9  6
+    14 9 8  1  9 10 0  6
+    9 14 15  1  10 9 11  6
+    15 10 9  1  11 12 10  6
+    10 15 16  1  12 11 13  6
+    16 11 10  1  13 14 12  6
+    11 16 17  1  15 16 8  6
+    17 12 11  1  8 17 15  6
+    13 0 3  2  0 1 2  3
+    3 14 13  2  2 3 0  3
+    14 3 5  2  3 2 4  3
+    5 15 14  2  4 5 3  3
+    15 5 7  2  5 4 6  3
+    7 16 15  2  6 7 5  3
+    16 7 17  2  7 6 8  3
+    18 19 20  1  0 2 1  5
+    19 18 21  1  2 0 3  5
+    21 22 19  1  3 4 2  5
+    22 21 23  1  4 3 5  5
+    23 24 22  1  5 6 4  5
+    24 23 25  1  6 5 7  5
+    20 26 27  2  0 2 1  4
+    26 20 19  2  2 0 3  4
+    19 28 26  2  3 4 2  4
+    28 19 22  2  4 3 5  4
+    22 29 28  2  5 6 4  4
+    29 22 24  2  6 5 7  4
+    24 30 29  2  7 8 6  4
+    27 31 32  1  0 9 1  6
+    31 27 26  1  9 0 10  6
+    26 33 31  1  10 11 9  6
+    33 26 28  1  11 10 12  6
+    28 34 33  1  12 13 11  6
+    34 28 29  1  13 12 14  6
+    29 35 34  1  15 8 16  6
+    35 29 30  1  8 15 17  6
+    32 21 18  2  0 2 1  3
+    21 32 31  2  2 0 3  3
+    31 23 21  2  3 4 2  3
+    23 31 33  2  4 3 5  3
+    33 25 23  2  5 6 4  3
+    25 33 34  2  6 5 7  3
+    34 35 25  2  7 8 6  3
+  tverts 18
+    0.993709 0.296443 0
+    0.993709 0.793364 0
+    0.746958 0.793364 0
+    0.746958 0.296443 0
+    0.500209 0.793364 0
+    0.500209 0.296443 0
+    0.253459 0.793364 0
+    0.253459 0.296443 0
+    0.00670782 0.793364 0
+    0.664709 0.793364 0
+    0.664709 0.296443 0
+    0.335709 0.793364 0
+    0.335709 0.296443 0
+    0.00629593 0.793364 0
+    0.0062961 0.296443 0
+    0.302809 0.296443 0
+    0.302809 0.793364 0
+    0.00670782 0.296443 0
+endnode
+node dummy ad_window_03grnd
+  parent ad_window_03
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy ad_window_03head
+  parent ad_window_03
+  position 0.0 0.0 2.50064
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy ad_window_03hhit
+  parent ad_window_03
+  position 0.0 0.0 2.17507
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy ad_window_03impc
+  parent ad_window_03
+  position 0.0 0.0 1.63648
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node emitter fire!07
+  parent ad_window_03
+  position 0.0 0.0288672 0.928905
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node trimesh sam
+  parent ad_window_03
+  position -1.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 1
+  selfillumcolor 0.0705882 0.0 1.0 
+  ambient 0.2 0.2 0.2 
+  diffuse 0.8 0.8 0.8 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 100.812 -17.7646 223.5 
+  bitmap NULL
+  verts 8
+    0.0100206 -0.206204 1.5
+    2.01002 -0.206196 1.5
+    2.01002 -0.206196 2.97
+    0.0100206 -0.206204 2.97
+    2.00623 -0.149089 1.5
+    0.00622894 -0.149097 1.5
+    2.00623 -0.149089 2.97
+    0.00622891 -0.149097 2.97
+  faces 4
+    0 1 2  1  0 1 2  18
+    2 3 0  1  2 3 0  18
+    4 5 6  1  1 0 2  18
+    7 6 5  1  3 2 0  18
+  tverts 4
+    0.0004995 0.0004997 0
+    0.49427 0.0004995 0
+    0.494271 0.876312 0
+    0.0004998 0.876312 0
+endnode
+node trimesh sill01
+  parent ad_window_03
+  position 0.0 -0.12 1.25
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0156863 0.521569 0.0156863 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 100.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 -0.5 12.5 
+  bitmap tcm02_wood01
+  verts 8
+    -1.05 -0.11 0.0
+    1.05 -0.11 0.0
+    -1.05 0.1 0.0
+    1.05 0.1 0.0
+    -1.05 -0.11 0.25
+    1.05 -0.11 0.25
+    -1.05 0.1 0.25
+    1.05 0.1 0.25
+  faces 6
+    0 2 3  2  8 2 9  2
+    3 1 0  2  3 10 11  2
+    4 5 7  4  12 13 14  1
+    7 6 4  4  7 6 15  1
+    0 1 5  8  16 1 17  5
+    5 4 0  8  5 4 0  5
+  tverts 18
+    0.215898 0.999501 0
+    0.215898 0.000499547 0
+    0.227791 0.9995 0
+    0.227791 0.000499517 0
+    0.334827 0.999501 0
+    0.334827 0.000499547 0
+    0.322934 0.9995 0
+    0.322934 0.000499517 0
+    0.322934 0.999501 0
+    0.227791 0.000499517 0
+    0.322934 0.000499547 0
+    0.322934 0.999501 0
+    0.227791 0.999501 0
+    0.227791 0.000499547 0
+    0.322934 0.000499517 0
+    0.227791 0.999501 0
+    0.215898 0.999501 0
+    0.334827 0.000499547 0
+endnode
+node trimesh winpane01
+  parent ad_window_03
+  position 0.0 -0.02 1.45
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.894118 0.721569 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 100.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 -5.0 80.0 
+  bitmap tcm02_windows01
+  verts 4
+    -1.05 -0.05 0.0
+    1.05 -0.05 0.0
+    -1.05 -0.05 1.6
+    1.05 -0.05 1.6
+  faces 2
+    0 1 3  8  4 1 5  5
+    3 2 0  8  3 2 0  5
+  tverts 6
+    0.000499457 0.481176 0
+    0.501915 0.481176 0
+    0.000499457 1.00191 0
+    0.501915 1.00191 0
+    0.000499457 0.481176 0
+    0.501915 1.00191 0
+endnode
+node trimesh wallpart01
+  parent ad_window_03
+  position 0.0 -0.15 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.894118 0.721569 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 100.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 -5.0 70.0 
+  bitmap tcm02_wall02
+  verts 4
+    -1.05 -0.05 0.0
+    1.05 -0.05 0.0
+    -1.05 -0.05 1.4
+    1.05 -0.05 1.4
+  faces 2
+    0 1 3  8  0 1 3  5
+    3 2 0  8  3 2 0  5
+  tverts 4
+    0.0125 0.135024 0
+    0.9875 0.135024 0
+    0.0125 0.864976 0
+    0.9875 0.864976 0
+endnode
+endmodelgeom ad_window_03
+#NWmax ANIM ASCII
+newanim trans ad_window_03
+  length 0.0333333
+  transtime 0.0
+  animroot ad_window_03
+    node dummy ad_window_03
+        parent NULL
+    endnode
+    node dummy double01
+        parent ad_window_03
+    endnode
+    node dummy helper01
+        parent double01
+    endnode
+    node trimesh shutter02
+        parent helper01
+    endnode
+    node trimesh handle01
+        parent shutter02
+    endnode
+    node dummy helper02
+        parent double01
+    endnode
+    node trimesh shutter01
+        parent helper02
+    endnode
+    node trimesh handle02
+        parent shutter01
+    endnode
+    node dummy ad_window_03grnd
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03head
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03hhit
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03impc
+        parent ad_window_03
+    endnode
+    node emitter fire!07
+        parent ad_window_03
+    endnode
+    node trimesh sam
+        parent ad_window_03
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node trimesh sill01
+        parent ad_window_03
+    endnode
+    node trimesh winpane01
+        parent ad_window_03
+    endnode
+    node trimesh wallpart01
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03_DWK
+        parent ad_window_03
+    endnode
+    node dummy 16_DWK_dp_closed_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_closed_02
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open1_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open2_01
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_closed
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open2
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open1
+        parent ad_window_03_DWK
+    endnode
+doneanim trans ad_window_03
+#NWmax ANIM ASCII
+newanim opening1 ad_window_03
+  length 0.666667
+  transtime 0.25
+  animroot ad_window_03
+    node dummy ad_window_03
+        parent NULL
+    endnode
+    node dummy double01
+        parent ad_window_03
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter02
+        parent helper01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 1.0 -3.0
+        endlist
+    endnode
+    node trimesh handle01
+        parent shutter02
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter01
+        parent helper02
+        orientationkey
+            0.0 0.0 0.0 -1.0 -3.14159
+            0.666667 0.0 0.0 -1.0 -6.15
+        endlist
+    endnode
+    node trimesh handle02
+        parent shutter01
+    endnode
+    node dummy ad_window_03grnd
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03head
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03hhit
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03impc
+        parent ad_window_03
+    endnode
+    node emitter fire!07
+        parent ad_window_03
+    endnode
+    node trimesh sam
+        parent ad_window_03
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node trimesh sill01
+        parent ad_window_03
+    endnode
+    node trimesh winpane01
+        parent ad_window_03
+    endnode
+    node trimesh wallpart01
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03_DWK
+        parent ad_window_03
+    endnode
+    node dummy 16_DWK_dp_closed_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_closed_02
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open1_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open2_01
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_closed
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open2
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open1
+        parent ad_window_03_DWK
+    endnode
+doneanim opening1 ad_window_03
+#NWmax ANIM ASCII
+newanim opened1 ad_window_03
+  length 0.0333333
+  transtime 0.0
+  animroot ad_window_03
+    node dummy ad_window_03
+        parent NULL
+    endnode
+    node dummy double01
+        parent ad_window_03
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter02
+        parent helper01
+        orientationkey
+            0.0 0.0 0.0 1.0 -3.0
+            0.0333333 0.0 0.0 1.0 -3.0
+        endlist
+    endnode
+    node trimesh handle01
+        parent shutter02
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter01
+        parent helper02
+        orientationkey
+            0.0 0.0 0.0 -1.0 -6.15
+            0.0333333 0.0 0.0 -1.0 -6.15
+        endlist
+    endnode
+    node trimesh handle02
+        parent shutter01
+    endnode
+    node dummy ad_window_03grnd
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03head
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03hhit
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03impc
+        parent ad_window_03
+    endnode
+    node emitter fire!07
+        parent ad_window_03
+    endnode
+    node trimesh sam
+        parent ad_window_03
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node trimesh sill01
+        parent ad_window_03
+    endnode
+    node trimesh winpane01
+        parent ad_window_03
+    endnode
+    node trimesh wallpart01
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03_DWK
+        parent ad_window_03
+    endnode
+    node dummy 16_DWK_dp_closed_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_closed_02
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open1_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open2_01
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_closed
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open2
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open1
+        parent ad_window_03_DWK
+    endnode
+doneanim opened1 ad_window_03
+#NWmax ANIM ASCII
+newanim closing1 ad_window_03
+  length 0.666667
+  transtime 0.25
+  animroot ad_window_03
+    node dummy ad_window_03
+        parent NULL
+    endnode
+    node dummy double01
+        parent ad_window_03
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter02
+        parent helper01
+        orientationkey
+            0.0 0.0 0.0 1.0 -3.0
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh handle01
+        parent shutter02
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter01
+        parent helper02
+        orientationkey
+            0.0 0.0 0.0 -1.0 -6.15
+            0.666667 0.0 0.0 -1.0 -3.14159
+        endlist
+    endnode
+    node trimesh handle02
+        parent shutter01
+    endnode
+    node dummy ad_window_03grnd
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03head
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03hhit
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03impc
+        parent ad_window_03
+    endnode
+    node emitter fire!07
+        parent ad_window_03
+    endnode
+    node trimesh sam
+        parent ad_window_03
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node trimesh sill01
+        parent ad_window_03
+    endnode
+    node trimesh winpane01
+        parent ad_window_03
+    endnode
+    node trimesh wallpart01
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03_DWK
+        parent ad_window_03
+    endnode
+    node dummy 16_DWK_dp_closed_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_closed_02
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open1_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open2_01
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_closed
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open2
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open1
+        parent ad_window_03_DWK
+    endnode
+doneanim closing1 ad_window_03
+#NWmax ANIM ASCII
+newanim opening2 ad_window_03
+  length 0.666667
+  transtime 0.25
+  animroot ad_window_03
+    node dummy ad_window_03
+        parent NULL
+    endnode
+    node dummy double01
+        parent ad_window_03
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter02
+        parent helper01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 1.0 -2.2
+        endlist
+    endnode
+    node trimesh handle01
+        parent shutter02
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter01
+        parent helper02
+        orientationkey
+            0.0 0.0 0.0 -1.0 -3.14159
+            0.666667 0.0 0.0 -1.0 -5.5
+        endlist
+    endnode
+    node trimesh handle02
+        parent shutter01
+    endnode
+    node dummy ad_window_03grnd
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03head
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03hhit
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03impc
+        parent ad_window_03
+    endnode
+    node emitter fire!07
+        parent ad_window_03
+    endnode
+    node trimesh sam
+        parent ad_window_03
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node trimesh sill01
+        parent ad_window_03
+    endnode
+    node trimesh winpane01
+        parent ad_window_03
+    endnode
+    node trimesh wallpart01
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03_DWK
+        parent ad_window_03
+    endnode
+    node dummy 16_DWK_dp_closed_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_closed_02
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open1_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open2_01
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_closed
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open2
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open1
+        parent ad_window_03_DWK
+    endnode
+doneanim opening2 ad_window_03
+#NWmax ANIM ASCII
+newanim opened2 ad_window_03
+  length 0.0333333
+  transtime 0.0
+  animroot ad_window_03
+    node dummy ad_window_03
+        parent NULL
+    endnode
+    node dummy double01
+        parent ad_window_03
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter02
+        parent helper01
+        orientationkey
+            0.0 0.0 0.0 1.0 -2.2
+            0.0333333 0.0 0.0 1.0 -2.2
+        endlist
+    endnode
+    node trimesh handle01
+        parent shutter02
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter01
+        parent helper02
+        orientationkey
+            0.0 0.0 0.0 -1.0 -5.5
+            0.0333333 0.0 0.0 -1.0 -5.5
+        endlist
+    endnode
+    node trimesh handle02
+        parent shutter01
+    endnode
+    node dummy ad_window_03grnd
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03head
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03hhit
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03impc
+        parent ad_window_03
+    endnode
+    node emitter fire!07
+        parent ad_window_03
+    endnode
+    node trimesh sam
+        parent ad_window_03
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node trimesh sill01
+        parent ad_window_03
+    endnode
+    node trimesh winpane01
+        parent ad_window_03
+    endnode
+    node trimesh wallpart01
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03_DWK
+        parent ad_window_03
+    endnode
+    node dummy 16_DWK_dp_closed_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_closed_02
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open1_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open2_01
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_closed
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open2
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open1
+        parent ad_window_03_DWK
+    endnode
+doneanim opened2 ad_window_03
+#NWmax ANIM ASCII
+newanim closing2 ad_window_03
+  length 0.666667
+  transtime 0.25
+  animroot ad_window_03
+    node dummy ad_window_03
+        parent NULL
+    endnode
+    node dummy double01
+        parent ad_window_03
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter02
+        parent helper01
+        orientationkey
+            0.0 0.0 0.0 1.0 -2.2
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh handle01
+        parent shutter02
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter01
+        parent helper02
+        orientationkey
+            0.0 0.0 0.0 -1.0 -5.5
+            0.666667 0.0 0.0 -1.0 -3.14159
+        endlist
+    endnode
+    node trimesh handle02
+        parent shutter01
+    endnode
+    node dummy ad_window_03grnd
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03head
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03hhit
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03impc
+        parent ad_window_03
+    endnode
+    node emitter fire!07
+        parent ad_window_03
+    endnode
+    node trimesh sam
+        parent ad_window_03
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node trimesh sill01
+        parent ad_window_03
+    endnode
+    node trimesh winpane01
+        parent ad_window_03
+    endnode
+    node trimesh wallpart01
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03_DWK
+        parent ad_window_03
+    endnode
+    node dummy 16_DWK_dp_closed_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_closed_02
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open1_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open2_01
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_closed
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open2
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open1
+        parent ad_window_03_DWK
+    endnode
+doneanim closing2 ad_window_03
+#NWmax ANIM ASCII
+newanim closed ad_window_03
+  length 0.0333333
+  transtime 0.0
+  animroot ad_window_03
+    node dummy ad_window_03
+        parent NULL
+    endnode
+    node dummy double01
+        parent ad_window_03
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter02
+        parent helper01
+        orientationkey
+            0.0 1.0 0.0 0.0 -1.3487e-006
+            0.0333333 1.0 0.0 0.0 -2.69674e-006
+        endlist
+    endnode
+    node trimesh handle01
+        parent shutter02
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh shutter01
+        parent helper02
+        orientationkey
+            0.0 0.0 -1.19209e-007 -1.0 -3.14159
+            0.0333333 0.0 -2.38419e-007 -1.0 -3.14159
+        endlist
+    endnode
+    node trimesh handle02
+        parent shutter01
+    endnode
+    node dummy ad_window_03grnd
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03head
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03hhit
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03impc
+        parent ad_window_03
+    endnode
+    node emitter fire!07
+        parent ad_window_03
+    endnode
+    node trimesh sam
+        parent ad_window_03
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node trimesh sill01
+        parent ad_window_03
+    endnode
+    node trimesh winpane01
+        parent ad_window_03
+    endnode
+    node trimesh wallpart01
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03_DWK
+        parent ad_window_03
+    endnode
+    node dummy 16_DWK_dp_closed_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_closed_02
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open1_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open2_01
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_closed
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open2
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open1
+        parent ad_window_03_DWK
+    endnode
+doneanim closed ad_window_03
+#NWmax ANIM ASCII
+newanim die ad_window_03
+  length 0.666667
+  transtime 0.25
+  animroot ad_window_03
+  event 0.0 detonate
+    node dummy ad_window_03
+        parent NULL
+    endnode
+    node dummy double01
+        parent ad_window_03
+        positionkey
+            0.0 0.0 -0.18 0.0
+            0.666667 0.0 -0.18 -3.2
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 -0.702488 -0.47656 -0.528585 -0.460068
+        endlist
+    endnode
+    node dummy helper01
+        parent double01
+    endnode
+    node trimesh shutter02
+        parent helper01
+    endnode
+    node trimesh handle01
+        parent shutter02
+    endnode
+    node dummy helper02
+        parent double01
+    endnode
+    node trimesh shutter01
+        parent helper02
+    endnode
+    node trimesh handle02
+        parent shutter01
+    endnode
+    node dummy ad_window_03grnd
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03head
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03hhit
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03impc
+        parent ad_window_03
+    endnode
+    node emitter fire!07
+        parent ad_window_03
+    endnode
+    node trimesh sam
+        parent ad_window_03
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node trimesh sill01
+        parent ad_window_03
+    endnode
+    node trimesh winpane01
+        parent ad_window_03
+    endnode
+    node trimesh wallpart01
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03_DWK
+        parent ad_window_03
+    endnode
+    node dummy 16_DWK_dp_closed_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_closed_02
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open1_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open2_01
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_closed
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open2
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open1
+        parent ad_window_03_DWK
+    endnode
+doneanim die ad_window_03
+#NWmax ANIM ASCII
+newanim dead ad_window_03
+  length 0.0333333
+  transtime 0.0
+  animroot ad_window_03
+    node dummy ad_window_03
+        parent NULL
+    endnode
+    node dummy double01
+        parent ad_window_03
+        positionkey
+            0.0 0.0 -0.18 -3.2
+            0.0333333 0.0 -0.18 -3.2
+        endlist
+        orientationkey
+            0.0 -0.702488 -0.47656 -0.528585 -0.460068
+            0.0333333 -0.702488 -0.47656 -0.528585 -0.460068
+        endlist
+    endnode
+    node dummy helper01
+        parent double01
+    endnode
+    node trimesh shutter02
+        parent helper01
+    endnode
+    node trimesh handle01
+        parent shutter02
+    endnode
+    node dummy helper02
+        parent double01
+    endnode
+    node trimesh shutter01
+        parent helper02
+    endnode
+    node trimesh handle02
+        parent shutter01
+    endnode
+    node dummy ad_window_03grnd
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03head
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03hhit
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03impc
+        parent ad_window_03
+    endnode
+    node emitter fire!07
+        parent ad_window_03
+    endnode
+    node trimesh sam
+        parent ad_window_03
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node trimesh sill01
+        parent ad_window_03
+    endnode
+    node trimesh winpane01
+        parent ad_window_03
+    endnode
+    node trimesh wallpart01
+        parent ad_window_03
+    endnode
+    node dummy ad_window_03_DWK
+        parent ad_window_03
+    endnode
+    node dummy 16_DWK_dp_closed_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_closed_02
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open1_01
+        parent ad_window_03_DWK
+    endnode
+    node dummy 16_DWK_dp_open2_01
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_closed
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open2
+        parent ad_window_03_DWK
+    endnode
+    node trimesh 16_DWK_wg_open1
+        parent ad_window_03_DWK
+    endnode
+doneanim dead ad_window_03
+donemodel ad_window_03

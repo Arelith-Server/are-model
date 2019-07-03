@@ -1,0 +1,2695 @@
+#MAXMODEL ASCII
+# model: ad_mj_01
+filedependancy ad_mj_01.max
+newmodel ad_mj_01
+setsupermodel ad_mj_01 NULL
+classification door
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom ad_mj_01
+node dummy ad_mj_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy pivot04
+  parent ad_mj_01
+  #part-number 1
+  position 0.899999976 0 0
+  orientation 1 0 0 -1.57079995
+endnode
+node trimesh doorf
+  parent pivot04
+  #part-number 2
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap ad_mj_01
+  verts 8
+    1 0 1.5
+    -0.5 0 1.20000005
+    -1 0 1.5
+    0.5 0 1.20000005
+    -0.5 0 0.600000024
+    -1 0 -1.5
+    0.5 0 0.600000024
+    1 0 -1.5
+  tverts 8
+    0.99950099 0.999832988 0
+    0.238280997 0.904296994 0
+    0.000499845017 0.999834001 0
+    0.753906012 0.904296994 0
+    0.238280997 0.695312977 0
+    0.000499158981 0.000166774 0
+    0.753906012 0.695312977 0
+    0.999499977 0.000166476006 0
+  faces 8
+    0 1 2 1 0 1 2 0
+    0 3 1 1 0 3 1 0
+    2 4 5 1 2 4 5 0
+    2 1 4 1 2 1 4 0
+    5 6 7 1 5 6 7 0
+    5 4 6 1 5 4 6 0
+    7 3 0 1 7 3 0 0
+    7 6 3 1 7 6 3 0
+  position -0.899999976 -1.5 0.100000001
+  orientation -1 0 0 -1.57079995
+  scale 1
+  alpha 1
+endnode
+node trimesh Cylinder377
+  parent doorf
+  #part-number 3
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap ad_mj_01a
+  verts 12
+    -0.053744901 0.00197275006 -0.345941991
+    -0.0237448998 -0.0480283014 0.354057997
+    -0.053744901 0.00197165995 0.354057997
+    -0.0237448998 -0.0480272993 -0.345943004
+    0.0262550991 -0.0480283014 0.354057997
+    0.0262550991 -0.0480272993 -0.345943004
+    0.0462551005 0.00197165995 0.354057997
+    0.0462551005 0.00197275006 -0.345941991
+    0.0262550991 0.0419716984 0.354057997
+    0.0262550991 0.0419727005 -0.345941991
+    -0.0237448998 0.0419716984 0.354057997
+    -0.0237448998 0.0419727005 -0.345941991
+  tverts 10
+    0.5 0.150000006 0
+    0.543300986 0.850000024 0
+    0.5 0.850000024 0
+    0.543300986 0.150000006 0
+    0.474999994 0.150000006 0
+    0.524999976 0.850000024 0
+    0.474999994 0.850000024 0
+    0.524999976 0.150000006 0
+    0.456699014 0.150000006 0
+    0.456699014 0.850000024 0
+  faces 12
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+    3 4 1 1 4 5 6 2
+    3 5 4 1 4 7 5 2
+    5 6 4 1 8 2 9 2
+    5 7 6 1 8 0 2 2
+    7 8 6 1 0 1 2 2
+    7 9 8 1 0 3 1 2
+    9 10 8 1 4 5 6 2
+    9 11 10 1 4 7 5 2
+    11 2 10 1 8 2 9 2
+    11 0 2 1 8 0 2 2
+  position 0.201619998 -0.112497002 0.905942976
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh Cylinder1514
+  parent doorf
+  #part-number 4
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap ad_mj_01a
+  verts 12
+    -0.0492119007 0.00197276007 -0.345941991
+    -0.0292118993 -0.0480283014 0.354057997
+    -0.0492119007 0.00197166996 0.354057997
+    -0.0292118993 -0.0480272993 -0.345943004
+    0.0207880996 -0.0480283014 0.354057997
+    0.0207880996 -0.0480272993 -0.345943004
+    0.0507881008 0.00197166996 0.354057997
+    0.0507881008 0.00197275006 -0.345941991
+    0.0207880996 0.0419716984 0.354057997
+    0.0207880996 0.0419728011 -0.345941991
+    -0.0292118993 0.0419716984 0.354057997
+    -0.0292118993 0.0419728011 -0.345941991
+  tverts 10
+    0.5 0.150000006 0
+    0.543300986 0.850000024 0
+    0.5 0.850000024 0
+    0.543300986 0.150000006 0
+    0.474999994 0.150000006 0
+    0.524999976 0.850000024 0
+    0.474999994 0.850000024 0
+    0.524999976 0.150000006 0
+    0.456699014 0.150000006 0
+    0.456699014 0.850000024 0
+  faces 12
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+    3 4 1 1 4 5 6 2
+    3 5 4 1 4 7 5 2
+    5 6 4 1 8 2 9 2
+    5 7 6 1 8 0 2 2
+    7 8 6 1 0 1 2 2
+    7 9 8 1 0 3 1 2
+    9 10 8 1 4 5 6 2
+    9 11 10 1 4 7 5 2
+    11 2 10 1 8 2 9 2
+    11 0 2 1 8 0 2 2
+  position -0.252912998 -0.112497002 0.905942976
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh doorr
+  parent pivot04
+  #part-number 5
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap ad_mj_01
+  verts 8
+    0.5 0 1.20000005
+    -1 0 1.5
+    -0.5 0 1.20000005
+    1 0 1.5
+    -1 0 -1.5
+    -0.5 0 0.600000024
+    1 0 -1.5
+    0.5 0 0.600000024
+  tverts 8
+    0.753906012 0.902343988 0
+    0.000499635993 1 0
+    0.238280997 0.902343988 0
+    0.99950099 1 0
+    0.000499249029 0 0
+    0.238280997 0.695312977 0
+    0.999499977 0 0
+    0.753906012 0.695312977 0
+  faces 8
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    2 4 5 1 2 4 5 1
+    2 1 4 1 2 1 4 1
+    5 6 7 1 5 6 7 1
+    5 4 6 1 5 4 6 1
+    7 3 0 1 7 3 0 1
+    7 6 3 1 7 6 3 1
+  position -0.899999976 -1.5 -0.100000001
+  orientation -1 0 0 -1.57079995
+  scale 1
+  alpha 1
+endnode
+node trimesh doors1
+  parent pivot04
+  #part-number 6
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap ad_mj_01
+  verts 4
+    0 -0.100000001 -1.5
+    0 0.100000001 1.5
+    0 -0.100000001 1.5
+    0 0.100000001 -1.5
+  tverts 4
+    0.879010022 0 0
+    0.979010999 1 0
+    0.879010975 1 0
+    0.979009986 0 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  position 0.100000001 -1.5 0
+  orientation -1 0 0 -1.57079995
+  scale 1
+  alpha 1
+endnode
+node trimesh doors2
+  parent pivot04
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap ad_mj_01
+  verts 4
+    0 -0.100000001 1.5
+    0 0.100000001 -1.5
+    0 -0.100000001 -1.5
+    0 0.100000001 1.5
+  tverts 4
+    0.183211997 1 0
+    0.0832111984 0 0
+    0.183210999 0 0
+    0.0832114965 1 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  position -1.89999998 -1.5 0
+  orientation -1 0 0 -1.57079995
+  scale 1
+  alpha 1
+endnode
+node trimesh doortop
+  parent pivot04
+  #part-number 8
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap ad_mj_01
+  verts 4
+    1 -0.100000001 0
+    -1 0.100000001 0
+    -1 -0.100000001 0
+    1 0.100000001 0
+  tverts 4
+    0.000499546994 0.515341997 0
+    0.999499977 0.448675007 0
+    0.99950099 0.515341997 0
+    0.000499517017 0.44867599 0
+  faces 2
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+  position -0.899999976 -3 0
+  orientation -1 0 0 -1.57079995
+  scale 1
+  alpha 1
+endnode
+node trimesh dooruw
+  parent pivot04
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap ad_mj_01
+  verts 4
+    0.5 0.100000001 0
+    -0.5 -0.100000001 0
+    -0.5 0.100000001 0
+    0.5 -0.100000001 0
+  tverts 4
+    0.25 0.457112998 0
+    0.75 0.502157986 0
+    0.75 0.457112998 0
+    0.25 0.502157986 0
+  faces 2
+    0 1 2 1 0 1 2 3
+    0 3 1 1 0 3 1 3
+  position -0.899999976 -2.70000005 0
+  orientation -1 0 0 -1.57079995
+  scale 1
+  alpha 1
+endnode
+node trimesh doorws1
+  parent pivot04
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap ad_mj_01
+  verts 4
+    0 0.100000001 -0.300000012
+    0 -0.100000001 0.300000012
+    0 0.100000001 0.300000012
+    0 -0.100000001 -0.300000012
+  tverts 4
+    0.659574986 0.454477996 0
+    0.340425998 0.494397998 0
+    0.340425998 0.454477996 0
+    0.659574986 0.494397998 0
+  faces 2
+    0 1 2 1 0 1 2 3
+    0 3 1 1 0 3 1 3
+  position -0.400000006 -2.4000001 0
+  orientation -1 0 0 -1.57079995
+  scale 1
+  alpha 1
+endnode
+node trimesh doorws2
+  parent pivot04
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap ad_mj_01
+  verts 4
+    0 0.100000001 0.300000012
+    0 -0.100000001 -0.300000012
+    0 0.100000001 -0.300000012
+    0 -0.100000001 0.300000012
+  tverts 4
+    0.340425998 0.454477996 0
+    0.659574986 0.494397998 0
+    0.659573972 0.454477996 0
+    0.340425998 0.494397998 0
+  faces 2
+    0 1 2 1 0 1 2 3
+    0 3 1 1 0 3 1 3
+  position -1.39999998 -2.4000001 0
+  orientation -1 0 0 -1.57079995
+  scale 1
+  alpha 1
+endnode
+node trimesh doorlw
+  parent pivot04
+  #part-number 12
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap ad_mj_01
+  verts 4
+    -0.5 0.100000001 0
+    0.5 -0.100000001 0
+    0.5 0.100000001 0
+    -0.5 -0.100000001 0
+  tverts 4
+    0.75 0.457112998 0
+    0.25 0.502157986 0
+    0.25 0.457112998 0
+    0.75 0.502157986 0
+  faces 2
+    0 1 2 1 0 1 2 3
+    0 3 1 1 0 3 1 3
+  position -0.899999976 -2.0999999 0
+  orientation -1 0 0 -1.57079995
+  scale 1
+  alpha 1
+endnode
+node trimesh Line133
+  parent doorlw
+  #part-number 13
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  bitmap ad_mj_01a
+  verts 32
+    0.0978135988 -0.171389997 -0.0472982004
+    0.0478135012 -0.121390998 -0.0472984985
+    0.0478133 -0.12139 0.0427015014
+    0.0978133008 -0.171389997 0.0427017994
+    -0.0421864986 -0.121390998 -0.0472988002
+    -0.0421868004 -0.12139 0.0427011997
+    -0.042186901 0.138609007 -0.0472996011
+    -0.042187199 0.138610005 0.0427003987
+    0.037813101 0.138609007 -0.0472994
+    0.0378128998 0.138610005 0.0427005999
+    0.0978130996 0.188610002 -0.0472992994
+    0.0978128016 0.188610002 0.0427007005
+    0.0978128985 0.298610002 -0.0472997017
+    0.0278129 0.298608989 -0.0472998992
+    0.0278126001 0.298610002 0.0427001007
+    0.0978126004 0.298610002 0.0427003019
+    0.0278130006 0.218609005 -0.0472996011
+    0.0278127007 0.218610004 0.0427003019
+    -0.00218696008 0.198608994 -0.0472997017
+    -0.00218723994 0.198609993 0.0427003019
+    -0.0921870023 0.198608994 -0.0472999997
+    -0.0921872035 0.198609993 0.0427000001
+    -0.0921863988 -0.171390995 -0.0472988002
+    -0.0921866968 -0.171389997 0.0427011997
+    -0.00218639011 -0.171390995 -0.0472984985
+    -0.00218666997 -0.171389997 0.0427015014
+    0.0378136002 -0.191391006 -0.047298301
+    0.037813399 -0.191389993 0.0427016988
+    0.0378138013 -0.301391006 -0.0472979993
+    0.0378134996 -0.301389992 0.0427020006
+    0.0878138021 -0.301391006 -0.0472978018
+    0.0878134966 -0.301389992 0.0427022018
+  tverts 66
+    0.348917007 0.433593988 0
+    0.432121992 0.433593988 0
+    0.432121992 0.566406012 0
+    0.348917007 0.566406012 0
+    0.567878008 0.433593988 0
+    0.567878008 0.566406012 0
+    0.316071987 0.433593988 0
+    0.718961 0.433593988 0
+    0.718961 0.566406012 0
+    0.316071987 0.566406012 0
+    0.563498974 0.433593988 0
+    0.563498974 0.566406012 0
+    0.651082993 0.433593988 0
+    0.651082993 0.566406012 0
+    0.449638993 0.433593988 0
+    0.449638993 0.566406012 0
+    0.0314224996 0.433593988 0
+    0.162799001 0.433593988 0
+    0.162799001 0.566406012 0
+    0.0314224996 0.566406012 0
+    0.502189994 0.433593988 0
+    0.502189994 0.566406012 0
+    0.193453997 0.433593988 0
+    0.767132998 0.433593988 0
+    0.767132998 0.566406012 0
+    0.193453997 0.566406012 0
+    0.493431002 0.433593988 0
+    0.493431002 0.566406012 0
+    0.806545973 0.433593988 0
+    0.968577981 0.433593988 0
+    0.968577981 0.566406012 0
+    0.806545973 0.566406012 0
+    0.642324984 0.433593988 0
+    0.642324984 0.566406012 0
+    0.651082993 0.0314224996 0
+    0.550360978 0.162799001 0
+    0.550360978 0.0314224996 0
+    0.651082993 0.210970998 0
+    0.563498974 0.276659012 0
+    0.497810006 0.193453997 0
+    0.432121992 0.281039 0
+    0.348917007 0.193453997 0
+    0.348917007 0.767132998 0
+    0.432121992 0.683928013 0
+    0.493431002 0.767132998 0
+    0.567878008 0.688306987 0
+    0.563498974 0.806545973 0
+    0.651082993 0.762754023 0
+    0.642324984 0.968577981 0
+    0.563498974 0.968577981 0
+    0.348917007 0.0314224996 0
+    0.449638993 0.0314224996 0
+    0.449638993 0.162799001 0
+    0.348917007 0.210970998 0
+    0.436500996 0.276659012 0
+    0.502189994 0.193453997 0
+    0.567878008 0.281039 0
+    0.651082993 0.193453997 0
+    0.651082993 0.767132998 0
+    0.567878008 0.683928013 0
+    0.506569028 0.767132998 0
+    0.432121992 0.688306987 0
+    0.436500996 0.806545973 0
+    0.348917007 0.762754023 0
+    0.357674986 0.968577981 0
+    0.436500996 0.968577981 0
+  faces 56
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+    1 4 5 2 1 4 5 2
+    1 5 2 2 1 5 2 2
+    4 6 7 1 6 7 8 2
+    4 7 5 1 6 8 9 2
+    6 8 9 2 1 10 11 2
+    6 9 7 2 1 11 2 2
+    8 10 11 1 10 12 13 2
+    8 11 9 1 10 13 11 2
+    12 13 14 1 0 14 15 2
+    12 14 15 1 0 15 3 2
+    13 16 17 2 16 17 18 2
+    13 17 14 2 16 18 19 2
+    16 18 19 1 14 20 21 2
+    16 19 17 1 14 21 15 2
+    18 20 21 2 20 12 13 2
+    18 21 19 2 20 13 21 2
+    20 22 23 1 22 23 24 2
+    20 23 21 1 22 24 25 2
+    22 24 25 2 0 26 27 2
+    22 25 23 2 0 27 3 2
+    24 26 27 1 26 10 11 2
+    24 27 25 1 26 11 27 2
+    26 28 29 2 28 29 30 2
+    26 29 27 2 28 30 31 2
+    28 30 31 1 10 32 33 2
+    28 31 29 1 10 33 11 2
+    12 16 13 4 34 35 36 1
+    10 16 12 4 37 35 34 1
+    8 16 10 4 38 35 37 1
+    8 18 16 4 38 39 35 1
+    6 18 8 4 40 39 38 1
+    6 20 18 4 40 41 39 1
+    6 22 20 4 40 42 41 1
+    4 22 6 4 43 42 40 1
+    4 24 22 4 43 44 42 1
+    1 24 4 4 45 44 43 1
+    1 26 24 4 45 46 44 1
+    0 26 1 4 47 46 45 1
+    30 26 0 4 48 46 47 1
+    30 28 26 4 48 49 46 1
+    15 14 17 4 50 51 52 0
+    11 15 17 4 53 50 52 0
+    9 11 17 4 54 53 52 0
+    9 17 19 4 54 52 55 0
+    7 9 19 4 56 54 55 0
+    7 19 21 4 56 55 57 0
+    7 21 23 4 56 57 58 0
+    5 7 23 4 59 56 58 0
+    5 23 25 4 59 58 60 0
+    2 5 25 4 61 59 60 0
+    2 25 27 4 61 60 62 0
+    3 2 27 4 63 61 62 0
+    31 3 27 4 64 63 62 0
+    31 27 29 4 64 62 65 0
+  position -0.839424014 -0.178338006 -0.131390005
+  orientation 0.577350199 0.577350318 -0.577350318 -2.09438992
+  scale 1
+  alpha 1
+endnode
+node trimesh Line29
+  parent doorlw
+  #part-number 14
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  bitmap ad_mj_01a
+  verts 32
+    0.0986280963 -0.171390995 -0.0427009016
+    0.0386280008 -0.121390998 -0.0427009016
+    0.0386280008 -0.121390998 0.0472990982
+    0.0986280963 -0.171390995 0.0472990982
+    -0.0413720012 -0.121390998 -0.0427009016
+    -0.0413720012 -0.121390998 0.0472990982
+    -0.0413723998 0.138609007 -0.0427009016
+    -0.0413723998 0.138609007 0.0472990982
+    0.0386275984 0.138609007 -0.0427009016
+    0.0386275984 0.138609007 0.0472990982
+    0.0986275002 0.188609004 -0.0427009016
+    0.0986275002 0.188609004 0.0472990982
+    0.0986272991 0.298608989 -0.0427009016
+    0.0286273006 0.298608989 -0.0427009016
+    0.0286273006 0.298608989 0.0472990982
+    0.0986272991 0.298608989 0.0472990982
+    0.0286273994 0.218609005 -0.0427009016
+    0.0286273994 0.218609005 0.0472990982
+    -0.00137252 0.198608994 -0.0427009016
+    -0.00137252 0.198608994 0.0472990982
+    -0.101373002 0.198608994 -0.0427009016
+    -0.101373002 0.198608994 0.0472990982
+    -0.101372004 -0.171390995 -0.0427009016
+    -0.101372004 -0.171390995 0.0472990982
+    -0.00137195003 -0.171390995 -0.0427009016
+    -0.00137195003 -0.171390995 0.0472990982
+    0.0386281013 -0.191391006 -0.0427009016
+    0.0386281013 -0.191391006 0.0472990982
+    0.0386282988 -0.301391006 -0.0427009016
+    0.0386282988 -0.301391006 0.0472990014
+    0.0886282995 -0.301391006 -0.0427009016
+    0.0886282995 -0.301391006 0.0472990014
+  tverts 66
+    0.348917007 0.433593988 0
+    0.432121992 0.433593988 0
+    0.432121992 0.566406012 0
+    0.348917007 0.566406012 0
+    0.567878008 0.433593988 0
+    0.567878008 0.566406012 0
+    0.316071987 0.433593988 0
+    0.718961 0.433593988 0
+    0.718961 0.566406012 0
+    0.316071987 0.566406012 0
+    0.563498974 0.433593988 0
+    0.563498974 0.566406012 0
+    0.651082993 0.433593988 0
+    0.651082993 0.566406012 0
+    0.449638993 0.433593988 0
+    0.449638993 0.566406012 0
+    0.0314224996 0.433593988 0
+    0.162799001 0.433593988 0
+    0.162799001 0.566406012 0
+    0.0314224996 0.566406012 0
+    0.502189994 0.433593988 0
+    0.502189994 0.566406012 0
+    0.193453997 0.433593988 0
+    0.767132998 0.433593988 0
+    0.767132998 0.566406012 0
+    0.193453997 0.566406012 0
+    0.493431002 0.433593988 0
+    0.493431002 0.566406012 0
+    0.806545973 0.433593988 0
+    0.968577981 0.433593988 0
+    0.968577981 0.566406012 0
+    0.806545973 0.566406012 0
+    0.642324984 0.433593988 0
+    0.642324984 0.566406012 0
+    0.651082993 0.0314224996 0
+    0.550360978 0.162799001 0
+    0.550360978 0.0314224996 0
+    0.651082993 0.210970998 0
+    0.563498974 0.276659012 0
+    0.497810006 0.193453997 0
+    0.432121992 0.281039 0
+    0.348917007 0.193453997 0
+    0.348917007 0.767132998 0
+    0.432121992 0.683928013 0
+    0.493431002 0.767132998 0
+    0.567878008 0.688306987 0
+    0.563498974 0.806545973 0
+    0.651082993 0.762754023 0
+    0.642324984 0.968577981 0
+    0.563498974 0.968577981 0
+    0.348917007 0.0314224996 0
+    0.449638993 0.0314224996 0
+    0.449638993 0.162799001 0
+    0.348917007 0.210970998 0
+    0.436500996 0.276659012 0
+    0.502189994 0.193453997 0
+    0.567878008 0.281039 0
+    0.651082993 0.193453997 0
+    0.651082993 0.767132998 0
+    0.567878008 0.683928013 0
+    0.506569028 0.767132998 0
+    0.432121992 0.688306987 0
+    0.436500996 0.806545973 0
+    0.348917007 0.762754023 0
+    0.357674986 0.968577981 0
+    0.436500996 0.968577981 0
+  faces 56
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+    1 4 5 2 1 4 5 2
+    1 5 2 2 1 5 2 2
+    4 6 7 1 6 7 8 2
+    4 7 5 1 6 8 9 2
+    6 8 9 2 1 10 11 2
+    6 9 7 2 1 11 2 2
+    8 10 11 1 10 12 13 2
+    8 11 9 1 10 13 11 2
+    12 13 14 1 0 14 15 2
+    12 14 15 1 0 15 3 2
+    13 16 17 2 16 17 18 2
+    13 17 14 2 16 18 19 2
+    16 18 19 1 14 20 21 2
+    16 19 17 1 14 21 15 2
+    18 20 21 2 20 12 13 2
+    18 21 19 2 20 13 21 2
+    20 22 23 1 22 23 24 2
+    20 23 21 1 22 24 25 2
+    22 24 25 2 0 26 27 2
+    22 25 23 2 0 27 3 2
+    24 26 27 1 26 10 11 2
+    24 27 25 1 26 11 27 2
+    26 28 29 2 28 29 30 2
+    26 29 27 2 28 30 31 2
+    28 30 31 1 10 32 33 2
+    28 31 29 1 10 33 11 2
+    12 16 13 4 34 35 36 1
+    10 16 12 4 37 35 34 1
+    8 16 10 4 38 35 37 1
+    8 18 16 4 38 39 35 1
+    6 18 8 4 40 39 38 1
+    6 20 18 4 40 41 39 1
+    6 22 20 4 40 42 41 1
+    4 22 6 4 43 42 40 1
+    4 24 22 4 43 44 42 1
+    1 24 4 4 45 44 43 1
+    1 26 24 4 45 46 44 1
+    0 26 1 4 47 46 45 1
+    30 26 0 4 48 46 47 1
+    30 28 26 4 48 49 46 1
+    15 14 17 4 50 51 52 0
+    11 15 17 4 53 50 52 0
+    9 11 17 4 54 53 52 0
+    9 17 19 4 54 52 55 0
+    7 9 19 4 56 54 55 0
+    7 19 21 4 56 55 57 0
+    7 21 23 4 56 57 58 0
+    5 7 23 4 59 56 58 0
+    5 23 25 4 59 58 60 0
+    2 5 25 4 61 59 60 0
+    2 25 27 4 61 60 62 0
+    3 2 27 4 63 61 62 0
+    31 3 27 4 64 63 62 0
+    31 27 29 4 64 62 65 0
+  position -0.839424014 0.188103005 -0.131390005
+  orientation 0.577350199 -0.577350318 0.577350318 -2.09439993
+  scale 1
+  alpha 1
+endnode
+node emitter BW_EXP06
+  parent ad_mj_01
+  #part-number 15
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_M01
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position -0.00824743975 0.00775026018 0.712936997
+  orientation 0 0 0 0
+  xsize 40
+  ysize 40
+  threshold 0
+  combinetime 0
+  colorStart 0.482353002 0.435294002 0.31764701
+  colorEnd 0.584313989 0.533333004 0.407842994
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 2.9000001
+  velocity 8
+  randvel 0.300000012
+  bounce_co 0.5
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter BW_ExpSmoke16
+  parent ad_mj_01
+  #part-number 16
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.200000003
+  blastLength 1
+  position 0.0111395996 -0.0346513987 1.54356003
+  orientation 1 0 0 -4.71238995
+  xsize 100
+  ysize 99
+  threshold 0
+  combinetime 0
+  colorStart 0.474510014 0.447059005 0.392156988
+  colorEnd 0.819607973 0.803921998 0.74901998
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  fps 10
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node trimesh sam
+  parent ad_mj_01
+  #part-number 17
+  ambient 0 0 1
+  diffuse 0 0 1
+  specular 0 0 0
+  shininess 0
+  bitmap NULL
+  verts 8
+    -1 1.60000002 0.00999999978
+    -1 -1.38 0.00999999978
+    1 -1.38 0.00999999978
+    1 1.60000002 0.00999999978
+    -1 -1.38 -0.00999999978
+    -1 1.60000002 -0.00999999978
+    1 -1.38 -0.00999999978
+    1 1.60000002 -0.00999999978
+  faces 12
+    0 1 2 1 0 0 0 0
+    2 3 0 1 0 0 0 0
+    4 5 6 1 0 0 0 0
+    7 6 5 1 0 0 0 0
+    5 1 0 2 0 0 0 1
+    5 0 7 4 0 0 0 1
+    7 0 3 4 0 0 0 1
+    7 3 6 2 0 0 0 1
+    6 3 2 2 0 0 0 1
+    6 2 4 4 0 0 0 1
+    4 2 1 4 0 0 0 1
+    4 1 5 2 0 0 0 1
+  position 0 0 1.60000002
+  orientation 0 0.707106769 -0.707106769 -3.14159012
+  scale 1
+  alpha 0
+  setfillumcolor 0 0 1
+endnode
+endmodelgeom ad_mj_01
+
+#MAXANIM ASCII
+newanim opening1 ad_mj_01
+  length 0.666666985
+  transtime 0
+  animroot ad_mj_01
+node dummy ad_mj_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy pivot04
+  parent ad_mj_01
+  #part-number 1
+  orientationkey 3
+    0 1 0 0 -1.57079995
+    0.633333027 0.577350199 0.577350318 -0.577350318 -2.09438992
+    0.666666985 0.577350199 0.577350318 -0.577350318 -2.09438992
+endnode
+node trimesh doorf
+  parent pivot04
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder377
+  parent doorf
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder1514
+  parent doorf
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorr
+  parent pivot04
+  #part-number 5
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors1
+  parent pivot04
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors2
+  parent pivot04
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doortop
+  parent pivot04
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh dooruw
+  parent pivot04
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws1
+  parent pivot04
+  #part-number 10
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws2
+  parent pivot04
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorlw
+  parent pivot04
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line133
+  parent doorlw
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line29
+  parent doorlw
+  #part-number 14
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter BW_EXP06
+  parent ad_mj_01
+  #part-number 15
+endnode
+node emitter BW_ExpSmoke16
+  parent ad_mj_01
+  #part-number 16
+endnode
+node trimesh sam
+  parent ad_mj_01
+  #part-number 17
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.666666985 0
+endnode
+node dummy ad_mj_01_DWK
+  parent ad_mj_01
+  #part-number -1
+endnode
+node dummy 02_DWK_wg_closed
+  parent ad_mj_01_DWK
+  #part-number 19
+endnode
+node dummy 02_DWK_wg_open1
+  parent ad_mj_01_DWK
+  #part-number 20
+endnode
+node dummy 02_DWK_wg_open2
+  parent ad_mj_01_DWK
+  #part-number 21
+endnode
+node dummy 02_DWK_dp_closed_01
+  parent ad_mj_01_DWK
+  #part-number 22
+endnode
+node dummy 02_DWK_dp_closed_02
+  parent ad_mj_01_DWK
+  #part-number 23
+endnode
+node dummy 02_DWK_dp_open1_01
+  parent ad_mj_01_DWK
+  #part-number 24
+endnode
+node dummy 02_DWK_dp_open1_02
+  parent ad_mj_01_DWK
+  #part-number 25
+endnode
+node dummy 02_DWK_dp_open2_01
+  parent ad_mj_01_DWK
+  #part-number 26
+endnode
+node dummy 02_DWK_dp_open2_02
+  parent ad_mj_01_DWK
+  #part-number 27
+endnode
+doneanim opening1 ad_mj_01
+
+#MAXANIM ASCII
+newanim opened1 ad_mj_01
+  length 0.0333333015
+  transtime 0
+  animroot ad_mj_01
+node dummy ad_mj_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy pivot04
+  parent ad_mj_01
+  #part-number 1
+  orientationkey 2
+    0 0.577350199 0.577350318 -0.577350318 -2.09438992
+    0.0333333015 0.577350199 0.577350318 -0.577350318 -2.09438992
+endnode
+node trimesh doorf
+  parent pivot04
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder377
+  parent doorf
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder1514
+  parent doorf
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorr
+  parent pivot04
+  #part-number 5
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors1
+  parent pivot04
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors2
+  parent pivot04
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doortop
+  parent pivot04
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh dooruw
+  parent pivot04
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws1
+  parent pivot04
+  #part-number 10
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws2
+  parent pivot04
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorlw
+  parent pivot04
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line133
+  parent doorlw
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line29
+  parent doorlw
+  #part-number 14
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter BW_EXP06
+  parent ad_mj_01
+  #part-number 15
+endnode
+node emitter BW_ExpSmoke16
+  parent ad_mj_01
+  #part-number 16
+endnode
+node trimesh sam
+  parent ad_mj_01
+  #part-number 17
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.0333333015 0
+endnode
+node dummy ad_mj_01_DWK
+  parent ad_mj_01
+  #part-number -1
+endnode
+node dummy 02_DWK_wg_closed
+  parent ad_mj_01_DWK
+  #part-number 19
+endnode
+node dummy 02_DWK_wg_open1
+  parent ad_mj_01_DWK
+  #part-number 20
+endnode
+node dummy 02_DWK_wg_open2
+  parent ad_mj_01_DWK
+  #part-number 21
+endnode
+node dummy 02_DWK_dp_closed_01
+  parent ad_mj_01_DWK
+  #part-number 22
+endnode
+node dummy 02_DWK_dp_closed_02
+  parent ad_mj_01_DWK
+  #part-number 23
+endnode
+node dummy 02_DWK_dp_open1_01
+  parent ad_mj_01_DWK
+  #part-number 24
+endnode
+node dummy 02_DWK_dp_open1_02
+  parent ad_mj_01_DWK
+  #part-number 25
+endnode
+node dummy 02_DWK_dp_open2_01
+  parent ad_mj_01_DWK
+  #part-number 26
+endnode
+node dummy 02_DWK_dp_open2_02
+  parent ad_mj_01_DWK
+  #part-number 27
+endnode
+doneanim opened1 ad_mj_01
+
+#MAXANIM ASCII
+newanim closing1 ad_mj_01
+  length 0.666666985
+  transtime 0
+  animroot ad_mj_01
+node dummy ad_mj_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy pivot04
+  parent ad_mj_01
+  #part-number 1
+  orientationkey 2
+    0 0.577350199 0.577350318 -0.577350318 -2.09438992
+    0.666666985 1 0 0 -1.57079995
+endnode
+node trimesh doorf
+  parent pivot04
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder377
+  parent doorf
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder1514
+  parent doorf
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorr
+  parent pivot04
+  #part-number 5
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors1
+  parent pivot04
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors2
+  parent pivot04
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doortop
+  parent pivot04
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh dooruw
+  parent pivot04
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws1
+  parent pivot04
+  #part-number 10
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws2
+  parent pivot04
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorlw
+  parent pivot04
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line133
+  parent doorlw
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line29
+  parent doorlw
+  #part-number 14
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter BW_EXP06
+  parent ad_mj_01
+  #part-number 15
+endnode
+node emitter BW_ExpSmoke16
+  parent ad_mj_01
+  #part-number 16
+endnode
+node trimesh sam
+  parent ad_mj_01
+  #part-number 17
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.666666985 0
+endnode
+node dummy ad_mj_01_DWK
+  parent ad_mj_01
+  #part-number -1
+endnode
+node dummy 02_DWK_wg_closed
+  parent ad_mj_01_DWK
+  #part-number 19
+endnode
+node dummy 02_DWK_wg_open1
+  parent ad_mj_01_DWK
+  #part-number 20
+endnode
+node dummy 02_DWK_wg_open2
+  parent ad_mj_01_DWK
+  #part-number 21
+endnode
+node dummy 02_DWK_dp_closed_01
+  parent ad_mj_01_DWK
+  #part-number 22
+endnode
+node dummy 02_DWK_dp_closed_02
+  parent ad_mj_01_DWK
+  #part-number 23
+endnode
+node dummy 02_DWK_dp_open1_01
+  parent ad_mj_01_DWK
+  #part-number 24
+endnode
+node dummy 02_DWK_dp_open1_02
+  parent ad_mj_01_DWK
+  #part-number 25
+endnode
+node dummy 02_DWK_dp_open2_01
+  parent ad_mj_01_DWK
+  #part-number 26
+endnode
+node dummy 02_DWK_dp_open2_02
+  parent ad_mj_01_DWK
+  #part-number 27
+endnode
+doneanim closing1 ad_mj_01
+
+#MAXANIM ASCII
+newanim closed ad_mj_01
+  length 0.0333333015
+  transtime 0
+  animroot ad_mj_01
+node dummy ad_mj_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy pivot04
+  parent ad_mj_01
+  #part-number 1
+  orientationkey 2
+    0 1 0 0 -1.57079995
+    0.0333333015 1 0 0 -1.57079995
+endnode
+node trimesh doorf
+  parent pivot04
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder377
+  parent doorf
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder1514
+  parent doorf
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorr
+  parent pivot04
+  #part-number 5
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors1
+  parent pivot04
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors2
+  parent pivot04
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doortop
+  parent pivot04
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh dooruw
+  parent pivot04
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws1
+  parent pivot04
+  #part-number 10
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws2
+  parent pivot04
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorlw
+  parent pivot04
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line133
+  parent doorlw
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line29
+  parent doorlw
+  #part-number 14
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter BW_EXP06
+  parent ad_mj_01
+  #part-number 15
+endnode
+node emitter BW_ExpSmoke16
+  parent ad_mj_01
+  #part-number 16
+endnode
+node trimesh sam
+  parent ad_mj_01
+  #part-number 17
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.0333333015 0
+endnode
+node dummy ad_mj_01_DWK
+  parent ad_mj_01
+  #part-number -1
+endnode
+node dummy 02_DWK_wg_closed
+  parent ad_mj_01_DWK
+  #part-number 19
+endnode
+node dummy 02_DWK_wg_open1
+  parent ad_mj_01_DWK
+  #part-number 20
+endnode
+node dummy 02_DWK_wg_open2
+  parent ad_mj_01_DWK
+  #part-number 21
+endnode
+node dummy 02_DWK_dp_closed_01
+  parent ad_mj_01_DWK
+  #part-number 22
+endnode
+node dummy 02_DWK_dp_closed_02
+  parent ad_mj_01_DWK
+  #part-number 23
+endnode
+node dummy 02_DWK_dp_open1_01
+  parent ad_mj_01_DWK
+  #part-number 24
+endnode
+node dummy 02_DWK_dp_open1_02
+  parent ad_mj_01_DWK
+  #part-number 25
+endnode
+node dummy 02_DWK_dp_open2_01
+  parent ad_mj_01_DWK
+  #part-number 26
+endnode
+node dummy 02_DWK_dp_open2_02
+  parent ad_mj_01_DWK
+  #part-number 27
+endnode
+doneanim closed ad_mj_01
+
+#MAXANIM ASCII
+newanim opening2 ad_mj_01
+  length 0.666666985
+  transtime 0
+  animroot ad_mj_01
+node dummy ad_mj_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy pivot04
+  parent ad_mj_01
+  #part-number 1
+  orientationkey 3
+    0 1 0 0 -1.57079995
+    0.633333027 0.577350199 -0.577350318 0.577350318 -2.09438992
+    0.666666985 0.577350199 -0.577350318 0.577350318 -2.09438992
+endnode
+node trimesh doorf
+  parent pivot04
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder377
+  parent doorf
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder1514
+  parent doorf
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorr
+  parent pivot04
+  #part-number 5
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors1
+  parent pivot04
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors2
+  parent pivot04
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doortop
+  parent pivot04
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh dooruw
+  parent pivot04
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws1
+  parent pivot04
+  #part-number 10
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws2
+  parent pivot04
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorlw
+  parent pivot04
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line133
+  parent doorlw
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line29
+  parent doorlw
+  #part-number 14
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter BW_EXP06
+  parent ad_mj_01
+  #part-number 15
+endnode
+node emitter BW_ExpSmoke16
+  parent ad_mj_01
+  #part-number 16
+endnode
+node trimesh sam
+  parent ad_mj_01
+  #part-number 17
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.666666985 0
+endnode
+node dummy ad_mj_01_DWK
+  parent ad_mj_01
+  #part-number -1
+endnode
+node dummy 02_DWK_wg_closed
+  parent ad_mj_01_DWK
+  #part-number 19
+endnode
+node dummy 02_DWK_wg_open1
+  parent ad_mj_01_DWK
+  #part-number 20
+endnode
+node dummy 02_DWK_wg_open2
+  parent ad_mj_01_DWK
+  #part-number 21
+endnode
+node dummy 02_DWK_dp_closed_01
+  parent ad_mj_01_DWK
+  #part-number 22
+endnode
+node dummy 02_DWK_dp_closed_02
+  parent ad_mj_01_DWK
+  #part-number 23
+endnode
+node dummy 02_DWK_dp_open1_01
+  parent ad_mj_01_DWK
+  #part-number 24
+endnode
+node dummy 02_DWK_dp_open1_02
+  parent ad_mj_01_DWK
+  #part-number 25
+endnode
+node dummy 02_DWK_dp_open2_01
+  parent ad_mj_01_DWK
+  #part-number 26
+endnode
+node dummy 02_DWK_dp_open2_02
+  parent ad_mj_01_DWK
+  #part-number 27
+endnode
+doneanim opening2 ad_mj_01
+
+#MAXANIM ASCII
+newanim opened2 ad_mj_01
+  length 0.0333333015
+  transtime 0
+  animroot ad_mj_01
+node dummy ad_mj_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy pivot04
+  parent ad_mj_01
+  #part-number 1
+  orientationkey 2
+    0 0.577350199 -0.577350318 0.577350318 -2.09438992
+    0.0333333015 0.577350199 -0.577350318 0.577350318 -2.09438992
+endnode
+node trimesh doorf
+  parent pivot04
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder377
+  parent doorf
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder1514
+  parent doorf
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorr
+  parent pivot04
+  #part-number 5
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors1
+  parent pivot04
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors2
+  parent pivot04
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doortop
+  parent pivot04
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh dooruw
+  parent pivot04
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws1
+  parent pivot04
+  #part-number 10
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws2
+  parent pivot04
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorlw
+  parent pivot04
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line133
+  parent doorlw
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line29
+  parent doorlw
+  #part-number 14
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter BW_EXP06
+  parent ad_mj_01
+  #part-number 15
+endnode
+node emitter BW_ExpSmoke16
+  parent ad_mj_01
+  #part-number 16
+endnode
+node trimesh sam
+  parent ad_mj_01
+  #part-number 17
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.0333333015 0
+endnode
+node dummy ad_mj_01_DWK
+  parent ad_mj_01
+  #part-number -1
+endnode
+node dummy 02_DWK_wg_closed
+  parent ad_mj_01_DWK
+  #part-number 19
+endnode
+node dummy 02_DWK_wg_open1
+  parent ad_mj_01_DWK
+  #part-number 20
+endnode
+node dummy 02_DWK_wg_open2
+  parent ad_mj_01_DWK
+  #part-number 21
+endnode
+node dummy 02_DWK_dp_closed_01
+  parent ad_mj_01_DWK
+  #part-number 22
+endnode
+node dummy 02_DWK_dp_closed_02
+  parent ad_mj_01_DWK
+  #part-number 23
+endnode
+node dummy 02_DWK_dp_open1_01
+  parent ad_mj_01_DWK
+  #part-number 24
+endnode
+node dummy 02_DWK_dp_open1_02
+  parent ad_mj_01_DWK
+  #part-number 25
+endnode
+node dummy 02_DWK_dp_open2_01
+  parent ad_mj_01_DWK
+  #part-number 26
+endnode
+node dummy 02_DWK_dp_open2_02
+  parent ad_mj_01_DWK
+  #part-number 27
+endnode
+doneanim opened2 ad_mj_01
+
+#MAXANIM ASCII
+newanim closing2 ad_mj_01
+  length 0.666666985
+  transtime 0
+  animroot ad_mj_01
+node dummy ad_mj_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy pivot04
+  parent ad_mj_01
+  #part-number 1
+  orientationkey 2
+    0 0.577350199 -0.577350318 0.577350318 -2.09438992
+    0.666666985 1 0 0 -1.57079995
+endnode
+node trimesh doorf
+  parent pivot04
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder377
+  parent doorf
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder1514
+  parent doorf
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorr
+  parent pivot04
+  #part-number 5
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors1
+  parent pivot04
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors2
+  parent pivot04
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doortop
+  parent pivot04
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh dooruw
+  parent pivot04
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws1
+  parent pivot04
+  #part-number 10
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws2
+  parent pivot04
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorlw
+  parent pivot04
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line133
+  parent doorlw
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line29
+  parent doorlw
+  #part-number 14
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter BW_EXP06
+  parent ad_mj_01
+  #part-number 15
+endnode
+node emitter BW_ExpSmoke16
+  parent ad_mj_01
+  #part-number 16
+endnode
+node trimesh sam
+  parent ad_mj_01
+  #part-number 17
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.666666985 0
+endnode
+node dummy ad_mj_01_DWK
+  parent ad_mj_01
+  #part-number -1
+endnode
+node dummy 02_DWK_wg_closed
+  parent ad_mj_01_DWK
+  #part-number 19
+endnode
+node dummy 02_DWK_wg_open1
+  parent ad_mj_01_DWK
+  #part-number 20
+endnode
+node dummy 02_DWK_wg_open2
+  parent ad_mj_01_DWK
+  #part-number 21
+endnode
+node dummy 02_DWK_dp_closed_01
+  parent ad_mj_01_DWK
+  #part-number 22
+endnode
+node dummy 02_DWK_dp_closed_02
+  parent ad_mj_01_DWK
+  #part-number 23
+endnode
+node dummy 02_DWK_dp_open1_01
+  parent ad_mj_01_DWK
+  #part-number 24
+endnode
+node dummy 02_DWK_dp_open1_02
+  parent ad_mj_01_DWK
+  #part-number 25
+endnode
+node dummy 02_DWK_dp_open2_01
+  parent ad_mj_01_DWK
+  #part-number 26
+endnode
+node dummy 02_DWK_dp_open2_02
+  parent ad_mj_01_DWK
+  #part-number 27
+endnode
+doneanim closing2 ad_mj_01
+
+#MAXANIM ASCII
+newanim die ad_mj_01
+  length 0.200000003
+  transtime 0
+  animroot ad_mj_01
+  event 0 detonate
+node dummy ad_mj_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy pivot04
+  parent ad_mj_01
+  #part-number 1
+  positionkey 2
+    0 0.89212501 0.0105194002 0
+    0.200000003 0.89212501 0.0105189001 -9.34257984
+endnode
+node trimesh doorf
+  parent pivot04
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder377
+  parent doorf
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder1514
+  parent doorf
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorr
+  parent pivot04
+  #part-number 5
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors1
+  parent pivot04
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors2
+  parent pivot04
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doortop
+  parent pivot04
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh dooruw
+  parent pivot04
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws1
+  parent pivot04
+  #part-number 10
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws2
+  parent pivot04
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorlw
+  parent pivot04
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line133
+  parent doorlw
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line29
+  parent doorlw
+  #part-number 14
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter BW_EXP06
+  parent ad_mj_01
+  #part-number 15
+endnode
+node emitter BW_ExpSmoke16
+  parent ad_mj_01
+  #part-number 16
+endnode
+node trimesh sam
+  parent ad_mj_01
+  #part-number 17
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.200000003 0
+endnode
+node dummy ad_mj_01_DWK
+  parent ad_mj_01
+  #part-number -1
+endnode
+node dummy 02_DWK_wg_closed
+  parent ad_mj_01_DWK
+  #part-number 19
+endnode
+node dummy 02_DWK_wg_open1
+  parent ad_mj_01_DWK
+  #part-number 20
+endnode
+node dummy 02_DWK_wg_open2
+  parent ad_mj_01_DWK
+  #part-number 21
+endnode
+node dummy 02_DWK_dp_closed_01
+  parent ad_mj_01_DWK
+  #part-number 22
+endnode
+node dummy 02_DWK_dp_closed_02
+  parent ad_mj_01_DWK
+  #part-number 23
+endnode
+node dummy 02_DWK_dp_open1_01
+  parent ad_mj_01_DWK
+  #part-number 24
+endnode
+node dummy 02_DWK_dp_open1_02
+  parent ad_mj_01_DWK
+  #part-number 25
+endnode
+node dummy 02_DWK_dp_open2_01
+  parent ad_mj_01_DWK
+  #part-number 26
+endnode
+node dummy 02_DWK_dp_open2_02
+  parent ad_mj_01_DWK
+  #part-number 27
+endnode
+doneanim die ad_mj_01
+
+#MAXANIM ASCII
+newanim dead ad_mj_01
+  length 0.0333333015
+  transtime 0
+  animroot ad_mj_01
+node dummy ad_mj_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy pivot04
+  parent ad_mj_01
+  #part-number 1
+  positionkey 2
+    0 0.89212501 0.0105189001 -9.34257984
+    0.0333333015 0.89212501 0.0105189001 -9.34257984
+endnode
+node trimesh doorf
+  parent pivot04
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder377
+  parent doorf
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder1514
+  parent doorf
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorr
+  parent pivot04
+  #part-number 5
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors1
+  parent pivot04
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors2
+  parent pivot04
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doortop
+  parent pivot04
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh dooruw
+  parent pivot04
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws1
+  parent pivot04
+  #part-number 10
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws2
+  parent pivot04
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorlw
+  parent pivot04
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line133
+  parent doorlw
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line29
+  parent doorlw
+  #part-number 14
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter BW_EXP06
+  parent ad_mj_01
+  #part-number 15
+endnode
+node emitter BW_ExpSmoke16
+  parent ad_mj_01
+  #part-number 16
+endnode
+node trimesh sam
+  parent ad_mj_01
+  #part-number 17
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.0333333015 0
+endnode
+node dummy ad_mj_01_DWK
+  parent ad_mj_01
+  #part-number -1
+endnode
+node dummy 02_DWK_wg_closed
+  parent ad_mj_01_DWK
+  #part-number 19
+endnode
+node dummy 02_DWK_wg_open1
+  parent ad_mj_01_DWK
+  #part-number 20
+endnode
+node dummy 02_DWK_wg_open2
+  parent ad_mj_01_DWK
+  #part-number 21
+endnode
+node dummy 02_DWK_dp_closed_01
+  parent ad_mj_01_DWK
+  #part-number 22
+endnode
+node dummy 02_DWK_dp_closed_02
+  parent ad_mj_01_DWK
+  #part-number 23
+endnode
+node dummy 02_DWK_dp_open1_01
+  parent ad_mj_01_DWK
+  #part-number 24
+endnode
+node dummy 02_DWK_dp_open1_02
+  parent ad_mj_01_DWK
+  #part-number 25
+endnode
+node dummy 02_DWK_dp_open2_01
+  parent ad_mj_01_DWK
+  #part-number 26
+endnode
+node dummy 02_DWK_dp_open2_02
+  parent ad_mj_01_DWK
+  #part-number 27
+endnode
+doneanim dead ad_mj_01
+
+#MAXANIM ASCII
+newanim trans ad_mj_01
+  length 0.0333333015
+  transtime 0
+  animroot ad_mj_01
+node dummy ad_mj_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy pivot04
+  parent ad_mj_01
+  #part-number 1
+endnode
+node trimesh doorf
+  parent pivot04
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder377
+  parent doorf
+  #part-number 3
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Cylinder1514
+  parent doorf
+  #part-number 4
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorr
+  parent pivot04
+  #part-number 5
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors1
+  parent pivot04
+  #part-number 6
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doors2
+  parent pivot04
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doortop
+  parent pivot04
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh dooruw
+  parent pivot04
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws1
+  parent pivot04
+  #part-number 10
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorws2
+  parent pivot04
+  #part-number 11
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh doorlw
+  parent pivot04
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line133
+  parent doorlw
+  #part-number 13
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Line29
+  parent doorlw
+  #part-number 14
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter BW_EXP06
+  parent ad_mj_01
+  #part-number 15
+endnode
+node emitter BW_ExpSmoke16
+  parent ad_mj_01
+  #part-number 16
+endnode
+node trimesh sam
+  parent ad_mj_01
+  #part-number 17
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0.300000012
+    0.0333333015 0.300000012
+endnode
+node dummy ad_mj_01_DWK
+  parent ad_mj_01
+  #part-number -1
+endnode
+node dummy 02_DWK_wg_closed
+  parent ad_mj_01_DWK
+  #part-number 19
+endnode
+node dummy 02_DWK_wg_open1
+  parent ad_mj_01_DWK
+  #part-number 20
+endnode
+node dummy 02_DWK_wg_open2
+  parent ad_mj_01_DWK
+  #part-number 21
+endnode
+node dummy 02_DWK_dp_closed_01
+  parent ad_mj_01_DWK
+  #part-number 22
+endnode
+node dummy 02_DWK_dp_closed_02
+  parent ad_mj_01_DWK
+  #part-number 23
+endnode
+node dummy 02_DWK_dp_open1_01
+  parent ad_mj_01_DWK
+  #part-number 24
+endnode
+node dummy 02_DWK_dp_open1_02
+  parent ad_mj_01_DWK
+  #part-number 25
+endnode
+node dummy 02_DWK_dp_open2_01
+  parent ad_mj_01_DWK
+  #part-number 26
+endnode
+node dummy 02_DWK_dp_open2_02
+  parent ad_mj_01_DWK
+  #part-number 27
+endnode
+doneanim trans ad_mj_01
+
+donemodel ad_mj_01
