@@ -1,0 +1,146 @@
+#MAXMODEL ASCII
+# model: rkp_super_ftree
+filedependancy rkp_super_ftree.max
+newmodel rkp_super_ftree
+setsupermodel rkp_super_ftree NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom rkp_super_ftree
+node dummy rkp_super_ftree
+  parent NULL
+endnode
+node dummy trunk
+  parent rkp_super_ftree
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom rkp_super_ftree
+
+#MAXANIM ASCII
+newanim default rkp_super_ftree
+  length 0
+  transtime 0.25
+  animroot rkp_super_ftree
+  node dummy rkp_super_ftree
+    parent NULL
+    position 0 0 0
+    orientation 0 0 0 0
+  endnode
+  node dummy trunk
+    parent rkp_super_ftree
+  endnode
+doneanim default rkp_super_ftree
+
+#MAXANIM ASCII
+newanim on rkp_super_ftree
+  length 0.0333333
+  transtime 0.25
+  animroot rkp_super_ftree
+  node dummy rkp_super_ftree
+    parent NULL
+  endnode
+  node dummy trunk
+    parent rkp_super_ftree
+  endnode
+doneanim on rkp_super_ftree
+
+#MAXANIM ASCII
+newanim on2off rkp_super_ftree
+  length 0.333333
+  transtime 0.25
+  animroot rkp_super_ftree
+  node dummy rkp_super_ftree
+    parent NULL
+  endnode
+  node dummy trunk
+    parent rkp_super_ftree
+  endnode
+doneanim on2off rkp_super_ftree
+
+#MAXANIM ASCII
+newanim off rkp_super_ftree
+  length 0.0333333
+  transtime 0.25
+  animroot rkp_super_ftree
+  node dummy rkp_super_ftree
+    parent NULL
+  endnode
+  node dummy trunk
+    parent rkp_super_ftree
+  endnode
+doneanim off rkp_super_ftree
+
+#MAXANIM ASCII
+newanim off2on rkp_super_ftree
+  length 0.333333
+  transtime 0.25
+  animroot rkp_super_ftree
+  node dummy rkp_super_ftree
+    parent NULL
+  endnode
+  node dummy trunk
+    parent rkp_super_ftree
+  endnode
+doneanim off2on rkp_super_ftree
+
+#MAXANIM ASCII
+newanim damage rkp_super_ftree
+  length 0.166667
+  transtime 0.25
+  animroot rkp_super_ftree
+  node dummy rkp_super_ftree
+    parent NULL
+  endnode
+  node dummy trunk
+    parent rkp_super_ftree
+    positionkey 3
+         0.0000000    0.0000000    0.0000000    0.0000000
+         0.1250000    0.0000000    0.0000000   -0.0192492
+         0.2083330    0.0000000    0.0000000    0.0000000
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.2083330    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+doneanim damage rkp_super_ftree
+
+#MAXANIM ASCII
+newanim die rkp_super_ftree
+  length 1
+  transtime 0.25
+  animroot rkp_super_ftree
+  event 0 detonate
+  node dummy rkp_super_ftree
+    parent NULL
+  endnode
+  node dummy trunk
+    parent rkp_super_ftree
+    positionkey 2
+         0.0000000    0.0000000    0.0000000    0.0000000
+         1.0000000    0.0000000    0.0000000  -70.0000000
+    orientationkey 2
+         0.0000000   -0.6468828    0.1137000   -0.7540656   -0.2518440
+         1.0000000   -0.9248974    0.1138820   -0.3627611   -0.5092670
+  endnode
+doneanim die rkp_super_ftree
+
+#MAXANIM ASCII
+newanim dead rkp_super_ftree
+  length 0.0333333
+  transtime 0.25
+  animroot rkp_super_ftree
+  node dummy rkp_super_ftree
+    parent NULL
+  endnode
+  node dummy trunk
+    parent rkp_super_ftree
+    positionkey 2
+         0.0000000    0.0000000    0.0000000  -70.0000000
+         0.0333333    0.0000000    0.0000000  -70.0000000
+    orientationkey 2
+         0.0000000   -0.9248974    0.1138820   -0.3627611   -0.5092670
+         0.0333333   -0.9248974    0.1138820   -0.3627611   -0.5092670
+  endnode
+doneanim dead rkp_super_ftree
+
+donemodel rkp_super_ftree
