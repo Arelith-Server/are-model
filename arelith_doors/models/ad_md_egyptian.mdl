@@ -1,0 +1,1161 @@
+# Alternative Door Forms
+# gaoneng        August 21, 2006
+# centre-part dark oak
+#
+#NWmax MODEL ASCII
+# model: ad_md_egyptian
+filedependancy swing.max
+newmodel ad_md_egyptian
+setsupermodel ad_md_egyptian NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom ad_md_egyptian
+node dummy ad_md_egyptian
+  parent NULL
+endnode
+node emitter fire!07
+  parent ad_md_egyptian
+  position 0 0.0288672 0.928905
+  orientation 1 0 0 -4.71239
+  wirecolor 1 1 1 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4.0
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0.2
+  blastLength 1
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  Drag 0
+endnode
+node trimesh sam
+  parent ad_md_egyptian
+  position -1 0 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0
+  transparencyhint 1
+  selfillumcolor 0.0705882 0 1 
+  ambient 0.2 0.2 0.2 
+  Diffuse 0.8 0.8 0.8 
+  Specular 0 0 0
+  shininess 1
+  center 2.23496 -100.812 148.5 
+  bitmap NULL
+  verts 8
+    -0.00620381 -0.0100206 0
+    -0.00620381 -2.01002 0
+    -0.00620381 -2.01002 2.97
+    -0.00620381 -0.0100206 2.97
+    0.0509031 -2.00623 0
+    0.0509031 -0.0062291 0
+    0.0509031 -2.00623 2.97
+    0.0509031 -0.0062291 2.97
+  faces 4
+    0 1 2  1  0 1 2  18
+    2 3 0  1  2 3 0  18
+    4 5 6  1  1 0 2  18
+    7 6 5  1  3 2 0  18
+  tverts 4
+    0.000499517 0.000499666 0
+    0.49427 0.000499547 0
+    0.494271 0.876312 0
+    0.000499815 0.876312 0
+endnode
+node dummy ad_md_egyptiangrnd
+  parent ad_md_egyptian
+  position 0 0 0
+  orientation 1 0 0 0
+  wirecolor 0.333333 0.109804 0.694118
+endnode
+node dummy ad_md_egyptianhead
+  parent ad_md_egyptian
+  position 0 0 2.50064
+  orientation 1 0 0 0
+  wirecolor 0.333333 0.109804 0.694118 
+endnode
+node dummy ad_md_egyptianhhit
+  parent ad_md_egyptian
+  position 0 0 2.17507
+  orientation 1 0 0 0
+  wirecolor 0.333333 0.109804 0.694118 
+endnode
+node dummy ad_md_egyptianimpc
+  parent ad_md_egyptian
+  position 0 0 1.63648
+  orientation 1 0 0 0
+  wirecolor 0.333333 0.109804 0.694118 
+endnode
+node dummy TIN01_B13_03
+  parent ad_md_egyptian
+  position 0 0 0
+  orientation 0.8763 -0.462577 0.134616 0
+  wirecolor 0.333333 0.109804 0.694118 
+endnode
+node dummy piv1
+  parent TIN01_B13_03
+  position -1 0.0499999 0
+  orientation 1 0 0 0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node trimesh Box01
+  parent piv1
+  position 0 -0.1 0
+  orientation 1 0 0 0
+  wirecolor 0.6 0.894118 0.839216 
+  tilefade 0
+  scale 1
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0 
+  Diffuse 1 1 1 
+  Specular 0 0 0 
+  center 50 5 150 
+  ambient 0.588235 0.588235 0.588235 
+  diffuse 0.588235 0.588235 0.588235 
+  specular 0 0 0 
+  shininess 10.0
+  bitmap ad_md_egyptian
+  verts 8
+    0 0 0
+    1 0 0
+    0 0.1 0
+    1 0.1 0
+    0 0 3.0
+    1 0 3.0
+    0 0.1 3.0
+    1 0.1 3.0
+  faces 10
+    4 5 7  4  18 19 20  1
+    7 6 4  4  20 21 18  1
+    0 1 5  8  0 1 2  5
+    5 4 0  8  3 4 5  5
+    1 3 7  16  16 13 17  4
+    7 5 1  16  14 15 12  4
+    3 2 6  32  10 7 11  6
+    6 7 3  32  8 9 6  6
+    2 0 4  64  26 23 27  3
+    4 6 2  64  24 25 22  3
+  tverts 28
+    0 0 0
+    0.5 0 0
+    0.5 1 0
+    0.5 1 0
+    0 1 0
+    0 0 0
+    0.5 0 0
+    0 0 0
+    0 1 0
+    0.5 1 0
+    0.5 0 0
+    0 1 0
+    0.38 0 0
+    0.48 0 0
+    0.48 1 0
+    0.38 1 0
+    0.38 0 0
+    0.48 1 0
+    0 0.4875 0
+    0.5 0.4875 0
+    0.5 0.5375 0
+    0 0.5375 0
+    0.0125 0 0
+    0.0625 0 0
+    0.0625 1 0
+    0.0125 1 0
+    0.0125 0 0
+    0.0625 1 0
+endnode
+node dummy piv2
+  parent TIN01_B13_03
+  position 1 0.0500001 0
+  orientation 1 0 0 0
+  wirecolor 0.0313726 0.239216 0.541176
+endnode
+node trimesh Box02
+  parent piv2
+  position 0 -0.0999988 0
+  orientation 0 0 -1 -3.14159
+  wirecolor 0.6 0.894118 0.839216
+  tilefade 0
+  scale 1
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  Diffuse 1 1 1
+  Specular 0 0 0
+  center 50 -5.00001 150
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10.0
+  bitmap ad_md_egyptian
+  verts 8
+    0 -0.1 0
+    1 -0.1 0
+    0 0 0
+    1 0 0
+    0 -0.1 3.0
+    1 -0.1 3.0
+    0 0 3.0
+    1 0 3.0
+  faces 10
+    4 5 7  4  18 19 20  1
+    7 6 4  4  20 21 18  1
+    0 1 5  8  0 1 2  5
+    5 4 0  8  3 4 5  5
+    1 3 7  16  16 13 17  4
+    7 5 1  16  14 15 12  4
+    3 2 6  32  10 7 11  6
+    6 7 3  32  8 9 6  6
+    2 0 4  64  26 23 27  3
+    4 6 2  64  24 25 22  3
+  tverts 28
+    0 0 0
+    0.5 0 0
+    0.5 1 0
+    0.5 1 0
+    0 1 0
+    0 0 0
+    0.5 0 0
+    0 0 0
+    0 1 0
+    0.5 1 0
+    0.5 0 0
+    0 1 0
+    0.38 0 0
+    0.48 0 0
+    0.48 1 0
+    0.38 1 0
+    0.38 0 0
+    0.48 1 0
+    0 0.4875 0
+    0.5 0.4875 0
+    0.5 0.5375 0
+    0 0.5375 0
+    0.0125 0 0
+    0.0625 0 0
+    0.0625 1 0
+    0.0125 1 0
+    0.0125 0 0
+    0.0625 1 0
+endnode
+endmodelgeom ad_md_egyptian
+
+#NWmax ANIM ASCII
+newanim trans ad_md_egyptian
+  length 0.0333333
+  transtime 0
+  animroot ad_md_egyptian
+    node dummy ad_md_egyptian
+        parent NULL
+    endnode
+    node emitter fire!07
+        parent ad_md_egyptian
+    endnode
+    node trimesh sam
+        parent ad_md_egyptian
+        alphakey
+            0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node dummy ad_md_egyptian_DWK
+        parent ad_md_egyptian
+    endnode
+    node dummy 22_DWK_dp_closed_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_closed_02
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open1_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open2_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_closed
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open1
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open2
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy ad_md_egyptiangrnd
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhead
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhhit
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianimpc
+        parent ad_md_egyptian
+    endnode
+    node dummy TIN01_B13_03
+        parent ad_md_egyptian
+    endnode
+    node dummy piv1
+        parent TIN01_B13_03
+    endnode
+    node trimesh Box01
+        parent piv1
+    endnode
+    node dummy piv2
+        parent TIN01_B13_03
+    endnode
+    node trimesh Box02
+        parent piv2
+    endnode
+doneanim trans ad_md_egyptian
+
+
+#NWmax ANIM ASCII
+newanim opening1 ad_md_egyptian
+  length 0.666667
+  transtime 0.25
+  animroot ad_md_egyptian
+    node dummy ad_md_egyptian
+        parent NULL
+    endnode
+    node emitter fire!07
+        parent ad_md_egyptian
+    endnode
+    node trimesh sam
+        parent ad_md_egyptian
+        alphakey
+            0 0 
+            0.666667 0
+        endlist
+    endnode
+    node dummy ad_md_egyptian_DWK
+        parent ad_md_egyptian
+    endnode
+    node dummy 22_DWK_dp_closed_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_closed_02
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open1_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open2_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_closed
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open1
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open2
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy ad_md_egyptiangrnd
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhead
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhhit
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianimpc
+        parent ad_md_egyptian
+    endnode
+    node dummy TIN01_B13_03
+        parent ad_md_egyptian
+    endnode
+    node dummy piv1
+        parent TIN01_B13_03
+        orientationkey
+            0 1 0 0 0
+            0.666667 0 0 0 0
+        endlist
+    endnode
+    node trimesh Box01
+        parent piv1
+        orientationkey
+            0 0 0 0 0
+            0.666667 0 0 1 -1.4399
+        endlist
+    endnode
+    node dummy piv2
+        parent TIN01_B13_03
+        orientationkey
+            0 1 0 0 0
+            0.666667 -1 0 0 0
+        endlist
+    endnode
+    node trimesh Box02
+        parent piv2
+        orientationkey
+            0 0 0 -1 -3.14159
+            0.666667 0 0 -1 -4.58149
+        endlist
+    endnode
+doneanim opening1 ad_md_egyptian
+
+
+#NWmax ANIM ASCII
+newanim opened1 ad_md_egyptian
+  length 0.0333333
+  transtime 0
+  animroot ad_md_egyptian
+    node dummy ad_md_egyptian
+        parent NULL
+    endnode
+    node emitter fire!07
+        parent ad_md_egyptian
+    endnode
+    node trimesh sam
+        parent ad_md_egyptian
+        alphakey
+            0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node dummy ad_md_egyptian_DWK
+        parent ad_md_egyptian
+    endnode
+    node dummy 22_DWK_dp_closed_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_closed_02
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open1_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open2_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_closed
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open1
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open2
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy ad_md_egyptiangrnd
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhead
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhhit
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianimpc
+        parent ad_md_egyptian
+    endnode
+    node dummy TIN01_B13_03
+        parent ad_md_egyptian
+    endnode
+    node dummy piv1
+        parent TIN01_B13_03
+        orientationkey
+            0 0.977631 0 -0.210326 0
+            0.0333333 0.996174 0 -0.0873937 0
+        endlist
+    endnode
+    node trimesh Box01
+        parent piv1
+        orientationkey
+            0 0 0 1 -1.4399
+            0.0333333 0 0 1 -1.4399
+        endlist
+    endnode
+    node dummy piv2
+        parent TIN01_B13_03
+        orientationkey
+            0 0 0 0 0
+            0.0333333 0 0 0 0
+        endlist
+    endnode
+    node trimesh Box02
+        parent piv2
+        orientationkey
+            0 0 0 -1 -4.58149
+            0.0333333 0 0 -1 -4.58149
+        endlist
+    endnode
+doneanim opened1 ad_md_egyptian
+
+
+#NWmax ANIM ASCII
+newanim closing1 ad_md_egyptian
+  length 0.666667
+  transtime 0.25
+  animroot ad_md_egyptian
+    node dummy ad_md_egyptian
+        parent NULL
+    endnode
+    node emitter fire!07
+        parent ad_md_egyptian
+    endnode
+    node trimesh sam
+        parent ad_md_egyptian
+        alphakey
+            0 0 
+            0.666667 0 
+        endlist
+    endnode
+    node dummy ad_md_egyptian_DWK
+        parent ad_md_egyptian
+    endnode
+    node dummy 22_DWK_dp_closed_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_closed_02
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open1_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open2_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_closed
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open1
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open2
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy ad_md_egyptiangrnd
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhead
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhhit
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianimpc
+        parent ad_md_egyptian
+    endnode
+    node dummy TIN01_B13_03
+        parent ad_md_egyptian
+    endnode
+    node dummy piv1
+        parent TIN01_B13_03
+        orientationkey
+            0 -0.988357 0 -0.152154 0
+            0.666667 -0.988357 0 -0.152154 0
+        endlist
+    endnode
+    node trimesh Box01
+        parent piv1
+        orientationkey
+            0 0 0 1 -1.4399
+            0.666667 0 0 0 0
+        endlist
+    endnode
+    node dummy piv2
+        parent TIN01_B13_03
+        orientationkey
+            0 1 0 0 0
+            0.666667 1 0 0 0
+        endlist
+    endnode
+    node trimesh Box02
+        parent piv2
+        orientationkey
+            0 0 0 -1 -4.58149
+            0.666667 0 0 -1 -3.14159
+        endlist
+    endnode
+doneanim closing1 ad_md_egyptian
+
+
+#NWmax ANIM ASCII
+newanim opening2 ad_md_egyptian
+  length 0.666667
+  transtime 0.25
+  animroot ad_md_egyptian
+    node dummy ad_md_egyptian
+        parent NULL
+    endnode
+    node emitter fire!07
+        parent ad_md_egyptian
+    endnode
+    node trimesh sam
+        parent ad_md_egyptian
+        alphakey
+            0 0 
+            0.666667 0 
+        endlist
+    endnode
+    node dummy ad_md_egyptian_DWK
+        parent ad_md_egyptian
+    endnode
+    node dummy 22_DWK_dp_closed_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_closed_02
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open1_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open2_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_closed
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open1
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open2
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy ad_md_egyptiangrnd
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhead
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhhit
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianimpc
+        parent ad_md_egyptian
+    endnode
+    node dummy TIN01_B13_03
+        parent ad_md_egyptian
+    endnode
+    node dummy piv1
+        parent TIN01_B13_03
+        orientationkey
+            0 1 0 0 0
+            0.666667 0 0 -1 -1.4399
+        endlist
+    endnode
+    node trimesh Box01
+        parent piv1
+        orientationkey
+            0 0 0 0 0
+            0.666667 0 0 0 0
+        endlist
+    endnode
+    node dummy piv2
+        parent TIN01_B13_03
+        orientationkey
+            0 1 0 0 0
+            0.666667 0 0 1 -1.4399
+        endlist
+    endnode
+    node trimesh Box02
+        parent piv2
+        orientationkey
+            0 0 0 -1 -3.14159
+            0.666667 0 0 -1 -3.14159
+        endlist
+    endnode
+doneanim opening2 ad_md_egyptian
+
+
+#NWmax ANIM ASCII
+newanim opened2 ad_md_egyptian
+  length 0.0333333
+  transtime 0
+  animroot ad_md_egyptian
+    node dummy ad_md_egyptian
+        parent NULL
+    endnode
+    node emitter fire!07
+        parent ad_md_egyptian
+    endnode
+    node trimesh sam
+        parent ad_md_egyptian
+        alphakey
+            0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node dummy ad_md_egyptian_DWK
+        parent ad_md_egyptian
+    endnode
+    node dummy 22_DWK_dp_closed_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_closed_02
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open1_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open2_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_closed
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open1
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open2
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy ad_md_egyptiangrnd
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhead
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhhit
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianimpc
+        parent ad_md_egyptian
+    endnode
+    node dummy TIN01_B13_03
+        parent ad_md_egyptian
+    endnode
+    node dummy piv1
+        parent TIN01_B13_03
+        orientationkey
+            0 0 0 -1 -1.4399
+            0.0333333 0 0 -1 -1.4399
+        endlist
+    endnode
+    node trimesh Box01
+        parent piv1
+        orientationkey
+            0 0 0 0 0
+            0.0333333 0 0 0 0
+        endlist
+    endnode
+    node dummy piv2
+        parent TIN01_B13_03
+        orientationkey
+            0 0 0 1 -1.4399
+            0.0333333 0 0 1 -1.4399
+        endlist
+    endnode
+    node trimesh Box02
+        parent piv2
+        orientationkey
+            0 0 0 -1 -3.14159
+            0.0333333 0 0 -1 -3.14159
+        endlist
+    endnode
+doneanim opened2 ad_md_egyptian
+
+
+#NWmax ANIM ASCII
+newanim closing2 ad_md_egyptian
+  length 0.666667
+  transtime 0.25
+  animroot ad_md_egyptian
+    node dummy ad_md_egyptian
+        parent NULL
+    endnode
+    node emitter fire!07
+        parent ad_md_egyptian
+    endnode
+    node trimesh sam
+        parent ad_md_egyptian
+        alphakey
+            0 0 
+            0.666667 0 
+        endlist
+    endnode
+    node dummy ad_md_egyptian_DWK
+        parent ad_md_egyptian
+    endnode
+    node dummy 22_DWK_dp_closed_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_closed_02
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open1_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open2_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_closed
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open1
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open2
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy ad_md_egyptiangrnd
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhead
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhhit
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianimpc
+        parent ad_md_egyptian
+    endnode
+    node dummy TIN01_B13_03
+        parent ad_md_egyptian
+    endnode
+    node dummy piv1
+        parent TIN01_B13_03
+        orientationkey
+            0 0 0 -1 -1.4399
+            0.666667 -0.900853 0 -0.434125 0
+        endlist
+    endnode
+    node trimesh Box01
+        parent piv1
+        orientationkey
+            0 0 0 0 0
+            0.666667 0 0 0 0
+        endlist
+    endnode
+    node dummy piv2
+        parent TIN01_B13_03
+        orientationkey
+            0 0 0 1 -1.4399
+            0.666667 -1 0 0 0
+        endlist
+    endnode
+    node trimesh Box02
+        parent piv2
+        orientationkey
+            0 0 0 -1 -3.14159
+            0.666667 0 0 -1 -3.14159
+        endlist
+    endnode
+doneanim closing2 ad_md_egyptian
+
+
+#NWmax ANIM ASCII
+newanim closed ad_md_egyptian
+  length 0.0333333
+  transtime 0
+  animroot ad_md_egyptian
+    node dummy ad_md_egyptian
+        parent NULL
+    endnode
+    node emitter fire!07
+        parent ad_md_egyptian
+    endnode
+    node trimesh sam
+        parent ad_md_egyptian
+        alphakey
+            0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node dummy ad_md_egyptian_DWK
+        parent ad_md_egyptian
+    endnode
+    node dummy 22_DWK_dp_closed_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_closed_02
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open1_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open2_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_closed
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open1
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open2
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy ad_md_egyptiangrnd
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhead
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhhit
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianimpc
+        parent ad_md_egyptian
+    endnode
+    node dummy TIN01_B13_03
+        parent ad_md_egyptian
+    endnode
+    node dummy piv1
+        parent TIN01_B13_03
+        orientationkey
+            0 0 0 0 0
+            0.0333333 0 0 0 0
+        endlist
+    endnode
+    node trimesh Box01
+        parent piv1
+        orientationkey
+            0 0 0 0 0
+            0.0333333 0 0 0 0
+        endlist
+    endnode
+    node dummy piv2
+        parent TIN01_B13_03
+        orientationkey
+            0 1 0 0 0
+            0.0333333 -0.999662 0 -0.0259898 0
+        endlist
+    endnode
+    node trimesh Box02
+        parent piv2
+        orientationkey
+            0 0 0 -1 -3.14159
+            0.0333333 0 0 -1 -3.14159
+        endlist
+    endnode
+doneanim closed ad_md_egyptian
+
+
+#NWmax ANIM ASCII
+newanim die ad_md_egyptian
+  length 0.666667
+  transtime 0.25
+  animroot ad_md_egyptian
+  event 0 detonate
+    node dummy ad_md_egyptian
+        parent NULL
+    endnode
+    node emitter fire!07
+        parent ad_md_egyptian
+    endnode
+    node trimesh sam
+        parent ad_md_egyptian
+        alphakey
+            0 0 
+            0.666667 0 
+        endlist
+    endnode
+    node dummy ad_md_egyptian_DWK
+        parent ad_md_egyptian
+    endnode
+    node dummy 22_DWK_dp_closed_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_closed_02
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open1_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open2_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_closed
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open1
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open2
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy ad_md_egyptiangrnd
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhead
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhhit
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianimpc
+        parent ad_md_egyptian
+    endnode
+    node dummy TIN01_B13_03
+        parent ad_md_egyptian
+        positionkey
+            0 0 0 0
+            0.666667 0 0 -3.2
+        endlist
+        orientationkey
+            0 0.8763 -0.462577 0.134616 0
+            0.666667 -0.702488 -0.47656 -0.528585 -0.460068
+        endlist
+    endnode
+    node dummy piv1
+        parent TIN01_B13_03
+    endnode
+    node trimesh Box01
+        parent piv1
+    endnode
+    node dummy piv2
+        parent TIN01_B13_03
+    endnode
+    node trimesh Box02
+        parent piv2
+    endnode
+doneanim die ad_md_egyptian
+
+
+#NWmax ANIM ASCII
+newanim dead ad_md_egyptian
+  length 0.0333333
+  transtime 0
+  animroot ad_md_egyptian
+    node dummy ad_md_egyptian
+        parent NULL
+    endnode
+    node emitter fire!07
+        parent ad_md_egyptian
+    endnode
+    node trimesh sam
+        parent ad_md_egyptian
+        alphakey
+            0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node dummy ad_md_egyptian_DWK
+        parent ad_md_egyptian
+    endnode
+    node dummy 22_DWK_dp_closed_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_closed_02
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open1_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy 22_DWK_dp_open2_01
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_closed
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open1
+        parent ad_md_egyptian_DWK
+    endnode
+    node aabb 22_DWK_wg_open2
+        parent ad_md_egyptian_DWK
+    endnode
+    node dummy ad_md_egyptiangrnd
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhead
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianhhit
+        parent ad_md_egyptian
+    endnode
+    node dummy ad_md_egyptianimpc
+        parent ad_md_egyptian
+    endnode
+    node dummy TIN01_B13_03
+        parent ad_md_egyptian
+        positionkey
+            0 0 0 -3.2
+            0.0333333 0 0 -3.2
+        endlist
+        orientationkey
+            0 -0.702488 -0.47656 -0.528585 -0.460068
+            0.0333333 -0.702488 -0.47656 -0.528585 -0.460068
+        endlist
+    endnode
+    node dummy piv1
+        parent TIN01_B13_03
+    endnode
+    node trimesh Box01
+        parent piv1
+    endnode
+    node dummy piv2
+        parent TIN01_B13_03
+    endnode
+    node trimesh Box02
+        parent piv2
+    endnode
+doneanim dead ad_md_egyptian
+donemodel ad_md_egyptian

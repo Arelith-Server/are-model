@@ -1,0 +1,1878 @@
+# Exported from NWmax 0.8 b60 at 06.04.2012 15:44:27
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: ad_wn_15
+#local file: Unknown
+filedependancy Unknown
+newmodel ad_wn_15
+setsupermodel ad_wn_15 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom ad_wn_15
+node dummy ad_wn_15
+  parent NULL
+endnode
+node dummy animate_me
+  parent ad_wn_15
+  position -1.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.694118 0.580392 0.101961 
+endnode
+node trimesh Object02
+  parent animate_me
+  position 1.0 -0.15 1.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.882353 0.341176 0.776471 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 9.99998 0.0 
+  bitmap tcm02_wood03
+  verts 24
+    -0.74 0.1 0.59
+    -0.74 0.1 -0.59
+    -0.16 0.1 -0.59
+    -0.16 0.1 0.59
+    0.16 0.1 0.59
+    0.16 0.0999998 -0.59
+    0.74 0.0999996 -0.59
+    0.74 0.0999998 0.59
+    -0.74 0.1 -1.34
+    -0.16 0.0999998 -1.34
+    -0.16 0.0999999 -0.91
+    -0.74 0.1 -0.91
+    0.16 0.0999997 -1.34
+    0.74 0.0999995 -1.34
+    0.74 0.0999996 -0.91
+    0.16 0.0999998 -0.91
+    -0.16 0.1 1.34
+    -0.74 0.1 1.34
+    -0.74 0.1 0.91
+    -0.16 0.1 0.91
+    0.74 0.1 1.34
+    0.16 0.1 1.34
+    0.16 0.1 0.91
+    0.74 0.0999999 0.91
+  faces 12
+    3 0 1  1  3 0 1  2
+    1 2 3  1  1 2 3  2
+    7 4 5  1  7 4 5  2
+    5 6 7  1  5 6 7  2
+    10 11 8  1  10 11 8  2
+    8 9 10  1  8 9 10  2
+    14 15 12  1  14 15 12  2
+    12 13 14  1  12 13 14  2
+    17 18 19  1  17 18 19  2
+    19 16 17  1  19 16 17  2
+    21 22 23  1  21 22 23  2
+    23 20 21  1  23 20 21  2
+  tverts 24
+    0.006666 0.893334 0
+    0.006666 0.106666 0
+    0.393334 0.106666 0
+    0.393334 0.893334 0
+    0.606666 0.893334 0
+    0.606666 0.106666 0
+    0.993334 0.106666 0
+    0.993334 0.893334 0
+    0.006666 -0.393333 0
+    0.393334 -0.393333 0
+    0.393334 -0.106666 0
+    0.006666 -0.106666 0
+    0.606666 -0.393333 0
+    0.993334 -0.393333 0
+    0.993334 -0.106666 0
+    0.606666 -0.106666 0
+    0.393334 1.39333 0
+    0.006666 1.39333 0
+    0.006666 1.10667 0
+    0.393334 1.10667 0
+    0.993334 1.39333 0
+    0.606666 1.39333 0
+    0.606666 1.10667 0
+    0.993334 1.10667 0
+endnode
+node trimesh Object03
+  parent animate_me
+  position 1.0 -0.15 1.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.882353 0.341176 0.776471 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 30.0 0.0 
+  bitmap tcm02_wood03
+  verts 4
+    0.8 0.3 -1.3
+    -0.8 0.3 -1.3
+    -0.8 0.3 1.3
+    0.8 0.3 1.3
+  faces 2
+    2 3 0  0  2 3 0  1
+    0 1 2  0  0 1 2  1
+  tverts 4
+    0.000500113 0.999501 0
+    0.999501 0.9995 0
+    0.9995 0.000499487 0
+    0.000499368 0.000499755 0
+endnode
+node trimesh Circle01
+  parent animate_me
+  position 1.87 -0.19 1.57
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.341176 0.882353 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 -0.625 0.0 
+  bitmap tcm02_metaltop
+  verts 24
+    0.0 -0.025 -0.0967169
+    0.0 0.0125 -0.0732793
+    0.0 0.0125 -0.120154
+    0.0683711 -0.025 -0.0683711
+    0.0518026 0.0125 -0.0518026
+    0.0849396 0.0125 -0.0849395
+    0.0967169 -0.025 0.0
+    0.0732793 0.0125 0.0
+    0.120154 0.0125 0.0
+    0.0683711 -0.025 0.0683711
+    0.0518026 0.0125 0.0518026
+    0.0849395 0.0125 0.0849396
+    0.0 -0.025 0.0967169
+    0.0 0.0125 0.0732793
+    0.0 0.0125 0.120154
+    -0.0683711 -0.025 0.0683711
+    -0.0518026 0.0125 0.0518026
+    -0.0849396 0.0125 0.0849395
+    -0.0967169 -0.025 0.0
+    -0.0732793 0.0125 0.0
+    -0.120154 0.0125 0.0
+    -0.0683711 -0.025 -0.0683711
+    -0.0518026 0.0125 -0.0518026
+    -0.0849395 0.0125 -0.0849396
+  faces 32
+    0 3 4  19  0 3 4  1
+    4 1 0  19  4 1 0  1
+    2 5 3  19  2 5 3  1
+    3 0 2  19  3 0 2  1
+    3 6 7  6  3 6 7  1
+    7 4 3  6  7 4 3  1
+    5 8 6  6  5 8 6  1
+    6 3 5  6  6 3 5  1
+    6 9 10  12  6 9 10  1
+    10 7 6  12  10 7 6  1
+    8 11 9  12  8 11 9  1
+    9 6 8  12  9 6 8  1
+    9 12 13  10  9 12 13  1
+    13 10 9  10  13 10 9  1
+    11 14 12  10  11 14 12  1
+    12 9 11  10  12 9 11  1
+    12 15 16  6  12 15 16  1
+    16 13 12  6  16 13 12  1
+    14 17 15  6  14 17 15  1
+    15 12 14  6  15 12 14  1
+    15 18 19  12  15 18 19  1
+    19 16 15  12  19 16 15  1
+    17 20 18  12  17 20 18  1
+    18 15 17  12  18 15 17  1
+    18 21 22  24  18 21 22  1
+    22 19 18  24  22 19 18  1
+    20 23 21  24  20 23 21  1
+    21 18 20  24  21 18 20  1
+    21 0 1  16  21 0 1  1
+    1 22 21  16  1 22 21  1
+    23 2 0  16  23 2 0  1
+    0 21 23  16  0 21 23  1
+  tverts 24
+    0.902067 0.5 0
+    0.804633 0.5 0
+    0.999501 0.5 0
+    0.784229 0.784229 0
+    0.715351 0.715351 0
+    0.853107 0.853107 0
+    0.5 0.902067 0
+    0.5 0.804633 0
+    0.5 0.9995 0
+    0.215771 0.784229 0
+    0.284649 0.715351 0
+    0.146893 0.853107 0
+    0.0979331 0.5 0
+    0.195367 0.5 0
+    0.000499517 0.5 0
+    0.215771 0.215771 0
+    0.284649 0.284649 0
+    0.146893 0.146893 0
+    0.5 0.0979331 0
+    0.5 0.195367 0
+    0.5 0.000499547 0
+    0.784229 0.215771 0
+    0.715351 0.284649 0
+    0.853107 0.146893 0
+endnode
+node trimesh Plane04
+  parent animate_me
+  position 1.0 -0.15 1.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.882353 0.341176 0.776471 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 15.0 0.0 
+  bitmap tcm02_wood01
+  verts 60
+    -1.0 0.0 -1.5
+    -0.8 3.95684e-007 0.65
+    -0.8 0.0 -1.4
+    -0.1 1.45345e-007 0.65
+    -0.1 -2.0026e-007 -1.4
+    0.1 0.0 0.65
+    0.1 -2.71785e-007 -1.4
+    1.0 -6.10509e-007 -1.5
+    0.8 -1.7652e-007 0.65
+    0.8 -5.22125e-007 -1.4
+    -0.8 1.7652e-007 -0.65
+    -0.1 0.0 -0.65
+    0.1 -1.45345e-007 -0.65
+    0.8 -3.95684e-007 -0.65
+    -0.8 1.42803e-007 -0.85
+    -0.1 0.0 -0.85
+    0.1 -1.79062e-007 -0.85
+    0.8 -4.29402e-007 -0.85
+    -1.0 6.10509e-007 1.5
+    -0.8 5.22125e-007 1.4
+    -0.1 2.71785e-007 1.4
+    1.0 0.0 1.5
+    0.1 2.0026e-007 1.4
+    0.8 0.0 1.4
+    -0.8 4.29402e-007 0.85
+    -0.1 1.79062e-007 0.85
+    0.1 0.0 0.85
+    0.8 -1.42803e-007 0.85
+    -0.74 0.1 0.59
+    -0.74 0.1 -0.59
+    -0.16 0.1 -0.59
+    -0.16 0.1 0.59
+    0.16 0.1 0.59
+    0.16 0.0999998 -0.59
+    0.74 0.0999996 -0.59
+    0.74 0.0999998 0.59
+    -0.74 0.1 -1.34
+    -0.16 0.0999998 -1.34
+    -0.16 0.0999999 -0.91
+    -0.74 0.1 -0.91
+    0.16 0.0999997 -1.34
+    0.74 0.0999995 -1.34
+    0.74 0.0999996 -0.91
+    0.16 0.0999998 -0.91
+    -0.16 0.1 1.34
+    -0.74 0.1 1.34
+    -0.74 0.1 0.91
+    -0.16 0.1 0.91
+    0.74 0.1 1.34
+    0.16 0.1 1.34
+    0.16 0.1 0.91
+    0.74 0.0999999 0.91
+    -1.0 0.3 -1.5
+    1.0 0.299999 -1.5
+    1.0 0.3 1.5
+    -1.0 0.300001 1.5
+    0.8 0.3 -1.3
+    -0.8 0.3 -1.3
+    -0.8 0.3 1.3
+    0.8 0.3 1.3
+  faces 102
+    0 4 2  1  60 61 62  1
+    7 6 4  1  63 64 65  1
+    4 0 7  1  66 67 68  1
+    7 9 6  1  69 70 71  1
+    0 10 1  1  72 73 74  1
+    5 3 11  1  75 76 77  1
+    11 12 5  1  78 79 80  1
+    21 8 13  1  81 82 83  1
+    13 7 21  1  84 85 86  1
+    0 14 10  1  87 88 89  1
+    11 10 14  1  90 91 92  1
+    14 15 11  1  93 94 95  1
+    12 11 15  1  96 97 98  1
+    15 16 12  1  99 100 101  1
+    13 12 16  1  102 103 104  1
+    16 17 13  1  105 106 107  1
+    7 13 17  1  108 109 110  1
+    0 2 14  1  111 112 113  1
+    16 15 4  1  114 115 116  1
+    4 6 16  1  117 118 119  1
+    7 17 9  1  120 121 122  1
+    20 18 19  1  123 124 125  1
+    20 22 21  1  126 127 128  1
+    21 18 20  1  129 130 131  1
+    23 21 22  1  132 133 134  1
+    18 0 1  1  135 136 137  1
+    1 24 18  1  138 139 140  1
+    24 1 3  1  141 142 143  1
+    3 25 24  1  144 145 146  1
+    25 3 5  1  147 148 149  1
+    5 26 25  1  150 151 152  1
+    26 5 8  1  153 154 155  1
+    8 27 26  1  156 157 158  1
+    8 21 27  1  159 160 161  1
+    19 18 24  1  162 163 164  1
+    20 25 26  1  165 166 167  1
+    26 22 20  1  168 169 170  1
+    27 21 23  1  171 172 173  1
+    1 10 29  0  174 175 176  2
+    29 28 1  0  177 178 179  2
+    10 11 30  0  180 181 182  2
+    30 29 10  0  183 29 10  2
+    11 3 31  0  184 185 186  2
+    31 30 11  0  187 30 11  2
+    3 1 28  0  188 1 189  2
+    28 31 3  0  28 31 3  2
+    5 12 33  0  190 191 192  2
+    33 32 5  0  193 194 195  2
+    12 13 34  0  196 197 198  2
+    34 33 12  0  199 33 12  2
+    13 8 35  0  200 201 202  2
+    35 34 13  0  203 34 13  2
+    8 5 32  0  204 5 205  2
+    32 35 8  0  32 35 8  2
+    2 4 37  0  206 207 208  2
+    37 36 2  0  209 210 211  2
+    4 15 38  0  212 213 214  2
+    38 37 4  0  215 37 4  2
+    15 14 39  0  216 217 218  2
+    39 38 15  0  219 38 15  2
+    14 2 36  0  220 2 221  2
+    36 39 14  0  36 39 14  2
+    6 9 41  0  222 223 224  2
+    41 40 6  0  225 226 227  2
+    9 17 42  0  228 229 230  2
+    42 41 9  0  231 41 9  2
+    17 16 43  0  232 233 234  2
+    43 42 17  0  235 42 17  2
+    16 6 40  0  236 6 237  2
+    40 43 16  0  40 43 16  2
+    20 19 45  0  238 239 240  2
+    45 44 20  0  241 242 243  2
+    19 24 46  0  244 245 246  2
+    46 45 19  0  247 45 19  2
+    24 25 47  0  248 249 250  2
+    47 46 24  0  251 46 24  2
+    25 20 44  0  252 20 253  2
+    44 47 25  0  44 47 25  2
+    23 22 49  0  254 255 256  2
+    49 48 23  0  257 258 259  2
+    22 26 50  0  260 261 262  2
+    50 49 22  0  263 49 22  2
+    26 27 51  0  264 265 266  2
+    51 50 26  0  267 50 26  2
+    27 23 48  0  268 23 269  2
+    48 51 27  0  48 51 27  2
+    52 53 7  1  270 271 272  1
+    7 0 52  1  273 274 275  1
+    53 54 21  1  276 277 278  1
+    21 7 53  1  279 7 280  1
+    54 55 18  1  281 282 283  1
+    18 21 54  1  284 21 285  1
+    55 52 0  1  286 287 288  1
+    0 18 55  1  0 18 289  1
+    53 52 57  0  290 291 292  1
+    57 56 53  0  293 294 295  1
+    52 55 58  0  296 297 298  1
+    58 57 52  0  299 57 52  1
+    55 54 59  0  300 301 302  1
+    59 58 55  0  303 58 55  1
+    54 53 56  0  304 53 305  1
+    56 59 54  0  56 59 54  1
+  tverts 306
+    1.0999 0.000999033 0
+    1.5328 0.9001 0
+    0.9001 0.0675991 0
+    1.0666 0.9001 0
+    1.0999 0.0675991 0
+    0.9334 0.9001 0
+    0.9001 0.0675991 0
+    0.900099 0.000999033 0
+    0.4672 0.9001 0
+    1.0999 0.0675991 0
+    0.467199 0.9001 0
+    1.0999 0.5671 0
+    1.0666 0.9001 0
+    1.0999 0.5671 0
+    0.9001 0.433899 0
+    1.0666 0.9001 0
+    0.9001 0.433899 0
+    0.4672 0.900099 0
+    1.0999 1.999 0
+    0.9001 1.9324 0
+    1.0999 1.9324 0
+    1.666 0.9001 0
+    0.9001 1.9324 0
+    1.0999 1.9324 0
+    0.467199 0.9001 0
+    1.0999 1.5661 0
+    1.0666 0.9001 0
+    1.0999 1.5661 0
+    1.49284 0.9667 0
+    0.507159 0.9667 0
+    1.0333 0.60706 0
+    1.10656 0.9667 0
+    0.89344 0.9667 0
+    1.10656 0.9667 0
+    1.0333 0.60706 0
+    0.50716 0.9667 0
+    0.9667 0.107559 0
+    1.0333 0.107559 0
+    1.10656 0.9667 0
+    0.9667 0.393939 0
+    0.9667 0.107559 0
+    1.0333 0.107559 0
+    0.50716 0.966699 0
+    0.9667 0.393939 0
+    1.0333 1.89244 0
+    0.9667 1.89244 0
+    0.507159 0.9667 0
+    1.0333 1.60606 0
+    1.0333 1.89244 0
+    0.9667 1.89244 0
+    1.10656 0.9667 0
+    1.0333 1.60606 0
+    1.666 0.000999033 0
+    0.333999 0.000999033 0
+    0.333999 1.999 0
+    1.666 1.999 0
+    0.467199 0.134199 0
+    1.5328 0.134199 0
+    1.5328 1.8658 0
+    0.467199 1.8658 0
+    0.333999 0.000999033 0
+    0.9334 0.0675991 0
+    0.467199 0.0675991 0
+    1.666 0.000999033 0
+    1.0666 0.0675991 0
+    0.9334 0.0675991 0
+    0.9334 0.0675991 0
+    0.333999 0.000999033 0
+    1.666 0.000999033 0
+    1.666 0.000999033 0
+    1.5328 0.0675991 0
+    1.0666 0.0675991 0
+    0.333999 0.000999033 0
+    0.467199 0.5671 0
+    0.467199 1.4329 0
+    1.0666 1.4329 0
+    0.9334 1.4329 0
+    0.9334 0.5671 0
+    0.9334 0.5671 0
+    1.0666 0.5671 0
+    1.0666 1.4329 0
+    1.666 1.999 0
+    1.5328 1.4329 0
+    1.5328 0.5671 0
+    1.5328 0.5671 0
+    1.666 0.000999033 0
+    1.666 1.999 0
+    0.333999 0.000999033 0
+    0.467199 0.433899 0
+    0.467199 0.5671 0
+    0.9334 0.5671 0
+    0.467199 0.5671 0
+    0.467199 0.433899 0
+    0.467199 0.433899 0
+    0.9334 0.433899 0
+    0.9334 0.5671 0
+    1.0666 0.5671 0
+    0.9334 0.5671 0
+    0.9334 0.433899 0
+    0.9334 0.433899 0
+    1.0666 0.433899 0
+    1.0666 0.5671 0
+    1.5328 0.5671 0
+    1.0666 0.5671 0
+    1.0666 0.433899 0
+    1.0666 0.433899 0
+    1.5328 0.433899 0
+    1.5328 0.5671 0
+    1.666 0.000999033 0
+    1.5328 0.5671 0
+    1.5328 0.433899 0
+    0.333999 0.000999033 0
+    0.467199 0.0675991 0
+    0.467199 0.433899 0
+    1.0666 0.433899 0
+    0.9334 0.433899 0
+    0.9334 0.0675991 0
+    0.9334 0.0675991 0
+    1.0666 0.0675991 0
+    1.0666 0.433899 0
+    1.666 0.000999033 0
+    1.5328 0.433899 0
+    1.5328 0.0675991 0
+    0.9334 1.9324 0
+    0.333999 1.999 0
+    0.467199 1.9324 0
+    0.9334 1.9324 0
+    1.0666 1.9324 0
+    1.666 1.999 0
+    1.666 1.999 0
+    0.333999 1.999 0
+    0.9334 1.9324 0
+    1.5328 1.9324 0
+    1.666 1.999 0
+    1.0666 1.9324 0
+    0.333999 1.999 0
+    0.333999 0.000999033 0
+    0.467199 1.4329 0
+    0.467199 1.4329 0
+    0.467199 1.5661 0
+    0.333999 1.999 0
+    0.467199 1.5661 0
+    0.467199 1.4329 0
+    0.9334 1.4329 0
+    0.9334 1.4329 0
+    0.9334 1.5661 0
+    0.467199 1.5661 0
+    0.9334 1.5661 0
+    0.9334 1.4329 0
+    1.0666 1.4329 0
+    1.0666 1.4329 0
+    1.0666 1.5661 0
+    0.9334 1.5661 0
+    1.0666 1.5661 0
+    1.0666 1.4329 0
+    1.5328 1.4329 0
+    1.5328 1.4329 0
+    1.5328 1.5661 0
+    1.0666 1.5661 0
+    1.5328 1.4329 0
+    1.666 1.999 0
+    1.5328 1.5661 0
+    0.467199 1.9324 0
+    0.333999 1.999 0
+    0.467199 1.5661 0
+    0.9334 1.9324 0
+    0.9334 1.5661 0
+    1.0666 1.5661 0
+    1.0666 1.5661 0
+    1.0666 1.9324 0
+    0.9334 1.9324 0
+    1.5328 1.5661 0
+    1.666 1.999 0
+    1.5328 1.9324 0
+    0.9001 1.4329 0
+    0.9001 0.5671 0
+    0.9667 0.60706 0
+    0.9667 0.60706 0
+    0.9667 1.39294 0
+    0.9001 1.4329 0
+    0.467199 0.9001 0
+    0.9334 0.9001 0
+    0.89344 0.9667 0
+    0.89344 0.9667 0
+    1.0999 0.5671 0
+    1.0999 1.4329 0
+    1.0333 1.39294 0
+    1.0333 1.39294 0
+    1.0666 0.9001 0
+    1.49284 0.9667 0
+    0.9001 1.4329 0
+    0.9001 0.5671 0
+    0.9667 0.60706 0
+    0.9667 0.60706 0
+    0.9667 1.39294 0
+    0.9001 1.4329 0
+    1.0666 0.9001 0
+    1.5328 0.900099 0
+    1.49284 0.966699 0
+    1.49284 0.966699 0
+    1.0999 0.5671 0
+    1.0999 1.4329 0
+    1.0333 1.39294 0
+    1.0333 1.39294 0
+    0.4672 0.9001 0
+    0.89344 0.9667 0
+    0.467199 0.9001 0
+    0.9334 0.9001 0
+    0.89344 0.9667 0
+    0.89344 0.9667 0
+    0.507159 0.9667 0
+    0.467199 0.9001 0
+    1.0999 0.0675991 0
+    1.0999 0.433899 0
+    1.0333 0.393939 0
+    1.0333 0.393939 0
+    1.0666 0.9001 0
+    1.5328 0.9001 0
+    1.49284 0.9667 0
+    1.49284 0.9667 0
+    0.9001 0.433899 0
+    0.9667 0.107559 0
+    1.0666 0.9001 0
+    1.5328 0.900099 0
+    1.49284 0.966699 0
+    1.49284 0.966699 0
+    1.10656 0.9667 0
+    1.0666 0.9001 0
+    1.0999 0.0675991 0
+    1.0999 0.433899 0
+    1.0333 0.393939 0
+    1.0333 0.393939 0
+    0.4672 0.900099 0
+    0.9334 0.9001 0
+    0.89344 0.9667 0
+    0.89344 0.9667 0
+    0.9001 0.433899 0
+    0.9667 0.107559 0
+    1.0666 0.9001 0
+    1.5328 0.9001 0
+    1.49284 0.9667 0
+    1.49284 0.9667 0
+    1.10656 0.9667 0
+    1.0666 0.9001 0
+    0.9001 1.9324 0
+    0.9001 1.5661 0
+    0.9667 1.60606 0
+    0.9667 1.60606 0
+    0.467199 0.9001 0
+    0.9334 0.9001 0
+    0.89344 0.9667 0
+    0.89344 0.9667 0
+    1.0999 1.5661 0
+    1.0333 1.89244 0
+    0.4672 0.9001 0
+    0.9334 0.9001 0
+    0.89344 0.9667 0
+    0.89344 0.9667 0
+    0.50716 0.9667 0
+    0.4672 0.9001 0
+    0.9001 1.9324 0
+    0.9001 1.5661 0
+    0.9667 1.60606 0
+    0.9667 1.60606 0
+    1.0666 0.9001 0
+    1.5328 0.9001 0
+    1.49284 0.9667 0
+    1.49284 0.9667 0
+    1.0999 1.5661 0
+    1.0333 1.89244 0
+    1.666 1.0999 0
+    0.333999 1.0999 0
+    0.333999 0.900099 0
+    0.333999 0.900099 0
+    1.666 0.9001 0
+    1.666 1.0999 0
+    1.0999 0.000999033 0
+    1.0999 1.999 0
+    0.9001 1.999 0
+    0.9001 1.999 0
+    1.0999 0.000999033 0
+    1.666 1.0999 0
+    0.333999 1.0999 0
+    0.333999 0.9001 0
+    0.333999 0.9001 0
+    1.666 1.0999 0
+    0.900099 1.999 0
+    0.9001 0.000999033 0
+    1.0999 0.000999033 0
+    0.900099 1.999 0
+    0.333999 0.000999033 0
+    1.666 0.000999033 0
+    1.5328 0.134199 0
+    1.5328 0.134199 0
+    0.467199 0.134199 0
+    0.333999 0.000999033 0
+    1.666 0.000999033 0
+    1.666 1.999 0
+    1.5328 1.8658 0
+    1.5328 1.8658 0
+    1.666 1.999 0
+    0.333999 1.999 0
+    0.467199 1.8658 0
+    0.467199 1.8658 0
+    0.333999 1.999 0
+    0.467199 0.134199 0
+endnode
+node trimesh SAM
+  parent ad_wn_15
+  position 0.0 0.0 1.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.109804 0.694118 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 1
+  selfillumcolor 0.109804 0.109804 0.694118 
+  ambient 0.0 0.0 0.0 
+  diffuse 0.0 0.0 0.0 
+  specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 0.0 
+  bitmap NULL
+  verts 4
+    -1.0 0.0 -1.5
+    1.0 0.0 -1.5
+    -1.0 0.0 1.5
+    1.0 0.0 1.5
+  faces 4
+    2 0 3  1  0 0 0  1
+    1 3 0  1  0 0 0  1
+    0 2 3  1  0 0 0  1
+    3 1 0  1  0 0 0  1
+endnode
+node dummy ad_wn_15grnd
+  parent ad_wn_15
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.345098 0.882353 
+endnode
+node dummy ad_wn_15impc
+  parent ad_wn_15
+  position 0.0 0.0 1.75
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.345098 0.882353 
+endnode
+node dummy ad_wn_15hhit
+  parent ad_wn_15
+  position 0.0 0.0 2.25
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.345098 0.882353 
+endnode
+node dummy ad_wn_15head
+  parent ad_wn_15
+  position 0.0 0.0 2.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.345098 0.882353 
+endnode
+node emitter fire!07
+  parent ad_wn_15
+  position 0.0 0.0 0.8
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+endmodelgeom ad_wn_15
+#NWmax ANIM ASCII
+newanim closed ad_wn_15
+  length 0.0333333
+  transtime 0.25
+  animroot ad_wn_15
+    node dummy ad_wn_15
+        parent NULL
+    endnode
+    node dummy animate_me
+        parent ad_wn_15
+        positionkey
+            0.0 -1.0 0.0 0.0
+            0.0333333 -1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Object02
+        parent animate_me
+    endnode
+    node trimesh Object03
+        parent animate_me
+    endnode
+    node trimesh Circle01
+        parent animate_me
+    endnode
+    node trimesh Plane04
+        parent animate_me
+    endnode
+    node trimesh SAM
+        parent ad_wn_15
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy ad_wn_15grnd
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15impc
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15hhit
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15head
+        parent ad_wn_15
+    endnode
+    node emitter fire!07
+        parent ad_wn_15
+        alphaStartkey
+            0.0 1.0 
+        endlist
+        alphaEndkey
+            0.0 0.0 
+        endlist
+        birthratekey
+            0.0 10 
+        endlist
+        bounce_cokey
+            0.0 0.0 
+        endlist
+        colorStartkey
+            0.0 0.47451 0.439216 0.364706 
+        endlist
+        colorEndkey
+            0.0 0.819608 0.796079 0.709804 
+        endlist
+        combinetimekey
+            0.0 0.0 
+        endlist
+        dragkey
+            0.0 0.0 
+        endlist
+        fpskey
+            0.0 10 
+        endlist
+        frameStartkey
+            0.0 0 
+        endlist
+        frameEndkey
+            0.0 24 
+        endlist
+        gravkey
+            0.0 0.0 
+        endlist
+        lifeExpkey
+            0.0 2.5 
+        endlist
+        lightningDelaykey
+            0.0 0.0 
+        endlist
+        lightningRadiuskey
+            0.0 0.0 
+        endlist
+        lightningScalekey
+            0.0 0.0 
+        endlist
+        masskey
+            0.0 0.09 
+        endlist
+        p2p_bezier2key
+            0.0 0.0 
+        endlist
+        p2p_bezier3key
+            0.0 0.0 
+        endlist
+        particleRotkey
+            0.0 0.5 
+        endlist
+        sizeStartkey
+            0.0 4.0 
+        endlist
+        sizeEndkey
+            0.0 1.0 
+        endlist
+        spreadkey
+            0.0 2.96706 
+        endlist
+        velocitykey
+            0.0 2.0 
+        endlist
+        xsizekey
+            0.0 100.0 
+        endlist
+        ysizekey
+            0.0 99.0 
+        endlist
+    endnode
+    node dummy ad_wn_15_DWK
+        parent ad_wn_15
+    endnode
+    node dummy 10_DWK_dp_open1_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_open2_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_02
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open2
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_closed
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open1
+        parent ad_wn_15_DWK
+    endnode
+doneanim closed ad_wn_15
+#NWmax ANIM ASCII
+newanim damage ad_wn_15
+  length 0.2
+  transtime 0.25
+  animroot ad_wn_15
+    node dummy ad_wn_15
+        parent NULL
+    endnode
+    node dummy animate_me
+        parent ad_wn_15
+        positionkey
+            0.0 -1.0 0.08 0.0
+            0.2 -1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Object02
+        parent animate_me
+    endnode
+    node trimesh Object03
+        parent animate_me
+    endnode
+    node trimesh Circle01
+        parent animate_me
+    endnode
+    node trimesh Plane04
+        parent animate_me
+    endnode
+    node trimesh SAM
+        parent ad_wn_15
+        alphakey
+            0.0 0.0 
+            0.2 0.0 
+        endlist
+    endnode
+    node dummy ad_wn_15grnd
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15impc
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15hhit
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15head
+        parent ad_wn_15
+    endnode
+    node emitter fire!07
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15_DWK
+        parent ad_wn_15
+    endnode
+    node dummy 10_DWK_dp_open1_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_open2_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_02
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open2
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_closed
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open1
+        parent ad_wn_15_DWK
+    endnode
+doneanim damage ad_wn_15
+#NWmax ANIM ASCII
+newanim opening1 ad_wn_15
+  length 1.0
+  transtime 0.25
+  animroot ad_wn_15
+    node dummy ad_wn_15
+        parent NULL
+    endnode
+    node dummy animate_me
+        parent ad_wn_15
+        positionkey
+            0.0 -1.0 0.0 0.0
+            1.0 -1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            1.0 0.0 0.0 1.0 -1.48353
+        endlist
+    endnode
+    node trimesh Object02
+        parent animate_me
+    endnode
+    node trimesh Object03
+        parent animate_me
+    endnode
+    node trimesh Circle01
+        parent animate_me
+    endnode
+    node trimesh Plane04
+        parent animate_me
+    endnode
+    node trimesh SAM
+        parent ad_wn_15
+        alphakey
+            0.0 0.0 
+            1.0 0.0 
+        endlist
+    endnode
+    node dummy ad_wn_15grnd
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15impc
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15hhit
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15head
+        parent ad_wn_15
+    endnode
+    node emitter fire!07
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15_DWK
+        parent ad_wn_15
+    endnode
+    node dummy 10_DWK_dp_open1_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_open2_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_02
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open2
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_closed
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open1
+        parent ad_wn_15_DWK
+    endnode
+doneanim opening1 ad_wn_15
+#NWmax ANIM ASCII
+newanim opened1 ad_wn_15
+  length 0.0333333
+  transtime 0.25
+  animroot ad_wn_15
+    node dummy ad_wn_15
+        parent NULL
+    endnode
+    node dummy animate_me
+        parent ad_wn_15
+        positionkey
+            0.0 -1.0 0.0 0.0
+            0.0333333 -1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 1.0 -1.48353
+            0.0333333 0.0 0.0 1.0 -1.48353
+        endlist
+    endnode
+    node trimesh Object02
+        parent animate_me
+    endnode
+    node trimesh Object03
+        parent animate_me
+    endnode
+    node trimesh Circle01
+        parent animate_me
+    endnode
+    node trimesh Plane04
+        parent animate_me
+    endnode
+    node trimesh SAM
+        parent ad_wn_15
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy ad_wn_15grnd
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15impc
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15hhit
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15head
+        parent ad_wn_15
+    endnode
+    node emitter fire!07
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15_DWK
+        parent ad_wn_15
+    endnode
+    node dummy 10_DWK_dp_open1_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_open2_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_02
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open2
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_closed
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open1
+        parent ad_wn_15_DWK
+    endnode
+doneanim opened1 ad_wn_15
+#NWmax ANIM ASCII
+newanim closing1 ad_wn_15
+  length 0.666667
+  transtime 0.25
+  animroot ad_wn_15
+    node dummy ad_wn_15
+        parent NULL
+    endnode
+    node dummy animate_me
+        parent ad_wn_15
+        positionkey
+            0.0 -1.0 0.0 0.0
+            0.666667 -1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 1.0 -1.48353
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Object02
+        parent animate_me
+    endnode
+    node trimesh Object03
+        parent animate_me
+    endnode
+    node trimesh Circle01
+        parent animate_me
+    endnode
+    node trimesh Plane04
+        parent animate_me
+    endnode
+    node trimesh SAM
+        parent ad_wn_15
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node dummy ad_wn_15grnd
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15impc
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15hhit
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15head
+        parent ad_wn_15
+    endnode
+    node emitter fire!07
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15_DWK
+        parent ad_wn_15
+    endnode
+    node dummy 10_DWK_dp_open1_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_open2_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_02
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open2
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_closed
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open1
+        parent ad_wn_15_DWK
+    endnode
+doneanim closing1 ad_wn_15
+#NWmax ANIM ASCII
+newanim opening2 ad_wn_15
+  length 1.0
+  transtime 0.25
+  animroot ad_wn_15
+    node dummy ad_wn_15
+        parent NULL
+    endnode
+    node dummy animate_me
+        parent ad_wn_15
+        positionkey
+            0.0 -1.0 0.0 0.0
+            1.0 -1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            1.0 0.0 0.0 -1.0 -1.48353
+        endlist
+    endnode
+    node trimesh Object02
+        parent animate_me
+    endnode
+    node trimesh Object03
+        parent animate_me
+    endnode
+    node trimesh Circle01
+        parent animate_me
+    endnode
+    node trimesh Plane04
+        parent animate_me
+    endnode
+    node trimesh SAM
+        parent ad_wn_15
+        alphakey
+            0.0 0.0 
+            1.0 0.0 
+        endlist
+    endnode
+    node dummy ad_wn_15grnd
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15impc
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15hhit
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15head
+        parent ad_wn_15
+    endnode
+    node emitter fire!07
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15_DWK
+        parent ad_wn_15
+    endnode
+    node dummy 10_DWK_dp_open1_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_open2_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_02
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open2
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_closed
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open1
+        parent ad_wn_15_DWK
+    endnode
+doneanim opening2 ad_wn_15
+#NWmax ANIM ASCII
+newanim opened2 ad_wn_15
+  length 0.0333333
+  transtime 0.25
+  animroot ad_wn_15
+    node dummy ad_wn_15
+        parent NULL
+    endnode
+    node dummy animate_me
+        parent ad_wn_15
+        positionkey
+            0.0 -1.0 0.0 0.0
+            0.0333333 -1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 -1.0 -1.48353
+            0.0333333 0.0 0.0 -1.0 -1.48353
+        endlist
+    endnode
+    node trimesh Object02
+        parent animate_me
+    endnode
+    node trimesh Object03
+        parent animate_me
+    endnode
+    node trimesh Circle01
+        parent animate_me
+    endnode
+    node trimesh Plane04
+        parent animate_me
+    endnode
+    node trimesh SAM
+        parent ad_wn_15
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy ad_wn_15grnd
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15impc
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15hhit
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15head
+        parent ad_wn_15
+    endnode
+    node emitter fire!07
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15_DWK
+        parent ad_wn_15
+    endnode
+    node dummy 10_DWK_dp_open1_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_open2_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_02
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open2
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_closed
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open1
+        parent ad_wn_15_DWK
+    endnode
+doneanim opened2 ad_wn_15
+#NWmax ANIM ASCII
+newanim closing2 ad_wn_15
+  length 0.666667
+  transtime 0.25
+  animroot ad_wn_15
+    node dummy ad_wn_15
+        parent NULL
+    endnode
+    node dummy animate_me
+        parent ad_wn_15
+        positionkey
+            0.0 -1.0 0.0 0.0
+            0.666667 -1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 -1.0 -1.48353
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Object02
+        parent animate_me
+    endnode
+    node trimesh Object03
+        parent animate_me
+    endnode
+    node trimesh Circle01
+        parent animate_me
+    endnode
+    node trimesh Plane04
+        parent animate_me
+    endnode
+    node trimesh SAM
+        parent ad_wn_15
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node dummy ad_wn_15grnd
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15impc
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15hhit
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15head
+        parent ad_wn_15
+    endnode
+    node emitter fire!07
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15_DWK
+        parent ad_wn_15
+    endnode
+    node dummy 10_DWK_dp_open1_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_open2_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_02
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open2
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_closed
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open1
+        parent ad_wn_15_DWK
+    endnode
+doneanim closing2 ad_wn_15
+#NWmax ANIM ASCII
+newanim die ad_wn_15
+  length 0.666667
+  transtime 0.25
+  animroot ad_wn_15
+  event 0.0 detonate
+    node dummy ad_wn_15
+        parent NULL
+    endnode
+    node dummy animate_me
+        parent ad_wn_15
+        positionkey
+            0.0 -1.0 0.0 0.0
+            0.166667 -1.0 0.0 -0.2
+            0.333333 -1.0 0.0 -0.5
+            0.666667 -1.0 0.0 -4.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.166667 0.0 -1.0 0.0 -0.436332
+            0.333333 -1.0 0.0 0.0 -0.523599
+            0.666667 -1.0 0.0 0.0 -1.22173
+        endlist
+    endnode
+    node trimesh Object02
+        parent animate_me
+    endnode
+    node trimesh Object03
+        parent animate_me
+    endnode
+    node trimesh Circle01
+        parent animate_me
+    endnode
+    node trimesh Plane04
+        parent animate_me
+    endnode
+    node trimesh SAM
+        parent ad_wn_15
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node dummy ad_wn_15grnd
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15impc
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15hhit
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15head
+        parent ad_wn_15
+    endnode
+    node emitter fire!07
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15_DWK
+        parent ad_wn_15
+    endnode
+    node dummy 10_DWK_dp_open1_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_open2_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_02
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open2
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_closed
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open1
+        parent ad_wn_15_DWK
+    endnode
+doneanim die ad_wn_15
+#NWmax ANIM ASCII
+newanim dead ad_wn_15
+  length 0.0333333
+  transtime 0.25
+  animroot ad_wn_15
+    node dummy ad_wn_15
+        parent NULL
+    endnode
+    node dummy animate_me
+        parent ad_wn_15
+        positionkey
+            0.0 -1.0 0.0 -5.0
+            0.0333333 -1.0 0.0 -5.0
+        endlist
+    endnode
+    node trimesh Object02
+        parent animate_me
+    endnode
+    node trimesh Object03
+        parent animate_me
+    endnode
+    node trimesh Circle01
+        parent animate_me
+    endnode
+    node trimesh Plane04
+        parent animate_me
+    endnode
+    node trimesh SAM
+        parent ad_wn_15
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy ad_wn_15grnd
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15impc
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15hhit
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15head
+        parent ad_wn_15
+    endnode
+    node emitter fire!07
+        parent ad_wn_15
+        positionkey
+            0.0 0.0 0.0 0.8
+        endlist
+        orientationkey
+            0.0 1.0 0.0 0.0 -1.57079
+        endlist
+        alphaStartkey
+            0.0 1.0 
+        endlist
+        alphaEndkey
+            0.0 0.0 
+        endlist
+        birthratekey
+            0.0 10 
+        endlist
+        bounce_cokey
+            0.0 0.0 
+        endlist
+        colorStartkey
+            0.0 0.47451 0.439216 0.364706 
+        endlist
+        colorEndkey
+            0.0 0.819608 0.796079 0.709804 
+        endlist
+        combinetimekey
+            0.0 0.0 
+        endlist
+        dragkey
+            0.0 0.0 
+        endlist
+        fpskey
+            0.0 10 
+        endlist
+        frameStartkey
+            0.0 0 
+        endlist
+        frameEndkey
+            0.0 24 
+        endlist
+        gravkey
+            0.0 0.0 
+        endlist
+        lifeExpkey
+            0.0 2.5 
+        endlist
+        lightningDelaykey
+            0.0 0.0 
+        endlist
+        lightningRadiuskey
+            0.0 0.0 
+        endlist
+        lightningScalekey
+            0.0 0.0 
+        endlist
+        masskey
+            0.0 0.09 
+        endlist
+        p2p_bezier2key
+            0.0 0.0 
+        endlist
+        p2p_bezier3key
+            0.0 0.0 
+        endlist
+        particleRotkey
+            0.0 0.5 
+        endlist
+        sizeStartkey
+            0.0 4.0 
+        endlist
+        sizeEndkey
+            0.0 1.0 
+        endlist
+        spreadkey
+            0.0 2.96706 
+        endlist
+        velocitykey
+            0.0 2.0 
+        endlist
+        xsizekey
+            0.0 100.0 
+        endlist
+        ysizekey
+            0.0 99.0 
+        endlist
+    endnode
+    node dummy ad_wn_15_DWK
+        parent ad_wn_15
+    endnode
+    node dummy 10_DWK_dp_open1_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_open2_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_02
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open2
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_closed
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open1
+        parent ad_wn_15_DWK
+    endnode
+doneanim dead ad_wn_15
+#NWmax ANIM ASCII
+newanim trans ad_wn_15
+  length 0.0333333
+  transtime 0.25
+  animroot ad_wn_15
+    node dummy ad_wn_15
+        parent NULL
+    endnode
+    node dummy animate_me
+        parent ad_wn_15
+    endnode
+    node trimesh Object02
+        parent animate_me
+    endnode
+    node trimesh Object03
+        parent animate_me
+    endnode
+    node trimesh Circle01
+        parent animate_me
+    endnode
+    node trimesh Plane04
+        parent animate_me
+    endnode
+    node trimesh SAM
+        parent ad_wn_15
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node dummy ad_wn_15grnd
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15impc
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15hhit
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15head
+        parent ad_wn_15
+    endnode
+    node emitter fire!07
+        parent ad_wn_15
+    endnode
+    node dummy ad_wn_15_DWK
+        parent ad_wn_15
+    endnode
+    node dummy 10_DWK_dp_open1_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_open2_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_01
+        parent ad_wn_15_DWK
+    endnode
+    node dummy 10_DWK_dp_closed_02
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open2
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_closed
+        parent ad_wn_15_DWK
+    endnode
+    node trimesh 10_DWK_wg_open1
+        parent ad_wn_15_DWK
+    endnode
+doneanim trans ad_wn_15
+donemodel ad_wn_15
