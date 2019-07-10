@@ -2,50 +2,50 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: PLC_I_POT0
+# model: sp_i_pot01
 #local file: F:\nwn_mods\!_misc content\CARC_doa\_PLC_I_POTI.max
 filedependancy _PLC_I_POTI.max
-newmodel PLC_I_POT0
-setsupermodel PLC_I_POT0 NULL
+newmodel sp_i_pot01
+setsupermodel sp_i_pot01 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom PLC_I_POT0
-node dummy PLC_I_POT0
+beginmodelgeom sp_i_pot01
+node dummy sp_i_pot01
   parent NULL
 endnode
 node dummy C07_hand
-  parent PLC_I_POT0
+  parent sp_i_pot01
   position 0.00398437 -0.505195 0.154471
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.109804 0.584314 
 endnode
 node dummy C07_head
-  parent PLC_I_POT0
+  parent sp_i_pot01
   position 0.00398437 0.0108252 0.70564
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.109804 0.584314 
 endnode
 node dummy C07_head_hit
-  parent PLC_I_POT0
+  parent sp_i_pot01
   position 0.00398437 0.0108252 0.224162
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.109804 0.584314 
 endnode
 node dummy C07_impact
-  parent PLC_I_POT0
+  parent sp_i_pot01
   position 0.00398437 0.011001 0.0882033
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.109804 0.584314 
 endnode
 node dummy C07_ground
-  parent PLC_I_POT0
+  parent sp_i_pot01
   position -0.00363281 0.0069873 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.109804 0.109804 0.694118 
 endnode
 node trimesh bottle_bottom
-  parent PLC_I_POT0
+  parent sp_i_pot01
   position 0.0 0.000187206 0.0654666
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -737,5 +737,5 @@ node trimesh Box03
     0.730324 0.697362 0
     0.720971 0.661646 0
 endnode
-endmodelgeom PLC_I_POT0
-donemodel PLC_I_POT0
+endmodelgeom sp_i_pot01
+donemodel sp_i_pot01

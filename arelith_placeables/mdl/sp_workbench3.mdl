@@ -2,16 +2,16 @@
 # mdl file
 #
 filedependancy Unknown
-newmodel Workbench3
-setsupermodel Workbench3 NULL
+newmodel sp_workbench3
+setsupermodel sp_workbench3 NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom Workbench3
-node dummy Workbench3
+beginmodelgeom sp_workbench3
+node dummy sp_workbench3
     parent NULL
 endnode
 node trimesh PLC_MC_CBENCH03
-    parent Workbench3
+    parent sp_workbench3
     position 0.0 0.0 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -2464,7 +2464,7 @@ node trimesh PLC_MC_CBENCH03
         0.81072 0.817281 0
 endnode
 node trimesh PLC_MC_CBENCH03A
-    parent Workbench3
+    parent sp_workbench3
     position 0.0 0.0 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -3298,5 +3298,5 @@ node trimesh PLC_MC_CBENCH03A
         0.654316 0.752176 0
         0.654334 0.742859 0
 endnode
-endmodelgeom Workbench3
-donemodel Workbench3
+endmodelgeom sp_workbench3
+donemodel sp_workbench3

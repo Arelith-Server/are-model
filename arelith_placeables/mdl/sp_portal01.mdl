@@ -1,16 +1,16 @@
 #MAXMODEL ASCII
-# model: vpl_portal01 
-filedependancy vpl_portal01.max
-newmodel vpl_portal01 
-setsupermodel vpl_portal01 NULL
+# model: sp_portal01 
+filedependancy sp_portal01.max
+newmodel sp_portal01 
+setsupermodel sp_portal01 NULL
 classification Item
 #MAXGEOM  ASCII
-beginmodelgeom vpl_portal01 
-node dummy vpl_portal01 
+beginmodelgeom sp_portal01 
+node dummy sp_portal01 
   parent NULL 
 endnode
 node trimesh Ellipse02 
-  parent vpl_portal01 
+  parent sp_portal01 
   position 0.0 0.0 1.7
   orientation  -1.0 0.0 0.0  -1.5708
   wirecolor 0.839216 0.894118 0.6  
@@ -804,7 +804,7 @@ node trimesh Ellipse02
      1.4985 0.000498688 0 
 endnode
 node trimesh ForcePlane 
-  parent vpl_portal01 
+  parent sp_portal01 
   position 0.0 -0.01 0.01
   orientation  0.0 0.0 0.0  0.0
   wirecolor 0.898039 0.65098 0.843137  
@@ -912,7 +912,7 @@ node trimesh ForcePlane
      0.000499517 0.000499547 0 
 endnode
 node trimesh ForcePlane01 
-  parent vpl_portal01 
+  parent sp_portal01 
   position 0.0 0.01 0.01
   orientation  0.0 0.0 0.0  0.0
   wirecolor 0.898039 0.65098 0.843137  
@@ -1019,25 +1019,25 @@ node trimesh ForcePlane01
      0.999501 0.000499547 0 
      0.000499517 0.000499547 0 
 endnode
-endmodelgeom vpl_portal01 
+endmodelgeom sp_portal01 
 
 #MAXANIM ASCII
-newanim default vpl_portal01 
+newanim default sp_portal01 
  length 0.0
  transtime 0.25
-animroot vpl_portal01
-node dummy vpl_portal01 
+animroot sp_portal01
+node dummy sp_portal01 
   parent NULL 
 endnode
 node trimesh Ellipse02 
-  parent vpl_portal01 
+  parent sp_portal01 
     centerkey
     endlist
     gizmokey
     endlist
 endnode
 node trimesh ForcePlane 
-  parent vpl_portal01 
+  parent sp_portal01 
     positionkey 
       0.0  0.0 -0.01 0.01
     endlist 
@@ -1050,7 +1050,7 @@ node trimesh ForcePlane
     endlist
 endnode
 node trimesh ForcePlane01 
-  parent vpl_portal01 
+  parent sp_portal01 
     positionkey 
       0.0  0.0 0.01 0.01
     endlist 
@@ -1062,31 +1062,31 @@ node trimesh ForcePlane01
     gizmokey
     endlist
 endnode
-node dummy vpl_portal01_PWK 
-  parent vpl_portal01 
+node dummy sp_portal01_PWK 
+  parent sp_portal01 
 endnode
 node dummy NOWALK 
-  parent vpl_portal01_PWK 
+  parent sp_portal01_PWK 
 endnode
-doneanim default vpl_portal01 
+doneanim default sp_portal01 
 
 #MAXANIM ASCII
-newanim on vpl_portal01 
+newanim on sp_portal01 
  length 0.0
  transtime 0.25
-animroot vpl_portal01
-node dummy vpl_portal01 
+animroot sp_portal01
+node dummy sp_portal01 
   parent NULL 
 endnode
 node trimesh Ellipse02 
-  parent vpl_portal01 
+  parent sp_portal01 
     centerkey
     endlist
     gizmokey
     endlist
 endnode
 node trimesh ForcePlane 
-  parent vpl_portal01 
+  parent sp_portal01 
     positionkey 
       0.0  0.0 -0.01 0.01
     endlist 
@@ -1098,7 +1098,7 @@ node trimesh ForcePlane
     endlist
 endnode
 node trimesh ForcePlane01 
-  parent vpl_portal01 
+  parent sp_portal01 
     positionkey 
       0.0  0.0 0.01 0.01
     endlist 
@@ -1109,31 +1109,31 @@ node trimesh ForcePlane01
     gizmokey
     endlist
 endnode
-node dummy vpl_portal01_PWK 
-  parent vpl_portal01 
+node dummy sp_portal01_PWK 
+  parent sp_portal01 
 endnode
 node dummy NOWALK 
-  parent vpl_portal01_PWK 
+  parent sp_portal01_PWK 
 endnode
-doneanim on vpl_portal01 
+doneanim on sp_portal01 
 
 #MAXANIM ASCII
-newanim off vpl_portal01 
+newanim off sp_portal01 
  length 0.0
  transtime 0.25
-animroot vpl_portal01
-node dummy vpl_portal01 
+animroot sp_portal01
+node dummy sp_portal01 
   parent NULL 
 endnode
 node trimesh Ellipse02 
-  parent vpl_portal01 
+  parent sp_portal01 
     centerkey
     endlist
     gizmokey
     endlist
 endnode
 node trimesh ForcePlane 
-  parent vpl_portal01 
+  parent sp_portal01 
     positionkey 
       0.0  0.0 -0.01 -3.5
     endlist 
@@ -1146,7 +1146,7 @@ node trimesh ForcePlane
     endlist
 endnode
 node trimesh ForcePlane01 
-  parent vpl_portal01 
+  parent sp_portal01 
     positionkey 
       0.0  0.0 0.01 -3.5
     endlist 
@@ -1158,13 +1158,13 @@ node trimesh ForcePlane01
     gizmokey
     endlist
 endnode
-node dummy vpl_portal01_PWK 
-  parent vpl_portal01 
+node dummy sp_portal01_PWK 
+  parent sp_portal01 
 endnode
 node dummy NOWALK 
-  parent vpl_portal01_PWK 
+  parent sp_portal01_PWK 
 endnode
-doneanim off vpl_portal01 
+doneanim off sp_portal01 
 
-donemodel vpl_portal01 
+donemodel sp_portal01 
 

@@ -2,16 +2,16 @@
 # mdl file
 #
 filedependancy Unknown
-newmodel PLC_v2BlkTrim
-setsupermodel PLC_v2BlkTrim NULL
+newmodel sp_v2_marb_bw
+setsupermodel sp_v2_marb_bw NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom PLC_v2BlkTrim
-node dummy PLC_v2BlkTrim
+beginmodelgeom sp_v2_marb_bw
+node dummy sp_v2_marb_bw
     parent NULL
 endnode
 node trimesh damage44
-    parent PLC_v2BlkTrim
+    parent sp_v2_marb_bw
     position 0.0 0.0 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -583,7 +583,7 @@ node trimesh NGon02
         0.769356 0.0 0
 endnode
 node emitter ChunkyWood133
-    parent PLC_v2BlkTrim
+    parent sp_v2_marb_bw
     position -0.010628 0.033838 0.606715
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -644,7 +644,7 @@ node emitter ChunkyWood133
     Splat 0
 endnode
 node emitter fire!84
-    parent PLC_v2BlkTrim
+    parent sp_v2_marb_bw
     position -0.010628 0.033838 0.532671
     orientation 1.0 0.0 0.0 -4.71239
     scale 1.0
@@ -704,18 +704,18 @@ node emitter fire!84
     m_isTinted 1
     Splat 0
 endnode
-endmodelgeom PLC_v2BlkTrim
+endmodelgeom sp_v2_marb_bw
 
 #GMAXANIM ASCII
-newanim damage PLC_v2BlkTrim
+newanim damage sp_v2_marb_bw
     length 0.133333
     transtime 0.0
-    animroot PLC_v2BlkTrim
-    node dummy PLC_v2BlkTrim
+    animroot sp_v2_marb_bw
+    node dummy sp_v2_marb_bw
         parent NULL
     endnode
     node trimesh damage44
-        parent PLC_v2BlkTrim
+        parent sp_v2_marb_bw
         positionkey
             0.0 0.0 0.0 0.0
             0.0333333 0.0 0.0 0.024458
@@ -732,26 +732,26 @@ newanim damage PLC_v2BlkTrim
         parent damage44
     endnode
     node emitter ChunkyWood133
-        parent PLC_v2BlkTrim
+        parent sp_v2_marb_bw
     endnode
     node emitter fire!84
-        parent PLC_v2BlkTrim
+        parent sp_v2_marb_bw
     endnode
-doneanim damage PLC_v2BlkTrim
+doneanim damage sp_v2_marb_bw
 
 
 #GMAXANIM ASCII
-newanim die PLC_v2BlkTrim
+newanim die sp_v2_marb_bw
     length 0.166667
     transtime 0.0
-    animroot PLC_v2BlkTrim
+    animroot sp_v2_marb_bw
     event 0.0333333 detonate
     event 0.0333333 detonate
-    node dummy PLC_v2BlkTrim
+    node dummy sp_v2_marb_bw
         parent NULL
     endnode
     node trimesh damage44
-        parent PLC_v2BlkTrim
+        parent sp_v2_marb_bw
         positionkey
             0.0 0.0 0.0 0.0
             0.166667 0.0 0.0 -5.77279
@@ -764,24 +764,24 @@ newanim die PLC_v2BlkTrim
         parent damage44
     endnode
     node emitter ChunkyWood133
-        parent PLC_v2BlkTrim
+        parent sp_v2_marb_bw
     endnode
     node emitter fire!84
-        parent PLC_v2BlkTrim
+        parent sp_v2_marb_bw
     endnode
-doneanim die PLC_v2BlkTrim
+doneanim die sp_v2_marb_bw
 
 
 #GMAXANIM ASCII
-newanim dead PLC_v2BlkTrim
+newanim dead sp_v2_marb_bw
     length 0.0333333
     transtime 0.0
-    animroot PLC_v2BlkTrim
-    node dummy PLC_v2BlkTrim
+    animroot sp_v2_marb_bw
+    node dummy sp_v2_marb_bw
         parent NULL
     endnode
     node trimesh damage44
-        parent PLC_v2BlkTrim
+        parent sp_v2_marb_bw
         positionkey
             0.0 0.0 0.0 -5.77279
             0.0333333 0.0 0.0 -5.77279
@@ -791,24 +791,24 @@ newanim dead PLC_v2BlkTrim
         parent damage44
     endnode
     node emitter ChunkyWood133
-        parent PLC_v2BlkTrim
+        parent sp_v2_marb_bw
     endnode
     node emitter fire!84
-        parent PLC_v2BlkTrim
+        parent sp_v2_marb_bw
     endnode
-doneanim dead PLC_v2BlkTrim
+doneanim dead sp_v2_marb_bw
 
 
 #GMAXANIM ASCII
-newanim default PLC_v2BlkTrim
+newanim default sp_v2_marb_bw
     length 0.0
     transtime 0.25
-    animroot PLC_v2BlkTrim
-    node dummy PLC_v2BlkTrim
+    animroot sp_v2_marb_bw
+    node dummy sp_v2_marb_bw
         parent NULL
     endnode
     node trimesh damage44
-        parent PLC_v2BlkTrim
+        parent sp_v2_marb_bw
         positionkey
             0.0 0.0 0.0 0.0
         endlist
@@ -820,11 +820,11 @@ newanim default PLC_v2BlkTrim
         parent damage44
     endnode
     node emitter ChunkyWood133
-        parent PLC_v2BlkTrim
+        parent sp_v2_marb_bw
     endnode
     node emitter fire!84
-        parent PLC_v2BlkTrim
+        parent sp_v2_marb_bw
     endnode
-doneanim default PLC_v2BlkTrim
+doneanim default sp_v2_marb_bw
 
-donemodel PLC_v2BlkTrim
+donemodel sp_v2_marb_bw

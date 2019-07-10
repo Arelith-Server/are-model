@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: sp_plc_iceberg01
-filedependancy plc_iceberg01.max
-newmodel plc_iceberg01
-setsupermodel plc_iceberg01 NULL
+# model: sp_sp_plc_iceberg01
+filedependancy sp_plc_iceberg01.max
+newmodel sp_plc_iceberg01
+setsupermodel sp_plc_iceberg01 NULL
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom plc_iceberg01
-node dummy plc_iceberg01
+beginmodelgeom sp_plc_iceberg01
+node dummy sp_plc_iceberg01
   parent NULL
   #part-number 0
 endnode
 node trimesh Iceberg
-  parent plc_iceberg01
+  parent sp_plc_iceberg01
   #part-number 1
   ambient 1 1 1
   diffuse 1 1 1
@@ -516,6 +516,6 @@ node trimesh Iceberg
   alpha 1
   setfillumcolor 0 0 0
 endnode
-endmodelgeom plc_iceberg01
+endmodelgeom sp_plc_iceberg01
 
-donemodel plc_iceberg01
+donemodel sp_plc_iceberg01

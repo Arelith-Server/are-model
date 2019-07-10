@@ -2,16 +2,16 @@
 # mdl file
 #
 filedependancy Unknown
-newmodel nw2thaytap
-setsupermodel nw2thaytap NULL
+newmodel sp_nw2thaytap
+setsupermodel sp_nw2thaytap NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom nw2thaytap
-node dummy nw2thaytap
+beginmodelgeom sp_nw2thaytap
+node dummy sp_nw2thaytap
     parent NULL
 endnode
 node trimesh PLC_MC_TTapestry
-    parent nw2thaytap
+    parent sp_nw2thaytap
     position 0.0 0.0 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -462,5 +462,5 @@ node trimesh PLC_MC_TTapestry
         0.678185 0.996141 0
         0.678185 0.0 0
 endnode
-endmodelgeom nw2thaytap
-donemodel nw2thaytap
+endmodelgeom sp_nw2thaytap
+donemodel sp_nw2thaytap

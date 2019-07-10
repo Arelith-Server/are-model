@@ -2,49 +2,49 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: NW2_CHAIR7
+# model: sp_nw2_chair7
 #local file: Unknown
 filedependancy Unknown
-newmodel NW2_CHAIR7
-setsupermodel NW2_CHAIR7 NULL
+newmodel sp_nw2_chair7
+setsupermodel sp_nw2_chair7 NULL
 classification Other
 #NWmax GEOM  ASCII
-beginmodelgeom NW2_CHAIR7
-node dummy NW2_CHAIR7
+beginmodelgeom sp_nw2_chair7
+node dummy sp_nw2_chair7
   parent NULL
 endnode
 node dummy X03_hand
-  parent NW2_CHAIR7
+  parent sp_nw2_chair7
   position 0.00398437 -0.505195 0.934402
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.541176 0.0313726 0.431373 
 endnode
 node dummy X03_head
-  parent NW2_CHAIR7
+  parent sp_nw2_chair7
   position 0.00398437 0.0108252 0.930563
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.0313726 0.533333 
 endnode
 node dummy X03_head_hit
-  parent NW2_CHAIR7
+  parent sp_nw2_chair7
   position 0.00398437 0.0108252 0.449084
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.0313726 0.533333 
 endnode
 node dummy X03_impact
-  parent NW2_CHAIR7
+  parent sp_nw2_chair7
   position 0.00398437 0.011001 0.213608
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.0313726 0.533333 
 endnode
 node dummy X03_ground
-  parent NW2_CHAIR7
+  parent sp_nw2_chair7
   position -0.00363281 0.0069873 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0235294 0.52549 0.443137 
 endnode
 node emitter fire!115
-  parent NW2_CHAIR7
+  parent sp_nw2_chair7
   position 0.0272229 0.00260101 0.435227
   orientation 1.0 0.0 0.0 -4.71239
   wirecolor 1.0 1.0 1.0 
@@ -112,7 +112,7 @@ node emitter fire!115
   drag 0.0
 endnode
 node emitter ChunkyWood186
-  parent NW2_CHAIR7
+  parent sp_nw2_chair7
   position 0.0272229 0.00260101 0.615493
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -181,7 +181,7 @@ node emitter ChunkyWood186
   drag 0.0
 endnode
 node emitter ChunkyWood187
-  parent NW2_CHAIR7
+  parent sp_nw2_chair7
   position 0.0272229 0.0035849 0.509271
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -250,7 +250,7 @@ node emitter ChunkyWood187
   drag 0.0
 endnode
 node trimesh damage73
-  parent NW2_CHAIR7
+  parent sp_nw2_chair7
   position 0.0287878 -0.0179642 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -1443,41 +1443,41 @@ node trimesh Object41
     0.0187984 1.65206 0
     0.3141 1.65206 0
 endnode
-endmodelgeom NW2_CHAIR7
+endmodelgeom sp_nw2_chair7
 #NWmax ANIM ASCII
-newanim damage NW2_CHAIR7
+newanim damage sp_nw2_chair7
   length 0.133333
   transtime 0.0
-  animroot NW2_CHAIR7
-    node dummy NW2_CHAIR7
+  animroot sp_nw2_chair7
+    node dummy sp_nw2_chair7
         parent NULL
     endnode
     node dummy X03_hand
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_head
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_head_hit
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_impact
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_ground
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node emitter fire!115
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node emitter ChunkyWood186
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node emitter ChunkyWood187
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node trimesh damage73
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
         positionkey
             0.0 0.0287878 -0.0179642 0.0
             0.0333333 0.0287878 -0.0179642 0.0244581
@@ -1493,44 +1493,44 @@ newanim damage NW2_CHAIR7
     node trimesh Object41
         parent damage73
     endnode
-doneanim damage NW2_CHAIR7
+doneanim damage sp_nw2_chair7
 #NWmax ANIM ASCII
-newanim die NW2_CHAIR7
+newanim die sp_nw2_chair7
   length 0.166667
   transtime 0.0
-  animroot NW2_CHAIR7
+  animroot sp_nw2_chair7
   event 0.0333333 detonate
   event 0.0333333 detonate
   event 0.0333333 detonate
-    node dummy NW2_CHAIR7
+    node dummy sp_nw2_chair7
         parent NULL
     endnode
     node dummy X03_hand
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_head
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_head_hit
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_impact
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_ground
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node emitter fire!115
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node emitter ChunkyWood186
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node emitter ChunkyWood187
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node trimesh damage73
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
         positionkey
             0.0 0.0287878 -0.0179642 0.0
             0.166667 0.0287878 -0.0179642 -6.95145
@@ -1539,41 +1539,41 @@ newanim die NW2_CHAIR7
     node trimesh Object41
         parent damage73
     endnode
-doneanim die NW2_CHAIR7
+doneanim die sp_nw2_chair7
 #NWmax ANIM ASCII
-newanim dead NW2_CHAIR7
+newanim dead sp_nw2_chair7
   length 0.0333333
   transtime 0.0
-  animroot NW2_CHAIR7
-    node dummy NW2_CHAIR7
+  animroot sp_nw2_chair7
+    node dummy sp_nw2_chair7
         parent NULL
     endnode
     node dummy X03_hand
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_head
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_head_hit
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_impact
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_ground
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node emitter fire!115
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node emitter ChunkyWood186
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node emitter ChunkyWood187
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node trimesh damage73
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
         positionkey
             0.0 0.0287878 -0.0179642 -6.95145
             0.0333333 0.0287878 -0.0179642 -6.95145
@@ -1582,44 +1582,44 @@ newanim dead NW2_CHAIR7
     node trimesh Object41
         parent damage73
     endnode
-doneanim dead NW2_CHAIR7
+doneanim dead sp_nw2_chair7
 #NWmax ANIM ASCII
-newanim default NW2_CHAIR7
+newanim default sp_nw2_chair7
   length 0.0
   transtime 0.25
-  animroot NW2_CHAIR7
-    node dummy NW2_CHAIR7
+  animroot sp_nw2_chair7
+    node dummy sp_nw2_chair7
         parent NULL
     endnode
     node dummy X03_hand
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_head
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_head_hit
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_impact
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node dummy X03_ground
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node emitter fire!115
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node emitter ChunkyWood186
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node emitter ChunkyWood187
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node trimesh damage73
-        parent NW2_CHAIR7
+        parent sp_nw2_chair7
     endnode
     node trimesh Object41
         parent damage73
     endnode
-doneanim default NW2_CHAIR7
-donemodel NW2_CHAIR7
+doneanim default sp_nw2_chair7
+donemodel sp_nw2_chair7

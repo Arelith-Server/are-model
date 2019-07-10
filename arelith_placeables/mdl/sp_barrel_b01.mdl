@@ -1,49 +1,49 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: PLV_DI1
+# model: sp_barrel_b01
 filedependancy Unknown
-newmodel PLV_DI1
-setsupermodel PLV_DI1 NULL
+newmodel sp_barrel_b01
+setsupermodel sp_barrel_b01 NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom PLV_DI1
-node dummy PLV_DI1
+beginmodelgeom sp_barrel_b01
+node dummy sp_barrel_b01
   parent NULL
 endnode
 node dummy DI1_hand
-  parent PLV_DI1
+  parent sp_barrel_b01
   position 0.003989 -0.505195 0.310976
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
 endnode
 node dummy DI1_head
-  parent PLV_DI1
+  parent sp_barrel_b01
   position 0.003989 0.010825 1.11627
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
 endnode
 node dummy DI1_head_hit
-  parent PLV_DI1
+  parent sp_barrel_b01
   position 0.003989 0.010825 0.634797
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
 endnode
 node dummy DI1_impact
-  parent PLV_DI1
+  parent sp_barrel_b01
   position 0.003989 0.011001 0.244709
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
 endnode
 node dummy DI1_ground
-  parent PLV_DI1
+  parent sp_barrel_b01
   position -0.003633 0.006987 0
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
 endnode
 node trimesh damage08
-  parent PLV_DI1
+  parent sp_barrel_b01
   position 0.014752 0.014497 0
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -185,7 +185,7 @@ node trimesh barrel
     0.457673 0.995016 0
 endnode
 node emitter ChunkyWood70
-  parent PLV_DI1
+  parent sp_barrel_b01
   position 0.013185 -0.025341 0.384297
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -251,7 +251,7 @@ node emitter ChunkyWood70
     Splat 0
 endnode
 node emitter fire!42
-  parent PLV_DI1
+  parent sp_barrel_b01
   position 0.013185 -0.025341 0.19407
   orientation -1 0 0 -1.5708
   wirecolor 0.105469 0.105469 0.105469
@@ -317,7 +317,7 @@ node emitter fire!42
     Splat 0
 endnode
 node emitter ChunkyWood71
-  parent PLV_DI1
+  parent sp_barrel_b01
   position 0.013185 -0.025341 0.278075
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -382,33 +382,33 @@ node emitter ChunkyWood71
     renderorder 0
     Splat 0
 endnode
-endmodelgeom PLV_DI1
+endmodelgeom sp_barrel_b01
 
 #MAXANIM ASCII
-newanim damage PLV_DI1
+newanim damage sp_barrel_b01
   length 0.133333
   transtime 0
-  animroot PLV_DI1
-node dummy PLV_DI1
+  animroot sp_barrel_b01
+node dummy sp_barrel_b01
   parent NULL
 endnode
 node dummy DI1_hand
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_head
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_head_hit
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_impact
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_ground
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node trimesh damage08
-  parent PLV_DI1
+  parent sp_barrel_b01
     positionkey
       0  0.0104624 0.0102816 0
       0.0333333  0.0104624 0.0102816 0.0173461
@@ -425,44 +425,44 @@ node trimesh barrel
   parent damage08
 endnode
 node emitter ChunkyWood70
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node emitter fire!42
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node emitter ChunkyWood71
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
-node trimesh PLV_DI1_wg
-  parent PLV_DI1
+node trimesh sp_barrel_b01_wg
+  parent sp_barrel_b01
 endnode
-doneanim damage PLV_DI1
+doneanim damage sp_barrel_b01
 
 #MAXANIM ASCII
-newanim die PLV_DI1
+newanim die sp_barrel_b01
   length 0.166667
   transtime 0
-  animroot PLV_DI1
-node dummy PLV_DI1
+  animroot sp_barrel_b01
+node dummy sp_barrel_b01
   parent NULL
 endnode
 node dummy DI1_hand
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_head
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_head_hit
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_impact
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_ground
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node trimesh damage08
-  parent PLV_DI1
+  parent sp_barrel_b01
     positionkey
       0  0.0104624 0.0102816 0
       0.166667  0.0104624 0.0102816 -2.68084
@@ -475,47 +475,47 @@ node trimesh barrel
   parent damage08
 endnode
 node emitter ChunkyWood70
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node emitter fire!42
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node emitter ChunkyWood71
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
-node trimesh PLV_DI1_wg
-  parent PLV_DI1
+node trimesh sp_barrel_b01_wg
+  parent sp_barrel_b01
 endnode
 event 0  detonate
 event 0  detonate
 event 0  detonate
-doneanim die PLV_DI1
+doneanim die sp_barrel_b01
 
 #MAXANIM ASCII
-newanim dead PLV_DI1
+newanim dead sp_barrel_b01
   length 0.0333333
   transtime 0
-  animroot PLV_DI1
-node dummy PLV_DI1
+  animroot sp_barrel_b01
+node dummy sp_barrel_b01
   parent NULL
 endnode
 node dummy DI1_hand
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_head
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_head_hit
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_impact
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_ground
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node trimesh damage08
-  parent PLV_DI1
+  parent sp_barrel_b01
     positionkey
       0  0.0104624 0.0102816 -2.68084
       0.0333333  0.0104624 0.0102816 -2.68084
@@ -525,44 +525,44 @@ node trimesh barrel
   parent damage08
 endnode
 node emitter ChunkyWood70
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node emitter fire!42
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node emitter ChunkyWood71
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
-node trimesh PLV_DI1_wg
-  parent PLV_DI1
+node trimesh sp_barrel_b01_wg
+  parent sp_barrel_b01
 endnode
-doneanim dead PLV_DI1
+doneanim dead sp_barrel_b01
 
 #MAXANIM ASCII
-newanim default PLV_DI1
+newanim default sp_barrel_b01
   length 0
   transtime 0.25
-  animroot PLV_DI1
-node dummy PLV_DI1
+  animroot sp_barrel_b01
+node dummy sp_barrel_b01
   parent NULL
 endnode
 node dummy DI1_hand
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_head
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_head_hit
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_impact
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node dummy DI1_ground
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node trimesh damage08
-  parent PLV_DI1
+  parent sp_barrel_b01
     positionkey
       0  0.0104624 0.0102816 0
     endlist
@@ -574,16 +574,16 @@ node trimesh barrel
   parent damage08
 endnode
 node emitter ChunkyWood70
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node emitter fire!42
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
 node emitter ChunkyWood71
-  parent PLV_DI1
+  parent sp_barrel_b01
 endnode
-node trimesh PLV_DI1_wg
-  parent PLV_DI1
+node trimesh sp_barrel_b01_wg
+  parent sp_barrel_b01
 endnode
-doneanim default PLV_DI1
-donemodel PLV_DI1
+doneanim default sp_barrel_b01
+donemodel sp_barrel_b01

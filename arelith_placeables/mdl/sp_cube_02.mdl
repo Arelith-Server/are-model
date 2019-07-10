@@ -2,49 +2,49 @@
 # mdl file
 #
 #NWmaxMODEL ASCII
-# model: PLV_DI6
+# model: sp_cube_02
 filedependancy Unknown
-newmodel PLV_DI6
-setsupermodel PLV_DI6 NULL
+newmodel sp_cube_02
+setsupermodel sp_cube_02 NULL
 classification Character
 setanimationscale 1.0
 #NWmaxGEOM  ASCII
-beginmodelgeom PLV_DI6
-node dummy PLV_DI6
+beginmodelgeom sp_cube_02
+node dummy sp_cube_02
   parent NULL
 endnode
 node dummy DI6_hand
-  parent PLV_DI6
+  parent sp_cube_02
   position 0.003989 -0.505195 0.20252
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.109804 0.109804 0.694118 
 endnode
 node dummy DI6_head
-  parent PLV_DI6
+  parent sp_cube_02
   position 0.003989 0.010825 0.438459
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.109804 0.109804 0.694118 
 endnode
 node dummy DI6_head_hit
-  parent PLV_DI6
+  parent sp_cube_02
   position 0.003989 0.010825 0.456324
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.109804 0.109804 0.694118 
 endnode
 node dummy DI6_impact
-  parent PLV_DI6
+  parent sp_cube_02
   position 0.003989 0.011001 0.136253
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.109804 0.109804 0.694118 
 endnode
 node dummy DI6_ground
-  parent PLV_DI6
+  parent sp_cube_02
   position -0.003633 0.006987 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.101961 0.694118 0.580392 
 endnode
 node trimesh damage08
-  parent PLV_DI6
+  parent sp_cube_02
   position 0.014752 0.014497 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -166,7 +166,7 @@ node trimesh cube2
      0.550353 -0.0463145 0
 endnode
 node emitter ChunkyWood70
-  parent PLV_DI6
+  parent sp_cube_02
   position 0.013185 -0.025341 0.26588
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -236,7 +236,7 @@ node emitter ChunkyWood70
      Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
 endnode
 node emitter fire!42
-  parent PLV_DI6
+  parent sp_cube_02
   position 0.013185 -0.025341 0.0856136
   orientation -1.0 0.0 0.0 -1.5708
   wirecolor 1.0 1.0 1.0 
@@ -306,7 +306,7 @@ node emitter fire!42
      Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
 endnode
 node emitter ChunkyWood71
-  parent PLV_DI6
+  parent sp_cube_02
   position 0.013185 -0.025341 0.159658
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -375,32 +375,32 @@ node emitter ChunkyWood71
      drag 0.0
      Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
 endnode
-endmodelgeom PLV_DI6
+endmodelgeom sp_cube_02
 #NWmaxANIM ASCII
-newanim damage PLV_DI6
+newanim damage sp_cube_02
     length 0.133333
     transtime 0.0
-    animroot PLV_DI6
-    node dummy PLV_DI6
+    animroot sp_cube_02
+    node dummy sp_cube_02
         parent NULL
     endnode
     node dummy DI6_hand
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_head
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_head_hit
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_impact
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_ground
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node trimesh damage08
-        parent PLV_DI6
+        parent sp_cube_02
         positionkey
             0.0 0.014752 0.014497 0.0
             0.0333333 0.014752 0.014497 0.024458
@@ -417,52 +417,52 @@ newanim damage PLV_DI6
         parent damage08
     endnode
     node emitter ChunkyWood70
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node emitter fire!42
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node emitter ChunkyWood71
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
-    node dummy PLV_DI6_pwk
-        parent PLV_DI6
+    node dummy sp_cube_02_pwk
+        parent sp_cube_02
     endnode
-    node pwk PLV_DI6_wg
-        parent PLV_DI6_pwk
+    node pwk sp_cube_02_wg
+        parent sp_cube_02_pwk
     endnode
     node dummy DI6_pwk_use01
-        parent PLV_DI6_pwk
+        parent sp_cube_02_pwk
     endnode
-doneanim damage PLV_DI6
+doneanim damage sp_cube_02
 #NWmaxANIM ASCII
-newanim die PLV_DI6
+newanim die sp_cube_02
     length 0.166667
     transtime 0.0
-    animroot PLV_DI6
+    animroot sp_cube_02
     event 0.0333333 detonate
     event 0.0333333 detonate
     event 0.0333333 detonate
-    node dummy PLV_DI6
+    node dummy sp_cube_02
         parent NULL
     endnode
     node dummy DI6_hand
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_head
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_head_hit
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_impact
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_ground
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node trimesh damage08
-        parent PLV_DI6
+        parent sp_cube_02
         positionkey
             0.0 0.014752 0.014497 0.0
             0.166667 0.014752 0.014497 -3.77999
@@ -475,49 +475,49 @@ newanim die PLV_DI6
         parent damage08
     endnode
     node emitter ChunkyWood70
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node emitter fire!42
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node emitter ChunkyWood71
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
-    node dummy PLV_DI6_pwk
-        parent PLV_DI6
+    node dummy sp_cube_02_pwk
+        parent sp_cube_02
     endnode
-    node pwk PLV_DI6_wg
-        parent PLV_DI6_pwk
+    node pwk sp_cube_02_wg
+        parent sp_cube_02_pwk
     endnode
     node dummy DI6_pwk_use01
-        parent PLV_DI6_pwk
+        parent sp_cube_02_pwk
     endnode
-doneanim die PLV_DI6
+doneanim die sp_cube_02
 #NWmaxANIM ASCII
-newanim dead PLV_DI6
+newanim dead sp_cube_02
     length 0.0333333
     transtime 0.0
-    animroot PLV_DI6
-    node dummy PLV_DI6
+    animroot sp_cube_02
+    node dummy sp_cube_02
         parent NULL
     endnode
     node dummy DI6_hand
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_head
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_head_hit
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_impact
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_ground
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node trimesh damage08
-        parent PLV_DI6
+        parent sp_cube_02
         positionkey
             0.0 0.014752 0.014497 -3.77999
             0.0333333 0.014752 0.014497 -3.77999
@@ -527,49 +527,49 @@ newanim dead PLV_DI6
         parent damage08
     endnode
     node emitter ChunkyWood70
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node emitter fire!42
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node emitter ChunkyWood71
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
-    node dummy PLV_DI6_pwk
-        parent PLV_DI6
+    node dummy sp_cube_02_pwk
+        parent sp_cube_02
     endnode
-    node pwk PLV_DI6_wg
-        parent PLV_DI6_pwk
+    node pwk sp_cube_02_wg
+        parent sp_cube_02_pwk
     endnode
     node dummy DI6_pwk_use01
-        parent PLV_DI6_pwk
+        parent sp_cube_02_pwk
     endnode
-doneanim dead PLV_DI6
+doneanim dead sp_cube_02
 #NWmaxANIM ASCII
-newanim default PLV_DI6
+newanim default sp_cube_02
     length 0.0
     transtime 0.25
-    animroot PLV_DI6
-    node dummy PLV_DI6
+    animroot sp_cube_02
+    node dummy sp_cube_02
         parent NULL
     endnode
     node dummy DI6_hand
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_head
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_head_hit
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_impact
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node dummy DI6_ground
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node trimesh damage08
-        parent PLV_DI6
+        parent sp_cube_02
         positionkey
             0.0 0.014752 0.014497 0.0
         endlist
@@ -581,22 +581,22 @@ newanim default PLV_DI6
         parent damage08
     endnode
     node emitter ChunkyWood70
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node emitter fire!42
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
     node emitter ChunkyWood71
-        parent PLV_DI6
+        parent sp_cube_02
     endnode
-    node dummy PLV_DI6_pwk
-        parent PLV_DI6
+    node dummy sp_cube_02_pwk
+        parent sp_cube_02
     endnode
-    node pwk PLV_DI6_wg
-        parent PLV_DI6_pwk
+    node pwk sp_cube_02_wg
+        parent sp_cube_02_pwk
     endnode
     node dummy DI6_pwk_use01
-        parent PLV_DI6_pwk
+        parent sp_cube_02_pwk
     endnode
-doneanim default PLV_DI6
-donemodel PLV_DI6
+doneanim default sp_cube_02
+donemodel sp_cube_02

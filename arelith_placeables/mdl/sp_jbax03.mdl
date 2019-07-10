@@ -2,19 +2,19 @@
 # mdl file
 #
 #NWmaxMODEL ASCII
-# model: PLC_Jbax03
+# model: sp_jbax03
 filedependancy Unknown
-newmodel PLC_Jbax03
-setsupermodel PLC_Jbax03 NULL
+newmodel sp_jbax03
+setsupermodel sp_jbax03 NULL
 classification Character
 setanimationscale 1.0
 #NWmaxGEOM  ASCII
-beginmodelgeom PLC_Jbax03
-node dummy PLC_Jbax03
+beginmodelgeom sp_jbax03
+node dummy sp_jbax03
   parent NULL
 endnode
 node trimesh g_JAxt_042
-  parent PLC_Jbax03
+  parent sp_jbax03
   position 0.000149119 -2.80192e-005 2.31494
   orientation -0.57735 -0.57735 -0.57735 -2.0944
   wirecolor 1.0 1.0 1.0 
@@ -327,7 +327,7 @@ node trimesh g_JAxt_042
      0.215273 0.784528 0
 endnode
 node trimesh g_JAxb_022
-  parent PLC_Jbax03
+  parent sp_jbax03
   position 0.000149182 0.000818251 1.72009
   orientation -1.0 0.0 0.0 -1.5708
   wirecolor 1.0 1.0 1.0 
@@ -443,7 +443,7 @@ node trimesh g_JAxb_022
      0.433518 0.681324 0
 endnode
 node trimesh g_JAxm_031
-  parent PLC_Jbax03
+  parent sp_jbax03
   position 0.00014914 0.000601929 1.8372
   orientation -1.0 0.0 0.0 -1.5708
   wirecolor 1.0 1.0 1.0 
@@ -568,5 +568,5 @@ node trimesh g_JAxm_031
      0.24479 0.738806 0
      0.244853 0.706614 0
 endnode
-endmodelgeom PLC_Jbax03
-donemodel PLC_Jbax03
+endmodelgeom sp_jbax03
+donemodel sp_jbax03

@@ -1,18 +1,18 @@
 #MAXMODEL ASCII
-# model: e2_bush23w
-filedependancy e2_bush23w.max
-newmodel e2_bush23w
-setsupermodel e2_bush23w NULL
+# model: sp_bush_08
+filedependancy sp_bush_08.max
+newmodel sp_bush_08
+setsupermodel sp_bush_08 NULL
 classification character
 setanimationscale 0.5
 #MAXGEOM  ASCII
-beginmodelgeom e2_bush23w
-node dummy e2_bush23w
+beginmodelgeom sp_bush_08
+node dummy sp_bush_08
   parent NULL
   #part-number 0
 endnode
 node trimesh temp
-  parent e2_bush23w
+  parent sp_bush_08
   #part-number 1
   ambient 0.980391979 0.980391979 0.980391979
   diffuse 0.980391979 0.980391979 0.980391979
@@ -279,6 +279,6 @@ node trimesh temp
   scale 1
   alpha 1
 endnode
-endmodelgeom e2_bush23w
+endmodelgeom sp_bush_08
 
-donemodel e2_bush23w
+donemodel sp_bush_08

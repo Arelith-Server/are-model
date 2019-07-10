@@ -1,49 +1,49 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: PLC_v4BlkTrim
-filedependancy PLC_v4BlkTrim_wicker_basket.max
-newmodel PLC_v4BlkTrim
-setsupermodel PLC_v4BlkTrim NULL
+# model: sp_v4_marb_bw
+filedependancy sp_v4_marb_bw_wicker_basket.max
+newmodel sp_v4_marb_bw
+setsupermodel sp_v4_marb_bw NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom PLC_v4BlkTrim
-node dummy PLC_v4BlkTrim
+beginmodelgeom sp_v4_marb_bw
+node dummy sp_v4_marb_bw
   parent NULL
 endnode
 node dummy AM3_hand
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
   position 0.00398926 -0.904311 0.629331
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
 endnode
 node dummy AM3_head
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
   position 0.00398926 0.0108252 1.32925
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
 endnode
 node dummy AM3_head_hit
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
   position 0.00398926 0.0108252 0.847772
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
 endnode
 node dummy AM3_impact
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
   position 0.00398926 0.011001 0.384467
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
 endnode
 node dummy AM3_ground
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
   position -0.00363281 0.0069873 0
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
 endnode
 node emitter ChunkyWood72
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
   position 0.0131848 -0.0381348 0.606715
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -110,7 +110,7 @@ node emitter ChunkyWood72
     chunkName PLC_Chunk_S01
 endnode
 node emitter ChunkyWood73
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
   position 0.0131848 -0.0381348 0.712937
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
@@ -177,7 +177,7 @@ node emitter ChunkyWood73
     chunkName PLC_Chunk_M01
 endnode
 node trimesh damage09
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
   position 0.0147516 0.0017041 0
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
@@ -1491,39 +1491,39 @@ node trimesh mesh01
     0.785168 0.5 0.0736396
     0.5 0.214832 0.0736396
 endnode
-endmodelgeom PLC_v4BlkTrim
+endmodelgeom sp_v4_marb_bw
 
 #MAXANIM ASCII
-newanim open2close PLC_v4BlkTrim
+newanim open2close sp_v4_marb_bw
   length 0.366667
   transtime 0.25
-  animroot PLC_v4BlkTrim
-node dummy PLC_v4BlkTrim
+  animroot sp_v4_marb_bw
+node dummy sp_v4_marb_bw
   parent NULL
 endnode
 node dummy AM3_hand
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head_hit
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_impact
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_ground
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood72
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood73
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node trimesh damage09
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node trimesh mesh02
   parent damage09
@@ -1537,42 +1537,42 @@ endnode
 node trimesh mesh01
   parent damage09
 endnode
-node trimesh PLC_v4BlkTrim_wg
-  parent PLC_v4BlkTrim
+node trimesh sp_v4_marb_bw_wg
+  parent sp_v4_marb_bw
 endnode
-doneanim open2close PLC_v4BlkTrim
+doneanim open2close sp_v4_marb_bw
 
 #MAXANIM ASCII
-newanim close2open PLC_v4BlkTrim
+newanim close2open sp_v4_marb_bw
   length 0.3
   transtime 0.25
-  animroot PLC_v4BlkTrim
-node dummy PLC_v4BlkTrim
+  animroot sp_v4_marb_bw
+node dummy sp_v4_marb_bw
   parent NULL
 endnode
 node dummy AM3_hand
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head_hit
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_impact
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_ground
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood72
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood73
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node trimesh damage09
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node trimesh mesh02
   parent damage09
@@ -1586,42 +1586,42 @@ endnode
 node trimesh mesh01
   parent damage09
 endnode
-node trimesh PLC_v4BlkTrim_wg
-  parent PLC_v4BlkTrim
+node trimesh sp_v4_marb_bw_wg
+  parent sp_v4_marb_bw
 endnode
-doneanim close2open PLC_v4BlkTrim
+doneanim close2open sp_v4_marb_bw
 
 #MAXANIM ASCII
-newanim open PLC_v4BlkTrim
+newanim open sp_v4_marb_bw
   length 0.0333333
   transtime 0.25
-  animroot PLC_v4BlkTrim
-node dummy PLC_v4BlkTrim
+  animroot sp_v4_marb_bw
+node dummy sp_v4_marb_bw
   parent NULL
 endnode
 node dummy AM3_hand
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head_hit
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_impact
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_ground
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood72
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood73
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node trimesh damage09
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node trimesh mesh02
   parent damage09
@@ -1635,42 +1635,42 @@ endnode
 node trimesh mesh01
   parent damage09
 endnode
-node trimesh PLC_v4BlkTrim_wg
-  parent PLC_v4BlkTrim
+node trimesh sp_v4_marb_bw_wg
+  parent sp_v4_marb_bw
 endnode
-doneanim open PLC_v4BlkTrim
+doneanim open sp_v4_marb_bw
 
 #MAXANIM ASCII
-newanim close PLC_v4BlkTrim
+newanim close sp_v4_marb_bw
   length 0.0333333
   transtime 0.25
-  animroot PLC_v4BlkTrim
-node dummy PLC_v4BlkTrim
+  animroot sp_v4_marb_bw
+node dummy sp_v4_marb_bw
   parent NULL
 endnode
 node dummy AM3_hand
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head_hit
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_impact
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_ground
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood72
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood73
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node trimesh damage09
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node trimesh mesh02
   parent damage09
@@ -1684,42 +1684,42 @@ endnode
 node trimesh mesh01
   parent damage09
 endnode
-node trimesh PLC_v4BlkTrim_wg
-  parent PLC_v4BlkTrim
+node trimesh sp_v4_marb_bw_wg
+  parent sp_v4_marb_bw
 endnode
-doneanim close PLC_v4BlkTrim
+doneanim close sp_v4_marb_bw
 
 #MAXANIM ASCII
-newanim damage PLC_v4BlkTrim
+newanim damage sp_v4_marb_bw
   length 0.133333
   transtime 0
-  animroot PLC_v4BlkTrim
-node dummy PLC_v4BlkTrim
+  animroot sp_v4_marb_bw
+node dummy sp_v4_marb_bw
   parent NULL
 endnode
 node dummy AM3_hand
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head_hit
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_impact
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_ground
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood72
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood73
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node trimesh damage09
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
     positionkey
       0  0.0147516 0.0017041 0
       0.0333333  0.0147516 0.0017041 0.0244581
@@ -1744,42 +1744,42 @@ endnode
 node trimesh mesh01
   parent damage09
 endnode
-node trimesh PLC_v4BlkTrim_wg
-  parent PLC_v4BlkTrim
+node trimesh sp_v4_marb_bw_wg
+  parent sp_v4_marb_bw
 endnode
-doneanim damage PLC_v4BlkTrim
+doneanim damage sp_v4_marb_bw
 
 #MAXANIM ASCII
-newanim die PLC_v4BlkTrim
+newanim die sp_v4_marb_bw
   length 0.166667
   transtime 0
-  animroot PLC_v4BlkTrim
-node dummy PLC_v4BlkTrim
+  animroot sp_v4_marb_bw
+node dummy sp_v4_marb_bw
   parent NULL
 endnode
 node dummy AM3_hand
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head_hit
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_impact
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_ground
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood72
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood73
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node trimesh damage09
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
     positionkey
       0  0.0147516 0.0017041 0
       0.166667  0.0147516 0.0017041 -3.77999
@@ -1800,45 +1800,45 @@ endnode
 node trimesh mesh01
   parent damage09
 endnode
-node trimesh PLC_v4BlkTrim_wg
-  parent PLC_v4BlkTrim
+node trimesh sp_v4_marb_bw_wg
+  parent sp_v4_marb_bw
 endnode
 event 0  detonate
 event 0  detonate
 event 0  detonate
-doneanim die PLC_v4BlkTrim
+doneanim die sp_v4_marb_bw
 
 #MAXANIM ASCII
-newanim dead PLC_v4BlkTrim
+newanim dead sp_v4_marb_bw
   length 0.0333333
   transtime 0
-  animroot PLC_v4BlkTrim
-node dummy PLC_v4BlkTrim
+  animroot sp_v4_marb_bw
+node dummy sp_v4_marb_bw
   parent NULL
 endnode
 node dummy AM3_hand
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head_hit
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_impact
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_ground
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood72
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood73
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node trimesh damage09
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
     positionkey
       0  0.0147516 0.0017041 -3.77999
       0.0333333  0.0147516 0.0017041 -3.77999
@@ -1856,42 +1856,42 @@ endnode
 node trimesh mesh01
   parent damage09
 endnode
-node trimesh PLC_v4BlkTrim_wg
-  parent PLC_v4BlkTrim
+node trimesh sp_v4_marb_bw_wg
+  parent sp_v4_marb_bw
 endnode
-doneanim dead PLC_v4BlkTrim
+doneanim dead sp_v4_marb_bw
 
 #MAXANIM ASCII
-newanim default PLC_v4BlkTrim
+newanim default sp_v4_marb_bw
   length 0
   transtime 0.25
-  animroot PLC_v4BlkTrim
-node dummy PLC_v4BlkTrim
+  animroot sp_v4_marb_bw
+node dummy sp_v4_marb_bw
   parent NULL
 endnode
 node dummy AM3_hand
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_head_hit
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_impact
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node dummy AM3_ground
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood72
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node emitter ChunkyWood73
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
 endnode
 node trimesh damage09
-  parent PLC_v4BlkTrim
+  parent sp_v4_marb_bw
     positionkey
       0  0.0147516 0.0017041 0
     endlist
@@ -1911,8 +1911,8 @@ endnode
 node trimesh mesh01
   parent damage09
 endnode
-node trimesh PLC_v4BlkTrim_wg
-  parent PLC_v4BlkTrim
+node trimesh sp_v4_marb_bw_wg
+  parent sp_v4_marb_bw
 endnode
-doneanim default PLC_v4BlkTrim
-donemodel PLC_v4BlkTrim
+doneanim default sp_v4_marb_bw
+donemodel sp_v4_marb_bw

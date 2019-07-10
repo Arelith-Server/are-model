@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: plc_msapp5
+# model: sp_crt_vendor1
 filedependancy Unknown
-newmodel plc_msapp5
-setsupermodel plc_msapp5 NULL
+newmodel sp_crt_vendor1
+setsupermodel sp_crt_vendor1 NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom plc_msapp5
-node dummy plc_msapp5
+beginmodelgeom sp_crt_vendor1
+node dummy sp_crt_vendor1
   parent NULL
 endnode
 node trimesh left_top
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 0.673557 -0.12999 1.37564
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -89,7 +89,7 @@ node trimesh left_top
     0.999501 0.196795 0.000499725
 endnode
 node trimesh right_top
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position -0.636954 -0.12999 1.31724
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -165,7 +165,7 @@ node trimesh right_top
     0.994292 0.999501 0.999501
 endnode
 node trimesh Cube_2_and
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 0.108544 -0.122282 0.757665
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -1077,7 +1077,7 @@ node trimesh Cube_2_and
     0.99616 0.0430559 0.999074
 endnode
 node trimesh Cylinder
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position -1.36899 -0.182337 1.16375
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -1580,7 +1580,7 @@ node trimesh Cylinder
     0.87915 0.5936 0
 endnode
 node trimesh Cube_1
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position -1.69634 -0.130779 1.12804
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -1656,7 +1656,7 @@ node trimesh Cube_1
     0.9995 0.9995 0.9995
 endnode
 node trimesh backaxel
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 1.04699 -0.112987 0.434362
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -1960,7 +1960,7 @@ node trimesh backaxel
     -0.0152426 0.475699 2.50903
 endnode
 node trimesh frontaxel
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position -0.92733 -0.120033 0.434362
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -2313,7 +2313,7 @@ node trimesh frontaxel
     -0.000154912 0.739944 9.99059
 endnode
 node trimesh rghtfrontw
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position -0.913804 0.904922 0.416654
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -3233,7 +3233,7 @@ node trimesh rghtfrontw
     0.703363 0.363094 0.9995
 endnode
 node trimesh rghtbackwh
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 1.03285 0.923458 0.426108
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -3864,7 +3864,7 @@ node trimesh rghtbackwh
     0.2351 0.7649 0.000499964
 endnode
 node trimesh lftbackna1
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 0.0782829 -1.25567 0.238645
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -3922,7 +3922,7 @@ node trimesh lftbackna1
     0.38832 0.83139 0
 endnode
 node trimesh rghtbackt0
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 1.01932 0.926427 0.260279
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -3958,7 +3958,7 @@ node trimesh rghtbackt0
     0.37499 0.8251 0
 endnode
 node trimesh rghtbackt1
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 1.16604 0.912255 0.584969
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -3994,7 +3994,7 @@ node trimesh rghtbackt1
     0.3983 0.73983 0
 endnode
 node trimesh rghtfront0
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position -0.966801 0.942152 0.260279
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -4030,7 +4030,7 @@ node trimesh rghtfront0
     0.16115 0.8251 0
 endnode
 node trimesh rghtfront1
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position -0.820086 0.927983 0.584969
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -4066,7 +4066,7 @@ node trimesh rghtfront1
     0.18446 0.73983 0
 endnode
 node trimesh lftfrontpo
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 1.19175 -0.909746 1.78931
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -4369,7 +4369,7 @@ node trimesh lftfrontpo
     -0.405698 0.000499517 0.735482
 endnode
 node trimesh lftbackpol
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position -1.15558 -0.914201 1.7934
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -4673,7 +4673,7 @@ node trimesh lftbackpol
     0 0.999501 0.999001
 endnode
 node trimesh rghtbackpo
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position -1.12818 0.603939 1.80066
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -4991,7 +4991,7 @@ node trimesh rghtbackpo
     -0.0318117 0.999501 0.979251
 endnode
 node trimesh rghtfrontp
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 1.10497 0.601499 1.80236
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -5298,7 +5298,7 @@ node trimesh rghtfrontp
     0 0.999501 0.999
 endnode
 node trimesh newtopinsi
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 0.0650831 -0.10911 2.55732
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -6742,7 +6742,7 @@ node trimesh newtopinsi
     0.992486 0.434647 0.984807
 endnode
 node trimesh canvasdroo
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 0.0459868 -0.0928824 2.13439
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -7535,7 +7535,7 @@ node trimesh canvasdroo
     0.5812 0.24846 0
 endnode
 node trimesh canvasdro0
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 0.0444213 -0.0915705 2.13439
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -8359,7 +8359,7 @@ node trimesh canvasdro0
     0.40723 0.25056 0
 endnode
 node trimesh canvasdro1
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 0.0475523 -0.0941955 2.13439
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -9157,7 +9157,7 @@ node trimesh canvasdro1
     0.334543 0.446753 1.24577
 endnode
 node trimesh Cube_2
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 0.0868634 -0.146651 2.87088
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -9233,7 +9233,7 @@ node trimesh Cube_2
     0.9995 0.9995 0.999501
 endnode
 node trimesh rghtfrontw01
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position -0.913804 -1.16437 0.416654
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -10153,7 +10153,7 @@ node trimesh rghtfrontw01
     0.755844 0.327764 0.741698
 endnode
 node trimesh rghtbackwh01
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 1.03285 -1.15807 0.426108
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -10784,7 +10784,7 @@ node trimesh rghtbackwh01
     0.2351 0.7649 0.000499994
 endnode
 node trimesh Plane01
-  parent plc_msapp5
+  parent sp_crt_vendor1
   position 0.0089492 -0.134108 1.20099
   orientation 0 0 0 0
   wirecolor 0.769531 0.769531 0.769531
@@ -10889,5 +10889,5 @@ node trimesh Plane01
     0.75 1 0
     1 1 0
 endnode
-endmodelgeom plc_msapp5
-donemodel plc_msapp5
+endmodelgeom sp_crt_vendor1
+donemodel sp_crt_vendor1
