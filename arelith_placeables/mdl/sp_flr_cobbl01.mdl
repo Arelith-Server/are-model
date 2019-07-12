@@ -1,18 +1,18 @@
 #MAXMODEL ASCII
-# model: PLV_fl09
-filedependancy PLV_fl09.max
-newmodel PLV_fl09
-setsupermodel PLV_fl09 NULL
+# model: sp_flr_cobbl01
+filedependancy sp_flr_cobbl01.max
+newmodel sp_flr_cobbl01
+setsupermodel sp_flr_cobbl01 NULL
 classification tile
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom PLV_fl09
-node dummy PLV_fl09
+beginmodelgeom sp_flr_cobbl01
+node dummy sp_flr_cobbl01
   parent NULL
   #part-number 0
 endnode
 node trimesh Plane121
-  parent PLV_fl09
+  parent sp_flr_cobbl01
     position 1.0 1.0 0.01
     orientation 1.0 0.0 0.0 0.0
   alpha 1
@@ -109,6 +109,6 @@ node trimesh Plane121
     23 18 24 1 23 18 24 1
     19 24 18 1 19 24 18 1
 endnode
-endmodelgeom PLV_fl09
+endmodelgeom sp_flr_cobbl01
 
-donemodel PLV_fl09
+donemodel sp_flr_cobbl01

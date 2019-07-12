@@ -1,49 +1,49 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: PLC_Log
+# model: sp_log_fall01
 filedependancy Fallen Log.max
-newmodel PLC_Log
-setsupermodel PLC_Log NULL
+newmodel sp_log_fall01
+setsupermodel sp_log_fall01 NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom PLC_Log
-node dummy PLC_Log
+beginmodelgeom sp_log_fall01
+node dummy sp_log_fall01
   parent NULL
 endnode
 node dummy Log_hand
-  parent PLC_Log
+  parent sp_log_fall01
   position 0.00398437 -0.505195 0.934402
   orientation 0 0 0 0
   wirecolor 0.722656 0.722656 0.722656
 endnode
 node dummy Log_head
-  parent PLC_Log
+  parent sp_log_fall01
   position 0.00398437 0.0108252 1.04677
   orientation 0 0 0 0
   wirecolor 0.722656 0.722656 0.722656
 endnode
 node dummy Log_head_hit
-  parent PLC_Log
+  parent sp_log_fall01
   position 0.00398437 0.0108252 0.565293
   orientation 0 0 0 0
   wirecolor 0.722656 0.722656 0.722656
 endnode
 node dummy Log_impact
-  parent PLC_Log
+  parent sp_log_fall01
   position 0.00398437 0.011001 0.5372
   orientation 0 0 0 0
   wirecolor 0.722656 0.722656 0.722656
 endnode
 node dummy Log_ground
-  parent PLC_Log
+  parent sp_log_fall01
   position -0.00363281 0.0069873 0
   orientation 0 0 0 0
   wirecolor 0.722656 0.722656 0.722656
 endnode
 node emitter ChunkyWood188
-  parent PLC_Log
+  parent sp_log_fall01
   position 0.0272229 0.0298361 0.615493
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
@@ -110,7 +110,7 @@ node emitter ChunkyWood188
     chunkName PLC_Chunk_W01
 endnode
 node emitter ChunkyWood189
-  parent PLC_Log
+  parent sp_log_fall01
   position 0.0272229 0.03082 0.509271
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
@@ -177,7 +177,7 @@ node emitter ChunkyWood189
     chunkName PLC_Chunk_W02
 endnode
 node trimesh damage74
-  parent PLC_Log
+  parent sp_log_fall01
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.898438 0.898438 0.898438
@@ -544,7 +544,7 @@ node trimesh Branch01
     0.335626 0.613111 0.4334
 endnode
 node emitter fire!116
-  parent PLC_Log
+  parent sp_log_fall01
   position 0.0272229 0.0298361 0.435227
   orientation -1 0 0 -1.5708
   wirecolor 0.878906 0.878906 0.878906
@@ -609,39 +609,39 @@ node emitter fire!116
     renderorder 0
     Splat 0
 endnode
-endmodelgeom PLC_Log
+endmodelgeom sp_log_fall01
 
 #MAXANIM ASCII
-newanim damage PLC_Log
+newanim damage sp_log_fall01
   length 0.133333
   transtime 0
-  animroot PLC_Log
-node dummy PLC_Log
+  animroot sp_log_fall01
+node dummy sp_log_fall01
   parent NULL
 endnode
 node dummy Log_hand
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_head
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_head_hit
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_impact
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_ground
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node emitter ChunkyWood188
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node emitter ChunkyWood189
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node trimesh damage74
-  parent PLC_Log
+  parent sp_log_fall01
     positionkey
       0  0 0 0
       0.0333333  0 0 0.0244581
@@ -664,44 +664,44 @@ node trimesh Branch01
   parent Log
 endnode
 node emitter fire!116
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
-node trimesh PLC_Log_wg
-  parent PLC_Log
+node trimesh sp_log_fall01_wg
+  parent sp_log_fall01
 endnode
-doneanim damage PLC_Log
+doneanim damage sp_log_fall01
 
 #MAXANIM ASCII
-newanim die PLC_Log
+newanim die sp_log_fall01
   length 0.166667
   transtime 0
-  animroot PLC_Log
-node dummy PLC_Log
+  animroot sp_log_fall01
+node dummy sp_log_fall01
   parent NULL
 endnode
 node dummy Log_hand
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_head
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_head_hit
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_impact
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_ground
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node emitter ChunkyWood188
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node emitter ChunkyWood189
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node trimesh damage74
-  parent PLC_Log
+  parent sp_log_fall01
     positionkey
       0  0 0 0
       0.166667  0 0 -6.95145
@@ -720,47 +720,47 @@ node trimesh Branch01
   parent Log
 endnode
 node emitter fire!116
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
-node trimesh PLC_Log_wg
-  parent PLC_Log
+node trimesh sp_log_fall01_wg
+  parent sp_log_fall01
 endnode
 event 0  detonate
 event 0  detonate
 event 0  detonate
-doneanim die PLC_Log
+doneanim die sp_log_fall01
 
 #MAXANIM ASCII
-newanim dead PLC_Log
+newanim dead sp_log_fall01
   length 0.0333333
   transtime 0
-  animroot PLC_Log
-node dummy PLC_Log
+  animroot sp_log_fall01
+node dummy sp_log_fall01
   parent NULL
 endnode
 node dummy Log_hand
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_head
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_head_hit
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_impact
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_ground
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node emitter ChunkyWood188
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node emitter ChunkyWood189
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node trimesh damage74
-  parent PLC_Log
+  parent sp_log_fall01
     positionkey
       0  0 0 -6.95145
       0.0333333  0 0 -6.95145
@@ -776,44 +776,44 @@ node trimesh Branch01
   parent Log
 endnode
 node emitter fire!116
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
-node trimesh PLC_Log_wg
-  parent PLC_Log
+node trimesh sp_log_fall01_wg
+  parent sp_log_fall01
 endnode
-doneanim dead PLC_Log
+doneanim dead sp_log_fall01
 
 #MAXANIM ASCII
-newanim default PLC_Log
+newanim default sp_log_fall01
   length 0
   transtime 0.25
-  animroot PLC_Log
-node dummy PLC_Log
+  animroot sp_log_fall01
+node dummy sp_log_fall01
   parent NULL
 endnode
 node dummy Log_hand
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_head
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_head_hit
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_impact
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node dummy Log_ground
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node emitter ChunkyWood188
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node emitter ChunkyWood189
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
 node trimesh damage74
-  parent PLC_Log
+  parent sp_log_fall01
     positionkey
       0  0 0 0
     endlist
@@ -831,10 +831,10 @@ node trimesh Branch01
   parent Log
 endnode
 node emitter fire!116
-  parent PLC_Log
+  parent sp_log_fall01
 endnode
-node trimesh PLC_Log_wg
-  parent PLC_Log
+node trimesh sp_log_fall01_wg
+  parent sp_log_fall01
 endnode
-doneanim default PLC_Log
-donemodel PLC_Log
+doneanim default sp_log_fall01
+donemodel sp_log_fall01

@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: alc_trf
+# model: sp_trough
 #local file: Unknown
 filedependancy Unknown
-newmodel alc_trf
-setsupermodel alc_trf NULL
+newmodel sp_trough
+setsupermodel sp_trough NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom alc_trf
-node dummy alc_trf
+beginmodelgeom sp_trough
+node dummy sp_trough
   parent NULL
 endnode
 node dummy trough
-  parent alc_trf
+  parent sp_trough
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.341176 0.878431 0.560784 
@@ -438,7 +438,7 @@ node trimesh rside02
     0.470907 0.0844942 0
 endnode
 node emitter ChunkyWood11
-  parent alc_trf
+  parent sp_trough
   position 0.0084528 0.0 0.278442
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -507,7 +507,7 @@ node emitter ChunkyWood11
   Drag 0.0
 endnode
 node emitter fire!12
-  parent alc_trf
+  parent sp_trough
   position 0.0 0.0 0.15
   orientation 1.0 0.0 0.0 -4.71239
   wirecolor 1.0 1.0 1.0 
@@ -575,7 +575,7 @@ node emitter fire!12
   Drag 0.0
 endnode
 node emitter ChunkyWood12
-  parent alc_trf
+  parent sp_trough
   position 0.0084528 0.0 0.17222
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -644,50 +644,50 @@ node emitter ChunkyWood12
   Drag 0.0
 endnode
 node dummy trf_hand
-  parent alc_trf
+  parent sp_trough
   position 0.00398437 -0.817904 0.2
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.839216 0.898039 0.65098 
 endnode
 node dummy trf_head
-  parent alc_trf
+  parent sp_trough
   position 0.00398437 0.0108252 0.4
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.839216 0.898039 0.65098 
 endnode
 node dummy trf_head_hit
-  parent alc_trf
+  parent sp_trough
   position 0.00398437 0.0108252 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.839216 0.898039 0.65098 
 endnode
 node dummy trf_ground
-  parent alc_trf
+  parent sp_trough
   position -0.00363281 0.0069873 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.839216 0.898039 0.65098 
 endnode
 node dummy trf_impact
-  parent alc_trf
+  parent sp_trough
   position 0.0 0.0 0.2
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.839216 0.898039 0.65098 
 endnode
-endmodelgeom alc_trf
+endmodelgeom sp_trough
 
 #NWmax ANIM ASCII
-newanim die alc_trf
+newanim die sp_trough
   length 0.133333
   transtime 0.0
-  animroot alc_trf
+  animroot sp_trough
   event 0.0333333 detonate
   event 0.0333333 detonate
   event 0.0333333 detonate
-    node dummy alc_trf
+    node dummy sp_trough
         parent NULL
     endnode
     node dummy trough
-        parent alc_trf
+        parent sp_trough
         positionkey
             0.0 0.0 0.0 0.0
             0.133333 0.0 0.0 -3.13764
@@ -712,60 +712,60 @@ newanim die alc_trf
         parent trough
     endnode
     node emitter ChunkyWood11
-        parent alc_trf
+        parent sp_trough
     endnode
     node emitter fire!12
-        parent alc_trf
+        parent sp_trough
     endnode
     node emitter ChunkyWood12
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_hand
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_head
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_head_hit
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_ground
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_impact
-        parent alc_trf
+        parent sp_trough
     endnode
-    node dummy alc_trf_pwk
-        parent alc_trf
+    node dummy sp_trough_pwk
+        parent sp_trough
     endnode
     node trimesh PWK
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use01
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use02
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use03
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use04
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
-doneanim die alc_trf
+doneanim die sp_trough
 
 
 #NWmax ANIM ASCII
-newanim dead alc_trf
+newanim dead sp_trough
   length 0.0333333
   transtime 0.0
-  animroot alc_trf
-    node dummy alc_trf
+  animroot sp_trough
+    node dummy sp_trough
         parent NULL
     endnode
     node dummy trough
-        parent alc_trf
+        parent sp_trough
         positionkey
             0.133333 0.0 0.0 -3.13764
         endlist
@@ -789,60 +789,60 @@ newanim dead alc_trf
         parent trough
     endnode
     node emitter ChunkyWood11
-        parent alc_trf
+        parent sp_trough
     endnode
     node emitter fire!12
-        parent alc_trf
+        parent sp_trough
     endnode
     node emitter ChunkyWood12
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_hand
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_head
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_head_hit
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_ground
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_impact
-        parent alc_trf
+        parent sp_trough
     endnode
-    node dummy alc_trf_pwk
-        parent alc_trf
+    node dummy sp_trough_pwk
+        parent sp_trough
     endnode
     node trimesh PWK
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use01
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use02
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use03
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use04
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
-doneanim dead alc_trf
+doneanim dead sp_trough
 
 
 #NWmax ANIM ASCII
-newanim damage alc_trf
+newanim damage sp_trough
   length 0.1
   transtime 0.0
-  animroot alc_trf
-    node dummy alc_trf
+  animroot sp_trough
+    node dummy sp_trough
         parent NULL
     endnode
     node dummy trough
-        parent alc_trf
+        parent sp_trough
         positionkey
             0.0 0.0 0.0 0.0
             0.0333333 0.0 0.0 0.0249562
@@ -875,60 +875,60 @@ newanim damage alc_trf
         parent trough
     endnode
     node emitter ChunkyWood11
-        parent alc_trf
+        parent sp_trough
     endnode
     node emitter fire!12
-        parent alc_trf
+        parent sp_trough
     endnode
     node emitter ChunkyWood12
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_hand
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_head
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_head_hit
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_ground
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_impact
-        parent alc_trf
+        parent sp_trough
     endnode
-    node dummy alc_trf_pwk
-        parent alc_trf
+    node dummy sp_trough_pwk
+        parent sp_trough
     endnode
     node trimesh PWK
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use01
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use02
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use03
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use04
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
-doneanim damage alc_trf
+doneanim damage sp_trough
 
 
 #NWmax ANIM ASCII
-newanim default alc_trf
+newanim default sp_trough
   length 0.0
   transtime 0.25
-  animroot alc_trf
-    node dummy alc_trf
+  animroot sp_trough
+    node dummy sp_trough
         parent NULL
     endnode
     node dummy trough
-        parent alc_trf
+        parent sp_trough
     endnode
     node trimesh base01
         parent trough
@@ -949,47 +949,47 @@ newanim default alc_trf
         parent trough
     endnode
     node emitter ChunkyWood11
-        parent alc_trf
+        parent sp_trough
     endnode
     node emitter fire!12
-        parent alc_trf
+        parent sp_trough
     endnode
     node emitter ChunkyWood12
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_hand
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_head
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_head_hit
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_ground
-        parent alc_trf
+        parent sp_trough
     endnode
     node dummy trf_impact
-        parent alc_trf
+        parent sp_trough
     endnode
-    node dummy alc_trf_pwk
-        parent alc_trf
+    node dummy sp_trough_pwk
+        parent sp_trough
     endnode
     node trimesh PWK
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use01
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use02
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use03
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
     node dummy h01_pwk_use04
-        parent alc_trf_pwk
+        parent sp_trough_pwk
     endnode
-doneanim default alc_trf
+doneanim default sp_trough
 
-donemodel alc_trf
+donemodel sp_trough

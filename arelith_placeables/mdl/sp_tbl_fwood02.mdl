@@ -2,16 +2,16 @@
 # mdl file
 #
 filedependancy Unknown
-newmodel Table13
-setsupermodel Table13 NULL
+newmodel sp_tbl_fwood02
+setsupermodel sp_tbl_fwood02 NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom Table13
-node dummy Table13
+beginmodelgeom sp_tbl_fwood02
+node dummy sp_tbl_fwood02
     parent NULL
 endnode
-node trimesh PLC_MC_TABLE13
-    parent Table13
+node trimesh PLC_MC_sp_tbl_fwood02
+    parent sp_tbl_fwood02
     position 0.000169458 0.000807557 0.0
     orientation 1.0 0.0 0.0 0.0
     bitmap sp_finetable13
@@ -1900,5 +1900,5 @@ node trimesh PLC_MC_TABLE13
         0.0327488 0.457327 0
         0.0327488 0.457327 0
 endnode
-endmodelgeom Table13
-donemodel Table13
+endmodelgeom sp_tbl_fwood02
+donemodel sp_tbl_fwood02

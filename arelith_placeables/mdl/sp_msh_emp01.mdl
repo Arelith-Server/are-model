@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: PLC_MWEP01
+# model: sp_msh_emp01
 #local file: C:\Users\Pablo\Documents\3DS\XYZ.max
 filedependancy XYZ.max
-newmodel PLC_MWEP01
-setsupermodel PLC_MWEP01 NULL
+newmodel sp_msh_emp01
+setsupermodel sp_msh_emp01 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom PLC_MWEP01
-node dummy PLC_MWEP01
+beginmodelgeom sp_msh_emp01
+node dummy sp_msh_emp01
   parent NULL
 endnode
 node trimesh Spores
-  parent PLC_MWEP01
+  parent sp_msh_emp01
   position -0.248839 0.0495754 3.5934
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.87451 0.776471 0.337255 
@@ -90,7 +90,7 @@ node trimesh Spores
     1.70745 -0.539174 0
 endnode
 node trimesh undercup
-  parent PLC_MWEP01
+  parent sp_msh_emp01
   position -0.248839 0.0495754 3.5934
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.894118 0.721569 0.6 
@@ -281,7 +281,7 @@ node trimesh undercup
     -0.43414 0.384993 0
 endnode
 node trimesh Vines
-  parent PLC_MWEP01
+  parent sp_msh_emp01
   position -0.248839 0.0495758 3.5934
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.576471 0.694118 0.101961 
@@ -408,7 +408,7 @@ node trimesh Vines
     0.02 0.000499487 0
 endnode
 node trimesh cup
-  parent PLC_MWEP01
+  parent sp_msh_emp01
   position -0.248839 0.0495758 3.5934
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.686275 0.101961 0.101961 
@@ -641,7 +641,7 @@ node trimesh cup
     0.658241 1.00202 0
 endnode
 node trimesh MW_EMP01
-  parent PLC_MWEP01
+  parent sp_msh_emp01
   position -0.248839 0.0495754 3.5934
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.521569 0.231373 0.0313726 
@@ -1170,5 +1170,5 @@ node trimesh MW_EMP01
     0.695475 0.732098 0
     2.45935 0.724607 0
 endnode
-endmodelgeom PLC_MWEP01
-donemodel PLC_MWEP01
+endmodelgeom sp_msh_emp01
+donemodel sp_msh_emp01

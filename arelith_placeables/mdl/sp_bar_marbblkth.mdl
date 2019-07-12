@@ -2,49 +2,49 @@
 # mdl file
 #
 #NWmaxMODEL ASCII
-# model: PX2_E03
+# model: sp_bar_marbblkth
 filedependancy Unknown
-newmodel PX2_E03
-setsupermodel PX2_E03 NULL
+newmodel sp_bar_marbblkth
+setsupermodel sp_bar_marbblkth NULL
 classification Character
 setanimationscale 1.0
 #NWmaxGEOM  ASCII
-beginmodelgeom PX2_E03
-node dummy PX2_E03
+beginmodelgeom sp_bar_marbblkth
+node dummy sp_bar_marbblkth
   parent NULL
 endnode
 node dummy E03_head_hit
-  parent PX2_E03
+  parent sp_bar_marbblkth
   position -0.0624175 0.0807849 2.7377
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.431373 0.52549 
 endnode
 node dummy E03_head
-  parent PX2_E03
+  parent sp_bar_marbblkth
   position -0.0643507 0.0816199 3.03094
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.431373 0.52549 
 endnode
 node dummy E03_hand
-  parent PX2_E03
+  parent sp_bar_marbblkth
   position -0.0904405 0.021723 3.28783
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.431373 0.52549 
 endnode
 node dummy E03_impact
-  parent PX2_E03
+  parent sp_bar_marbblkth
   position -0.127258 0.0238919 1.11782
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.431373 0.52549 
 endnode
 node dummy E03_ground
-  parent PX2_E03
+  parent sp_bar_marbblkth
   position -0.0230135 0.00497986 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.431373 0.52549 
 endnode
 node emitter fire!189
-  parent PX2_E03
+  parent sp_bar_marbblkth
   position -0.00368408 -0.0596246 0.532671
   orientation -1.0 0.0 0.0 -1.5708
   wirecolor 1.0 1.0 1.0 
@@ -114,7 +114,7 @@ node emitter fire!189
      Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
 endnode
 node emitter ChunkyWood309
-  parent PX2_E03
+  parent sp_bar_marbblkth
   position -0.00368408 -0.0596246 0.712937
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -184,7 +184,7 @@ node emitter ChunkyWood309
      Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
 endnode
 node emitter ChunkyWood310
-  parent PX2_E03
+  parent sp_bar_marbblkth
   position -0.00368408 -0.0596246 0.606715
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -254,7 +254,7 @@ node emitter ChunkyWood310
      Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
 endnode
 node trimesh damage21
-  parent PX2_E03
+  parent sp_bar_marbblkth
   position -0.00164856 -0.0197858 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -861,41 +861,41 @@ node trimesh Cylinder08
      1.04057 0.528978 0
      1.04057 0.603414 0
 endnode
-endmodelgeom PX2_E03
+endmodelgeom sp_bar_marbblkth
 #NWmaxANIM ASCII
-newanim damage PX2_E03
+newanim damage sp_bar_marbblkth
     length 0.133333
     transtime 0.25
-    animroot PX2_E03
-    node dummy PX2_E03
+    animroot sp_bar_marbblkth
+    node dummy sp_bar_marbblkth
         parent NULL
     endnode
     node dummy E03_head_hit
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_head
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_hand
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_impact
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_ground
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node emitter fire!189
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node emitter ChunkyWood309
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node emitter ChunkyWood310
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node trimesh damage21
-        parent PX2_E03
+        parent sp_bar_marbblkth
         positionkey
             0.0 -0.00164856 -0.0197858 0.0
             0.0333333 -0.00164856 -0.0197858 0.0244581
@@ -914,56 +914,56 @@ newanim damage PX2_E03
     node trimesh Cylinder08
         parent damage21
     endnode
-    node dummy PX2_E03_pwk
-        parent PX2_E03
+    node dummy sp_bar_marbblkth_pwk
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_pwk_use01
-        parent PX2_E03_pwk
+        parent sp_bar_marbblkth_pwk
     endnode
-    node pwk PX2_E03_wg
-        parent PX2_E03_pwk
+    node pwk sp_bar_marbblkth_wg
+        parent sp_bar_marbblkth_pwk
     endnode
     node dummy E03_pwk_use02
-        parent PX2_E03_pwk
+        parent sp_bar_marbblkth_pwk
     endnode
-doneanim damage PX2_E03
+doneanim damage sp_bar_marbblkth
 #NWmaxANIM ASCII
-newanim die PX2_E03
+newanim die sp_bar_marbblkth
     length 0.166667
     transtime 0.25
-    animroot PX2_E03
+    animroot sp_bar_marbblkth
     event 0.0333333 detonate
     event 0.0333333 detonate
     event 0.0333333 detonate
-    node dummy PX2_E03
+    node dummy sp_bar_marbblkth
         parent NULL
     endnode
     node dummy E03_head_hit
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_head
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_hand
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_impact
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_ground
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node emitter fire!189
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node emitter ChunkyWood309
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node emitter ChunkyWood310
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node trimesh damage21
-        parent PX2_E03
+        parent sp_bar_marbblkth
         positionkey
             0.0 -0.00164856 -0.0197858 0.0
             0.166667 -0.00164856 -0.0197858 -3.77999
@@ -981,53 +981,53 @@ newanim die PX2_E03
     node trimesh Cylinder08
         parent damage21
     endnode
-    node dummy PX2_E03_pwk
-        parent PX2_E03
+    node dummy sp_bar_marbblkth_pwk
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_pwk_use01
-        parent PX2_E03_pwk
+        parent sp_bar_marbblkth_pwk
     endnode
-    node pwk PX2_E03_wg
-        parent PX2_E03_pwk
+    node pwk sp_bar_marbblkth_wg
+        parent sp_bar_marbblkth_pwk
     endnode
     node dummy E03_pwk_use02
-        parent PX2_E03_pwk
+        parent sp_bar_marbblkth_pwk
     endnode
-doneanim die PX2_E03
+doneanim die sp_bar_marbblkth
 #NWmaxANIM ASCII
-newanim dead PX2_E03
+newanim dead sp_bar_marbblkth
     length 0.0333333
     transtime 0.25
-    animroot PX2_E03
-    node dummy PX2_E03
+    animroot sp_bar_marbblkth
+    node dummy sp_bar_marbblkth
         parent NULL
     endnode
     node dummy E03_head_hit
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_head
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_hand
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_impact
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_ground
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node emitter fire!189
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node emitter ChunkyWood309
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node emitter ChunkyWood310
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node trimesh damage21
-        parent PX2_E03
+        parent sp_bar_marbblkth
         positionkey
             0.0 -0.00164856 -0.0197858 -3.77999
             0.0333333 -0.00164856 -0.0197858 -3.77999
@@ -1045,53 +1045,53 @@ newanim dead PX2_E03
     node trimesh Cylinder08
         parent damage21
     endnode
-    node dummy PX2_E03_pwk
-        parent PX2_E03
+    node dummy sp_bar_marbblkth_pwk
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_pwk_use01
-        parent PX2_E03_pwk
+        parent sp_bar_marbblkth_pwk
     endnode
-    node pwk PX2_E03_wg
-        parent PX2_E03_pwk
+    node pwk sp_bar_marbblkth_wg
+        parent sp_bar_marbblkth_pwk
     endnode
     node dummy E03_pwk_use02
-        parent PX2_E03_pwk
+        parent sp_bar_marbblkth_pwk
     endnode
-doneanim dead PX2_E03
+doneanim dead sp_bar_marbblkth
 #NWmaxANIM ASCII
-newanim default PX2_E03
+newanim default sp_bar_marbblkth
     length 0.0
     transtime 0.25
-    animroot PX2_E03
-    node dummy PX2_E03
+    animroot sp_bar_marbblkth
+    node dummy sp_bar_marbblkth
         parent NULL
     endnode
     node dummy E03_head_hit
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_head
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_hand
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_impact
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_ground
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node emitter fire!189
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node emitter ChunkyWood309
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node emitter ChunkyWood310
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node trimesh damage21
-        parent PX2_E03
+        parent sp_bar_marbblkth
     endnode
     node trimesh Box15
         parent damage21
@@ -1105,17 +1105,17 @@ newanim default PX2_E03
     node trimesh Cylinder08
         parent damage21
     endnode
-    node dummy PX2_E03_pwk
-        parent PX2_E03
+    node dummy sp_bar_marbblkth_pwk
+        parent sp_bar_marbblkth
     endnode
     node dummy E03_pwk_use01
-        parent PX2_E03_pwk
+        parent sp_bar_marbblkth_pwk
     endnode
-    node pwk PX2_E03_wg
-        parent PX2_E03_pwk
+    node pwk sp_bar_marbblkth_wg
+        parent sp_bar_marbblkth_pwk
     endnode
     node dummy E03_pwk_use02
-        parent PX2_E03_pwk
+        parent sp_bar_marbblkth_pwk
     endnode
-doneanim default PX2_E03
-donemodel PX2_E03
+doneanim default sp_bar_marbblkth
+donemodel sp_bar_marbblkth

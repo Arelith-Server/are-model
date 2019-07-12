@@ -1,17 +1,17 @@
 # Rewritten by CleanModels 3 Version 3.2.3f Wed Dec 07 01:16:38 2011
 #MAXMODEL ASCII
 filedependency Unknown
-newmodel PLC_couchlg
-setsupermodel PLC_couchlg null
+newmodel sp_couchlg
+setsupermodel sp_couchlg null
 setanimationscale 1
 classification CHARACTER
 #MAXGEOM ASCII
-beginmodelgeom PLC_couchlg
-node dummy PLC_couchlg
+beginmodelgeom sp_couchlg
+node dummy sp_couchlg
   parent NULL
 endnode
 node emitter chunkywood188
-  parent PLC_couchlg
+  parent sp_couchlg
   position 0.0272229 0.0298361 0.615493
   wirecolor 1 1 1
   update_sel 3
@@ -80,7 +80,7 @@ node emitter chunkywood188
   spawntype 0
 endnode
 node emitter chunkywood189
-  parent PLC_couchlg
+  parent sp_couchlg
   position 0.0272229 0.03082 0.509271
   wirecolor 1 1 1
   update_sel 3
@@ -149,37 +149,37 @@ node emitter chunkywood189
   spawntype 0
 endnode
 node dummy couchlg_ground
-  parent PLC_couchlg
+  parent sp_couchlg
   position -0.00363281 0.0069873 0
   wirecolor 0.603922 0.603922 0.898039
   orientation 0 0 0 0
 endnode
 node dummy couchlg_hand
-  parent PLC_couchlg
+  parent sp_couchlg
   position 0.00398437 -0.505195 0.934402
   wirecolor 0.541176 0.0313726 0.431373
   orientation 0 0 0 0
 endnode
 node dummy couchlg_head
-  parent PLC_couchlg
+  parent sp_couchlg
   position 0.00398437 0.0108252 1.04677
   wirecolor 0.603922 0.603922 0.898039
   orientation 0 0 0 0
 endnode
 node dummy couchlg_head_hit
-  parent PLC_couchlg
+  parent sp_couchlg
   position 0.00398437 0.0108252 0.565293
   wirecolor 0.603922 0.603922 0.898039
   orientation 0 0 0 0
 endnode
 node dummy couchlg_impact
-  parent PLC_couchlg
+  parent sp_couchlg
   position 0.00398437 0.011001 0.5372
   wirecolor 0.603922 0.603922 0.898039
   orientation 0 0 0 0
 endnode
 node trimesh damage
-  parent PLC_couchlg
+  parent sp_couchlg
   position 0 0.014 0
   wirecolor 0.603922 0.839216 0.894118
   tilefade 0
@@ -653,7 +653,7 @@ node trimesh cushion
     0.392221 0.09719 0
 endnode
 node emitter fire!
-  parent PLC_couchlg
+  parent sp_couchlg
   position 0.0272229 0.0298361 0.435227
   orientation 1 0 0 -4.71239
   wirecolor 1 1 1
@@ -720,39 +720,39 @@ node emitter fire!
   drag 0
   spawntype 0
 endnode
-endmodelgeom PLC_couchlg
+endmodelgeom sp_couchlg
 
 #MAXANIM ASCII
-newanim damage PLC_couchlg
+newanim damage sp_couchlg
   length 0.133333
   transtime 0
-  animroot PLC_couchlg
-  node dummy PLC_couchlg
+  animroot sp_couchlg
+  node dummy sp_couchlg
     parent NULL
   endnode
   node emitter chunkywood188
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node emitter chunkywood189
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_ground
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_hand
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_head
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_head_hit
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_impact
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node trimesh damage
-    parent PLC_couchlg
+    parent sp_couchlg
     positionkey
       0 0 0.014 0
       0.0333333 0 0.014 0.00962917
@@ -778,50 +778,50 @@ newanim damage PLC_couchlg
     parent damage
   endnode
   node emitter fire!
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
-  node dummy PLC_couchlg_pwk
-    parent PLC_couchlg
+  node dummy sp_couchlg_pwk
+    parent sp_couchlg
   endnode
-  node dummy PLC_couchlg_wg
-    parent PLC_couchlg_pwk
+  node dummy sp_couchlg_wg
+    parent sp_couchlg_pwk
   endnode
   node dummy iop_pwk_use01
-    parent PLC_couchlg_pwk
+    parent sp_couchlg_pwk
   endnode
-doneanim damage PLC_couchlg
+doneanim damage sp_couchlg
 
 #MAXANIM ASCII
-newanim dead PLC_couchlg
+newanim dead sp_couchlg
   length 0.0333333
   transtime 0
-  animroot PLC_couchlg
-  node dummy PLC_couchlg
+  animroot sp_couchlg
+  node dummy sp_couchlg
     parent NULL
   endnode
   node emitter chunkywood188
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node emitter chunkywood189
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_ground
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_hand
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_head
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_head_hit
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_impact
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node trimesh damage
-    parent PLC_couchlg
+    parent sp_couchlg
     positionkey
       0 0 0.014 -2.73679
       0.0333333 0 0.014 -2.73679
@@ -840,50 +840,50 @@ newanim dead PLC_couchlg
     parent damage
   endnode
   node emitter fire!
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
-  node dummy PLC_couchlg_pwk
-    parent PLC_couchlg
+  node dummy sp_couchlg_pwk
+    parent sp_couchlg
   endnode
-  node dummy PLC_couchlg_wg
-    parent PLC_couchlg_pwk
+  node dummy sp_couchlg_wg
+    parent sp_couchlg_pwk
   endnode
   node dummy iop_pwk_use01
-    parent PLC_couchlg_pwk
+    parent sp_couchlg_pwk
   endnode
-doneanim dead PLC_couchlg
+doneanim dead sp_couchlg
 
 #MAXANIM ASCII
-newanim default PLC_couchlg
+newanim default sp_couchlg
   length 0
   transtime 0.25
-  animroot PLC_couchlg
-  node dummy PLC_couchlg
+  animroot sp_couchlg
+  node dummy sp_couchlg
     parent NULL
   endnode
   node emitter chunkywood188
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node emitter chunkywood189
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_ground
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_hand
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_head
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_head_hit
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_impact
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node trimesh damage
-    parent PLC_couchlg
+    parent sp_couchlg
     positionkey
       0 0 0.014 0
     endlist
@@ -904,51 +904,51 @@ newanim default PLC_couchlg
     parent damage
   endnode
   node emitter fire!
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
-  node dummy PLC_couchlg_pwk
-    parent PLC_couchlg
+  node dummy sp_couchlg_pwk
+    parent sp_couchlg
   endnode
-  node dummy PLC_couchlg_wg
-    parent PLC_couchlg_pwk
+  node dummy sp_couchlg_wg
+    parent sp_couchlg_pwk
   endnode
   node dummy iop_pwk_use01
-    parent PLC_couchlg_pwk
+    parent sp_couchlg_pwk
   endnode
-doneanim default PLC_couchlg
+doneanim default sp_couchlg
 
 #MAXANIM ASCII
-newanim die PLC_couchlg
+newanim die sp_couchlg
   length 0.166667
   transtime 0
   event 0 detonate
-  animroot PLC_couchlg
-  node dummy PLC_couchlg
+  animroot sp_couchlg
+  node dummy sp_couchlg
     parent NULL
   endnode
   node emitter chunkywood188
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node emitter chunkywood189
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_ground
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_hand
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_head
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_head_hit
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node dummy couchlg_impact
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
   node trimesh damage
-    parent PLC_couchlg
+    parent sp_couchlg
     positionkey
       0 0 0.014 0
       0.166667 0 0.014 -2.73679
@@ -971,16 +971,16 @@ newanim die PLC_couchlg
     parent damage
   endnode
   node emitter fire!
-    parent PLC_couchlg
+    parent sp_couchlg
   endnode
-  node dummy PLC_couchlg_pwk
-    parent PLC_couchlg
+  node dummy sp_couchlg_pwk
+    parent sp_couchlg
   endnode
-  node dummy PLC_couchlg_wg
-    parent PLC_couchlg_pwk
+  node dummy sp_couchlg_wg
+    parent sp_couchlg_pwk
   endnode
   node dummy iop_pwk_use01
-    parent PLC_couchlg_pwk
+    parent sp_couchlg_pwk
   endnode
-doneanim die PLC_couchlg
-donemodel PLC_couchlg
+doneanim die sp_couchlg
+donemodel sp_couchlg

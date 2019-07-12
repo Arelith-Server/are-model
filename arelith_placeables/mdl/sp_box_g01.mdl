@@ -1,49 +1,49 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: PLV_BX1
+# model: sp_box_g01
 filedependancy Unknown
-newmodel PLV_BX1
-setsupermodel PLV_BX1 NULL
+newmodel sp_box_g01
+setsupermodel sp_box_g01 NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom PLV_BX1
-node dummy PLV_BX1
+beginmodelgeom sp_box_g01
+node dummy sp_box_g01
   parent NULL
 endnode
 node dummy BX1_hand
-  parent PLV_BX1
+  parent sp_box_g01
   position 0.003989 -0.505195 0.649577
   orientation 0 0 0 0
   wirecolor 0.582031 0.582031 0.582031
 endnode
 node dummy BX1_head
-  parent PLV_BX1
+  parent sp_box_g01
   position 0.003989 0.010825 0.84084
   orientation 0 0 0 0
   wirecolor 0.582031 0.582031 0.582031
 endnode
 node dummy BX1_head_hit
-  parent PLV_BX1
+  parent sp_box_g01
   position 0.003989 0.010825 0.784453
   orientation 0 0 0 0
   wirecolor 0.582031 0.582031 0.582031
 endnode
 node dummy BX1_impact
-  parent PLV_BX1
+  parent sp_box_g01
   position 0.003989 0.011001 0.58331
   orientation 0 0 0 0
   wirecolor 0.582031 0.582031 0.582031
 endnode
 node dummy BX1_ground
-  parent PLV_BX1
+  parent sp_box_g01
   position -0.003633 0.006987 0
   orientation 0 0 0 0
   wirecolor 0.582031 0.582031 0.582031
 endnode
 node trimesh damage08
-  parent PLV_BX1
+  parent sp_box_g01
   position 0.014752 0.014497 0
   orientation 0 0 0 0
   wirecolor 0.582031 0.582031 0.582031
@@ -149,7 +149,7 @@ node trimesh BX1
     0.711557 0.422506 0
 endnode
 node emitter ChunkyWood70
-  parent PLV_BX1
+  parent sp_box_g01
   position 0.013185 -0.025341 0.712937
   orientation 0 0 0 0
   wirecolor 0.777344 0.777344 0.777344
@@ -215,7 +215,7 @@ node emitter ChunkyWood70
     Splat 0
 endnode
 node emitter fire!42
-  parent PLV_BX1
+  parent sp_box_g01
   position 0.013185 -0.025341 0.532671
   orientation -1 0 0 -1.5708
   wirecolor 0.777344 0.777344 0.777344
@@ -281,7 +281,7 @@ node emitter fire!42
     Splat 0
 endnode
 node emitter ChunkyWood71
-  parent PLV_BX1
+  parent sp_box_g01
   position 0.013185 -0.025341 0.606715
   orientation 0 0 0 0
   wirecolor 0.777344 0.777344 0.777344
@@ -346,33 +346,33 @@ node emitter ChunkyWood71
     renderorder 0
     Splat 0
 endnode
-endmodelgeom PLV_BX1
+endmodelgeom sp_box_g01
 
 #MAXANIM ASCII
-newanim damage PLV_BX1
+newanim damage sp_box_g01
   length 0.133333
   transtime 0
-  animroot PLV_BX1
-node dummy PLV_BX1
+  animroot sp_box_g01
+node dummy sp_box_g01
   parent NULL
 endnode
 node dummy BX1_hand
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_head
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_head_hit
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_impact
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_ground
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node trimesh damage08
-  parent PLV_BX1
+  parent sp_box_g01
     positionkey
       0  0.014752 0.014497 0
       0.0333333  0.014752 0.014497 0.024458
@@ -389,44 +389,44 @@ node trimesh BX1
   parent damage08
 endnode
 node emitter ChunkyWood70
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node emitter fire!42
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node emitter ChunkyWood71
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node trimesh Plane01
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
-doneanim damage PLV_BX1
+doneanim damage sp_box_g01
 
 #MAXANIM ASCII
-newanim die PLV_BX1
+newanim die sp_box_g01
   length 0.166667
   transtime 0
-  animroot PLV_BX1
-node dummy PLV_BX1
+  animroot sp_box_g01
+node dummy sp_box_g01
   parent NULL
 endnode
 node dummy BX1_hand
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_head
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_head_hit
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_impact
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_ground
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node trimesh damage08
-  parent PLV_BX1
+  parent sp_box_g01
     positionkey
       0  0.014752 0.014497 0
       0.166667  0.014752 0.014497 -3.77999
@@ -439,47 +439,47 @@ node trimesh BX1
   parent damage08
 endnode
 node emitter ChunkyWood70
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node emitter fire!42
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node emitter ChunkyWood71
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node trimesh Plane01
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 event 0  detonate
 event 0  detonate
 event 0  detonate
-doneanim die PLV_BX1
+doneanim die sp_box_g01
 
 #MAXANIM ASCII
-newanim dead PLV_BX1
+newanim dead sp_box_g01
   length 0.0333333
   transtime 0
-  animroot PLV_BX1
-node dummy PLV_BX1
+  animroot sp_box_g01
+node dummy sp_box_g01
   parent NULL
 endnode
 node dummy BX1_hand
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_head
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_head_hit
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_impact
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_ground
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node trimesh damage08
-  parent PLV_BX1
+  parent sp_box_g01
     positionkey
       0  0.014752 0.014497 -3.77999
       0.0333333  0.014752 0.014497 -3.77999
@@ -489,44 +489,44 @@ node trimesh BX1
   parent damage08
 endnode
 node emitter ChunkyWood70
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node emitter fire!42
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node emitter ChunkyWood71
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node trimesh Plane01
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
-doneanim dead PLV_BX1
+doneanim dead sp_box_g01
 
 #MAXANIM ASCII
-newanim default PLV_BX1
+newanim default sp_box_g01
   length 0
   transtime 0.25
-  animroot PLV_BX1
-node dummy PLV_BX1
+  animroot sp_box_g01
+node dummy sp_box_g01
   parent NULL
 endnode
 node dummy BX1_hand
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_head
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_head_hit
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_impact
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node dummy BX1_ground
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node trimesh damage08
-  parent PLV_BX1
+  parent sp_box_g01
     positionkey
       0  0.014752 0.014497 0
     endlist
@@ -538,16 +538,16 @@ node trimesh BX1
   parent damage08
 endnode
 node emitter ChunkyWood70
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node emitter fire!42
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node emitter ChunkyWood71
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
 node trimesh Plane01
-  parent PLV_BX1
+  parent sp_box_g01
 endnode
-doneanim default PLV_BX1
-donemodel PLV_BX1
+doneanim default sp_box_g01
+donemodel sp_box_g01

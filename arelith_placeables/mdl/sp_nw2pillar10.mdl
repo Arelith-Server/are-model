@@ -2,19 +2,19 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: nw2pillar10
+# model: sp_nw2pillar10
 #local file: Unknown
 filedependancy Unknown
-newmodel nw2pillar10
-setsupermodel nw2pillar10 NULL
+newmodel sp_nw2pillar10
+setsupermodel sp_nw2pillar10 NULL
 classification Other
 #NWmax GEOM  ASCII
-beginmodelgeom nw2pillar10
-node dummy nw2pillar10
+beginmodelgeom sp_nw2pillar10
+node dummy sp_nw2pillar10
   parent NULL
 endnode
 node trimesh PLC_MC_Pillar10
-  parent nw2pillar10
+  parent sp_nw2pillar10
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -583,5 +583,5 @@ node trimesh PLC_MC_Pillar10
     0.170566 0.608753 0
     0.110445 0.625098 0
 endnode
-endmodelgeom nw2pillar10
-donemodel nw2pillar10
+endmodelgeom sp_nw2pillar10
+donemodel sp_nw2pillar10

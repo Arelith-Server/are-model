@@ -2,16 +2,16 @@
 # mdl file
 #
 filedependancy Unknown
-newmodel axerestsn
-setsupermodel axerestsn NULL
+newmodel sp_axe_log
+setsupermodel sp_axe_log NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom axerestsn
-node dummy axerestsn
+beginmodelgeom sp_axe_log
+node dummy sp_axe_log
     parent NULL
 endnode
 node trimesh PLC_SN_AXEREST1
-    parent axerestsn
+    parent sp_axe_log
     position 0 0 0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -557,5 +557,5 @@ node trimesh PLC_SN_AXEREST1
         0.84068 0.734285 0
         0.84559 0.70239 0
 endnode
-endmodelgeom axerestsn
-donemodel axerestsn
+endmodelgeom sp_axe_log
+donemodel sp_axe_log

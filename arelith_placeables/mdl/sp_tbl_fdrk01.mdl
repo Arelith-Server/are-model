@@ -1,49 +1,49 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: PLV_UT2
+# model: sp_tbl_fdrk01
 filedependancy Unknown
-newmodel PLV_UT2
-setsupermodel PLV_UT2 NULL
+newmodel sp_tbl_fdrk01
+setsupermodel sp_tbl_fdrk01 NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom PLV_UT2
-node dummy PLV_UT2
+beginmodelgeom sp_tbl_fdrk01
+node dummy sp_tbl_fdrk01
   parent NULL
 endnode
 node dummy UT2_hand
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
   position 0.003989 -0.505195 0.734439
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
 endnode
 node dummy UT2_head
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
   position 0.003989 0.010825 0.900655
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
 endnode
 node dummy UT2_head_hit
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
   position 0.003989 0.010825 0.806779
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
 endnode
 node dummy UT2_impact
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
   position 0.003989 0.011001 0.58331
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
 endnode
 node dummy UT2_ground
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
   position -0.003633 0.006987 0
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
 endnode
 node trimesh damage08
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
   position 0.014752 0.014497 0
   orientation 0 0 0 0
   wirecolor 0.226563 0.226563 0.226563
@@ -436,7 +436,7 @@ node trimesh LegR
     1.10796 0.270615 0
 endnode
 node emitter ChunkyWood70
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
   position 0.013185 0.022652 0.373465
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
@@ -502,7 +502,7 @@ node emitter ChunkyWood70
     Splat 0
 endnode
 node emitter fire!42
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
   position 0.013185 -0.025341 0.532671
   orientation -1 0 0 -1.5708
   wirecolor 0.0351563 0.0351563 0.0351563
@@ -568,7 +568,7 @@ node emitter fire!42
     Splat 0
 endnode
 node emitter ChunkyWood71
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
   position 0.013185 0.022652 0.267244
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
@@ -633,33 +633,33 @@ node emitter ChunkyWood71
     renderorder 0
     Splat 0
 endnode
-endmodelgeom PLV_UT2
+endmodelgeom sp_tbl_fdrk01
 
 #MAXANIM ASCII
-newanim damage PLV_UT2
+newanim damage sp_tbl_fdrk01
   length 0.133333
   transtime 0
-  animroot PLV_UT2
-node dummy PLV_UT2
+  animroot sp_tbl_fdrk01
+node dummy sp_tbl_fdrk01
   parent NULL
 endnode
 node dummy UT2_hand
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_head
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_head_hit
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_impact
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_ground
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node trimesh damage08
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
     positionkey
       0  0.014752 0.014497 0
       0.0333333  0.014752 0.014497 0.024458
@@ -682,44 +682,44 @@ node trimesh LegR
   parent TableTop
 endnode
 node emitter ChunkyWood70
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node emitter fire!42
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node emitter ChunkyWood71
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
-node trimesh PLV_UT2_wg
-  parent PLV_UT2
+node trimesh sp_tbl_fdrk01_wg
+  parent sp_tbl_fdrk01
 endnode
-doneanim damage PLV_UT2
+doneanim damage sp_tbl_fdrk01
 
 #MAXANIM ASCII
-newanim die PLV_UT2
+newanim die sp_tbl_fdrk01
   length 0.166667
   transtime 0
-  animroot PLV_UT2
-node dummy PLV_UT2
+  animroot sp_tbl_fdrk01
+node dummy sp_tbl_fdrk01
   parent NULL
 endnode
 node dummy UT2_hand
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_head
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_head_hit
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_impact
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_ground
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node trimesh damage08
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
     positionkey
       0  0.014752 0.014497 0
       0.166667  0.014752 0.014497 -3.77999
@@ -738,47 +738,47 @@ node trimesh LegR
   parent TableTop
 endnode
 node emitter ChunkyWood70
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node emitter fire!42
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node emitter ChunkyWood71
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
-node trimesh PLV_UT2_wg
-  parent PLV_UT2
+node trimesh sp_tbl_fdrk01_wg
+  parent sp_tbl_fdrk01
 endnode
 event 0  detonate
 event 0  detonate
 event 0  detonate
-doneanim die PLV_UT2
+doneanim die sp_tbl_fdrk01
 
 #MAXANIM ASCII
-newanim dead PLV_UT2
+newanim dead sp_tbl_fdrk01
   length 0.0333333
   transtime 0
-  animroot PLV_UT2
-node dummy PLV_UT2
+  animroot sp_tbl_fdrk01
+node dummy sp_tbl_fdrk01
   parent NULL
 endnode
 node dummy UT2_hand
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_head
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_head_hit
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_impact
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_ground
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node trimesh damage08
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
     positionkey
       0  0.014752 0.014497 -3.77999
       0.0333333  0.014752 0.014497 -3.77999
@@ -794,44 +794,44 @@ node trimesh LegR
   parent TableTop
 endnode
 node emitter ChunkyWood70
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node emitter fire!42
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node emitter ChunkyWood71
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
-node trimesh PLV_UT2_wg
-  parent PLV_UT2
+node trimesh sp_tbl_fdrk01_wg
+  parent sp_tbl_fdrk01
 endnode
-doneanim dead PLV_UT2
+doneanim dead sp_tbl_fdrk01
 
 #MAXANIM ASCII
-newanim default PLV_UT2
+newanim default sp_tbl_fdrk01
   length 0
   transtime 0.25
-  animroot PLV_UT2
-node dummy PLV_UT2
+  animroot sp_tbl_fdrk01
+node dummy sp_tbl_fdrk01
   parent NULL
 endnode
 node dummy UT2_hand
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_head
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_head_hit
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_impact
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node dummy UT2_ground
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node trimesh damage08
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
     positionkey
       0  0.014752 0.014497 0
     endlist
@@ -849,16 +849,16 @@ node trimesh LegR
   parent TableTop
 endnode
 node emitter ChunkyWood70
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node emitter fire!42
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
 node emitter ChunkyWood71
-  parent PLV_UT2
+  parent sp_tbl_fdrk01
 endnode
-node trimesh PLV_UT2_wg
-  parent PLV_UT2
+node trimesh sp_tbl_fdrk01_wg
+  parent sp_tbl_fdrk01
 endnode
-doneanim default PLV_UT2
-donemodel PLV_UT2
+doneanim default sp_tbl_fdrk01
+donemodel sp_tbl_fdrk01

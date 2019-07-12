@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: PLC_MWEP02
+# model: sp_msh_emp02
 #local file: C:\Users\Pablo\Documents\3DS\XYZ.max
 filedependancy XYZ.max
-newmodel PLC_MWEP02
-setsupermodel PLC_MWEP02 NULL
+newmodel sp_msh_emp02
+setsupermodel sp_msh_emp02 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom PLC_MWEP02
-node dummy PLC_MWEP02
+beginmodelgeom sp_msh_emp02
+node dummy sp_msh_emp02
   parent NULL
 endnode
 node trimesh Tri_Flora_emp_parasol_02_3
-  parent PLC_MWEP02
+  parent sp_msh_emp02
   position -0.450617 -0.0550638 4.73182
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.560784 0.878431 0.341176 
@@ -85,7 +85,7 @@ node trimesh Tri_Flora_emp_parasol_02_3
     1.68087 -0.135164 0
 endnode
 node trimesh vines
-  parent PLC_MWEP02
+  parent sp_msh_emp02
   position -0.450617 -0.0550638 4.73182
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.52549 0.0235294 0.0235294 
@@ -208,7 +208,7 @@ node trimesh vines
     0.97 0.99 0
 endnode
 node trimesh Tri_Flora_emp_parasol_02_2
-  parent PLC_MWEP02
+  parent sp_msh_emp02
   position -0.450617 -0.0550638 4.73182
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.878431 0.337255 0.337255 
@@ -408,7 +408,7 @@ node trimesh Tri_Flora_emp_parasol_02_2
     0.12552 0.327692 0
 endnode
 node trimesh Tri_Flora_emp_parasol_02_1
-  parent PLC_MWEP02
+  parent sp_msh_emp02
   position -0.450617 -0.0550638 4.73182
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.878431 0.776471 0.341176 
@@ -694,7 +694,7 @@ node trimesh Tri_Flora_emp_parasol_02_1
     0.9965 0.305466 0
 endnode
 node trimesh Tri_Flora_emp_parasol_02_0
-  parent PLC_MWEP02
+  parent sp_msh_emp02
   position -0.450617 -0.0550638 4.73182
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.694118 0.109804 0.584314 
@@ -1556,5 +1556,5 @@ node trimesh Tri_Flora_emp_parasol_02_0
     2.0 2.38086 0
     0.339844 0.568359 0
 endnode
-endmodelgeom PLC_MWEP02
-donemodel PLC_MWEP02
+endmodelgeom sp_msh_emp02
+donemodel sp_msh_emp02

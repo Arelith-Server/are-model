@@ -1,49 +1,49 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: PLC_Mshrm01
+# model: sp_mshrm01
 filedependancy Mushroom01.max
-newmodel PLC_Mshrm01
-setsupermodel PLC_Mshrm01 NULL
+newmodel sp_mshrm01
+setsupermodel sp_mshrm01 NULL
 classification Door
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom PLC_Mshrm01
-node dummy PLC_Mshrm01
+beginmodelgeom sp_mshrm01
+node dummy sp_mshrm01
   parent NULL
 endnode
 node dummy Mshrm01_hand
-  parent PLC_Mshrm01
+  parent sp_mshrm01
   position 0 -0.5 0.934402
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
 endnode
 node dummy Mshrm01_head
-  parent PLC_Mshrm01
+  parent sp_mshrm01
   position 0 0 2.1763
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
 endnode
 node dummy Mshrm01_head_hit
-  parent PLC_Mshrm01
+  parent sp_mshrm01
   position 0 0 2.25728
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
 endnode
 node dummy Mshrm01_impact
-  parent PLC_Mshrm01
+  parent sp_mshrm01
   position 0 0 0.868134
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
 endnode
 node dummy Mshrm01_ground
-  parent PLC_Mshrm01
+  parent sp_mshrm01
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
 endnode
 node emitter fire!47
-  parent PLC_Mshrm01
+  parent sp_mshrm01
   position 0 0 0.532671
   orientation -1 0 0 -1.5708
   wirecolor 0.695313 0.695313 0.695313
@@ -109,7 +109,7 @@ node emitter fire!47
     Splat 0
 endnode
 node trimesh damage13
-  parent PLC_Mshrm01
+  parent sp_mshrm01
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.554688 0.554688 0.554688
@@ -718,7 +718,7 @@ node trimesh Fungal_bottom
     0.40214 0.12752 0.432505
 endnode
 node emitter ChunkyWood81
-  parent PLC_Mshrm01
+  parent sp_mshrm01
   position 0 0 0.712937
   orientation 0 0 0 0
   wirecolor 0.695313 0.695313 0.695313
@@ -784,36 +784,36 @@ node emitter ChunkyWood81
     Splat 0
     chunkName PLC_Chunk_M01
 endnode
-endmodelgeom PLC_Mshrm01
+endmodelgeom sp_mshrm01
 
 #MAXANIM ASCII
-newanim damage PLC_Mshrm01
+newanim damage sp_mshrm01
   length 0.133333
   transtime 0
-  animroot PLC_Mshrm01
-node dummy PLC_Mshrm01
+  animroot sp_mshrm01
+node dummy sp_mshrm01
   parent NULL
 endnode
 node dummy Mshrm01_hand
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_head
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_head_hit
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_impact
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_ground
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node emitter fire!47
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node trimesh damage13
-  parent PLC_Mshrm01
+  parent sp_mshrm01
     positionkey
       0  0 0 0
       0.0333333  0 0 0.0244581
@@ -838,41 +838,41 @@ node trimesh Fungal_bottom
     endlist
 endnode
 node emitter ChunkyWood81
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node trimesh PLC_Mushrm01_wg
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
-doneanim damage PLC_Mshrm01
+doneanim damage sp_mshrm01
 
 #MAXANIM ASCII
-newanim die PLC_Mshrm01
+newanim die sp_mshrm01
   length 0.166667
   transtime 0
-  animroot PLC_Mshrm01
-node dummy PLC_Mshrm01
+  animroot sp_mshrm01
+node dummy sp_mshrm01
   parent NULL
 endnode
 node dummy Mshrm01_hand
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_head
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_head_hit
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_impact
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_ground
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node emitter fire!47
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node trimesh damage13
-  parent PLC_Mshrm01
+  parent sp_mshrm01
     positionkey
       0  0 0 0
       0.166667  0 0 -3.77999
@@ -888,43 +888,43 @@ node trimesh Fungal_bottom
   parent MushroomStalk
 endnode
 node emitter ChunkyWood81
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node trimesh PLC_Mushrm01_wg
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 event 0  detonate
 event 0  detonate
-doneanim die PLC_Mshrm01
+doneanim die sp_mshrm01
 
 #MAXANIM ASCII
-newanim dead PLC_Mshrm01
+newanim dead sp_mshrm01
   length 0.0333333
   transtime 0
-  animroot PLC_Mshrm01
-node dummy PLC_Mshrm01
+  animroot sp_mshrm01
+node dummy sp_mshrm01
   parent NULL
 endnode
 node dummy Mshrm01_hand
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_head
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_head_hit
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_impact
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_ground
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node emitter fire!47
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node trimesh damage13
-  parent PLC_Mshrm01
+  parent sp_mshrm01
     positionkey
       0  0 0 -3.77999
       0.0333333  0 0 -3.77999
@@ -937,41 +937,41 @@ node trimesh Fungal_bottom
   parent MushroomStalk
 endnode
 node emitter ChunkyWood81
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node trimesh PLC_Mushrm01_wg
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
-doneanim dead PLC_Mshrm01
+doneanim dead sp_mshrm01
 
 #MAXANIM ASCII
-newanim default PLC_Mshrm01
+newanim default sp_mshrm01
   length 0
   transtime 0.25
-  animroot PLC_Mshrm01
-node dummy PLC_Mshrm01
+  animroot sp_mshrm01
+node dummy sp_mshrm01
   parent NULL
 endnode
 node dummy Mshrm01_hand
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_head
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_head_hit
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_impact
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node dummy Mshrm01_ground
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node emitter fire!47
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node trimesh damage13
-  parent PLC_Mshrm01
+  parent sp_mshrm01
     positionkey
       0  0 0 0
     endlist
@@ -986,10 +986,10 @@ node trimesh Fungal_bottom
   parent MushroomStalk
 endnode
 node emitter ChunkyWood81
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
 node trimesh PLC_Mushrm01_wg
-  parent PLC_Mshrm01
+  parent sp_mshrm01
 endnode
-doneanim default PLC_Mshrm01
-donemodel PLC_Mshrm01
+doneanim default sp_mshrm01
+donemodel sp_mshrm01

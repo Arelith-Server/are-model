@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: PLC_MWACT4
+# model: sp_msh_tree04
 #local file: C:\Users\Pablo\Documents\3DS\XYZ.max
 filedependancy XYZ.max
-newmodel PLC_MWACT4
-setsupermodel PLC_MWACT4 NULL
+newmodel sp_msh_tree04
+setsupermodel sp_msh_tree04 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom PLC_MWACT4
-node dummy PLC_MWACT4
+beginmodelgeom sp_msh_tree04
+node dummy sp_msh_tree04
   parent NULL
 endnode
 node trimesh Tri_Flora_tree_AC_04_1
-  parent PLC_MWACT4
+  parent sp_msh_tree04
   position 0.0766712 0.504406 2.68339
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.878431 0.776471 0.341176 
@@ -463,7 +463,7 @@ node trimesh Tri_Flora_tree_AC_04_1
     -0.151714 0.0 0
 endnode
 node trimesh Tri_Flora_tree_AC_04_2
-  parent PLC_MWACT4
+  parent sp_msh_tree04
   position 0.0766712 0.504406 2.68339
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.878431 0.337255 0.337255 
@@ -1487,7 +1487,7 @@ node trimesh Tri_Flora_tree_AC_04_2
     0.63561 0.984527 0
 endnode
 node trimesh Tri_Flora_tree_AC_04_3
-  parent PLC_MWACT4
+  parent sp_msh_tree04
   position 0.0766712 0.504406 2.68339
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.560784 0.878431 0.341176 
@@ -1670,7 +1670,7 @@ node trimesh Tri_Flora_tree_AC_04_3
     0.993277 0.9995 0
 endnode
 node trimesh Tri_Flora_tree_AC_04_0
-  parent PLC_MWACT4
+  parent sp_msh_tree04
   position 0.0766712 0.504406 2.68339
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.694118 0.109804 0.584314 
@@ -2366,5 +2366,5 @@ node trimesh Tri_Flora_tree_AC_04_0
     4.08649 0.331386 0
     1.08649 0.331386 0
 endnode
-endmodelgeom PLC_MWACT4
-donemodel PLC_MWACT4
+endmodelgeom sp_msh_tree04
+donemodel sp_msh_tree04

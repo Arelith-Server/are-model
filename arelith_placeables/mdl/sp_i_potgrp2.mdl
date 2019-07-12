@@ -2,50 +2,50 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: PLC_I_POTgr2
-#local file: F:\nwn_mods\!_misc content\CARC_doa\_PLC_I_POTgr2.max
-filedependancy _PLC_I_POTgr2.max
-newmodel PLC_I_POTgr2
-setsupermodel PLC_I_POTgr2 NULL
+# model: sp_i_potgrp2
+#local file: F:\nwn_mods\!_misc content\CARC_doa\_sp_i_potgrp2.max
+filedependancy _sp_i_potgrp2.max
+newmodel sp_i_potgrp2
+setsupermodel sp_i_potgrp2 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom PLC_I_POTgr2
-node dummy PLC_I_POTgr2
+beginmodelgeom sp_i_potgrp2
+node dummy sp_i_potgrp2
   parent NULL
 endnode
 node dummy C07_hand
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position 0.00398437 -0.505195 0.154471
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.109804 0.584314 
 endnode
 node dummy C07_head
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position 0.00398437 0.0108252 0.70564
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.109804 0.584314 
 endnode
 node dummy C07_head_hit
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position 0.00398437 0.0108252 0.224162
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.109804 0.584314 
 endnode
 node dummy C07_impact
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position 0.00398437 0.011001 0.0882033
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.109804 0.584314 
 endnode
 node dummy C07_ground
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position -0.00363281 0.0069873 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.109804 0.109804 0.694118 
 endnode
 node trimesh bottle_bottom
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position 0.322313 -0.0652885 0.19093
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -746,7 +746,7 @@ node trimesh Object07
     0.182504 0.921738 0
 endnode
 node trimesh bottle_bottom01
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position -0.341581 0.000187203 0.192036
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -1420,7 +1420,7 @@ node trimesh Object27
     0.75549 0.727638 0
 endnode
 node trimesh bottle_bottom03
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position -0.157264 -0.106673 0.159678
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -1793,7 +1793,7 @@ node trimesh Object13
     0.61891 0.87954 0
 endnode
 node trimesh bottle_bottom04
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position -0.18113 0.119624 0.158991
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -2101,7 +2101,7 @@ node trimesh Object16
     -0.00110315 0.192946 0
 endnode
 node trimesh Box02
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position 0.0 0.0 0.0638975
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.776471 0.878431 0.341176 
@@ -2478,7 +2478,7 @@ node trimesh Box02
     0.988122 0.0367373 0
 endnode
 node trimesh bottle_bottom05
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position 0.0352798 0.0750049 0.189603
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -3179,7 +3179,7 @@ node trimesh Box04
     0.720971 0.661646 0
 endnode
 node trimesh Object23
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position 0.374988 0.109712 0.122467
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -3465,7 +3465,7 @@ node trimesh Object22
     -0.00110315 0.192946 0
 endnode
 node trimesh Object25
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position 0.0 0.0 0.0800072
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.776471 0.878431 0.341176 
@@ -3502,7 +3502,7 @@ node trimesh Object25
     0.256594 0.0158912 0
 endnode
 node trimesh bottle_bottom06
-  parent PLC_I_POTgr2
+  parent sp_i_potgrp2
   position 0.0988002 -0.103212 0.158991
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -3863,5 +3863,5 @@ node trimesh Object11
     0.284563 1.0032 0
     0.382234 1.00467 0
 endnode
-endmodelgeom PLC_I_POTgr2
-donemodel PLC_I_POTgr2
+endmodelgeom sp_i_potgrp2
+donemodel sp_i_potgrp2

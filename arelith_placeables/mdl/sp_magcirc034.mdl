@@ -1,24 +1,24 @@
 #MAXMODEL ASCII
-# model: plc_magcirc034
-filedependancy plc_magcirc034.max
-newmodel plc_magcirc034
-setsupermodel plc_magcirc034 NULL
+# model: sp_magcirc034
+filedependancy sp_magcirc034.max
+newmodel sp_magcirc034
+setsupermodel sp_magcirc034 NULL
 classification character
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom plc_magcirc034
-node dummy plc_magcirc034
+beginmodelgeom sp_magcirc034
+node dummy sp_magcirc034
   parent NULL
   #part-number 0
 endnode
 node trimesh Plane01
-  parent plc_magcirc034
+  parent sp_magcirc034
   #part-number 1
   ambient 0.588 0.588 0.588
   diffuse 0.588 0.588 0.588
   specular 0.0 0.0 0.0
   shininess 10.0
-  bitmap plc_mag_circle34g
+  bitmap sp_mag_circle34
   verts 4
     -5.0 5.0 0
     -5.0 -5.0 0
@@ -38,6 +38,6 @@ node trimesh Plane01
   selfillumcolor 128 128 128
   alpha 1
 endnode
-endmodelgeom plc_magcirc034
+endmodelgeom sp_magcirc034
 
-donemodel plc_magcirc034
+donemodel sp_magcirc034
