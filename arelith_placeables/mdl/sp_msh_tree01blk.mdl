@@ -2,19 +2,19 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: sp_PLC_MWACT1
+# model: sp_msh_tree01blk
 #local file: Unknown
 filedependancy Unknown
-newmodel sp_PLC_MWACT1
-setsupermodel sp_PLC_MWACT1 NULL
+newmodel sp_msh_tree01blk
+setsupermodel sp_msh_tree01blk NULL
 classification Other
 #NWmax GEOM  ASCII
-beginmodelgeom sp_PLC_MWACT1
-node dummy sp_PLC_MWACT1
+beginmodelgeom sp_msh_tree01blk
+node dummy sp_msh_tree01blk
   parent NULL
 endnode
 node trimesh Tri_Flora_tree_AC_01_2
-  parent sp_PLC_MWACT1
+  parent sp_msh_tree01blk
   position -0.0767705 0.0228119 3.49312
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.556863 0.87451 0.337255 
@@ -1198,7 +1198,7 @@ node trimesh Tri_Flora_tree_AC_01_2
     0.341002 0.000499487 0
 endnode
 node trimesh Tri_Flora_tree_AC_01_0
-  parent sp_PLC_MWACT1
+  parent sp_msh_tree01blk
   position -0.0767705 0.0228119 3.49312
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.87451 0.776471 0.337255 
@@ -2534,7 +2534,7 @@ node trimesh Tri_Flora_tree_AC_01_0
     0.541634 0.492624 0
 endnode
 node trimesh Tri_Flora_tree_AC_01_1
-  parent sp_PLC_MWACT1
+  parent sp_msh_tree01blk
   position -0.0767705 0.0228119 3.49312
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.87451 0.337255 0.337255 
@@ -4188,5 +4188,5 @@ node trimesh Tri_Flora_tree_AC_01_1
     2.0 2.48047 0
     0.0 2.48047 0
 endnode
-endmodelgeom sp_PLC_MWACT1
-donemodel sp_PLC_MWACT1
+endmodelgeom sp_msh_tree01blk
+donemodel sp_msh_tree01blk

@@ -2,16 +2,16 @@
 # mdl file
 #
 filedependancy Unknown
-newmodel alarm3
-setsupermodel alarm3 NULL
+newmodel sp_gong
+setsupermodel sp_gong NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom alarm3
-node dummy alarm3
+beginmodelgeom sp_gong
+node dummy sp_gong
     parent NULL
 endnode
 node trimesh PLC_MR_ALARM03_X2
-    parent alarm3
+    parent sp_gong
     position 0.0 0.0 0.0
     bitmap plc_gong_gray
     orientation 1.0 0.0 0.0 0.0
@@ -4064,5 +4064,5 @@ node trimesh PLC_MR_ALARM03_X2
         0.65952 0.670073 0
         0.65952 0.670073 0
 endnode
-endmodelgeom alarm3
-donemodel alarm3
+endmodelgeom sp_gong
+donemodel sp_gong

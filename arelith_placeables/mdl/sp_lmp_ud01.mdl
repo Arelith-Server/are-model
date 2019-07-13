@@ -2,25 +2,25 @@
 # mdl file
 #
 #NWmaxMODEL ASCII
-# model: PLV_UL1
+# model: sp_lmp_ud01
 filedependancy Unknown
-newmodel PLV_UL1
-setsupermodel PLV_UL1 NULL
+newmodel sp_lmp_ud01
+setsupermodel sp_lmp_ud01 NULL
 classification Character
 setanimationscale 1.0
 #NWmaxGEOM  ASCII
-beginmodelgeom PLV_UL1
-node dummy PLV_UL1
+beginmodelgeom sp_lmp_ud01
+node dummy sp_lmp_ud01
   parent NULL
 endnode
 node dummy UL1_ground
-  parent PLV_UL1
+  parent sp_lmp_ud01
   position -0.003633 0.006987 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.109804 0.34902 0.694118 
 endnode
 node trimesh damage08
-  parent PLV_UL1
+  parent sp_lmp_ud01
   position 0.014752 0.014497 0.140237
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.721569 0.721569 0.721569 
@@ -801,7 +801,7 @@ node trimesh Object1383
     0.508096 0.975881 0
 endnode
 node emitter fire!42
-  parent PLV_UL1
+  parent sp_lmp_ud01
   position 0.013185 -0.025341 0.376025
   orientation 1.0 0.0 0.0 -4.71239
   wirecolor 0.721569 0.721569 0.721569 
@@ -871,7 +871,7 @@ node emitter fire!42
   Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
 endnode
 node emitter ChunkyWood70
-  parent PLV_UL1
+  parent sp_lmp_ud01
   position 0.013185 -0.025341 0.556291
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.721569 0.721569 0.721569 
@@ -941,31 +941,31 @@ node emitter ChunkyWood70
   Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
 endnode
 node dummy UL1_impact
-  parent PLV_UL1
+  parent sp_lmp_ud01
   position 0.003989 0.0110011 1.78317
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.568627 0.109804 0.694118 
 endnode
 node dummy UL1_hand
-  parent PLV_UL1
+  parent sp_lmp_ud01
   position 0.00398892 -1.13665 1.95777
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.568627 0.109804 0.694118 
 endnode
 node dummy UL1_head
-  parent PLV_UL1
+  parent sp_lmp_ud01
   position 0.003989 0.0108251 3.14801
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.568627 0.109804 0.694118 
 endnode
 node dummy UL1_head_hit
-  parent PLV_UL1
+  parent sp_lmp_ud01
   position 0.003989 0.0108251 3.44693
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.568627 0.109804 0.694118 
 endnode
 node emitter ChunkyWood71
-  parent PLV_UL1
+  parent sp_lmp_ud01
   position 0.013185 -0.025341 0.450069
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.721569 0.721569 0.721569 
@@ -1034,20 +1034,20 @@ node emitter ChunkyWood71
   drag 0.0
   Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
 endnode
-endmodelgeom PLV_UL1
+endmodelgeom sp_lmp_ud01
 #NWmaxANIM ASCII
-newanim damage PLV_UL1
+newanim damage sp_lmp_ud01
     length 0.133333
     transtime 0.0
-    animroot PLV_UL1
-    node dummy PLV_UL1
+    animroot sp_lmp_ud01
+    node dummy sp_lmp_ud01
         parent NULL
     endnode
     node dummy UL1_ground
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node trimesh damage08
-        parent PLV_UL1
+        parent sp_lmp_ud01
         positionkey
             0.0 0.014752 0.014497 0.140237
             0.0333333 0.014752 0.014497 0.164695
@@ -1097,52 +1097,52 @@ newanim damage PLV_UL1
         parent damage08
     endnode
     node emitter fire!42
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
-    node dummy PLV_UL1_pwk
-        parent PLV_UL1
+    node dummy sp_lmp_ud01_pwk
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_pwk_use01
-        parent PLV_UL1_pwk
+        parent sp_lmp_ud01_pwk
     endnode
-    node pwk PLV_UL1_wg
-        parent PLV_UL1_pwk
+    node pwk sp_lmp_ud01_wg
+        parent sp_lmp_ud01_pwk
     endnode
     node emitter ChunkyWood70
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_impact
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_hand
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_head
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_head_hit
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node emitter ChunkyWood71
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
-doneanim damage PLV_UL1
+doneanim damage sp_lmp_ud01
 #NWmaxANIM ASCII
-newanim die PLV_UL1
+newanim die sp_lmp_ud01
     length 0.166667
     transtime 0.0
-    animroot PLV_UL1
+    animroot sp_lmp_ud01
     event 0.0 detonate
     event 0.0 detonate
     event 0.0 detonate
-    node dummy PLV_UL1
+    node dummy sp_lmp_ud01
         parent NULL
     endnode
     node dummy UL1_ground
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node trimesh damage08
-        parent PLV_UL1
+        parent sp_lmp_ud01
         positionkey
             0.0 0.014752 0.014497 0.140237
             0.166667 0.014752 0.014497 -3.63976
@@ -1188,49 +1188,49 @@ newanim die PLV_UL1
         parent damage08
     endnode
     node emitter fire!42
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
-    node dummy PLV_UL1_pwk
-        parent PLV_UL1
+    node dummy sp_lmp_ud01_pwk
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_pwk_use01
-        parent PLV_UL1_pwk
+        parent sp_lmp_ud01_pwk
     endnode
-    node pwk PLV_UL1_wg
-        parent PLV_UL1_pwk
+    node pwk sp_lmp_ud01_wg
+        parent sp_lmp_ud01_pwk
     endnode
     node emitter ChunkyWood70
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_impact
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_hand
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_head
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_head_hit
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node emitter ChunkyWood71
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
-doneanim die PLV_UL1
+doneanim die sp_lmp_ud01
 #NWmaxANIM ASCII
-newanim dead PLV_UL1
+newanim dead sp_lmp_ud01
     length 0.0333333
     transtime 0.0
-    animroot PLV_UL1
-    node dummy PLV_UL1
+    animroot sp_lmp_ud01
+    node dummy sp_lmp_ud01
         parent NULL
     endnode
     node dummy UL1_ground
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node trimesh damage08
-        parent PLV_UL1
+        parent sp_lmp_ud01
         positionkey
             0.0 0.014752 0.014497 -3.63976
             0.0333333 0.014752 0.014497 -3.63976
@@ -1273,49 +1273,49 @@ newanim dead PLV_UL1
         parent damage08
     endnode
     node emitter fire!42
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
-    node dummy PLV_UL1_pwk
-        parent PLV_UL1
+    node dummy sp_lmp_ud01_pwk
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_pwk_use01
-        parent PLV_UL1_pwk
+        parent sp_lmp_ud01_pwk
     endnode
-    node pwk PLV_UL1_wg
-        parent PLV_UL1_pwk
+    node pwk sp_lmp_ud01_wg
+        parent sp_lmp_ud01_pwk
     endnode
     node emitter ChunkyWood70
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_impact
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_hand
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_head
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_head_hit
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node emitter ChunkyWood71
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
-doneanim dead PLV_UL1
+doneanim dead sp_lmp_ud01
 #NWmaxANIM ASCII
-newanim default PLV_UL1
+newanim default sp_lmp_ud01
     length 0.0
     transtime 0.25
-    animroot PLV_UL1
-    node dummy PLV_UL1
+    animroot sp_lmp_ud01
+    node dummy sp_lmp_ud01
         parent NULL
     endnode
     node dummy UL1_ground
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node trimesh damage08
-        parent PLV_UL1
+        parent sp_lmp_ud01
         positionkey
             0.0 0.014752 0.014497 0.140237
         endlist
@@ -1360,34 +1360,34 @@ newanim default PLV_UL1
         parent damage08
     endnode
     node emitter fire!42
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
-    node dummy PLV_UL1_pwk
-        parent PLV_UL1
+    node dummy sp_lmp_ud01_pwk
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_pwk_use01
-        parent PLV_UL1_pwk
+        parent sp_lmp_ud01_pwk
     endnode
-    node pwk PLV_UL1_wg
-        parent PLV_UL1_pwk
+    node pwk sp_lmp_ud01_wg
+        parent sp_lmp_ud01_pwk
     endnode
     node emitter ChunkyWood70
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_impact
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_hand
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_head
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node dummy UL1_head_hit
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
     node emitter ChunkyWood71
-        parent PLV_UL1
+        parent sp_lmp_ud01
     endnode
-doneanim default PLV_UL1
-donemodel PLV_UL1
+doneanim default sp_lmp_ud01
+donemodel sp_lmp_ud01

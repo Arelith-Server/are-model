@@ -1,25 +1,25 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: PLC_X10
-filedependancy PLC_X10bis.max
-newmodel PLC_X10
-setsupermodel PLC_X10 NULL
+# model: sp_throne_01
+filedependancy sp_throne_01bis.max
+newmodel sp_throne_01
+setsupermodel sp_throne_01 NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom PLC_X10
-node dummy PLC_X10
+beginmodelgeom sp_throne_01
+node dummy sp_throne_01
   parent NULL
 endnode
 node dummy X10_head_hit
-  parent PLC_X10
+  parent sp_throne_01
   position 0 0.27714 1.52455
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
 endnode
 node emitter ChunkyWood192
-  parent PLC_X10
+  parent sp_throne_01
   position 0.0272229 0 0.687386
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -86,7 +86,7 @@ node emitter ChunkyWood192
     chunkName PLC_Chunk_S02
 endnode
 node emitter ChunkyWood190
-  parent PLC_X10
+  parent sp_throne_01
   position 0.0272229 0 0.793606
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -153,31 +153,31 @@ node emitter ChunkyWood190
     chunkName PLC_Chunk_S01
 endnode
 node dummy X10_ground
-  parent PLC_X10
+  parent sp_throne_01
   position -0.00363281 0 0
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
 endnode
 node dummy X10_impact
-  parent PLC_X10
+  parent sp_throne_01
   position 0 -0.106226 0.573857
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
 endnode
 node dummy X10_head
-  parent PLC_X10
+  parent sp_throne_01
   position 0 0.27714 2.00602
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
 endnode
 node dummy X10_hand
-  parent PLC_X10
+  parent sp_throne_01
   position 0 0 0.779256
   orientation 0 0 0 0
   wirecolor 0.0273438 0.0273438 0.0273438
 endnode
 node emitter fire!210
-  parent PLC_X10
+  parent sp_throne_01
   position 0.0272229 0.0291345 0.979799
   orientation -1 0 0 -1.5708
   wirecolor 0.0273438 0.0273438 0.0273438
@@ -243,7 +243,7 @@ node emitter fire!210
     Splat 0
 endnode
 node trimesh damage190
-  parent PLC_X10
+  parent sp_throne_01
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.835938 0.835938 0.835938
@@ -1494,45 +1494,45 @@ node trimesh DeathTrone
     0.825646 0.347121 0
     0.869338 0.346946 0
 endnode
-endmodelgeom PLC_X10
+endmodelgeom sp_throne_01
 
 #MAXANIM ASCII
-newanim damage PLC_X10
+newanim damage sp_throne_01
   length 0.133333
   transtime 0
-  animroot PLC_X10
-node dummy PLC_X10
+  animroot sp_throne_01
+node dummy sp_throne_01
   parent NULL
 endnode
 node dummy X10_head_hit
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node emitter ChunkyWood192
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node emitter ChunkyWood190
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_ground
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_impact
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_head
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_hand
-  parent PLC_X10
+  parent sp_throne_01
 endnode
-node trimesh PLC_X10
-  parent PLC_X10
+node trimesh sp_throne_01
+  parent sp_throne_01
 endnode
 node emitter fire!210
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node trimesh damage190
-  parent PLC_X10
+  parent sp_throne_01
     positionkey
       0  0 0 0
       0.0333333  0 0 0.0264117
@@ -1548,45 +1548,45 @@ endnode
 node trimesh DeathTrone
   parent damage190
 endnode
-doneanim damage PLC_X10
+doneanim damage sp_throne_01
 
 #MAXANIM ASCII
-newanim die PLC_X10
+newanim die sp_throne_01
   length 0.166667
   transtime 0
-  animroot PLC_X10
-node dummy PLC_X10
+  animroot sp_throne_01
+node dummy sp_throne_01
   parent NULL
 endnode
 node dummy X10_head_hit
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node emitter ChunkyWood192
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node emitter ChunkyWood190
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_ground
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_impact
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_head
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_hand
-  parent PLC_X10
+  parent sp_throne_01
 endnode
-node trimesh PLC_X10
-  parent PLC_X10
+node trimesh sp_throne_01
+  parent sp_throne_01
 endnode
 node emitter fire!210
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node trimesh damage190
-  parent PLC_X10
+  parent sp_throne_01
     positionkey
       0  0 0 0
       0.166667  0 0 -7.50671
@@ -1601,45 +1601,45 @@ endnode
 event 0  detonate
 event 0  detonate
 event 0  detonate
-doneanim die PLC_X10
+doneanim die sp_throne_01
 
 #MAXANIM ASCII
-newanim dead PLC_X10
+newanim dead sp_throne_01
   length 0.0333333
   transtime 0
-  animroot PLC_X10
-node dummy PLC_X10
+  animroot sp_throne_01
+node dummy sp_throne_01
   parent NULL
 endnode
 node dummy X10_head_hit
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node emitter ChunkyWood192
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node emitter ChunkyWood190
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_ground
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_impact
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_head
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_hand
-  parent PLC_X10
+  parent sp_throne_01
 endnode
-node trimesh PLC_X10
-  parent PLC_X10
+node trimesh sp_throne_01
+  parent sp_throne_01
 endnode
 node emitter fire!210
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node trimesh damage190
-  parent PLC_X10
+  parent sp_throne_01
     positionkey
       0  0 0 -7.50671
       0.0333333  0 0 -7.50671
@@ -1648,45 +1648,45 @@ endnode
 node trimesh DeathTrone
   parent damage190
 endnode
-doneanim dead PLC_X10
+doneanim dead sp_throne_01
 
 #MAXANIM ASCII
-newanim default PLC_X10
+newanim default sp_throne_01
   length 0
   transtime 0.25
-  animroot PLC_X10
-node dummy PLC_X10
+  animroot sp_throne_01
+node dummy sp_throne_01
   parent NULL
 endnode
 node dummy X10_head_hit
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node emitter ChunkyWood192
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node emitter ChunkyWood190
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_ground
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_impact
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_head
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node dummy X10_hand
-  parent PLC_X10
+  parent sp_throne_01
 endnode
-node trimesh PLC_X10
-  parent PLC_X10
+node trimesh sp_throne_01
+  parent sp_throne_01
 endnode
 node emitter fire!210
-  parent PLC_X10
+  parent sp_throne_01
 endnode
 node trimesh damage190
-  parent PLC_X10
+  parent sp_throne_01
     positionkey
       0  0 0 0
     endlist
@@ -1697,5 +1697,5 @@ endnode
 node trimesh DeathTrone
   parent damage190
 endnode
-doneanim default PLC_X10
-donemodel PLC_X10
+doneanim default sp_throne_01
+donemodel sp_throne_01

@@ -2,16 +2,16 @@
 # mdl file
 #
 filedependancy Unknown
-newmodel plc_ml_fount
-setsupermodel plc_ml_fount NULL
+newmodel sp_fnt_fancybg
+setsupermodel sp_fnt_fancybg NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom plc_ml_fount
-node dummy plc_ml_fount
+beginmodelgeom sp_fnt_fancybg
+node dummy sp_fnt_fancybg
     parent NULL
 endnode
-node trimesh plc_ml_fount1
-    parent plc_ml_fount
+node trimesh sp_fnt_fancybg1
+    parent sp_fnt_fancybg
     position 0.0 0.0 0.0
     diffuse 1.0 1.0 1.0
     ambient 1.0 1.0 1.0
@@ -1821,6 +1821,6 @@ node trimesh plc_ml_fount1
         -0.173077 0.182566 0
         -0.172845 0.182101 0
 endnode
-endmodelgeom plc_ml_fount
-donemodel plc_ml_fount
+endmodelgeom sp_fnt_fancybg
+donemodel sp_fnt_fancybg
 

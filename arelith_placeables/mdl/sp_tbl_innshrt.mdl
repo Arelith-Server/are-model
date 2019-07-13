@@ -2,49 +2,49 @@
 # mdl file
 #
 #NWmaxMODEL ASCII
-# model: PLV_IT2
+# model: sp_tbl_innshrt
 filedependancy Unknown
-newmodel PLV_IT2
-setsupermodel PLV_IT2 NULL
+newmodel sp_tbl_innshrt
+setsupermodel sp_tbl_innshrt NULL
 classification Character
 setanimationscale 1.0
 #NWmaxGEOM  ASCII
-beginmodelgeom PLV_IT2
-node dummy PLV_IT2
+beginmodelgeom sp_tbl_innshrt
+node dummy sp_tbl_innshrt
   parent NULL
 endnode
 node dummy IT2_hand
-  parent PLV_IT2
+  parent sp_tbl_innshrt
   position 0.00398892 -1.0967 0.649577
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.239216 0.541176 
 endnode
 node dummy IT2_head
-  parent PLV_IT2
+  parent sp_tbl_innshrt
   position 0.003989 0.010825 1.44491
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.239216 0.541176 
 endnode
 node dummy IT2_head_hit
-  parent PLV_IT2
+  parent sp_tbl_innshrt
   position 0.003989 0.010825 0.963437
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.239216 0.541176 
 endnode
 node dummy IT2_impact
-  parent PLV_IT2
+  parent sp_tbl_innshrt
   position 0.003989 0.011001 0.58331
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.239216 0.541176 
 endnode
 node dummy IT2_ground
-  parent PLV_IT2
+  parent sp_tbl_innshrt
   position -0.003633 0.006987 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.239216 0.541176 
 endnode
 node trimesh damage08
-  parent PLV_IT2
+  parent sp_tbl_innshrt
   position 0.014752 0.014497 0.484401
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.694118 0.694118 
@@ -102,7 +102,7 @@ node trimesh damage08
     4 7 11  1  0 0 0  3
 endnode
 node emitter ChunkyWood70
-  parent PLV_IT2
+  parent sp_tbl_innshrt
   position 0.013185 -0.025341 0.712937
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.694118 0.694118 
@@ -172,7 +172,7 @@ node emitter ChunkyWood70
   Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
 endnode
 node emitter fire!42
-  parent PLV_IT2
+  parent sp_tbl_innshrt
   position 0.013185 -0.025341 1.01707
   orientation -1.0 0.0 0.0 -1.5708
   wirecolor 0.694118 0.694118 0.694118 
@@ -242,7 +242,7 @@ node emitter fire!42
   Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
 endnode
 node emitter ChunkyWood71
-  parent PLV_IT2
+  parent sp_tbl_innshrt
   position 0.013185 -0.025341 0.606715
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.694118 0.694118 
@@ -312,7 +312,7 @@ node emitter ChunkyWood71
   Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
 endnode
 node trimesh Object226
-  parent PLV_IT2
+  parent sp_tbl_innshrt
   position 1.19628 -0.340362 0.658265
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.721569 0.721569 0.721569 
@@ -430,7 +430,7 @@ node trimesh Object226
     0.537686 0.635377 0
 endnode
 node trimesh Mesh1246
-  parent PLV_IT2
+  parent sp_tbl_innshrt
   position -1.22149 -0.270408 0.678265
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.552941 0.552941 0.552941 
@@ -484,32 +484,32 @@ node trimesh Mesh1246
     -0.00546086 0.461595 0
     -0.436262 0.461595 0
 endnode
-endmodelgeom PLV_IT2
+endmodelgeom sp_tbl_innshrt
 #NWmaxANIM ASCII
-newanim damage PLV_IT2
+newanim damage sp_tbl_innshrt
     length 0.133333
     transtime 0.0
-    animroot PLV_IT2
-    node dummy PLV_IT2
+    animroot sp_tbl_innshrt
+    node dummy sp_tbl_innshrt
         parent NULL
     endnode
     node dummy IT2_hand
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_head
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_head_hit
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_impact
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_ground
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node trimesh damage08
-        parent PLV_IT2
+        parent sp_tbl_innshrt
         positionkey
             0.0 0.014752 0.014497 0.484401
             0.0333333 0.014752 0.014497 0.508859
@@ -523,61 +523,61 @@ newanim damage PLV_IT2
         endlist
     endnode
     node emitter ChunkyWood70
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node emitter fire!42
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node emitter ChunkyWood71
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
-    node dummy PLV_IT2_pwk
-        parent PLV_IT2
+    node dummy sp_tbl_innshrt_pwk
+        parent sp_tbl_innshrt
     endnode
-    node pwk PLV_IT2_wg
-        parent PLV_IT2_pwk
+    node pwk sp_tbl_innshrt_wg
+        parent sp_tbl_innshrt_pwk
     endnode
     node dummy IT2_pwk_use01
-        parent PLV_IT2_pwk
+        parent sp_tbl_innshrt_pwk
     endnode
     node dummy IT2_pwk_use02
-        parent PLV_IT2_pwk
+        parent sp_tbl_innshrt_pwk
     endnode
     node trimesh Object226
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node trimesh Mesh1246
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
-doneanim damage PLV_IT2
+doneanim damage sp_tbl_innshrt
 #NWmaxANIM ASCII
-newanim die PLV_IT2
+newanim die sp_tbl_innshrt
     length 0.166667
     transtime 0.0
-    animroot PLV_IT2
+    animroot sp_tbl_innshrt
     event 0.0 detonate
     event 0.0 detonate
     event 0.0 detonate
-    node dummy PLV_IT2
+    node dummy sp_tbl_innshrt
         parent NULL
     endnode
     node dummy IT2_hand
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_head
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_head_hit
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_impact
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_ground
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node trimesh damage08
-        parent PLV_IT2
+        parent sp_tbl_innshrt
         positionkey
             0.0 0.014752 0.014497 0.484401
             0.166667 0.014752 0.014497 -3.29559
@@ -587,116 +587,116 @@ newanim die PLV_IT2
         endlist
     endnode
     node emitter ChunkyWood70
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node emitter fire!42
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node emitter ChunkyWood71
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
-    node dummy PLV_IT2_pwk
-        parent PLV_IT2
+    node dummy sp_tbl_innshrt_pwk
+        parent sp_tbl_innshrt
     endnode
-    node pwk PLV_IT2_wg
-        parent PLV_IT2_pwk
+    node pwk sp_tbl_innshrt_wg
+        parent sp_tbl_innshrt_pwk
     endnode
     node dummy IT2_pwk_use01
-        parent PLV_IT2_pwk
+        parent sp_tbl_innshrt_pwk
     endnode
     node dummy IT2_pwk_use02
-        parent PLV_IT2_pwk
+        parent sp_tbl_innshrt_pwk
     endnode
     node trimesh Object226
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node trimesh Mesh1246
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
-doneanim die PLV_IT2
+doneanim die sp_tbl_innshrt
 #NWmaxANIM ASCII
-newanim dead PLV_IT2
+newanim dead sp_tbl_innshrt
     length 0.0333333
     transtime 0.0
-    animroot PLV_IT2
-    node dummy PLV_IT2
+    animroot sp_tbl_innshrt
+    node dummy sp_tbl_innshrt
         parent NULL
     endnode
     node dummy IT2_hand
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_head
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_head_hit
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_impact
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_ground
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node trimesh damage08
-        parent PLV_IT2
+        parent sp_tbl_innshrt
         positionkey
             0.0 0.014752 0.014497 -3.29559
             0.0333333 0.014752 0.014497 -3.29559
         endlist
     endnode
     node emitter ChunkyWood70
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node emitter fire!42
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node emitter ChunkyWood71
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
-    node dummy PLV_IT2_pwk
-        parent PLV_IT2
+    node dummy sp_tbl_innshrt_pwk
+        parent sp_tbl_innshrt
     endnode
-    node pwk PLV_IT2_wg
-        parent PLV_IT2_pwk
+    node pwk sp_tbl_innshrt_wg
+        parent sp_tbl_innshrt_pwk
     endnode
     node dummy IT2_pwk_use01
-        parent PLV_IT2_pwk
+        parent sp_tbl_innshrt_pwk
     endnode
     node dummy IT2_pwk_use02
-        parent PLV_IT2_pwk
+        parent sp_tbl_innshrt_pwk
     endnode
     node trimesh Object226
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node trimesh Mesh1246
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
-doneanim dead PLV_IT2
+doneanim dead sp_tbl_innshrt
 #NWmaxANIM ASCII
-newanim default PLV_IT2
+newanim default sp_tbl_innshrt
     length 0.0
     transtime 0.25
-    animroot PLV_IT2
-    node dummy PLV_IT2
+    animroot sp_tbl_innshrt
+    node dummy sp_tbl_innshrt
         parent NULL
     endnode
     node dummy IT2_hand
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_head
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_head_hit
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_impact
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node dummy IT2_ground
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node trimesh damage08
-        parent PLV_IT2
+        parent sp_tbl_innshrt
         positionkey
             0.0 0.014752 0.014497 0.484401
         endlist
@@ -705,31 +705,31 @@ newanim default PLV_IT2
         endlist
     endnode
     node emitter ChunkyWood70
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node emitter fire!42
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node emitter ChunkyWood71
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
-    node dummy PLV_IT2_pwk
-        parent PLV_IT2
+    node dummy sp_tbl_innshrt_pwk
+        parent sp_tbl_innshrt
     endnode
-    node pwk PLV_IT2_wg
-        parent PLV_IT2_pwk
+    node pwk sp_tbl_innshrt_wg
+        parent sp_tbl_innshrt_pwk
     endnode
     node dummy IT2_pwk_use01
-        parent PLV_IT2_pwk
+        parent sp_tbl_innshrt_pwk
     endnode
     node dummy IT2_pwk_use02
-        parent PLV_IT2_pwk
+        parent sp_tbl_innshrt_pwk
     endnode
     node trimesh Object226
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
     node trimesh Mesh1246
-        parent PLV_IT2
+        parent sp_tbl_innshrt
     endnode
-doneanim default PLV_IT2
-donemodel PLV_IT2
+doneanim default sp_tbl_innshrt
+donemodel sp_tbl_innshrt

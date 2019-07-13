@@ -2,19 +2,19 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: gplctr_T01
+# model: sp_logcut_lt
 filedependancy carroça_01_03.max
-newmodel gplctr_T01
-setsupermodel gplctr_T01 NULL
+newmodel sp_logcut_lt
+setsupermodel sp_logcut_lt NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom gplctr_T01
-node dummy gplctr_T01
+beginmodelgeom sp_logcut_lt
+node dummy sp_logcut_lt
   parent NULL
 endnode
 node trimesh trgen_tronco
-  parent gplctr_T01
+  parent sp_logcut_lt
   position 0.0 0.0 0.34269
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.52549 0.231373 0.0313726 
@@ -192,7 +192,7 @@ node trimesh trgen_tronco
     1.05997 1.14574 0
 endnode
 node trimesh trgen_borda
-  parent gplctr_T01
+  parent sp_logcut_lt
   position 0.0 0.0 0.34269
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.52549 0.231373 0.0313726 
@@ -255,5 +255,5 @@ node trimesh trgen_borda
     0.182494 0.530674 0
     0.190239 0.587893 0
 endnode
-endmodelgeom gplctr_T01
-donemodel gplctr_T01
+endmodelgeom sp_logcut_lt
+donemodel sp_logcut_lt

@@ -1,18 +1,18 @@
 #MAXMODEL ASCII
-# model: sp_plc_magcirc007
-filedependancy sp_plc_magcirc007.max
-newmodel sp_plc_magcirc007
-setsupermodel sp_plc_magcirc007 NULL
+# model: sp_plc_magcirc00
+filedependancy sp_plc_magcirc00.max
+newmodel sp_plc_magcirc00
+setsupermodel sp_plc_magcirc00 NULL
 classification character
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom sp_plc_magcirc007
-node dummy sp_plc_magcirc007
+beginmodelgeom sp_plc_magcirc00
+node dummy sp_plc_magcirc00
   parent NULL
   #part-number 0
 endnode
 node trimesh Plane01
-  parent sp_plc_magcirc007
+  parent sp_plc_magcirc00
   #part-number 1
   ambient 1 1 1
   diffuse 1 1 1
@@ -38,6 +38,6 @@ node trimesh Plane01
   setfillumcolor 0 0 0
   alpha 1
 endnode
-endmodelgeom sp_plc_magcirc007
+endmodelgeom sp_plc_magcirc00
 
-donemodel sp_plc_magcirc007
+donemodel sp_plc_magcirc00

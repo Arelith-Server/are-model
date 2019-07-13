@@ -2,50 +2,50 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: qp_tb037
+# model: sp_shelf01
 #local file: Unknown
 filedependancy Unknown
-newmodel qp_tb037
-setsupermodel qp_tb037 NULL
+newmodel sp_shelf01
+setsupermodel sp_shelf01 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom qp_tb037
-node dummy qp_tb037
+beginmodelgeom sp_shelf01
+node dummy sp_shelf01
   parent NULL
 endnode
 node dummy tb036_impact
-  parent qp_tb037
+  parent sp_shelf01
   position -0.57 0.0 1.64746
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.101961 0.345098 
 endnode
 node dummy tb036_ground
-  parent qp_tb037
+  parent sp_shelf01
   position -0.57 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.101961 0.345098 
 endnode
 node dummy tb036_hand
-  parent qp_tb037
+  parent sp_shelf01
   position -0.57 0.0 1.50882
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.101961 0.345098 
 endnode
 node dummy tb036_head
-  parent qp_tb037
+  parent sp_shelf01
   position -0.569999 0.0 2.73766
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.101961 0.345098 
 endnode
 node dummy tb036_head_hit
-  parent qp_tb037
+  parent sp_shelf01
   position -0.57 0.0 1.98276
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.0313726 0.533333 
 endnode
 node trimesh cabinet
-  parent qp_tb037
+  parent sp_shelf01
   position -0.180067 0.0621726 1.48601
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.101961 0.337255 
@@ -682,7 +682,7 @@ node trimesh Object02
     0.416842 1.1675 0
 endnode
 node emitter ChunkyWood1
-  parent qp_tb037
+  parent sp_shelf01
   position 0.00110352 -0.0328894 0.672197
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -751,7 +751,7 @@ node emitter ChunkyWood1
   Drag 0.0
 endnode
 node emitter ChunkyWood02
-  parent qp_tb037
+  parent sp_shelf01
   position 0.00110352 -0.0328894 0.696627
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -820,7 +820,7 @@ node emitter ChunkyWood02
   Drag 0.0
 endnode
 node emitter fire!07
-  parent qp_tb037
+  parent sp_shelf01
   position 0.00110352 -0.0328894 0.674259
   orientation 1.0 0.0 0.0 -4.71239
   wirecolor 1.0 1.0 1.0 
@@ -887,33 +887,33 @@ node emitter fire!07
   grav 0.0
   Drag 0.0
 endnode
-endmodelgeom qp_tb037
+endmodelgeom sp_shelf01
 
 #NWmax ANIM ASCII
-newanim close qp_tb037
+newanim close sp_shelf01
   length 0.0333333
   transtime 0.25
-  animroot qp_tb037
-    node dummy qp_tb037
+  animroot sp_shelf01
+    node dummy sp_shelf01
         parent NULL
     endnode
     node dummy tb036_impact
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_ground
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_hand
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head_hit
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node trimesh cabinet
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node trimesh Object09
         parent cabinet
@@ -945,51 +945,51 @@ newanim close qp_tb037
         parent cabinet
     endnode
     node emitter ChunkyWood1
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter ChunkyWood02
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter fire!07
-        parent qp_tb037
+        parent sp_shelf01
     endnode
-    node dummy qp_tb037_pwk
-        parent qp_tb037
+    node dummy sp_shelf01_pwk
+        parent sp_shelf01
     endnode
     node trimesh PWK
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
     node dummy 037_pwk_use01
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
-doneanim close qp_tb037
+doneanim close sp_shelf01
 
 
 #NWmax ANIM ASCII
-newanim close2open qp_tb037
+newanim close2open sp_shelf01
   length 0.633333
   transtime 0.25
-  animroot qp_tb037
-    node dummy qp_tb037
+  animroot sp_shelf01
+    node dummy sp_shelf01
         parent NULL
     endnode
     node dummy tb036_impact
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_ground
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_hand
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head_hit
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node trimesh cabinet
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node trimesh Object09
         parent cabinet
@@ -1021,51 +1021,51 @@ newanim close2open qp_tb037
         parent cabinet
     endnode
     node emitter ChunkyWood1
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter ChunkyWood02
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter fire!07
-        parent qp_tb037
+        parent sp_shelf01
     endnode
-    node dummy qp_tb037_pwk
-        parent qp_tb037
+    node dummy sp_shelf01_pwk
+        parent sp_shelf01
     endnode
     node trimesh PWK
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
     node dummy 037_pwk_use01
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
-doneanim close2open qp_tb037
+doneanim close2open sp_shelf01
 
 
 #NWmax ANIM ASCII
-newanim open qp_tb037
+newanim open sp_shelf01
   length 0.0333333
   transtime 0.25
-  animroot qp_tb037
-    node dummy qp_tb037
+  animroot sp_shelf01
+    node dummy sp_shelf01
         parent NULL
     endnode
     node dummy tb036_impact
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_ground
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_hand
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head_hit
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node trimesh cabinet
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node trimesh Object09
         parent cabinet
@@ -1097,51 +1097,51 @@ newanim open qp_tb037
         parent cabinet
     endnode
     node emitter ChunkyWood1
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter ChunkyWood02
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter fire!07
-        parent qp_tb037
+        parent sp_shelf01
     endnode
-    node dummy qp_tb037_pwk
-        parent qp_tb037
+    node dummy sp_shelf01_pwk
+        parent sp_shelf01
     endnode
     node trimesh PWK
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
     node dummy 037_pwk_use01
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
-doneanim open qp_tb037
+doneanim open sp_shelf01
 
 
 #NWmax ANIM ASCII
-newanim open2close qp_tb037
+newanim open2close sp_shelf01
   length 0.633333
   transtime 0.25
-  animroot qp_tb037
-    node dummy qp_tb037
+  animroot sp_shelf01
+    node dummy sp_shelf01
         parent NULL
     endnode
     node dummy tb036_impact
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_ground
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_hand
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head_hit
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node trimesh cabinet
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node trimesh Object09
         parent cabinet
@@ -1173,51 +1173,51 @@ newanim open2close qp_tb037
         parent cabinet
     endnode
     node emitter ChunkyWood1
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter ChunkyWood02
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter fire!07
-        parent qp_tb037
+        parent sp_shelf01
     endnode
-    node dummy qp_tb037_pwk
-        parent qp_tb037
+    node dummy sp_shelf01_pwk
+        parent sp_shelf01
     endnode
     node trimesh PWK
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
     node dummy 037_pwk_use01
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
-doneanim open2close qp_tb037
+doneanim open2close sp_shelf01
 
 
 #NWmax ANIM ASCII
-newanim damage qp_tb037
+newanim damage sp_shelf01
   length 0.1
   transtime 0.0
-  animroot qp_tb037
-    node dummy qp_tb037
+  animroot sp_shelf01
+    node dummy sp_shelf01
         parent NULL
     endnode
     node dummy tb036_impact
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_ground
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_hand
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head_hit
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node trimesh cabinet
-        parent qp_tb037
+        parent sp_shelf01
         positionkey
             0.0 -0.180067 0.0621726 1.48601
             0.0333333 -0.180067 0.0621726 1.48601
@@ -1253,54 +1253,54 @@ newanim damage qp_tb037
         parent cabinet
     endnode
     node emitter ChunkyWood1
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter ChunkyWood02
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter fire!07
-        parent qp_tb037
+        parent sp_shelf01
     endnode
-    node dummy qp_tb037_pwk
-        parent qp_tb037
+    node dummy sp_shelf01_pwk
+        parent sp_shelf01
     endnode
     node trimesh PWK
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
     node dummy 037_pwk_use01
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
-doneanim damage qp_tb037
+doneanim damage sp_shelf01
 
 
 #NWmax ANIM ASCII
-newanim die qp_tb037
+newanim die sp_shelf01
   length 0.233333
   transtime 0.0
-  animroot qp_tb037
+  animroot sp_shelf01
   event 0.2 detonate
   event 0.2 detonate
   event 0.2 detonate
-    node dummy qp_tb037
+    node dummy sp_shelf01
         parent NULL
     endnode
     node dummy tb036_impact
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_ground
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_hand
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head_hit
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node trimesh cabinet
-        parent qp_tb037
+        parent sp_shelf01
         positionkey
             0.0 -0.180067 0.0621726 1.48601
             0.0333333 -0.180067 0.0621726 1.21204
@@ -1338,51 +1338,51 @@ newanim die qp_tb037
         parent cabinet
     endnode
     node emitter ChunkyWood1
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter ChunkyWood02
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter fire!07
-        parent qp_tb037
+        parent sp_shelf01
     endnode
-    node dummy qp_tb037_pwk
-        parent qp_tb037
+    node dummy sp_shelf01_pwk
+        parent sp_shelf01
     endnode
     node trimesh PWK
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
     node dummy 037_pwk_use01
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
-doneanim die qp_tb037
+doneanim die sp_shelf01
 
 
 #NWmax ANIM ASCII
-newanim dead qp_tb037
+newanim dead sp_shelf01
   length 0.0333333
   transtime 0.0
-  animroot qp_tb037
-    node dummy qp_tb037
+  animroot sp_shelf01
+    node dummy sp_shelf01
         parent NULL
     endnode
     node dummy tb036_impact
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_ground
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_hand
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head_hit
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node trimesh cabinet
-        parent qp_tb037
+        parent sp_shelf01
         positionkey
             0.0 -0.180067 0.0621726 -3.0
             0.0333333 -0.180067 0.0621726 -3.0
@@ -1414,51 +1414,51 @@ newanim dead qp_tb037
         parent cabinet
     endnode
     node emitter ChunkyWood1
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter ChunkyWood02
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter fire!07
-        parent qp_tb037
+        parent sp_shelf01
     endnode
-    node dummy qp_tb037_pwk
-        parent qp_tb037
+    node dummy sp_shelf01_pwk
+        parent sp_shelf01
     endnode
     node trimesh PWK
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
     node dummy 037_pwk_use01
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
-doneanim dead qp_tb037
+doneanim dead sp_shelf01
 
 
 #NWmax ANIM ASCII
-newanim default qp_tb037
+newanim default sp_shelf01
   length 0.0
   transtime 0.25
-  animroot qp_tb037
-    node dummy qp_tb037
+  animroot sp_shelf01
+    node dummy sp_shelf01
         parent NULL
     endnode
     node dummy tb036_impact
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_ground
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_hand
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node dummy tb036_head_hit
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node trimesh cabinet
-        parent qp_tb037
+        parent sp_shelf01
         positionkey
             0.0 -0.180067 0.0621726 1.48601
         endlist
@@ -1488,23 +1488,23 @@ newanim default qp_tb037
         parent cabinet
     endnode
     node emitter ChunkyWood1
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter ChunkyWood02
-        parent qp_tb037
+        parent sp_shelf01
     endnode
     node emitter fire!07
-        parent qp_tb037
+        parent sp_shelf01
     endnode
-    node dummy qp_tb037_pwk
-        parent qp_tb037
+    node dummy sp_shelf01_pwk
+        parent sp_shelf01
     endnode
     node trimesh PWK
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
     node dummy 037_pwk_use01
-        parent qp_tb037_pwk
+        parent sp_shelf01_pwk
     endnode
-doneanim default qp_tb037
+doneanim default sp_shelf01
 
-donemodel qp_tb037
+donemodel sp_shelf01

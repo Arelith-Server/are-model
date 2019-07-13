@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: phod_scruboid6
+# model: sp_plnt_yucca
 #local file: Unknown
 filedependancy Unknown
-newmodel phod_scruboid6
-setsupermodel phod_scruboid6 NULL
+newmodel sp_plnt_yucca
+setsupermodel sp_plnt_yucca NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom phod_scruboid6
-node dummy phod_scruboid6
+beginmodelgeom sp_plnt_yucca
+node dummy sp_plnt_yucca
   parent NULL
 endnode
 node trimesh Plantite
-  parent phod_scruboid6
+  parent sp_plnt_yucca
   position -0.0314963 0.00115414 -0.0200329
   orientation 0.0 -1.0 0.0 -0.837758
   wirecolor 0.341176 0.878431 0.341176 
@@ -767,5 +767,5 @@ node trimesh Plantite
     0.426634 0.482255 0
     0.436125 0.484133 0
 endnode
-endmodelgeom phod_scruboid6
-donemodel phod_scruboid6
+endmodelgeom sp_plnt_yucca
+donemodel sp_plnt_yucca

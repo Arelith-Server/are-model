@@ -2,50 +2,50 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: PLC_I_POT6
-#local file: F:\nwn_mods\!_misc content\CARC_doa\_PLC_I_POT6b.max
-filedependancy _PLC_I_POT6b.max
-newmodel PLC_I_POT6
-setsupermodel PLC_I_POT6 NULL
+# model: sp_i_pot06
+#local file: F:\nwn_mods\!_misc content\CARC_doa\_sp_i_pot06b.max
+filedependancy _sp_i_pot06b.max
+newmodel sp_i_pot06
+setsupermodel sp_i_pot06 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom PLC_I_POT6
-node dummy PLC_I_POT6
+beginmodelgeom sp_i_pot06
+node dummy sp_i_pot06
   parent NULL
 endnode
 node dummy C07_hand
-  parent PLC_I_POT6
+  parent sp_i_pot06
   position 0.00398437 -0.505195 0.154471
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.345098 0.345098 0.882353 
 endnode
 node dummy C07_head
-  parent PLC_I_POT6
+  parent sp_i_pot06
   position 0.00398437 0.0108252 0.70564
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.345098 0.345098 0.882353 
 endnode
 node dummy C07_head_hit
-  parent PLC_I_POT6
+  parent sp_i_pot06
   position 0.00398437 0.0108252 0.224162
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.101961 0.694118 0.345098 
 endnode
 node dummy C07_impact
-  parent PLC_I_POT6
+  parent sp_i_pot06
   position 0.00398437 0.011001 0.0882033
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.101961 0.694118 0.345098 
 endnode
 node dummy C07_ground
-  parent PLC_I_POT6
+  parent sp_i_pot06
   position -0.00363281 0.0069873 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.101961 0.694118 0.345098 
 endnode
 node emitter OmenEmitter50
-  parent PLC_I_POT6
+  parent sp_i_pot06
   position 0.00566389 0.0 0.383929
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -113,7 +113,7 @@ node emitter OmenEmitter50
   Drag 0.0
 endnode
 node trimesh bottle_bottom
-  parent PLC_I_POT6
+  parent sp_i_pot06
   position 0.0 0.000187206 0.0654666
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -722,33 +722,33 @@ node trimesh Box03
     0.730324 0.697362 0
     0.720971 0.661646 0
 endnode
-endmodelgeom PLC_I_POT6
+endmodelgeom sp_i_pot06
 
 #NWmax ANIM ASCII
-newanim on PLC_I_POT6
+newanim on sp_i_pot06
   length 0.333333
   transtime 0.25
-  animroot PLC_I_POT6
-    node dummy PLC_I_POT6
+  animroot sp_i_pot06
+    node dummy sp_i_pot06
         parent NULL
     endnode
     node dummy C07_hand
-        parent PLC_I_POT6
+        parent sp_i_pot06
     endnode
     node dummy C07_head
-        parent PLC_I_POT6
+        parent sp_i_pot06
     endnode
     node dummy C07_head_hit
-        parent PLC_I_POT6
+        parent sp_i_pot06
     endnode
     node dummy C07_impact
-        parent PLC_I_POT6
+        parent sp_i_pot06
     endnode
     node dummy C07_ground
-        parent PLC_I_POT6
+        parent sp_i_pot06
     endnode
     node emitter OmenEmitter50
-        parent PLC_I_POT6
+        parent sp_i_pot06
         positionkey
             0.0 0.00566389 0.0 0.383929
             0.333333 0.00566389 0.0 0.383929
@@ -767,7 +767,7 @@ newanim on PLC_I_POT6
         endlist
     endnode
     node trimesh bottle_bottom
-        parent PLC_I_POT6
+        parent sp_i_pot06
     endnode
     node trimesh Object06
         parent bottle_bottom
@@ -781,34 +781,34 @@ newanim on PLC_I_POT6
     node trimesh Box03
         parent bottle_bottom
     endnode
-doneanim on PLC_I_POT6
+doneanim on sp_i_pot06
 
 
 #NWmax ANIM ASCII
-newanim off PLC_I_POT6
+newanim off sp_i_pot06
   length 0.3
   transtime 0.25
-  animroot PLC_I_POT6
-    node dummy PLC_I_POT6
+  animroot sp_i_pot06
+    node dummy sp_i_pot06
         parent NULL
     endnode
     node dummy C07_hand
-        parent PLC_I_POT6
+        parent sp_i_pot06
     endnode
     node dummy C07_head
-        parent PLC_I_POT6
+        parent sp_i_pot06
     endnode
     node dummy C07_head_hit
-        parent PLC_I_POT6
+        parent sp_i_pot06
     endnode
     node dummy C07_impact
-        parent PLC_I_POT6
+        parent sp_i_pot06
     endnode
     node dummy C07_ground
-        parent PLC_I_POT6
+        parent sp_i_pot06
     endnode
     node emitter OmenEmitter50
-        parent PLC_I_POT6
+        parent sp_i_pot06
         positionkey
             0.0 0.00566389 0.0 0.383929
             0.3 0.00566389 0.0 0.383929
@@ -823,7 +823,7 @@ newanim off PLC_I_POT6
         endlist
     endnode
     node trimesh bottle_bottom
-        parent PLC_I_POT6
+        parent sp_i_pot06
     endnode
     node trimesh Object06
         parent bottle_bottom
@@ -837,6 +837,6 @@ newanim off PLC_I_POT6
     node trimesh Box03
         parent bottle_bottom
     endnode
-doneanim off PLC_I_POT6
+doneanim off sp_i_pot06
 
-donemodel PLC_I_POT6
+donemodel sp_i_pot06

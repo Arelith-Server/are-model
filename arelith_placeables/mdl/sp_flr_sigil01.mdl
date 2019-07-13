@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: PLV_FL14
+# model: sp_flr_sigil01
 filedependancy Unknown
-newmodel PLV_FL14
-setsupermodel PLV_FL14 NULL
+newmodel sp_flr_sigil01
+setsupermodel sp_flr_sigil01 NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom PLV_FL14
-node dummy PLV_FL14
+beginmodelgeom sp_flr_sigil01
+node dummy sp_flr_sigil01
   parent NULL
 endnode
 node trimesh Plane01
-  parent PLV_FL14
+  parent sp_flr_sigil01
     position 1.0 1.0 0.01
   orientation 0 0 0 0
   wirecolor 0.722656 0.722656 0.722656
@@ -129,7 +129,7 @@ node trimesh Plane01
     -0.00553141 0.999251 0
 endnode
 node trimesh Object01Center
-  parent PLV_FL14
+  parent sp_flr_sigil01
     position 1.0 1.0 0.01
   orientation 0 0 0 0
   wirecolor 0.347656 0.347656 0.347656
@@ -279,5 +279,5 @@ node trimesh Plane04
     0.673023 0.356598 0.5
     0.322146 0.356598 0.5
 endnode
-endmodelgeom PLV_FL14
-donemodel PLV_FL14
+endmodelgeom sp_flr_sigil01
+donemodel sp_flr_sigil01

@@ -2,49 +2,49 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: plc_x0_bend
+# model: sp_bench_01
 filedependancy Unknown
-newmodel plc_x0_bend
-setsupermodel plc_x0_bend NULL
+newmodel sp_bench_01
+setsupermodel sp_bench_01 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom plc_x0_bend
-node dummy plc_x0_bend
+beginmodelgeom sp_bench_01
+node dummy sp_bench_01
   parent NULL
 endnode
 node dummy x0_ben_hand
-  parent plc_x0_bend
+  parent sp_bench_01
   position -0.00398922 0.505197 0.719054
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.239216 0.541176 
 endnode
 node dummy x0_ben_head
-  parent plc_x0_bend
+  parent sp_bench_01
   position -0.00398926 -0.0108258 0.835656
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.239216 0.541176 
 endnode
 node dummy x0_ben_head_hit
-  parent plc_x0_bend
+  parent sp_bench_01
   position -0.00398926 -0.0108258 0.354178
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.239216 0.541176 
 endnode
 node dummy x0_ben_impact
-  parent plc_x0_bend
+  parent sp_bench_01
   position -0.00398926 -0.0109998 0.321103
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.239216 0.541176 
 endnode
 node dummy x0_ben_ground
-  parent plc_x0_bend
+  parent sp_bench_01
   position 0.00363281 -0.00698791 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.239216 0.541176 
 endnode
 node trimesh damage48
-  parent plc_x0_bend
+  parent sp_bench_01
   position 0.000867333 0.200672 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -356,7 +356,7 @@ node trimesh Box36
     0.304688 -1.87891 0
 endnode
 node emitter ChunkyWood142
-  parent plc_x0_bend
+  parent sp_bench_01
   position 0.0566472 0.196434 0.248705
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -424,7 +424,7 @@ node emitter ChunkyWood142
   drag 0.0
 endnode
 node emitter fire!90
-  parent plc_x0_bend
+  parent sp_bench_01
   position 0.0566472 0.206116 0.174662
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 1.0 1.0 1.0 
@@ -490,32 +490,32 @@ node emitter fire!90
   grav 0.0
   drag 0.0
 endnode
-endmodelgeom plc_x0_bend
+endmodelgeom sp_bench_01
 #NWmax ANIM ASCII
-newanim damage plc_x0_bend
+newanim damage sp_bench_01
   length 0.133333
   transtime 0.0
-  animroot plc_x0_bend
-    node dummy plc_x0_bend
+  animroot sp_bench_01
+    node dummy sp_bench_01
         parent NULL
     endnode
     node dummy x0_ben_hand
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_head
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_head_hit
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_impact
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_ground
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node trimesh damage48
-        parent plc_x0_bend
+        parent sp_bench_01
         positionkey
             0.0 0.0008673 0.200672 0.0
             0.0333333 0.0008673 0.200672 0.0244581
@@ -535,51 +535,51 @@ newanim damage plc_x0_bend
         parent damage48
     endnode
     node emitter ChunkyWood142
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node emitter fire!90
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
-    node dummy plc_x0_bend_pwk
-        parent plc_x0_bend
+    node dummy sp_bench_01_pwk
+        parent sp_bench_01
     endnode
     node pwk NoWalkArea
-        parent plc_x0_bend_pwk
+        parent sp_bench_01_pwk
     endnode
     node dummy ben_pwk_use01
-        parent plc_x0_bend_pwk
+        parent sp_bench_01_pwk
     endnode
     node dummy ben_pwk_use02
-        parent plc_x0_bend_pwk
+        parent sp_bench_01_pwk
     endnode
-doneanim damage plc_x0_bend
+doneanim damage sp_bench_01
 #NWmax ANIM ASCII
-newanim die plc_x0_bend
+newanim die sp_bench_01
   length 0.166667
   transtime 0.0
-  animroot plc_x0_bend
+  animroot sp_bench_01
   event 0.0 detonate
   event 0.0 detonate
-    node dummy plc_x0_bend
+    node dummy sp_bench_01
         parent NULL
     endnode
     node dummy x0_ben_hand
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_head
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_head_hit
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_impact
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_ground
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node trimesh damage48
-        parent plc_x0_bend
+        parent sp_bench_01
         positionkey
             0.0 0.0008673 0.200672 0.0
             0.166667 0.0008673 0.200672 -6.95145
@@ -592,49 +592,49 @@ newanim die plc_x0_bend
         parent damage48
     endnode
     node emitter ChunkyWood142
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node emitter fire!90
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
-    node dummy plc_x0_bend_pwk
-        parent plc_x0_bend
+    node dummy sp_bench_01_pwk
+        parent sp_bench_01
     endnode
     node pwk NoWalkArea
-        parent plc_x0_bend_pwk
+        parent sp_bench_01_pwk
     endnode
     node dummy ben_pwk_use01
-        parent plc_x0_bend_pwk
+        parent sp_bench_01_pwk
     endnode
     node dummy ben_pwk_use02
-        parent plc_x0_bend_pwk
+        parent sp_bench_01_pwk
     endnode
-doneanim die plc_x0_bend
+doneanim die sp_bench_01
 #NWmax ANIM ASCII
-newanim dead plc_x0_bend
+newanim dead sp_bench_01
   length 0.0333333
   transtime 0.0
-  animroot plc_x0_bend
-    node dummy plc_x0_bend
+  animroot sp_bench_01
+    node dummy sp_bench_01
         parent NULL
     endnode
     node dummy x0_ben_hand
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_head
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_head_hit
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_impact
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_ground
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node trimesh damage48
-        parent plc_x0_bend
+        parent sp_bench_01
         positionkey
             0.0 0.0008673 0.200672 -6.95145
             0.0333333 0.0008673 0.200672 -6.95145
@@ -647,49 +647,49 @@ newanim dead plc_x0_bend
         parent damage48
     endnode
     node emitter ChunkyWood142
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node emitter fire!90
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
-    node dummy plc_x0_bend_pwk
-        parent plc_x0_bend
+    node dummy sp_bench_01_pwk
+        parent sp_bench_01
     endnode
     node pwk NoWalkArea
-        parent plc_x0_bend_pwk
+        parent sp_bench_01_pwk
     endnode
     node dummy ben_pwk_use01
-        parent plc_x0_bend_pwk
+        parent sp_bench_01_pwk
     endnode
     node dummy ben_pwk_use02
-        parent plc_x0_bend_pwk
+        parent sp_bench_01_pwk
     endnode
-doneanim dead plc_x0_bend
+doneanim dead sp_bench_01
 #NWmax ANIM ASCII
-newanim default plc_x0_bend
+newanim default sp_bench_01
   length 0.0
   transtime 0.25
-  animroot plc_x0_bend
-    node dummy plc_x0_bend
+  animroot sp_bench_01
+    node dummy sp_bench_01
         parent NULL
     endnode
     node dummy x0_ben_hand
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_head
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_head_hit
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_impact
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node dummy x0_ben_ground
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node trimesh damage48
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node trimesh Box171
         parent damage48
@@ -698,22 +698,22 @@ newanim default plc_x0_bend
         parent damage48
     endnode
     node emitter ChunkyWood142
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
     node emitter fire!90
-        parent plc_x0_bend
+        parent sp_bench_01
     endnode
-    node dummy plc_x0_bend_pwk
-        parent plc_x0_bend
+    node dummy sp_bench_01_pwk
+        parent sp_bench_01
     endnode
     node pwk NoWalkArea
-        parent plc_x0_bend_pwk
+        parent sp_bench_01_pwk
     endnode
     node dummy ben_pwk_use01
-        parent plc_x0_bend_pwk
+        parent sp_bench_01_pwk
     endnode
     node dummy ben_pwk_use02
-        parent plc_x0_bend_pwk
+        parent sp_bench_01_pwk
     endnode
-doneanim default plc_x0_bend
-donemodel plc_x0_bend
+doneanim default sp_bench_01
+donemodel sp_bench_01
