@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: c_meenlock01
+# model: codi_meenlock
 filedependancy Meenlock_Completev2.max
-newmodel c_meenlock01
+newmodel codi_meenlock
 setsupermodel c_meenlock01 c_wererat
 classification Character
 setanimationscale 0.7
 #MAXGEOM  ASCII
-beginmodelgeom c_meenlock01
-node dummy c_meenlock01
+beginmodelgeom codi_meenlock
+node dummy codi_meenlock
   parent NULL
 endnode
 node dummy wrat_dummy
-  parent c_meenlock01
+  parent codi_meenlock
   position 0 -0.0827748 0.427559
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
@@ -4070,16 +4070,16 @@ node trimesh Object13
     0.0250982 0.310154 0.9995
 endnode
 node dummy headconjure
-  parent c_meenlock01
+  parent codi_meenlock
   position 0 0.15842 0.896832
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
 endnode
 node dummy handconjure
-  parent c_meenlock01
+  parent codi_meenlock
   position 0.0717424 0.344498 0.415564
   orientation 0 0 0 0
   wirecolor 0.105469 0.105469 0.105469
 endnode
-endmodelgeom c_meenlock01
-donemodel c_meenlock01
+endmodelgeom codi_meenlock
+donemodel codi_meenlock
