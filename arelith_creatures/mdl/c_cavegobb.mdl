@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: c_goblinB
+# model: c_cavegobB
 filedependancy gobinb_new.max
-newmodel c_goblinB
-setsupermodel c_goblinB c_goblina
+newmodel c_cavegobB
+setsupermodel c_cavegobB c_goblina
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom c_goblinB
-node dummy c_goblinB
+beginmodelgeom c_cavegobB
+node dummy c_cavegobB
   parent NULL
 endnode
 node dummy rootdummy
-  parent c_goblinB
+  parent c_cavegobB
   position 0 0.0120771 0.702604
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
@@ -1859,16 +1859,16 @@ node trimesh Goblin_pouchB
     0.0208871 0.797723 0
 endnode
 node dummy headconjure
-  parent c_goblinB
+  parent c_cavegobB
   position 0 0.243966 1.5862
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
 endnode
 node dummy handconjure
-  parent c_goblinB
+  parent c_cavegobB
   position 0.00791407 0.385223 0.951622
   orientation 0 0 0 0
   wirecolor 0.0351563 0.0351563 0.0351563
 endnode
-endmodelgeom c_goblinB
-donemodel c_goblinB
+endmodelgeom c_cavegobB
+donemodel c_cavegobB
