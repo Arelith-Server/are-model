@@ -1,0 +1,161 @@
+# Exported from NWmax 0.8 b61 at 10/6/2007 7:24:55 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: TCN_UDoor_13
+#local file: Unknown
+filedependancy Unknown
+newmodel TCN_UDoor_13
+setsupermodel TCN_UDoor_13 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom TCN_UDoor_13
+node dummy TCN_UDoor_13
+  parent NULL
+endnode
+node trimesh sam
+  parent TCN_UDoor_13
+  position -0.00855469 0.531143 2.676
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 1.0 
+  ambient 0.2 0.2 0.2 
+  Diffuse 0.8 0.8 0.8 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 -54.5002 -132.8 
+  bitmap NULL
+  verts 8
+    1.99794 -0.560059 0.0
+    -1.99794 -0.560059 0.0
+    1.99794 -0.560059 -2.656
+    -1.99794 -0.560059 -2.656
+    -1.99794 -0.529945 0.0
+    1.99794 -0.529945 0.0
+    1.99794 -0.529945 -2.656
+    -1.99794 -0.529945 -2.656
+  faces 4
+    0 1 2  1  0 0 0  5
+    3 2 1  1  0 0 0  5
+    4 5 6  1  0 0 0  5
+    6 7 4  1  0 0 0  5
+endnode
+node dummy TCN_UDoor_13grnd
+  parent TCN_UDoor_13
+  position -0.0148291 -0.0188062 0.0615002
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.721569 0.6 
+endnode
+node dummy TCN_UDoor_13hhit
+  parent TCN_UDoor_13
+  position -0.0148291 -0.0188062 2.30191
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.6 0.721569 
+endnode
+node dummy TCN_UDoor_13impc
+  parent TCN_UDoor_13
+  position -0.0148291 -0.0188062 1.14654
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.6 0.721569 
+endnode
+node dummy TCN_UDoor_13head
+  parent TCN_UDoor_13
+  position -0.0148291 -0.0188062 2.5615
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.6 0.721569 
+endnode
+endmodelgeom TCN_UDoor_13
+
+#NWmax ANIM ASCII
+newanim trans TCN_UDoor_13
+  length 0.0333333
+  transtime 0.25
+  animroot TCN_UDoor_13
+    node dummy TCN_UDoor_13
+        parent NULL
+    endnode
+    node trimesh sam
+        parent TCN_UDoor_13
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node dummy TCN_UDoor_13grnd
+        parent TCN_UDoor_13
+    endnode
+    node dummy TCN_UDoor_13hhit
+        parent TCN_UDoor_13
+    endnode
+    node dummy TCN_UDoor_13impc
+        parent TCN_UDoor_13
+    endnode
+    node dummy TCN_UDoor_13head
+        parent TCN_UDoor_13
+    endnode
+    node dummy TCN_UDoor_13_DWK
+        parent TCN_UDoor_13
+    endnode
+    node dummy 09_DWK_dp_closed_02
+        parent TCN_UDoor_13_DWK
+    endnode
+    node dummy 09_DWK_dp_closed_01
+        parent TCN_UDoor_13_DWK
+    endnode
+    node trimesh 09_DWK_wg_closed
+        parent TCN_UDoor_13_DWK
+    endnode
+doneanim trans TCN_UDoor_13
+
+
+#NWmax ANIM ASCII
+newanim default TCN_UDoor_13
+  length 0.0333333
+  transtime 0.25
+  animroot TCN_UDoor_13
+    node dummy TCN_UDoor_13
+        parent NULL
+    endnode
+    node trimesh sam
+        parent TCN_UDoor_13
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy TCN_UDoor_13grnd
+        parent TCN_UDoor_13
+    endnode
+    node dummy TCN_UDoor_13hhit
+        parent TCN_UDoor_13
+    endnode
+    node dummy TCN_UDoor_13impc
+        parent TCN_UDoor_13
+    endnode
+    node dummy TCN_UDoor_13head
+        parent TCN_UDoor_13
+    endnode
+    node dummy TCN_UDoor_13_DWK
+        parent TCN_UDoor_13
+    endnode
+    node dummy 09_DWK_dp_closed_02
+        parent TCN_UDoor_13_DWK
+    endnode
+    node dummy 09_DWK_dp_closed_01
+        parent TCN_UDoor_13_DWK
+    endnode
+    node trimesh 09_DWK_wg_closed
+        parent TCN_UDoor_13_DWK
+    endnode
+doneanim default TCN_UDoor_13
+
+donemodel TCN_UDoor_13
