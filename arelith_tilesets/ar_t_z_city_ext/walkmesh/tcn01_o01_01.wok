@@ -1,0 +1,72 @@
+# Exported from NWmax 0.8 b61 at 17.04.2017 20:23:46
+# wok file
+#
+#NWmax WALKMESH  ASCII
+beginwalkmeshgeom tcn01_o01_01
+node aabb goofball01
+  parent tcn01_o01_01
+  position 0.0 0.0 5e-007
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  multimaterial 20
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+  ambient 0.0 0.0 0.0 
+  diffuse 0.5 0.5 0.5 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Stone
+  verts 9
+    -5.0 0.0 0.0
+    -5.0 -5.0 0.0
+    0.0 0.0 0.0
+    0.0 -5.0 0.0
+    5.0 0.0 0.0
+    5.0 -5.0 0.0
+    -5.0 5.0 0.0
+    0.0 5.0 0.0
+    5.0 5.0 0.0
+  faces 8
+    0 1 2  1  0 0 0  4
+    3 2 1  1  0 0 0  4
+    2 3 4  1  0 0 0  4
+    5 4 3  1  0 0 0  4
+    6 0 7  1  0 0 0  4
+    2 7 0  1  0 0 0  4
+    7 2 8  1  0 0 0  4
+    4 8 2  1  0 0 0  4
+    aabb         -5.0 -5.0 0.0 5.0 5.0 0.0 -1
+        -5.0 -5.0 0.0 0.0 5.0 0.0 -1
+        -5.0 -5.0 0.0 0.0 0.0 0.0 -1
+        -5.0 -5.0 0.0 0.0 0.0 0.0 0
+        -5.0 -5.0 0.0 0.0 0.0 0.0 1
+        -5.0 0.0 0.0 0.0 5.0 0.0 -1
+        -5.0 0.0 0.0 0.0 5.0 0.0 4
+        -5.0 0.0 0.0 0.0 5.0 0.0 5
+        0.0 -5.0 0.0 5.0 5.0 0.0 -1
+        0.0 -5.0 0.0 5.0 0.0 0.0 -1
+        0.0 -5.0 0.0 5.0 0.0 0.0 2
+        0.0 -5.0 0.0 5.0 0.0 0.0 3
+        0.0 0.0 0.0 5.0 5.0 0.0 -1
+        0.0 0.0 0.0 5.0 5.0 0.0 6
+        0.0 0.0 0.0 5.0 5.0 0.0 7
+endnode
+endwalkmeshgeom tcn01_o01_01
