@@ -1,0 +1,152 @@
+# Rewritten by CleanModels 3 Version 3.5.1 Sun Jul 07 18:55:39 2019
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel ttr01_b20_01
+  classification TILE
+  setsupermodel ttr01_b20_01 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ttr01_b20_01
+node dummy ttr01_b20_01
+  parent NULL
+endnode
+node light ttr01_b20_01ml1
+  parent ttr01_b20_01
+  orientation 0 0 0 0
+  position 0 0 5
+  wirecolor 1 1 1
+  radius 14
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  fadinglight 1
+endnode
+node trimesh darko01
+  parent ttr01_b20_01
+  position 0 0 -3.4
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 0.788235 0.72549 0.72549
+  diffuse 0.788235 0.72549 0.72549
+  specular 0.05 0.05 0.05
+  shininess 26
+  center 0 0 0
+  bitmap ttr01_watcliff
+  verts 9
+    -5 0 0
+    -5 -5 0
+    0 0 0
+    0 -5 0
+    5 0 0
+    5 -5 0
+    -5 5 0
+    0 5 0
+    5 5 0
+  faces 8
+    0 1 2 1 0 1 0 1
+    3 2 1 1 1 0 1 1
+    2 3 4 1 0 1 0 1
+    5 4 3 1 1 0 1 1
+    6 0 7 1 2 0 2 1
+    2 7 0 1 0 2 0 1
+    7 2 8 1 2 0 2 1
+    4 8 2 1 0 2 0 1
+  tverts 3
+    0.5 0.05 0
+    0.0004995 0.05 0
+    0.999501 0.05 0
+endnode
+node aabb walkmesh
+  parent ttr01_b20_01
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  bitmap NULL
+  render 0
+  shadow 0
+  verts 9
+    -5 0 -3.4
+    -5 -5 -3.4
+    0 0 -3.4
+    0 -5 -3.4
+    5 0 -3.4
+    5 -5 -3.4
+    -5 5 -3.4
+    0 5 -3.4
+    5 5 -3.4
+  faces 8
+    0 1 2 1 0 0 0 17
+    3 2 1 1 0 0 0 17
+    2 3 4 1 0 0 0 17
+    5 4 3 1 0 0 0 17
+    6 0 7 1 0 0 0 17
+    2 7 0 1 0 0 0 17
+    7 2 8 1 0 0 0 17
+    4 8 2 1 0 0 0 17
+  aabb     -5 -5 -3.4 5 5 -3.4 -1
+    -5 -5 -3.4 0 5 -3.4 -1
+    -5 -5 -3.4 0 0 -3.4 -1
+    -5 -5 -3.4 0 0 -3.4 0
+    -5 -5 -3.4 0 0 -3.4 1
+    -5 0 -3.4 0 5 -3.4 -1
+    -5 0 -3.4 0 5 -3.4 4
+    -5 0 -3.4 0 5 -3.4 5
+    0 -5 -3.4 5 5 -3.4 -1
+    0 -5 -3.4 5 0 -3.4 -1
+    0 -5 -3.4 5 0 -3.4 2
+    0 -5 -3.4 5 0 -3.4 3
+    0 0 -3.4 5 5 -3.4 -1
+    0 0 -3.4 5 5 -3.4 6
+    0 0 -3.4 5 5 -3.4 7
+endnode
+node trimesh plane165
+  parent ttr01_b20_01
+  position 0 0 -1
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0 0 0
+  bitmap ttr01_water01
+  verts 4
+    -5 5 0
+    -5 -5 0
+    5 5 0
+    5 -5 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  tverts 4
+    -0.99996 1.9994 0
+    -0.99996 -1.0006 0
+    2.00007 1.9994 0
+    2.00007 -1.0006 0
+endnode
+endmodelgeom ttr01_b20_01
+donemodel ttr01_b20_01
