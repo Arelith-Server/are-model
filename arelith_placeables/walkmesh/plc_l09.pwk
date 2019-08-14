@@ -1,0 +1,25 @@
+# Exported from NWmax 0.8 b60 at 14.04.2013 21:32:40
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh plc_l09_wg
+  parent plc_l09_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.431373 0.0313726 
+  bitmap NULL
+  verts 4
+    -0.578849 -0.60115 0.0
+    0.578848 -0.601151 0.0
+    -0.578849 0.601149 0.0
+    0.578848 0.601149 0.0
+  faces 2
+    1 3 0  1  0 0 0  7
+    2 0 3  1  0 0 0  7
+endnode
+node dummy l09_pwk_use01
+  parent plc_l09_pwk
+  position -0.0379297 -1.18314 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.337255 0.337255 
+endnode
