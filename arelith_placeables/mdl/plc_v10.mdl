@@ -1,0 +1,110 @@
+#MAXMODEL ASCII
+# model: plc_v10
+filedependancy plc_v10.max
+newmodel plc_v10
+setsupermodel plc_v10 NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom plc_v10
+node dummy plc_v10
+  parent NULL
+  #part-number 0
+endnode
+node trimesh Plane01
+  parent plc_v10
+  #part-number 1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap plx_RugDMtlBrk
+  verts 15
+    -0.632185996 1 0
+    -0.570668995 0.416458011 0
+    -0.0821864009 0.973222971 0
+    -0.0206687003 0.416458011 0
+    0 -0.972302973 0
+    0.550000012 -1 0
+    -0.0331499018 -0.499139994 0
+    0.516849995 -0.499139994 0
+    -0.550000012 0.0101805003 0
+    0.0208001994 0.0101805003 0
+    0.529331028 0.416458011 0
+    0.467813998 1 0
+    0.570800006 0.0101806 0
+    -0.583150029 -0.499139994 0
+    -0.550000012 -0.928888023 0
+  tverts 20
+    0.488350004 0.984326005 0
+    0.277640998 0.984326005 0
+    0.488350004 0.709326029 0
+    0.277642012 0.709326029 0
+    0.440842003 0.710542023 0
+    0.440842003 0.985541999 0
+    0.188541993 0.710542023 0
+    0.188541993 0.985541999 0
+    0.494580001 0.984326005 0
+    0.494580001 0.709326029 0
+    0.345266014 0.985541999 0
+    0.0537858009 0.985541999 0
+    0.345265001 0.710542023 0
+    0.0537857004 0.710542023 0
+    0.492940992 0.985541999 0
+    0.492940992 0.710542023 0
+    0.255708009 0.984326005 0
+    0.255708009 0.709326029 0
+    0.00527859991 0.984326005 0
+    0.0052784998 0.709326029 0
+  faces 16
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 5 6 1 4 5 6 1
+    7 6 5 1 7 6 5 1
+    1 8 3 1 1 8 3 1
+    9 3 8 1 9 3 8 1
+    10 11 3 1 10 11 12 1
+    2 3 11 1 13 12 11 1
+    12 10 9 1 14 10 15 1
+    3 9 10 1 12 15 10 1
+    8 13 9 1 8 16 9 1
+    6 9 13 1 17 9 16 1
+    7 12 6 1 7 14 6 1
+    9 6 12 1 15 6 14 1
+    13 14 6 1 16 18 17 1
+    4 6 14 1 19 17 18 1
+  position 0.0643555 -0.0121582001 0.00999999978
+  orientation 0 0 0 0
+endnode
+node dummy v10_hand
+  parent plc_v10
+  #part-number 2
+  position 0.0039843698 0.00821327046 0.48488301
+  orientation 0 0 0 0
+endnode
+node dummy v10_head
+  parent plc_v10
+  #part-number 3
+  position 0.0039843698 0.0108252 0.487121999
+  orientation 0 0 0 0
+endnode
+node dummy v10_head_hit
+  parent plc_v10
+  #part-number 4
+  position 0.0039843698 0.0108252 0.00564354006
+  orientation 0 0 0 0
+endnode
+node dummy v10_impact
+  parent plc_v10
+  #part-number 5
+  position 0.0039843698 0.0110010002 0.00741897989
+  orientation 0 0 0 0
+endnode
+node dummy v10_ground
+  parent plc_v10
+  #part-number 6
+  position -0.00363280997 0.00698729977 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom plc_v10
+
+donemodel plc_v10

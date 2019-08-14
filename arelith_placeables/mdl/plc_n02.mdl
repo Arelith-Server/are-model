@@ -1,0 +1,738 @@
+#MAXMODEL ASCII
+# model: plc_n02
+filedependancy plc_n02.max
+newmodel plc_n02
+setsupermodel plc_n02 NULL
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom plc_n02
+node dummy plc_n02
+  parent NULL
+  #part-number 0
+endnode
+node dummy n02_hand
+  parent plc_n02
+  #part-number 1
+  position 0.0039843698 -0.505195022 0.934401989
+  orientation 0 0 0 0
+endnode
+node dummy n02_head
+  parent plc_n02
+  #part-number 2
+  position 0.0039843698 0.0108252 0.668403029
+  orientation 0 0 0 0
+endnode
+node dummy n02_head_hit
+  parent plc_n02
+  #part-number 3
+  position 0.0039843698 0.0108252 0.00591980014
+  orientation 0 0 0 0
+endnode
+node dummy n02_impact
+  parent plc_n02
+  #part-number 4
+  position 0.0039843698 0.0110010002 0.0258130003
+  orientation 0 0 0 0
+endnode
+node dummy n02_ground
+  parent plc_n02
+  #part-number 5
+  position -0.00363280997 0.00698729977 0
+  orientation 0 0 0 0
+endnode
+node emitter fire!99
+  parent plc_n02
+  #part-number 6
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.200000003
+  blastLength 1
+  position -0.0153339002 0.0042434698 0.173060998
+  orientation 1 0 0 -4.71238995
+  xsize 100
+  ysize 99
+  threshold 0
+  combinetime 0
+  colorStart 0.474510014 0.423528999 0.301961005
+  colorEnd 0.725489974 0.678430974 0.494118005
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  fps 10
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node trimesh damage57
+  parent plc_n02
+  #part-number 7
+  ambient 0.0705882013 0 1
+  diffuse 1 0.501960993 0.643136978
+  specular 0 0.899999976 0.105881996
+  shininess 24
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 12
+    -0.195415005 -0.186215997 0
+    -0.195415005 0.186215997 0
+    0.195415005 0.186215997 0
+    0.195415005 -0.186215997 0
+    -0.195415005 -0.186215997 0.5
+    0.195415005 -0.186215997 0.5
+    0.195415005 0.186215997 0.5
+    -0.195415005 0.186215997 0.5
+    0.103944004 -0.0990512967 0.25
+    -0.103944004 -0.0990512967 0.25
+    0.103944004 0.0990512967 0.25
+    -0.103944004 0.0990512967 0.25
+  faces 20
+    0 1 2 1 0 0 0 2
+    2 3 0 1 0 0 0 2
+    4 5 6 1 0 0 0 1
+    6 7 4 1 0 0 0 1
+    0 3 8 2 0 0 0 5
+    8 9 0 2 0 0 0 5
+    9 8 5 2 0 0 0 5
+    5 4 9 2 0 0 0 5
+    3 2 10 4 0 0 0 4
+    10 8 3 4 0 0 0 4
+    8 10 6 4 0 0 0 4
+    6 5 8 4 0 0 0 4
+    2 1 11 2 0 0 0 6
+    11 10 2 2 0 0 0 6
+    10 11 7 2 0 0 0 6
+    7 6 10 2 0 0 0 6
+    1 0 9 4 0 0 0 3
+    9 11 1 4 0 0 0 3
+    11 9 4 4 0 0 0 3
+    4 7 11 4 0 0 0 3
+  position -0.0137670999 -0.0163217001 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh Box155563
+  parent damage57
+  #part-number 8
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap plx_rock
+  verts 16
+    0.43076399 -0.184671 0.227209002
+    0.415203989 -0.177798003 0.165570006
+    -0.43076399 -0.184671 0.227209002
+    -0.415203989 -0.177798003 0.165570006
+    0.43076399 0.184671 0.227209002
+    0.415203989 0.177798003 0.165570006
+    -0.43076399 0.184671 0.227209002
+    -0.415203989 0.177798003 0.165570006
+    0.479097009 -0.244547993 0.165570006
+    0.493265986 -0.261633009 0.227209002
+    -0.479097009 -0.244547993 0.165570006
+    -0.493265986 -0.251632988 0.227209002
+    0.479097009 0.244547993 0.165570006
+    0.493265986 0.251632988 0.227209002
+    -0.479097009 0.244547993 0.165570006
+    -0.493265986 0.251632988 0.227209002
+  tverts 23
+    0.559099019 0.733950973 0
+    0.497521996 0.716184974 0
+    0.559099019 -0.272504002 0
+    0.497521996 -0.254738003 0
+    0.559099019 0.882142007 0
+    0.497521996 0.872672021 0
+    0.559099019 0.345654994 0
+    0.497521996 0.35512501 0
+    0.559099019 0.345656008 0
+    0.497521996 0.355125993 0
+    0.497521996 0.766297996 0
+    0.559099019 0.782476008 0
+    0.497521996 -0.304850996 0
+    0.559099019 -0.321029007 0
+    0.497521996 0.93708998 0
+    0.559099019 0.946852982 0
+    0.497521996 0.290706992 0
+    0.559099019 0.280945003 0
+    0.497521996 0.937090993 0
+    0.497487992 -0.321029007 0
+    0.497487992 0.782476008 0
+    0.497487992 0.280945003 0
+    0.497487992 0.946852982 0
+  faces 24
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 5 0 2 4 5 6 1
+    1 0 5 2 7 6 5 1
+    6 7 4 1 2 3 0 1
+    5 4 7 1 1 0 3 1
+    2 3 6 2 8 9 4 1
+    7 6 3 2 5 4 9 1
+    8 9 10 4 10 11 12 5
+    11 10 9 4 13 12 11 5
+    12 13 8 4 14 15 16 4
+    9 8 13 4 17 16 15 4
+    14 15 12 4 12 13 10 6
+    13 12 15 4 11 10 13 6
+    10 11 14 4 16 17 18 3
+    15 14 11 4 15 18 17 3
+    0 2 11 4 11 13 19 5
+    11 9 0 4 19 20 11 5
+    4 0 9 4 15 17 21 4
+    9 13 4 4 21 22 15 4
+    6 4 13 4 13 11 20 6
+    13 15 6 4 20 19 13 6
+    2 6 15 4 17 15 22 3
+    15 11 2 4 22 21 17 3
+  position 0.0148339998 0.0174471997 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh Box109
+  parent damage57
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap plx_wood02
+  verts 16
+    -0.396028012 -0.174913004 0.0500000007
+    0.396028012 -0.174913004 0.0500000007
+    0.396028012 0.174913004 0.0500000007
+    -0.396028012 0.174913004 0.0500000007
+    -0.431033999 -0.215516999 0
+    0.431033999 -0.215516999 0
+    0.510057986 -0.253385007 0.290048003
+    -0.5 -0.25 0.300000012
+    0.431033999 0.215516999 0
+    0.5 0.25 0.300000012
+    -0.431033999 0.215516999 0
+    -0.5 0.25 0.31308499
+    0.459392995 -0.202898994 0.29104799
+    -0.459392995 -0.202898994 0.300999999
+    0.459392995 0.202898994 0.315126002
+    -0.459392995 0.202898994 0.314085007
+  tverts 34
+    0.32526201 0.0584114008 0
+    0.32526201 0.962710023 0
+    0.67473799 0.962710023 0
+    0.67473799 0.0584115013 0
+    0.349649996 -0.375294 0
+    0.349649996 0.608942986 0
+    0.649351001 0.687681973 0
+    0.649351001 -0.454032987 0
+    0.349649996 0.203032002 0
+    0.349649996 0.796967983 0
+    0.649351001 0.844483018 0
+    0.649351001 0.155516997 0
+    0.250250012 0.0613969006 0
+    0.250250012 1.20310998 0
+    0.297304004 1.15673995 0
+    0.297304004 0.107758 0
+    0.587195992 0.779579997 0
+    0.587195992 0.220419005 0
+    0.749750018 1.08141994 0
+    0.749750018 -0.0602937005 0
+    0.702696025 -0.0139322998 0
+    0.702696025 1.03505003 0
+    0.587195992 0.220420003 0
+    0.650349975 -0.407671005 0
+    0.650349975 0.64131999 0
+    0.399599999 0.568975985 0
+    0.399599999 -0.335326999 0
+    0.650349975 0.220419005 0
+    0.650349975 0.779579997 0
+    0.399599999 0.741016984 0
+    0.399599999 0.258982003 0
+    0.650349975 0.220420003 0
+    0.399599999 0.258982986 0
+    0.399599999 0.741017997 0
+  faces 26
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 6 1 4 5 6 5
+    6 7 4 1 6 7 4 5
+    5 8 9 2 8 9 10 4
+    9 6 5 2 10 11 8 4
+    8 10 11 1 5 4 7 6
+    11 9 8 1 7 6 5 6
+    10 4 7 2 9 8 11 3
+    7 11 10 2 11 10 9 3
+    7 6 12 4 12 13 14 1
+    12 13 7 8 14 15 12 1
+    6 9 14 8 11 10 16 1
+    14 12 6 16 16 17 11 1
+    9 11 15 4 18 19 20 1
+    15 14 9 32 20 21 18 1
+    11 7 13 16 10 11 22 1
+    13 15 11 64 22 16 10 1
+    13 12 1 2 23 24 25 1
+    1 0 13 4 25 26 23 1
+    12 14 2 64 27 28 29 1
+    2 1 12 32 29 30 27 1
+    14 15 3 2 24 23 26 1
+    3 2 14 4 26 25 24 1
+    15 13 0 128 28 31 32 1
+    0 3 15 8 32 33 28 1
+  position 0.0148339998 0.0174471997 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node emitter ChunkyWood156
+  parent plc_n02
+  #part-number 10
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName plc_Chunk_W02
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position -0.0153339002 0.0042434698 0.353325993
+  orientation 0 0 0 0
+  xsize 89
+  ysize 40
+  threshold 0
+  combinetime 0
+  colorStart 0.482353002 0.435294002 0.31764701
+  colorEnd 0.584313989 0.533333004 0.407842994
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 2.9000001
+  velocity 8
+  randvel 0.300000012
+  bounce_co 0.5
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom plc_n02
+
+#MAXANIM ASCII
+newanim damage plc_n02
+  length 0.133332998
+  transtime 0
+  animroot plc_n02
+node dummy plc_n02
+  parent NULL
+  #part-number 0
+endnode
+node dummy n02_hand
+  parent plc_n02
+  #part-number 1
+endnode
+node dummy n02_head
+  parent plc_n02
+  #part-number 2
+endnode
+node dummy n02_head_hit
+  parent plc_n02
+  #part-number 3
+endnode
+node dummy n02_impact
+  parent plc_n02
+  #part-number 4
+endnode
+node dummy n02_ground
+  parent plc_n02
+  #part-number 5
+endnode
+node emitter fire!99
+  parent plc_n02
+  #part-number 6
+endnode
+node trimesh damage57
+  parent plc_n02
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 3
+    0 -0.0137670999 -0.0163217001 0
+    0.0333333015 -0.0137670999 -0.0163217001 0.0244580992
+    0.133332998 -0.0137670999 -0.0163217001 0
+  orientationkey 4
+    0 0 0 0 0
+    0.0333333015 0.371336043 -0.928463161 0.00810260233 -0.0469939001
+    0.100000001 -0.599950016 0.799968958 0.0104721999 -0.0436323993
+    0.133332998 0 0 0 0
+endnode
+node trimesh Box155563
+  parent damage57
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Box109
+  parent damage57
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter ChunkyWood156
+  parent plc_n02
+  #part-number 10
+endnode
+node dummy plc_n02_pwk
+  parent plc_n02
+  #part-number -1
+endnode
+node trimesh plc_n02_wg
+  parent plc_n02_pwk
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy n02_pwk_use02
+  parent plc_n02_pwk
+  #part-number 13
+endnode
+node dummy n02_pwk_use01
+  parent plc_n02_pwk
+  #part-number 14
+endnode
+doneanim damage plc_n02
+
+#MAXANIM ASCII
+newanim die plc_n02
+  length 0.166666999
+  transtime 0
+  animroot plc_n02
+  event 0.0333333015 detonate
+  event 0.0333333015 detonate
+node dummy plc_n02
+  parent NULL
+  #part-number 0
+endnode
+node dummy n02_hand
+  parent plc_n02
+  #part-number 1
+endnode
+node dummy n02_head
+  parent plc_n02
+  #part-number 2
+endnode
+node dummy n02_head_hit
+  parent plc_n02
+  #part-number 3
+endnode
+node dummy n02_impact
+  parent plc_n02
+  #part-number 4
+endnode
+node dummy n02_ground
+  parent plc_n02
+  #part-number 5
+endnode
+node emitter fire!99
+  parent plc_n02
+  #part-number 6
+endnode
+node trimesh damage57
+  parent plc_n02
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 -0.0137670999 -0.0163217001 0
+    0.166666999 -0.0137670999 -0.0163217001 -6.95144987
+endnode
+node trimesh Box155563
+  parent damage57
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Box109
+  parent damage57
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter ChunkyWood156
+  parent plc_n02
+  #part-number 10
+endnode
+node dummy plc_n02_pwk
+  parent plc_n02
+  #part-number -1
+endnode
+node trimesh plc_n02_wg
+  parent plc_n02_pwk
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy n02_pwk_use02
+  parent plc_n02_pwk
+  #part-number 13
+endnode
+node dummy n02_pwk_use01
+  parent plc_n02_pwk
+  #part-number 14
+endnode
+doneanim die plc_n02
+
+#MAXANIM ASCII
+newanim dead plc_n02
+  length 0.0333333015
+  transtime 0
+  animroot plc_n02
+node dummy plc_n02
+  parent NULL
+  #part-number 0
+endnode
+node dummy n02_hand
+  parent plc_n02
+  #part-number 1
+endnode
+node dummy n02_head
+  parent plc_n02
+  #part-number 2
+endnode
+node dummy n02_head_hit
+  parent plc_n02
+  #part-number 3
+endnode
+node dummy n02_impact
+  parent plc_n02
+  #part-number 4
+endnode
+node dummy n02_ground
+  parent plc_n02
+  #part-number 5
+endnode
+node emitter fire!99
+  parent plc_n02
+  #part-number 6
+endnode
+node trimesh damage57
+  parent plc_n02
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 -0.0137670999 -0.0163217001 -6.95144987
+    0.0333333015 -0.0137670999 -0.0163217001 -6.95144987
+endnode
+node trimesh Box155563
+  parent damage57
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Box109
+  parent damage57
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter ChunkyWood156
+  parent plc_n02
+  #part-number 10
+endnode
+node dummy plc_n02_pwk
+  parent plc_n02
+  #part-number -1
+endnode
+node trimesh plc_n02_wg
+  parent plc_n02_pwk
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy n02_pwk_use02
+  parent plc_n02_pwk
+  #part-number 13
+endnode
+node dummy n02_pwk_use01
+  parent plc_n02_pwk
+  #part-number 14
+endnode
+doneanim dead plc_n02
+
+#MAXANIM ASCII
+newanim default plc_n02
+  length 0
+  transtime 0.25
+  animroot plc_n02
+node dummy plc_n02
+  parent NULL
+  #part-number 0
+endnode
+node dummy n02_hand
+  parent plc_n02
+  #part-number 1
+endnode
+node dummy n02_head
+  parent plc_n02
+  #part-number 2
+endnode
+node dummy n02_head_hit
+  parent plc_n02
+  #part-number 3
+endnode
+node dummy n02_impact
+  parent plc_n02
+  #part-number 4
+endnode
+node dummy n02_ground
+  parent plc_n02
+  #part-number 5
+endnode
+node emitter fire!99
+  parent plc_n02
+  #part-number 6
+endnode
+node trimesh damage57
+  parent plc_n02
+  #part-number 7
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Box155563
+  parent damage57
+  #part-number 8
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh Box109
+  parent damage57
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node emitter ChunkyWood156
+  parent plc_n02
+  #part-number 10
+endnode
+node dummy plc_n02_pwk
+  parent plc_n02
+  #part-number -1
+endnode
+node trimesh plc_n02_wg
+  parent plc_n02_pwk
+  #part-number 12
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy n02_pwk_use02
+  parent plc_n02_pwk
+  #part-number 13
+endnode
+node dummy n02_pwk_use01
+  parent plc_n02_pwk
+  #part-number 14
+endnode
+doneanim default plc_n02
+
+donemodel plc_n02
