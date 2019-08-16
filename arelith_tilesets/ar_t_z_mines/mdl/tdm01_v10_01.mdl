@@ -1,0 +1,143 @@
+# Exported from NWmax 0.8 b60 at 06.06.2010 16:10:54
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: tdm01_v10_01
+#local file: Unknown
+filedependancy Unknown
+newmodel tdm01_v10_01
+setsupermodel tdm01_v10_01 NULL
+classification Tile
+#NWmax GEOM  ASCII
+beginmodelgeom tdm01_v10_01
+node dummy tdm01_v10_01
+  parent NULL
+endnode
+#Tile trimesh node
+node trimesh blacky
+  parent tdm01_v10_01
+  position 0.0 0.0 3.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.694118 0.694118 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0 0.0 0.0 
+  diffuse 0.0 0.0 0.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 150.0 
+  bitmap tdm01_black
+  verts 5
+    -5.0 5.0 3.0
+    -5.0 -5.0 0.0
+    5.0 5.0 0.0
+    5.0 -5.0 0.0
+    0.0 0.0 0.0
+  faces 4
+    0 1 4  1  0 1 4  1
+    3 4 1  1  3 4 1  1
+    3 2 4  1  3 2 4  1
+    0 4 2  1  0 4 2  1
+  tverts 5
+    0.000499606 0.54995 0
+    0.000499606 0.5 0
+    0.0290425 0.54995 0
+    0.0290425 0.5 0
+    0.0147371 0.524916 0
+endnode
+node aabb wok
+  parent tdm01_v10_01
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.109804 0.109804 
+  multimaterial 20
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+  ambient 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Obscuring
+  verts 5
+    -5.0 5.0 6.0
+    -5.0 -5.0 3.0
+    5.0 5.0 3.0
+    5.0 -5.0 3.0
+    0.0 0.0 3.0
+  faces 4
+    0 1 4  1  0 0 0  2
+    3 4 1  1  0 0 0  2
+    3 2 4  1  0 0 0  2
+    0 4 2  1  0 0 0  2
+    aabb         -5.0 -5.0 3.0 5.0 5.0 6.0 -1
+        -5.0 -5.0 3.0 0.0 5.0 6.0 0
+        -5.0 -5.0 3.0 5.0 5.0 6.0 -1
+        -5.0 -5.0 3.0 5.0 5.0 6.0 -1
+        -5.0 -5.0 3.0 5.0 0.0 3.0 1
+        -5.0 0.0 3.0 5.0 5.0 6.0 3
+        0.0 -5.0 3.0 5.0 5.0 3.0 2
+endnode
+#Tile trimesh node
+node trimesh Object01
+  parent tdm01_v10_01
+  position 0.0 0.0 3.01
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.694118 0.694118 0.694118 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 150.0 
+  bitmap tdm01_raised
+  verts 4
+    -5.0 5.0 3.0
+    -5.0 -5.0 0.0
+    5.0 5.0 0.0
+    0.0 0.0 0.0
+  faces 2
+    0 1 3  1  0 1 3  1
+    0 3 2  1  0 3 2  1
+  tverts 4
+    0.510391 0.850327 0
+    -0.0704058 0.346826 0
+    1.08394 0.308178 0
+    0.447589 0.0859562 0
+endnode
+endmodelgeom tdm01_v10_01
+donemodel tdm01_v10_01

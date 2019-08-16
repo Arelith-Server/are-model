@@ -1,0 +1,345 @@
+# Exported from NWmax 0.8 b60 at 26.05.2010 20:31:09
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: tdm01_l05_01
+#local file: Unknown
+filedependancy Unknown
+newmodel tdm01_l05_01
+setsupermodel tdm01_l05_01 NULL
+classification Tile
+#NWmax GEOM  ASCII
+beginmodelgeom tdm01_l05_01
+node dummy tdm01_l05_01
+  parent NULL
+endnode
+node dummy tdm01_l05_01a
+  parent tdm01_l05_01
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.721569 0.894118 0.6 
+endnode
+node emitter FX_LavaSpurt_EMIT01
+  parent tdm01_l05_01a
+  position 0.0 0.0 -5.3
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 900.0
+  ySize 900.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.0
+  sizeEnd 0.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 4.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_ash01
+  twosidedtex 0
+  xgrid 0
+  ygrid 0
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  chunkName FX_LavaSpurt
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+#Tile trimesh node
+node trimesh Plane47
+  parent tdm01_l05_01
+  position 0.0 0.0 -5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.6 0.6 0.6 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.78 0.58 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap tdm01_smoke01
+  verts 4
+    -5.0 5.0 0.0
+    -5.0 -5.0 0.0
+    5.0 5.0 0.0
+    5.0 -5.0 0.0
+  faces 2
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+  tverts 4
+    0.00299531 -18.0 0
+    0.0029946 -21.0 0
+    3.003 -18.0 0
+    3.00299 -21.0 0
+endnode
+#Tile trimesh node
+node trimesh Plane09
+  parent tdm01_l05_01
+  position 0.0 0.0 -6.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.6 0.6 0.6 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0 0.0 0.0 
+  diffuse 0.0 0.0 0.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap tdm01_black
+  verts 4
+    -5.0 5.0 0.0
+    -5.0 -5.0 0.0
+    5.0 5.0 0.0
+    5.0 -5.0 0.0
+  faces 2
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+  tverts 4
+    0.0 1.0 0
+    0.0 0.0 0
+    1.0 1.0 0
+    1.0 0.0 0
+endnode
+node aabb Plane115
+  parent tdm01_l05_01
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.6 0.6 
+  bitmap NULL
+  verts 4
+    -5.0 5.0 -6.0
+    -5.0 -5.0 -6.0
+    5.0 5.0 -6.0
+    5.0 -5.0 -6.0
+  faces 2
+    0 1 2  1  0 0 0  17
+    3 2 1  1  0 0 0  17
+    aabb         -5.0 -5.0 -6.0 5.0 5.0 -6.0 -1
+        -5.0 -5.0 -6.0 5.0 5.0 -6.0 0
+        -5.0 -5.0 -6.0 5.0 5.0 -6.0 1
+endnode
+#Tile trimesh node
+node trimesh ceiling03
+  parent tdm01_l05_01
+  position 0.0 0.0 9.15
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.6 0.6 0.6 
+  tilefade 1
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 -59.0 
+  bitmap tdm01_floor01
+  verts 25
+    2.5 2.5 -0.65
+    0.0 2.5 -0.15
+    -2.5 2.5 -0.65
+    2.5 0.0 -0.15
+    0.0 0.0 -0.03
+    -2.5 0.0 -0.15
+    2.5 -2.5 -0.65
+    0.0 -2.5 -0.15
+    -2.5 -2.5 -0.65
+    5.0 5.0 -1.15
+    2.5 5.0 -0.65
+    0.0 5.0 -0.15
+    -2.5 5.0 -0.65
+    -5.0 5.0 -1.15
+    5.0 2.5 -0.65
+    -5.0 2.5 -0.65
+    5.0 0.0 -0.15
+    -5.0 0.0 -0.15
+    5.0 -2.5 -0.65
+    -5.0 -2.5 -0.65
+    5.0 -5.0 -1.15
+    2.5 -5.0 -0.65
+    0.0 -5.0 -0.15
+    -2.5 -5.0 -0.65
+    -5.0 -5.0 -1.15
+  faces 32
+    0 10 9  1  0 10 9  65536
+    9 14 0  1  9 14 0  65536
+    1 11 10  1  1 11 10  65536
+    10 0 1  1  10 0 1  65536
+    2 12 11  1  2 12 11  65536
+    11 1 2  1  11 1 2  65536
+    15 13 12  1  15 13 12  65536
+    12 2 15  1  12 2 15  65536
+    3 0 14  1  3 0 14  65536
+    14 16 3  1  14 16 3  65536
+    4 1 0  1  4 1 0  65536
+    0 3 4  1  0 3 4  65536
+    5 2 1  1  5 2 1  65536
+    1 4 5  1  1 4 5  65536
+    17 15 2  1  17 15 2  65536
+    2 5 17  1  2 5 17  65536
+    6 3 16  1  6 3 16  65536
+    16 18 6  1  16 18 6  65536
+    7 4 3  1  7 4 3  65536
+    3 6 7  1  3 6 7  65536
+    8 5 4  1  8 5 4  65536
+    4 7 8  1  4 7 8  65536
+    19 17 5  1  19 17 5  65536
+    5 8 19  1  5 8 19  65536
+    21 6 18  1  21 6 18  65536
+    18 20 21  1  18 20 21  65536
+    22 7 6  1  22 7 6  65536
+    6 21 22  1  6 21 22  65536
+    23 8 7  1  23 8 7  65536
+    7 22 23  1  7 22 23  65536
+    24 19 8  1  24 19 8  65536
+    8 23 24  1  8 23 24  65536
+  tverts 25
+    0.74975 0.25025 0
+    0.5 0.25025 0
+    0.25025 0.25025 0
+    0.74975 0.5 0
+    0.5 0.5 0
+    0.25025 0.5 0
+    0.74975 0.74975 0
+    0.5 0.74975 0
+    0.25025 0.74975 0
+    0.999501 0.000499666 0
+    0.74975 0.000499636 0
+    0.5 0.000499576 0
+    0.25025 0.000499547 0
+    0.000499666 0.000499517 0
+    0.9995 0.25025 0
+    0.000499636 0.25025 0
+    0.9995 0.5 0
+    0.000499576 0.5 0
+    0.9995 0.74975 0
+    0.000499547 0.74975 0
+    0.9995 0.999501 0
+    0.74975 0.9995 0
+    0.5 0.9995 0
+    0.25025 0.9995 0
+    0.000499517 0.9995 0
+endnode
+endmodelgeom tdm01_l05_01
+#NWmax ANIM ASCII
+newanim animloop01 tdm01_l05_01
+  length 3.96667
+  transtime 0.25
+  animroot tdm01_l05_01
+  event 0.0333333 detonate
+    node dummy tdm01_l05_01
+        parent NULL
+    endnode
+    node dummy tdm01_l05_01a
+        parent tdm01_l05_01
+    endnode
+    node emitter FX_LavaSpurt_EMIT01
+        parent tdm01_l05_01a
+    endnode
+    node trimesh Plane47
+        parent tdm01_l05_01
+    endnode
+    node trimesh Plane09
+        parent tdm01_l05_01
+    endnode
+    node aabb Plane115
+        parent tdm01_l05_01
+    endnode
+    node trimesh ceiling03
+        parent tdm01_l05_01
+    endnode
+doneanim animloop01 tdm01_l05_01
+#NWmax ANIM ASCII
+newanim tiledefault tdm01_l05_01
+  length 0.0
+  transtime 0.0
+  animroot tdm01_l05_01
+    node dummy tdm01_l05_01
+        parent NULL
+    endnode
+    node dummy tdm01_l05_01a
+        parent tdm01_l05_01
+    endnode
+    node emitter FX_LavaSpurt_EMIT01
+        parent tdm01_l05_01a
+    endnode
+    node trimesh Plane47
+        parent tdm01_l05_01
+    endnode
+    node trimesh Plane09
+        parent tdm01_l05_01
+    endnode
+    node aabb Plane115
+        parent tdm01_l05_01
+    endnode
+    node trimesh ceiling03
+        parent tdm01_l05_01
+    endnode
+doneanim tiledefault tdm01_l05_01
+donemodel tdm01_l05_01

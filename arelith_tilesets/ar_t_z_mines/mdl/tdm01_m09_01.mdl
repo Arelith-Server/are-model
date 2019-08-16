@@ -1,0 +1,928 @@
+# Exported from NWmax 0.8 b60 at 27.05.2010 19:54:56
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: tdm01_m09_01
+#local file: Unknown
+filedependancy Unknown
+newmodel tdm01_m09_01
+setsupermodel tdm01_m09_01 NULL
+classification Tile
+#NWmax GEOM  ASCII
+beginmodelgeom tdm01_m09_01
+node dummy tdm01_m09_01
+  parent NULL
+endnode
+node dummy tdm01_m09_01a
+  parent tdm01_m09_01
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.560784 0.878431 0.341176 
+endnode
+node emitter FX_LavaSpurt_EMIT01
+  parent tdm01_m09_01a
+  position -0.5 0.5 -5.3
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 500.0
+  ySize 500.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.0
+  sizeEnd 0.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 4.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_ash01
+  twosidedtex 0
+  xgrid 0
+  ygrid 0
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  chunkName FX_LavaSpurt
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+#Tile trimesh node
+node trimesh Plane17
+  parent tdm01_m09_01
+  position 0.0 0.0 -5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.87451 0.87451 0.87451 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.78 0.58 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap tdm01_smoke01
+  verts 4
+    -5.0 5.0 0.0
+    -5.0 -5.0 0.0
+    5.0 5.0 0.0
+    5.0 -5.0 0.0
+  faces 2
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+  tverts 4
+    18.0 -21.0 0
+    18.0 -24.0 0
+    21.0 -21.0 0
+    21.0 -24.0 0
+endnode
+#Tile trimesh node
+node trimesh Object109
+  parent tdm01_m09_01
+  position 5.0 -5.0 -4.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.87451 0.87451 0.87451 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -116.5 116.5 50.0 
+  bitmap tdm01_volcano01
+  verts 9
+    0.0 2.33 -2.0
+    -1.36 2.25 -2.0
+    -0.69 1.85 2.99
+    0.0 1.77 3.0
+    -1.62 1.42 2.99
+    -2.3 1.24 -2.0
+    -1.99 0.55 2.99
+    -2.33 0.0 -2.0
+    -1.77 0.0 3.0
+  faces 7
+    0 1 2  1  0 1 2  3
+    2 3 0  1  2 3 0  3
+    4 2 1  1  4 2 1  3
+    1 5 4  1  1 5 4  3
+    6 4 5  1  6 7 8  3
+    6 7 8  1  6 9 10  3
+    7 6 5  1  9 6 8  3
+  tverts 11
+    0.000249803 0.002 0
+    0.24071 0.002 0
+    0.165712 0.997 0
+    0.023599 0.997 0
+    0.371918 0.997 0
+    0.458943 0.002 0
+    0.86291 0.997 0
+    0.71154 0.997 0
+    0.741912 0.002 0
+    0.993417 0.002 0
+    0.993416 0.997 0
+endnode
+#Tile trimesh node
+node trimesh Plane64
+  parent tdm01_m09_01
+  position 4.24 -4.24 3.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.87451 0.87451 0.87451 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0 0.0 0.0 
+  diffuse 0.0 0.0 0.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -4.0 4.0 0.0 
+  bitmap tdm01_black
+  verts 6
+    0.2 0.65 0.0
+    -0.38 0.53 0.0
+    -0.7 0.07 0.0
+    -0.84 -0.76 0.0
+    0.76 -0.76 0.0
+    0.76 0.84 0.0
+  faces 4
+    0 1 2  1  0 1 2  1
+    2 3 4  1  2 3 4  1
+    0 4 5  1  0 4 5  1
+    4 0 2  1  4 0 2  1
+  tverts 6
+    6.0 -4.56144 0
+    6.0 -6.0 0
+    7.1583 -6.0 0
+    8.16737 -6.0 0
+    9.0 -3.0 0
+    6.0 -3.0 0
+endnode
+#Tile trimesh node
+node trimesh Object110
+  parent tdm01_m09_01
+  position 0.96 0.97 -6.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.87451 0.87451 0.87451 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0 0.0 0.0 
+  diffuse 0.0 0.0 0.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -96.0 -97.0 0.0 
+  bitmap tdm01_black
+  verts 11
+    -2.8 3.07 0.0
+    4.04 4.03 0.0
+    -3.46 4.03 0.0
+    -3.49 1.26 0.0
+    2.68 -3.72 0.0
+    1.74 -4.73 0.0
+    -4.88 1.11 0.0
+    -5.96 -5.97 0.0
+    4.04 -3.64 0.0
+    -5.96 1.53 0.0
+    1.71 -5.97 0.0
+  faces 9
+    0 1 2  1  0 1 2  2
+    1 3 4  1  1 3 4  2
+    0 3 1  1  0 3 1  2
+    5 3 6  1  5 3 6  2
+    6 7 5  1  6 7 5  2
+    4 8 1  1  8 9 1  2
+    3 5 4  1  3 10 4  2
+    7 6 9  1  7 6 11  2
+    5 7 10  1  5 7 12  2
+  tverts 13
+    0.26686 0.998607 0
+    0.000499547 0.000499666 0
+    0.000500739 0.9995 0
+    0.649009 0.997326 0
+    0.854478 0.238546 0
+    0.810039 0.488352 0
+    0.944179 0.996337 0
+    0.9995 0.756955 0
+    0.811832 0.167515 0
+    0.894581 0.00116161 0
+    0.791607 0.351183 0
+    0.947667 0.86494 0
+    0.865234 0.66883 0
+endnode
+#Tile trimesh node
+node trimesh Line195
+  parent tdm01_m09_01
+  position 5.0 -5.0 1.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.87451 0.87451 0.87451 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -99.5 92.5 -50.5 
+  bitmap TDM01_rock01
+  verts 20
+    0.0 1.6 -1.25
+    -0.56 1.41 -1.27
+    -0.56 1.41 0.0
+    0.0 1.2 0.0
+    -1.14 1.29 -1.27
+    -0.98 1.14 0.0
+    -1.46 0.83 -1.27
+    -1.37 0.5 0.0
+    -1.6 0.0 -1.25
+    -1.2 0.0 0.0
+    -0.56 1.41 1.5
+    0.0 1.6 1.5
+    -1.14 1.29 1.5
+    -1.46 0.83 1.5
+    -1.6 0.0 1.5
+    0.0 1.77 -2.5
+    -0.69 1.85 -2.51
+    -1.62 1.42 -2.51
+    -1.99 0.55 -2.51
+    -1.77 0.0 -2.5
+  faces 24
+    0 1 2  1  0 1 2  3
+    0 2 3  1  0 2 3  3
+    1 4 5  1  1 4 5  3
+    1 5 2  1  1 5 2  3
+    4 6 7  1  6 7 8  3
+    4 7 5  1  6 8 9  3
+    6 8 7  1  7 10 8  3
+    8 9 7  1  10 11 8  3
+    3 2 10  1  3 2 12  3
+    3 10 11  1  3 12 13  3
+    2 5 12  1  2 5 14  3
+    2 12 10  1  2 14 12  3
+    5 7 13  1  9 8 15  3
+    5 13 12  1  9 15 16  3
+    7 14 13  1  8 17 15  3
+    7 9 14  1  8 11 17  3
+    15 16 1  1  18 19 1  3
+    1 0 15  1  1 0 18  3
+    16 17 4  1  19 20 4  3
+    4 1 16  1  4 1 19  3
+    6 4 17  1  7 6 21  3
+    6 18 8  1  7 22 10  3
+    18 6 17  1  22 7 21  3
+    18 19 8  1  22 23 10  3
+  tverts 24
+    0.000249863 0.314142 0
+    0.140948 0.309165 0
+    0.140948 0.626212 0
+    0.000249892 0.626212 0
+    0.287133 0.309165 0
+    0.281798 0.626212 0
+    0.617471 0.309165 0
+    0.736987 0.309165 0
+    0.849075 0.626212 0
+    0.656868 0.626212 0
+    0.9936 0.314142 0
+    0.9936 0.626212 0
+    0.140948 0.9995 0
+    0.000249878 0.9995 0
+    0.279238 0.9995 0
+    0.82777 0.9995 0
+    0.668784 0.9995 0
+    0.9936 0.9995 0
+    0.000249818 0.00406325 0
+    0.144694 0.000499606 0
+    0.309952 0.000499576 0
+    0.584049 0.000499576 0
+    0.837596 0.000499606 0
+    0.9936 0.00406322 0
+endnode
+#Tile trimesh node
+node trimesh Line75
+  parent tdm01_m09_01
+  position -5.0 5.0 -4.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.109804 0.109804 0.109804 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 175.0 -175.0 37.5 
+  bitmap tdm01_volcano01
+  verts 10
+    0.0 -2.5 -2.0
+    1.08 -2.92 -2.0
+    1.1 -3.4 2.74
+    0.0 -3.5 2.75
+    2.47 -2.77 -2.0
+    2.55 -2.79 2.74
+    3.16 -0.96 -2.0
+    3.21 -1.75 2.74
+    2.5 0.0 -2.0
+    3.5 0.0 2.75
+  faces 8
+    0 1 2  1  0 1 2  3
+    0 2 3  1  0 2 3  3
+    1 4 5  1  1 4 5  3
+    1 5 2  1  1 5 2  3
+    4 6 7  1  4 6 7  3
+    4 7 5  1  4 7 5  3
+    6 8 9  1  6 8 9  3
+    6 9 7  1  6 9 7  3
+  tverts 10
+    0.0114367 0.0 0
+    0.161994 0.0 0
+    0.169386 0.998076 0
+    0.00267057 1.0 0
+    0.308233 0.0 0
+    0.292082 0.998076 0
+    0.472122 0.0 0
+    0.509713 0.998076 0
+    0.640452 0.0 0
+    0.639486 0.9995 0
+endnode
+#Tile trimesh node
+node trimesh Mesh28
+  parent tdm01_m09_01
+  position -4.1 4.2 0.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.109804 0.109804 0.109804 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 35.0 -45.0 0.0 
+  bitmap tdm01_floor02
+  verts 6
+    1.6 0.8 0.0
+    -0.9 0.8 0.0
+    -0.9 -1.7 0.0
+    1.42 -0.77 0.0
+    0.03 -1.55 0.0
+    1.21 -1.45 0.0
+  faces 4
+    0 1 2  1  0 1 2  1
+    3 0 2  1  3 0 2  1
+    3 2 4  1  3 2 4  1
+    5 3 4  1  5 3 4  1
+  tverts 6
+    12.5 -15.0 0
+    12.0 -15.0 0
+    12.0 -15.5 0
+    12.4649 -15.3133 0
+    12.1853 -15.4701 0
+    12.421 -15.4497 0
+endnode
+#Tile trimesh node
+node trimesh Mesh29
+  parent tdm01_m09_01
+  position -5.0 5.0 -1.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.109804 0.109804 0.109804 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 175.0 -175.0 37.0 
+  bitmap TDM01_rock01
+  verts 10
+    0.0 -3.5 -0.25
+    1.1 -3.4 -0.26
+    0.93 -2.35 1.0
+    0.0 -2.5 1.0
+    2.55 -2.79 -0.26
+    2.11 -2.25 1.0
+    3.21 -1.75 -0.26
+    2.32 -1.57 1.0
+    3.5 0.0 -0.25
+    2.5 0.0 1.0
+  faces 8
+    0 1 2  1  0 1 2  3
+    0 2 3  1  0 2 3  3
+    1 4 5  1  1 4 5  3
+    1 5 2  1  1 5 2  3
+    4 6 7  1  4 6 7  3
+    4 7 5  1  4 7 5  3
+    6 8 9  1  6 8 9  3
+    6 9 7  1  6 9 7  3
+  tverts 10
+    -0.130971 0.299649 0
+    0.0373534 0.156895 0
+    0.162601 0.328625 0
+    0.011536 0.439691 0
+    0.326934 0.0362765 0
+    0.342144 0.174884 0
+    0.568937 0.0876236 0
+    0.47006 0.239177 0
+    0.857951 0.291019 0
+    0.717909 0.433526 0
+endnode
+node aabb malkwesh
+  parent tdm01_m09_01
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.109804 0.109804 
+  multimaterial 20
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+  ambient 0.0 0.0 0.0 
+  diffuse 0.0 0.0 0.376471 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap DeepWater
+  verts 21
+    -1.84 4.04 -6.0
+    5.0 5.0 -6.0
+    -2.5 5.0 -6.0
+    -2.53 2.23 -6.0
+    3.64 -2.75 -6.0
+    -5.0 -5.0 -6.0
+    2.7 -3.76 -6.0
+    5.0 -2.67 -6.0
+    -5.0 2.5 -6.0
+    2.67 -5.0 -6.0
+    -2.45 2.21 -1.26
+    -5.0 1.5 -1.25
+    -1.5 5.0 -1.25
+    -2.89 2.75 0.0
+    -5.0 2.5 0.0
+    -2.5 5.0 0.0
+    -5.0 5.0 0.0
+    5.0 -3.4 3.0
+    3.56 -3.6 3.0
+    5.0 -5.0 3.0
+    3.4 -5.0 3.0
+  faces 26
+    0 1 2  1  0 0 0  17
+    1 3 4  1  0 0 0  17
+    0 3 1  1  0 0 0  17
+    3 5 6  1  0 0 0  17
+    4 7 1  1  0 0 0  17
+    3 6 4  1  0 0 0  17
+    5 3 8  1  0 0 0  17
+    6 5 9  1  0 0 0  17
+    8 3 10  2  0 0 0  2
+    8 10 11  4  0 0 0  2
+    3 0 10  8  0 0 0  2
+    0 2 12  2  0 0 0  2
+    0 12 10  8  0 0 0  2
+    11 10 13  1  0 0 0  2
+    11 13 14  2  0 0 0  2
+    10 12 15  16  0 0 0  2
+    10 15 13  32  0 0 0  2
+    15 16 14  4  0 0 0  4
+    13 15 14  4  0 0 0  4
+    17 18 19  1  0 0 0  2
+    20 19 18  1  0 0 0  2
+    7 4 17  2  0 0 0  2
+    18 17 4  2  0 0 0  2
+    4 6 18  4  0 0 0  2
+    20 18 6  8  0 0 0  2
+    9 20 6  8  0 0 0  2
+    aabb         -5.0 -5.0 -6.0 5.0 5.0 3.0 -1
+        -5.0 -5.0 -6.0 2.7 5.0 0.0 -1
+        -5.0 -5.0 -6.0 2.7 2.75 0.0 -1
+        -5.0 -5.0 -6.0 2.7 2.5 -6.0 -1
+        -5.0 -5.0 -6.0 -2.53 2.5 -6.0 6
+        -5.0 -5.0 -6.0 2.7 2.23 -6.0 3
+        -5.0 1.5 -6.0 -2.45 2.75 0.0 -1
+        -5.0 1.5 -6.0 -2.45 2.5 -1.25 -1
+        -5.0 2.21 -6.0 -2.45 2.5 -1.26 8
+        -5.0 1.5 -6.0 -2.45 2.5 -1.25 9
+        -5.0 1.5 -1.26 -2.45 2.75 0.0 -1
+        -5.0 1.5 -1.26 -2.45 2.75 0.0 13
+        -5.0 1.5 -1.25 -2.89 2.75 0.0 14
+        -5.0 2.21 -6.0 -1.5 5.0 0.0 -1
+        -2.53 2.21 -6.0 -1.5 5.0 -1.25 -1
+        -2.53 2.21 -6.0 -1.5 5.0 -1.25 -1
+        -2.53 2.21 -6.0 -1.84 4.04 -1.26 10
+        -2.5 4.04 -6.0 -1.5 5.0 -1.25 11
+        -2.45 2.21 -6.0 -1.5 5.0 -1.25 12
+        -5.0 2.21 -1.26 -1.5 5.0 0.0 -1
+        -5.0 2.5 0.0 -2.5 5.0 0.0 -1
+        -5.0 2.5 0.0 -2.5 5.0 0.0 17
+        -5.0 2.5 0.0 -2.5 5.0 0.0 18
+        -2.89 2.21 -1.26 -1.5 5.0 0.0 -1
+        -2.89 2.21 -1.26 -2.45 5.0 0.0 16
+        -2.5 2.21 -1.26 -1.5 5.0 0.0 15
+        -5.0 -5.0 -6.0 5.0 5.0 3.0 -1
+        -5.0 -5.0 -6.0 5.0 5.0 -6.0 -1
+        -5.0 -5.0 -6.0 5.0 5.0 -6.0 -1
+        -5.0 -5.0 -6.0 2.7 -3.76 -6.0 7
+        -2.53 2.23 -6.0 5.0 5.0 -6.0 -1
+        -2.53 2.23 -6.0 5.0 5.0 -6.0 2
+        -2.5 4.04 -6.0 5.0 5.0 -6.0 0
+        -2.53 -3.76 -6.0 5.0 5.0 -6.0 -1
+        -2.53 -3.76 -6.0 3.64 2.23 -6.0 5
+        -2.53 -2.75 -6.0 5.0 5.0 -6.0 1
+        2.67 -5.0 -6.0 5.0 5.0 3.0 -1
+        2.67 -5.0 -6.0 5.0 -2.75 3.0 -1
+        2.67 -5.0 -6.0 3.64 -2.75 3.0 -1
+        2.67 -5.0 -6.0 3.4 -3.76 3.0 25
+        2.7 -3.76 -6.0 3.64 -2.75 3.0 23
+        2.7 -5.0 -6.0 5.0 -3.4 3.0 -1
+        2.7 -5.0 -6.0 3.56 -3.6 3.0 24
+        3.4 -5.0 3.0 5.0 -3.4 3.0 -1
+        3.4 -5.0 3.0 5.0 -3.6 3.0 20
+        3.56 -5.0 3.0 5.0 -3.4 3.0 19
+        3.56 -3.6 -6.0 5.0 5.0 3.0 -1
+        3.64 -2.75 -6.0 5.0 5.0 -6.0 4
+        3.56 -3.6 -6.0 5.0 -2.67 3.0 -1
+        3.64 -3.4 -6.0 5.0 -2.67 3.0 21
+        3.56 -3.6 -6.0 5.0 -2.75 3.0 22
+endnode
+node light tdm01_m09_01ml2
+  parent tdm01_m09_01
+  position 2.97825 -3.13883 4.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.109804 0.109804 
+  radius 5.0
+  multiplier 1.0
+  color 0.00392157 0.00392157 0.00392157 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 0
+  shadow 0
+  lightpriority 5
+  fadingLight 0
+endnode
+node light tdm01_m09_01ml1
+  parent tdm01_m09_01
+  position 0.0 0.0 5.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.109804 0.109804 
+  radius 14.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 0
+  shadow 0
+  lightpriority 5
+  fadingLight 0
+endnode
+#Tile trimesh node
+node trimesh ceiling18
+  parent tdm01_m09_01
+  position 0.0 0.0 9.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.101961 0.101961 0.101961 
+  tilefade 1
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 -277.5 
+  bitmap tdm01_floor01
+  verts 33
+    5.0 -3.4 -6.0
+    5.0 -2.8 -4.7
+    5.0 -1.65 -3.35
+    5.0 0.0 -2.15
+    5.0 1.65 -1.7
+    5.0 3.3 -1.25
+    5.0 5.0 -1.0
+    0.0 -5.0 -2.15
+    2.15 -2.03 -1.36
+    3.54 0.0 -0.66
+    2.5 2.5 0.0
+    2.5 5.0 -0.5
+    -1.65 -5.0 -1.7
+    0.0 -2.5 -0.54
+    0.0 0.45 -0.94
+    0.0 2.5 0.0
+    0.0 5.0 0.0
+    -3.3 -5.0 -1.25
+    -2.5 -2.5 0.0
+    -2.5 0.0 0.0
+    -2.5 2.5 0.45
+    -2.5 5.0 -0.5
+    -5.0 -5.0 -1.0
+    -5.0 -2.5 -0.5
+    -5.0 0.0 0.0
+    -5.0 2.5 -0.5
+    -5.0 5.0 -1.0
+    3.4 -5.0 -6.0
+    1.65 -5.0 -3.35
+    2.8 -5.0 -4.7
+    3.54 -4.17 -6.0
+    3.86 -3.71 -6.0
+    4.44 -3.59 -6.0
+  faces 40
+    8 1 0  1  8 33 0  65536
+    8 2 1  1  34 2 1  65536
+    2 8 9  1  2 34 9  65536
+    9 3 2  1  9 3 2  65536
+    3 9 10  1  3 9 10  65536
+    10 4 3  1  10 4 3  65536
+    10 5 4  1  10 5 4  65536
+    5 10 11  1  5 10 11  65536
+    11 6 5  1  11 6 5  65536
+    7 12 13  1  7 12 13  65536
+    13 8 7  1  13 34 7  65536
+    8 13 14  1  34 13 14  65536
+    14 9 8  1  14 9 34  65536
+    9 14 15  1  9 14 15  65536
+    15 10 9  1  15 10 9  65536
+    10 15 16  1  10 15 16  65536
+    16 11 10  1  16 11 10  65536
+    12 17 18  1  12 17 18  65536
+    18 13 12  1  18 13 12  65536
+    13 18 19  1  13 18 19  65536
+    19 14 13  1  19 14 13  65536
+    14 19 20  1  14 19 20  65536
+    20 15 14  1  20 15 14  65536
+    15 20 21  1  15 20 21  65536
+    21 16 15  1  21 16 15  65536
+    17 22 23  1  17 22 23  65536
+    23 18 17  1  23 18 17  65536
+    18 23 24  1  18 23 24  65536
+    24 19 18  1  24 19 18  65536
+    19 24 25  1  19 24 25  65536
+    25 20 19  1  25 20 19  65536
+    20 25 26  1  20 25 26  65536
+    26 21 20  1  26 21 20  65536
+    27 29 8  1  27 35 36  65536
+    28 7 8  1  28 7 34  65536
+    29 28 8  1  29 28 34  65536
+    30 27 8  1  30 27 36  65536
+    31 30 8  1  37 30 36  65536
+    32 31 8  1  32 31 8  65536
+    0 32 8  1  0 32 8  65536
+  tverts 38
+    0.000499517 0.000499636 0
+    0.9995 0.779717 0
+    0.9995 0.664833 0
+    0.999499 0.499998 0
+    0.999499 0.335164 0
+    0.999498 0.170329 0
+    0.999497 0.000499517 0
+    0.500002 0.999499 0
+    0.284757 0.718873 0
+    0.853197 0.499999 0
+    0.749749 0.25025 0
+    0.749748 0.00050047 0
+    0.335167 0.999499 0
+    0.500001 0.749749 0
+    0.5 0.454839 0
+    0.499999 0.250251 0
+    0.499999 0.000501305 0
+    0.170333 0.9995 0
+    0.250252 0.74975 0
+    0.250251 0.500001 0
+    0.25025 0.250252 0
+    0.250249 0.000502139 0
+    0.000503153 0.999501 0
+    0.000502199 0.749751 0
+    0.000501364 0.500002 0
+    0.0005005 0.250252 0
+    0.000499576 0.000503093 0
+    0.999498 0.000499636 0
+    0.664837 0.999498 0
+    0.779721 0.999498 0
+    0.916582 0.000499636 0
+    0.114387 0.000499636 0
+    0.0564447 0.000499636 0
+    0.000499696 0.201859 0
+    0.715243 0.702969 0
+    0.999498 0.201859 0
+    0.702969 0.718873 0
+    0.870628 0.000499636 0
+endnode
+endmodelgeom tdm01_m09_01
+#NWmax ANIM ASCII
+newanim animloop01 tdm01_m09_01
+  length 3.96667
+  transtime 0.25
+  animroot tdm01_m09_01
+  event 0.0333333 detonate
+    node dummy tdm01_m09_01
+        parent NULL
+    endnode
+    node dummy tdm01_m09_01a
+        parent tdm01_m09_01
+    endnode
+    node emitter FX_LavaSpurt_EMIT01
+        parent tdm01_m09_01a
+    endnode
+    node trimesh Plane17
+        parent tdm01_m09_01
+    endnode
+    node trimesh Object109
+        parent tdm01_m09_01
+    endnode
+    node trimesh Plane64
+        parent tdm01_m09_01
+    endnode
+    node trimesh Object110
+        parent tdm01_m09_01
+    endnode
+    node trimesh Line195
+        parent tdm01_m09_01
+    endnode
+    node trimesh Line75
+        parent tdm01_m09_01
+    endnode
+    node trimesh Mesh28
+        parent tdm01_m09_01
+    endnode
+    node trimesh Mesh29
+        parent tdm01_m09_01
+    endnode
+    node aabb malkwesh
+        parent tdm01_m09_01
+    endnode
+    node light tdm01_m09_01ml2
+        parent tdm01_m09_01
+    endnode
+    node light tdm01_m09_01ml1
+        parent tdm01_m09_01
+    endnode
+    node trimesh ceiling18
+        parent tdm01_m09_01
+    endnode
+doneanim animloop01 tdm01_m09_01
+#NWmax ANIM ASCII
+newanim tiledefault tdm01_m09_01
+  length 0.0
+  transtime 0.0
+  animroot tdm01_m09_01
+    node dummy tdm01_m09_01
+        parent NULL
+    endnode
+    node dummy tdm01_m09_01a
+        parent tdm01_m09_01
+    endnode
+    node emitter FX_LavaSpurt_EMIT01
+        parent tdm01_m09_01a
+    endnode
+    node trimesh Plane17
+        parent tdm01_m09_01
+    endnode
+    node trimesh Object109
+        parent tdm01_m09_01
+    endnode
+    node trimesh Plane64
+        parent tdm01_m09_01
+    endnode
+    node trimesh Object110
+        parent tdm01_m09_01
+    endnode
+    node trimesh Line195
+        parent tdm01_m09_01
+    endnode
+    node trimesh Line75
+        parent tdm01_m09_01
+    endnode
+    node trimesh Mesh28
+        parent tdm01_m09_01
+    endnode
+    node trimesh Mesh29
+        parent tdm01_m09_01
+    endnode
+    node aabb malkwesh
+        parent tdm01_m09_01
+    endnode
+    node light tdm01_m09_01ml2
+        parent tdm01_m09_01
+    endnode
+    node light tdm01_m09_01ml1
+        parent tdm01_m09_01
+    endnode
+    node trimesh ceiling18
+        parent tdm01_m09_01
+    endnode
+doneanim tiledefault tdm01_m09_01
+donemodel tdm01_m09_01
