@@ -1,0 +1,515 @@
+#MAXMODEL ASCII
+# model: PLC_K09
+filedependancy PLC_K09.max
+newmodel PLC_K09
+setsupermodel PLC_K09 NULL
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom PLC_K09
+node dummy PLC_K09
+  parent NULL
+  #part-number 0
+endnode
+node trimesh Line21
+  parent PLC_K09
+  #part-number 1
+  ambient 0.368627012 0.478430986 0.211765006
+  diffuse 0.368627012 0.478430986 0.211765006
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_Rck
+  verts 8
+    1.60000002e-006 -1.60000002e-006 -2.00000002e-007
+    0.130557999 0.0573389009 0.681446016
+    0.0989478976 -0.0538109988 0.691412985
+    0.0887169018 -0.00353270001 0.694639027
+    0.329281002 0.0573389009 1.13308001
+    0.300577015 -0.0538109988 1.14964998
+    0.291287005 -0.00353270001 1.15500998
+    0.536188006 -1.60000002e-006 1.47316003
+  tverts 8
+    0.405791998 0.484131992 0
+    0.410629004 0.503094971 0
+    0.409458011 0.466336012 0
+    0.409078985 0.482964009 0
+    0.417991996 0.503094971 0
+    0.416927993 0.466336012 0
+    0.416584015 0.482964009 0
+    0.425657988 0.484131992 0
+  faces 12
+    0 1 2 1 0 1 2 3
+    0 3 1 2 0 3 1 3
+    0 2 3 4 0 2 3 3
+    2 1 4 8 2 1 4 1
+    4 5 2 8 4 5 2 1
+    1 3 6 16 1 3 6 1
+    6 4 1 4 6 4 1 1
+    3 2 5 32 3 2 5 1
+    5 6 3 1 5 6 3 1
+    5 4 7 2 5 4 7 1
+    4 6 7 32 4 6 7 1
+    6 5 7 64 6 5 7 1
+  position -0.00687011983 0.00740069989 0
+  orientation 0 0 -1 -1.70169997
+endnode
+node trimesh Line22
+  parent PLC_K09
+  #part-number 2
+  ambient 0.368627012 0.478430986 0.211765006
+  diffuse 0.368627012 0.478430986 0.211765006
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_Rck
+  verts 8
+    1.60000002e-006 -1.60000002e-006 0
+    0.309926003 0.0522077009 0.672518015
+    0.289021999 -0.0489955992 0.694284022
+    0.282256007 -0.00321660005 0.701328993
+    0.780013978 0.0534293987 0.915175021
+    0.774187028 -0.0501420982 0.945505023
+    0.772301018 -0.00329179992 0.955322027
+    1.21126997 -1.60000002e-006 0.92106998
+  tverts 8
+    0.142284006 0.513617992 0
+    0.117408998 0.526847005 0
+    0.177636996 0.518128991 0
+    0.150057003 0.521598995 0
+    0.126413003 0.540666997 0
+    0.188372999 0.532199025 0
+    0.160252005 0.535897017 0
+    0.167371005 0.548973978 0
+  faces 12
+    0 1 2 1 0 1 2 3
+    0 3 1 2 0 3 1 3
+    0 2 3 4 0 2 3 3
+    2 1 4 8 2 1 4 1
+    4 5 2 2 4 5 2 1
+    1 3 6 16 1 3 6 1
+    6 4 1 4 6 4 1 1
+    3 2 5 32 3 2 5 1
+    5 6 3 1 5 6 3 1
+    5 4 7 16 5 4 7 1
+    4 6 7 32 4 6 7 1
+    6 5 7 8 6 5 7 1
+  position -0.0173253007 -0.0145284003 0
+  orientation 0 0 -1 -3.35103011
+endnode
+node trimesh Line20
+  parent PLC_K09
+  #part-number 3
+  ambient 0.368627012 0.478430986 0.211765006
+  diffuse 0.368627012 0.478430986 0.211765006
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_Rck
+  verts 8
+    1.60000002e-006 -1.60000002e-006 0
+    0.140135005 0.0912045985 0.401522994
+    0.0934910029 -0.0855932012 0.426095992
+    0.0783943981 -0.00561919995 0.43404901
+    0.319256991 0.0831414014 0.639069021
+    0.286864996 -0.0780259967 0.674573004
+    0.276381999 -0.00512239989 0.686064005
+    0.49969399 -1.60000002e-006 0.807493985
+  tverts 8
+    0.414887995 0.484133989 0
+    0.420843989 0.517598987 0
+    0.418861002 0.452728003 0
+    0.418220013 0.482071996 0
+    0.428456008 0.514640987 0
+    0.427080005 0.455505013 0
+    0.426634014 0.482255012 0
+    0.43612501 0.484133005 0
+  faces 12
+    0 1 2 1 0 1 2 3
+    0 3 1 2 0 3 1 3
+    0 2 3 4 0 2 3 3
+    2 1 4 8 2 1 4 1
+    4 5 2 2 4 5 2 1
+    1 3 6 16 1 3 6 1
+    6 4 1 4 6 4 1 1
+    3 2 5 32 3 2 5 1
+    5 6 3 1 5 6 3 1
+    5 4 7 16 5 4 7 1
+    4 6 7 32 4 6 7 1
+    6 5 7 8 6 5 7 1
+  position -0.0057665999 -0.00472575985 0
+  orientation 0 0 0 0
+endnode
+node dummy K09_hand
+  parent PLC_K09
+  #part-number 4
+  position 0.00398926018 -0.505195022 0.934401989
+  orientation 0 0 0 0
+endnode
+node dummy K09_head
+  parent PLC_K09
+  #part-number 5
+  position 0.00398926018 0.0108252 1.84730005
+  orientation 0 0 0 0
+endnode
+node dummy K09_head_hit
+  parent PLC_K09
+  #part-number 6
+  position 0.00398926018 0.0108252 0.245309994
+  orientation 0 0 0 0
+endnode
+node dummy K09_impact
+  parent PLC_K09
+  #part-number 7
+  position 0.00398926018 0.0110010002 0.173519999
+  orientation 0 0 0 0
+endnode
+node dummy K09_ground
+  parent PLC_K09
+  #part-number 8
+  position -0.00363280997 0.00698729977 0
+  orientation 0 0 0 0
+endnode
+node emitter fire!78
+  parent PLC_K09
+  #part-number 9
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.200000003
+  blastLength 1
+  position 0.00370824011 0.0440756008 0.532670975
+  orientation -1 0 0 -1.57079995
+  colorStart 0.474510014 0.454901993 0.407842994
+  colorEnd 0.819607973 0.803921998 0.745097995
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 10
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  fps 10
+  xsize 100
+  ysize 99
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom PLC_K09
+
+#MAXANIM ASCII
+newanim damage PLC_K09
+  length 0.56666702
+  transtime 0
+  animroot PLC_K09
+  event 0.200000003 detonate
+node dummy PLC_K09
+  parent NULL
+  #part-number 0
+endnode
+node dummy Line21
+  parent PLC_K09
+  #part-number 1
+  position -0.00687011983 0.00740069989 0
+  orientationkey 5
+    0 -0 -0 -1 -1.70169997
+    0.100000001 0.0534616001 -0.0609612018 -0.99670738 -1.70497
+    0.266667008 -0.0534616001 0.0609612018 -0.99670738 -1.70497
+    0.433333009 -0.0119035989 0.0135734007 -0.999837041 -1.70186007
+    0.56666702 -0 -0 -1 -1.70169997
+endnode
+node dummy Line22
+  parent PLC_K09
+  #part-number 2
+  position -0.0173253007 -0.0145284003 0
+  orientationkey 5
+    0 -0 -0 -1 -3.35103011
+    0.100000001 0.0566917993 -0.00595859997 -0.998373926 -3.35068989
+    0.266667008 -0.0348993018 0.00366809987 -0.999384105 -3.35089993
+    0.433333009 -0.00775690004 0.00081529998 -0.999969602 -3.35103011
+    0.56666702 -0 -0 -1 -3.35103011
+endnode
+node dummy Line20
+  parent PLC_K09
+  #part-number 3
+  position -0.0057665999 -0.00472575985 0
+  orientationkey 5
+    0 0 0 0 0
+    0.100000001 -0 -1 -0 -0.0610864982
+    0.266667008 -0 1 -0 -0.165805995
+    0.433333009 -0 1 -0 -0.0368457995
+    0.56666702 0 0 0 0
+endnode
+node dummy PLC_K09_pwk
+  parent PLC_K09
+  #part-number -1
+endnode
+node dummy K09_pwk_use02
+  parent PLC_K09_pwk
+  #part-number 5
+endnode
+node dummy K09_pwk_use01
+  parent PLC_K09_pwk
+  #part-number 6
+endnode
+node dummy K09_hand
+  parent PLC_K09
+  #part-number 4
+endnode
+node dummy K09_head
+  parent PLC_K09
+  #part-number 5
+endnode
+node dummy K09_head_hit
+  parent PLC_K09
+  #part-number 6
+endnode
+node dummy K09_impact
+  parent PLC_K09
+  #part-number 7
+endnode
+node dummy K09_ground
+  parent PLC_K09
+  #part-number 8
+endnode
+node emitter fire!78
+  parent PLC_K09
+  #part-number 9
+endnode
+doneanim damage PLC_K09
+
+#MAXANIM ASCII
+newanim die PLC_K09
+  length 0.166666999
+  transtime 0
+  animroot PLC_K09
+node dummy PLC_K09
+  parent NULL
+  #part-number 0
+endnode
+node dummy Line21
+  parent PLC_K09
+  #part-number 1
+  positionkey 2
+    0 -0.00687009981 0.00740069989 0
+    0.166666999 -0.00687009981 0.00740069989 -6.78822994
+endnode
+node dummy Line22
+  parent PLC_K09
+  #part-number 2
+  positionkey 2
+    0 -0.0173253007 -0.0145284003 0
+    0.166666999 -0.0173253007 -0.0145284003 -6.78822994
+endnode
+node dummy Line20
+  parent PLC_K09
+  #part-number 3
+  positionkey 2
+    0 -0.0057665999 -0.0047257999 0
+    0.166666999 -0.0057665999 -0.0047257999 -6.78822994
+endnode
+node dummy PLC_K09_pwk
+  parent PLC_K09
+  #part-number -1
+endnode
+node dummy K09_pwk_use02
+  parent PLC_K09_pwk
+  #part-number 5
+endnode
+node dummy K09_pwk_use01
+  parent PLC_K09_pwk
+  #part-number 6
+endnode
+node dummy K09_hand
+  parent PLC_K09
+  #part-number 4
+endnode
+node dummy K09_head
+  parent PLC_K09
+  #part-number 5
+endnode
+node dummy K09_head_hit
+  parent PLC_K09
+  #part-number 6
+endnode
+node dummy K09_impact
+  parent PLC_K09
+  #part-number 7
+endnode
+node dummy K09_ground
+  parent PLC_K09
+  #part-number 8
+endnode
+node emitter fire!78
+  parent PLC_K09
+  #part-number 9
+endnode
+doneanim die PLC_K09
+
+#MAXANIM ASCII
+newanim dead PLC_K09
+  length 0.0333333015
+  transtime 0
+  animroot PLC_K09
+node dummy PLC_K09
+  parent NULL
+  #part-number 0
+endnode
+node dummy Line21
+  parent PLC_K09
+  #part-number 1
+  positionkey 2
+    0 -0.00687009981 0.00740069989 -6.78822994
+    0.0333333015 -0.00687009981 0.00740069989 -6.78822994
+endnode
+node dummy Line22
+  parent PLC_K09
+  #part-number 2
+  positionkey 2
+    0 -0.0173253007 -0.0145284003 -6.78822994
+    0.0333333015 -0.0173253007 -0.0145284003 -6.78822994
+endnode
+node dummy Line20
+  parent PLC_K09
+  #part-number 3
+  positionkey 2
+    0 -0.0057665999 -0.0047257999 -6.78822994
+    0.0333333015 -0.0057665999 -0.0047257999 -6.78822994
+endnode
+node dummy PLC_K09_pwk
+  parent PLC_K09
+  #part-number -1
+endnode
+node dummy K09_pwk_use02
+  parent PLC_K09_pwk
+  #part-number 5
+endnode
+node dummy K09_pwk_use01
+  parent PLC_K09_pwk
+  #part-number 6
+endnode
+node dummy K09_hand
+  parent PLC_K09
+  #part-number 4
+endnode
+node dummy K09_head
+  parent PLC_K09
+  #part-number 5
+endnode
+node dummy K09_head_hit
+  parent PLC_K09
+  #part-number 6
+endnode
+node dummy K09_impact
+  parent PLC_K09
+  #part-number 7
+endnode
+node dummy K09_ground
+  parent PLC_K09
+  #part-number 8
+endnode
+node emitter fire!78
+  parent PLC_K09
+  #part-number 9
+endnode
+doneanim dead PLC_K09
+
+#MAXANIM ASCII
+newanim default PLC_K09
+  length 0
+  transtime 0.25
+  animroot PLC_K09
+node dummy PLC_K09
+  parent NULL
+  #part-number 0
+endnode
+node dummy Line21
+  parent PLC_K09
+  #part-number 1
+  position -0.00687011983 0.00740069989 0
+  orientation -0 -0 -1 -1.70169997
+endnode
+node dummy Line22
+  parent PLC_K09
+  #part-number 2
+  position -0.0173253007 -0.0145284003 0
+  orientation -0 -0 -1 -3.35103011
+endnode
+node dummy Line20
+  parent PLC_K09
+  #part-number 3
+  position -0.0057665999 -0.00472575985 0
+  orientation 0 0 0 0
+endnode
+node dummy PLC_K09_pwk
+  parent PLC_K09
+  #part-number -1
+endnode
+node dummy K09_pwk_use02
+  parent PLC_K09_pwk
+  #part-number 5
+endnode
+node dummy K09_pwk_use01
+  parent PLC_K09_pwk
+  #part-number 6
+endnode
+node dummy K09_hand
+  parent PLC_K09
+  #part-number 4
+endnode
+node dummy K09_head
+  parent PLC_K09
+  #part-number 5
+endnode
+node dummy K09_head_hit
+  parent PLC_K09
+  #part-number 6
+endnode
+node dummy K09_impact
+  parent PLC_K09
+  #part-number 7
+endnode
+node dummy K09_ground
+  parent PLC_K09
+  #part-number 8
+endnode
+node emitter fire!78
+  parent PLC_K09
+  #part-number 9
+endnode
+doneanim default PLC_K09
+
+donemodel PLC_K09
