@@ -1,0 +1,69 @@
+# Exported from NWmax 0.8 b61 at 25/07/2010 06:15:29
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: tdx01_z01
+#local file: Unknown
+filedependancy Unknown
+newmodel tdx01_z01
+setsupermodel tdx01_z01 null
+classification Tile
+#NWmax GEOM  ASCII
+beginmodelgeom tdx01_z01
+node dummy tdx01_z01
+  parent NULL
+endnode
+#Tile trimesh node
+node trimesh black
+  parent tdx01_z01
+  position 0.0 0.0 0.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.101961 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 0.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 300.0 
+  bitmap black
+  verts 9
+    -5.0 -5.0 4.0
+    0.0 -5.0 4.0
+    5.0 -5.0 4.0
+    -5.0 0.0 4.0
+    0.0 0.0 4.0
+    5.0 0.0 4.0
+    -5.0 5.0 4.0
+    0.0 5.0 4.0
+    5.0 5.0 4.0
+  faces 8
+    3 0 4  1  3 0 4  1
+    1 4 0  1  1 4 0  1
+    4 1 5  1  4 1 5  1
+    2 5 1  1  2 5 1  1
+    6 3 7  1  6 3 7  1
+    4 7 3  1  4 7 3  1
+    7 4 8  1  7 4 8  1
+    5 8 4  1  5 8 4  1
+  tverts 9
+    0.0 0.0 0
+    0.5 0.0 0
+    1.0 0.0 0
+    0.0 0.5 0
+    0.5 0.5 0
+    1.0 0.5 0
+    0.0 1.0 0
+    0.5 1.0 0
+    1.0 1.0 0
+endnode
+endmodelgeom tdx01_z01
+donemodel tdx01_z01

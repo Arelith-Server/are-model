@@ -1,0 +1,201 @@
+# Exported from NWmax 0.8 b60 at 04.08.2014 21:37:43
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: tdx01_f03
+#local file: Unknown
+filedependancy Unknown
+newmodel tdx01_f03
+setsupermodel tdx01_f03 null
+classification Tile
+#NWmax GEOM  ASCII
+beginmodelgeom tdx01_f03
+node dummy tdx01_f03
+  parent NULL
+endnode
+node light tdx01_f03ml1
+  parent tdx01_f03
+  position -1.11353 -1.8381 1.42036
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+  radius 14.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 5
+  fadingLight 1
+endnode
+node light tdx01_f03ml2
+  parent tdx01_f03
+  position 0.989612 1.842 2.18746
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+  radius 5.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 5
+  fadingLight 1
+endnode
+#Tile trimesh node
+node trimesh red
+  parent tdx01_f03
+  position 0.0 0.0 1.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 0.0 0.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 0.0 0.0 
+  diffuse 1.0 0.0 0.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 125.0 -125.0 350.0 
+  bitmap NULL
+  verts 6
+    5.0 2.5 4.0
+    -2.5 2.5 4.0
+    5.0 -2.5 3.0
+    2.5 -2.5 3.0
+    -2.5 -5.0 4.0
+    2.5 -5.0 3.0
+  faces 4
+    2 0 1  0  0 0 1  1
+    2 1 3  0  0 1 1  1
+    5 1 4  0  0 1 0  1
+    5 3 1  0  0 1 1  1
+  tverts 2
+    0.0 0.5 0
+    0.5 0.5 0
+endnode
+#Tile trimesh node
+node trimesh black
+  parent tdx01_f03
+  position 0.0 0.0 1.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.101961 0.694118 0.101961 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0 0.0 0.0 
+  diffuse 0.0 0.0 0.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 350.0 
+  bitmap black
+  verts 12
+    5.0 5.0 4.0
+    0.0 5.0 4.0
+    -5.0 5.0 4.0
+    5.0 2.5 4.0
+    -2.5 2.5 4.0
+    5.0 -2.5 3.0
+    2.5 -2.5 3.0
+    5.0 -5.0 3.0
+    -5.0 -5.0 4.0
+    -5.0 0.0 4.0
+    -2.5 -5.0 4.0
+    2.5 -5.0 3.0
+  faces 8
+    3 0 4  1  2 0 3  1
+    1 4 0  1  1 3 0  1
+    1 2 4  0  1 3 3  1
+    5 6 7  0  3 3 3  1
+    8 10 4  1  0 2 3  1
+    4 9 8  1  3 1 0  1
+    2 9 4  0  3 1 3  1
+    6 11 7  0  3 3 3  1
+  tverts 4
+    0.0 0.0 0
+    0.5 0.0 0
+    0.0 0.5 0
+    0.5 0.5 0
+endnode
+node aabb walkmesh
+  parent tdx01_f03
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.882353 0.556863 0.337255 
+  multimaterial 20
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+  ambient 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Obscuring
+  verts 9
+    -5.0 -5.0 5.0
+    0.0 -5.0 4.5
+    5.0 -5.0 4.0
+    -5.0 0.0 5.0
+    0.0 0.0 4.5
+    5.0 0.0 4.5
+    -5.0 5.0 5.0
+    0.0 5.0 5.0
+    5.0 5.0 5.0
+  faces 8
+    3 0 4  0  0 0 0  2
+    1 4 0  0  0 0 0  2
+    4 1 5  0  0 0 0  2
+    2 5 1  0  0 0 0  2
+    6 3 7  0  0 0 0  2
+    4 7 3  0  0 0 0  2
+    7 4 8  0  0 0 0  2
+    5 8 4  0  0 0 0  2
+    aabb         -5.0 -5.0 4.0 5.0 5.0 5.0 -1
+        -5.0 -5.0 4.5 0.0 5.0 5.0 -1
+        -5.0 -5.0 4.5 0.0 0.0 5.0 -1
+        -5.0 -5.0 4.5 0.0 0.0 5.0 0
+        -5.0 -5.0 4.5 0.0 0.0 5.0 1
+        -5.0 0.0 4.5 0.0 5.0 5.0 -1
+        -5.0 0.0 5.0 0.0 5.0 5.0 4
+        -5.0 0.0 4.5 0.0 5.0 5.0 5
+        0.0 -5.0 4.0 5.0 5.0 5.0 -1
+        0.0 -5.0 4.0 5.0 0.0 4.5 -1
+        0.0 -5.0 4.5 5.0 0.0 4.5 2
+        0.0 -5.0 4.0 5.0 0.0 4.5 3
+        0.0 0.0 4.5 5.0 5.0 5.0 -1
+        0.0 0.0 4.5 5.0 5.0 5.0 6
+        0.0 0.0 4.5 5.0 5.0 5.0 7
+endnode
+endmodelgeom tdx01_f03
+donemodel tdx01_f03
