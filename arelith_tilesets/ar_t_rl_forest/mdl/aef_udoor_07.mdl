@@ -1,0 +1,120 @@
+# Rewritten by CleanModels 3 Version 3.5.1 Mon Jul 29 13:32:56 2019
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel aef_udoor_07
+  classification TILE
+  setsupermodel aef_udoor_07 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom aef_udoor_07
+node dummy aef_udoor_07
+  parent NULL
+endnode
+node dummy aef_udoor_07a
+  parent aef_udoor_07
+  position 0 0 0
+  wirecolor 1 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh sam
+  parent aef_udoor_07a
+  position 0.3125 0.523438 -1.14063
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  bitmap NULL
+  orientation 0 0 -1 -1.5708
+  alpha 0
+  scale 1
+  selfillumcolor 0 0 1
+  verts 8
+    -0.554688 2.72656 0
+    -0.554688 -2.72656 0
+    -0.554688 -2.72656 4.64844
+    -0.554688 2.72656 4.64844
+    -0.492188 -2.72656 0
+    -0.492188 2.72656 0
+    -0.492188 -2.72656 4.64844
+    -0.492188 2.72656 4.64844
+  faces 4
+    0 1 2 1 0 0 0 3
+    2 3 0 1 0 0 0 3
+    4 5 6 1 0 0 0 3
+    7 6 5 1 0 0 0 3
+endnode
+endmodelgeom aef_udoor_07
+
+#MAXANIM ASCII
+newanim tiledefault aef_udoor_07
+  length 0.0333333
+  transtime 0.25
+  animroot aef_udoor_07
+  node dummy aef_udoor_07
+    parent NULL
+  endnode
+  node dummy aef_udoor_07_dwk
+    parent aef_udoor_07
+    #part-number -1
+  endnode
+  node dummy 07_dwk_dp_closed_01
+    parent aef_udoor_07_dwk
+    #part-number -1
+  endnode
+  node dummy 07_dwk_dp_closed_02
+    parent aef_udoor_07_dwk
+    #part-number -1
+  endnode
+  node dummy 07_dwk_wg_closed01
+    parent aef_udoor_07_dwk
+    #part-number -1
+  endnode
+  node dummy aef_udoor_07a
+    parent aef_udoor_07
+  endnode
+  node trimesh sam
+    parent aef_udoor_07a
+    alphakey
+      0 0
+      0.0333333 0
+    endlist
+  endnode
+doneanim tiledefault aef_udoor_07
+
+#MAXANIM ASCII
+newanim trans aef_udoor_07
+  length 0.0333333
+  transtime 0.25
+  animroot aef_udoor_07
+  node dummy aef_udoor_07
+    parent NULL
+  endnode
+  node dummy aef_udoor_07_dwk
+    parent aef_udoor_07
+    #part-number -1
+  endnode
+  node dummy 07_dwk_dp_closed_01
+    parent aef_udoor_07_dwk
+    #part-number -1
+  endnode
+  node dummy 07_dwk_dp_closed_02
+    parent aef_udoor_07_dwk
+    #part-number -1
+  endnode
+  node dummy 07_dwk_wg_closed01
+    parent aef_udoor_07_dwk
+    #part-number -1
+  endnode
+  node dummy aef_udoor_07a
+    parent aef_udoor_07
+  endnode
+  node trimesh sam
+    parent aef_udoor_07a
+    alphakey
+      0 0.25
+      0.0333333 0.25
+    endlist
+  endnode
+doneanim trans aef_udoor_07
+donemodel aef_udoor_07

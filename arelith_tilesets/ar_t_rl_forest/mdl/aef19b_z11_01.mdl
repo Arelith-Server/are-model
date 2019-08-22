@@ -1,0 +1,38 @@
+# Rewritten by CleanModels 3 Version 3.5.1 Mon Jul 29 13:39:11 2019
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel aef19b_z11_01
+  classification TILE
+  setsupermodel aef19b_z11_01 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom aef19b_z11_01
+node dummy aef19b_z11_01
+  parent NULL
+endnode
+node trimesh plane
+  parent aef19b_z11_01
+  position 0 0 3.20313
+  orientation 0 0 0 0
+  wirecolor 0.542969 0.542969 0.542969
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap aef19_black
+  verts 4
+    -5 5 0
+    -5 -5 0
+    5 5 0
+    5 -5 0
+  faces 2
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+  tverts 4
+    -4.5 5.279 0
+    -4.5 -4.721 0
+    5.5 5.279 0
+    5.5 -4.721 0
+endnode
+endmodelgeom aef19b_z11_01
+donemodel aef19b_z11_01

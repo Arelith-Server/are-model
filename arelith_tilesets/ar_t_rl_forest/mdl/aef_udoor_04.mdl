@@ -1,0 +1,1170 @@
+# Exported from NWgMax Plus v6.11.28 at 7/31/2019 12:42:59 AM
+# mdl file
+#
+#NWgMax Plus MODEL ASCII
+# model: aef_udoor_04
+filedependancy aef_udoor_04.gmax
+newmodel aef_udoor_04
+setsupermodel aef_udoor_04 NULL
+classification Tile
+#NWgMax Plus GEOM  ASCII
+beginmodelgeom aef_udoor_04
+node dummy aef_udoor_04
+  parent NULL
+endnode
+node dummy aef_udoor_04a
+  parent aef_udoor_04
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.65098 0.898039 0.898039 
+endnode
+node trimesh box41
+  parent aef_udoor_04a
+  position -1.50781 -0.109375 -0.0078125
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -73.4374 -0.390625 150.0 
+  bitmap aef19_crtes01
+  verts 13
+    -1.48 -0.05 0.0
+    0.01 -0.05 0.0
+    0.01 -0.05 1.5
+    -1.48 -0.05 1.52
+    0.01 0.05 0.0
+    0.01 0.05 1.5
+    -1.23 0.05 0.0
+    -1.26 0.05 0.88
+    0.01 0.05 3.0
+    -1.25 0.05 1.5
+    -1.23 0.05 3.0
+    0.01 -0.05 3.0
+    -1.48 -0.05 3.0
+  faces 13
+    0 1 2  1  0 1 2  4
+    2 3 0  1  2 3 0  4
+    1 4 5  2  4 5 6  6
+    5 2 1  2  6 7 4  6
+    4 6 7  1  8 9 10  3
+    7 5 4  1  10 11 8  3
+    8 9 10  1  12 13 14  3
+    8 5 9  1  12 15 13  3
+    7 9 5  1  10 16 11  3
+    2 5 8  2  17 18 19  6
+    8 11 2  2  19 20 17  6
+    3 2 11  1  3 2 21  4
+    11 12 3  1  21 22 3  4
+  tverts 23
+    0.0024143 0.998084 0
+    0.495612 0.998084 0
+    0.495612 0.5 0
+    0.0024144 0.5 0
+    0.0333629 0.50533 0
+    0.0035425 0.50533 0
+    0.0035425 0.996462 0
+    0.033363 0.992396 0
+    0.0002498 0.505331 0
+    0.415375 0.50533 0
+    0.4255 0.793903 0
+    0.0002499 0.996462 0
+    0.00025 0.999501 0
+    0.422614 0.496789 0
+    0.415375 0.9995 0
+    0.0002499 0.498878 0
+    0.422614 0.996789 0
+    0.033363 0.494812 0
+    0.0035425 0.498878 0
+    0.0035426 0.999501 0
+    0.033363 0.999501 0
+    0.495612 0.999501 0
+    0.0024145 0.9995 0
+endnode
+node trimesh object496
+  parent box41
+  position -1.35938 0.03125 1.5
+  orientation 1.0 0.0 0.0 -6.28319
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 62.5001 -0.78125 0.0 
+  bitmap aef19_wdfence3
+  verts 12
+    -0.12 0.07 -1.5
+    -0.12 -0.09 -1.5
+    -0.12 -0.09 1.5
+    -0.12 0.07 1.5
+    0.1 0.07 -0.62
+    0.13 0.07 -1.5
+    0.13 0.07 1.5
+    0.1 0.02 -0.62
+    0.13 0.02 -1.5
+    0.13 0.02 1.5
+    1.37 -0.09 1.5
+    1.37 0.02 1.5
+  faces 13
+    0 1 2  1  0 1 2  5
+    2 3 0  1  2 3 0  5
+    4 0 3  2  4 5 6  3
+    0 4 5  2  5 4 7  3
+    3 6 4  2  6 8 4  3
+    7 8 5  1  9 10 0  3
+    5 4 7  1  0 11 9  3
+    9 7 4  4  12 9 11  3
+    4 6 9  4  11 3 12  3
+    3 9 6  2  13 14 15  3
+    9 3 2  2  14 13 16  3
+    10 11 9  2  17 18 14  3
+    9 2 10  2  14 16 17  3
+  tverts 19
+    1.00418 0.916457 0
+    1.00418 0.99041 0
+    0.00417854 0.990412 0
+    0.00417854 0.916457 0
+    0.696695 0.411126 0
+    0.992806 0.501676 0
+    -0.00719087 0.501677 0
+    0.992806 0.410767 0
+    -0.00719087 0.410768 0
+    0.708065 0.941108 0
+    1.00418 0.941108 0
+    0.708065 0.916457 0
+    0.00417854 0.941108 0
+    0.910784 0.498775 0
+    0.926724 0.58225 0
+    0.910057 0.582105 0
+    0.960783 0.499212 0
+    0.956478 0.992526 0
+    0.923146 0.992235 0
+endnode
+node trimesh box704
+  parent aef_udoor_04a
+  position 1.49219 -0.109375 -0.0078125
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 74.6096 -0.390625 150.0 
+  bitmap aef19_crtes01
+  verts 13
+    0.01 -0.05 1.5
+    1.48 -0.05 0.0
+    1.48 -0.05 1.52
+    1.48 -0.05 3.0
+    0.01 -0.05 3.0
+    0.01 0.05 1.5
+    0.01 -0.05 0.0
+    0.01 0.05 3.0
+    1.23 0.05 0.0
+    0.01 0.05 0.0
+    1.26 0.05 1.5
+    1.27 0.05 1.64
+    1.23 0.05 3.0
+  faces 13
+    0 1 2  1  0 1 2  4
+    3 4 2  1  3 4 2  4
+    5 6 0  2  5 6 7  6
+    4 7 0  2  8 9 10  6
+    8 9 10  1  11 12 13  3
+    7 11 5  1  14 15 16  3
+    11 7 12  1  15 14 17  3
+    5 11 10  1  16 15 18  3
+    9 6 5  2  19 6 5  6
+    10 9 5  1  13 12 20  3
+    0 7 5  2  10 9 21  6
+    6 1 0  1  22 1 0  4
+    2 4 0  1  2 4 0  4
+  tverts 23
+    0.49361 0.509472 0
+    0.0039777 1.0005 0
+    0.0039778 0.507889 0
+    0.0039779 0.9995 0
+    0.49361 0.9995 0
+    0.455704 0.995718 0
+    0.489037 0.498084 0
+    0.489037 0.99498 0
+    0.489037 0.999501 0
+    0.455704 0.999501 0
+    0.489037 0.49981 0
+    0.0745378 0.498084 0
+    0.489663 0.498084 0
+    0.0659323 0.993006 0
+    0.489663 0.9995 0
+    0.0650851 0.546804 0
+    0.489663 0.500549 0
+    0.074538 0.9995 0
+    0.0659323 0.497837 0
+    0.455703 0.498084 0
+    0.489663 0.995718 0
+    0.455704 0.500549 0
+    0.49361 1.0005 0
+endnode
+node trimesh object523
+  parent box704
+  position 1.35156 0.03125 1.5
+  orientation 1.0 0.0 0.0 -6.28319
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -60.5468 -0.78125 0.0 
+  bitmap aef19_wdfence3
+  verts 12
+    0.13 -0.09 -1.5
+    0.13 0.07 -1.5
+    0.13 -0.09 1.5
+    0.13 0.07 1.5
+    -0.09 0.07 0.14
+    -0.12 0.07 -1.5
+    -0.12 0.07 1.5
+    -0.12 0.02 -1.5
+    -0.09 0.02 0.14
+    -0.12 0.02 1.5
+    -1.34 0.02 1.5
+    -1.34 -0.09 1.5
+  faces 13
+    0 1 2  1  0 1 2  5
+    3 2 1  1  3 2 1  5
+    1 4 3  2  4 5 6  3
+    4 1 5  2  5 4 7  3
+    6 3 4  2  8 6 5  3
+    7 8 5  1  9 10 1  3
+    4 5 8  1  11 1 10  3
+    8 9 4  4  10 12 11  3
+    6 4 9  4  3 11 12  3
+    9 2 3  2  13 14 15  3
+    3 6 9  2  15 16 13  3
+    10 11 2  2  17 18 14  3
+    2 9 10  2  14 13 17  3
+  tverts 19
+    1.00522 0.989545 0
+    1.00522 0.921773 0
+    -0.00856311 0.989545 0
+    -0.00856311 0.921773 0
+    0.992515 0.501004 0
+    0.449062 0.409636 0
+    -0.00650026 0.501004 0
+    0.992515 0.407801 0
+    0.00255771 0.407801 0
+    1.00522 0.944363 0
+    0.448628 0.944363 0
+    0.448628 0.921773 0
+    -0.00856311 0.944363 0
+    0.954468 0.579895 0
+    0.921135 0.496562 0
+    0.971135 0.496562 0
+    0.971135 0.579895 0
+    0.954468 0.989895 0
+    0.921135 0.989895 0
+endnode
+node emitter chunkywood13
+  parent aef_udoor_04a
+  position 0.015625 -0.09375 0.5625
+  orientation 0.0128596 0.0 0.999917 -6.28318
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 267.0
+  ySize 54.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 6
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_w01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter fire!13
+  parent aef_udoor_04a
+  position 0.015625 -0.09375 1.15625
+  orientation 0.999981 -0.00436336 -0.00436333 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 238.0
+  ySize 225.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 40
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter chunkywood14
+  parent aef_udoor_04a
+  position 0.015625 -0.09375 1.64844
+  orientation 0.0128596 0.0 0.999917 -6.28318
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 269.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 6
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_w02
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node trimesh sam
+  parent aef_udoor_04a
+  position -0.0625 -0.179688 -0.0078125
+  orientation 0.0 0.0 -1.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 1.953 -4.29688 150.0 
+  bitmap NULL
+  verts 8
+    -1.4 -0.03 0.0
+    1.44 -0.03 0.0
+    1.44 -0.03 3.0
+    -1.4 -0.03 3.0
+    1.44 -0.05 0.0
+    -1.4 -0.05 0.0
+    1.44 -0.05 3.0
+    -1.4 -0.05 3.0
+  faces 4
+    0 1 2  1  0 0 0  18
+    2 3 0  1  0 0 0  18
+    4 5 6  1  0 0 0  18
+    7 6 5  1  0 0 0  18
+endnode
+endmodelgeom aef_udoor_04
+#NWgMax Plus ANIM ASCII
+newanim animloop01 aef_udoor_04
+  length 0.0
+  transtime 0.25
+  animroot aef_udoor_04
+    node dummy aef_udoor_04
+        parent NULL
+    endnode
+    node dummy aef_udoor_04a
+        parent aef_udoor_04
+    endnode
+    node trimesh box41
+        parent aef_udoor_04a
+    endnode
+    node trimesh object496
+        parent box41
+    endnode
+    node trimesh box704
+        parent aef_udoor_04a
+    endnode
+    node trimesh object523
+        parent box704
+    endnode
+    node emitter chunkywood13
+        parent aef_udoor_04a
+        birthratekey
+            0.0 6 
+        endlist
+    endnode
+    node emitter fire!13
+        parent aef_udoor_04a
+        birthratekey
+            0.0 40 
+        endlist
+    endnode
+    node emitter chunkywood14
+        parent aef_udoor_04a
+        birthratekey
+            0.0 6 
+        endlist
+    endnode
+    node trimesh sam
+        parent aef_udoor_04a
+    endnode
+doneanim animloop01 aef_udoor_04
+#NWgMax Plus ANIM ASCII
+newanim closed aef_udoor_04
+  length 0.333333
+  transtime 0.25
+  animroot aef_udoor_04
+    node dummy aef_udoor_04
+        parent NULL
+    endnode
+    node dummy aef_udoor_04a
+        parent aef_udoor_04
+    endnode
+    node trimesh box41
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 0.0 -1.0 -3.14159
+            0.333333 0.0 0.0 -1.0 -3.14159
+        endlist
+    endnode
+    node trimesh object496
+        parent box41
+    endnode
+    node trimesh box704
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 0.0 -1.0 -3.14159
+            0.333333 0.0 0.0 -1.0 -3.14159
+        endlist
+    endnode
+    node trimesh object523
+        parent box704
+    endnode
+    node emitter chunkywood13
+        parent aef_udoor_04a
+    endnode
+    node emitter fire!13
+        parent aef_udoor_04a
+    endnode
+    node emitter chunkywood14
+        parent aef_udoor_04a
+    endnode
+    node trimesh sam
+        parent aef_udoor_04a
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+            0.333333 0.0 
+        endlist
+    endnode
+doneanim closed aef_udoor_04
+#NWgMax Plus ANIM ASCII
+newanim closing1 aef_udoor_04
+  length 0.633333
+  transtime 0.25
+  animroot aef_udoor_04
+    node dummy aef_udoor_04
+        parent NULL
+    endnode
+    node dummy aef_udoor_04a
+        parent aef_udoor_04
+    endnode
+    node trimesh box41
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 0.0 -1.0 -4.59894
+            0.1 0.0 0.0 -1.0 -4.49422
+            0.3 0.0 0.0 -1.0 -3.63028
+            0.433333 0.0 0.0 -1.0 -3.49066
+            0.566667 0.0 0.0 -1.0 -3.35103
+            0.633333 0.0 0.0 -1.0 -3.14159
+        endlist
+    endnode
+    node trimesh object496
+        parent box41
+    endnode
+    node trimesh box704
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 0.0 -1.0 -1.64061
+            0.1 0.0 0.0 -1.0 -1.71915
+            0.2 0.0 0.0 -1.0 -2.00713
+            0.366667 0.0 0.0 -1.0 -2.49582
+            0.5 0.0 0.0 -1.0 -3.14159
+            0.566667 0.0 0.0 -1.0 -3.21141
+            0.633333 0.0 0.0 -1.0 -3.14159
+        endlist
+    endnode
+    node trimesh object523
+        parent box704
+    endnode
+    node emitter chunkywood13
+        parent aef_udoor_04a
+    endnode
+    node emitter fire!13
+        parent aef_udoor_04a
+    endnode
+    node emitter chunkywood14
+        parent aef_udoor_04a
+    endnode
+    node trimesh sam
+        parent aef_udoor_04a
+        alphakey
+            0.0 0.0 
+            0.633333 0.0 
+        endlist
+    endnode
+doneanim closing1 aef_udoor_04
+#NWgMax Plus ANIM ASCII
+newanim closing2 aef_udoor_04
+  length 0.633333
+  transtime 0.25
+  animroot aef_udoor_04
+    node dummy aef_udoor_04
+        parent NULL
+    endnode
+    node dummy aef_udoor_04a
+        parent aef_udoor_04
+    endnode
+    node trimesh box41
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 0.0 -1.0 -4.59894
+            0.1 0.0 0.0 -1.0 -4.49422
+            0.3 0.0 0.0 -1.0 -3.63028
+            0.433333 0.0 0.0 -1.0 -3.49066
+            0.566667 0.0 0.0 -1.0 -3.35103
+            0.633333 0.0 0.0 -1.0 -3.14159
+        endlist
+    endnode
+    node trimesh object496
+        parent box41
+    endnode
+    node trimesh box704
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 0.0 -1.0 -1.64061
+            0.1 0.0 0.0 -1.0 -1.71915
+            0.2 0.0 0.0 -1.0 -2.00713
+            0.366667 0.0 0.0 -1.0 -2.49582
+            0.5 0.0 0.0 -1.0 -3.14159
+            0.566667 0.0 0.0 -1.0 -3.21141
+            0.633333 0.0 0.0 -1.0 -3.14159
+        endlist
+    endnode
+    node trimesh object523
+        parent box704
+    endnode
+    node emitter chunkywood13
+        parent aef_udoor_04a
+    endnode
+    node emitter fire!13
+        parent aef_udoor_04a
+    endnode
+    node emitter chunkywood14
+        parent aef_udoor_04a
+    endnode
+    node trimesh sam
+        parent aef_udoor_04a
+        alphakey
+            0.0 0.0 
+            0.633333 0.0 
+        endlist
+    endnode
+doneanim closing2 aef_udoor_04
+#NWgMax Plus ANIM ASCII
+newanim dead aef_udoor_04
+  length 0.0333333
+  transtime 0.25
+  animroot aef_udoor_04
+    node dummy aef_udoor_04
+        parent NULL
+    endnode
+    node dummy aef_udoor_04a
+        parent aef_udoor_04
+    endnode
+    node trimesh box41
+        parent aef_udoor_04a
+        positionkey
+            0.0 -1.50781 -0.109375 -3.84652
+            0.0333333 -1.50781 -0.109375 -3.84652
+        endlist
+        orientationkey
+            0.0 -0.0638924 0.159228 -0.985172 -3.47652
+            0.0333333 -0.0638924 0.159228 -0.985172 -3.47652
+        endlist
+    endnode
+    node trimesh object496
+        parent box41
+    endnode
+    node trimesh box704
+        parent aef_udoor_04a
+        positionkey
+            0.0 1.49219 -0.109375 -3.84652
+            0.0333333 1.49219 -0.109375 -3.84652
+        endlist
+        orientationkey
+            0.0 0.0704976 -0.030512 -0.997045 -3.44499
+            0.0333333 0.0704976 -0.030512 -0.997045 -3.44499
+        endlist
+    endnode
+    node trimesh object523
+        parent box704
+    endnode
+    node emitter chunkywood13
+        parent aef_udoor_04a
+    endnode
+    node emitter fire!13
+        parent aef_udoor_04a
+    endnode
+    node emitter chunkywood14
+        parent aef_udoor_04a
+    endnode
+    node trimesh sam
+        parent aef_udoor_04a
+    endnode
+doneanim dead aef_udoor_04
+#NWgMax Plus ANIM ASCII
+newanim die aef_udoor_04
+  length 0.1
+  transtime 0.25
+  animroot aef_udoor_04
+  event 0.0333333 detonate
+    node dummy aef_udoor_04
+        parent NULL
+    endnode
+    node dummy aef_udoor_04a
+        parent aef_udoor_04
+    endnode
+    node trimesh box41
+        parent aef_udoor_04a
+        positionkey
+            0.0 -1.50781 -0.109375 -0.0078125
+            0.1 -1.50781 -0.109375 -3.84652
+        endlist
+        orientationkey
+            0.0 0.0 -1.4903e-006 -1.0 -3.14159
+            0.1 -0.0638924 0.159228 -0.985172 -3.47652
+        endlist
+    endnode
+    node trimesh object496
+        parent box41
+    endnode
+    node trimesh box704
+        parent aef_udoor_04a
+        positionkey
+            0.0 1.49219 -0.109375 -0.0078125
+            0.1 1.49219 -0.109375 -3.84652
+        endlist
+        orientationkey
+            0.0 0.0 0.0 -1.0 -3.14159
+            0.1 0.0704976 -0.030512 -0.997045 -3.44499
+        endlist
+    endnode
+    node trimesh object523
+        parent box704
+    endnode
+    node emitter chunkywood13
+        parent aef_udoor_04a
+    endnode
+    node emitter fire!13
+        parent aef_udoor_04a
+    endnode
+    node emitter chunkywood14
+        parent aef_udoor_04a
+    endnode
+    node trimesh sam
+        parent aef_udoor_04a
+    endnode
+doneanim die aef_udoor_04
+#NWgMax Plus ANIM ASCII
+newanim opened1 aef_udoor_04
+  length 0.3
+  transtime 0.25
+  animroot aef_udoor_04
+    node dummy aef_udoor_04
+        parent NULL
+    endnode
+    node dummy aef_udoor_04a
+        parent aef_udoor_04
+    endnode
+    node trimesh box41
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 0.0 -1.0 -4.59894
+            0.3 0.0 0.0 -1.0 -4.59894
+        endlist
+    endnode
+    node trimesh object496
+        parent box41
+    endnode
+    node trimesh box704
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 0.0 -1.0 -1.64061
+            0.3 0.0 0.0 -1.0 -1.64061
+        endlist
+    endnode
+    node trimesh object523
+        parent box704
+    endnode
+    node emitter chunkywood13
+        parent aef_udoor_04a
+    endnode
+    node emitter fire!13
+        parent aef_udoor_04a
+    endnode
+    node emitter chunkywood14
+        parent aef_udoor_04a
+    endnode
+    node trimesh sam
+        parent aef_udoor_04a
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+            0.3 0.0 
+        endlist
+    endnode
+doneanim opened1 aef_udoor_04
+#NWgMax Plus ANIM ASCII
+newanim opened2 aef_udoor_04
+  length 0.3
+  transtime 0.25
+  animroot aef_udoor_04
+    node dummy aef_udoor_04
+        parent NULL
+    endnode
+    node dummy aef_udoor_04a
+        parent aef_udoor_04
+    endnode
+    node trimesh box41
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 0.0 -1.0 -4.59894
+            0.3 0.0 0.0 -1.0 -4.59894
+        endlist
+    endnode
+    node trimesh object496
+        parent box41
+    endnode
+    node trimesh box704
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 0.0 -1.0 -1.64061
+            0.3 0.0 0.0 -1.0 -1.64061
+        endlist
+    endnode
+    node trimesh object523
+        parent box704
+    endnode
+    node emitter chunkywood13
+        parent aef_udoor_04a
+    endnode
+    node emitter fire!13
+        parent aef_udoor_04a
+    endnode
+    node emitter chunkywood14
+        parent aef_udoor_04a
+    endnode
+    node trimesh sam
+        parent aef_udoor_04a
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+            0.3 0.0 
+        endlist
+    endnode
+doneanim opened2 aef_udoor_04
+#NWgMax Plus ANIM ASCII
+newanim opening1 aef_udoor_04
+  length 0.633333
+  transtime 0.25
+  animroot aef_udoor_04
+    node dummy aef_udoor_04
+        parent NULL
+    endnode
+    node dummy aef_udoor_04a
+        parent aef_udoor_04
+    endnode
+    node trimesh box41
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 -6.60919e-007 -1.0 -3.14159
+            0.0666667 0.0 0.0 -1.0 -3.09796
+            0.1 0.0 0.0 -1.0 -3.07178
+            0.133333 0.0 0.0 -1.0 -3.07178
+            0.2 0.0 0.0 -1.0 -3.12414
+            0.333333 0.0 0.0 -1.0 -3.71755
+            0.533333 0.0 0.0 -1.0 -4.54658
+            0.633333 0.0 0.0 -1.0 -4.59894
+        endlist
+    endnode
+    node trimesh object496
+        parent box41
+    endnode
+    node trimesh box704
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 -5.2772e-007 -1.0 -3.14159
+            0.1 0.0 -1.05833e-006 -1.0 -3.14159
+            0.2 0.0 0.0 -1.0 -2.95833
+            0.3 0.0 0.0 -1.0 -2.73144
+            0.466667 0.0 0.0 -1.0 -1.7017
+            0.533333 0.0 0.0 -1.0 -1.62316
+            0.6 0.0 0.0 -1.0 -1.66679
+            0.633333 0.0 0.0 -1.0 -1.64061
+        endlist
+    endnode
+    node trimesh object523
+        parent box704
+    endnode
+    node emitter chunkywood13
+        parent aef_udoor_04a
+    endnode
+    node emitter fire!13
+        parent aef_udoor_04a
+    endnode
+    node emitter chunkywood14
+        parent aef_udoor_04a
+    endnode
+    node trimesh sam
+        parent aef_udoor_04a
+    endnode
+doneanim opening1 aef_udoor_04
+#NWgMax Plus ANIM ASCII
+newanim opening2 aef_udoor_04
+  length 0.633333
+  transtime 0.25
+  animroot aef_udoor_04
+    node dummy aef_udoor_04
+        parent NULL
+    endnode
+    node dummy aef_udoor_04a
+        parent aef_udoor_04
+    endnode
+    node trimesh box41
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 0.0 -1.0 -3.14159
+            0.0666667 0.0 0.0 -1.0 -3.09796
+            0.1 0.0 0.0 -1.0 -3.07178
+            0.133333 0.0 0.0 -1.0 -3.07178
+            0.2 0.0 0.0 -1.0 -3.12414
+            0.333333 0.0 0.0 -1.0 -3.71755
+            0.533333 0.0 0.0 -1.0 -4.54658
+            0.633333 0.0 0.0 -1.0 -4.59894
+        endlist
+    endnode
+    node trimesh object496
+        parent box41
+    endnode
+    node trimesh box704
+        parent aef_udoor_04a
+        orientationkey
+            0.0 0.0 0.0 -1.0 -3.14159
+            0.1 0.0 0.0 -1.0 -3.14159
+            0.2 0.0 0.0 -1.0 -2.95833
+            0.3 0.0 0.0 -1.0 -2.73144
+            0.466667 0.0 0.0 -1.0 -1.7017
+            0.533333 0.0 0.0 -1.0 -1.62316
+            0.6 0.0 0.0 -1.0 -1.66679
+            0.633333 0.0 0.0 -1.0 -1.64061
+        endlist
+    endnode
+    node trimesh object523
+        parent box704
+    endnode
+    node emitter chunkywood13
+        parent aef_udoor_04a
+    endnode
+    node emitter fire!13
+        parent aef_udoor_04a
+    endnode
+    node emitter chunkywood14
+        parent aef_udoor_04a
+    endnode
+    node trimesh sam
+        parent aef_udoor_04a
+    endnode
+doneanim opening2 aef_udoor_04
+#NWgMax Plus ANIM ASCII
+newanim tiledefault aef_udoor_04
+  length 0.0
+  transtime 0.25
+  animroot aef_udoor_04
+    node dummy aef_udoor_04
+        parent NULL
+    endnode
+    node dummy aef_udoor_04a
+        parent aef_udoor_04
+    endnode
+    node trimesh box41
+        parent aef_udoor_04a
+        positionkey
+            0.0 -1.50781 -0.109375 -0.0078125
+        endlist
+        orientationkey
+            0.0 0.0 0.0 -1.0 -3.14159
+        endlist
+    endnode
+    node trimesh object496
+        parent box41
+    endnode
+    node trimesh box704
+        parent aef_udoor_04a
+        positionkey
+            0.0 1.49219 -0.109375 -0.0078125
+        endlist
+        orientationkey
+            0.0 0.0 0.0 -1.0 -3.14159
+        endlist
+    endnode
+    node trimesh object523
+        parent box704
+    endnode
+    node emitter chunkywood13
+        parent aef_udoor_04a
+        birthratekey
+            0.0 0 
+        endlist
+    endnode
+    node emitter fire!13
+        parent aef_udoor_04a
+        birthratekey
+            0.0 0 
+        endlist
+    endnode
+    node emitter chunkywood14
+        parent aef_udoor_04a
+        birthratekey
+            0.0 0 
+        endlist
+    endnode
+    node trimesh sam
+        parent aef_udoor_04a
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+doneanim tiledefault aef_udoor_04
+#NWgMax Plus ANIM ASCII
+newanim trans aef_udoor_04
+  length 0.0333333
+  transtime 0.25
+  animroot aef_udoor_04
+    node dummy aef_udoor_04
+        parent NULL
+    endnode
+    node dummy aef_udoor_04a
+        parent aef_udoor_04
+    endnode
+    node trimesh box41
+        parent aef_udoor_04a
+    endnode
+    node trimesh object496
+        parent box41
+    endnode
+    node trimesh box704
+        parent aef_udoor_04a
+    endnode
+    node trimesh object523
+        parent box704
+    endnode
+    node emitter chunkywood13
+        parent aef_udoor_04a
+    endnode
+    node emitter fire!13
+        parent aef_udoor_04a
+    endnode
+    node emitter chunkywood14
+        parent aef_udoor_04a
+    endnode
+    node trimesh sam
+        parent aef_udoor_04a
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+doneanim trans aef_udoor_04
+donemodel aef_udoor_04
