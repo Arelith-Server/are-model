@@ -858,7 +858,7 @@ newanim damage PLC_X0_OTTc
     node dummy plc_x0_ottc_pwk
         parent PLC_X0_OTTc
     endnode
-    node pwk NoWalkArea
+    node dummy NoWalkArea
         parent plc_x0_ottc_pwk
     endnode
 doneanim damage PLC_X0_OTTc
@@ -884,7 +884,7 @@ newanim die PLC_X0_OTTc
     node dummy plc_x0_ottc_pwk
         parent PLC_X0_OTTc
     endnode
-    node pwk NoWalkArea
+    node dummy NoWalkArea
         parent plc_x0_ottc_pwk
     endnode
 doneanim die PLC_X0_OTTc
@@ -908,7 +908,7 @@ newanim dead PLC_X0_OTTc
     node dummy plc_x0_ottc_pwk
         parent PLC_X0_OTTc
     endnode
-    node pwk NoWalkArea
+    node dummy NoWalkArea
         parent plc_x0_ottc_pwk
     endnode
 doneanim dead PLC_X0_OTTc
@@ -932,7 +932,7 @@ newanim default PLC_X0_OTTc
     node dummy plc_x0_ottc_pwk
         parent PLC_X0_OTTc
     endnode
-    node pwk NoWalkArea
+    node dummy NoWalkArea
         parent plc_x0_ottc_pwk
     endnode
 doneanim default PLC_X0_OTTc

@@ -596,7 +596,7 @@ newanim damage plc_x0_ptma
     node dummy plc_x0_ptma_pwk
         parent plc_x0_ptma
     endnode
-    node pwk NoWalkArea
+    node dummy NoWalkArea
         parent plc_x0_ptma_pwk
     endnode
 doneanim damage plc_x0_ptma
@@ -644,7 +644,7 @@ newanim die plc_x0_ptma
     node dummy plc_x0_ptma_pwk
         parent plc_x0_ptma
     endnode
-    node pwk NoWalkArea
+    node dummy NoWalkArea
         parent plc_x0_ptma_pwk
     endnode
 doneanim die plc_x0_ptma
@@ -689,7 +689,7 @@ newanim dead plc_x0_ptma
     node dummy plc_x0_ptma_pwk
         parent plc_x0_ptma
     endnode
-    node pwk NoWalkArea
+    node dummy NoWalkArea
         parent plc_x0_ptma_pwk
     endnode
 doneanim dead plc_x0_ptma
@@ -722,7 +722,7 @@ newanim default plc_x0_ptma
     node dummy plc_x0_ptma_pwk
         parent plc_x0_ptma
     endnode
-    node pwk NoWalkArea
+    node dummy NoWalkArea
         parent plc_x0_ptma_pwk
     endnode
 doneanim default plc_x0_ptma

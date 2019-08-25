@@ -1,24 +1,44 @@
-#Eatqrted from 3ds max by MDL Plug-in Suite 1.0b
-#http://www.bricksbuilder.com/nwn/utils/
-#MAXMODEL ASCII
-# model: atq_plant_pot_08
-filedependancy Unknown
-node trimesh Plane01
+# Exported from blender Sunday, 2019-08-25
+filedependancy unknown
+node dummy 08_pwk_use01
   parent atq_plant_pot_08_pwk
-  position 0.109559 -0.205275 0.0012229
-  orientation 0 0 0 0
-  wirecolor 0.550781 0.550781 0.550781
-  ambient 0.03125 0.429688 0.523438
-  diffuse 0.03125 0.429688 0.523438
-  specular 0 0 0
-  shininess 1
-  bitmap NULL
-  verts 4
-    0.143535 0.375971 0
-    -0.381161 0.376061 0
-    0.145659 -0.00632504 0
-    -0.379037 -0.00623489 0
-  faces 2
-    2 0 3  1  0 0 0  0
-    1 3 0  1  0 0 0  0
+  position  0.02000 -0.91000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node dummy 08_pwk_use02
+  parent atq_plant_pot_08_pwk
+  position  0.02000  1.05000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node trimesh 08_wg
+  parent atq_plant_pot_08_pwk
+  position  0.00000  0.00000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  verts 8
+     0.29101  0.41622  0.00000
+    -0.36303  0.42476  0.00000
+    -0.37816 -0.36010  0.00000
+     0.41855 -0.32414  0.00000
+     0.29101  0.41622  0.48585
+    -0.36303  0.42476  0.48585
+    -0.37816 -0.36010  0.48585
+     0.41855 -0.32414  0.48585
+  faces 12
+    0 2 1  1  0 0 0  0
+    4 6 7  1  0 0 0  0
+    1 4 0  1  0 0 0  0
+    2 5 1  1  0 0 0  0
+    0 7 3  1  0 0 0  0
+    3 6 2  1  0 0 0  0
+    0 3 2  1  0 0 0  0
+    4 5 6  1  0 0 0  0
+    1 5 4  1  0 0 0  0
+    2 6 5  1  0 0 0  0
+    0 4 7  1  0 0 0  0
+    3 7 6  1  0 0 0  0
 endnode

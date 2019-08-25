@@ -478,7 +478,7 @@ newanim die PLC_A05g
     node dummy PLC_A05g_pwk
         parent PLC_A05g
     endnode
-    node pwk PLC_A05g_wg
+    node dummy PLC_A05g_wg
         parent PLC_A05g_pwk
     endnode
     node dummy A05_pwk_use01
@@ -529,7 +529,7 @@ newanim dead PLC_A05g
     node dummy PLC_A05g_pwk
         parent PLC_A05g
     endnode
-    node pwk PLC_A05g_wg
+    node dummy PLC_A05g_wg
         parent PLC_A05g_pwk
     endnode
     node dummy A05_pwk_use01
@@ -590,7 +590,7 @@ newanim damage PLC_A05g
     node dummy PLC_A05g_pwk
         parent PLC_A05g
     endnode
-    node pwk PLC_A05g_wg
+    node dummy PLC_A05g_wg
         parent PLC_A05g_pwk
     endnode
     node dummy A05_pwk_use01
@@ -641,7 +641,7 @@ newanim default PLC_A05g
     node dummy PLC_A05g_pwk
         parent PLC_A05g
     endnode
-    node pwk PLC_A05g_wg
+    node dummy PLC_A05g_wg
         parent PLC_A05g_pwk
     endnode
     node dummy A05_pwk_use01

@@ -1,8 +1,3 @@
- 0
-    17 13 14  1  0 0 0  0
-    17 14 15  1  0 0 0  0
-    17 15 16  1  0 0 0  0
-endnode
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
@@ -1345,5 +1340,8 @@ endnode
 node emitter fire!144
   parent PLC_F08
 endnode
-node LC_F08
+node trimesh pwk_mscstand
+  parent PLC_F08
+endnode
+doneanim default PLC_F08
 donemodel PLC_F08

@@ -1596,8 +1596,7 @@ endnode
 endmodelgeom ia_tpot1
 
 #NWmax ANIM ASCII
-newanim off2on
- ia_tpot1
+newanim off2on ia_tpot1
   length 0.433333
   transtime 0.25
   animroot ia_tpot1
@@ -1643,8 +1642,7 @@ doneanim off2on
 
 
 #NWmax ANIM ASCII
-newanim on2off
- ia_tpot1
+newanim on2off ia_tpot1
   length 0.5
   transtime 0.25
   animroot ia_tpot1
@@ -1692,8 +1690,7 @@ doneanim on2off
 
 
 #NWmax ANIM ASCII
-newanim off
- ia_tpot1
+newanim off ia_tpot1
   length 0.0333333
   transtime 0.0
   animroot ia_tpot1
@@ -1731,8 +1728,7 @@ doneanim off
 
 
 #NWmax ANIM ASCII
-newanim on
- ia_tpot1
+newanim on ia_tpot1
   length 0.0333333
   transtime 0.0
   animroot ia_tpot1
@@ -1770,8 +1766,7 @@ doneanim on
 
 
 #NWmax ANIM ASCII
-newanim default
- ia_tpot1
+newanim default ia_tpot1
   length 0.0666667
   transtime 0.25
   animroot ia_tpot1

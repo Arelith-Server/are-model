@@ -1082,7 +1082,7 @@ newanim open PLC_A07a
     node dummy plc_a07a_pwk
         parent PLC_A07a
     endnode
-    node pwk plc_a07a_wg
+    node dummy plc_a07a_wg
         parent plc_a07a_pwk
     endnode
     node dummy A07_pwk_use01
@@ -1162,7 +1162,7 @@ newanim close2open PLC_A07a
     node dummy plc_a07a_pwk
         parent PLC_A07a
     endnode
-    node pwk plc_a07a_wg
+    node dummy plc_a07a_wg
         parent plc_a07a_pwk
     endnode
     node dummy A07_pwk_use01
@@ -1243,7 +1243,7 @@ newanim open2close PLC_A07a
     node dummy plc_a07a_pwk
         parent PLC_A07a
     endnode
-    node pwk plc_a07a_wg
+    node dummy plc_a07a_wg
         parent plc_a07a_pwk
     endnode
     node dummy A07_pwk_use01
@@ -1318,7 +1318,7 @@ newanim close PLC_A07a
     node dummy plc_a07a_pwk
         parent PLC_A07a
     endnode
-    node pwk plc_a07a_wg
+    node dummy plc_a07a_wg
         parent plc_a07a_pwk
     endnode
     node dummy A07_pwk_use01
@@ -1404,7 +1404,7 @@ newanim die PLC_A07a
     node dummy plc_a07a_pwk
         parent PLC_A07a
     endnode
-    node pwk plc_a07a_wg
+    node dummy plc_a07a_wg
         parent plc_a07a_pwk
     endnode
     node dummy A07_pwk_use01
@@ -1482,7 +1482,7 @@ newanim dead PLC_A07a
     node dummy plc_a07a_pwk
         parent PLC_A07a
     endnode
-    node pwk plc_a07a_wg
+    node dummy plc_a07a_wg
         parent plc_a07a_pwk
     endnode
     node dummy A07_pwk_use01
@@ -1567,7 +1567,7 @@ newanim damage PLC_A07a
     node dummy plc_a07a_pwk
         parent PLC_A07a
     endnode
-    node pwk plc_a07a_wg
+    node dummy plc_a07a_wg
         parent plc_a07a_pwk
     endnode
     node dummy A07_pwk_use01
@@ -1642,7 +1642,7 @@ newanim default PLC_A07a
     node dummy plc_a07a_pwk
         parent PLC_A07a
     endnode
-    node pwk plc_a07a_wg
+    node dummy plc_a07a_wg
         parent plc_a07a_pwk
     endnode
     node dummy A07_pwk_use01

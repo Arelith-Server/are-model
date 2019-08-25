@@ -543,7 +543,7 @@ newanim damage sp_bench_01
     node dummy sp_bench_01_pwk
         parent sp_bench_01
     endnode
-    node pwk NoWalkArea
+    node dummy NoWalkArea
         parent sp_bench_01_pwk
     endnode
     node dummy ben_pwk_use01
@@ -600,7 +600,7 @@ newanim die sp_bench_01
     node dummy sp_bench_01_pwk
         parent sp_bench_01
     endnode
-    node pwk NoWalkArea
+    node dummy NoWalkArea
         parent sp_bench_01_pwk
     endnode
     node dummy ben_pwk_use01
@@ -655,7 +655,7 @@ newanim dead sp_bench_01
     node dummy sp_bench_01_pwk
         parent sp_bench_01
     endnode
-    node pwk NoWalkArea
+    node dummy NoWalkArea
         parent sp_bench_01_pwk
     endnode
     node dummy ben_pwk_use01
@@ -706,7 +706,7 @@ newanim default sp_bench_01
     node dummy sp_bench_01_pwk
         parent sp_bench_01
     endnode
-    node pwk NoWalkArea
+    node dummy NoWalkArea
         parent sp_bench_01_pwk
     endnode
     node dummy ben_pwk_use01
