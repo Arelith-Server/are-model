@@ -1,9 +1,4 @@
-0
-        0.0545652 0.529613 0
-endnode
-endmodelgeom plc_marystat
-donemodel plc_marystat
- # Exported from NWmax 0.8 b60 at 09.04.2012 19:27:36
+# Exported from NWmax 0.8 b60 at 09.04.2012 19:27:36
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -764,4 +759,8 @@ newanim default plc_mca01
     node trimesh plc_mca01_wg
         parent plc_mca01_pwk
     endnode
-    node dummy mca01_pwk_use011
+    node dummy mca01_pwk_use01
+        parent plc_mca01_pwk
+    endnode
+doneanim default plc_mca01
+donemodel plc_mca01

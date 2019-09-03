@@ -7,37 +7,37 @@
 filedependancy Unknown
 newmodel sp_plc_wit67
 setsupermodel sp_plc_wit67 NULL
-classification Other
+classification character
 #NWmax GEOM  ASCII
 beginmodelgeom sp_plc_wit67
 node dummy sp_plc_wit67
   parent NULL
 endnode
-node dummy wit67_hand
+node dummy sp_plc_wit67_hand
   parent sp_plc_wit67
   position 0.0 0.0 0.17
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.878431 0.560784 0.341176 
 endnode
-node dummy wit67_head
+node dummy sp_plc_wit67_head
   parent sp_plc_wit67
   position 0.0 0.0 0.47
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.878431 0.560784 0.341176 
 endnode
-node dummy wit67_head_hit
+node dummy sp_plc_wit67_head_hit
   parent sp_plc_wit67
   position 0.0 0.0 0.55
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.878431 0.560784 0.341176 
 endnode
-node dummy wit67_impact
+node dummy sp_plc_wit67_impact
   parent sp_plc_wit67
   position 0.0 0.0 0.5
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.109804 0.109804 0.694118 
 endnode
-node dummy wit67_ground
+node dummy sp_plc_wit67_ground
   parent sp_plc_wit67
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
@@ -2032,19 +2032,19 @@ newanim damage sp_plc_wit67
     node dummy sp_plc_wit67
         parent NULL
     endnode
-    node dummy wit67_hand
+    node dummy sp_plc_wit67_hand
         parent sp_plc_wit67
     endnode
-    node dummy wit67_head
+    node dummy sp_plc_wit67_head
         parent sp_plc_wit67
     endnode
-    node dummy wit67_head_hit
+    node dummy sp_plc_wit67_head_hit
         parent sp_plc_wit67
     endnode
-    node dummy wit67_impact
+    node dummy sp_plc_wit67_impact
         parent sp_plc_wit67
     endnode
-    node dummy wit67_ground
+    node dummy sp_plc_wit67_ground
         parent sp_plc_wit67
     endnode
     node trimesh damage04
@@ -2061,7 +2061,7 @@ newanim damage sp_plc_wit67
             0.133333 0.0 0.0 0.0 0.0
         endlist
     endnode
-    node trimesh ob_bedhob01
+    node trimesh sp_ob_bedhob01
         parent damage04
     endnode
     node emitter ChunkyWood62
@@ -2085,19 +2085,19 @@ newanim die sp_plc_wit67
     node dummy sp_plc_wit67
         parent NULL
     endnode
-    node dummy wit67_hand
+    node dummy sp_plc_wit67_hand
         parent sp_plc_wit67
     endnode
-    node dummy wit67_head
+    node dummy sp_plc_wit67_head
         parent sp_plc_wit67
     endnode
-    node dummy wit67_head_hit
+    node dummy sp_plc_wit67_head_hit
         parent sp_plc_wit67
     endnode
-    node dummy wit67_impact
+    node dummy sp_plc_wit67_impact
         parent sp_plc_wit67
     endnode
-    node dummy wit67_ground
+    node dummy sp_plc_wit67_ground
         parent sp_plc_wit67
     endnode
     node trimesh damage04
@@ -2113,7 +2113,7 @@ newanim die sp_plc_wit67
             0.166667 0.0 0.0 0.0 0.0
         endlist
     endnode
-    node trimesh ob_bedhob01
+    node trimesh sp_ob_bedhob01
         parent damage04
     endnode
     node emitter ChunkyWood62
@@ -2134,19 +2134,19 @@ newanim dead sp_plc_wit67
     node dummy sp_plc_wit67
         parent NULL
     endnode
-    node dummy wit67_hand
+    node dummy sp_plc_wit67_hand
         parent sp_plc_wit67
     endnode
-    node dummy wit67_head
+    node dummy sp_plc_wit67_head
         parent sp_plc_wit67
     endnode
-    node dummy wit67_head_hit
+    node dummy sp_plc_wit67_head_hit
         parent sp_plc_wit67
     endnode
-    node dummy wit67_impact
+    node dummy sp_plc_wit67_impact
         parent sp_plc_wit67
     endnode
-    node dummy wit67_ground
+    node dummy sp_plc_wit67_ground
         parent sp_plc_wit67
     endnode
     node trimesh damage04
@@ -2156,7 +2156,7 @@ newanim dead sp_plc_wit67
             0.0333333 0.0147516 0.0543283 -15.0
         endlist
     endnode
-    node trimesh ob_bedhob01
+    node trimesh sp_ob_bedhob01
         parent damage04
     endnode
     node emitter ChunkyWood62
@@ -2177,25 +2177,25 @@ newanim default sp_plc_wit67
     node dummy sp_plc_wit67
         parent NULL
     endnode
-    node dummy wit67_hand
+    node dummy sp_plc_wit67_hand
         parent sp_plc_wit67
     endnode
-    node dummy wit67_head
+    node dummy sp_plc_wit67_head
         parent sp_plc_wit67
     endnode
-    node dummy wit67_head_hit
+    node dummy sp_plc_wit67_head_hit
         parent sp_plc_wit67
     endnode
-    node dummy wit67_impact
+    node dummy sp_plc_wit67_impact
         parent sp_plc_wit67
     endnode
-    node dummy wit67_ground
+    node dummy sp_plc_wit67_ground
         parent sp_plc_wit67
     endnode
     node trimesh damage04
         parent sp_plc_wit67
     endnode
-    node trimesh ob_bedhob01
+    node trimesh sp_ob_bedhob01
         parent damage04
     endnode
     node emitter ChunkyWood62

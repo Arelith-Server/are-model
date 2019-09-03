@@ -1,11 +1,11 @@
 # gaoneng April 2006
 filedependancy Unknown
 newmodel glc_water1
-setsupermodel glc_water NULL
+setsupermodel glc_water1 NULL
 classification Character
 setanimationscale 1
 #NWmax GEOM  ASCII
-beginmodelgeom glc_water
+beginmodelgeom glc_water1
 node dummy glc_water
   parent NULL
 endnode

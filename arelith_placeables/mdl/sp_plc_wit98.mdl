@@ -7,7 +7,7 @@
 filedependancy Unknown
 newmodel sp_plc_wit98
 setsupermodel sp_plc_wit98 NULL
-classification Other
+classification character
 #NWmax GEOM  ASCII
 beginmodelgeom sp_plc_wit98
 node dummy sp_plc_wit98
@@ -224,7 +224,7 @@ node emitter candleflame
   grav 0.0
   drag 0.0
 endnode
-node trimesh ob_candle02
+node trimesh sp_ob_candle02
   parent damage
   position -0.000867307 -0.0348657 0.0
   orientation 1.0 0.0 0.0 0.0
@@ -593,31 +593,31 @@ node emitter candleflame01
   grav 0.0
   drag 0.0
 endnode
-node dummy wit98_ground
+node dummy sp_plc_wit98_ground
   parent sp_plc_wit98
   position 0.00363281 -0.0069873 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.101961 0.694118 0.345098 
 endnode
-node dummy wit98_hand
+node dummy sp_plc_wit98_hand
   parent sp_plc_wit98
   position -0.00385383 0.116948 0.263208
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.101961 0.694118 0.345098 
 endnode
-node dummy wit98_head
+node dummy sp_plc_wit98_head
   parent sp_plc_wit98
   position 0.0182565 0.000933087 0.279722
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.101961 0.694118 0.345098 
 endnode
-node dummy wit98_head_hit
+node dummy sp_plc_wit98_head_hit
   parent sp_plc_wit98
   position -0.00398926 -0.0108251 0.2639
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.580392 0.694118 0.101961 
 endnode
-node dummy wit98_impact
+node dummy sp_plc_wit98_impact
   parent sp_plc_wit98
   position -0.00398926 -0.011001 0.291433
   orientation 1.0 0.0 0.0 0.0
@@ -655,7 +655,7 @@ newanim damage sp_plc_wit98
     node emitter candleflame
         parent damage
     endnode
-    node trimesh ob_candle02
+    node trimesh sp_ob_candle02
         parent damage
     endnode
     node emitter candleflame02
@@ -664,19 +664,19 @@ newanim damage sp_plc_wit98
     node emitter candleflame01
         parent damage
     endnode
-    node dummy wit98_ground
+    node dummy sp_plc_wit98_ground
         parent sp_plc_wit98
     endnode
-    node dummy wit98_hand
+    node dummy sp_plc_wit98_hand
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head
+    node dummy sp_plc_wit98_head
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head_hit
+    node dummy sp_plc_wit98_head_hit
         parent sp_plc_wit98
     endnode
-    node dummy wit98_impact
+    node dummy sp_plc_wit98_impact
         parent sp_plc_wit98
     endnode
 doneanim damage sp_plc_wit98
@@ -705,7 +705,7 @@ newanim die sp_plc_wit98
     node emitter candleflame
         parent damage
     endnode
-    node trimesh ob_candle02
+    node trimesh sp_ob_candle02
         parent damage
     endnode
     node emitter candleflame02
@@ -714,19 +714,19 @@ newanim die sp_plc_wit98
     node emitter candleflame01
         parent damage
     endnode
-    node dummy wit98_ground
+    node dummy sp_plc_wit98_ground
         parent sp_plc_wit98
     endnode
-    node dummy wit98_hand
+    node dummy sp_plc_wit98_hand
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head
+    node dummy sp_plc_wit98_head
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head_hit
+    node dummy sp_plc_wit98_head_hit
         parent sp_plc_wit98
     endnode
-    node dummy wit98_impact
+    node dummy sp_plc_wit98_impact
         parent sp_plc_wit98
     endnode
 doneanim die sp_plc_wit98
@@ -754,7 +754,7 @@ newanim dead sp_plc_wit98
     node emitter candleflame
         parent damage
     endnode
-    node trimesh ob_candle02
+    node trimesh sp_ob_candle02
         parent damage
     endnode
     node emitter candleflame02
@@ -763,19 +763,19 @@ newanim dead sp_plc_wit98
     node emitter candleflame01
         parent damage
     endnode
-    node dummy wit98_ground
+    node dummy sp_plc_wit98_ground
         parent sp_plc_wit98
     endnode
-    node dummy wit98_hand
+    node dummy sp_plc_wit98_hand
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head
+    node dummy sp_plc_wit98_head
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head_hit
+    node dummy sp_plc_wit98_head_hit
         parent sp_plc_wit98
     endnode
-    node dummy wit98_impact
+    node dummy sp_plc_wit98_impact
         parent sp_plc_wit98
     endnode
 doneanim dead sp_plc_wit98
@@ -799,7 +799,7 @@ newanim default sp_plc_wit98
     node emitter candleflame
         parent damage
     endnode
-    node trimesh ob_candle02
+    node trimesh sp_ob_candle02
         parent damage
     endnode
     node emitter candleflame02
@@ -808,19 +808,19 @@ newanim default sp_plc_wit98
     node emitter candleflame01
         parent damage
     endnode
-    node dummy wit98_ground
+    node dummy sp_plc_wit98_ground
         parent sp_plc_wit98
     endnode
-    node dummy wit98_hand
+    node dummy sp_plc_wit98_hand
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head
+    node dummy sp_plc_wit98_head
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head_hit
+    node dummy sp_plc_wit98_head_hit
         parent sp_plc_wit98
     endnode
-    node dummy wit98_impact
+    node dummy sp_plc_wit98_impact
         parent sp_plc_wit98
     endnode
 doneanim default sp_plc_wit98
@@ -876,7 +876,7 @@ newanim on2off sp_plc_wit98
             0.0333333 0.0 
         endlist
     endnode
-    node trimesh ob_candle02
+    node trimesh sp_ob_candle02
         parent damage
     endnode
     node emitter candleflame02
@@ -925,19 +925,19 @@ newanim on2off sp_plc_wit98
             0.0333333 0.0 
         endlist
     endnode
-    node dummy wit98_ground
+    node dummy sp_plc_wit98_ground
         parent sp_plc_wit98
     endnode
-    node dummy wit98_hand
+    node dummy sp_plc_wit98_hand
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head
+    node dummy sp_plc_wit98_head
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head_hit
+    node dummy sp_plc_wit98_head_hit
         parent sp_plc_wit98
     endnode
-    node dummy wit98_impact
+    node dummy sp_plc_wit98_impact
         parent sp_plc_wit98
     endnode
 doneanim on2off sp_plc_wit98
@@ -996,7 +996,7 @@ newanim off2on sp_plc_wit98
             0.0333333 0.4 
         endlist
     endnode
-    node trimesh ob_candle02
+    node trimesh sp_ob_candle02
         parent damage
     endnode
     node emitter candleflame02
@@ -1045,19 +1045,19 @@ newanim off2on sp_plc_wit98
             0.0333333 0.4 
         endlist
     endnode
-    node dummy wit98_ground
+    node dummy sp_plc_wit98_ground
         parent sp_plc_wit98
     endnode
-    node dummy wit98_hand
+    node dummy sp_plc_wit98_hand
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head
+    node dummy sp_plc_wit98_head
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head_hit
+    node dummy sp_plc_wit98_head_hit
         parent sp_plc_wit98
     endnode
-    node dummy wit98_impact
+    node dummy sp_plc_wit98_impact
         parent sp_plc_wit98
     endnode
 doneanim off2on sp_plc_wit98
@@ -1117,7 +1117,7 @@ newanim on sp_plc_wit98
             0.0333333 0.4 
         endlist
     endnode
-    node trimesh ob_candle02
+    node trimesh sp_ob_candle02
         parent damage
     endnode
     node emitter candleflame02
@@ -1166,19 +1166,19 @@ newanim on sp_plc_wit98
             0.0333333 0.4 
         endlist
     endnode
-    node dummy wit98_ground
+    node dummy sp_plc_wit98_ground
         parent sp_plc_wit98
     endnode
-    node dummy wit98_hand
+    node dummy sp_plc_wit98_hand
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head
+    node dummy sp_plc_wit98_head
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head_hit
+    node dummy sp_plc_wit98_head_hit
         parent sp_plc_wit98
     endnode
-    node dummy wit98_impact
+    node dummy sp_plc_wit98_impact
         parent sp_plc_wit98
     endnode
 doneanim on sp_plc_wit98
@@ -1234,7 +1234,7 @@ newanim off sp_plc_wit98
             0.0333333 0.0 
         endlist
     endnode
-    node trimesh ob_candle02
+    node trimesh sp_ob_candle02
         parent damage
     endnode
     node emitter candleflame02
@@ -1283,19 +1283,19 @@ newanim off sp_plc_wit98
             0.0333333 0.0 
         endlist
     endnode
-    node dummy wit98_ground
+    node dummy sp_plc_wit98_ground
         parent sp_plc_wit98
     endnode
-    node dummy wit98_hand
+    node dummy sp_plc_wit98_hand
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head
+    node dummy sp_plc_wit98_head
         parent sp_plc_wit98
     endnode
-    node dummy wit98_head_hit
+    node dummy sp_plc_wit98_head_hit
         parent sp_plc_wit98
     endnode
-    node dummy wit98_impact
+    node dummy sp_plc_wit98_impact
         parent sp_plc_wit98
     endnode
 doneanim off sp_plc_wit98

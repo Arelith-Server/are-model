@@ -33,7 +33,7 @@ node trimesh Box12
   specular 0.0 0.0 0.0 
   shininess 1
   center undefined
-  bitmap chest_tex_06b
+  bitmap barrel_tex_08
   verts 12
     0.075 -0.3 0.225
     0.440044 -0.270796 0.075
@@ -94,7 +94,7 @@ node trimesh Mesh06
   specular 0.0 0.0 0.0 
   shininess 1
   center undefined
-  bitmap chest_tex_06b
+  bitmap barrel_tex_08
   verts 30
     0.435406 -0.285 0.271378
     0.450682 -0.520354 0.18474
@@ -320,7 +320,7 @@ node trimesh Mesh14
   specular 0.0 0.0 0.0 
   shininess 1
   center undefined
-  bitmap chest_tex_06b
+  bitmap barrel_tex_08
   verts 4
     -0.4125 -0.25179 0.0
     -0.4125 0.3 0.0
@@ -890,7 +890,7 @@ newanim open chest_06b
     node dummy chest_06b_pwk
         parent chest_06b
     endnode
-    node pwk chest_06b_wg
+    node dummy chest_06b_wg
         parent chest_06b_pwk
     endnode
     node dummy A08_pwk_use01
@@ -973,7 +973,7 @@ newanim close2open chest_06b
     node dummy chest_06b_pwk
         parent chest_06b
     endnode
-    node pwk chest_06b_wg
+    node dummy chest_06b_wg
         parent chest_06b_pwk
     endnode
     node dummy A08_pwk_use01
@@ -1059,7 +1059,7 @@ newanim open2close chest_06b
     node dummy chest_06b_pwk
         parent chest_06b
     endnode
-    node pwk chest_06b_wg
+    node dummy chest_06b_wg
         parent chest_06b_pwk
     endnode
     node dummy A08_pwk_use01
@@ -1125,7 +1125,7 @@ newanim close chest_06b
     node dummy chest_06b_pwk
         parent chest_06b
     endnode
-    node pwk chest_06b_wg
+    node dummy chest_06b_wg
         parent chest_06b_pwk
     endnode
     node dummy A08_pwk_use01
@@ -1202,7 +1202,7 @@ newanim die chest_06b
     node dummy chest_06b_pwk
         parent chest_06b
     endnode
-    node pwk chest_06b_wg
+    node dummy chest_06b_wg
         parent chest_06b_pwk
     endnode
     node dummy A08_pwk_use01
@@ -1268,7 +1268,7 @@ newanim dead chest_06b
     node dummy chest_06b_pwk
         parent chest_06b
     endnode
-    node pwk chest_06b_wg
+    node dummy chest_06b_wg
         parent chest_06b_pwk
     endnode
     node dummy A08_pwk_use01
@@ -1344,7 +1344,7 @@ newanim damage chest_06b
     node dummy chest_06b_pwk
         parent chest_06b
     endnode
-    node pwk chest_06b_wg
+    node dummy chest_06b_wg
         parent chest_06b_pwk
     endnode
     node dummy A08_pwk_use01
@@ -1410,7 +1410,7 @@ newanim default chest_06b
     node dummy chest_06b_pwk
         parent chest_06b
     endnode
-    node pwk chest_06b_wg
+    node dummy chest_06b_wg
         parent chest_06b_pwk
     endnode
     node dummy A08_pwk_use01

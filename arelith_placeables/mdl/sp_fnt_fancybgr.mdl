@@ -2,16 +2,16 @@
 # mdl file
 #
 filedependancy Unknown
-newmodel PLC_ML_FOUNTBRK
-setsupermodel PLC_ML_FOUNTBRK NULL
+newmodel sp_fnt_fancybgr
+setsupermodel sp_fnt_fancybgr NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom PLC_ML_FOUNTBRK
-node dummy PLC_ML_FOUNTBRK
+beginmodelgeom sp_fnt_fancybgr
+node dummy sp_fnt_fancybgr
     parent NULL
 endnode
-node trimesh PLC_ML_FOUNTBRK1
-    parent PLC_ML_FOUNTBRK
+node trimesh sp_fnt_fancybgr1
+    parent sp_fnt_fancybgr
     position 0.0 0.0 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -2481,5 +2481,5 @@ node trimesh PLC_ML_FOUNTBRK1
         -0.078125 1.46094 0
         -0.0703125 1.46484 0
 endnode
-endmodelgeom PLC_ML_FOUNTBRK
-donemodel PLC_ML_FOUNTBRK
+endmodelgeom sp_fnt_fancybgr
+donemodel sp_fnt_fancybgr

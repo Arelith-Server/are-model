@@ -959,7 +959,7 @@ newanim close PLC_B03a
     node dummy plc_b03a_pwk
         parent PLC_B03a
     endnode
-    node pwk plc_b03a_wg
+    node dummy plc_b03a_wg
         parent plc_b03a_pwk
     endnode
     node dummy B03_pwk_use01
@@ -1034,7 +1034,7 @@ newanim close2open PLC_B03a
     node dummy plc_b03a_pwk
         parent PLC_B03a
     endnode
-    node pwk plc_b03a_wg
+    node dummy plc_b03a_wg
         parent plc_b03a_pwk
     endnode
     node dummy B03_pwk_use01
@@ -1107,7 +1107,7 @@ newanim open PLC_B03a
     node dummy plc_b03a_pwk
         parent PLC_B03a
     endnode
-    node pwk plc_b03a_wg
+    node dummy plc_b03a_wg
         parent plc_b03a_pwk
     endnode
     node dummy B03_pwk_use01
@@ -1182,7 +1182,7 @@ newanim open2close PLC_B03a
     node dummy plc_b03a_pwk
         parent PLC_B03a
     endnode
-    node pwk plc_b03a_wg
+    node dummy plc_b03a_wg
         parent plc_b03a_pwk
     endnode
     node dummy B03_pwk_use01
@@ -1261,7 +1261,7 @@ newanim damage PLC_B03a
     node dummy plc_b03a_pwk
         parent PLC_B03a
     endnode
-    node pwk plc_b03a_wg
+    node dummy plc_b03a_wg
         parent plc_b03a_pwk
     endnode
     node dummy B03_pwk_use01
@@ -1344,7 +1344,7 @@ newanim die PLC_B03a
     node dummy plc_b03a_pwk
         parent PLC_B03a
     endnode
-    node pwk plc_b03a_wg
+    node dummy plc_b03a_wg
         parent plc_b03a_pwk
     endnode
     node dummy B03_pwk_use01
@@ -1417,7 +1417,7 @@ newanim dead PLC_B03a
     node dummy plc_b03a_pwk
         parent PLC_B03a
     endnode
-    node pwk plc_b03a_wg
+    node dummy plc_b03a_wg
         parent plc_b03a_pwk
     endnode
     node dummy B03_pwk_use01
@@ -1486,7 +1486,7 @@ newanim default PLC_B03a
     node dummy plc_b03a_pwk
         parent PLC_B03a
     endnode
-    node pwk plc_b03a_wg
+    node dummy plc_b03a_wg
         parent plc_b03a_pwk
     endnode
     node dummy B03_pwk_use01

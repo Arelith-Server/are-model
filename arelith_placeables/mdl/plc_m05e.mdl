@@ -724,7 +724,7 @@ newanim damage PLC_M05e
     node dummy plc_m05e_pwk
         parent PLC_M05e
     endnode
-    node pwk plc_m05e_wg
+    node dummy plc_m05e_wg
         parent plc_m05e_pwk
     endnode
     node dummy M05_pwk_use02
@@ -785,7 +785,7 @@ newanim die PLC_M05e
     node dummy plc_m05e_pwk
         parent PLC_M05e
     endnode
-    node pwk plc_m05e_wg
+    node dummy plc_m05e_wg
         parent plc_m05e_pwk
     endnode
     node dummy M05_pwk_use02
@@ -843,7 +843,7 @@ newanim dead PLC_M05e
     node dummy plc_m05e_pwk
         parent PLC_M05e
     endnode
-    node pwk plc_m05e_wg
+    node dummy plc_m05e_wg
         parent plc_m05e_pwk
     endnode
     node dummy M05_pwk_use02
@@ -897,7 +897,7 @@ newanim default PLC_M05e
     node dummy plc_m05e_pwk
         parent PLC_M05e
     endnode
-    node pwk plc_m05e_wg
+    node dummy plc_m05e_wg
         parent plc_m05e_pwk
     endnode
     node dummy M05_pwk_use02

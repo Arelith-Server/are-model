@@ -479,7 +479,7 @@ newanim die PLC_A03m
     node dummy PLC_A03m_pwk
         parent PLC_A03m
     endnode
-    node pwk PLC_A03m_wg
+    node dummy PLC_A03m_wg
         parent PLC_A03m_pwk
     endnode
     node dummy A03_pwk_use01
@@ -530,7 +530,7 @@ newanim dead PLC_A03m
     node dummy PLC_A03m_pwk
         parent PLC_A03m
     endnode
-    node pwk PLC_A03m_wg
+    node dummy PLC_A03m_wg
         parent PLC_A03m_pwk
     endnode
     node dummy A03_pwk_use01
@@ -592,7 +592,7 @@ newanim damage PLC_A03m
     node dummy PLC_A03m_pwk
         parent PLC_A03m
     endnode
-    node pwk PLC_A03m_wg
+    node dummy PLC_A03m_wg
         parent PLC_A03m_pwk
     endnode
     node dummy A03_pwk_use01
@@ -643,7 +643,7 @@ newanim default PLC_A03m
     node dummy PLC_A03m_pwk
         parent PLC_A03m
     endnode
-    node pwk PLC_A03m_wg
+    node dummy PLC_A03m_wg
         parent PLC_A03m_pwk
     endnode
     node dummy A03_pwk_use01

@@ -31,7 +31,7 @@ node trimesh Plane02
   faces 2
     0 1 2  1  0 1 2   1
     3 2 1  1  3 2 1   1
-  position -0.0 -0.0 -10.01 #dirt
+  position -0.0 -0.0 -10.01
   orientation 0 0 0 0
   scale 1
   selfillumcolor 0 0 0
@@ -444,13 +444,13 @@ newanim on sp_hv_tree_05c
     node dummy sp_hv_tree_05c_pwk
         parent sp_hv_tree_05c
     endnode
-    node pwk PWK
+    node dummy PWK
         parent sp_hv_tree_05c_pwk
     endnode
     node trimesh Plane02
         parent sp_hv_tree_05c
         positionkey
-            0.0 0.0 0.0 -10.01 #on
+            0.0 0.0 0.0 -10.01
         endlist
     endnode
 doneanim off sp_hv_tree_05c
@@ -465,13 +465,13 @@ newanim off sp_hv_tree_05c
     node dummy sp_hv_tree_05c_pwk
         parent sp_hv_tree_05c
     endnode
-    node pwk PWK
+    node dummy PWK
         parent sp_hv_tree_05c_pwk
     endnode
     node trimesh Plane02
         parent sp_hv_tree_05c
         positionkey
-            0.0 0.0 0.0 0.01 #off
+            0.0 0.0 0.0 0.01
         endlist
     endnode
 doneanim off sp_hv_tree_05c

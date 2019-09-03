@@ -657,7 +657,7 @@ newanim damage PLC_M04b
     node dummy plc_m04b_pwk
         parent PLC_M04b
     endnode
-    node pwk plc_m04b_wg
+    node dummy plc_m04b_wg
         parent plc_m04b_pwk
     endnode
     node dummy M04_pwk_use01
@@ -718,7 +718,7 @@ newanim die PLC_M04b
     node dummy plc_m04b_pwk
         parent PLC_M04b
     endnode
-    node pwk plc_m04b_wg
+    node dummy plc_m04b_wg
         parent plc_m04b_pwk
     endnode
     node dummy M04_pwk_use01
@@ -776,7 +776,7 @@ newanim dead PLC_M04b
     node dummy plc_m04b_pwk
         parent PLC_M04b
     endnode
-    node pwk plc_m04b_wg
+    node dummy plc_m04b_wg
         parent plc_m04b_pwk
     endnode
     node dummy M04_pwk_use01
@@ -830,7 +830,7 @@ newanim default PLC_M04b
     node dummy plc_m04b_pwk
         parent PLC_M04b
     endnode
-    node pwk plc_m04b_wg
+    node dummy plc_m04b_wg
         parent plc_m04b_pwk
     endnode
     node dummy M04_pwk_use01
