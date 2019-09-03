@@ -2,12 +2,12 @@
 #For updates/comments check out http://nwn-j3d.sf.net
 #Colormod by Morkai_bde
 filedependancy Unknown
-newmodel portal_white
-setsupermodel PLC_D07 NULL
+newmodel plc_d07_wht
+setsupermodel PLC_D07_wht null
 classification Character
 setanimationscale 1.000000
 #MAXGEOM  ASCII
-beginmodelgeom PLC_D07
+beginmodelgeom PLC_D07_wht
 node dummy PLC_D07
   parent NULL
 endnode
@@ -253,7 +253,7 @@ endnode
 endmodelgeom PLC_D07
 
 
-newanim on PLC_D07
+newanim on PLC_D07_wht
 length 0.033333
 transtime 0.250000
 animroot PLC_D07
@@ -298,7 +298,7 @@ endnode
 doneanim on PLC_D07
 
 
-newanim off PLC_D07
+newanim off PLC_D07_wht
 length -0.033333
 transtime 0.250000
 animroot PLC_D07
@@ -335,7 +335,7 @@ endnode
 doneanim off PLC_D07
 
 
-newanim default PLC_D07
+newanim default PLC_D07_wht
 length 0.000000
 transtime 0.250000
 animroot PLC_D07

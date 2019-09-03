@@ -1,9 +1,3 @@
-  1 0 0
-    0 0 0
-    1 0 0
-    0 1 0
-    1 1 0
-endnode
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
@@ -199,7 +193,7 @@ node trimesh Plane01
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap plc_pianokeys
+  bitmap pianokeys
   verts 6
     0.932175 0.118314 -0.0440338
     -0.932175 0.118314 -0.0440338
@@ -958,7 +952,8 @@ node trimesh Cone03
     0.203208 0.49975 0
     0.296792 0.49975 0
     -0.0467918 0.000249758 0
-    -0.0467918 0
+    -0.0467918 0.49975 0
+    -0.0467918 0.000249758 0
 endnode
 endmodelgeom pl_piano3
 donemodel pl_piano3

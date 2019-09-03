@@ -833,7 +833,7 @@ newanim die PLC_A02a
     node dummy plc_a02a_pwk
         parent PLC_A02a
     endnode
-    node pwk plc_a02a_wg
+    node dummy plc_a02a_wg
         parent plc_a02a_pwk
     endnode
     node dummy A02_pwk_use01
@@ -896,7 +896,7 @@ newanim dead PLC_A02a
     node dummy plc_a02a_pwk
         parent PLC_A02a
     endnode
-    node pwk plc_a02a_wg
+    node dummy plc_a02a_wg
         parent plc_a02a_pwk
     endnode
     node dummy A02_pwk_use01
@@ -1018,7 +1018,7 @@ newanim damage PLC_A02a
     node dummy plc_a02a_pwk
         parent PLC_A02a
     endnode
-    node pwk plc_a02a_wg
+    node dummy plc_a02a_wg
         parent plc_a02a_pwk
     endnode
     node dummy A02_pwk_use01
@@ -1081,7 +1081,7 @@ newanim default PLC_A02a
     node dummy plc_a02a_pwk
         parent PLC_A02a
     endnode
-    node pwk plc_a02a_wg
+    node dummy plc_a02a_wg
         parent plc_a02a_pwk
     endnode
     node dummy A02_pwk_use01

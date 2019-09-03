@@ -754,7 +754,7 @@ newanim damage PLC_X01e
     node dummy plc_x01e_pwk
         parent PLC_X01e
     endnode
-    node pwk plc_x01e_wg
+    node dummy plc_x01e_wg
         parent plc_x01e_pwk
     endnode
     node dummy X01_pwk_use01
@@ -812,7 +812,7 @@ newanim die PLC_X01e
     node dummy plc_x01e_pwk
         parent PLC_X01e
     endnode
-    node pwk plc_x01e_wg
+    node dummy plc_x01e_wg
         parent plc_x01e_pwk
     endnode
     node dummy X01_pwk_use01
@@ -867,7 +867,7 @@ newanim dead PLC_X01e
     node dummy plc_x01e_pwk
         parent PLC_X01e
     endnode
-    node pwk plc_x01e_wg
+    node dummy plc_x01e_wg
         parent plc_x01e_pwk
     endnode
     node dummy X01_pwk_use01
@@ -918,7 +918,7 @@ newanim default PLC_X01e
     node dummy plc_x01e_pwk
         parent PLC_X01e
     endnode
-    node pwk plc_x01e_wg
+    node dummy plc_x01e_wg
         parent plc_x01e_pwk
     endnode
     node dummy X01_pwk_use01

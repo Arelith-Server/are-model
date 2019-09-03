@@ -1451,7 +1451,7 @@ newanim damage PLC_X0_TIMa
     node dummy PLC_X0_TIMa_pwk
         parent PLC_X0_TIMa
     endnode
-    node pwk NoWalk
+    node dummy NoWalk
         parent PLC_X0_TIMa_pwk
     endnode
 doneanim damage PLC_X0_TIMa
@@ -1491,7 +1491,7 @@ newanim die PLC_X0_TIMa
     node dummy PLC_X0_TIMa_pwk
         parent PLC_X0_TIMa
     endnode
-    node pwk NoWalk
+    node dummy NoWalk
         parent PLC_X0_TIMa_pwk
     endnode
 doneanim die PLC_X0_TIMa
@@ -1528,7 +1528,7 @@ newanim dead PLC_X0_TIMa
     node dummy PLC_X0_TIMa_pwk
         parent PLC_X0_TIMa
     endnode
-    node pwk NoWalk
+    node dummy NoWalk
         parent PLC_X0_TIMa_pwk
     endnode
 doneanim dead PLC_X0_TIMa
@@ -1561,7 +1561,7 @@ newanim default PLC_X0_TIMa
     node dummy PLC_X0_TIMa_pwk
         parent PLC_X0_TIMa
     endnode
-    node pwk NoWalk
+    node dummy NoWalk
         parent PLC_X0_TIMa_pwk
     endnode
 doneanim default PLC_X0_TIMa

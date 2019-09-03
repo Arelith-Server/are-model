@@ -697,7 +697,7 @@ node emitter esmoke
   frameStart 0
   frameEnd 24
   random 0
-  chunkName 
+  chunkName plc_chunk_s01
   lightningDelay 0.0
   lightningRadius 0.0
   lightningSubDiv 0
@@ -727,7 +727,7 @@ endnode
 endmodelgeom tnp_flag_a01
 
 #NWmax ANIM ASCII
-newanim default tnp_flag_a01
+newanim default pl_pirt_flag1a
   length 0.0333333
   transtime 0.0
   animroot tnp_flag_a01
@@ -808,7 +808,7 @@ doneanim default tnp_flag_a01
 
 
 #NWmax ANIM ASCII
-newanim damage tnp_flag_a01
+newanim damage pl_pirt_flag1a
   length 0.166667
   transtime 0.0
   animroot tnp_flag_a01
@@ -902,7 +902,7 @@ doneanim damage tnp_flag_a01
 
 
 #NWmax ANIM ASCII
-newanim die tnp_flag_a01
+newanim die pl_pirt_flag1a
   length 0.5
   transtime 0.0
   animroot tnp_flag_a01
@@ -1027,7 +1027,7 @@ doneanim die tnp_flag_a01
 
 
 #NWmax ANIM ASCII
-newanim dead tnp_flag_a01
+newanim dead pl_pirt_flag1a
   length 0.0333333
   transtime 0.0
   animroot tnp_flag_a01

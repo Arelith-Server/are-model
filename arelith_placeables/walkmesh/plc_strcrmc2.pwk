@@ -1,31 +1,44 @@
-# Exported from NWmax 0.8 b61 at 1/16/2011 11:43:17 AM
-# pwk file
-#
-#NWmax PWKMESH  ASCII
-node dummy 001_pwk_use01
-  parent stretcher_001_pwk
-  position -0.731519 -0.126165 0.696846
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.894118 0.839216 0.6 
+# Exported from blender Saturday, 2019-08-24
+filedependancy unknown
+node dummy strcrmc2_pwk_use01
+  parent plc_strcrmc2_pwk
+  position  0.00000 -1.54000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
 endnode
-node dummy 001_pwk_use02
-  parent stretcher_001_pwk
-  position 0.793621 -0.149898 0.59325
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.0235294 0.52549 0.227451 
+node dummy strcrmc2_pwk_use02
+  parent plc_strcrmc2_pwk
+  position  0.00000  1.56000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
 endnode
-node trimesh PWK
-  parent stretcher_001_pwk
-  position 0.0 0.0 0.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.568627 0.109804 0.694118 
-  bitmap NULL
-  verts 4
-    -0.558071 -0.706042 0.0
-    0.558071 -0.706042 0.0
-    -0.558071 0.706042 0.0
-    0.558071 0.706042 0.0
-  faces 2
-    2 0 3  1  0 0 0  7
-    1 3 0  1  0 0 0  7
+node trimesh strcrmc2_wg
+  parent plc_strcrmc2_pwk
+  position  0.00000  0.00000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  verts 8
+     0.43400  1.05617  0.00000
+    -0.42510  1.05617  0.00000
+    -0.42510 -1.03831  0.00000
+     0.43400 -1.03831  0.00000
+     0.43400  1.05617  0.84215
+    -0.42510  1.05617  0.84215
+    -0.42510 -1.03831  0.84215
+     0.43400 -1.03831  0.84215
+  faces 12
+    3 1 0  1  0 0 0  0
+    5 7 4  1  0 0 0  0
+    3 6 2  1  0 0 0  0
+    1 4 0  1  0 0 0  0
+    2 5 1  1  0 0 0  0
+    0 7 3  1  0 0 0  0
+    3 2 1  1  0 0 0  0
+    5 6 7  1  0 0 0  0
+    3 7 6  1  0 0 0  0
+    1 5 4  1  0 0 0  0
+    2 6 5  1  0 0 0  0
+    0 4 7  1  0 0 0  0
 endnode

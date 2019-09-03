@@ -161,7 +161,7 @@ newanim default al_block_06
     node dummy al_block_06_pwk
         parent al_block_06
     endnode
-    node pwk PWK
+    node trimesh PWK
         parent al_block_06_pwk
     endnode
     node trimesh grabme_05
@@ -192,7 +192,7 @@ newanim on al_block_06
     node dummy al_block_06_pwk
         parent al_block_06
     endnode
-    node pwk PWK
+    node trimesh PWK
         parent al_block_06_pwk
     endnode
     node trimesh grabme_05
@@ -223,7 +223,7 @@ newanim off al_block_06
     node dummy al_block_06_pwk
         parent al_block_06
     endnode
-    node pwk PWK
+    node trimesh PWK
         parent al_block_06_pwk
     endnode
     node trimesh grabme_05

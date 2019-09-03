@@ -1522,7 +1522,7 @@ newanim damage PLC_X0_WBWb
     node dummy PLC_X0_WBWb_pwk
         parent PLC_X0_WBWb
     endnode
-    node pwk NoWalk
+    node dummy NoWalk
         parent PLC_X0_WBWb_pwk
     endnode
 doneanim damage PLC_X0_WBWb
@@ -1576,7 +1576,7 @@ newanim die PLC_X0_WBWb
     node dummy PLC_X0_WBWb_pwk
         parent PLC_X0_WBWb
     endnode
-    node pwk NoWalk
+    node dummy NoWalk
         parent PLC_X0_WBWb_pwk
     endnode
 doneanim die PLC_X0_WBWb
@@ -1628,7 +1628,7 @@ newanim dead PLC_X0_WBWb
     node dummy PLC_X0_WBWb_pwk
         parent PLC_X0_WBWb
     endnode
-    node pwk NoWalk
+    node dummy NoWalk
         parent PLC_X0_WBWb_pwk
     endnode
 doneanim dead PLC_X0_WBWb
@@ -1676,7 +1676,7 @@ newanim default PLC_X0_WBWb
     node dummy PLC_X0_WBWb_pwk
         parent PLC_X0_WBWb
     endnode
-    node pwk NoWalk
+    node dummy NoWalk
         parent PLC_X0_WBWb_pwk
     endnode
 doneanim default PLC_X0_WBWb
