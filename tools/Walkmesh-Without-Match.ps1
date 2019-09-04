@@ -1,6 +1,4 @@
 $dir = $Args[0]
-$filetype = $Args[1]
-$list = @()
 Get-ChildItem ../$dir/walkmesh -Filter *.pwk |
  Foreach-Object {
     $content =  $_.BaseName

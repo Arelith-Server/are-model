@@ -1,6 +1,4 @@
 $dir = $Args[0]
-$filetype = $Args[1]
-$list = @()
 Get-ChildItem ../$dir/mdl -Filter *.mdl |
  Foreach-Object {
     $content =  $_.FullName
