@@ -1,0 +1,373 @@
+#MAXMODEL ASCII
+# model: vim_heal05_grn
+filedependancy vim_heal05_grn.max
+newmodel vim_heal05_grn
+setsupermodel vim_heal05_grn NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_heal05_grn
+node dummy vim_heal05_grn
+  parent NULL
+endnode
+node emitter OmenEmitter022
+  parent vim_heal05_grn
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Motion_Blur
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.00365542
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 -6.989e-07 16.989
+  orientation -1 0 0 -3.14159
+  xsize 100
+  ysize 100
+  threshold 0
+  combinetime 0
+  colorStart 0.0117647 1 0.592157
+  colorEnd 0.294118 1 0.709804
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 0.2
+  sizeEnd 0.15
+  sizeStart_y 0
+  sizeEnd_y 5
+  birthrate 200
+  lifeExp 0.5
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 50
+  randvel 1
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 3
+  drag 0.4
+endnode
+node light AuroraLight01
+  parent vim_heal05_grn
+  ambientonly 1
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 0
+  flareradius 0
+  position 0.00116925 0.0549327 0.835827
+  orientation 0 0 0 0
+  radius 5
+  multiplier 1
+  color 0 0.819608 0.968628
+endnode
+node emitter Splat
+  parent vim_heal05_grn
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_flare02
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.200269
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter sparks
+  parent vim_heal05_grn
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.000282946 0.00365666 0.0218402
+  orientation 0 0 0 0
+  xsize 60
+  ysize 60
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 0.505882 1 0.701961
+  alphaStart 0.8
+  alphaEnd 0
+  sizeStart 2
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 1
+  mass 0
+  spread 0.872665
+  particleRot 0
+  velocity 3
+  randvel 1
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter WIND_Dummy
+  parent vim_heal05_grn
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture NULL
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 8
+  blastLength 1.3
+  position -0.00249214 0.000424422 0.390378
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom vim_heal05_grn
+
+#MAXANIM ASCII
+newanim impact vim_heal05_grn
+  length 2.63333
+  transtime 0.25
+  animroot vim_heal05_grn
+  event 0 detonate
+  node dummy vim_heal05_grn
+    parent NULL
+  endnode
+  node emitter OmenEmitter022
+    parent vim_heal05_grn
+    birthratekey 5
+         0.0000000  200.0000000
+         0.0333333  200.0000000
+         1.2333300  200.0000000
+         1.2666700  200.0000000
+         1.3000000    0.0000000
+  endnode
+  node light AuroraLight01
+    parent vim_heal05_grn
+    positionkey 16
+         0.0000000    0.0011692    0.0549327    0.8358270
+         0.0666667   -0.0470504    0.0233578    0.8358270
+         0.1000000   -0.0469611   -0.0177412    0.8358270
+         0.1666670    0.0904774    0.0304654    0.8358270
+         0.2333330   -0.0278369   -0.0877678    0.8358270
+         0.3000000   -0.0928541    0.2040660    0.8358270
+         0.3666670   -0.1119320   -0.3244350    0.8358270
+         0.4333330    0.2184340    0.0429552    0.8358270
+         0.5000000   -0.3025980    0.2234720    0.8358270
+         0.5666670   -0.0247843   -0.0882316    0.8358270
+         0.6333330    0.1270590    0.0638447    0.8358270
+         1.1000000   -0.2663430   -0.1928380    0.8358270
+         1.2333300    0.1146800    0.2563340    0.8358270
+         1.3333300   -0.2663430   -0.1928380    0.8358270
+         1.8333300    0.3656000   -0.1295390    0.8358270
+         2.4666700    0.0538517    0.1503980    0.8358270
+    colorkey 18
+         0.0000000    0.0000000    0.8196080    0.9686280
+         0.2333330    0.0000000    0.0000000    0.2352940
+         0.3000000    0.0000000    0.0000000    0.2352940
+         0.3666670    0.0000000    0.0000000    0.2352940
+         0.4333330    0.0470587    0.1372550    0.2352940
+         0.5666670    0.0000000    0.0117647    0.2941180
+         0.6333330    0.0000000    0.0000000    0.3254900
+         0.6666670    0.0823529    0.0470588    0.8156860
+         0.8666670    0.0549020    0.2627450    0.9333340
+         0.9000000    0.0000000    0.0000000    0.2352940
+         0.9666670    0.0549015    0.1411770    0.2352940
+         1.0333300    0.0000000    0.0000000    0.2352940
+         1.1000000    0.0549020    0.0901961    0.2352940
+         1.2333300    0.3294120    0.3490200    0.6196080
+         1.3333300    0.0000000    0.6627450    0.9098040
+         1.7666700    0.0000000    0.8196080    0.9686280
+         1.8333300    0.0000000    0.6784310    0.9294120
+         2.4666700    0.0000000    0.0000000    0.0000000
+    radiuskey 9
+         0.0000000  500.0000000
+         0.1666670  500.0000000
+         0.5000000  500.0000000
+         0.5666670  500.0000000
+         0.9666670  600.0000000
+         1.6333300  500.0000000
+         1.8333300  500.0000000
+         2.4666700  500.0000000
+         2.5666699 -1500.0000000
+  endnode
+  node emitter Splat
+    parent vim_heal05_grn
+    birthratekey 7
+         0.0000000    0.0000000
+         0.4333330    0.0000000
+         0.4666670    6.0000000
+         1.1333300    4.0000000
+         1.6666700    5.0000000
+         1.8333300    4.0000000
+         1.8666700    0.0000000
+    sizeStartkey 6
+         0.0000000    0.0000000
+         0.4333330    0.0000000
+         0.4666670    0.0000000
+         0.6666670    8.0000000
+         1.6666700    8.0000000
+         1.8333300    0.0000000
+    sizeEndkey 4
+         0.4666670    0.0000000
+         0.6666670    5.0000000
+         1.6666700    5.0000000
+         1.8333300    0.0000000
+  endnode
+  node emitter sparks
+    parent vim_heal05_grn
+    birthratekey 4
+         0.4333330    0.0000000
+         0.4666670   60.0000000
+         1.6666700   60.0000000
+         1.8000000    0.0000000
+  endnode
+  node emitter WIND_Dummy
+    parent vim_heal05_grn
+  endnode
+doneanim impact vim_heal05_grn
+
+donemodel vim_heal05_grn

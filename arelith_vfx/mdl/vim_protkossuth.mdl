@@ -1,0 +1,787 @@
+#MAXMODEL ASCII
+# model: vim_protkossuth 
+filedependancy vim_protkossuth.max
+newmodel vim_protkossuth 
+setsupermodel vim_protkossuth NULL
+classification Effects
+#MAXGEOM  ASCII
+beginmodelgeom vim_protkossuth 
+node dummy vim_protkossuth 
+  parent NULL 
+endnode
+node dummy Dummy01 
+  parent vim_protkossuth 
+  position 0.0 0.0 1.5
+  orientation  0.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.345098 0.882353  
+endnode
+node dummy Dummy02 
+  parent vim_protkossuth 
+  position 0.0 0.0 1.5
+  orientation  0.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.345098 0.882353  
+endnode
+node dummy Dummy03 
+  parent vim_protkossuth 
+  position 0.0 0.0 1.5
+  orientation  0.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.345098 0.882353  
+endnode
+node dummy Dummy04 
+  parent vim_protkossuth 
+  position 0.0 0.0 1.5
+  orientation  0.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.345098 0.882353  
+endnode
+node emitter OmenEmitter01
+  parent Dummy01 
+  position 1.5 0.0 0.75
+  orientation  0.0 0.0 0.0 0.0
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.909803987 0.470587999 0
+  colorEnd 0.909803987 0.470587999 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.400000006
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 100
+  lifeExp 0.5
+  mass 0
+  spread 6.28318977
+  particleRot 0.5
+  velocity 1
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter02
+  parent Dummy01 
+  position -1.5 0.0 -0.75
+  orientation  0.0 0.0 0.0 0.0
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.909803987 0.470587999 0
+  colorEnd 0.909803987 0.470587999 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.400000006
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 100
+  lifeExp 0.5
+  mass 0
+  spread 6.28318977
+  particleRot 0.5
+  velocity 1
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter03
+  parent Dummy02 
+  position 1.5 0 -0.75
+  orientation  0.0 0.0 0.0 0.0
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.909803987 0.470587999 0
+  colorEnd 0.909803987 0.470587999 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.400000006
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 100
+  lifeExp 0.5
+  mass 0
+  spread 6.28318977
+  particleRot 0.5
+  velocity 1
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter04
+  parent Dummy02 
+  position -1.5 0 0.75
+  orientation  0.0 0.0 0.0 0.0
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.909803987 0.470587999 0
+  colorEnd 0.909803987 0.470587999 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.400000006
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 100
+  lifeExp 0.5
+  mass 0
+  spread 6.28318977
+  particleRot 0.5
+  velocity 1
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter05
+  parent Dummy03 
+  position 0 1.5 0.75
+  orientation  0.0 0.0 0.0 0.0
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.909803987 0.470587999 0
+  colorEnd 0.909803987 0.470587999 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.400000006
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 100
+  lifeExp 0.5
+  mass 0
+  spread 6.28318977
+  particleRot 0.5
+  velocity 1
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter06
+  parent Dummy03 
+  position 0 -1.5 -0.75
+  orientation  0.0 0.0 0.0 0.0
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.909803987 0.470587999 0
+  colorEnd 0.909803987 0.470587999 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.400000006
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 100
+  lifeExp 0.5
+  mass 0
+  spread 6.28318977
+  particleRot 0.5
+  velocity 1
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter07
+  parent Dummy04 
+  position 0.0 1.5 -0.75
+  orientation  0.0 0.0 0.0 0.0
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.909803987 0.470587999 0
+  colorEnd 0.909803987 0.470587999 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.400000006
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 100
+  lifeExp 0.5
+  mass 0
+  spread 6.28318977
+  particleRot 0.5
+  velocity 1
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter08
+  parent Dummy04 
+  position 0.0 -1.5 0.75
+  orientation  0.0 0.0 0.0 0.0
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.909803987 0.470587999 0
+  colorEnd 0.909803987 0.470587999 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.400000006
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 100
+  lifeExp 0.5
+  mass 0
+  spread 6.28318977
+  particleRot 0.5
+  velocity 1
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Ring
+  parent vim_protkossuth
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_ringwave
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 10
+  blastLength 1.800000012
+  position 0 0 0.119999997
+  orientation 0 0 0 0
+  colorStart 0.909803987 0.470587999 0
+  colorEnd 0.909803987 0.470587999 0
+  alphaStart 0.800000012
+  alphaEnd 0
+  sizeStart 3
+  sizeEnd 10
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 1
+  lifeExp 0.100000001
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 12
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vim_protkossuth 
+
+#MAXANIM ASCII
+newanim impact vim_protkossuth 
+ length 5.0
+ transtime 0.25
+animroot vim_protkossuth
+  event 0 detonate
+node dummy vim_protkossuth 
+  parent NULL 
+endnode
+node dummy Dummy01 
+  parent vim_protkossuth 
+    orientationkey 
+      0.0   -0.75 0 1.5  0.0
+      1.0   -0.75 0 1.5  2.094
+      2.0   -0.75 0 1.5  4.188
+      3.0   -0.75 0 1.5  0.0
+      4.0   -0.75 0 1.5  2.094
+      5.0   -0.75 0 1.5  4.188
+    endlist 
+endnode
+node dummy Dummy02 
+  parent vim_protkossuth 
+    orientationkey 
+      0.0   0.75 0 1.5  0.0
+      1.0   0.75 0 1.5  2.094
+      2.0   0.75 0 1.5  4.188
+      3.0   0.75 0 1.5  0.0
+      4.0   0.75 0 1.5  2.094
+      5.0   0.75 0 1.5  4.188
+    endlist  
+endnode
+node dummy Dummy03 
+  parent vim_protkossuth 
+    orientationkey 
+      0.0   -0.75 0 1.5  0.0
+      1.0   -0.75 0 1.5  2.094
+      2.0   -0.75 0 1.5  4.188
+      3.0   -0.75 0 1.5  0.0
+      4.0   -0.75 0 1.5  2.094
+      5.0   -0.75 0 1.5  4.188
+    endlist  
+endnode
+node dummy Dummy04 
+  parent vim_protkossuth 
+    orientationkey 
+      0.0   0.75 0 1.5  0.0
+      1.0   0.75 0 1.5  2.094
+      2.0   0.75 0 1.5  4.188
+      3.0   0.75 0 1.5  0.0
+      4.0   0.75 0 1.5  2.094
+      5.0   0.75 0 1.5  4.188
+    endlist  
+endnode
+    node emitter OmenEmitter01
+        parent Dummy01
+    positionkey 
+      0.0 1.5 0.0 0.75
+      5.0 1.5 0.0 0.75
+    endlist 
+  alphaStartkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+  alphaEndkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+    endnode
+    node emitter OmenEmitter02
+        parent Dummy01
+    positionkey 
+      0.0 -1.5 0.0 -0.75
+      5.0 -1.5 0.0 -0.75
+    endlist 
+  alphaStartkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+  alphaEndkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+    endnode
+    node emitter OmenEmitter03
+        parent Dummy02 
+    positionkey 
+      0.0 1.5 0 -0.75
+      5.0 1.5 0 -0.75
+    endlist
+  alphaStartkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+  alphaEndkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+    endnode
+    node emitter OmenEmitter04
+        parent Dummy02 
+    positionkey 
+      0.0 -1.5 0 0.75
+      5.0 -1.5 0 0.75
+    endlist 
+  alphaStartkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+  alphaEndkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+    endnode
+    node emitter OmenEmitter05
+        parent Dummy03 
+    positionkey 
+      0.0 0 1.5 0.75
+      5.0 0 1.5 0.75
+    endlist 
+  alphaStartkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+  alphaEndkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+    endnode
+    node emitter OmenEmitter06
+        parent Dummy03 
+    positionkey 
+      0.0 0 -1.5 -0.75
+      5.0 0 -1.5 -0.75
+    endlist 
+  alphaStartkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+  alphaEndkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+    endnode
+    node emitter OmenEmitter07
+        parent Dummy04 
+    positionkey 
+      0.0 0.0 1.5 -0.75
+      5.0 0.0 1.5 -0.75
+    endlist 
+  alphaStartkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+  alphaEndkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+    endnode
+    node emitter OmenEmitter08
+        parent Dummy04 
+    positionkey 
+      0.0 0.0 -1.5 0.75
+      5.0 0.0 -1.5 0.75
+    endlist 
+  alphaStartkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+  alphaEndkey 4
+      0.0   0.0
+      0.1   1.0
+      4.5   1.0
+      5.0   0.0	
+    endnode
+node emitter Ring
+  parent vim_protkossuth
+endnode
+doneanim impact vim_protkossuth 
+donemodel vim_protkossuth 

@@ -1,0 +1,201 @@
+#MAXMODEL ASCII
+# model: vps_wallred
+filedependancy vps_wallred.max
+newmodel vps_wallred
+setsupermodel vps_wallred NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vps_wallred
+node dummy vps_wallred
+  parent NULL
+endnode
+node emitter Ring09
+  parent vps_wallred
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.00303075 0 0.0515032
+  orientation 0 0 1 -1.5708
+  xsize 100
+  ysize 100
+  threshold 0
+  combinetime 0
+  colorStart 0.94902 0.72549 0.72549
+  colorEnd 0.764706 0 0
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 8
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0.1
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 12
+  frameStart 0
+  frameEnd 15
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter Ring10
+  parent vps_wallred
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.00303075 0 0.500761
+  orientation 0 0 1 -1.5708
+  xsize 100
+  ysize 100
+  threshold 0
+  combinetime 0
+  colorStart 0.968628 0.580392 0.580392
+  colorEnd 0.909804 0 0
+  alphaStart 0.7
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 4
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0.2
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  fps 12
+  frameStart 0
+  frameEnd 15
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom vps_wallred
+
+#MAXANIM ASCII
+newanim impact vps_wallred
+  length 0.3
+  transtime 0
+  animroot vps_wallred
+  node dummy vps_wallred
+    parent NULL
+  endnode
+  node emitter Ring09
+    parent vps_wallred
+    birthratekey 2
+         0.0000000    3.0000000
+         0.3000000    3.0000000
+  endnode
+  node emitter Ring10
+    parent vps_wallred
+    birthratekey 2
+         0.0000000    4.0000000
+         0.3000000    4.0000000
+  endnode
+doneanim impact vps_wallred
+
+#MAXANIM ASCII
+newanim duration vps_wallred
+  length 2
+  transtime 0
+  animroot vps_wallred
+  node dummy vps_wallred
+    parent NULL
+  endnode
+  node emitter Ring09
+    parent vps_wallred
+    birthratekey 2
+         0.0000000    3.0000000
+         2.0000000    3.0000000
+  endnode
+  node emitter Ring10
+    parent vps_wallred
+    birthratekey 2
+         0.0000000    4.0000000
+         2.0000000    4.0000000
+  endnode
+doneanim duration vps_wallred
+
+#MAXANIM ASCII
+newanim cessation vps_wallred
+  length 0.666667
+  transtime 0
+  animroot vps_wallred
+  node dummy vps_wallred
+    parent NULL
+  endnode
+  node emitter Ring09
+    parent vps_wallred
+    birthratekey 2
+         0.0000000    3.0000000
+         0.1666670    0.0000000
+  endnode
+  node emitter Ring10
+    parent vps_wallred
+    birthratekey 2
+         0.0000000    4.0000000
+         0.1666670    0.0000000
+  endnode
+doneanim cessation vps_wallred
+
+donemodel vps_wallred

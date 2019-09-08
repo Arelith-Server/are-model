@@ -1,0 +1,548 @@
+#MAXMODEL ASCII
+# model: vff_strkholy_g
+filedependancy vff_strkholy_g.max
+newmodel vff_strkholy_g
+setsupermodel vff_strkholy_g NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vff_strkholy_g
+node dummy vff_strkholy_g
+  parent NULL
+endnode
+node emitter OmenEmitter022
+  parent vff_strkholy_g
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Motion_Blur
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.00365542
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 -6.989e-07 16.989
+  orientation -1 0 0 -3.14159
+  xsize 100
+  ysize 100
+  threshold 0
+  combinetime 0
+  colorStart 0.117647 0.921569 0.0117647
+  colorEnd 0.662745 0.968628 0.623529
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 0.2
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 5
+  birthrate 200
+  lifeExp 0.5
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 50
+  randvel 1
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 3
+  drag 0.4
+endnode
+node emitter Splat
+  parent vff_strkholy_g
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.200269
+  orientation 0 0 0 0
+  xsize 100
+  ysize 100
+  threshold 0
+  combinetime 0
+  colorStart 0.564706 0.972549 0.498039
+  colorEnd 0.290196 1 0.172549
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 1
+  mass 0
+  spread 0.523599
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 16
+  frameStart 0
+  frameEnd 15
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter FireEmit01
+  parent vff_strkholy_g
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 -8.61044e-05 0.549055
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.972549 0.94902 0.827451
+  colorEnd 0.929412 0.87451 0.560784
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 2.14746
+  sizeEnd 0.635072
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 0.5
+  mass -0.298924
+  spread 1.5708
+  particleRot 0
+  velocity 9.12889
+  randvel 3.5
+  bounce_co 0
+  blurlength 10
+  fps 15
+  frameStart 0
+  frameEnd 15
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter OmenEmitter01
+  parent vff_strkholy_g
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Motion_Blur
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.00365542
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.661021
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.1
+  alphaEnd 1
+  sizeStart 1
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 10
+  birthrate 0
+  lifeExp 0.5
+  mass 0
+  spread 2.96706
+  particleRot 0
+  velocity 5
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node light AuroraLight01
+  parent vff_strkholy_g
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 2
+  fadingLight 0
+  flareradius 0
+  position 0 0 1.89631
+  orientation -0.5773502 0.5773503 0.5773503 -2.0944
+  radius 8
+  multiplier 1
+  color 0.921569 0.721569 0.113726
+endnode
+node emitter WIND_Dummy
+  parent vff_strkholy_g
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Punch-Through
+  texture NULL
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 13
+  blastLength 1
+  position -0.00249214 0.000424422 0.390378
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom vff_strkholy_g
+
+#MAXANIM ASCII
+newanim impact vff_strkholy_g
+  length 3.3
+  transtime 0.25
+  animroot vff_strkholy_g
+  event 0.566667 detonate
+  node dummy vff_strkholy_g
+    parent NULL
+  endnode
+  node emitter OmenEmitter022
+    parent vff_strkholy_g
+    birthratekey 5
+         0.0000000  200.0000000
+         0.0333333  200.0000000
+         1.2333300  200.0000000
+         1.2666700  200.0000000
+         1.3000000    0.0000000
+  endnode
+  node emitter Splat
+    parent vff_strkholy_g
+    birthratekey 7
+         0.0000000    0.0000000
+         0.4333330    0.0000000
+         0.4666670    6.0000000
+         1.1333300    4.0000000
+         1.6666700    5.0000000
+         1.8333300    4.0000000
+         1.8666700    0.0000000
+    sizeStartkey 6
+         0.0000000    0.0000000
+         0.4333330    0.0000000
+         0.4666670    0.0000000
+         0.7333330   13.0000000
+         1.6666700   13.0000000
+         1.8333300    0.0000000
+    sizeEndkey 4
+         0.4666670    0.0000000
+         0.7333330   10.0000000
+         1.6666700   10.0000000
+         1.8333300    0.0000000
+  endnode
+  node emitter FireEmit01
+    parent vff_strkholy_g
+    positionkey 5
+         0.0000000    0.0000000   -0.0000861    0.5490550
+         0.2000000    0.0000000   -0.0000861    0.5490550
+         0.4333330    0.0000000   -0.0000861    0.5490550
+         1.0666699    0.0000000   -0.0000861    0.5490550
+         1.5666699    0.0000000   -0.0000861    0.5490550
+    orientationkey 5
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.2000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.4333330    0.0000000    0.0000000    0.0000000    0.0000000
+         1.0666699    0.0000000    0.0000000    0.0000000    0.0000000
+         1.5666699    0.0000000    0.0000000    0.0000000    0.0000000
+    alphaStartkey 7
+         0.0000000    1.0000000
+         0.2000000    1.0000000
+         0.4000000    1.0000000
+         0.4333330    1.0000000
+         1.0333300    1.0000000
+         1.0666699    1.0000000
+         1.5000000    1.0000000
+    alphaEndkey 7
+         0.0000000    0.0000000
+         0.2000000    0.0000000
+         0.4000000    0.0000000
+         0.4333330    0.0000000
+         1.0333300    0.0000000
+         1.0666699    0.0000000
+         1.5000000    0.0000000
+    birthratekey 7
+         0.0000000    0.0000000
+         0.2000000    0.0000000
+         0.4000000  -60.0000000
+         0.4333330   20.0000000
+         1.0333300  -60.0000000
+         1.0666699   20.0000000
+         1.5000000    0.0000000
+    bounce_cokey 7
+         0.0000000    0.0000000
+         0.2000000    0.0000000
+         0.4000000    0.0000000
+         0.4333330    0.0000000
+         1.0333300    0.0000000
+         1.0666699    0.0000000
+         1.5000000    0.0000000
+    colorStartkey 7
+         0.0000000    0.9725490    0.9490200    0.8274510
+         0.2000000    0.9725490    0.9490200    0.8274510
+         0.4000000    0.9725490    0.9490190    0.8274510
+         0.4333330    0.9725490    0.9490190    0.8274510
+         1.0333300    0.9725490    0.9490190    0.8274510
+         1.0666699    0.9725490    0.9490190    0.8274510
+         1.5000000    0.9725490    0.9490190    0.8274510
+    colorEndkey 7
+         0.0000000    0.9294120    0.8745100    0.5607840
+         0.2000000    0.9294120    0.8745100    0.5607840
+         0.4000000    0.9294120    0.8745100    0.5607840
+         0.4333330    0.9294120    0.8745100    0.5607840
+         1.0333300    0.9294120    0.8745100    0.5607840
+         1.0666699    0.9294120    0.8745100    0.5607840
+         1.5000000    0.9294110    0.8745100    0.5607840
+    fpskey 7
+         0.0000000   15.0000000
+         0.2000000   15.0000000
+         0.4000000   15.0000000
+         0.4333330   15.0000000
+         1.0333300   15.0000000
+         1.0666699   15.0000000
+         1.5000000   15.0000000
+    frameStartkey 7
+         0.0000000    0.0000000
+         0.2000000    0.0000000
+         0.4000000    0.0000000
+         0.4333330    0.0000000
+         1.0333300    0.0000000
+         1.0666699    0.0000000
+         1.5000000    0.0000000
+    frameEndkey 7
+         0.0000000   15.0000000
+         0.2000000   15.0000000
+         0.4000000   15.0000000
+         0.4333330   15.0000000
+         1.0333300   15.0000000
+         1.0666699   15.0000000
+         1.5000000   15.0000000
+    lifeExpkey 7
+         0.0000000    0.5000000
+         0.2000000    0.5000000
+         0.4000000    0.5000000
+         0.4333330    0.5000000
+         1.0333300    0.5000000
+         1.0666699    0.5000000
+         1.5000000    0.5000000
+    masskey 7
+         0.0000000   -0.2989240
+         0.2000000   -0.2989240
+         0.4000000   -0.2226720
+         0.4333330   -0.2989240
+         1.0333300   -0.2226720
+         1.0666699   -0.2989240
+         1.5000000    0.0000000
+    sizeStartkey 7
+         0.0000000    2.1474600
+         0.2000000    2.1474600
+         0.4000000    0.7493750
+         0.4333330    8.0000000
+         1.0333300    0.7493750
+         1.0666699    8.0000000
+         1.5000000    0.0000000
+    sizeEndkey 7
+         0.0000000    0.6350720
+         0.2000000    0.6350720
+         0.4000000    0.3597000
+         0.4333330    3.0000000
+         1.0333300    0.3597000
+         1.0666699    3.0000000
+         1.5000000    0.0000000
+    spreadkey 7
+         0.0000000    1.5707999
+         0.2000000    1.5707999
+         0.4000000    1.5707999
+         0.4333330    1.5707999
+         1.0333300    1.5707999
+         1.0666699    2.0943899
+         1.5000000    1.5707999
+    velocitykey 7
+         0.0000000    9.1288900
+         0.2000000    9.1288900
+         0.4000000    6.9629402
+         0.4333330   15.0001001
+         1.0333300    6.9629402
+         1.0666699   15.0001001
+         1.5000000    0.0000982
+    xsizekey 6
+         0.2000000    0.0000000
+         0.4000000    0.0000000
+         0.4333330    0.0000000
+         1.0333300    0.0000000
+         1.0666699    0.0000000
+         1.5000000    0.0000000
+    ysizekey 6
+         0.2000000    0.0000000
+         0.4000000    0.0000000
+         0.4333330    0.0000000
+         1.0333300    0.0000000
+         1.0666699    0.0000000
+         1.5000000    0.0000000
+  endnode
+  node emitter OmenEmitter01
+    parent vff_strkholy_g
+    birthratekey 6
+         0.0000000    0.0000000
+         0.5000000    0.0000000
+         0.5333330  100.0000000
+         1.2333300  100.0000000
+         1.2666700  100.0000000
+         1.3000000    0.0000000
+  endnode
+  node light AuroraLight01
+    parent vff_strkholy_g
+    colorkey 9
+         0.0000000    0.9215690    0.7215690    0.1137260
+         0.0333333    0.9215690    0.7215690    0.1137260
+         0.3666670    0.9529420    0.9058830    0.3882350
+         0.8000000    0.9215690    0.7215690    0.1137260
+         1.2333300    0.9764710    0.8431370    0.1137260
+         1.4333301    0.9215690    0.7215690    0.1137260
+         1.7333300    0.9843140    0.8392160    0.3960780
+         2.0000000    0.9215690    0.7215690    0.1137260
+         2.4000001    0.0000006    0.0000000    0.0000000
+  endnode
+  node emitter WIND_Dummy
+    parent vff_strkholy_g
+  endnode
+doneanim impact vff_strkholy_g
+
+donemodel vff_strkholy_g

@@ -1,0 +1,123 @@
+#MAXMODEL ASCII
+# model: vps_fogpurp_L
+filedependancy vps_fogpurp_L.max
+newmodel vps_fogpurp_L
+setsupermodel vps_fogpurp_L NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vps_fogpurp_L
+node dummy vps_fogpurp_L
+  parent NULL
+endnode
+node emitter Ring01
+  parent vps_fogpurp_L
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.339506
+  orientation 0 0 1 -1.5708
+  xsize 150
+  ysize 150
+  threshold 0
+  combinetime 0
+  colorStart 0.776471 0.215686 0.623529
+  colorEnd 0.505882 0 0.498039
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 8
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  fps 12
+  frameStart 0
+  frameEnd 15
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom vps_fogpurp_L
+
+#MAXANIM ASCII
+newanim impact vps_fogpurp_L
+  length 0.3
+  transtime 0.25
+  animroot vps_fogpurp_L
+  node dummy vps_fogpurp_L
+    parent NULL
+  endnode
+  node emitter Ring01
+    parent vps_fogpurp_L
+    birthratekey 2
+         0.0000000    3.0000000
+         0.3000000    3.0000000
+  endnode
+doneanim impact vps_fogpurp_L
+
+#MAXANIM ASCII
+newanim duration vps_fogpurp_L
+  length 2
+  transtime 0.25
+  animroot vps_fogpurp_L
+  node dummy vps_fogpurp_L
+    parent NULL
+  endnode
+  node emitter Ring01
+    parent vps_fogpurp_L
+    birthratekey 2
+         0.0000000    3.0000000
+         2.0000000    3.0000000
+  endnode
+doneanim duration vps_fogpurp_L
+
+#MAXANIM ASCII
+newanim cessation vps_fogpurp_L
+  length 2
+  transtime 0.25
+  animroot vps_fogpurp_L
+  node dummy vps_fogpurp_L
+    parent NULL
+  endnode
+  node emitter Ring01
+    parent vps_fogpurp_L
+    birthratekey 2
+         0.0000000    3.0000000
+         0.1666670    0.0000000
+  endnode
+doneanim cessation vps_fogpurp_L
+
+donemodel vps_fogpurp_L

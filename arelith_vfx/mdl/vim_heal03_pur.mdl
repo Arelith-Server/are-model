@@ -1,0 +1,315 @@
+#MAXMODEL ASCII
+# model: vim_heal03_pur
+filedependancy vim_heal03_pur.max
+newmodel vim_heal03_pur
+setsupermodel vim_heal03_pur NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_heal03_pur
+node dummy vim_heal03_pur
+  parent NULL
+endnode
+node dummy Dummy01
+  parent vim_heal03_pur
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node emitter OmenEmitter01
+  parent Dummy01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 1
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Sparks
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.6 0 -0.0907741
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 0.956863 0.0392157 0.513726
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.5
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 1
+  mass 0.5
+  spread 2.0944
+  particleRot 1
+  velocity 1
+  randvel 0.3
+  bounce_co 0.1
+  blurlength 10
+  fps 16
+  frameStart 0
+  frameEnd 15
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter OmenEmitter02
+  parent Dummy01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 1
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Sparks
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.6 0 -0.0913127
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.87451 0 0.556863
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.5
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 1
+  mass 0.5
+  spread 2.0944
+  particleRot 1
+  velocity 1
+  randvel 0.3
+  bounce_co 0.1
+  blurlength 10
+  fps 16
+  frameStart 0
+  frameEnd 15
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node light AuroraLight01
+  parent OmenEmitter02
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 0
+  flareradius 0
+  position -0.00489616 0.0911736 0.0499051
+  orientation 0.4074397 -0.6457526 -0.6457526 -3.9154
+  radius 4.99998
+  multiplier 1
+  color 0.847059 0.678432 0
+endnode
+node emitter dot
+  parent vim_heal03_pur
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_StarBnW
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 -0.0193274
+  orientation -1 0 0 -1.5708
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.7
+  alphaEnd 0.7
+  sizeStart 5
+  sizeEnd 5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 1
+  lifeExp -1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 8
+  frameStart 0
+  frameEnd 3
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom vim_heal03_pur
+
+#MAXANIM ASCII
+newanim impact vim_heal03_pur
+  length 3.3
+  transtime 0.25
+  animroot vim_heal03_pur
+  node dummy vim_heal03_pur
+    parent NULL
+  endnode
+  node dummy Dummy01
+    parent vim_heal03_pur
+    orientationkey 13
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.1333330    0.0000000    0.0000000    1.0000000   -1.5707999
+         0.3000000    0.0000000    0.0000000    1.0000000   -3.1415901
+         0.4666670    0.0000000    0.0000000    1.0000000   -4.7123899
+         0.6333330    0.0000000    0.0000000    0.0000000    0.0000000
+         0.8000000    0.0000000    0.0000000   -1.0000000   -4.7123899
+         0.9666670    0.0000000    0.0000000   -1.0000000   -3.1415901
+         1.1333300    0.0000000    0.0000000   -1.0000000   -1.5707999
+         1.3000000    0.0000000    0.0000000    0.0000000    0.0000000
+         1.4666700    0.0000000    0.0000000    1.0000000   -1.5707999
+         1.6333300    0.0000000    0.0000000    1.0000000   -3.1415901
+         1.8000000    0.0000000    0.0000000    1.0000000   -4.7123899
+         1.9666700    0.0000000    0.0000000    1.0000000   -6.1959200
+  endnode
+  node emitter OmenEmitter01
+    parent Dummy01
+    positionkey 3
+         0.0000000    0.6000000    0.0000000   -0.0907741
+         1.9666700    1.0886400    0.0000000    2.6670201
+         3.2000000    1.0886400    0.0000000    2.6670201
+    alphaStartkey 7
+         0.0000000    1.0000000
+         1.9333301    1.0000000
+         1.9666700    1.0000000
+         3.1666701    1.0000000
+         3.2000000    0.0000000
+         3.2333300    0.0000000
+         3.3000000    0.0000000
+    birthratekey 4
+         0.0000000   10.0000000
+         1.9000000   10.0000000
+         1.9333301   10.0000000
+         1.9666700    0.0000000
+  endnode
+  node emitter OmenEmitter02
+    parent Dummy01
+    positionkey 2
+         0.0000000   -0.6000000    0.0000000   -0.0913127
+         1.9666700   -1.0479200    0.0000000    2.6752901
+    alphaStartkey 7
+         0.0000000    1.0000000
+         1.9333301    1.0000000
+         1.9666700    1.0000000
+         3.1666701    1.0000000
+         3.2000000    0.0000000
+         3.2333300    0.0000000
+         3.3000000    0.0000000
+    birthratekey 4
+         0.0000000   10.0000000
+         1.9000000   10.0000000
+         1.9333301   10.0000000
+         1.9666700    0.0000000
+  endnode
+  node light AuroraLight01
+    parent OmenEmitter02
+    colorkey 8
+         0.0000000    0.8470590    0.6784320    0.0000000
+         0.2666670    1.0000000    0.8627450    0.0980393
+         0.6666670    0.9215690    0.6941180    0.0000000
+         1.3666700    0.7882360    0.5019610    0.0000000
+         1.6333300    0.9411770    0.6941180    0.1568630
+         1.8666700    0.9529410    0.7568630    0.1568630
+         1.9000000    0.9529410    0.6941180    0.0000000
+         2.3000000    0.0000000    0.0000000    0.0000015
+    radiuskey 3
+         1.8666700  499.8999939
+         1.9000000  497.2000122
+         2.3000000    0.0000000
+  endnode
+  node emitter dot
+    parent vim_heal03_pur
+    positionkey 2
+         0.0000000    0.0000000    0.0000000   -0.0193274
+         1.7000000    0.0000000    0.0000004    2.3733900
+    alphaStartkey 4
+         0.0000000    0.7000000
+         1.6000000    0.7000000
+         1.6333300    0.7000000
+         1.7000000    1.0000000
+    sizeStartkey 6
+         0.0000000    5.0000000
+         0.0333333    5.0000000
+         1.6000000    5.0000000
+         1.6333300    5.0000000
+         1.7000000   10.0000000
+         1.8666700    0.0000000
+  endnode
+doneanim impact vim_heal03_pur
+
+donemodel vim_heal03_pur

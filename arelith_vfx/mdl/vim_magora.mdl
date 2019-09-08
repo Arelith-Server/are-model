@@ -1,0 +1,182 @@
+#MAXMODEL ASCII
+# model: vim_magora
+filedependancy vim_magora.max
+newmodel vim_magora
+setsupermodel vim_magora NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_magora
+node dummy vim_magora
+  parent NULL
+endnode
+node emitter flares
+  parent vim_magora
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 0.996079 0.564706 0.356863
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.5
+  sizeEnd 0.07
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 70
+  lifeExp 1
+  mass 0.2
+  spread 6.28319
+  particleRot 0
+  velocity 3
+  randvel 1
+  bounce_co 0.2
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter Sparks
+  parent vim_magora
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Aligned_to_Particle_Dir
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.00365542
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation -1 0 0 -3.14159
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 0.996079 0.815686 0.427451
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.5
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 1
+  birthrate 30
+  lifeExp 0.15
+  mass 0
+  spread 6.28319
+  particleRot 0
+  velocity 7
+  randvel 0.3
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node light AuroraLight01
+  parent Sparks
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 2
+  fadingLight 0
+  flareradius 0
+  position -0.00022686 -0.161793 -0.145388
+  orientation -1 0 0 -3.14159
+  radius 5
+  multiplier 1
+  color 0.788236 0.886275 1
+endnode
+endmodelgeom vim_magora
+
+#MAXANIM ASCII
+newanim impact vim_magora
+  length 1.63333
+  transtime 0
+  animroot vim_magora
+  event 0 detonate
+  event 0 detonate
+  node dummy vim_magora
+    parent NULL
+  endnode
+  node emitter flares
+    parent vim_magora
+  endnode
+  node emitter Sparks
+    parent vim_magora
+  endnode
+  node light AuroraLight01
+    parent Sparks
+    colorkey 10
+         0.0000000    0.7882360    0.8862750    1.0000000
+         0.0333333    0.7882360    0.8862750    1.0000000
+         0.1333330    0.4000000    0.6823530    1.0000000
+         0.2333330    0.7882360    0.8862750    1.0000000
+         0.3333330    0.4000000    0.6823530    1.0000000
+         0.4333330    0.7882360    0.8862750    1.0000000
+         0.5333330    0.4000000    0.6823530    1.0000000
+         0.6000000    0.7450980    0.8666670    1.0000000
+         0.6333330    0.7450980    0.8666670    1.0000000
+         0.8000000    0.0000002    0.0000002    0.0000000
+  endnode
+doneanim impact vim_magora
+
+donemodel vim_magora

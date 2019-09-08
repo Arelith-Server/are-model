@@ -1,0 +1,144 @@
+#MAXMODEL ASCII
+# model: vim_protmagic_b
+filedependancy vim_protmagic_b.max
+newmodel vim_protmagic_b
+setsupermodel vim_protmagic_b NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_protmagic_b
+node dummy vim_protmagic_b
+  parent NULL
+endnode
+node dummy Dummy01
+  parent vim_protmagic_b
+  position 0 0 0
+  orientation 0 -1 0 -3.14159
+endnode
+node emitter OmenEmitter01
+  parent Dummy01
+  p2p 1
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 -0.3
+  orientation -1 0 0 -3.735
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.729412 0 0.941177
+  colorEnd 0.854902 0.611765 0.984314
+  alphaStart 1
+  alphaEnd 0.1
+  sizeStart 0.1
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 300
+  lifeExp 3
+  mass 0
+  spread 6.28319
+  particleRot 0
+  velocity 1
+  randvel 1
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 4
+  drag 1
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+  refModel fx_ref
+  reattachable 0
+  position 0 0.625386 0.927173
+  orientation -1 0 0 -2.54818
+endnode
+node light AuroraLight01
+  parent vim_protmagic_b
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 2
+  fadingLight 0
+  flareradius 0
+  position 0 0 0.664235
+  orientation -0.5773502 0.5773503 0.5773503 -2.0944
+  radius 2
+  multiplier 1
+  color 0.145098 0.850981 1
+endnode
+endmodelgeom vim_protmagic_b
+
+#MAXANIM ASCII
+newanim impact vim_protmagic_b
+  length 3.96667
+  transtime 0.25
+  animroot vim_protmagic_b
+  node dummy vim_protmagic_b
+    parent NULL
+  endnode
+  node dummy Dummy01
+    parent vim_protmagic_b
+    orientationkey 5
+         0.0000000    0.0000000   -1.0000000    0.0000000   -3.1415901
+         0.2333330    0.7071068   -0.7071068    0.0000000   -3.1415901
+         0.4666670    1.0000000    0.0000000    0.0000000   -3.1415901
+         0.7000000    0.7071068    0.7071068    0.0000000   -3.1415901
+         0.9666670    0.0784591    0.9969174    0.0000000   -3.1415901
+  endnode
+  node emitter OmenEmitter01
+    parent Dummy01
+    birthratekey 5
+         0.0000000  300.0000000
+         0.0333333  300.0000000
+         0.9333330  300.0000000
+         0.9666670  300.0000000
+         1.0000000    0.0000000
+  endnode
+  node reference OmenRef01
+    parent OmenEmitter01
+  endnode
+  node light AuroraLight01
+    parent vim_protmagic_b
+    colorkey 7
+         0.0000000    0.1450980    0.8509810    1.0000000
+         0.1333330    0.1450980    0.8509810    1.0000000
+         0.2666670    0.1686270    0.7882360    0.9215690
+         0.4333330    0.1137250    0.6666670    0.9215690
+         0.5666670    0.1764700    0.7843140    1.0000000
+         0.7666670    0.1137260    0.6666670    0.9215690
+         0.9666670    0.0000000    0.0000004    0.0000003
+  endnode
+doneanim impact vim_protmagic_b
+
+donemodel vim_protmagic_b

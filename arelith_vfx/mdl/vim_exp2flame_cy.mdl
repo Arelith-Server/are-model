@@ -1,0 +1,315 @@
+#MAXMODEL ASCII
+# model: vim_exp2flame_cy
+filedependancy vim_exp2flame_cy.max
+newmodel vim_exp2flame_cy
+setsupermodel vim_exp2flame_cy NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_exp2flame_cy
+node dummy vim_exp2flame_cy
+  parent NULL
+endnode
+node dummy Dummy01
+  parent vim_exp2flame_cy
+  position 0 0 -0.208329
+  orientation 0 0 1 -0.122173
+endnode
+node emitter Flame01
+  parent Dummy01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_FireBb_cyan
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.328538
+  orientation 0 0 0 0
+  xsize 60
+  ysize 50
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.6
+  alphaEnd 0
+  sizeStart 2
+  sizeEnd 4
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 30
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 3
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 16
+  frameStart 0
+  frameEnd 15
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter sparks01
+  parent vim_exp2flame_cy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.245605
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 0.87059 0
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 0.3
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 1
+  mass 0
+  spread 0.523599
+  particleRot 0
+  velocity 7
+  randvel 1
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter Smoke
+  parent vim_exp2flame_cy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.463927
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.619608 0.619608 0.619608
+  colorEnd 0 0 0
+  alphaStart 0.2
+  alphaEnd 0
+  sizeStart 0.5
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 2
+  mass -0.06
+  spread 0
+  particleRot 0.5
+  velocity 1.5
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  fps 16
+  frameStart 0
+  frameEnd 15
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node light AuroraLight01
+  parent vim_exp2flame_cy
+  ambientonly 1
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 0
+  flareradius 0
+  position 0.00116925 0.0549327 0.333037
+  orientation 0 0 0 0
+  radius 5.00006
+  multiplier 1
+  color 0.945098 0.741176 0.419608
+endnode
+endmodelgeom vim_exp2flame_cy
+
+#MAXANIM ASCII
+newanim impact vim_exp2flame_cy
+  length 1.63333
+  transtime 0.25
+  animroot vim_exp2flame_cy
+  node dummy vim_exp2flame_cy
+    parent NULL
+  endnode
+  node dummy Dummy01
+    parent vim_exp2flame_cy
+    orientationkey 11
+         0.0000000    0.0000000    0.0000000    1.0000000   -0.1221730
+         0.1000000    0.0000000    0.0000000    1.0000000   -1.5707999
+         0.2333330    0.0000000    0.0000000    1.0000000   -3.1415901
+         0.3666670    0.0000000    0.0000000    1.0000000   -4.7123899
+         0.5000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.6333330    0.0000000    0.0000000   -1.0000000   -4.7123899
+         0.7666670    0.0000000    0.0000000   -1.0000000   -3.1415901
+         0.9333330    0.0000000    0.0000000   -1.0000000   -1.5707999
+         1.1000000    0.0000000    0.0000000    0.0000000    0.0000000
+         1.2666700    0.0000000    0.0000000    1.0000000   -1.5707999
+         1.4666700    0.0000000    0.0000000    1.0000000   -3.1415901
+  endnode
+  node emitter Flame01
+    parent Dummy01
+    alphaStartkey 5
+         0.5000000    0.6000000
+         0.5333330    0.6000000
+         0.5666670    0.6000000
+         0.6000000    0.6000000
+         0.9666670    0.0000000
+    birthratekey 3
+         0.0000000   30.0000000
+         0.5666670   30.0000000
+         0.6000000    0.0000000
+    velocitykey 3
+         0.0000000    3.0000000
+         0.5000000    3.0000000
+         0.5333330    0.8000000
+  endnode
+  node emitter sparks01
+    parent vim_exp2flame_cy
+    birthratekey 6
+         0.0000000    3.0000000
+         0.1333330   11.0000000
+         0.2666670   10.0000000
+         0.4000000    5.0000000
+         0.5666670    5.0000000
+         0.6000000    0.0000000
+  endnode
+  node emitter Smoke
+    parent vim_exp2flame_cy
+    birthratekey 4
+         0.0000000    0.0000000
+         0.0333333   15.0000000
+         0.5000000   15.0000000
+         0.5333330    0.0000000
+  endnode
+  node light AuroraLight01
+    parent vim_exp2flame_cy
+    positionkey 23
+         0.0000000    0.0011692    0.0549327    0.3330370
+         0.0666667   -0.0470504    0.0233579    0.3330370
+         0.1000000   -0.0469611   -0.0177411    0.3330370
+         0.1666670    0.0904774    0.0304654    0.3330370
+         0.2333330   -0.0278369   -0.0877678    0.3330370
+         0.3000000   -0.0928541    0.2040660    0.3330370
+         0.3666670   -0.1119320   -0.3244350    0.3330370
+         0.4333330    0.2184340    0.0429552    0.3330370
+         0.5000000   -0.3025980    0.2234720    0.3330370
+         0.5666670   -0.0247843   -0.0882316    0.3330370
+         0.6333330    0.1270590    0.0638448    0.3330370
+         0.7333330    0.1146800    0.2563340    0.3330370
+         0.8333330   -0.2663430   -0.1928380    0.3330370
+         0.9333330    0.3656000   -0.1295390    0.3330370
+         1.0000000    0.0538517    0.1503980    0.3330370
+         1.1000000   -0.1125670   -0.0140533    0.3330370
+         1.1666700   -0.0159344   -0.1104380    0.3330370
+         1.2333300    0.0009474    0.5284650    0.3330370
+         1.3000000   -0.0877406   -0.4268070    0.3330370
+         1.4000000    0.4644410   -0.3562940    0.3330370
+         1.4666700    0.1088320   -0.0611265    0.3330370
+         1.5333300   -0.4026760   -0.1895880    0.3330370
+         1.6000000    0.3615450    0.3298860    0.3330370
+    colorkey 6
+         0.0000000    0.9450980    0.7411760    0.4196080
+         0.3000000    0.9686280    0.8549020    0.6784310
+         0.5666670    0.9372550    0.7058820    0.3411770
+         0.8333330    0.9333340    0.6823530    0.2823530
+         0.8666670    0.0000000    0.0000000    0.0000000
+         1.1000000    0.0000000    0.0000000    0.0000000
+    radiuskey 5
+         0.0000000  500.0060120
+         0.5666670  500.2160034
+         0.9333330  500.1870117
+         1.0000000  500.2000122
+         1.1000000    0.0000000
+  endnode
+doneanim impact vim_exp2flame_cy
+
+donemodel vim_exp2flame_cy

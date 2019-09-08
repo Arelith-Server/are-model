@@ -1,0 +1,180 @@
+#MAXMODEL ASCII
+# model: vff_explblingrnL
+filedependancy vff_explblingrnL.max
+newmodel vff_explblingrnL
+setsupermodel vff_explblingrnL NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vff_explblingrnL
+node dummy vff_explblingrnL
+  parent NULL
+endnode
+node dummy Dummy01
+  parent vff_explblingrnL
+  position 0 0 -0.491643
+  orientation 0 0 0 0
+endnode
+node emitter FXcj_MoteRS_01
+  parent Dummy01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Flare1
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.631079 0 2.13408
+  orientation 0 0 0 0
+  xsize 660
+  ysize 660
+  threshold 0
+  combinetime 0
+  colorStart 0.12549 0.87451 0.12549
+  colorEnd 0.12549 0.87451 0.12549
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 3
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 100
+  lifeExp 0.2
+  mass 0
+  spread 0.872665
+  particleRot 1.6
+  velocity 0.5
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  fps 60
+  frameStart 0
+  frameEnd 3
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter FXcj_MoteRS_02
+  parent Dummy01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Flare1
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.651193 0.00252794 2.13408
+  orientation 0 0 0 0
+  xsize 660
+  ysize 660
+  threshold 0
+  combinetime 0
+  colorStart 0.12549 0.87451 0.12549
+  colorEnd 0.533333 0.686275 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 5
+  sizeEnd 0.8
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 100
+  lifeExp 0.1
+  mass 0
+  spread 0.872665
+  particleRot 0
+  velocity 0.2
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 3
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom vff_explblingrnL
+
+#MAXANIM ASCII
+newanim impact vff_explblingrnL
+  length 3.96667
+  transtime 0.25
+  animroot vff_explblingrnL
+  node dummy vff_explblingrnL
+    parent NULL
+  endnode
+  node dummy Dummy01
+    parent vff_explblingrnL
+    orientationkey 12
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3000000    0.0000000    0.0000000   -1.0000000   -1.5707999
+         0.6666670    0.0000000    0.0000000   -1.0000000   -3.1415901
+         1.0666699    0.0000000    0.0000000   -1.0000000   -4.7123899
+         1.4333301    0.0000000    0.0000000    0.0000000    0.0000000
+         1.8000000    0.0000000    0.0000000    1.0000000   -4.7123899
+         2.2000000    0.0000000    0.0000000    1.0000000   -3.1415901
+         2.5333300    0.0000000    0.0000000    1.0000000   -1.5707999
+         2.9000001    0.0000000    0.0000000    0.0000000    0.0000000
+         3.2666700    0.0000000    0.0000000   -1.0000000   -1.5707999
+         3.6333301    0.0000000    0.0000000   -1.0000000   -3.1415901
+         3.9666700    0.0000000    0.0000000   -1.0000000   -4.7123899
+  endnode
+  node emitter FXcj_MoteRS_01
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         3.3000000  100.0000000
+         3.9666700    0.0000000
+  endnode
+  node emitter FXcj_MoteRS_02
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         3.6333301  100.0000000
+         3.9666700    0.0000000
+  endnode
+doneanim impact vff_explblingrnL
+
+donemodel vff_explblingrnL

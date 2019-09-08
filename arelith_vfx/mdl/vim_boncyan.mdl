@@ -1,0 +1,224 @@
+#MAXMODEL ASCII
+# model: vim_boncyan
+filedependancy vim_boncyan.max
+newmodel vim_boncyan
+setsupermodel vim_boncyan NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_boncyan
+node dummy vim_boncyan
+  parent NULL
+endnode
+node emitter OmenEmitter01
+  parent vim_boncyan
+  p2p 1
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Motion_Blur
+  blend Lighten
+  texture fxpa_Dot01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.00304618
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 -0.171067
+  orientation -1 0 0 -1.5708
+  xsize 1000
+  ysize 1000
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 0.376471 0.988235 0.996079
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.02
+  sizeEnd 0.04
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 150
+  lifeExp 1.5
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 5
+  drag 0.4
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+  refModel fx_ref
+  reattachable 0
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node emitter shell
+  parent vim_boncyan
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.00281806 -0.00087907 -0.172857
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.196078 0.968628 0.976471
+  colorEnd 1 1 1
+  alphaStart 0.9
+  alphaEnd 0
+  sizeStart 0.5
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 1.1
+  mass 0
+  spread 6.28319
+  particleRot 0
+  velocity 0.1
+  randvel 0.1
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node light AuroraLight01
+  parent vim_boncyan
+  ambientonly 1
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 0
+  flareradius 0
+  position 0 0.2012 0.251491
+  orientation 0 0 0 0
+  radius 6
+  multiplier 1
+  color 0 0.964706 1
+endnode
+endmodelgeom vim_boncyan
+
+#MAXANIM ASCII
+newanim impact vim_boncyan
+  length 1.96667
+  transtime 0.25
+  animroot vim_boncyan
+  node dummy vim_boncyan
+    parent NULL
+  endnode
+  node emitter OmenEmitter01
+    parent vim_boncyan
+    orientationkey 4
+         0.0000000   -1.0000000    0.0000000    0.0000000   -1.5707999
+         0.3000000   -0.5773502    0.5773503    0.5773503   -2.0943999
+         0.6333330    0.0000000    0.7071068    0.7071068   -3.1415901
+         0.9333330    0.5773502    0.5773503    0.5773503   -4.1887898
+    birthratekey 3
+         0.0000000  150.0000000
+         0.9333330  150.0000000
+         0.9666670    0.0000000
+    colorEndkey 6
+         0.9666670    0.3801400    0.9882350    0.9960790
+         1.0000000    0.3801400    0.9882350    0.9960790
+         1.0333300    0.3801400    0.9882350    0.9960790
+         1.8666700    0.3801400    0.9882350    0.9960790
+         1.9000000    0.3801400    0.9882350    0.9960790
+         1.9666700    0.0000000    0.1450980    0.6196070
+  endnode
+  node reference OmenRef01
+    parent OmenEmitter01
+  endnode
+  node emitter shell
+    parent vim_boncyan
+    birthratekey 8
+         0.0000000    0.0000000
+         0.2666670    0.0000000
+         0.3000000   20.0000000
+         0.9666670   20.0000000
+         1.2000000   20.0000000
+         1.2333300  200.0000000
+         1.4333301  200.0000000
+         1.4666700    0.0000000
+    velocitykey 5
+         0.3000000    0.1000000
+         0.9666670    0.2000000
+         1.2000000    0.2000000
+         1.2333300    1.0000000
+         1.4333301    1.0000000
+  endnode
+  node light AuroraLight01
+    parent vim_boncyan
+    colorkey 6
+         0.0000000    0.0000000    0.9647060    1.0000000
+         0.0333333    0.0000000    0.9647060    1.0000000
+         0.9000000    0.0000000    0.9647060    1.0000000
+         0.9333330    0.0000000    0.9647060    1.0000000
+         0.9666670    0.0000000    0.9647060    1.0000000
+         1.8666700    0.0000000    0.2352940    1.0000000
+    radiuskey 6
+         0.0000000  600.0000000
+         0.0333333  600.0000000
+         0.9000000  600.0000000
+         0.9333330  600.0000000
+         0.9666670  600.0000000
+         1.8666700    0.0000000
+  endnode
+doneanim impact vim_boncyan
+
+donemodel vim_boncyan

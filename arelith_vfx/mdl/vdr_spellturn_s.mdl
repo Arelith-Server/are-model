@@ -1,0 +1,138 @@
+#MAXMODEL ASCII
+# model: vdr_spellturn_s
+filedependancy vdr_spellturn_s.max
+newmodel vdr_spellturn_s
+setsupermodel vdr_spellturn_s NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vdr_spellturn_s
+node dummy vdr_spellturn_s
+  parent NULL
+endnode
+node emitter OmenEmitter01
+  parent vdr_spellturn_s
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_spellturn_s
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.04
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 5
+  sizeEnd 5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 1
+  lifeExp -1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom vdr_spellturn_s
+
+#MAXANIM ASCII
+newanim impact vdr_spellturn_s
+  length 0.3
+  transtime 0.25
+  animroot vdr_spellturn_s
+  node dummy vdr_spellturn_s
+    parent NULL
+  endnode
+  node emitter OmenEmitter01
+    parent vdr_spellturn_s
+    alphaStartkey 2
+         0.0000000    0.0000000
+         0.3000000    1.0000000
+    alphaEndkey 2
+         0.0000000    0.0000000
+         0.3000000    1.0000000
+  endnode
+doneanim impact vdr_spellturn_s
+
+#MAXANIM ASCII
+newanim duration vdr_spellturn_s
+  length 0.666667
+  transtime 0.25
+  animroot vdr_spellturn_s
+  node dummy vdr_spellturn_s
+    parent NULL
+  endnode
+  node emitter OmenEmitter01
+    parent vdr_spellturn_s
+    alphaStartkey 4
+         0.0000000    1.0000000
+         0.0333333    1.0000000
+         0.3666670    0.8000000
+         0.6666670    1.0000000
+    alphaEndkey 4
+         0.0000000    1.0000000
+         0.0333333    1.0000000
+         0.3666670    0.8000000
+         0.6666670    1.0000000
+  endnode
+doneanim duration vdr_spellturn_s
+
+#MAXANIM ASCII
+newanim cessation vdr_spellturn_s
+  length 0.333333
+  transtime 0.25
+  animroot vdr_spellturn_s
+  node dummy vdr_spellturn_s
+    parent NULL
+  endnode
+  node emitter OmenEmitter01
+    parent vdr_spellturn_s
+    alphaStartkey 3
+         0.0000000    1.0000000
+         0.0333333    1.0000000
+         0.3333330    0.0000000
+    alphaEndkey 3
+         0.0000000    1.0000000
+         0.0333333    1.0000000
+         0.3333330    0.0000000
+  endnode
+doneanim cessation vdr_spellturn_s
+
+donemodel vdr_spellturn_s

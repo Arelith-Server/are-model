@@ -1,0 +1,209 @@
+#MAXMODEL ASCII
+# model: vim_bonabil_C
+filedependancy vim_bonabil_C.max
+newmodel vim_bonabil_C
+setsupermodel vim_bonabil_C NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_bonabil_C
+node dummy vim_bonabil_C
+  parent NULL
+endnode
+node dummy Dummy01
+  parent vim_bonabil_C
+  position 0 0 0.0419173
+  orientation 0 0 0 0
+endnode
+node emitter OmenEmitter02
+  parent Dummy01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Flare1
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.803392 -0.00119383 0.144155
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0 0.262745 0.933333
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.4
+  sizeEnd 0.2
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 90
+  lifeExp 1
+  mass -0.3
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0.4
+  bounce_co 0.1
+  blurlength 10
+  fps 15
+  frameStart 0
+  frameEnd 3
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter OmenEmitter01
+  parent Dummy01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Flare1
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.802901 -0.00108323 0.129252
+  orientation -1 0 0 -3.14159
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.352941 1 0
+  colorEnd 0.937255 1 0.768628
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.4
+  sizeEnd 0.2
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 80
+  lifeExp 1
+  mass -0.3
+  spread 6.28319
+  particleRot 0
+  velocity 0
+  randvel 0.5
+  bounce_co 0.1
+  blurlength 10
+  fps 30
+  frameStart 0
+  frameEnd 3
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node light AuroraLight03
+  parent OmenEmitter01
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 0
+  flareradius 0
+  position 0.00124191 -0.115566 -0.270753
+  orientation -1 0 0 -3.14159
+  radius 5
+  multiplier 1
+  color 0.866667 0.65098 0
+endnode
+endmodelgeom vim_bonabil_C
+
+#MAXANIM ASCII
+newanim impact vim_bonabil_C
+  length 2.63333
+  transtime 0.25
+  animroot vim_bonabil_C
+  node dummy vim_bonabil_C
+    parent NULL
+  endnode
+  node dummy Dummy01
+    parent vim_bonabil_C
+    orientationkey 9
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.1333330    0.0000000    0.0000000    1.0000000   -1.5707999
+         0.3000000    0.0000000    0.0000000    1.0000000   -3.1415901
+         0.4666670    0.0000000    0.0000000    1.0000000   -4.7123899
+         0.6333330    0.0000000    0.0000000    0.0000000    0.0000000
+         0.8000000    0.0000000    0.0000000   -1.0000000   -4.7123899
+         0.9666670    0.0000000    0.0000000   -1.0000000   -3.1415901
+         1.1333300    0.0000000    0.0000000   -1.0000000   -1.5707999
+         1.3000000    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node emitter OmenEmitter02
+    parent Dummy01
+    positionkey 2
+         0.0000000    0.8033920   -0.0011938    0.1441550
+         1.3000000    0.0127219   -0.0011939    1.1610800
+    birthratekey 3
+         0.0000000   90.0000000
+         1.3000000   60.0000000
+         1.3333300    0.0000000
+  endnode
+  node emitter OmenEmitter01
+    parent Dummy01
+    positionkey 2
+         0.0000000    0.8029010   -0.0010832    0.1292520
+         1.3000000    0.0122311   -0.0010833    1.1461800
+    birthratekey 3
+         0.0000000   80.0000000
+         1.3000000   59.0000000
+         1.3333300    0.0000000
+  endnode
+  node light AuroraLight03
+    parent OmenEmitter01
+    colorkey 7
+         0.0000000    0.8666670    0.6509800    0.0000000
+         0.0333333    0.8666670    0.6509800    0.0000000
+         0.4333330    0.9176480    0.8470590    0.3803920
+         0.9000000    0.8666670    0.6941180    0.0000000
+         1.3000000    1.0000000    0.8705880    0.0039216
+         1.3333300    0.9960790    0.8431370    0.0000000
+         1.9666700    0.0000004    0.0000000    0.0000000
+  endnode
+doneanim impact vim_bonabil_C
+
+donemodel vim_bonabil_C
