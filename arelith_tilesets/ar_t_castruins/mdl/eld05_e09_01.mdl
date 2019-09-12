@@ -18,7 +18,7 @@ node trimesh NGon12
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 24
     0.5 0 0.200000003
     0.25 0.430000007 0.200000003
@@ -129,7 +129,7 @@ node trimesh Box98
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 12
     0 -0.569999993 0
     -0.569999993 0 0
@@ -199,7 +199,7 @@ node trimesh Rectangle41
   specular 0 0 0
   shininess 1
   shadow 0
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 10
     3.5 0.5 0
     3.5 3.5 0
@@ -242,8 +242,8 @@ endnode
 node aabb Rectangle362
   parent eld05_E09_01
   #part-number 4
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   shadow 0
@@ -584,7 +584,7 @@ node trimesh Box9714
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 12
     1.09000003 0.629999995 0
     0.620000005 1.11000001 0
@@ -630,7 +630,7 @@ node trimesh Box9713
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 18
     0.959999979 0.50999999 0.660000026
     0.560000002 0.910000026 0.660000026
@@ -727,7 +727,7 @@ node trimesh Rectangle43
   specular 0 0 0
   shininess 1
   shadow 0
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 30
     -1.78999996 9 0
     -1 8.21000004 0
@@ -898,8 +898,8 @@ endnode
 node trimesh Rectangle39
   parent eld05_E09_01
   #part-number 9
-  ambient 0.898038983 0.898038983 0.898038983
-  diffuse 0.898038983 0.898038983 0.898038983
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap eld05_stone20
@@ -1025,7 +1025,7 @@ node trimesh Line1216
   specular 0 0 0
   shininess 1
   shadow 0
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 6
     -1.5 1 0
     -3.5 1.5 -0.800000012
@@ -1063,7 +1063,7 @@ node trimesh Line1217
   specular 0 0 0
   shininess 1
   shadow 0
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 6
     1 1 0
     1.5 3 -0.800000012
@@ -1101,7 +1101,7 @@ node trimesh Object107
   specular 0 0 0
   shininess 1
   shadow 0
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 12
     4 -0.5 -0.800000012
     5.5 -0.5 -0.800000012
@@ -1155,7 +1155,7 @@ node trimesh Rectangle42
   specular 0 0 0
   shininess 1
   shadow 0
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 8
     -0.5 0 -0.800000012
     -0.5 -1.5 -0.800000012

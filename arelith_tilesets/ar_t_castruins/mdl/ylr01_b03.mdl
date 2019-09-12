@@ -21,7 +21,7 @@ node trimesh BotFace
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_librwall
+  bitmap eld05_wall00
   verts 32
     1.805 -0.0850002 0.75
     1.615 0.205 0.37
@@ -115,7 +115,7 @@ node trimesh BotTop
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_librflr02
+  bitmap eld05_librflr01
   verts 28
     1.615 0.205 0.37
     1.425 0.475 0.19
@@ -195,8 +195,8 @@ node trimesh doormask
   position 4.67 -0.935 4.39
   orientation 1 0 0 -1.5708
   wirecolor 0.527344 0.527344 0.527344
-  ambient 0 0 0
-  diffuse 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 10
   bitmap Black
@@ -222,8 +222,8 @@ node trimesh doormask02
   position 5 -2.39 4.5
   orientation 0.57735 -0.57735 0.57735 -2.0944
   wirecolor 0.527344 0.527344 0.527344
-  ambient 0 0 0
-  diffuse 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 10
   bitmap Black
@@ -245,7 +245,7 @@ node trimesh Floor01a
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_librflrb2
+  bitmap eld05_librflrb1
   verts 4
     0.687998 1.6265 0
     -1.192 1.6265 0
@@ -269,7 +269,7 @@ node trimesh GroundPlane
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_librflr02
+  bitmap eld05_librflr01
   verts 6
     3.31 3.31 0
     -3.31 3.31 0
@@ -295,11 +295,11 @@ node trimesh Line229
   position 4.67 -1.12 4.39
   orientation 0 0 -1 -3.14159
   wirecolor 0.894531 0.894531 0.894531
-  ambient 0.6 0.603922 0.603922
-  diffuse 0.6 0.603922 0.603922
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_librwall
+  bitmap eld05_wall00
   verts 6
     0.33 -0.25 -1.61
     0 0.25 -1.61
@@ -327,11 +327,11 @@ node trimesh Line1152
   position 4.505 -2.37 6.25
   orientation 0 0 -1 -3.14159
   wirecolor 0.894531 0.894531 0.894531
-  ambient 0.6 0.603922 0.603922
-  diffuse 0.6 0.603922 0.603922
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_librwall
+  bitmap eld05_wall00
   verts 10
     0.165 -1.5 -0.25
     0.165 1.5 -0.25
@@ -383,11 +383,11 @@ node trimesh Line1153
   position 4.67 -3.62 4.5
   orientation 0 0 -1 -3.14159
   wirecolor 0.894531 0.894531 0.894531
-  ambient 0.6 0.603922 0.603922
-  diffuse 0.6 0.603922 0.603922
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_librwall
+  bitmap eld05_wall00
   verts 6
     0 -0.25 -1.5
     0.33 0.25 -1.5
@@ -415,8 +415,8 @@ node trimesh Mask
   position 0 0 3.00005
   orientation 0 0 0 0
   wirecolor 0.878906 0.878906 0.878906
-  ambient 0 0 0
-  diffuse 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 10
   bitmap Black
@@ -490,7 +490,7 @@ node trimesh Middle
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_librflr02
+  bitmap eld05_librflr01
   verts 4
     1.855 0.505 0
     -0.0849998 1.805 0
@@ -514,7 +514,7 @@ node trimesh StairsFront
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_librwall
+  bitmap eld05_wall00
   verts 48
     -1.47 -0.09 -1.5
     -1.66 0.2 -1.5
@@ -654,7 +654,7 @@ node trimesh TopBack
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_librwall
+  bitmap eld05_wall00
   verts 4
     0 1.25 -1.5
     0 -1.25 -1.5
@@ -678,7 +678,7 @@ node trimesh TopFace
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_librwall
+  bitmap eld05_wall00
   verts 28
     1.46 1.045 0.53
     1.13 1.105 0.32
@@ -762,7 +762,7 @@ node trimesh TopTop
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_librflr02
+  bitmap eld05_librflr01
   verts 28
     1.295 1.09 0.425
     0.965 1.15 0.215
@@ -842,8 +842,8 @@ node aabb Walkmesh
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.605469 0.605469 0.605469
-  ambient 0.601563 0.839844 0.894531
-  diffuse 0.601563 0.839844 0.894531
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap NULL
@@ -1035,7 +1035,7 @@ node trimesh WallArc
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_librwall
+  bitmap eld05_wall00
   verts 10
     -4.25 4.25 -1.5
     -3.60298 0.99719 -1.5

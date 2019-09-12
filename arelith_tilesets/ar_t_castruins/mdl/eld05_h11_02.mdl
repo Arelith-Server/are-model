@@ -291,7 +291,7 @@ node trimesh NGon05
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_JailWall
+  bitmap eld05_wall00
   verts 41
     2.29999995 0 0
     1.64999998 1.13 0
@@ -586,8 +586,8 @@ endnode
 node trimesh NGon04
   parent eld05_H11_02
   #part-number 9
-  ambient 0.647059023 0.529411972 0.521569014
-  diffuse 0.647059023 0.529411972 0.521569014
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap eld05_stone20
@@ -930,8 +930,8 @@ endnode
 node aabb NGon09
   parent eld05_H11_02
   #part-number 13
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   shadow 0

@@ -217,8 +217,8 @@ endnode
 node trimesh Line146
   parent eld05_H01_02
   #part-number 4
-  ambient 0.647059023 0.529411972 0.521569014
-  diffuse 0.647059023 0.529411972 0.521569014
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap eld05_stone20
@@ -642,7 +642,7 @@ node trimesh Line153
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_JailWall
+  bitmap eld05_wall00
   verts 24
     -0.699999988 -4.30999994 0
     0 -3.6099999 0
@@ -849,7 +849,7 @@ node trimesh Object04
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_JailWall
+  bitmap eld05_wall00
   verts 4
     -0.5 0.49000001 -1.45000005
     0.5 -0.50999999 -1.45000005
@@ -1031,7 +1031,7 @@ node trimesh Object02
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_JailWall
+  bitmap eld05_wall00
   verts 24
     -1 4 0
     -1 1 0
@@ -1123,11 +1123,11 @@ endnode
 node trimesh Box7632
   parent eld05_H01_02
   #part-number 16
-  ambient 0.600000024 0.603922009 0.603922009
-  diffuse 0.600000024 0.603922009 0.603922009
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_LibrWall
+  bitmap eld05_wall00
   verts 8
     0.889999986 -1.10000002 -0.0500000007
     -1.51999998 1.28999996 0
@@ -1155,8 +1155,8 @@ endnode
 node aabb Line423
   parent eld05_H01_02
   #part-number 17
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   shadow 0

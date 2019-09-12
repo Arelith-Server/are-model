@@ -18,7 +18,7 @@ node trimesh Plane750
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_HalFlr
+  bitmap eld05_floor00
   verts 24
     0 2.5 0
     0 5 0
@@ -80,8 +80,8 @@ endnode
 node aabb Plane1402
   parent eld05_P05_01
   #part-number 2
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   shadow 0
@@ -114,7 +114,7 @@ node trimesh Mesh74
   specular 0 0 0
   shininess 1
   shadow 0
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 16
     2.5 0 0
     2.5 2.5 0
@@ -163,8 +163,8 @@ endnode
 node trimesh Mesh75
   parent eld05_P05_01
   #part-number 4
-  ambient 0.752941012 0.68235302 0.68235302
-  diffuse 0.752941012 0.68235302 0.68235302
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap eld05_floor00

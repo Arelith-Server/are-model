@@ -34,8 +34,8 @@ node trimesh Box9058
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center -3.0 -0.5 -2.5 
@@ -126,8 +126,8 @@ node trimesh Box24
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 3.0 1.0 -2.5 
@@ -212,7 +212,7 @@ node trimesh Box8655
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.447059 0.447059 0.447059 
+  ambient 1 1 1 
   Diffuse 0.447059 0.447059 0.447059 
   Specular 0.0 0.0 0.0 
   shininess 1
@@ -282,8 +282,8 @@ node trimesh Mesh2927
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
+  ambient 1 1 1
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 95.0 -10.0 -149.0 
@@ -370,8 +370,8 @@ node trimesh Mesh2926
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
+  ambient 1 1 1
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center -95.0 -11.0 -149.0 
@@ -458,8 +458,8 @@ node trimesh Loft866
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
+  ambient 1 1 1
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center -7.5 0.0 50.0 
@@ -530,8 +530,8 @@ node trimesh Line573
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.776471 0.776471 0.776471 
-  Diffuse 0.776471 0.776471 0.776471 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 9.5 -21.0 -50.0 
@@ -591,8 +591,8 @@ node trimesh Line576
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.776471 0.776471 0.776471 
-  Diffuse 0.776471 0.776471 0.776471 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center -9.5 21.0 -50.0 
@@ -654,8 +654,8 @@ node trimesh Loft868
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
+  ambient 1 1 1
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 7.5 0.0 50.0 
@@ -726,8 +726,8 @@ node trimesh Line574
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.776471 0.776471 0.776471 
-  Diffuse 0.776471 0.776471 0.776471 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 9.5 -21.0 -50.0 
@@ -787,8 +787,8 @@ node trimesh Line575
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.776471 0.776471 0.776471 
-  Diffuse 0.776471 0.776471 0.776471 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center -9.5 21.0 -50.0 
@@ -850,12 +850,12 @@ node trimesh Plane33
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
-  bitmap eld05_HalFlr
+  bitmap eld05_floor00
   verts 35
     -2.05 -2.95 0.0
     -2.5 -5.0 0.0
@@ -980,8 +980,8 @@ node aabb Plane1499
     Door
     Snow
     Sand
-  ambient 0.588 0.588 0.588 
-  diffuse 0.5 0.5 0.5 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   specular 0.0 0.0 0.0 
   shininess 10.0
   bitmap Stone
@@ -1233,12 +1233,12 @@ node trimesh Box9060
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.823529 0.764706 0.756863 
+  ambient 1 1 1 
   Diffuse 0.823529 0.764706 0.756863 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 225.0 0.0 100.0 
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 63
     2.5 -3.2 2.5
     2.5 -5.0 2.5
@@ -1444,12 +1444,12 @@ node trimesh Box9059
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.823529 0.764706 0.756863 
+  ambient 1 1 1 
   Diffuse 0.823529 0.764706 0.756863 
   Specular 0.0 0.0 0.0 
   shininess 1
   center -225.0 0.0 100.0 
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 63
     -2.5 3.2 2.5
     -2.5 5.0 2.5
@@ -1655,8 +1655,8 @@ node trimesh Mesh54
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
+  ambient 1 1 1
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
@@ -1712,8 +1712,8 @@ node trimesh Mesh2939
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
+  ambient 1 1 1
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
@@ -1769,8 +1769,8 @@ node trimesh Mesh2931
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
+  ambient 1 1 1
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
@@ -1826,8 +1826,8 @@ node trimesh Mesh2936
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
+  ambient 1 1 1
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
@@ -1883,8 +1883,8 @@ node trimesh Loft867
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center -244.0 10.0 -12.0 
@@ -1958,8 +1958,8 @@ node trimesh Rectangle279
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
@@ -2012,8 +2012,8 @@ node trimesh Object71
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 5.0 0.0 200.0 
@@ -2048,8 +2048,8 @@ node trimesh Mesh2929
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center -15.5 -21.0 100.0 
@@ -2084,8 +2084,8 @@ node trimesh Mesh2932
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center -15.5 -21.0 100.0 
@@ -2120,8 +2120,8 @@ node trimesh Mesh2937
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 15.5 21.0 100.0 
@@ -2156,8 +2156,8 @@ node trimesh Mesh2934
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 15.5 21.0 100.0 
@@ -2192,8 +2192,8 @@ node trimesh Rectangle32
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
@@ -2246,8 +2246,8 @@ node trimesh Object497
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
@@ -2282,8 +2282,8 @@ node trimesh Mesh2930
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
@@ -2332,8 +2332,8 @@ node trimesh Mesh2938
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
@@ -2382,8 +2382,8 @@ node trimesh Mesh2935
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
@@ -2432,8 +2432,8 @@ node trimesh Mesh2933
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
@@ -2512,8 +2512,8 @@ node trimesh Box9027
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.670588 0.670588 0.670588 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
+  ambient 1 1 1
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 284.0 0.0 155.0 
@@ -2618,8 +2618,8 @@ node trimesh Box9061
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.670588 0.670588 0.670588 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
+  ambient 1 1 1
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center -284.0 0.0 155.0 
@@ -2724,8 +2724,8 @@ node trimesh WindowFrame01
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center 271.0 0.0 155.0 
@@ -3078,8 +3078,8 @@ node trimesh WindowFrame02
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 1
   center -271.0 0.0 155.0 
@@ -3437,8 +3437,8 @@ node trimesh SphereDusk
   alpha 0.0
   transparencyhint 0
   selfillumcolor 1.0 1.0 1.0 
-  ambient 0.588235 0.588235 0.588235 
-  Diffuse 0.588235 0.588235 0.588235 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 0.0 -25.5 
@@ -3824,8 +3824,8 @@ node trimesh SphereNight
   alpha 0.0
   transparencyhint 0
   selfillumcolor 1.0 1.0 1.0 
-  ambient 0.588235 0.588235 0.588235 
-  Diffuse 0.588235 0.588235 0.588235 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 0.0 -25.5 
@@ -4211,8 +4211,8 @@ node trimesh SphereDawn
   alpha 0.0
   transparencyhint 0
   selfillumcolor 1.0 1.0 1.0 
-  ambient 0.588235 0.588235 0.588235 
-  Diffuse 0.588235 0.588235 0.588235 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 0.0 -25.5 
@@ -4598,8 +4598,8 @@ node trimesh SphereDay
   alpha 1.0
   transparencyhint 0
   selfillumcolor 1.0 1.0 1.0 
-  ambient 0.588235 0.588235 0.588235 
-  Diffuse 0.588235 0.588235 0.588235 
+  ambient 1 1 1 
+  diffuse 1 1 1 
   Specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 0.0 -25.5 

@@ -14,8 +14,8 @@ endnode
 node aabb Plane1360
   parent eld05_D07_01
   #part-number 1
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   shadow 0
@@ -438,8 +438,8 @@ endnode
 node trimesh Line683
   parent eld05_D07_01
   #part-number 4
-  ambient 0.776471019 0.776471019 0.776471019
-  diffuse 0.776471019 0.776471019 0.776471019
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap eld05_CbrdDr02
@@ -488,8 +488,8 @@ endnode
 node trimesh Mesh3038
   parent eld05_D07_01
   #part-number 5
-  ambient 0.898038983 0.898038983 0.898038983
-  diffuse 0.898038983 0.898038983 0.898038983
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   tilefade 1
@@ -566,8 +566,8 @@ endnode
 node trimesh Box9312
   parent eld05_D07_01
   #part-number 7
-  ambient 0.898038983 0.898038983 0.898038983
-  diffuse 0.898038983 0.898038983 0.898038983
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap eld05_stone20
@@ -610,8 +610,8 @@ endnode
 node trimesh Loft904
   parent eld05_D07_01
   #part-number 8
-  ambient 0.776471019 0.776471019 0.776471019
-  diffuse 0.776471019 0.776471019 0.776471019
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap eld05_CbrdDr02
@@ -729,8 +729,8 @@ endnode
 node trimesh Mesh3047
   parent eld05_D07_01
   #part-number 10
-  ambient 0.898038983 0.898038983 0.898038983
-  diffuse 0.898038983 0.898038983 0.898038983
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   tilefade 1
@@ -778,8 +778,8 @@ endnode
 node trimesh Line686
   parent eld05_D07_01
   #part-number 11
-  ambient 0.776471019 0.776471019 0.776471019
-  diffuse 0.776471019 0.776471019 0.776471019
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap eld05_CbrdDr02
@@ -860,11 +860,11 @@ endnode
 node trimesh Box9318
   parent eld05_D07_01
   #part-number 13
-  ambient 0.823529005 0.764706016 0.756862998
-  diffuse 0.823529005 0.764706016 0.756862998
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 20
     2.88000011 -0.629999995 2.5
     1.88 -0.629999995 2.5
@@ -936,8 +936,8 @@ endnode
 node trimesh Line684
   parent eld05_D07_01
   #part-number 14
-  ambient 0.776471019 0.776471019 0.776471019
-  diffuse 0.776471019 0.776471019 0.776471019
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap eld05_CbrdDr02
@@ -987,8 +987,8 @@ endnode
 node trimesh Mesh3041
   parent eld05_D07_01
   #part-number 15
-  ambient 0.898038983 0.898038983 0.898038983
-  diffuse 0.898038983 0.898038983 0.898038983
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   tilefade 1
@@ -1065,8 +1065,8 @@ endnode
 node trimesh Box9320
   parent eld05_D07_01
   #part-number 17
-  ambient 0.898038983 0.898038983 0.898038983
-  diffuse 0.898038983 0.898038983 0.898038983
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap eld05_stone20
@@ -1109,8 +1109,8 @@ endnode
 node trimesh Loft909
   parent eld05_D07_01
   #part-number 18
-  ambient 0.776471019 0.776471019 0.776471019
-  diffuse 0.776471019 0.776471019 0.776471019
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap eld05_CbrdDr02
@@ -1158,7 +1158,7 @@ node trimesh Line687
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 7
     0.140000001 0.419999987 0
     -1.36000001 -1.08000004 0
@@ -1281,7 +1281,7 @@ node trimesh Object79
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 7
     -0.239999995 0.300000012 0
     -1.03999996 -0.579999983 0
@@ -1314,7 +1314,7 @@ node trimesh Plane1578
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_HalFlr
+  bitmap eld05_floor00
   verts 30
     3.5 -2.50999999 0
     2.5 -2.50999999 0
@@ -1412,7 +1412,7 @@ node trimesh Line97
   specular 0 0 0
   shininess 1
   shadow 0
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 30
     -3.68000007 -1.55999994 0
     -3.68000007 -0.0599999987 0
@@ -1543,11 +1543,11 @@ endnode
 node trimesh Object80
   parent eld05_D07_01
   #part-number 25
-  ambient 0.823529005 0.764706016 0.756862998
-  diffuse 0.823529005 0.764706016 0.756862998
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 20
     0.639999986 -1.80999994 2.5
     0.639999986 -2.80999994 2.5
@@ -1749,8 +1749,8 @@ endnode
 node trimesh Box9314
   parent eld05_D07_01
   #part-number 29
-  ambient 0.898038983 0.898038983 0.898038983
-  diffuse 0.898038983 0.898038983 0.898038983
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   tilefade 1
@@ -1806,8 +1806,8 @@ endnode
 node trimesh Mesh3034
   parent eld05_D07_01
   #part-number 30
-  ambient 0.776471019 0.776471019 0.776471019
-  diffuse 0.776471019 0.776471019 0.776471019
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   tilefade 1
@@ -1892,8 +1892,8 @@ endnode
 node trimesh Mesh3033
   parent eld05_D07_01
   #part-number 31
-  ambient 0.776471019 0.776471019 0.776471019
-  diffuse 0.776471019 0.776471019 0.776471019
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   tilefade 1
@@ -2104,11 +2104,11 @@ endnode
 node trimesh Object575
   parent eld05_D07_01
   #part-number 35
-  ambient 0.823529005 0.764706016 0.756862998
-  diffuse 0.823529005 0.764706016 0.756862998
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 22
     -2.5 1.49000001 -0.5
     -2.5 -0.00999999978 -0.5
