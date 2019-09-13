@@ -13,8 +13,8 @@ node trimesh mesh64
   position -2.67000  0.00000  3.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.04 0.04 0.04
-  ambient 0.78 0.78 0.78
-  diffuse 0.78 0.78 0.78
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
   bitmap eld05_cbrddr02
   shininess 1
@@ -60,8 +60,8 @@ node trimesh mesh3505
   position  3.50000 -2.50000  3.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.88 0.88 0.88
-  ambient 0.78 0.78 0.78
-  diffuse 0.78 0.78 0.78
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
   bitmap eld05_cbrddr02
   shininess 1
@@ -111,8 +111,8 @@ node aabb 02_wok
   parent tlkr1_f06_02
   position  0.00000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
-  ambient 1.0 1.0 1.0
-  diffuse 1.0 1.0 1.0
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.0 0.0 0.0
   bitmap null
   verts 32
@@ -298,8 +298,8 @@ node trimesh plane03
   position  4.50000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.70 0.70 0.70
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
   bitmap eld05_halflr
   shininess 1
@@ -349,10 +349,10 @@ node trimesh plane04
   position -0.75000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.89 0.89 0.89
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
-  bitmap eld05_librflr02
+  bitmap eld05_librflrb1
   shininess 1
   render 1
   shadow 0
@@ -465,8 +465,8 @@ node trimesh box9548
   position  3.40000  2.40000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.61 0.61 0.61
-  ambient 0.78 0.78 0.78
-  diffuse 0.78 0.78 0.78
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
   bitmap eld05_cbrddr02
   shininess 1
@@ -526,8 +526,8 @@ node trimesh line1075
   position  3.58000  2.59000  3.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.88 0.88 0.88
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
   bitmap black
   shininess 1
@@ -560,8 +560,8 @@ node trimesh line1076
   position  4.17000  4.17000  3.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.35 0.35 0.35
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
   bitmap black
   shininess 1
@@ -592,10 +592,10 @@ node trimesh line01
   position  3.50000  4.50000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.55 0.55 0.55
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
-  bitmap eld05_librwall
+  bitmap eld05_wall00
   shininess 1
   rotatetexture 0
   tilefade 0
@@ -618,8 +618,8 @@ node trimesh mesh3503
   position  3.50000  2.50000  3.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.58 0.58 0.58
-  ambient 0.78 0.78 0.78
-  diffuse 0.78 0.78 0.78
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
   bitmap eld05_cbrddr02
   shininess 1
@@ -670,8 +670,8 @@ node trimesh line1080
   position  3.58000 -2.59000  3.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.84 0.84 0.84
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
   bitmap black
   shininess 1
@@ -704,8 +704,8 @@ node trimesh box9549
   position  3.40000 -2.40000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.56 0.56 0.56
-  ambient 0.78 0.78 0.78
-  diffuse 0.78 0.78 0.78
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
   bitmap eld05_cbrddr02
   shininess 1
@@ -765,10 +765,10 @@ node trimesh mesh3504
   position  5.00000 -5.00000  0.50000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.35 0.35 0.35
-  ambient 0.82 0.76 0.76
-  diffuse 0.82 0.76 0.76
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
-  bitmap eld05_richwall
+  bitmap eld05_wall00
   shininess 1
   rotatetexture 0
   tilefade 0
@@ -803,10 +803,10 @@ node trimesh mesh57
   position  5.00000  5.00000  0.50000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.24 0.24 0.24
-  ambient 0.82 0.76 0.76
-  diffuse 0.82 0.76 0.76
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
-  bitmap eld05_richwall
+  bitmap eld05_wall00
   shininess 1
   rotatetexture 0
   tilefade 0
@@ -841,8 +841,8 @@ node trimesh line253
   position -2.67000  2.38000  1.20000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.88 0.88 0.88
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
   bitmap black
   shininess 1
@@ -870,10 +870,10 @@ node trimesh line1081
   position  2.96000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.89 0.89 0.89
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
-  bitmap eld05_librflrb2
+  bitmap eld05_librflrb1
   shininess 1
   rotatetexture 0
   tilefade 0
@@ -932,8 +932,8 @@ node trimesh line1079
   position  4.17000 -4.17000  3.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.88 0.88 0.88
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
   bitmap black
   shininess 1
@@ -964,10 +964,10 @@ node trimesh line02
   position  3.50000 -4.50000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.11 0.11 0.11
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
-  bitmap eld05_librwall
+  bitmap eld05_wall00
   shininess 1
   rotatetexture 0
   tilefade 0
@@ -990,8 +990,8 @@ node trimesh object154
   position -2.67000  0.00000  3.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.55 0.55 0.55
-  ambient 0.78 0.78 0.78
-  diffuse 0.78 0.78 0.78
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.00 0.00 0.00
   bitmap eld05_cbrddr02
   shininess 1

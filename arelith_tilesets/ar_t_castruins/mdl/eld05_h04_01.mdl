@@ -18,7 +18,7 @@ node trimesh Line28
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap eld05_JailWall
+  bitmap eld05_wall00
   verts 18
     -1.33000004 -1.66999996 0
     -0.330000013 -1.66999996 0
@@ -86,8 +86,8 @@ endnode
 node trimesh Line30
   parent eld05_H04_01
   #part-number 2
-  ambient 0.647059023 0.529411972 0.521569014
-  diffuse 0.647059023 0.529411972 0.521569014
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap eld05_stone20
@@ -512,8 +512,8 @@ endnode
 node aabb Box8276
   parent eld05_H04_01
   #part-number 9
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   shadow 0
@@ -1077,8 +1077,8 @@ endnode
 node trimesh Plane01
   parent eld05_H04_01
   #part-number 4
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
 endnode
@@ -1093,16 +1093,16 @@ endnode
 node trimesh Box7591
   parent eld05_H04_01
   #part-number 7
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
 endnode
 node trimesh Plane536
   parent eld05_H04_01
   #part-number 8
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
 endnode
@@ -1117,8 +1117,8 @@ endnode
 node trimesh Plane534
   parent eld05_H04_01a
   #part-number 11
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   orientationkey 7
@@ -1133,16 +1133,16 @@ endnode
 node trimesh Cylinder256
   parent Plane534
   #part-number 12
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
 endnode
 node trimesh Box5761
   parent Cylinder256
   #part-number 13
-  ambient 0.200000003 0.200000003 0.200000003
-  diffuse 0.800000012 0.800000012 0.800000012
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
 endnode

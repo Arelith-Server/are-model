@@ -1,5 +1,5 @@
-; NEVERWINTER NIGHTS TILESET FILE
-; DO NOT EDIT MANUALLY - UNLESS YOU KNOW WHAT YOU ARE DOING
+; created with .Set Editor Beta 0.85
+; comment, contacts and bugs reports to Jlenlc@wanadoo.fr
 
 [GENERAL]
 Name=eld05
@@ -355,7 +355,7 @@ ChangedHeight=0
 Count=0
 
 [TILES]
-Count=356
+Count=354
 
 [TILE0]
 Model=eld05_l01_01
@@ -4056,7 +4056,7 @@ DoorVisibilityOrientation=0
 ImageMap2D=MIIC01_O10
 
 [TILE118DOOR0]
-Type=48
+Type=241
 X=0.73
 Y=-0.02
 Z=0.00
@@ -4128,7 +4128,7 @@ DoorVisibilityOrientation=0
 ImageMap2D=MIIC01_O14
 
 [TILE120DOOR0]
-Type=49
+Type=240
 X=0.10
 Y=-0.00
 Z=0.00
@@ -4200,7 +4200,7 @@ DoorVisibilityOrientation=0
 ImageMap2D=MIIC01_P10
 
 [TILE122DOOR0]
-Type=67
+Type=243
 X=1.30
 Y=-0.00
 Z=0.00
@@ -4272,7 +4272,7 @@ DoorVisibilityOrientation=0
 ImageMap2D=MIIC01_P14
 
 [TILE124DOOR0]
-Type=50
+Type=242
 X=1.89
 Y=0.00
 Z=0.00
@@ -4344,7 +4344,7 @@ DoorVisibilityOrientation=0
 ImageMap2D=MIIC01_Q10
 
 [TILE126DOOR0]
-Type=50
+Type=242
 X=1.27
 Y=-0.00
 Z=0.00
@@ -5793,7 +5793,7 @@ Z=0.00
 Orientation=0.0
 
 [TILE170]
-Model=tall_a01_01
+Model=eld05_a01_01
 WalkMesh=msb01
 TopLeft=Stone
 TopLeftHeight=0
@@ -5818,10 +5818,10 @@ Doors=0
 Sounds=0
 PathNode=A
 Orientation=0
-ImageMap2D=MALL_A01
+ImageMap2D=meld05_A01_01
 
 [TILE171]
-Model=tall_b01_01
+Model=eld05_a01_02
 WalkMesh=msb01
 TopLeft=Stone
 TopLeftHeight=0
@@ -5846,7 +5846,7 @@ Doors=0
 Sounds=0
 PathNode=A
 Orientation=0
-ImageMap2D=MALL_B01
+ImageMap2D=meld05_a01_02
 
 [TILE172]
 Model=eld05_l07_02
@@ -5879,7 +5879,7 @@ DoorVisibilityOrientation=0
 ImageMap2D=MIIC01_L07
 
 [TILE172DOOR0]
-Type=35
+Type=239
 X=-0.00
 Y=-0.61
 Z=-0.00
@@ -5995,7 +5995,7 @@ Doors=1
 Sounds=0
 PathNode=N
 Orientation=270
-ImageMap2D=
+ImageMap2D=meld05_z20_01
 
 [TILE176DOOR0]
 Type=0
@@ -6021,8 +6021,8 @@ Bottom=
 Left=
 MainLight1=1
 MainLight2=1
-SourceLight1=2
-SourceLight2=3
+SourceLight1=1
+SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
@@ -6051,8 +6051,8 @@ Bottom=
 Left=
 MainLight1=1
 MainLight2=1
-SourceLight1=2
-SourceLight2=3
+SourceLight1=1
+SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
@@ -6081,8 +6081,8 @@ Bottom=
 Left=
 MainLight1=1
 MainLight2=1
-SourceLight1=2
-SourceLight2=3
+SourceLight1=1
+SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
@@ -6111,8 +6111,8 @@ Bottom=
 Left=
 MainLight1=1
 MainLight2=1
-SourceLight1=2
-SourceLight2=3
+SourceLight1=1
+SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
@@ -6141,8 +6141,8 @@ Bottom=
 Left=
 MainLight1=1
 MainLight2=1
-SourceLight1=2
-SourceLight2=3
+SourceLight1=1
+SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
@@ -6171,8 +6171,8 @@ Bottom=
 Left=
 MainLight1=1
 MainLight2=1
-SourceLight1=2
-SourceLight2=3
+SourceLight1=1
+SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
@@ -6201,8 +6201,8 @@ Bottom=
 Left=
 MainLight1=1
 MainLight2=1
-SourceLight1=2
-SourceLight2=3
+SourceLight1=1
+SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
@@ -6213,13 +6213,6 @@ Orientation=0
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=MI_ylr01_c03
-
-[TILE183DOOR0]
-Type=0
-X=4.70
-Y=-2.35
-Z=3.00
-Orientation=270.0
 
 [TILE184]
 Model=ylr01_b03
@@ -6238,8 +6231,8 @@ Bottom=
 Left=
 MainLight1=1
 MainLight2=1
-SourceLight1=2
-SourceLight2=3
+SourceLight1=1
+SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
@@ -6250,13 +6243,6 @@ Orientation=0
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=MI_ylr01_b03
-
-[TILE184DOOR0]
-Type=0
-X=4.70
-Y=-2.35
-Z=3.00
-Orientation=270.0
 
 [TILE185]
 Model=ylr01_a03
@@ -6275,8 +6261,8 @@ Bottom=
 Left=
 MainLight1=1
 MainLight2=1
-SourceLight1=2
-SourceLight2=3
+SourceLight1=1
+SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
@@ -6287,13 +6273,6 @@ Orientation=0
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=MI_ylr01_a03
-
-[TILE185DOOR0]
-Type=0
-X=4.70
-Y=-2.35
-Z=3.00
-Orientation=270.0
 
 [TILE186]
 Model=ylr01_b04
@@ -6312,8 +6291,8 @@ Bottom=
 Left=
 MainLight1=1
 MainLight2=1
-SourceLight1=2
-SourceLight2=3
+SourceLight1=1
+SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
@@ -6324,13 +6303,6 @@ Orientation=0
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=MI_ylr01_b04
-
-[TILE186DOOR0]
-Type=0
-X=-2.20
-Y=4.75
-Z=-4.25
-Orientation=0.00
 
 [TILE187]
 Model=ylr01_a04
@@ -6349,8 +6321,8 @@ Bottom=
 Left=
 MainLight1=1
 MainLight2=1
-SourceLight1=2
-SourceLight2=3
+SourceLight1=1
+SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
@@ -6361,13 +6333,6 @@ Orientation=0
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=MI_ylr01_a04
-
-[TILE187DOOR0]
-Type=0
-X=-2.20
-Y=4.75
-Z=-4.25
-Orientation=0.00
 
 [TILE188]
 Model=ylr01_c04
@@ -6386,8 +6351,8 @@ Bottom=
 Left=
 MainLight1=1
 MainLight2=1
-SourceLight1=2
-SourceLight2=3
+SourceLight1=1
+SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
@@ -6398,13 +6363,6 @@ Orientation=0
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=MI_ylr01_c04
-
-[TILE188DOOR0]
-Type=0
-X=-2.20
-Y=4.75
-Z=-4.25
-Orientation=0.00
 
 [TILE189]
 Model=tlkr1_d01_02
@@ -6574,7 +6532,7 @@ PathNode=A
 Orientation=0
 ImageMap2D=MIIC01_F13
 
-[TILE194OOR0]
+[TILE194DOOR0]
 Type=0
 X=5.00
 Y=-0.00
@@ -6637,7 +6595,7 @@ PathNode=A
 Orientation=0
 ImageMap2D=MIIC01_B13
 
-[TILE196OOR0]
+[TILE196DOOR0]
 Type=0
 X=5.00
 Y=0.00
@@ -6700,7 +6658,7 @@ PathNode=H
 Orientation=0
 ImageMap2D=MIIC01_C06
 
-[TILE198OOR0]
+[TILE198DOOR0]
 Type=0
 X=-5.00
 Y=-0.00
@@ -6770,7 +6728,7 @@ PathNode=N
 Orientation=0
 ImageMap2D=MIIC01_G01
 
-[TILE200OOR0]
+[TILE200DOOR0]
 Type=0
 X=0.00
 Y=5.00
@@ -6805,7 +6763,7 @@ PathNode=N
 Orientation=0
 ImageMap2D=MIIC01_C01
 
-[TILE201OOR0]
+[TILE201DOOR0]
 Type=0
 X=-0.00
 Y=5.00
@@ -11433,69 +11391,6 @@ Z=0.00
 Orientation=0.0
 
 [TILE346]
-Model=grc01_e06_01
-WalkMesh=msb01
-TopLeft=Wall
-TopLeftHeight=0
-TopRight=Wall
-TopRightHeight=0
-BottomLeft=Wall
-BottomLeftHeight=0
-BottomRight=Wall
-BottomRightHeight=0
-Top=
-Right=
-Bottom=
-Left=Doorway
-MainLight1=1
-MainLight2=1
-SourceLight1=1
-SourceLight2=1
-AnimLoop1=1
-AnimLoop2=1
-AnimLoop3=1
-Doors=1
-Sounds=0
-PathNode=H
-Orientation=0
-ImageMap2D=MIIC01_E06
-
-[TILE346DOOR0]
-Type=0
-X=-5.00
-Y=0.00
-Z=0.00
-Orientation=90.0
-
-[TILE347]
-Model=grc01_e07_01
-WalkMesh=msb01
-TopLeft=Wall
-TopLeftHeight=0
-TopRight=Wall
-TopRightHeight=0
-BottomLeft=Wall
-BottomLeftHeight=0
-BottomRight=Wall
-BottomRightHeight=0
-Top=
-Right=Window
-Bottom=
-Left=
-MainLight1=1
-MainLight2=1
-SourceLight1=1
-SourceLight2=1
-AnimLoop1=1
-AnimLoop2=1
-AnimLoop3=1
-Doors=0
-Sounds=0
-PathNode=N
-Orientation=0
-ImageMap2D=MIIC01_E07
-
-[TILE348]
 Model=grc01_o20_03
 WalkMesh=msb01
 TopLeft=Wall
@@ -11523,7 +11418,7 @@ PathNode=T
 Orientation=0
 ImageMap2D=MIIC01_O20
 
-[TILE349]
+[TILE347]
 Model=grc01_o20_04
 WalkMesh=msb01
 TopLeft=Wall
@@ -11551,7 +11446,7 @@ PathNode=T
 Orientation=0
 ImageMap2D=MIIC01_O20
 
-[TILE350]
+[TILE348]
 Model=grc01_o20_05
 WalkMesh=msb01
 TopLeft=Wall
@@ -11579,7 +11474,7 @@ PathNode=T
 Orientation=0
 ImageMap2D=MIIC01_O20
 
-[TILE351]
+[TILE349]
 Model=grc01_m20_01
 WalkMesh=msb01
 TopLeft=Wall
@@ -11607,21 +11502,21 @@ PathNode=I
 Orientation=90
 ImageMap2D=MIIC01_M20
 
-[TILE351DOOR0]
+[TILE349DOOR0]
 Type=0
 X=-5.00
 Y=-0.00
 Z=0.00
 Orientation=90.0
 
-[TILE351DOOR1]
+[TILE349DOOR1]
 Type=0
 X=5.00
 Y=-0.00
 Z=0.00
 Orientation=-90.0
 
-[TILE352]
+[TILE350]
 Model=eld05_k08_01
 WalkMesh=msb01
 TopLeft=Wall
@@ -11649,7 +11544,7 @@ PathNode=N
 Orientation=0
 ImageMap2D=MIIC01_K07
 
-[TILE353]
+[TILE351]
 Model=eld05_k08_02
 WalkMesh=msb01
 TopLeft=Wall
@@ -11677,7 +11572,7 @@ PathNode=N
 Orientation=0
 ImageMap2D=MIIC01_K07
 
-[TILE354]
+[TILE352]
 Model=grc01_k01_02
 WalkMesh=msb01
 TopLeft=Wall
@@ -11705,14 +11600,14 @@ PathNode=N
 Orientation=0
 ImageMap2D=MIIC01_K01
 
-[TILE354DOOR0]
+[TILE352DOOR0]
 Type=0
 X=0.00
 Y=5.00
 Z=0.00
 Orientation=0.0
 
-[TILE355]
+[TILE353]
 Model=eld05_J30_01
 WalkMesh=msb01
 TopLeft=Stone
@@ -11741,7 +11636,7 @@ Orientation=0
 ImageMap2D=miic01_j30
 
 [GROUPS]
-Count=59
+Count=58
 
 [GROUP0]
 Name=StorageRoom
@@ -11751,16 +11646,14 @@ Columns=1
 Tile0=23
 
 [GROUP1]
-Name=StorageRoom01_1x2
-StrRef=63578
+Name=Storage Room 1x2 End Door
 Rows=2
 Columns=1
 Tile0=25
 Tile1=24
 
 [GROUP2]
-Name=StorageRoom02_1x2
-StrRef=63579
+Name=Storage Room 1x2 Side Door
 Rows=2
 Columns=1
 Tile0=27
@@ -11774,47 +11667,41 @@ Columns=1
 Tile0=41
 
 [GROUP4]
-Name=Bedroom01_1x2
-StrRef=63554
+Name=Bedroom 1x2 End Door
 Rows=2
 Columns=1
 Tile0=43
 Tile1=42
 
 [GROUP5]
-Name=Bedroom02_1x2
-StrRef=63555
+Name=Bedroom 1x2 Side Door
 Rows=2
 Columns=1
 Tile0=45
 Tile1=44
 
 [GROUP6]
-Name=LibraryRoom
-StrRef=63571
+Name=Library Room 1x1
 Rows=1
 Columns=1
 Tile0=59
 
 [GROUP7]
-Name=LibraryRoom01_1x2
-StrRef=63572
+Name=Library Room 1x2 End Door
 Rows=2
 Columns=1
 Tile0=61
 Tile1=60
 
 [GROUP8]
-Name=LibraryRoom02_1x2
-StrRef=63573
+Name=Library Room 1x2 Side Door
 Rows=2
 Columns=1
 Tile0=63
 Tile1=62
 
 [GROUP9]
-Name=JailRoom
-StrRef=63568
+Name=Jail Room 1x1
 Rows=1
 Columns=1
 Tile0=77
@@ -11843,16 +11730,14 @@ Columns=1
 Tile0=95
 
 [GROUP13]
-Name=StoneRoom01_1x2
-StrRef=63575
+Name=Stone Room 1x2 End Door
 Rows=2
 Columns=1
 Tile0=97
 Tile1=96
 
 [GROUP14]
-Name=StoneRoom02_1x2
-StrRef=63576
+Name=Stone Room 1x2 Side Door
 Rows=2
 Columns=1
 Tile0=99
@@ -11978,8 +11863,7 @@ Columns=1
 Tile0=174
 
 [GROUP32]
-Name=Bath
-StrRef=63552
+Name=Pool
 Rows=1
 Columns=1
 Tile0=175
@@ -12064,19 +11948,19 @@ Columns=1
 Tile0=188
 
 [GROUP46]
-Name=Empty_Library
+Name=Library Room 1x1 Empty
 Rows=1
 Columns=1
 Tile0=200
 
 [GROUP47]
-Name=Empty_Storage
+Name=Storage Room 1x1 Empty
 Rows=1
 Columns=1
 Tile0=201
 
 [GROUP48]
-Name=Storage1x2empty
+Name=Storage Room 1x2 Empty
 Rows=2
 Columns=1
 Tile0=204
@@ -12089,13 +11973,13 @@ Columns=1
 Tile0=270
 
 [GROUP50]
-Name=Bedroom with Window
+Name=Bedroom 1x1 w/Window
 Rows=1
 Columns=1
 Tile0=275
 
 [GROUP51]
-Name=Jail Room with Window
+Name=Jail Room 1x1 w/Window
 Rows=1
 Columns=1
 Tile0=333
@@ -12114,37 +11998,29 @@ Tile0=344
 Tile1=345
 
 [GROUP54]
-Name=Bedroom 1x2 with Windows
+Name=Bath 1x2 Side Door
 Rows=2
 Columns=1
-Tile0=347
-Tile1=346
-
-[GROUP55]
-Name=BathRoom_1x2 1
-StrRef=63552
-Rows=2
-Columns=1
-Tile0=352
+Tile0=350
 Tile1=98
 
-[GROUP56]
-Name=BathRoom_1x2 2
-StrRef=63552
+[GROUP55]
+Name=Bath 1x2 End Door
 Rows=2
 Columns=1
-Tile0=353
+Tile0=351
 Tile1=96
 
-[GROUP57]
+[GROUP56]
 Name=Turret Interior Dark
 Rows=2
 Columns=1
-Tile0=354
+Tile0=352
 Tile1=345
 
-[GROUP58]
+[GROUP57]
 Name=Dais
 Rows=1
 Columns=1
-Tile0=355
+Tile0=353
+

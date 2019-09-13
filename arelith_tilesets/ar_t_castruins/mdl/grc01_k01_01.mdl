@@ -1,8 +1,9 @@
-# Exported from NWmax 0.8 b47 at 10/29/2005 12:13:57 AM
+# Exported from NWmax 0.8 b61 at 9/11/2019 11:56:31 PM
 # mdl file
 #
 #NWmax MODEL ASCII
 # model: grc01_K01_01
+#local file: Unknown
 filedependancy Unknown
 newmodel grc01_K01_01
 setsupermodel grc01_K01_01 NULL
@@ -38,7 +39,7 @@ node aabb Plane1300
     Door
     Snow
     Sand
-  ambient 0.588 0.588 0.588 
+  ambient 0.0 0.0 0.0 
   diffuse 0.5 0.5 0.5 
   specular 0.0 0.0 0.0 
   shininess 10.0
@@ -431,9 +432,9 @@ node trimesh Mesh07
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -275.0 275.0 275.0 
   bitmap eld05_stone20
@@ -471,9 +472,9 @@ node trimesh Mesh90
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 275.0 275.0 275.0 
   bitmap eld05_stone20
@@ -512,11 +513,11 @@ node trimesh Mesh91
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -300.0 300.0 125.0 
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 51
     -1.0 5.0 0.0
     -2.17 2.17 0.0
@@ -697,11 +698,11 @@ node trimesh Mesh92
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 300.0 300.0 125.0 
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 51
     5.0 1.0 0.0
     2.17 2.17 0.0
@@ -869,7 +870,7 @@ node dummy grc01_K01_01_D01
   parent grc01_K01_01
   position 0.0 5.00001 2.98024e-007
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.0235294 0.52549 0.0235294 
+  wirecolor 0.6 0.894118 0.839216 
 endnode
 #Tile trimesh node
 node trimesh Mesh06
@@ -888,11 +889,11 @@ node trimesh Mesh06
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 250.0 -267.5 125.0 
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 41
     1.0 -5.0 0.0
     2.17 -2.17 0.0
@@ -1040,12 +1041,12 @@ node trimesh NGon11
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.658824 0.596078 0.596078 
-  Diffuse 0.658824 0.596078 0.596078 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 0.658824 0.596078 0.596078 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 50.0 0.0 
-  bitmap eld05_floor01
+  bitmap eld05_halflr
   verts 20
     -1.0 3.59 0.0
     -2.83 2.83 0.0
@@ -1095,11 +1096,11 @@ node trimesh NGon11
     0.85985 0.930785 0
     0.99971 0.376294 0
     0.85985 0.434226 0
-    0.403771 0.521628 0
-    -0.0660184 0.521628 0
-    0.265698 0.188294 0
-    -0.0660187 -0.145039 0
-    0.403771 -0.145039 0
+    0.990411 0.34917 0
+    0.661131 0.684247 0
+    0.655883 0.214013 0
+    0.18563 0.216974 0
+    0.51491 -0.118103 0
 endnode
 #Tile trimesh node
 node trimesh Mesh78
@@ -1117,9 +1118,9 @@ node trimesh Mesh78
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -225.0 -267.5 275.0 
   bitmap eld05_stone20
@@ -1167,9 +1168,9 @@ node trimesh Mesh89
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 225.0 -267.5 275.0 
   bitmap eld05_stone20
@@ -1218,11 +1219,11 @@ node trimesh Mesh77
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -250.0 -267.5 125.0 
-  bitmap eld05_RichWall
+  bitmap eld05_wall00
   verts 41
     -4.0 -1.41 0.0
     -2.17 -2.17 0.0
@@ -1371,8 +1372,8 @@ node trimesh Mesh3487
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 128.0 -8.0 50.0 
   bitmap Black
@@ -1442,9 +1443,9 @@ node trimesh Line1033
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -127.0 -34.0 51.0 
   bitmap eld05_stone20
@@ -1528,11 +1529,11 @@ node trimesh NGon10
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 0.0 
-  bitmap eld05_HalFlr
+  bitmap eld05_halflr
   verts 9
     0.0 -3.25 0.0
     2.3 -2.3 0.0
@@ -1573,9 +1574,9 @@ node trimesh Mesh93
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.776471 0.776471 0.776471 
-  Diffuse 0.776471 0.776471 0.776471 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 400.0 -17.5 150.0 
   bitmap eld05_CbrdDr02
@@ -1613,9 +1614,9 @@ node trimesh Mesh94
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.776471 0.776471 0.776471 
-  Diffuse 0.776471 0.776471 0.776471 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -400.0 -17.5 150.0 
   bitmap eld05_CbrdDr02
@@ -1654,8 +1655,8 @@ node trimesh Line66
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 500.0 0.0 
   bitmap Black
@@ -1752,9 +1753,9 @@ node trimesh Box01
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.670588 0.670588 0.670588 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -327.0 -292.5 64.5 
   bitmap eld05_stone20
@@ -2259,8 +2260,8 @@ node trimesh WindowFrame
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -304.0 -267.5 0.0 
   bitmap plc_woodb256
@@ -3448,7 +3449,7 @@ node dummy grc01_K01_01a
   parent grc01_K01_01
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.109804 0.109804 0.694118 
+  wirecolor 0.776471 0.878431 0.341176 
 endnode
 node trimesh SphereDawn
   parent grc01_K01_01a
@@ -3466,8 +3467,8 @@ node trimesh SphereDawn
   transparencyhint 0
   selfillumcolor 1.0 1.0 1.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 0.0 153.5 
   bitmap skyda_001
@@ -3860,8 +3861,8 @@ node trimesh SphereDay
   transparencyhint 0
   selfillumcolor 1.0 1.0 1.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 0.0 153.5 
   bitmap sky_001
@@ -4254,8 +4255,8 @@ node trimesh SphereDusk
   transparencyhint 0
   selfillumcolor 1.0 1.0 1.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 0.0 153.5 
   bitmap skyd_001
@@ -4648,8 +4649,8 @@ node trimesh SphereNight
   transparencyhint 0
   selfillumcolor 1.0 1.0 1.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 0.0 153.5 
   bitmap skyn_001
@@ -5027,7 +5028,6 @@ node trimesh SphereNight
     3.87338 -0.379571 0
 endnode
 endmodelgeom grc01_K01_01
-
 #NWmax ANIM ASCII
 newanim Day grc01_K01_01
   length 0.0
@@ -5127,8 +5127,6 @@ newanim Day grc01_K01_01
         endlist
     endnode
 doneanim Day grc01_K01_01
-
-
 #NWmax ANIM ASCII
 newanim Day2Night grc01_K01_01
   length 0.333333
@@ -5236,8 +5234,6 @@ newanim Day2Night grc01_K01_01
         endlist
     endnode
 doneanim Day2Night grc01_K01_01
-
-
 #NWmax ANIM ASCII
 newanim Night grc01_K01_01
   length 0.0
@@ -5337,8 +5333,6 @@ newanim Night grc01_K01_01
         endlist
     endnode
 doneanim Night grc01_K01_01
-
-
 #NWmax ANIM ASCII
 newanim Night2Day grc01_K01_01
   length 0.333333
@@ -5446,9 +5440,4 @@ newanim Night2Day grc01_K01_01
         endlist
     endnode
 doneanim Night2Day grc01_K01_01
-
 donemodel grc01_K01_01
-
-
-
-

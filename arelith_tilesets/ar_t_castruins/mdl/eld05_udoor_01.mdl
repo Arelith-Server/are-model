@@ -1,0 +1,2078 @@
+#MAXMODEL ASCII
+# model: eld05_uDoor_01
+filedependancy eld05_uDoor_01.max
+newmodel eld05_uDoor_01
+setsupermodel eld05_uDoor_01 NULL
+classification door
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom eld05_uDoor_01
+node dummy eld05_uDoor_01
+  parent NULL
+  #part-number 0
+endnode
+node trimesh Box8648
+  parent eld05_uDoor_01
+  #part-number 1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap eld05_furnat01
+  verts 25
+    -0.0301025007 -0.140688002 0
+    -0.0301025007 0.140687004 0
+    1.21990001 -0.140688002 0
+    1.21990001 0.140687004 0
+    -0.0301025007 -0.140689 4.48899984
+    1.21990001 -0.140689 4.48899984
+    -0.0301025007 0.140687004 4.48899984
+    1.21990001 0.140687004 4.48899984
+    2.46989989 -0.140688002 0
+    2.46989989 0.140688002 0
+    2.46989989 -0.140687004 2.5
+    2.46989989 0.140688002 0.756654024
+    2.46989989 0.140687004 1.87431002
+    1.21990001 0.140687004 0.756654024
+    -0.0301025007 0.140687004 2.5
+    -0.0301025007 -0.140689 2.5
+    2.46989989 0.140687004 4.48899984
+    2.46989989 -0.140689 4.48899984
+    1.21990001 0.140687004 1.87431002
+    1.82008004 0.140687004 1.50466001
+    2.46989989 -0.140689 0.756654024
+    1.21990001 -0.140689999 0.756654024
+    1.21990001 -0.140689999 1.87431002
+    2.46989989 -0.140689 1.87431002
+    1.82008004 -0.140689999 1.50466001
+  tverts 43
+    0 0 0
+    0 0 0
+    0.205939993 0 0
+    0.205939993 0 0
+    -0.000592113007 0.0185989998 0
+    0.205939993 0.0185989998 0
+    -0.000592113007 0.0632366985 0
+    0.205939993 0.0632366985 0
+    0.39625901 0.000499606016 0
+    0.476758003 0.000499575981 0
+    0.39625901 0.452995002 0
+    0.476758003 0.168889001 0
+    0.482679009 0.391047001 0
+    0.0270377006 -0.00241552992 0
+    0.203967005 -0.00241552992 0
+    0.0290603004 0.233967006 0
+    0.205990002 0.233967006 0
+    -0.00493392022 0 0
+    0.0299980007 0 0
+    -0.000592113007 0.629381001 0
+    0.0335504003 0.629381001 0
+    0.476758987 0.00191587 0
+    0.39625901 0.00191587 0
+    0 0.629381001 0
+    0.205939993 0.629381001 0
+    0.0280243997 0 0
+    -0.00690747006 0 0
+    -0.000592113007 0 0
+    -0.000592113007 0 0
+    0 0.0148791997 0
+    0 0.0632366985 0
+    0.205939993 0.233140007 0
+    0.205939993 0.600395024 0
+    0 0.600395024 0
+    0.203967005 -0.0241547003 0
+    0.0270377006 -0.0241547003 0
+    0.207913995 0.728415012 0
+    0.0309849009 0.728415012 0
+    0.205990002 0.613193989 0
+    0.207913995 0.972375989 0
+    0.122979 0.853582025 0
+    0.0309849009 0.972375989 0
+    0.0310338996 0.613193989 0
+  faces 43
+    0 1 2 1 0 1 2 2
+    3 2 1 1 2 3 0 2
+    4 5 6 1 4 5 6 1
+    7 6 5 1 7 6 5 1
+    8 9 10 2 8 9 10 4
+    11 10 9 2 11 10 9 4
+    10 11 12 2 10 11 12 4
+    9 3 11 4 13 14 15 6
+    13 11 3 4 16 15 14 6
+    1 0 14 2 17 18 19 3
+    15 14 0 2 20 19 18 3
+    12 16 10 2 12 21 10 4
+    17 10 16 2 22 10 21 4
+    14 6 18 4 23 0 24 6
+    7 18 6 4 2 24 0 6
+    15 4 14 2 20 25 19 3
+    6 14 4 2 26 19 25 3
+    3 9 2 1 2 27 3 2
+    8 2 9 1 27 2 28 2
+    5 17 7 1 5 29 7 1
+    16 7 17 1 30 7 29 1
+    13 1 18 4 31 0 32 6
+    14 18 1 4 33 32 0 6
+    1 13 3 4 0 31 2 6
+    7 16 18 4 34 35 36 6
+    12 18 16 4 37 36 35 6
+    13 18 19 4 38 39 40 6
+    12 11 19 4 41 42 40 6
+    19 11 13 4 40 42 38 6
+    12 19 18 4 41 40 39 6
+    2 8 20 4 14 13 15 6
+    20 21 2 4 15 16 14 6
+    4 15 22 4 0 23 24 6
+    22 5 4 4 24 2 0 6
+    0 21 22 4 0 31 32 6
+    22 15 0 4 32 33 0 6
+    21 0 2 4 31 0 2 6
+    17 5 22 4 35 34 36 6
+    22 23 17 4 36 37 35 6
+    22 21 24 4 39 38 40 6
+    20 23 24 4 42 41 40 6
+    20 24 21 4 42 40 38 6
+    24 23 22 4 40 41 39 6
+  position 2.46991992 -0.172304004 0.0109994002
+  orientation 0 0 1 -3.14159012
+endnode
+node trimesh Box8651
+  parent Box8648
+  #part-number 2
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap eld05_hrdwd02
+  verts 18
+    -0.082966499 -0.0374133997 -0.102103002
+    -0.082966499 0.121206 -0.102767996
+    0.082966499 0.121206 -0.102767996
+    0.082966499 -0.0374133997 -0.102103002
+    -0.082966499 -0.0374133997 0.104965001
+    0.082966499 -0.0374133997 0.104965001
+    0.082966499 0.109136 0.104965001
+    -0.082966499 0.109136 0.104965001
+    0.0377121009 0.0774884 -0.451694995
+    -0.0377121009 0.0774884 -0.451694995
+    -0.0377121009 0.0569870993 -0.62895602
+    0.0377121009 0.0569870993 -0.62895602
+    0.0638590977 0.291898996 0.0036225901
+    -0.0688873976 0.291898996 0.0036225901
+    -0.0326838009 0.207709998 -0.307458013
+    0.0377121009 0.207709998 -0.333503008
+    -0.0377121009 0.301602006 -0.340043008
+    0.0377121009 0.301602006 -0.340043008
+  tverts 46
+    1.51547003 0.441105992 0
+    1.51547003 0.440708995 0
+    1.39166999 0.440708995 0
+    1.39166999 0.441105992 0
+    1.51547003 0.564755023 0
+    1.39166999 0.564755023 0
+    1.39166999 0.564755023 0
+    1.51547003 0.564755023 0
+    0.532344997 0.601445019 0
+    0.532208025 0.52038002 0
+    0.383868992 0.525254011 0
+    0.384434998 0.600154996 0
+    1.42543006 0.232348993 0
+    1.48169994 0.232348993 0
+    1.48169994 0.126497999 0
+    1.42543006 0.126497999 0
+    0.522000015 0.531876028 0
+    0.522138 0.61294198 0
+    0.374228001 0.611651003 0
+    0.373661995 0.536750019 0
+    1.40592003 0.504239023 0
+    1.50495994 0.504239023 0
+    0.51335597 0.366986006 0
+    0.398721009 0.346677005 0
+    0.399464011 0.462152988 0
+    0.512390018 0.382328987 0
+    0.398499012 0.477495998 0
+    0.397947997 0.358951986 0
+    1.47794998 0.318479002 0
+    1.42543006 0.302926987 0
+    0.512238979 0.315782994 0
+    0.416889012 0.145034 0
+    0.464520991 0.167223006 0
+    1.42543006 0.299021006 0
+    1.48169994 0.299021006 0
+    0.500653982 0.305676013 0
+    0.459605992 0.144329995 0
+    0.411623001 0.140440002 0
+    0.446155012 0.197986007 0
+    0.393660009 0.200297996 0
+    0.408307999 -0.0422918983 0
+    0.457562 0.0750138983 0
+    0.386868 0.198654994 0
+    0.431225002 0.179949999 0
+    0.450769991 0.0733705983 0
+    0.40151599 -0.0439351983 0
+  faces 32
+    0 1 2 1 0 1 2 2
+    2 3 0 1 2 3 0 2
+    4 5 6 1 4 5 6 1
+    6 7 4 1 5 4 7 1
+    0 3 5 2 0 3 5 5
+    5 4 0 2 5 4 0 5
+    3 2 6 4 8 9 10 4
+    6 5 3 4 10 11 8 4
+    8 9 10 1 12 13 14 6
+    10 11 8 1 14 15 12 6
+    1 0 4 4 16 17 18 3
+    4 7 1 4 18 19 16 3
+    7 6 12 2 4 5 20 6
+    12 13 7 2 20 21 4 6
+    2 12 6 8 22 23 24 6
+    1 7 13 8 25 26 27 6
+    2 1 14 2 2 1 28 6
+    14 15 2 16 28 29 2 6
+    1 13 16 16 30 27 31 6
+    16 14 1 32 31 32 30 6
+    13 12 17 1 21 20 33 6
+    17 16 13 1 33 34 21 6
+    12 2 15 32 23 35 36 6
+    15 17 12 4 36 37 23 6
+    15 14 9 8 29 28 13 6
+    9 8 15 2 13 12 29 6
+    14 16 10 4 38 39 40 6
+    10 9 14 64 40 41 38 6
+    16 17 11 2 34 33 15 6
+    11 10 16 2 15 14 34 6
+    17 15 8 64 42 43 44 6
+    8 11 17 64 44 45 42 6
+  position 1.81024003 0.140685007 1.51306999
+  orientation 0 0 0 0
+endnode
+node trimesh Box9729
+  parent Box8648
+  #part-number 3
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap eld05_hrdwd02
+  verts 18
+    -0.082966499 0.142983004 -0.102767996
+    -0.082966499 0.301602989 -0.102103002
+    0.082966499 0.142983004 -0.102767996
+    0.082966499 0.301602989 -0.102103002
+    0.082966499 0.301602989 0.104965001
+    -0.082966499 0.301602989 0.104965001
+    0.082966499 0.155054003 0.104965001
+    -0.082966499 0.155054003 0.104965001
+    -0.0377121009 0.186701 -0.451694995
+    0.0377121009 0.186701 -0.451694995
+    -0.0377121009 0.207202002 -0.62895602
+    0.0377121009 0.207202002 -0.62895602
+    0.0638590977 -0.0277097002 0.0036226199
+    -0.0688873976 -0.0277097002 0.0036226199
+    -0.0326838009 0.0564793013 -0.307458013
+    0.0377121009 0.0564793013 -0.333503008
+    -0.0377121009 -0.0374130011 -0.340043008
+    0.0377121009 -0.0374130011 -0.340043008
+  tverts 46
+    1.51547003 0.440708995 0
+    1.51547003 0.441105992 0
+    1.39166999 0.440708995 0
+    1.39166999 0.441105992 0
+    1.39166999 0.564755023 0
+    1.51547003 0.564755023 0
+    1.39166999 0.564755023 0
+    1.51547003 0.564755023 0
+    0.532208025 0.52038002 0
+    0.532344997 0.601445019 0
+    0.383868992 0.525254011 0
+    0.384434998 0.600154996 0
+    1.48169994 0.232348993 0
+    1.42543006 0.232348993 0
+    1.48169994 0.126497999 0
+    1.42543006 0.126497999 0
+    0.522138 0.61294198 0
+    0.522000015 0.531876028 0
+    0.374228001 0.611651003 0
+    0.373661995 0.536750019 0
+    1.40592003 0.504239023 0
+    1.50495994 0.504239023 0
+    0.398721009 0.346677005 0
+    0.51335597 0.366986006 0
+    0.399464011 0.462152988 0
+    0.398499012 0.477495998 0
+    0.512390018 0.382328987 0
+    0.397947997 0.358951986 0
+    1.47794998 0.318479002 0
+    1.42543006 0.302926987 0
+    0.512238979 0.315782994 0
+    0.416889012 0.145034 0
+    0.464520991 0.167223006 0
+    1.42543006 0.299021006 0
+    1.48169994 0.299021006 0
+    0.500653982 0.305676013 0
+    0.459605992 0.144329995 0
+    0.411623001 0.140440002 0
+    0.393660009 0.200297996 0
+    0.446155012 0.197986007 0
+    0.408307999 -0.0422918983 0
+    0.457562 0.0750138983 0
+    0.431225002 0.179949999 0
+    0.386868 0.198654994 0
+    0.450769991 0.0733705983 0
+    0.40151599 -0.0439351983 0
+  faces 32
+    0 1 2 1 0 1 2 2
+    3 2 1 1 3 2 1 2
+    4 5 6 1 4 5 6 1
+    7 6 5 1 5 4 7 1
+    3 1 4 2 3 1 4 5
+    5 4 1 2 5 4 1 5
+    2 3 6 4 8 9 10 4
+    4 6 3 4 11 10 9 4
+    8 9 10 1 12 13 14 6
+    11 10 9 1 15 14 13 6
+    1 0 5 4 16 17 18 3
+    7 5 0 4 19 18 17 3
+    6 7 12 2 4 5 20 6
+    13 12 7 2 21 20 5 6
+    12 2 6 8 22 23 24 6
+    7 0 13 8 25 26 27 6
+    0 2 14 2 0 2 28 6
+    15 14 2 16 29 28 2 6
+    13 0 16 16 27 30 31 6
+    14 16 0 32 32 31 30 6
+    12 13 17 1 20 21 33 6
+    16 17 13 1 34 33 21 6
+    2 12 15 32 35 22 36 6
+    17 15 12 4 37 36 22 6
+    14 15 8 8 28 29 12 6
+    9 8 15 2 13 12 29 6
+    16 14 10 4 38 39 40 6
+    8 10 14 64 41 40 39 6
+    17 16 11 2 33 34 15 6
+    10 11 16 2 14 15 34 6
+    15 17 9 64 42 43 44 6
+    11 9 17 64 45 44 43 6
+  position 1.81024003 -0.402592987 1.51306999
+  orientation 0 0 0 0
+endnode
+node trimesh Box8747
+  parent eld05_uDoor_01
+  #part-number 4
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap eld05_furnat01
+  verts 25
+    0.0301025994 0.140687004 0
+    0.0301025994 -0.140688002 0
+    -1.21990001 -0.140689 0
+    -1.21990001 0.140687004 0
+    -1.21990001 -0.140689 4.48899984
+    0.0301025994 -0.140689 4.48899984
+    0.0301025994 0.140687004 4.48899984
+    -1.21990001 0.140687004 4.48899984
+    -2.46989989 0.140687004 0
+    -2.46989989 -0.140689 0
+    -2.46989989 -0.140688002 2.5
+    -2.46989989 0.140687004 0.756654024
+    -2.46989989 0.140687004 1.87431002
+    -1.21990001 0.140687004 0.756654024
+    0.0301025994 0.140687004 2.5
+    0.0301025994 -0.140689 2.5
+    -2.46989989 0.140687004 4.48899984
+    -2.46989989 -0.140689 4.48899984
+    -1.21990001 0.140687004 1.87431002
+    -1.80773997 0.140687004 1.55659997
+    -2.46989989 -0.140689999 0.756654024
+    -1.21990001 -0.140689999 0.756654024
+    -1.21990001 -0.140689999 1.87431002
+    -2.46989989 -0.140689999 1.87431002
+    -1.80773997 -0.140689999 1.55659997
+  tverts 43
+    0 0 0
+    0 0 0
+    0.205939993 0 0
+    0.205939993 0 0
+    0.205939993 0.0185989998 0
+    -0.000592113007 0.0185989998 0
+    -0.000592113007 0.0632366985 0
+    0.205939993 0.0632366985 0
+    0.476758003 0.000499575981 0
+    0.39625901 0.000499606016 0
+    0.39625901 0.452995002 0
+    0.476758003 0.168889001 0
+    0.482679009 0.391047001 0
+    0.203967005 -0.00241552992 0
+    0.0270377006 -0.00241552992 0
+    0.0290603004 0.233967006 0
+    0.205990002 0.233967006 0
+    0.0299980007 0 0
+    -0.00493392022 0 0
+    -0.000592113007 0.629381001 0
+    0.0335504003 0.629381001 0
+    0.476758987 0.00191587 0
+    0.39625901 0.00191587 0
+    0 0.629381001 0
+    0.205939993 0.629381001 0
+    0.0280243997 0 0
+    -0.00690747006 0 0
+    -0.000592113007 0 0
+    -0.000592113007 0 0
+    0 0.0148791997 0
+    0 0.0632366985 0
+    0.205939993 0.233140007 0
+    0.205939993 0.600395024 0
+    0 0.600395024 0
+    0.0270377006 -0.0241547003 0
+    0.203967005 -0.0241547003 0
+    0.207913995 0.728415012 0
+    0.0309849009 0.728415012 0
+    0.124721996 0.870274007 0
+    0.205990002 0.613193989 0
+    0.0310338996 0.613193989 0
+    0.0309849009 0.972375989 0
+    0.207913995 0.972375989 0
+  faces 43
+    0 1 2 1 0 1 2 2
+    2 3 0 1 2 3 0 2
+    4 5 6 1 4 5 6 1
+    6 7 4 1 6 7 4 1
+    8 9 10 2 8 9 10 4
+    10 11 8 2 10 11 8 4
+    11 10 12 2 11 10 12 4
+    3 8 11 4 13 14 15 6
+    11 13 3 4 15 16 13 6
+    1 0 14 2 17 18 19 3
+    14 15 1 2 19 20 17 3
+    16 12 10 2 21 12 10 4
+    10 17 16 2 10 22 21 4
+    6 14 18 4 0 23 24 6
+    18 7 6 4 24 2 0 6
+    5 15 14 2 25 20 19 3
+    14 6 5 2 19 26 25 3
+    8 3 2 1 27 2 3 2
+    2 9 8 1 2 27 28 2
+    17 4 7 1 29 4 7 1
+    7 16 17 1 7 30 29 1
+    0 13 18 4 0 31 32 6
+    18 14 0 4 32 33 0 6
+    13 0 3 4 31 0 2 6
+    16 7 18 4 34 35 36 6
+    18 12 16 4 36 37 34 6
+    19 13 11 4 38 39 40 6
+    11 12 19 4 40 41 38 6
+    19 12 18 4 38 41 42 6
+    13 19 18 4 39 38 42 6
+    9 2 20 4 14 13 15 6
+    21 20 2 4 16 15 13 6
+    15 5 22 4 23 0 24 6
+    4 22 5 4 2 24 0 6
+    21 1 22 4 31 0 32 6
+    15 22 1 4 33 32 0 6
+    1 21 2 4 0 31 2 6
+    4 17 22 4 35 34 36 6
+    23 22 17 4 37 36 34 6
+    21 24 20 4 39 38 40 6
+    23 20 24 4 41 40 38 6
+    23 24 22 4 41 38 42 6
+    24 21 22 4 38 39 42 6
+  position -2.46989012 -0.172303006 0.0109994002
+  orientation 0 0 1 -3.14159012
+endnode
+node trimesh Box8647
+  parent Box8747
+  #part-number 5
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap eld05_hrdwd02
+  verts 18
+    -0.082966499 -0.0374133997 -0.102103002
+    -0.082966499 0.121206 -0.102767996
+    0.082966499 0.121206 -0.102767996
+    0.082966499 -0.0374133997 -0.102103002
+    -0.082966499 -0.0374133997 0.104965001
+    0.082966499 -0.0374133997 0.104965001
+    0.082966499 0.109136 0.104965001
+    -0.082966499 0.109136 0.104965001
+    0.0377121009 0.0774884 -0.451694995
+    -0.0377121009 0.0774884 -0.451694995
+    -0.0377121009 0.0569870993 -0.62895602
+    0.0377121009 0.0569870993 -0.62895602
+    0.0638590977 0.291898996 0.0036225901
+    -0.0688873976 0.291898996 0.0036225901
+    -0.0326838009 0.207709998 -0.307458013
+    0.0377121009 0.207709998 -0.333503008
+    -0.0377121009 0.301602006 -0.340043008
+    0.0377121009 0.301602006 -0.340043008
+  tverts 46
+    1.51547003 0.441105992 0
+    1.51547003 0.440708995 0
+    1.39166999 0.440708995 0
+    1.39166999 0.441105992 0
+    1.51547003 0.564755023 0
+    1.39166999 0.564755023 0
+    1.39166999 0.564755023 0
+    1.51547003 0.564755023 0
+    0.532344997 0.601445019 0
+    0.532208025 0.52038002 0
+    0.383868992 0.525254011 0
+    0.384434998 0.600154996 0
+    1.42543006 0.232348993 0
+    1.48169994 0.232348993 0
+    1.48169994 0.126497999 0
+    1.42543006 0.126497999 0
+    0.522000015 0.531876028 0
+    0.522138 0.61294198 0
+    0.374228001 0.611651003 0
+    0.373661995 0.536750019 0
+    1.40592003 0.504239023 0
+    1.50495994 0.504239023 0
+    0.51335597 0.366986006 0
+    0.398721009 0.346677005 0
+    0.399464011 0.462152988 0
+    0.512390018 0.382328987 0
+    0.398499012 0.477495998 0
+    0.397947997 0.358951986 0
+    1.47794998 0.318479002 0
+    1.42543006 0.302926987 0
+    0.512238979 0.315782994 0
+    0.416889012 0.145034 0
+    0.464520991 0.167223006 0
+    1.42543006 0.299021006 0
+    1.48169994 0.299021006 0
+    0.500653982 0.305676013 0
+    0.459605992 0.144329995 0
+    0.411623001 0.140440002 0
+    0.446155012 0.197986007 0
+    0.393660009 0.200297996 0
+    0.408307999 -0.0422918983 0
+    0.457562 0.0750138983 0
+    0.386868 0.198654994 0
+    0.431225002 0.179949999 0
+    0.450769991 0.0733705983 0
+    0.40151599 -0.0439351983 0
+  faces 32
+    0 1 2 1 0 1 2 2
+    2 3 0 1 2 3 0 2
+    4 5 6 1 4 5 6 1
+    6 7 4 1 5 4 7 1
+    0 3 5 2 0 3 5 5
+    5 4 0 2 5 4 0 5
+    3 2 6 4 8 9 10 4
+    6 5 3 4 10 11 8 4
+    8 9 10 1 12 13 14 6
+    10 11 8 1 14 15 12 6
+    1 0 4 4 16 17 18 3
+    4 7 1 4 18 19 16 3
+    7 6 12 2 4 5 20 6
+    12 13 7 2 20 21 4 6
+    2 12 6 8 22 23 24 6
+    1 7 13 8 25 26 27 6
+    2 1 14 2 2 1 28 6
+    14 15 2 16 28 29 2 6
+    1 13 16 16 30 27 31 6
+    16 14 1 32 31 32 30 6
+    13 12 17 1 21 20 33 6
+    17 16 13 1 33 34 21 6
+    12 2 15 32 23 35 36 6
+    15 17 12 4 36 37 23 6
+    15 14 9 8 29 28 13 6
+    9 8 15 2 13 12 29 6
+    14 16 10 4 38 39 40 6
+    10 9 14 64 40 41 38 6
+    16 17 11 2 34 33 15 6
+    11 10 16 2 15 14 34 6
+    17 15 8 64 42 43 44 6
+    8 11 17 64 44 45 42 6
+  position -1.79911995 0.140685007 1.51306999
+  orientation 0 0 0 0
+endnode
+node trimesh Box9728
+  parent Box8747
+  #part-number 6
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap eld05_hrdwd02
+  verts 18
+    -0.082966499 0.142983004 -0.102767996
+    -0.082966499 0.301602989 -0.102103002
+    0.082966499 0.142983004 -0.102767996
+    0.082966499 0.301602989 -0.102103002
+    0.082966499 0.301602989 0.104965001
+    -0.082966499 0.301602989 0.104965001
+    0.082966499 0.155054003 0.104965001
+    -0.082966499 0.155054003 0.104965001
+    -0.0377121009 0.186701 -0.451694995
+    0.0377120003 0.186701 -0.451694995
+    -0.0377121009 0.207202002 -0.62895602
+    0.0377120003 0.207202002 -0.62895602
+    0.0638590977 -0.0277097002 0.0036226199
+    -0.0688873976 -0.0277097002 0.0036226199
+    -0.0326838009 0.0564793013 -0.307458013
+    0.0377120003 0.0564793013 -0.333503008
+    -0.0377121009 -0.0374130011 -0.340043008
+    0.0377120003 -0.0374130011 -0.340043008
+  tverts 46
+    1.51547003 0.440708995 0
+    1.51547003 0.441105992 0
+    1.39166999 0.440708995 0
+    1.39166999 0.441105992 0
+    1.39166999 0.564755023 0
+    1.51547003 0.564755023 0
+    1.39166999 0.564755023 0
+    1.51547003 0.564755023 0
+    0.532208025 0.52038002 0
+    0.532344997 0.601445019 0
+    0.383868992 0.525254011 0
+    0.384434998 0.600154996 0
+    1.48169994 0.232348993 0
+    1.42543006 0.232348993 0
+    1.48169994 0.126497999 0
+    1.42543006 0.126497999 0
+    0.522138 0.61294198 0
+    0.522000015 0.531876028 0
+    0.374228001 0.611651003 0
+    0.373661995 0.536750019 0
+    1.40592003 0.504239023 0
+    1.50495994 0.504239023 0
+    0.398721009 0.346677005 0
+    0.51335597 0.366986006 0
+    0.399464011 0.462152988 0
+    0.398499012 0.477495998 0
+    0.512390018 0.382328987 0
+    0.397947997 0.358951986 0
+    1.47794998 0.318479002 0
+    1.42543006 0.302926987 0
+    0.512238979 0.315782994 0
+    0.416889012 0.145034 0
+    0.464520991 0.167223006 0
+    1.42543006 0.299021006 0
+    1.48169994 0.299021006 0
+    0.500653982 0.305676013 0
+    0.459605992 0.144329995 0
+    0.411623001 0.140440002 0
+    0.393660009 0.200297996 0
+    0.446155012 0.197986007 0
+    0.408307999 -0.0422918983 0
+    0.457562 0.0750138983 0
+    0.431225002 0.179949999 0
+    0.386868 0.198654994 0
+    0.450769991 0.0733705983 0
+    0.40151599 -0.0439351983 0
+  faces 32
+    0 1 2 1 0 1 2 2
+    3 2 1 1 3 2 1 2
+    4 5 6 1 4 5 6 1
+    7 6 5 1 5 4 7 1
+    3 1 4 2 3 1 4 5
+    5 4 1 2 5 4 1 5
+    2 3 6 4 8 9 10 4
+    4 6 3 4 11 10 9 4
+    8 9 10 1 12 13 14 6
+    11 10 9 1 15 14 13 6
+    1 0 5 4 16 17 18 3
+    7 5 0 4 19 18 17 3
+    6 7 12 2 4 5 20 6
+    13 12 7 2 21 20 5 6
+    12 2 6 8 22 23 24 6
+    7 0 13 8 25 26 27 6
+    0 2 14 2 0 2 28 6
+    15 14 2 16 29 28 2 6
+    13 0 16 16 27 30 31 6
+    14 16 0 32 32 31 30 6
+    12 13 17 1 20 21 33 6
+    16 17 13 1 34 33 21 6
+    2 12 15 32 35 22 36 6
+    17 15 12 4 37 36 22 6
+    14 15 8 8 28 29 12 6
+    9 8 15 2 13 12 29 6
+    16 14 10 4 38 39 40 6
+    8 10 14 64 41 40 39 6
+    17 16 11 2 33 34 15 6
+    10 11 16 2 14 15 34 6
+    15 17 9 64 42 43 44 6
+    11 9 17 64 45 44 43 6
+  position -1.79911995 -0.402592987 1.51306999
+  orientation 0 0 0 0
+endnode
+node trimesh sam
+  parent eld05_uDoor_01
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  bitmap NULL
+  verts 8
+    -2.5 -0.0299916994 -1.5
+    2.5 -0.0299916994 -1.5
+    -2.5 -0.0299916007 -4.48899984
+    2.5 -0.0299916007 -4.48899984
+    2.5 -0.0649726987 -1.5
+    -2.5 -0.0649726987 -1.5
+    -2.5 -0.0649724975 -4.48899984
+    2.5 -0.0649724975 -4.48899984
+  faces 4
+    0 1 2 1 0 0 0 18
+    3 2 1 1 0 0 0 18
+    4 5 6 1 0 0 0 18
+    6 7 4 1 0 0 0 18
+  position 2.37564e-005 -0.172303006 4.5
+  orientation 0 0 1 -3.14159012
+  alpha 0
+  scale 1
+  selfillumcolor 0 0 1
+endnode
+node emitter ChunkyWood1
+  parent eld05_uDoor_01
+  #part-number 8
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_W01
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.0095043797 -0.242498994 0.658299983
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 5
+  velocity 8
+  randvel 0.300000012
+  fps 0
+  xsize 89
+  ysize 40
+  bounce_co 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter ChunkyWood02
+  parent eld05_uDoor_01
+  #part-number 9
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_W02
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0.0095043797 -0.242500007 1.39008999
+  orientation 0 0 0 0
+  colorStart 0.482353002 0.435294002 0.31764701
+  colorEnd 0.584313989 0.533333004 0.407842994
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 2.9000001
+  velocity 8
+  randvel 0.300000012
+  fps 0
+  xsize 89
+  ysize 40
+  bounce_co 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter fire!07
+  parent eld05_uDoor_01
+  #part-number 10
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.200000003
+  blastLength 1
+  position 0.0095043797 -0.242498994 0.949790001
+  orientation -1 0 0 -1.57079995
+  colorStart 0.474510014 0.439215988 0.36470601
+  colorEnd 0.819607973 0.79607898 0.709803998
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 35
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  fps 10
+  xsize 412
+  ysize 136
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom eld05_uDoor_01
+
+#MAXANIM ASCII
+newanim opening1 eld05_uDoor_01
+  length 0.966666996
+  transtime 0.25
+  animroot eld05_uDoor_01
+node dummy eld05_uDoor_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Box8648
+  parent eld05_uDoor_01
+  #part-number 1
+  orientationkey 3
+    0 -0 -0 1 -3.14159012
+    0.833333015 -0 -0 1 -1.55915999
+    0.899999976 -0 -0 1 -1.61442983
+endnode
+node dummy Box8651
+  parent Box8648
+  #part-number 2
+endnode
+node dummy Box9729
+  parent Box8648
+  #part-number 3
+endnode
+node dummy Box8747
+  parent eld05_uDoor_01
+  #part-number 4
+  orientationkey 4
+    0 -0 -0 1 -3.14159012
+    0.0333333015 -0 -0 1 -3.14159012
+    0.899999976 -0 -0 1 -4.71530008
+    0.966666996 -0 -0 1 -4.66875982
+endnode
+node dummy Box8647
+  parent Box8747
+  #part-number 5
+endnode
+node dummy Box9728
+  parent Box8747
+  #part-number 6
+endnode
+node trimesh sam
+  parent eld05_uDoor_01
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.966666996 0
+endnode
+node dummy eld05_uDoor_01_DWK
+  parent eld05_uDoor_01
+  #part-number -1
+endnode
+node trimesh 01_DWK_wg_open2
+  parent eld05_uDoor_01_DWK
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_open1
+  parent eld05_uDoor_01_DWK
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_closed
+  parent eld05_uDoor_01_DWK
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy 01_DWK_dp_closed_02
+  parent eld05_uDoor_01_DWK
+  #part-number 12
+endnode
+node dummy 01_DWK_dp_closed_01
+  parent eld05_uDoor_01_DWK
+  #part-number 13
+endnode
+node dummy 01_DWK_dp_open2_01
+  parent eld05_uDoor_01_DWK
+  #part-number 14
+endnode
+node dummy 01_DWK_dp_open2_02
+  parent eld05_uDoor_01_DWK
+  #part-number 15
+endnode
+node dummy 01_DWK_dp_open1_01
+  parent eld05_uDoor_01_DWK
+  #part-number 16
+endnode
+node dummy 01_DWK_dp_open1_02
+  parent eld05_uDoor_01_DWK
+  #part-number 17
+endnode
+node emitter ChunkyWood1
+  parent eld05_uDoor_01
+  #part-number 8
+endnode
+node emitter ChunkyWood02
+  parent eld05_uDoor_01
+  #part-number 9
+endnode
+node emitter fire!07
+  parent eld05_uDoor_01
+  #part-number 10
+endnode
+doneanim opening1 eld05_uDoor_01
+
+#MAXANIM ASCII
+newanim opening2 eld05_uDoor_01
+  length 0.966666996
+  transtime 0.25
+  animroot eld05_uDoor_01
+node dummy eld05_uDoor_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Box8648
+  parent eld05_uDoor_01
+  #part-number 1
+  orientationkey 4
+    0 -0 -0 1 -3.14159012
+    0.0333333015 -0 -0 1 -3.14159012
+    0.899999976 -0 -0 1 -4.71936989
+    0.966666996 -0 -0 1 -4.60766983
+endnode
+node dummy Box8651
+  parent Box8648
+  #part-number 2
+endnode
+node dummy Box9729
+  parent Box8648
+  #part-number 3
+endnode
+node dummy Box8747
+  parent eld05_uDoor_01
+  #part-number 4
+  orientationkey 3
+    0 -0 -0 1 -3.14159012
+    0.833333015 -0 -0 1 -1.48934996
+    0.899999976 -0 -0 1 -1.61442983
+endnode
+node dummy Box8647
+  parent Box8747
+  #part-number 5
+endnode
+node dummy Box9728
+  parent Box8747
+  #part-number 6
+endnode
+node trimesh sam
+  parent eld05_uDoor_01
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.966666996 0
+endnode
+node dummy eld05_uDoor_01_DWK
+  parent eld05_uDoor_01
+  #part-number -1
+endnode
+node trimesh 01_DWK_wg_open2
+  parent eld05_uDoor_01_DWK
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_open1
+  parent eld05_uDoor_01_DWK
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_closed
+  parent eld05_uDoor_01_DWK
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy 01_DWK_dp_closed_02
+  parent eld05_uDoor_01_DWK
+  #part-number 12
+endnode
+node dummy 01_DWK_dp_closed_01
+  parent eld05_uDoor_01_DWK
+  #part-number 13
+endnode
+node dummy 01_DWK_dp_open2_01
+  parent eld05_uDoor_01_DWK
+  #part-number 14
+endnode
+node dummy 01_DWK_dp_open2_02
+  parent eld05_uDoor_01_DWK
+  #part-number 15
+endnode
+node dummy 01_DWK_dp_open1_01
+  parent eld05_uDoor_01_DWK
+  #part-number 16
+endnode
+node dummy 01_DWK_dp_open1_02
+  parent eld05_uDoor_01_DWK
+  #part-number 17
+endnode
+node emitter ChunkyWood1
+  parent eld05_uDoor_01
+  #part-number 8
+endnode
+node emitter ChunkyWood02
+  parent eld05_uDoor_01
+  #part-number 9
+endnode
+node emitter fire!07
+  parent eld05_uDoor_01
+  #part-number 10
+endnode
+doneanim opening2 eld05_uDoor_01
+
+#MAXANIM ASCII
+newanim opened1 eld05_uDoor_01
+  length 0.0333333015
+  transtime 0.25
+  animroot eld05_uDoor_01
+node dummy eld05_uDoor_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Box8648
+  parent eld05_uDoor_01
+  #part-number 1
+  orientationkey 1
+    0.0333333015 -0 -0 1 -1.61442983
+endnode
+node dummy Box8651
+  parent Box8648
+  #part-number 2
+endnode
+node dummy Box9729
+  parent Box8648
+  #part-number 3
+endnode
+node dummy Box8747
+  parent eld05_uDoor_01
+  #part-number 4
+  orientationkey 2
+    0 -0 -0 1 -4.66875982
+    0.0333333015 -0 -0 1 -4.66875982
+endnode
+node dummy Box8647
+  parent Box8747
+  #part-number 5
+endnode
+node dummy Box9728
+  parent Box8747
+  #part-number 6
+endnode
+node trimesh sam
+  parent eld05_uDoor_01
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.0333333015 0
+endnode
+node dummy eld05_uDoor_01_DWK
+  parent eld05_uDoor_01
+  #part-number -1
+endnode
+node trimesh 01_DWK_wg_open2
+  parent eld05_uDoor_01_DWK
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_open1
+  parent eld05_uDoor_01_DWK
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_closed
+  parent eld05_uDoor_01_DWK
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy 01_DWK_dp_closed_02
+  parent eld05_uDoor_01_DWK
+  #part-number 12
+endnode
+node dummy 01_DWK_dp_closed_01
+  parent eld05_uDoor_01_DWK
+  #part-number 13
+endnode
+node dummy 01_DWK_dp_open2_01
+  parent eld05_uDoor_01_DWK
+  #part-number 14
+endnode
+node dummy 01_DWK_dp_open2_02
+  parent eld05_uDoor_01_DWK
+  #part-number 15
+endnode
+node dummy 01_DWK_dp_open1_01
+  parent eld05_uDoor_01_DWK
+  #part-number 16
+endnode
+node dummy 01_DWK_dp_open1_02
+  parent eld05_uDoor_01_DWK
+  #part-number 17
+endnode
+node emitter ChunkyWood1
+  parent eld05_uDoor_01
+  #part-number 8
+endnode
+node emitter ChunkyWood02
+  parent eld05_uDoor_01
+  #part-number 9
+endnode
+node emitter fire!07
+  parent eld05_uDoor_01
+  #part-number 10
+endnode
+doneanim opened1 eld05_uDoor_01
+
+#MAXANIM ASCII
+newanim opened2 eld05_uDoor_01
+  length 0.0333333015
+  transtime 0.25
+  animroot eld05_uDoor_01
+node dummy eld05_uDoor_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Box8648
+  parent eld05_uDoor_01
+  #part-number 1
+  orientationkey 2
+    0 -0 -0 1 -4.60766983
+    0.0333333015 -0 -0 1 -4.60766983
+endnode
+node dummy Box8651
+  parent Box8648
+  #part-number 2
+endnode
+node dummy Box9729
+  parent Box8648
+  #part-number 3
+endnode
+node dummy Box8747
+  parent eld05_uDoor_01
+  #part-number 4
+  orientationkey 1
+    0.0333333015 -0 -0 1 -1.61442983
+endnode
+node dummy Box8647
+  parent Box8747
+  #part-number 5
+endnode
+node dummy Box9728
+  parent Box8747
+  #part-number 6
+endnode
+node trimesh sam
+  parent eld05_uDoor_01
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.0333333015 0
+endnode
+node dummy eld05_uDoor_01_DWK
+  parent eld05_uDoor_01
+  #part-number -1
+endnode
+node trimesh 01_DWK_wg_open2
+  parent eld05_uDoor_01_DWK
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_open1
+  parent eld05_uDoor_01_DWK
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_closed
+  parent eld05_uDoor_01_DWK
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy 01_DWK_dp_closed_02
+  parent eld05_uDoor_01_DWK
+  #part-number 12
+endnode
+node dummy 01_DWK_dp_closed_01
+  parent eld05_uDoor_01_DWK
+  #part-number 13
+endnode
+node dummy 01_DWK_dp_open2_01
+  parent eld05_uDoor_01_DWK
+  #part-number 14
+endnode
+node dummy 01_DWK_dp_open2_02
+  parent eld05_uDoor_01_DWK
+  #part-number 15
+endnode
+node dummy 01_DWK_dp_open1_01
+  parent eld05_uDoor_01_DWK
+  #part-number 16
+endnode
+node dummy 01_DWK_dp_open1_02
+  parent eld05_uDoor_01_DWK
+  #part-number 17
+endnode
+node emitter ChunkyWood1
+  parent eld05_uDoor_01
+  #part-number 8
+endnode
+node emitter ChunkyWood02
+  parent eld05_uDoor_01
+  #part-number 9
+endnode
+node emitter fire!07
+  parent eld05_uDoor_01
+  #part-number 10
+endnode
+doneanim opened2 eld05_uDoor_01
+
+#MAXANIM ASCII
+newanim closed eld05_uDoor_01
+  length 0.0333333015
+  transtime 0.25
+  animroot eld05_uDoor_01
+node dummy eld05_uDoor_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Box8648
+  parent eld05_uDoor_01
+  #part-number 1
+  orientationkey 2
+    0 -0 -0 1 -3.14159012
+    0.0333333015 -0 -0 1 -3.14159012
+endnode
+node dummy Box8651
+  parent Box8648
+  #part-number 2
+endnode
+node dummy Box9729
+  parent Box8648
+  #part-number 3
+endnode
+node dummy Box8747
+  parent eld05_uDoor_01
+  #part-number 4
+  orientationkey 2
+    0 -0 -0 1 -3.14159012
+    0.0333333015 -0 -0 1 -3.14159012
+endnode
+node dummy Box8647
+  parent Box8747
+  #part-number 5
+endnode
+node dummy Box9728
+  parent Box8747
+  #part-number 6
+endnode
+node trimesh sam
+  parent eld05_uDoor_01
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.0333333015 0
+endnode
+node dummy eld05_uDoor_01_DWK
+  parent eld05_uDoor_01
+  #part-number -1
+endnode
+node trimesh 01_DWK_wg_open2
+  parent eld05_uDoor_01_DWK
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_open1
+  parent eld05_uDoor_01_DWK
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_closed
+  parent eld05_uDoor_01_DWK
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy 01_DWK_dp_closed_02
+  parent eld05_uDoor_01_DWK
+  #part-number 12
+endnode
+node dummy 01_DWK_dp_closed_01
+  parent eld05_uDoor_01_DWK
+  #part-number 13
+endnode
+node dummy 01_DWK_dp_open2_01
+  parent eld05_uDoor_01_DWK
+  #part-number 14
+endnode
+node dummy 01_DWK_dp_open2_02
+  parent eld05_uDoor_01_DWK
+  #part-number 15
+endnode
+node dummy 01_DWK_dp_open1_01
+  parent eld05_uDoor_01_DWK
+  #part-number 16
+endnode
+node dummy 01_DWK_dp_open1_02
+  parent eld05_uDoor_01_DWK
+  #part-number 17
+endnode
+node emitter ChunkyWood1
+  parent eld05_uDoor_01
+  #part-number 8
+endnode
+node emitter ChunkyWood02
+  parent eld05_uDoor_01
+  #part-number 9
+endnode
+node emitter fire!07
+  parent eld05_uDoor_01
+  #part-number 10
+endnode
+doneanim closed eld05_uDoor_01
+
+#MAXANIM ASCII
+newanim closing1 eld05_uDoor_01
+  length 0.966666996
+  transtime 0.25
+  animroot eld05_uDoor_01
+node dummy eld05_uDoor_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Box8648
+  parent eld05_uDoor_01
+  #part-number 1
+  orientationkey 3
+    0 -0 -0 1 -1.61442983
+    0.93333298 -0 -0 1 -3.22159004
+    0.966666996 -0 -0 1 -3.14159012
+endnode
+node dummy Box8651
+  parent Box8648
+  #part-number 2
+endnode
+node dummy Box9729
+  parent Box8648
+  #part-number 3
+endnode
+node dummy Box8747
+  parent eld05_uDoor_01
+  #part-number 4
+  orientationkey 4
+    0 -0 -0 1 -4.66875982
+    0.833333015 -0 -0 1 -3.10523009
+    0.866666973 -0 -0 1 -3.14159012
+    0.966666996 -0 -0 1 -3.14159012
+endnode
+node dummy Box8647
+  parent Box8747
+  #part-number 5
+endnode
+node dummy Box9728
+  parent Box8747
+  #part-number 6
+endnode
+node trimesh sam
+  parent eld05_uDoor_01
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  alpha 0
+endnode
+node dummy eld05_uDoor_01_DWK
+  parent eld05_uDoor_01
+  #part-number -1
+endnode
+node trimesh 01_DWK_wg_open2
+  parent eld05_uDoor_01_DWK
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_open1
+  parent eld05_uDoor_01_DWK
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_closed
+  parent eld05_uDoor_01_DWK
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy 01_DWK_dp_closed_02
+  parent eld05_uDoor_01_DWK
+  #part-number 12
+endnode
+node dummy 01_DWK_dp_closed_01
+  parent eld05_uDoor_01_DWK
+  #part-number 13
+endnode
+node dummy 01_DWK_dp_open2_01
+  parent eld05_uDoor_01_DWK
+  #part-number 14
+endnode
+node dummy 01_DWK_dp_open2_02
+  parent eld05_uDoor_01_DWK
+  #part-number 15
+endnode
+node dummy 01_DWK_dp_open1_01
+  parent eld05_uDoor_01_DWK
+  #part-number 16
+endnode
+node dummy 01_DWK_dp_open1_02
+  parent eld05_uDoor_01_DWK
+  #part-number 17
+endnode
+node emitter ChunkyWood1
+  parent eld05_uDoor_01
+  #part-number 8
+endnode
+node emitter ChunkyWood02
+  parent eld05_uDoor_01
+  #part-number 9
+endnode
+node emitter fire!07
+  parent eld05_uDoor_01
+  #part-number 10
+endnode
+doneanim closing1 eld05_uDoor_01
+
+#MAXANIM ASCII
+newanim closing2 eld05_uDoor_01
+  length 0.966666996
+  transtime 0.25
+  animroot eld05_uDoor_01
+node dummy eld05_uDoor_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Box8648
+  parent eld05_uDoor_01
+  #part-number 1
+  orientationkey 3
+    0 -0 -0 1 -4.60766983
+    0.93333298 -0 -0 1 -3.09969997
+    0.966666996 -0 -0 1 -3.14159012
+endnode
+node dummy Box8651
+  parent Box8648
+  #part-number 2
+endnode
+node dummy Box9729
+  parent Box8648
+  #part-number 3
+endnode
+node dummy Box8747
+  parent eld05_uDoor_01
+  #part-number 4
+  orientationkey 3
+    0 -0 -0 1 -1.61442983
+    0.866666973 -0 -0 1 -3.19686007
+    0.899999976 -0 -0 1 -3.14159012
+endnode
+node dummy Box8647
+  parent Box8747
+  #part-number 5
+endnode
+node dummy Box9728
+  parent Box8747
+  #part-number 6
+endnode
+node trimesh sam
+  parent eld05_uDoor_01
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0
+    0.966666996 0
+endnode
+node dummy eld05_uDoor_01_DWK
+  parent eld05_uDoor_01
+  #part-number -1
+endnode
+node trimesh 01_DWK_wg_open2
+  parent eld05_uDoor_01_DWK
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_open1
+  parent eld05_uDoor_01_DWK
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_closed
+  parent eld05_uDoor_01_DWK
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy 01_DWK_dp_closed_02
+  parent eld05_uDoor_01_DWK
+  #part-number 12
+endnode
+node dummy 01_DWK_dp_closed_01
+  parent eld05_uDoor_01_DWK
+  #part-number 13
+endnode
+node dummy 01_DWK_dp_open2_01
+  parent eld05_uDoor_01_DWK
+  #part-number 14
+endnode
+node dummy 01_DWK_dp_open2_02
+  parent eld05_uDoor_01_DWK
+  #part-number 15
+endnode
+node dummy 01_DWK_dp_open1_01
+  parent eld05_uDoor_01_DWK
+  #part-number 16
+endnode
+node dummy 01_DWK_dp_open1_02
+  parent eld05_uDoor_01_DWK
+  #part-number 17
+endnode
+node emitter ChunkyWood1
+  parent eld05_uDoor_01
+  #part-number 8
+endnode
+node emitter ChunkyWood02
+  parent eld05_uDoor_01
+  #part-number 9
+endnode
+node emitter fire!07
+  parent eld05_uDoor_01
+  #part-number 10
+endnode
+doneanim closing2 eld05_uDoor_01
+
+#MAXANIM ASCII
+newanim trans eld05_uDoor_01
+  length 0.0333333015
+  transtime 0.25
+  animroot eld05_uDoor_01
+node dummy eld05_uDoor_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Box8648
+  parent eld05_uDoor_01
+  #part-number 1
+endnode
+node dummy Box8651
+  parent Box8648
+  #part-number 2
+endnode
+node dummy Box9729
+  parent Box8648
+  #part-number 3
+endnode
+node dummy Box8747
+  parent eld05_uDoor_01
+  #part-number 4
+endnode
+node dummy Box8647
+  parent Box8747
+  #part-number 5
+endnode
+node dummy Box9728
+  parent Box8747
+  #part-number 6
+endnode
+node trimesh sam
+  parent eld05_uDoor_01
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  alphakey 2
+    0 0.25
+    0.0333333015 0.25
+endnode
+node dummy eld05_uDoor_01_DWK
+  parent eld05_uDoor_01
+  #part-number -1
+endnode
+node trimesh 01_DWK_wg_open2
+  parent eld05_uDoor_01_DWK
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_open1
+  parent eld05_uDoor_01_DWK
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_closed
+  parent eld05_uDoor_01_DWK
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy 01_DWK_dp_closed_02
+  parent eld05_uDoor_01_DWK
+  #part-number 12
+endnode
+node dummy 01_DWK_dp_closed_01
+  parent eld05_uDoor_01_DWK
+  #part-number 13
+endnode
+node dummy 01_DWK_dp_open2_01
+  parent eld05_uDoor_01_DWK
+  #part-number 14
+endnode
+node dummy 01_DWK_dp_open2_02
+  parent eld05_uDoor_01_DWK
+  #part-number 15
+endnode
+node dummy 01_DWK_dp_open1_01
+  parent eld05_uDoor_01_DWK
+  #part-number 16
+endnode
+node dummy 01_DWK_dp_open1_02
+  parent eld05_uDoor_01_DWK
+  #part-number 17
+endnode
+node emitter ChunkyWood1
+  parent eld05_uDoor_01
+  #part-number 8
+endnode
+node emitter ChunkyWood02
+  parent eld05_uDoor_01
+  #part-number 9
+endnode
+node emitter fire!07
+  parent eld05_uDoor_01
+  #part-number 10
+endnode
+doneanim trans eld05_uDoor_01
+
+#MAXANIM ASCII
+newanim die eld05_uDoor_01
+  length 0.266667008
+  transtime 0.25
+  animroot eld05_uDoor_01
+  event 0.0333333015 detonate
+  event 0.0333333015 detonate
+  event 0.0333333015 detonate
+node dummy eld05_uDoor_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Box8648
+  parent eld05_uDoor_01
+  #part-number 1
+  positionkey 2
+    0 2.46991992 -0.172304004 0.0109994002
+    0.266667008 2.46991992 -0.172303006 -5.08737993
+  orientationkey 2
+    0 -0 -0 1 -3.14159012
+    0.266667008 -0.0889208019 -0.23136802 0.968794048 -3.55973005
+endnode
+node dummy Box8651
+  parent Box8648
+  #part-number 2
+endnode
+node dummy Box9729
+  parent Box8648
+  #part-number 3
+endnode
+node dummy Box8747
+  parent eld05_uDoor_01
+  #part-number 4
+  positionkey 2
+    0 -2.46989012 -0.172303006 0.0109994002
+    0.266667008 -2.46989012 -0.172301993 -5.08737993
+  orientationkey 2
+    0 -0 -0 1 -3.14159012
+    0.266667008 0.179765061 -0.167303041 0.969378293 -3.67010999
+endnode
+node dummy Box8647
+  parent Box8747
+  #part-number 5
+endnode
+node dummy Box9728
+  parent Box8747
+  #part-number 6
+endnode
+node trimesh sam
+  parent eld05_uDoor_01
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy eld05_uDoor_01_DWK
+  parent eld05_uDoor_01
+  #part-number -1
+endnode
+node trimesh 01_DWK_wg_open2
+  parent eld05_uDoor_01_DWK
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_open1
+  parent eld05_uDoor_01_DWK
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_closed
+  parent eld05_uDoor_01_DWK
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy 01_DWK_dp_closed_02
+  parent eld05_uDoor_01_DWK
+  #part-number 12
+endnode
+node dummy 01_DWK_dp_closed_01
+  parent eld05_uDoor_01_DWK
+  #part-number 13
+endnode
+node dummy 01_DWK_dp_open2_01
+  parent eld05_uDoor_01_DWK
+  #part-number 14
+endnode
+node dummy 01_DWK_dp_open2_02
+  parent eld05_uDoor_01_DWK
+  #part-number 15
+endnode
+node dummy 01_DWK_dp_open1_01
+  parent eld05_uDoor_01_DWK
+  #part-number 16
+endnode
+node dummy 01_DWK_dp_open1_02
+  parent eld05_uDoor_01_DWK
+  #part-number 17
+endnode
+node emitter ChunkyWood1
+  parent eld05_uDoor_01
+  #part-number 8
+endnode
+node emitter ChunkyWood02
+  parent eld05_uDoor_01
+  #part-number 9
+endnode
+node emitter fire!07
+  parent eld05_uDoor_01
+  #part-number 10
+endnode
+doneanim die eld05_uDoor_01
+
+#MAXANIM ASCII
+newanim dead eld05_uDoor_01
+  length 0.0333333015
+  transtime 0.25
+  animroot eld05_uDoor_01
+node dummy eld05_uDoor_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Box8648
+  parent eld05_uDoor_01
+  #part-number 1
+endnode
+node dummy Box8651
+  parent Box8648
+  #part-number 2
+endnode
+node dummy Box9729
+  parent Box8648
+  #part-number 3
+endnode
+node dummy Box8747
+  parent eld05_uDoor_01
+  #part-number 4
+endnode
+node dummy Box8647
+  parent Box8747
+  #part-number 5
+endnode
+node dummy Box9728
+  parent Box8747
+  #part-number 6
+endnode
+node trimesh sam
+  parent eld05_uDoor_01
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy eld05_uDoor_01_DWK
+  parent eld05_uDoor_01
+  #part-number -1
+endnode
+node trimesh 01_DWK_wg_open2
+  parent eld05_uDoor_01_DWK
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_open1
+  parent eld05_uDoor_01_DWK
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node trimesh 01_DWK_wg_closed
+  parent eld05_uDoor_01_DWK
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+endnode
+node dummy 01_DWK_dp_closed_02
+  parent eld05_uDoor_01_DWK
+  #part-number 12
+endnode
+node dummy 01_DWK_dp_closed_01
+  parent eld05_uDoor_01_DWK
+  #part-number 13
+endnode
+node dummy 01_DWK_dp_open2_01
+  parent eld05_uDoor_01_DWK
+  #part-number 14
+endnode
+node dummy 01_DWK_dp_open2_02
+  parent eld05_uDoor_01_DWK
+  #part-number 15
+endnode
+node dummy 01_DWK_dp_open1_01
+  parent eld05_uDoor_01_DWK
+  #part-number 16
+endnode
+node dummy 01_DWK_dp_open1_02
+  parent eld05_uDoor_01_DWK
+  #part-number 17
+endnode
+node emitter ChunkyWood1
+  parent eld05_uDoor_01
+  #part-number 8
+endnode
+node emitter ChunkyWood02
+  parent eld05_uDoor_01
+  #part-number 9
+endnode
+node emitter fire!07
+  parent eld05_uDoor_01
+  #part-number 10
+endnode
+doneanim dead eld05_uDoor_01
+
+donemodel eld05_uDoor_01

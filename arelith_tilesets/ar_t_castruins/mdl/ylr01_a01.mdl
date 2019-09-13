@@ -69,7 +69,7 @@ node trimesh Floor01a
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 4
     0.504716 1.62559 0
     -1.03442 1.62559 0
@@ -93,7 +93,7 @@ node trimesh Floor01b
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 4
     -0.0429743 1.67207 0
     -1.46518 1.0834 0
@@ -117,7 +117,7 @@ node trimesh Floor01c
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 4
     -0.583691 1.46518 0
     -1.67208 0.376791 0
@@ -141,7 +141,7 @@ node trimesh Floor01d
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 4
     1.62558 0.504717 0
     -1.03693 1.03442 0
@@ -165,7 +165,7 @@ node trimesh Floor02a
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 5
     2.23 2.46052 0
     -2.23 2.46053 0
@@ -192,7 +192,7 @@ node trimesh Floor02b
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_floor01
+  bitmap eld05_floor00
   verts 5
     2.46052 2.23 0
     -0.04087 2.2286 0
@@ -239,11 +239,11 @@ node trimesh Mask
   position 0 0 2.99917
   orientation 0 0 0 0
   wirecolor 0.00390625 0.00390625 0.00390625
-  ambient 0 0 0
-  diffuse 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap NULL
+  bitmap Black
   verts 8
     5 -3.5 0.000834875
     1.74603 -2.85141 0.000834875
@@ -266,8 +266,8 @@ node aabb Walkmesh
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
-  ambient 0.835938 0.890625 0.597656
-  diffuse 0.835938 0.890625 0.597656
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0 0 0
   shininess 1
   bitmap NULL
@@ -417,7 +417,7 @@ node trimesh WallArc
   diffuse 1 1 1
   specular 0 0 0
   shininess 10
-  bitmap eld05_richwall
+  bitmap eld05_wall00
   verts 10
     -4.25 4.25 -1.49917
     -3.60139 0.99622 -1.49917

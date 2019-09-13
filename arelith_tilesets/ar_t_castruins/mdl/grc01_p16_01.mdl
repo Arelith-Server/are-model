@@ -1,8 +1,9 @@
-# Exported from NWmax 0.8 b47 at 10/20/2005 7:04:32 PM
+# Exported from NWmax 0.8 b61 at 9/8/2019 2:19:27 PM
 # mdl file
 #
 #NWmax MODEL ASCII
 # model: grc01_P16_01
+#local file: Unknown
 filedependancy Unknown
 newmodel grc01_P16_01
 setsupermodel grc01_P16_01 NULL
@@ -16,7 +17,7 @@ node dummy grc01_P16_01_D01
   parent grc01_P16_01
   position 6.83808e-005 1.05031 -1.6
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.878431 0.560784 0.341176 
+  wirecolor 0.721569 0.607843 0.898039 
 endnode
 node light grc01_P16_01ml1
   parent grc01_P16_01
@@ -37,7 +38,7 @@ node dummy grc01_P16_01_D02
   parent grc01_P16_01
   position -1.77664e-006 -5.0 2.98024e-007
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.835294 0.603922 0.898039 
+  wirecolor 0.109804 0.109804 0.694118 
 endnode
 node light grc01_P16_01ml2
   parent grc01_P16_01
@@ -58,13 +59,13 @@ node dummy grc01_P16_01sl1
   parent grc01_P16_01
   position -2.13744 -0.786231 1.68862
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.223529 0.0313726 0.533333 
+  wirecolor 0.109804 0.109804 0.694118 
 endnode
 node dummy grc01_P16_01sl2
   parent grc01_P16_01
   position 2.17222 -0.786231 1.68862
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.223529 0.0313726 0.533333 
+  wirecolor 0.0235294 0.52549 0.227451 
 endnode
 #Tile trimesh node
 node trimesh Box68
@@ -82,11 +83,11 @@ node trimesh Box68
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center -27.5 -10.0 150.0 
   bitmap eld05_stone20
   verts 10
     0.2 -0.2 2.5
@@ -142,11 +143,11 @@ node trimesh Box8228
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.447059 0.447059 0.447059 
-  Diffuse 0.447059 0.447059 0.447059 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 -39.5 0.0 
   bitmap eld05_stone20
   verts 10
     0.4 -0.4 -0.5
@@ -212,11 +213,11 @@ node trimesh Box8985
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 0.0 125.0 
   bitmap eld05_stone20
   verts 6
     0.25 0.25 0.0
@@ -253,11 +254,11 @@ node trimesh Box8986
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 0.0 125.0 
   bitmap eld05_stone20
   verts 6
     0.25 0.25 0.0
@@ -295,10 +296,10 @@ node trimesh Box9084
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 229.0 0.5 127.5 
   bitmap eld05_metal02
   verts 15
     2.31 0.13 1.62
@@ -380,11 +381,11 @@ node trimesh Box9085
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.447059 0.447059 0.447059 
-  Diffuse 0.447059 0.447059 0.447059 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 0.0 480.0 
   bitmap eld05_stone20
   verts 12
     0.65 0.5 5.0
@@ -451,10 +452,10 @@ node trimesh Box9086
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center -229.0 -0.5 127.5 
   bitmap eld05_metal02
   verts 15
     -2.31 -0.13 1.62
@@ -536,12 +537,12 @@ node trimesh Box9087
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.823529 0.764706 0.756863 
-  Diffuse 0.823529 0.764706 0.756863 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
-  bitmap eld05_RichWall
+  center -275.0 -375.0 150.0 
+  bitmap eld05_wall00
   verts 9
     -2.5 -3.2 3.0
     -2.5 -4.3 3.0
@@ -611,12 +612,12 @@ node trimesh Box9088
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.823529 0.764706 0.756863 
-  Diffuse 0.823529 0.764706 0.756863 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
-  bitmap eld05_RichWall
+  center 275.0 -375.0 150.0 
+  bitmap eld05_wall00
   verts 9
     2.5 -4.3 3.0
     2.5 -3.2 3.0
@@ -686,11 +687,11 @@ node trimesh Box9642
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 27.5 -10.0 150.0 
   bitmap eld05_stone20
   verts 10
     -0.2 0.0 2.5
@@ -747,11 +748,11 @@ node trimesh Emerge56
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
-  bitmap eld05_floor01
+  center 0.0 9.0 0.0 
+  bitmap eld05_flrcrack
   verts 15
     2.0 0.14 0.0
     2.5 -1.06 0.0
@@ -785,21 +786,21 @@ node trimesh Emerge56
     5 7 6  1  5 7 6  1
     8 14 12  1  8 14 12  1
   tverts 15
-    0.502717 0.965568 0
-    0.742467 1.06548 0
-    0.402818 1.06546 0
-    0.742467 0.565977 0
-    0.502718 0.765767 0
-    0.502718 0.366178 0
-    0.742467 0.0665031 0
-    0.502718 0.166383 0
-    0.402818 0.0664836 0
-    0.402219 0.366178 0
-    0.402818 0.765774 0
-    0.282926 0.565977 0
-    0.282926 0.0665031 0
-    0.282926 1.06548 0
-    0.402619 0.16638 0
+    0.541741 1.18171 0
+    0.815985 1.09061 0
+    0.530771 1.33851 0
+    0.451383 0.671182 0
+    0.395901 1.01394 0
+    0.10423 0.678413 0
+    0.0868027 0.25178 0
+    -0.0416062 0.510648 0
+    -0.19841 0.499684 0
+    0.0198422 0.75177 0
+    0.312022 1.08687 0
+    0.0655124 1.00661 0
+    -0.299068 0.587213 0
+    0.430114 1.42604 0
+    -0.12566 0.583711 0
 endnode
 #Tile trimesh node
 node trimesh Line172
@@ -818,10 +819,10 @@ node trimesh Line172
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 0.0 -105.0 
   bitmap Black
   verts 20
     2.5 1.3 0.0
@@ -931,10 +932,10 @@ node trimesh Line174
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 95.0 70.5 
   bitmap eld05_grad01
   verts 5
     0.0 1.85 3.17
@@ -969,11 +970,11 @@ node trimesh Line187
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 -440.0 350.0 
   bitmap eld05_stone20
   verts 17
     -1.0 -4.5 3.0
@@ -1055,10 +1056,10 @@ node trimesh Line247
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center -162.0 0.0 0.0 
   bitmap Black
   verts 8
     0.38 -0.25 0.0
@@ -1091,11 +1092,11 @@ node trimesh Line404
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 1.0 155.0 340.0 
   bitmap eld05_stone20
   verts 48
     2.51 0.5 4.2
@@ -1302,10 +1303,10 @@ node trimesh Line406
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center -0.5 95.0 70.5 
   bitmap eld05_grad01
   verts 5
     0.0 1.85 -1.76
@@ -1350,8 +1351,8 @@ node aabb Line476
     Door
     Snow
     Sand
-  ambient 0.588 0.588 0.588 
-  diffuse 0.5 0.5 0.5 
+  ambient 0.0 0.0 0.0 
+  diffuse 1 1 1 
   specular 0.0 0.0 0.0 
   shininess 10.0
   bitmap Stone
@@ -1647,52 +1648,52 @@ node aabb Line476
     1.91107e-006 0.117791 0
     0.250002 0.280161 0
     0.790907 -0.732795 0
-    aabb         -5.0 -5.00001 -3.0 5.00001 5.0 3.0 -1
-        -5.0 -5.00001 -3.0 2.5 5.0 3.0 -1
-        -4.99999 -5.00001 -1.6 2.5 4.15 3.0 -1
-        -4.99999 -5.00001 0.0 1.50001 -3.20001 3.0 -1
-        -2.49999 -5.00001 0.0 1.50001 -3.20001 3.0 -1
-        -1.49999 -5.00001 0.0 1.50001 -4.3 0.0 -1
-        -1.49999 -4.65001 0.0 1.50001 -4.3 0.0 50
-        -0.999991 -5.00001 0.0 1.00001 -4.65 0.0 67
-        -2.49999 -5.00001 0.0 -0.999991 -3.20001 3.0 -1
-        -2.49999 -4.30001 0.0 -1.49999 -3.20001 3.0 -1
-        -2.49999 -4.30001 0.0 -2.49999 -3.20001 3.0 52
-        -2.49999 -4.30001 0.0 -1.49999 -4.30001 3.0 64
-        -1.49999 -5.00001 0.0 -0.999991 -4.30001 3.0 -1
-        -1.49999 -4.65001 0.0 -0.999991 -4.30001 3.0 78
-        -0.999991 -5.00001 0.0 -0.999991 -4.65001 3.0 66
-        -4.99999 -5.00001 0.0 -0.999991 -4.3 3.0 -1
-        -2.49999 -5.00001 0.0 -0.999991 -4.3 3.0 -1
-        -2.49999 -4.30001 0.0 -1.49999 -4.3 3.0 68
-        -1.49999 -5.00001 0.0 -0.999991 -4.30001 3.0 -1
-        -1.49999 -4.65001 0.0 -0.999991 -4.30001 3.0 81
-        -0.999991 -5.00001 0.0 -0.999991 -4.65001 3.0 61
-        -4.99999 -5.00001 3.0 -0.999991 -4.3 3.0 -1
-        -4.99999 -5.00001 3.0 -0.999991 -4.3 3.0 69
-        -2.49999 -5.00001 3.0 -0.999991 -4.3 3.0 -1
-        -2.49999 -4.65001 3.0 -0.999991 -4.3 3.0 80
-        -2.49999 -5.00001 3.0 -0.999991 -4.3 3.0 54
-        -4.99999 -5.0 -1.6 2.5 4.15 3.0 -1
-        -2.5 -4.30001 0.0 1.50001 -2.5 3.0 -1
-        -2.49999 -4.30001 0.0 1.50001 -2.85001 0.0 -1
-        -2.49999 -4.30001 0.0 -1.49999 -2.85001 0.0 -1
-        -2.49999 -4.30001 0.0 -1.49999 -2.85001 0.0 51
-        -2.49999 -4.30001 0.0 -1.84999 -2.85001 0.0 49
-        -1.84999 -4.30001 0.0 1.50001 -2.85001 0.0 46
-        -2.5 -4.3 0.0 -2.49999 -2.5 3.0 53
-        -4.99999 -5.0 -1.6 2.5 4.15 3.0 -1
-        -2.5 -3.20001 0.0 1.85001 -2.5 0.0 -1
-        -2.5 -3.20001 0.0 -1.84999 -2.5 0.0 59
-        -2.5 -2.85001 0.0 1.85001 -2.5 0.0 47
-        -4.99999 -5.0 -1.6 2.5 4.15 3.0 -1
-        -4.99999 -5.0 3.0 -2.49999 4.15 3.0 11
+    aabb         -5.0 -5.0 -3.0 5.0 5.0 3.0 -1
+        -5.0 -5.0 -3.0 2.5 5.0 3.0 -1
+        -5.0 -5.0 -1.6 2.5 4.15 3.0 -1
+        -5.0 -5.0 0.0 1.5 -3.2 3.0 -1
+        -2.5 -5.0 0.0 1.5 -3.2 3.0 -1
+        -1.5 -5.0 0.0 1.5 -4.3 0.0 -1
+        -1.0 -5.0 0.0 1.0 -4.65 0.0 67
+        -1.5 -4.65 0.0 1.5 -4.3 0.0 50
+        -2.5 -5.0 0.0 -1.0 -3.2 3.0 -1
+        -2.5 -4.3 0.0 -1.5 -3.2 3.0 -1
+        -2.5 -4.3 0.0 -2.5 -3.2 3.0 52
+        -2.5 -4.3 0.0 -1.5 -4.3 3.0 64
+        -1.5 -5.0 0.0 -1.0 -4.3 3.0 -1
+        -1.5 -4.65 0.0 -1.0 -4.3 3.0 78
+        -1.0 -5.0 0.0 -1.0 -4.65 3.0 66
+        -5.0 -5.0 0.0 -1.0 -4.3 3.0 -1
+        -2.5 -5.0 0.0 -1.0 -4.3 3.0 -1
+        -2.5 -4.3 0.0 -1.5 -4.3 3.0 68
+        -1.5 -5.0 0.0 -1.0 -4.3 3.0 -1
+        -1.5 -4.65 0.0 -1.0 -4.3 3.0 81
+        -1.0 -5.0 0.0 -1.0 -4.65 3.0 61
+        -5.0 -5.0 3.0 -1.0 -4.3 3.0 -1
+        -5.0 -5.0 3.0 -1.0 -4.3 3.0 69
+        -2.5 -5.0 3.0 -1.0 -4.3 3.0 -1
+        -2.5 -4.65 3.0 -1.0 -4.3 3.0 80
+        -2.5 -5.0 3.0 -1.0 -4.3 3.0 54
+        -5.0 -5.0 -1.6 2.5 4.15 3.0 -1
+        -2.5 -4.3 0.0 1.5 -2.5 3.0 -1
+        -2.5 -4.3 0.0 1.5 -2.85 0.0 -1
+        -2.5 -4.3 0.0 -1.5 -2.85 0.0 -1
+        -2.5 -4.3 0.0 -1.5 -2.85 0.0 51
+        -2.5 -4.3 0.0 -1.85 -2.85 0.0 49
+        -1.85 -4.3 0.0 1.5 -2.85 0.0 46
+        -2.5 -4.3 0.0 -2.5 -2.5 3.0 53
+        -5.0 -5.0 -1.6 2.5 4.15 3.0 -1
+        -2.5 -3.2 0.0 1.85 -2.5 0.0 -1
+        -2.5 -3.2 0.0 -1.85 -2.5 0.0 59
+        -2.5 -2.85 0.0 1.85 -2.5 0.0 47
+        -5.0 -5.0 -1.6 2.5 4.15 3.0 -1
+        -5.0 -5.0 3.0 -2.5 4.15 3.0 11
         -2.5 -2.5 -1.6 2.5 -0.1 0.0 15
         -5.0 -5.0 -3.0 2.5 5.0 3.0 -1
         -5.0 -5.0 -1.6 2.5 5.0 3.0 -1
         -2.5 -4.3 -1.6 2.5 4.15 3.0 -1
-        -2.5 -4.3 -1.6 -2.49999 4.15 3.0 -1
-        -2.5 -4.3 0.0 -2.49999 4.15 3.0 4
+        -2.5 -4.3 -1.6 -2.5 4.15 3.0 -1
+        -2.5 -4.3 0.0 -2.5 4.15 3.0 4
         -2.5 -2.5 -1.6 -2.5 0.8 0.0 14
         -2.5 -0.1 -1.6 2.5 0.8 -1.6 -1
         -2.5 -0.1 -1.6 -1.01 0.8 -1.6 29
@@ -1729,68 +1730,68 @@ node aabb Line476
         -2.5 1.9 -1.6 -0.98 1.9 0.97 37
         -2.5 4.0 -3.0 2.5 4.15 3.0 12
         -5.0 4.15 3.0 2.5 5.0 3.0 9
-        -5.0 -5.00001 -3.0 5.00001 5.0 3.0 -1
-        -5.0 -5.00001 -3.0 5.0 5.0 3.0 -1
-        -2.5 -5.00001 -1.6 2.5 -0.1 3.0 -1
-        -2.5 -5.00001 -1.6 2.5 -0.1 0.0 -1
-        -1.84999 -5.00001 0.0 1.85001 -2.85 0.0 -1
-        -0.999991 -5.00001 0.0 1.00001 -4.65 0.0 65
-        -1.84999 -4.65001 0.0 1.85001 -2.85 0.0 -1
-        -1.84999 -4.3 0.0 1.85001 -2.85 0.0 71
-        -0.999991 -4.65001 0.0 1.50001 -4.3 0.0 79
-        -2.5 -2.85 -1.6 2.5 -0.1 0.0 -1
-        -2.5 -2.85 0.0 2.5 -2.5 0.0 48
-        -2.5 -2.5 -1.6 2.5 -0.1 0.0 1
-        1.00001 -5.0 0.0 2.5 -4.3 3.0 -1
-        1.00001 -5.0 0.0 1.50001 -4.3 3.0 -1
-        1.00001 -5.0 0.0 1.00001 -4.65 3.0 57
-        1.00001 -4.65 0.0 1.50001 -4.3 3.0 72
-        1.00001 -5.0 0.0 2.5 -4.3 3.0 -1
-        1.00001 -5.0 0.0 1.50001 -4.3 3.0 -1
-        1.00001 -5.0 0.0 1.00001 -4.65 3.0 70
-        1.00001 -4.65 0.0 1.50001 -4.3 3.0 76
-        1.00001 -5.0 3.0 2.5 -4.3 3.0 75
-        -5.0 -0.1 -3.0 5.0 5.0 3.0 -1
-        -2.5 -0.1 -3.0 2.5 4.15 3.0 -1
-        -2.5 -0.1 -3.0 2.5 4.0 -1.6 -1
+        -5.0 -5.0 -3.0 5.0 5.0 3.0 -1
+        -5.0 -5.0 -3.0 5.0 5.0 3.0 -1
+        -5.0 -5.0 -3.0 5.0 5.0 3.0 -1
+        -2.5 -5.0 -3.0 2.5 4.0 0.0 -1
+        -1.85 -5.0 0.0 1.85 -2.85 0.0 -1
+        -1.0 -5.0 0.0 1.0 -4.65 0.0 65
+        -1.85 -4.65 0.0 1.85 -2.85 0.0 -1
+        -1.0 -4.65 0.0 1.5 -4.3 0.0 79
+        -1.85 -4.3 0.0 1.85 -2.85 0.0 71
         -2.5 0.8 -3.0 2.5 4.0 -1.6 -1
         -2.5 1.9 -3.0 2.5 4.0 -1.6 31
         -0.98 0.8 -1.6 1.0 1.9 -1.6 32
-        -2.5 -0.1 -3.0 2.5 4.0 -1.6 -1
+        -5.0 -2.85 -3.0 5.0 5.0 3.0 -1
+        -2.5 -2.85 0.0 2.5 -2.5 0.0 48
+        -5.0 -2.5 -3.0 5.0 5.0 3.0 -1
         -1.01 -0.1 -1.6 2.5 0.8 -1.6 19
+        -5.0 -2.5 -3.0 5.0 5.0 3.0 -1
+        -2.5 -2.5 -1.6 2.5 -0.1 0.0 1
+        -5.0 1.9 -3.0 5.0 5.0 3.0 -1
+        -2.5 1.9 -3.0 2.5 4.15 3.0 -1
         -2.5 1.9 -3.0 2.5 4.0 -1.6 17
-        -2.5 0.8 -3.0 2.5 4.15 3.0 -1
         -2.5 4.0 -3.0 2.5 4.15 3.0 13
+        -5.0 4.15 3.0 5.0 5.0 3.0 8
+        0.98 -5.0 -1.6 2.5 1.9 3.0 -1
+        1.0 -5.0 0.0 2.5 -4.3 3.0 -1
+        1.0 -5.0 0.0 1.5 -4.3 3.0 -1
+        1.0 -5.0 0.0 1.0 -4.65 3.0 57
+        1.0 -4.65 0.0 1.5 -4.3 3.0 72
+        1.0 -5.0 0.0 2.5 -4.3 3.0 -1
+        1.0 -5.0 0.0 1.5 -4.3 3.0 -1
+        1.0 -5.0 0.0 1.0 -4.65 3.0 70
+        1.0 -4.65 0.0 1.5 -4.3 3.0 76
+        1.0 -5.0 3.0 2.5 -4.3 3.0 75
+        0.98 0.8 -1.6 2.5 1.9 0.97 -1
         0.98 0.8 -1.6 2.5 1.9 0.97 -1
         0.98 0.8 -1.6 1.0 1.9 0.97 40
         0.98 1.9 -1.6 2.5 1.9 0.97 44
-        -5.0 0.8 -1.6 5.0 5.0 3.0 -1
         0.98 0.8 -1.6 2.5 1.9 0.97 -1
         0.98 0.8 -1.6 2.5 1.9 0.97 -1
         0.98 0.8 -1.6 1.0 1.9 0.97 41
         1.0 0.8 -1.6 2.5 0.8 0.97 35
         0.98 0.8 0.97 2.5 1.9 0.97 26
-        -5.0 4.15 3.0 5.0 5.0 3.0 8
-        0.98 -5.0 -3.0 5.00001 5.0 3.0 -1
-        1.00001 -5.0 0.0 5.00001 5.0 3.0 -1
-        1.00001 -5.0 0.0 5.00001 -2.85 3.0 -1
-        1.50001 -4.3 0.0 2.50001 -2.85 3.0 -1
-        1.50001 -4.3 0.0 2.50001 -2.85 0.0 77
-        1.50001 -4.3 0.0 2.50001 -3.2 3.0 -1
-        1.50001 -4.3 0.0 2.50001 -4.3 3.0 74
-        2.5 -4.3 0.0 2.50001 -3.2 3.0 56
-        1.00001 -5.0 0.0 5.00001 -4.3 3.0 -1
-        1.50001 -4.3 0.0 2.50001 -4.3 3.0 62
-        1.00001 -5.0 3.0 5.00001 -4.3 3.0 -1
-        1.00001 -4.65 3.0 2.5 -4.3 3.0 58
-        1.00001 -5.0 3.0 5.00001 -4.3 3.0 73
-        1.85001 -5.0 0.0 5.00001 5.0 3.0 -1
-        1.85001 -4.3 0.0 2.50001 -2.5 3.0 -1
-        1.85001 -4.3 0.0 2.50001 -2.5 0.0 -1
-        1.85001 -4.3 0.0 2.50001 -2.85 0.0 63
-        1.85001 -3.2 0.0 2.5 -2.5 0.0 60
+        0.98 -5.0 -3.0 5.0 5.0 3.0 -1
+        1.0 -5.0 0.0 5.0 5.0 3.0 -1
+        1.0 -5.0 0.0 5.0 -2.85 3.0 -1
+        1.5 -4.3 0.0 2.5 -2.85 3.0 -1
+        1.5 -4.3 0.0 2.5 -2.85 0.0 77
+        1.5 -4.3 0.0 2.5 -3.2 3.0 -1
+        1.5 -4.3 0.0 2.5 -4.3 3.0 74
+        2.5 -4.3 0.0 2.5 -3.2 3.0 56
+        1.0 -5.0 0.0 5.0 -4.3 3.0 -1
+        1.5 -4.3 0.0 2.5 -4.3 3.0 62
+        1.0 -5.0 3.0 5.0 -4.3 3.0 -1
+        1.0 -4.65 3.0 2.5 -4.3 3.0 58
+        1.0 -5.0 3.0 5.0 -4.3 3.0 73
+        1.85 -5.0 0.0 5.0 5.0 3.0 -1
+        1.85 -4.3 0.0 2.5 -2.5 3.0 -1
+        1.85 -4.3 0.0 2.5 -2.5 0.0 -1
+        1.85 -4.3 0.0 2.5 -2.85 0.0 63
+        1.85 -3.2 0.0 2.5 -2.5 0.0 60
         2.5 -4.3 0.0 2.5 -2.5 3.0 55
-        2.5 -5.0 3.0 5.00001 5.0 3.0 6
+        2.5 -5.0 3.0 5.0 5.0 3.0 6
         0.98 -4.3 -3.0 5.0 5.0 3.0 -1
         1.0 -4.3 -1.6 2.5 4.15 3.0 -1
         2.5 -4.3 -1.6 2.5 4.15 3.0 -1
@@ -1827,11 +1828,11 @@ node trimesh Line628
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.776471 0.776471 0.776471 
-  Diffuse 0.776471 0.776471 0.776471 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center -200.0 -465.0 150.0 
   bitmap eld05_CbrdDr02
   verts 10
     -1.0 -5.0 3.0
@@ -1885,11 +1886,11 @@ node trimesh Line629
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.776471 0.776471 0.776471 
-  Diffuse 0.776471 0.776471 0.776471 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 200.0 -465.0 150.0 
   bitmap eld05_CbrdDr02
   verts 10
     1.0 -5.0 0.0
@@ -1944,11 +1945,11 @@ node trimesh Line630
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 -450.0 0.0 
   bitmap eld05_stone20
   verts 11
     1.0 -5.0 0.0
@@ -2002,10 +2003,10 @@ node trimesh Loft897
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 0.0 405.0 
   bitmap Black
   verts 20
     -0.65 -0.5 5.0
@@ -2077,11 +2078,11 @@ node trimesh Mesh22
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
-  bitmap eld05_RichWall
+  center 250.0 -560.0 65.0 
+  bitmap eld05_wall00
   verts 7
     2.5 -7.5 0.0
     2.5 -3.7 0.9
@@ -2122,11 +2123,11 @@ node trimesh Mesh41
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
-  bitmap eld05_RichWall
+  center -250.0 -560.0 65.0 
+  bitmap eld05_wall00
   verts 7
     -2.5 -3.7 0.9
     -2.5 -7.5 0.0
@@ -2166,11 +2167,11 @@ node trimesh Mesh126
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.447059 0.447059 0.447059 
-  Diffuse 0.447059 0.447059 0.447059 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 4.0 0.0 -26.0 
   bitmap eld05_stone20
   verts 16
     -0.48 -0.25 0.79
@@ -2256,11 +2257,11 @@ node trimesh Mesh127
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 0.0 275.0 
   bitmap eld05_stone20
   verts 5
     -0.25 0.25 3.0
@@ -2297,11 +2298,11 @@ node trimesh Mesh128
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.447059 0.447059 0.447059 
-  Diffuse 0.447059 0.447059 0.447059 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 70.5 0.0 -28.0 
   bitmap eld05_stone20
   verts 22
     0.34 -0.25 -0.51
@@ -2411,11 +2412,11 @@ node trimesh Mesh129
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 0.0 275.0 
   bitmap eld05_stone20
   verts 5
     0.25 -0.25 3.0
@@ -2453,11 +2454,11 @@ node trimesh Mesh130
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
-  bitmap eld05_RichWall
+  center -341.0 -370.0 195.0 
+  bitmap eld05_wall00
   verts 5
     -3.0 -3.7 1.4
     -2.5 -3.7 0.9
@@ -2492,11 +2493,11 @@ node trimesh Mesh131
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
-  bitmap eld05_RichWall
+  center 341.0 -370.0 195.0 
+  bitmap eld05_wall00
   verts 5
     2.5 -3.7 0.9
     3.0 -3.7 1.4
@@ -2530,11 +2531,11 @@ node trimesh Mesh3005
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 175.0 0.0 400.0 
   bitmap eld05_stone20
   verts 16
     0.65 -0.5 5.0
@@ -2618,11 +2619,11 @@ node trimesh Mesh3006
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center -175.0 0.0 400.0 
   bitmap eld05_stone20
   verts 16
     -0.5 -0.3 4.5
@@ -2707,10 +2708,10 @@ node trimesh Mesh3018
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 -465.0 350.0 
   bitmap Black
   verts 16
     1.5 -5.0 3.0
@@ -2779,10 +2780,10 @@ node trimesh Object27
   transparencyhint 1
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 1.0 589.5 58.5 
   bitmap eld05_grad01
   verts 39
     2.51 4.99 1.18
@@ -2930,11 +2931,11 @@ node trimesh Object55
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.898039 0.898039 0.898039 
-  Diffuse 0.898039 0.898039 0.898039 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 1.0 395.0 190.0 
   bitmap eld05_stone20
   verts 45
     2.51 2.9 2.6
@@ -3121,12 +3122,12 @@ node trimesh Object56
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.6 0.603922 0.603922 
-  Diffuse 0.6 0.603922 0.603922 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
-  bitmap eld05_LibrWall
+  center -250.0 -35.0 -100.0 
+  bitmap eld05_wall00
   verts 5
     -2.5 1.0 1.0
     -2.5 1.0 -3.0
@@ -3160,12 +3161,12 @@ node trimesh Object57
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.6 0.603922 0.603922 
-  Diffuse 0.6 0.603922 0.603922 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
-  bitmap eld05_LibrWall
+  center 250.0 -35.0 -100.0 
+  bitmap eld05_wall00
   verts 5
     2.5 1.0 -3.0
     2.5 1.0 1.0
@@ -3200,10 +3201,10 @@ node trimesh Object117
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 274.0 0.0 
   bitmap Black
   verts 6
     0.68 1.3 0.0
@@ -3241,11 +3242,11 @@ node trimesh Object469
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.447059 0.447059 0.447059 
-  Diffuse 0.447059 0.447059 0.447059 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 34.0 0.0 -256.0 
   bitmap eld05_stone20
   verts 8
     -0.16 0.25 -3.81
@@ -3290,11 +3291,11 @@ node trimesh Plane1568
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
-  bitmap eld05_HalFlr
+  center 0.0 -325.0 0.0 
+  bitmap eld05_halflr
   verts 12
     2.5 -3.2 0.0
     2.05 -2.95 0.0
@@ -3364,10 +3365,10 @@ node trimesh Rectangle17
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center 0.0 -10.0 -200.0 
   bitmap Black
   verts 4
     -2.5 -0.1 -4.0
@@ -3399,11 +3400,11 @@ node trimesh Torus366
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.447059 0.447059 0.447059 
-  Diffuse 0.447059 0.447059 0.447059 
-  Specular 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center -25.0 0.0 -258.0 
   bitmap eld05_stone20
   verts 8
     0.25 -0.25 -3.83
@@ -3433,7 +3434,3 @@ node trimesh Torus366
 endnode
 endmodelgeom grc01_P16_01
 donemodel grc01_P16_01
-
-
-
-
