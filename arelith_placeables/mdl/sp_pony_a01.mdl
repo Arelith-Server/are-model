@@ -1,22 +1,22 @@
 # Exported from blender Thursday, 2019-07-11
 filedependancy unknown
-newmodel pony_a01
-setsupermodel pony_a01 null
+newmodel sp_pony_a01
+setsupermodel sp_pony_a01 null
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom pony_a01
-node dummy pony_a01
+beginmodelgeom sp_pony_a01
+node dummy sp_pony_a01
   parent null
 endnode
 node trimesh mid_wall
-  parent pony_a01
+  parent sp_pony_a01
   position  0.00000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap plc_stone11
+  bitmap plc_stone11g
   shininess 1
   verts 22
     -0.75000 -5.00000  5.50000
@@ -85,14 +85,14 @@ node trimesh mid_wall
      1 18 17  2  17 19 21  0
 endnode
 node trimesh object01
-  parent pony_a01
+  parent sp_pony_a01
   position  1.45000 -4.00000  10.05000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.11 0.58 0.69
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_wood011
+  bitmap sp_tno01_wood011
   shininess 1
   verts 40
     -0.10000 -0.15000  0.00000
@@ -299,14 +299,14 @@ node trimesh object01
     36 38 34  5   99  87  98  0
 endnode
 node trimesh lower_gate
-  parent pony_a01
+  parent sp_pony_a01
   position  0.00000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap plc_stone12
+  bitmap plc_stone12g
   shininess 1
   verts 28
     -1.50000 -5.00000  0.00000
@@ -389,14 +389,14 @@ node trimesh lower_gate
     21 25 11  4  26 27 25  0
 endnode
 node trimesh object03
-  parent pony_a01
+  parent sp_pony_a01
   position -0.80000 -4.00000  10.05000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.11 0.58 0.69
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_wood011
+  bitmap sp_tno01_wood011
   shininess 1
   verts 40
     -0.10000 -0.15000  0.00000
@@ -603,14 +603,14 @@ node trimesh object03
     36 38 34  5   99  87  98  0
 endnode
 node trimesh lgatehouse
-  parent pony_a01
+  parent sp_pony_a01
   position  0.00000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap plc_stone12
+  bitmap plc_stone12g
   shininess 1
   verts 16
      1.50000 -2.00000  2.50000
@@ -661,14 +661,14 @@ node trimesh lgatehouse
     11 15 13  2  11 15 14  0
 endnode
 node trimesh ugatehouse
-  parent pony_a01
+  parent sp_pony_a01
   position  0.00000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap plc_stone11
+  bitmap plc_stone11g
   shininess 1
   verts 14
     -0.95000  1.73205  3.50000
@@ -717,14 +717,14 @@ node trimesh ugatehouse
      5  0 13  3  11 10 15  0
 endnode
 node trimesh gate1
-  parent pony_a01
+  parent sp_pony_a01
   position  1.20000  0.00000  3.20000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.02 0.52 0.02
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_metal01
+  bitmap sp_tno01_metal01
   shininess 1
   verts 245
      0.00000  1.80000 -0.16000
@@ -1677,14 +1677,14 @@ node trimesh gate1
     239 241 235  38  348 345 344  0
 endnode
 node trimesh gate2
-  parent pony_a01
+  parent sp_pony_a01
   position -0.55000  0.00000  3.20000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.02 0.52 0.02
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_metal01
+  bitmap sp_tno01_metal01
   shininess 1
   verts 245
      0.00000  1.80000 -0.16000
@@ -2637,14 +2637,14 @@ node trimesh gate2
     239 241 235  38  348 345 344  0
 endnode
 node trimesh top_wall
-  parent pony_a01
+  parent sp_pony_a01
   position  0.00000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap plc_stone11
+  bitmap plc_stone11g
   shininess 1
   verts 8
     -0.75000 -5.00000  5.50000
@@ -2671,14 +2671,14 @@ node trimesh top_wall
     3 7 5  2  6 7 4  0
 endnode
 node trimesh object04
-  parent pony_a01
+  parent sp_pony_a01
   position  1.45000 -4.00000  5.20000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.11 0.58 0.69
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_wood011
+  bitmap sp_tno01_wood011
   shininess 1
   verts 40
     -0.10000 -0.15000  0.00000
@@ -2885,14 +2885,14 @@ node trimesh object04
     36 38 34  5   99  87  98  0
 endnode
 node trimesh object05
-  parent pony_a01
+  parent sp_pony_a01
   position -0.80000 -4.00000  5.20000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.11 0.58 0.69
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_wood011
+  bitmap sp_tno01_wood011
   shininess 1
   verts 40
     -0.10000 -0.15000  0.00000
@@ -3099,14 +3099,14 @@ node trimesh object05
     36 38 34  5   99  87  98  0
 endnode
 node trimesh bm_wall
-  parent pony_a01
+  parent sp_pony_a01
   position  0.00000  0.00000  3.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap plc_stone11
+  bitmap plc_stone11g
   shininess 1
   verts 16
     -0.75000 -5.00000  5.50000
@@ -3161,14 +3161,14 @@ node trimesh bm_wall
     10 12 13  4  18 19 16  0
 endnode
 node trimesh bm_floor
-  parent pony_a01
+  parent sp_pony_a01
   position  0.00000  0.00000  3.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_planks03
+  bitmap sp_tno_planks03
   shininess 1
   verts 4
      1.35000 -5.00000  7.50000
@@ -3185,14 +3185,14 @@ node trimesh bm_floor
     1 3 2  1  2 3 0  0
 endnode
 node trimesh object02
-  parent pony_a01
+  parent sp_pony_a01
   position  0.00000  0.00000  3.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_wood011
+  bitmap sp_tno01_wood011
   shininess 1
   verts 8
      1.50000 -5.00000  7.35000
@@ -3225,14 +3225,14 @@ node trimesh object02
     6 7 3  1  10 11  8  0
 endnode
 node trimesh box06_01a
-  parent pony_a01
+  parent sp_pony_a01
   position -0.75000  0.00000  11.82000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.25 0.66 0.36
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_rough06
+  bitmap sp_tno_rough06
   shininess 10
   verts 20
     -0.36000 -5.00000 -0.12000
@@ -3337,14 +3337,14 @@ node trimesh box06_01a
      2  0 10  5  41 43 42  0
 endnode
 node trimesh box10_03_01a
-  parent pony_a01
+  parent sp_pony_a01
   position -0.74000  4.11000  11.82000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.11 0.86 0.02
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_rough06
+  bitmap sp_tno_rough06
   shininess 10
   render 1
   shadow 0
@@ -3444,14 +3444,14 @@ node trimesh box10_03_01a
      9 17 16  6  15  8 38  0
 endnode
 node trimesh box11_07_01
-  parent pony_a01
+  parent sp_pony_a01
   position -0.79000  2.44000  11.68000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.80 0.49 0.20
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_rough06
+  bitmap sp_tno_rough06
   shininess 10
   render 1
   shadow 0
@@ -3539,14 +3539,14 @@ node trimesh box11_07_01
      0  1 10  6  37 36  6  0
 endnode
 node trimesh box11_13_01
-  parent pony_a01
+  parent sp_pony_a01
   position -0.82000  0.91000  11.72000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.34 0.96 0.11
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_rough06
+  bitmap sp_tno_rough06
   shininess 10
   render 1
   shadow 0
@@ -3646,14 +3646,14 @@ node trimesh box11_13_01
     10 17 16  6  15  9 40  0
 endnode
 node trimesh box11_14_01
-  parent pony_a01
+  parent sp_pony_a01
   position -0.83000 -0.80000  11.69000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.65 0.74 0.43
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_rough06
+  bitmap sp_tno_rough06
   shininess 10
   render 1
   shadow 0
@@ -3764,14 +3764,14 @@ node trimesh box11_14_01
     11 19 18  6  19 13 45  0
 endnode
 node trimesh box11_15_01
-  parent pony_a01
+  parent sp_pony_a01
   position -0.90000 -2.43000  11.80000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.04 0.24 0.23
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_rough06
+  bitmap sp_tno_rough06
   shininess 10
   render 1
   shadow 0
@@ -3881,14 +3881,14 @@ node trimesh box11_15_01
     11 19 18  6  15  7 41  0
 endnode
 node trimesh box10_06_01
-  parent pony_a01
+  parent sp_pony_a01
   position -0.81000 -4.14000  11.82000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 0.84 0.26 0.05
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_rough06
+  bitmap sp_tno_rough06
   shininess 10
   render 1
   shadow 0
@@ -4006,14 +4006,14 @@ node trimesh box10_06_01
     12 21 20  6  16  8 44  0
 endnode
 node trimesh box02
-  parent pony_a01
+  parent sp_pony_a01
   position  1.50000  0.00000  11.25000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_wood011
+  bitmap sp_tno01_wood011
   shininess 1
   verts 28
     -0.01500 -5.00000  0.00000
@@ -4164,14 +4164,14 @@ node trimesh box02
     14 16  2  6  63 61 60  0
 endnode
 node trimesh box01
-  parent pony_a01
+  parent sp_pony_a01
   position  1.50000  0.00000  10.50000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap tno01_wood011
+  bitmap sp_tno01_wood011
   shininess 1
   verts 40
     -0.08000 -0.08000  0.00000
@@ -4388,29 +4388,29 @@ node trimesh box01
     36 38 34  30  108 109 106  0
 endnode
 node dummy a01_ground
-  parent pony_a01
-  position  0.27000 -0.06000  0.00000
+  parent sp_pony_a01
+  position  0.27000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
 node dummy a01_hand
-  parent pony_a01
+  parent sp_pony_a01
   position  0.27000  5.00000  6.22000
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
 node dummy a01_head
-  parent pony_a01
-  position  0.27000 -0.06000  13.33000
+  parent sp_pony_a01
+  position  0.27000  0.00000  13.33000
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
 node dummy a01_head_hit
-  parent pony_a01
-  position  0.27000 -0.06000  13.53000
+  parent sp_pony_a01
+  position  0.27000  0.00000  13.53000
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
 node dummy a01_impact
-  parent pony_a01
-  position  0.27000 -0.06000  6.22000
+  parent sp_pony_a01
+  position  0.27000  0.00000  6.22000
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
-endmodelgeom pony_a01
-donemodel pony_a01
+endmodelgeom sp_pony_a01
+donemodel sp_pony_a01
