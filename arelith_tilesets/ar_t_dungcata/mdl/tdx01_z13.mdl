@@ -1,0 +1,55 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Fri Feb 20 01:03:44 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel tdx01_z13
+setsupermodel tdx01_z13 null
+setanimationscale 1
+classification TILE
+#MAXGEOM ASCII
+beginmodelgeom tdx01_z13
+node dummy tdx01_z13
+  parent NULL
+endnode
+node trimesh black
+  parent tdx01_z13
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.337255 0.337255 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 1
+  center 0 0 50
+  bitmap tdx01_chasm
+  verts 8
+    -5 -5 11
+    5 -5 11
+    -5 5 11
+    5 5 11
+    -5 -5 -10
+    5 -5 -10
+    -5 5 -10
+    5 5 -10
+  faces 4
+    0 2 3 1 0 2 3 1
+    3 1 0 1 3 1 0 1
+    6 4 7 1 2 0 3 1
+    5 7 4 1 1 3 0 1
+  tverts 4
+    0 0.88 0
+    0.1 0.88 0
+    0 0.98 0
+    0.1 0.98 0
+endnode
+endmodelgeom tdx01_z13
+donemodel tdx01_z13
