@@ -1,0 +1,797 @@
+# Rewritten by CleanModels 3 Version 3.5.1 Mon Jul 29 13:32:56 2019
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel aef_udoor_05
+  classification TILE
+  setsupermodel aef_udoor_05 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom aef_udoor_05
+node dummy aef_udoor_05
+  parent NULL
+endnode
+node dummy aef_udoor_05a
+  parent aef_udoor_05
+  position 0 0 0
+  wirecolor 1 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh box705
+  parent aef_udoor_05a
+  shadow 0
+  position 1.39844 -0.25 1.20313
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap aef19_crate01
+  orientation 0 0 0 0
+  verts 18
+    -0.671875 -0.046875 -1.15625
+    -0.0234375 -0.046875 -1.15625
+    -0.671875 -0.046875 0
+    -0.0234375 -0.046875 0
+    -1.36719 -0.046875 -1.15625
+    -1.36719 -0.046875 0
+    -0.742188 -0.046875 2.07031
+    0.0859375 -0.046875 1.8125
+    -1.36719 -0.046875 2.10938
+    -1.36719 0.046875 -1.15625
+    -1.36719 0.046875 0
+    -1.36719 0.046875 2.10938
+    -0.671875 0.046875 -1.15625
+    -0.671875 0.046875 0
+    -0.0234375 0.046875 -1.15625
+    -0.0234375 0.046875 0
+    -0.742188 0.046875 2.07031
+    0.0859375 0.046875 1.8125
+  faces 28
+    0 1 2 1 0 1 2 5
+    3 2 1 1 3 2 1 5
+    4 0 5 1 4 0 5 5
+    2 5 0 1 2 5 0 5
+    2 3 6 1 6 7 8 5
+    7 6 3 1 9 8 7 5
+    5 2 8 1 10 6 11 5
+    6 8 2 1 8 11 6 5
+    9 4 10 2 12 13 14 4
+    5 10 4 2 15 14 13 4
+    10 5 11 2 14 15 16 4
+    8 11 5 2 17 16 15 4
+    12 9 13 1 18 19 20 6
+    10 13 9 1 21 20 19 6
+    14 12 15 1 22 18 23 6
+    13 15 12 1 20 23 18 6
+    13 10 16 1 20 21 24 6
+    11 16 10 1 25 24 21 6
+    15 13 17 1 23 20 26 6
+    16 17 13 1 24 26 20 6
+    1 14 3 4 27 28 29 3
+    15 3 14 4 30 29 28 3
+    3 15 7 4 29 30 31 3
+    17 7 15 4 32 31 30 3
+    6 16 11 2 33 34 35 4
+    11 8 6 2 35 36 33 4
+    7 17 16 2 17 16 34 4
+    16 6 7 2 34 33 17 4
+  tverts 37
+    0.749479 0.510161 0
+    0.503756 0.510162 0
+    0.749479 0.9995 0
+    0.503787 0.999501 0
+    0.999501 0.510161 0
+    0.999501 0.9995 0
+    0.753098 0.50533 0
+    0.511074 0.505331 0
+    0.804557 0.985855 0
+    0.512795 0.990111 0
+    0.9995 0.50533 0
+    0.999501 0.987085 0
+    0.51491 0.989755 0
+    0.548244 0.989755 0
+    0.51491 0.506865 0
+    0.548244 0.506865 0
+    0.51491 0.995753 0
+    0.548244 0.995753 0
+    0.756079 0.993253 0
+    0.507703 0.993253 0
+    0.756079 0.503424 0
+    0.507703 0.503424 0
+    0.996158 0.993253 0
+    0.99613 0.503424 0
+    0.704621 0.996474 0
+    0.507703 0.997085 0
+    0.995553 0.997108 0
+    0.548244 0.996662 0
+    0.51491 0.996662 0
+    0.548244 0.513772 0
+    0.51491 0.513772 0
+    0.548244 0.914569 0
+    0.51491 0.914569 0
+    0.548244 0.788023 0
+    0.51491 0.788023 0
+    0.51491 0.585125 0
+    0.548244 0.585125 0
+endnode
+node trimesh box50
+  parent aef_udoor_05a
+  shadow 0
+  position -1.39844 -0.25 1.20313
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap aef19_crate01
+  orientation 0 0 0 0
+  verts 18
+    0.03125 -0.046875 -1.15625
+    0.679688 -0.046875 -1.15625
+    0.679688 -0.046875 0
+    0.03125 -0.046875 0
+    1.375 -0.046875 -1.15625
+    1.375 -0.046875 0
+    0.75 -0.046875 2.07031
+    -0.078125 -0.046875 1.8125
+    1.375 -0.046875 2.10938
+    1.375 0.046875 -1.15625
+    1.375 0.046875 0
+    1.375 0.046875 2.10938
+    0.679688 0.046875 -1.15625
+    0.679688 0.046875 0
+    0.03125 0.046875 -1.15625
+    0.03125 0.046875 0
+    0.75 0.046875 2.07031
+    -0.078125 0.046875 1.8125
+  faces 28
+    0 1 2 1 0 1 2 5
+    2 3 0 1 2 3 0 5
+    1 4 5 1 1 4 5 5
+    5 2 1 1 5 2 1 5
+    3 2 6 1 6 7 8 5
+    6 7 3 1 8 9 6 5
+    2 5 8 1 7 10 11 5
+    8 6 2 1 11 8 7 5
+    4 9 10 2 12 13 14 4
+    10 5 4 2 14 15 12 4
+    5 10 11 2 15 14 16 4
+    11 8 5 2 16 17 15 4
+    9 12 13 1 18 19 20 6
+    13 10 9 1 20 21 18 6
+    12 14 15 1 19 22 23 6
+    15 13 12 1 23 20 19 6
+    10 13 16 1 21 20 24 6
+    16 11 10 1 24 25 21 6
+    13 15 17 1 20 23 26 6
+    17 16 13 1 26 24 20 6
+    14 0 3 4 27 28 29 3
+    3 15 14 4 29 30 27 3
+    15 3 7 4 30 29 31 3
+    7 17 15 4 31 32 30 3
+    6 16 17 4 33 34 35 3
+    17 7 6 4 35 36 33 3
+    8 11 16 4 31 32 34 3
+    16 6 8 4 34 33 31 3
+  tverts 37
+    0.503756 0.510162 0
+    0.749479 0.510161 0
+    0.749479 0.9995 0
+    0.503787 0.999501 0
+    0.9995 0.510161 0
+    0.999501 0.9995 0
+    0.511073 0.505331 0
+    0.753098 0.50533 0
+    0.804556 0.985855 0
+    0.512795 0.990111 0
+    0.9995 0.50533 0
+    0.9995 0.987085 0
+    0.548243 0.989755 0
+    0.51491 0.989755 0
+    0.51491 0.506865 0
+    0.548243 0.506865 0
+    0.51491 0.995753 0
+    0.548244 0.995753 0
+    0.507703 0.993253 0
+    0.756079 0.993253 0
+    0.756079 0.503424 0
+    0.507703 0.503424 0
+    0.996158 0.993253 0
+    0.99613 0.503424 0
+    0.704621 0.996474 0
+    0.507703 0.997085 0
+    0.995553 0.997108 0
+    0.51491 0.996662 0
+    0.548244 0.996662 0
+    0.548244 0.513772 0
+    0.51491 0.513772 0
+    0.548244 0.914569 0
+    0.51491 0.914569 0
+    0.548244 0.73341 0
+    0.51491 0.73341 0
+    0.51491 0.532927 0
+    0.548244 0.532927 0
+endnode
+node trimesh sam
+  parent aef_udoor_05a
+  position -0.0234375 -0.203125 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  bitmap NULL
+  orientation 0 0 0 0
+  alpha 0
+  scale 1
+  selfillumcolor 0 0 1
+  verts 8
+    -1.39844 -0.03125 0
+    1.44531 -0.03125 0
+    1.44531 -0.03125 3.40625
+    -1.39844 -0.03125 3.40625
+    1.44531 -0.0546875 0
+    -1.39844 -0.0546875 0
+    1.44531 -0.0546875 3.40625
+    -1.39844 -0.0546875 3.40625
+  faces 4
+    0 1 2 1 0 0 0 18
+    2 3 0 1 0 0 0 18
+    4 5 6 1 0 0 0 18
+    7 6 5 1 0 0 0 18
+endnode
+endmodelgeom aef_udoor_05
+
+#MAXANIM ASCII
+newanim closed aef_udoor_05
+  length 0.333333
+  transtime 0.25
+  animroot aef_udoor_05
+  node dummy aef_udoor_05
+    parent NULL
+  endnode
+  node dummy aef_udoor_05_dwk
+    parent aef_udoor_05
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open2_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_open01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_closed
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy aef_udoor_05a
+    parent aef_udoor_05
+  endnode
+  node trimesh box705
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 0 0
+      0.333333 0 0 0 0
+    endlist
+  endnode
+  node trimesh box50
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 0 0
+      0.333333 0 0 0 0
+    endlist
+  endnode
+  node trimesh sam
+    parent aef_udoor_05a
+    alphakey
+      0 0
+      0.0333333 0
+      0.333333 0
+    endlist
+  endnode
+doneanim closed aef_udoor_05
+
+#MAXANIM ASCII
+newanim closing1 aef_udoor_05
+  length 0.633333
+  transtime 0.25
+  animroot aef_udoor_05
+  node dummy aef_udoor_05
+    parent NULL
+  endnode
+  node dummy aef_udoor_05_dwk
+    parent aef_udoor_05
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open2_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_open01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_closed
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy aef_udoor_05a
+    parent aef_udoor_05
+  endnode
+  node trimesh box705
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 1 -1.42244
+      0.0666667 0 0 1 -1.33518
+      0.266667 0 0 1 -0.942478
+      0.433333 -5e-007 -5e-007 1 -0.0087267
+      0.5 0 0 1 -0.1309
+      0.566667 0 0 1 -0.10472
+      0.6 0 0 1 -0.0436332
+      0.633333 0 0 0 0
+    endlist
+  endnode
+  node trimesh box50
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 -1 -1.44862
+      0.0666667 0 0 -1 -1.39626
+      0.2 0 0 -1 -0.916298
+      0.4 0 0 -1 -0.279253
+      0.5 0 0 -1 -0.0959931
+      0.633333 0 0 0 0
+    endlist
+  endnode
+  node trimesh sam
+    parent aef_udoor_05a
+    alphakey
+      0 0
+      0.633333 0
+    endlist
+  endnode
+doneanim closing1 aef_udoor_05
+
+#MAXANIM ASCII
+newanim closing2 aef_udoor_05
+  length 0.633333
+  transtime 0.25
+  animroot aef_udoor_05
+  node dummy aef_udoor_05
+    parent NULL
+  endnode
+  node dummy aef_udoor_05_dwk
+    parent aef_udoor_05
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open2_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_open01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_closed
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy aef_udoor_05a
+    parent aef_udoor_05
+  endnode
+  node trimesh box705
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 1 -1.42244
+      0.0666667 0 0 1 -1.33518
+      0.266667 0 0 1 -0.942478
+      0.433333 -5e-007 -5e-007 1 -0.0087267
+      0.5 0 0 1 -0.1309
+      0.566667 0 0 1 -0.10472
+      0.6 0 0 1 -0.0436332
+      0.633333 0 0 0 0
+    endlist
+  endnode
+  node trimesh box50
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 -1 -1.44862
+      0.0666667 0 0 -1 -1.39626
+      0.2 0 0 -1 -0.916298
+      0.4 0 0 -1 -0.279253
+      0.5 0 0 -1 -0.0959931
+      0.633333 0 0 0 0
+    endlist
+  endnode
+  node trimesh sam
+    parent aef_udoor_05a
+    alphakey
+      0 0
+      0.633333 0
+    endlist
+  endnode
+doneanim closing2 aef_udoor_05
+
+#MAXANIM ASCII
+newanim opened1 aef_udoor_05
+  length 0.3
+  transtime 0.25
+  animroot aef_udoor_05
+  node dummy aef_udoor_05
+    parent NULL
+  endnode
+  node dummy aef_udoor_05_dwk
+    parent aef_udoor_05
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open2_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_open01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_closed
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy aef_udoor_05a
+    parent aef_udoor_05
+  endnode
+  node trimesh box705
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 1 -1.42244
+      0.3 0 0 1 -1.42244
+    endlist
+  endnode
+  node trimesh box50
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 -1 -1.44862
+      0.3 0 0 -1 -1.44862
+    endlist
+  endnode
+  node trimesh sam
+    parent aef_udoor_05a
+    alphakey
+      0 0
+      0.0333333 0
+      0.3 0
+    endlist
+  endnode
+doneanim opened1 aef_udoor_05
+
+#MAXANIM ASCII
+newanim opened2 aef_udoor_05
+  length 0.3
+  transtime 0.25
+  animroot aef_udoor_05
+  node dummy aef_udoor_05
+    parent NULL
+  endnode
+  node dummy aef_udoor_05_dwk
+    parent aef_udoor_05
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open2_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_open01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_closed
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy aef_udoor_05a
+    parent aef_udoor_05
+  endnode
+  node trimesh box705
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 1 -1.42244
+      0.3 0 0 1 -1.42244
+    endlist
+  endnode
+  node trimesh box50
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 -1 -1.44862
+      0.3 0 0 -1 -1.44862
+    endlist
+  endnode
+  node trimesh sam
+    parent aef_udoor_05a
+    alphakey
+      0 0
+      0.0333333 0
+      0.3 0
+    endlist
+  endnode
+doneanim opened2 aef_udoor_05
+
+#MAXANIM ASCII
+newanim opening1 aef_udoor_05
+  length 0.633333
+  transtime 0.25
+  animroot aef_udoor_05
+  node dummy aef_udoor_05
+    parent NULL
+  endnode
+  node dummy aef_udoor_05_dwk
+    parent aef_udoor_05
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open2_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_open01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_closed
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy aef_udoor_05a
+    parent aef_udoor_05
+  endnode
+  node trimesh box705
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 0 0
+      0.0666667 0 0 1 -0.122173
+      0.166667 0 0 1 -0.453786
+      0.366667 0 0 1 -1.28282
+      0.433333 0 0 1 -1.38754
+      0.5 0 0 1 -1.309
+      0.566667 0 0 1 -1.30463
+      0.633333 0 0 1 -1.42244
+    endlist
+  endnode
+  node trimesh box50
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 0 0
+      0.0666667 0 0 -1 -0.148353
+      0.2 0 0 -1 -0.567232
+      0.433333 0 0 -1 -1.35263
+      0.533333 0 0 -1 -1.42244
+      0.633333 0 0 -1 -1.44862
+    endlist
+  endnode
+  node dummy sam
+    parent aef_udoor_05a
+  endnode
+doneanim opening1 aef_udoor_05
+
+#MAXANIM ASCII
+newanim opening2 aef_udoor_05
+  length 0.633333
+  transtime 0.25
+  animroot aef_udoor_05
+  node dummy aef_udoor_05
+    parent NULL
+  endnode
+  node dummy aef_udoor_05_dwk
+    parent aef_udoor_05
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open2_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_open01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_closed
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy aef_udoor_05a
+    parent aef_udoor_05
+  endnode
+  node trimesh box705
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 0 0
+      0.0666667 0 0 1 -0.122173
+      0.166667 0 0 1 -0.453786
+      0.366667 0 0 1 -1.28282
+      0.433333 0 0 1 -1.38754
+      0.5 0 0 1 -1.309
+      0.566667 0 0 1 -1.30463
+      0.633333 0 0 1 -1.42244
+    endlist
+  endnode
+  node trimesh box50
+    parent aef_udoor_05a
+    orientationkey
+      0 0 0 0 0
+      0.0666667 0 0 -1 -0.148353
+      0.2 0 0 -1 -0.567232
+      0.433333 0 0 -1 -1.35263
+      0.533333 0 0 -1 -1.42244
+      0.633333 0 0 -1 -1.44862
+    endlist
+  endnode
+  node dummy sam
+    parent aef_udoor_05a
+  endnode
+doneanim opening2 aef_udoor_05
+
+#MAXANIM ASCII
+newanim trans aef_udoor_05
+  length 0.0333333
+  transtime 0.25
+  animroot aef_udoor_05
+  node dummy aef_udoor_05
+    parent NULL
+  endnode
+  node dummy aef_udoor_05_dwk
+    parent aef_udoor_05
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open2_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_closed_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_dp_open1_02
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_open01
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy 05_dwk_wg_closed
+    parent aef_udoor_05_dwk
+    #part-number -1
+  endnode
+  node dummy aef_udoor_05a
+    parent aef_udoor_05
+  endnode
+  node dummy box705
+    parent aef_udoor_05a
+  endnode
+  node dummy box50
+    parent aef_udoor_05a
+  endnode
+  node trimesh sam
+    parent aef_udoor_05a
+    alphakey
+      0 0.25
+      0.0333333 0.25
+    endlist
+  endnode
+doneanim trans aef_udoor_05
+donemodel aef_udoor_05
