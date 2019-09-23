@@ -1,0 +1,47 @@
+#MAXMODEL ASCII
+# model: wswwk_MB
+filedependancy wswwk_MB.max
+newmodel wswwk_MB
+setsupermodel wswwk_MB NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom wswwk_MB
+node dummy wswwk_MB
+  parent NULL
+endnode
+node trimesh wswwk_MB
+  parent wswwk_MB
+  ambient 0.117647 0.117647 0.117647
+  diffuse 0.631373 0.862745 0.968628
+  specular 0 0 0
+  shininess 1
+  bitmap blur_01
+  verts 6
+      -0.1298290    0.0060520   -0.0022975
+      -0.1471470    0.3410190   -0.0022975
+      -0.6221430    0.0105104   -0.0022975
+      -0.6582060    0.3852720   -0.0022975
+      -0.3066510    0.7360130   -0.0022975
+      -0.8918780    0.9335820   -0.0022974
+  tverts 6
+       0.9944550    1.0042400  0
+       0.5670190    0.9775650  0
+       0.9938320    0.1403960  0
+       0.5709980    0.1384250  0
+       0.1399200    0.7726770  0
+       0.1402360    0.0126707  0
+  faces 8
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+    1 4 3  1  1 4 3   1
+    4 5 3  1  4 5 3   1
+    0 2 1  2  0 2 1   2
+    1 2 3  2  1 2 3   2
+    3 4 1  2  3 4 1   2
+    4 3 5  2  4 3 5   2
+  position 0.000317001 0.744053 -0.00430054
+  orientation -0.5773503 -0.5773503 -0.5773503 -2.0944
+endnode
+endmodelgeom wswwk_MB
+
+donemodel wswwk_MB
