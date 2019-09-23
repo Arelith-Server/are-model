@@ -1,0 +1,47 @@
+#MAXMODEL ASCII
+# model: wplng_blur
+filedependancy wplng_blur.max
+newmodel wplng_blur
+setsupermodel wplng_blur NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom wplng_blur
+node dummy wplng_blur
+  parent NULL
+endnode
+node trimesh WAxHn_blur
+  parent wplng_blur
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  transparencyhint 1
+  bitmap wessblur
+  verts 5
+       0.0036632   -0.3651470    0.4433970
+       0.0036632    0.0770277   -0.0019689
+       0.0036632   -0.3651470   -0.4473340
+       0.0036631    0.0031445    0.5077750
+       0.0036631    0.0029703   -0.5146670
+  tverts 5
+       0.9365980    0.0004996  0
+       0.5014430    0.9995000  0
+       0.0662889    0.0004996  0
+       0.9995010    0.9347750  0
+       0.0004995    0.9344910  0
+  faces 6
+    0 1 2  1  0 1 2   0
+    2 1 0  2  2 1 0   0
+    0 3 1  1  0 3 1   0
+    1 3 0  2  1 3 0   0
+    2 4 1  2  2 4 1   0
+    1 4 2  1  1 4 2   0
+  position 0 1.19236 0
+  orientation 0 0 0 0
+  alpha 1
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom wplng_blur
+
+donemodel wplng_blur

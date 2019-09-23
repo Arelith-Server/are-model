@@ -1,0 +1,65 @@
+#MAXMODEL ASCII
+# model: wswwk_t_011
+filedependancy wakizashi.max
+newmodel wswwk_t_011
+setsupermodel wswwk_t_011 NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom wswwk_t_011
+node dummy wswwk_t_011
+  parent NULL
+endnode
+node trimesh g_wswwk_t_011
+  parent wswwk_t_011
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap W_metal_tex
+  verts 11
+    -0.00516892 0.0878472 0.0139535
+    0.00516665 0.0878472 0.0139535
+    0.00410029 0.245722 0.0168826
+    -0.00410254 0.245722 0.0168826
+    0.00359661 0.411666 0.0230546
+    -0.00359886 0.411666 0.0230546
+    0 0.606712 0.043937
+    0 0.0878473 -0.0160441
+    0 0.246621 -0.0118075
+    0 0.416475 -0.00189344
+    0 0.586203 0.016575
+  faces 18
+    0 1 2  1  0 0 1  0
+    2 3 0  1  1 1 0  0
+    3 2 4  1  1 1 2  0
+    4 5 3  1  2 2 1  0
+    5 4 6  1  2 2 3  0
+    1 0 7  1  0 0 4  0
+    7 8 2  1  4 5 1  0
+    2 1 7  1  1 0 4  0
+    8 9 4  1  5 6 2  0
+    4 2 8  1  2 1 5  0
+    9 10 6  1  6 7 3  0
+    6 4 9  1  3 2 6  0
+    10 9 5  1  7 6 2  0
+    5 6 10  1  2 3 7  0
+    9 8 3  1  6 5 1  0
+    3 5 9  1  1 2 6  0
+    8 7 0  1  5 4 0  0
+    0 3 8  1  0 1 5  0
+  tverts 8
+    0.138448 0.797948 0
+    0.138082 0.844861 0
+    0.117387 0.899319 0
+    0.0467077 0.952842 0
+    0.21021 0.797948 0
+    0.206717 0.845151 0
+    0.177069 0.900872 0
+    0.0921694 0.961451 0
+endnode
+endmodelgeom wswwk_t_011
+donemodel wswwk_t_011

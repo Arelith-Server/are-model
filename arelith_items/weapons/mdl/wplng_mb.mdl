@@ -1,0 +1,47 @@
+#MAXMODEL ASCII
+# model: wplng_MB
+filedependancy wplng_MB.max
+newmodel wplng_MB
+setsupermodel wplng_MB NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom wplng_MB
+node dummy wplng_MB
+  parent NULL
+endnode
+node trimesh WDbMa_MB01
+  parent wplng_MB
+  ambient 0.117647 0.117647 0.117647
+  diffuse 0.631373 0.862745 0.968628
+  specular 0 0 0
+  shininess 1
+  bitmap blur_01
+  verts 6
+       0.3118440    0.0400151   -0.0022975
+       0.4518930    0.9352700   -0.0022975
+      -0.3812270    0.0487625   -0.0022975
+      -0.3592720    0.8025730   -0.0022975
+       0.1796300    1.5802100   -0.0022975
+      -0.6465740    1.4723901   -0.0022975
+  tverts 6
+       0.9944550    1.0042400  0
+       0.5670190    0.9775650  0
+       0.9938320    0.1403960  0
+       0.5709980    0.1384250  0
+       0.1399200    0.7726770  0
+       0.1402360    0.0126707  0
+  faces 8
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+    1 4 3  1  1 4 3   1
+    4 5 3  1  4 5 3   1
+    0 2 1  2  0 2 1   2
+    1 2 3  2  1 2 3   2
+    3 4 1  2  3 4 1   2
+    4 3 5  2  4 3 5   2
+  position 0.00031706 1.2431 -0.0519805
+  orientation 0.5773503 0.5773503 0.5773503 -4.18879
+endnode
+endmodelgeom wplng_MB
+
+donemodel wplng_MB

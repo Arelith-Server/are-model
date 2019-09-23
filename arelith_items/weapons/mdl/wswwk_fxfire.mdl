@@ -1,0 +1,134 @@
+#MAXMODEL ASCII
+# model: wswwk_fxfire
+filedependancy wswwk_fxfire.max
+newmodel wswwk_fxfire
+setsupermodel wswwk_fxfire NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom wswwk_fxfire
+node dummy wswwk_fxfire
+  parent NULL
+endnode
+node emitter g_WSwGs_V_Fire
+  parent wswwk_fxfire
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flame00
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.357289 0.00530489
+  orientation 0 -1 0 -1.5708
+  colorStart 0.996079 1 0.894118
+  colorEnd 0.886275 0.556863 0.0392157
+  alphaStart 0.6
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 25
+  lifeExp 1.75
+  mass 0
+  spread 0.174533
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 16
+  xsize 8
+  ysize 50
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter g_WSwGs_V_Fire_b
+  parent wswwk_fxfire
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.365512 0.00530493
+  orientation 0 0 0 0
+  colorStart 1 0.843137 0.6
+  colorEnd 0.886275 0.556863 0.0392157
+  alphaStart 0.5
+  alphaEnd 0.25
+  sizeStart 0.08
+  sizeEnd 0.04
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 6
+  lifeExp 0.5
+  mass -1
+  spread 0.174533
+  particleRot 2
+  velocity 0
+  randvel 0.5
+  fps 0
+  xsize 3
+  ysize 50
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom wswwk_fxfire
+
+donemodel wswwk_fxfire
