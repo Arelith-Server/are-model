@@ -1,18 +1,18 @@
 #MAXMODEL ASCII
-# model: ad_pic_601
-filedependancy ad_pic_601 NULL.mlk
-newmodel ad_pic_601
-setsupermodel ad_pic_601 NULL
+# model: tuk15
+filedependancy tuk15 NULL.mlk
+newmodel tuk15
+setsupermodel tuk15 NULL
 classification Character
 setanimationscale 0
 
 #MAXGEOM ASCII
-beginmodelgeom ad_pic_601
-node dummy ad_pic_601
+beginmodelgeom tuk15
+node dummy tuk15
   parent NULL
 endnode
 node dummy rootdummy
-  parent ad_pic_601
+  parent tuk15
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 1 1 1
@@ -184,18 +184,18 @@ node dummy impact
   wirecolor 1 1 1
 endnode
 node dummy handconjure
-  parent ad_pic_601
+  parent tuk15
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 1 1 1
 endnode
 node dummy headconjure
-  parent ad_pic_601
+  parent tuk15
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 1 1 1
 endnode
-endmodelgeom ad_pic_601
+endmodelgeom tuk15
 
-donemodel ad_pic_601
+donemodel tuk15
 

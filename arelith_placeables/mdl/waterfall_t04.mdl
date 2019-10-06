@@ -1,25 +1,25 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: waterfalll_T04
+# model: waterfall_T04
 filedependancy waterfall.max
-newmodel waterfalll_T04
-setsupermodel waterfalll_T04 NULL
+newmodel waterfall_T04
+setsupermodel waterfall_T04 NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom waterfalll_T04
-node dummy waterfalll_T04
+beginmodelgeom waterfall_T04
+node dummy waterfall_T04
   parent NULL
 endnode
 node dummy T04_hand
-  parent waterfalll_T04
+  parent waterfall_T04
   position 0.00398437 -0.505195 0.934402
   orientation 0 0 0 0
   wirecolor 0.554688 0.554688 0.554688
 endnode
 node emitter OmenEmitter240
-  parent waterfalll_T04
+  parent waterfall_T04
   position -0.0218791 -0.0130566 0.112567
   orientation 0 0 1 -0.516453
   wirecolor 0.554688 0.554688 0.554688
@@ -85,31 +85,31 @@ node emitter OmenEmitter240
     Splat 0
 endnode
 node dummy T04_ground
-  parent waterfalll_T04
+  parent waterfall_T04
   position -0.00363281 0.0069873 0
   orientation 0 0 0 0
   wirecolor 0.554688 0.554688 0.554688
 endnode
 node dummy T04_head
-  parent waterfalll_T04
+  parent waterfall_T04
   position 0.00398437 0.0108252 0.88389
   orientation 0 0 0 0
   wirecolor 0.554688 0.554688 0.554688
 endnode
 node dummy T04_head_hit
-  parent waterfalll_T04
+  parent waterfall_T04
   position 0.00398437 0.0108252 0.402412
   orientation 0 0 0 0
   wirecolor 0.554688 0.554688 0.554688
 endnode
 node dummy T04_impact
-  parent waterfalll_T04
+  parent waterfall_T04
   position 0.00398437 0.011001 0.247026
   orientation 0 0 0 0
   wirecolor 0.554688 0.554688 0.554688
 endnode
 node trimesh Rectangle121
-  parent waterfalll_T04
+  parent waterfall_T04
   position -0.0305606 -0.00637451 0
   orientation 0 0 0 0
   wirecolor 0.601563 0.601563 0.601563
@@ -148,7 +148,7 @@ node trimesh Rectangle121
     0 0 0
 endnode
 node trimesh Plane25
-  parent waterfalll_T04
+  parent waterfall_T04
   position -0.0066448 -0.0024186 0.02
   orientation 0 0 0 0
   wirecolor 0.339844 0.339844 0.339844
@@ -178,21 +178,21 @@ node trimesh Plane25
     0.748498 0.220422 0
     0.748498 0.0188535 0
 endnode
-endmodelgeom waterfalll_T04
+endmodelgeom waterfall_T04
 
 #MAXANIM ASCII
-newanim on waterfalll_T04
+newanim on waterfall_T04
   length 0.0333333
   transtime 0
-  animroot waterfalll_T04
-node dummy waterfalll_T04
+  animroot waterfall_T04
+node dummy waterfall_T04
   parent NULL
 endnode
 node dummy T04_hand
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node emitter OmenEmitter240
-  parent waterfalll_T04
+  parent waterfall_T04
     xsize 2
     ysize 300
     birthratekey
@@ -201,38 +201,38 @@ node emitter OmenEmitter240
     endlist
 endnode
 node dummy T04_ground
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node dummy T04_head
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node dummy T04_head_hit
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node dummy T04_impact
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node trimesh Rectangle121
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node trimesh Plane25
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
-doneanim on waterfalll_T04
+doneanim on waterfall_T04
 
 #MAXANIM ASCII
-newanim off2on waterfalll_T04
+newanim off2on waterfall_T04
   length 0.0333333
   transtime 0
-  animroot waterfalll_T04
-node dummy waterfalll_T04
+  animroot waterfall_T04
+node dummy waterfall_T04
   parent NULL
 endnode
 node dummy T04_hand
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node emitter OmenEmitter240
-  parent waterfalll_T04
+  parent waterfall_T04
     xsizekey
       0  -28
       0.0333333  2
@@ -247,98 +247,98 @@ node emitter OmenEmitter240
     endlist
 endnode
 node dummy T04_ground
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node dummy T04_head
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node dummy T04_head_hit
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node dummy T04_impact
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node trimesh Rectangle121
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node trimesh Plane25
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
-doneanim off2on waterfalll_T04
+doneanim off2on waterfall_T04
 
 #MAXANIM ASCII
-newanim on2off waterfalll_T04
+newanim on2off waterfall_T04
   length 0.0333333
   transtime 0
-  animroot waterfalll_T04
-node dummy waterfalll_T04
+  animroot waterfall_T04
+node dummy waterfall_T04
   parent NULL
 endnode
 node dummy T04_hand
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node emitter OmenEmitter240
-  parent waterfalll_T04
+  parent waterfall_T04
     birthratekey
       0  47
       0.0333333  40
     endlist
 endnode
 node dummy T04_ground
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node dummy T04_head
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node dummy T04_head_hit
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node dummy T04_impact
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node trimesh Rectangle121
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node trimesh Plane25
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
-doneanim on2off waterfalll_T04
+doneanim on2off waterfall_T04
 
 #MAXANIM ASCII
-newanim off waterfalll_T04
+newanim off waterfall_T04
   length 0.0333333
   transtime 0
-  animroot waterfalll_T04
-node dummy waterfalll_T04
+  animroot waterfall_T04
+node dummy waterfall_T04
   parent NULL
 endnode
 node dummy T04_hand
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node emitter OmenEmitter240
-  parent waterfalll_T04
+  parent waterfall_T04
     birthratekey
       0  40
       0.0333333  40
     endlist
 endnode
 node dummy T04_ground
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node dummy T04_head
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node dummy T04_head_hit
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node dummy T04_impact
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node trimesh Rectangle121
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
 node trimesh Plane25
-  parent waterfalll_T04
+  parent waterfall_T04
 endnode
-doneanim off waterfalll_T04
-donemodel waterfalll_T04
+doneanim off waterfall_T04
+donemodel waterfall_T04
