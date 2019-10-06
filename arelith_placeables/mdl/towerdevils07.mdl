@@ -2,19 +2,19 @@
 # mdl file
 #
 #NWmaxMODEL ASCII
-# model: towerdevils
+# model: towerdevils07
 filedependancy Unknown
-newmodel towerdevils
-setsupermodel towerdevils NULL
+newmodel towerdevils07
+setsupermodel towerdevils07 NULL
 classification Character
 setanimationscale 1.0
 #NWmaxGEOM  ASCII
-beginmodelgeom towerdevils
-node dummy towerdevils
+beginmodelgeom towerdevils07
+node dummy towerdevils07
   parent NULL
 endnode
 node trimesh devilstower
-  parent towerdevils
+  parent towerdevils07
   position -0.13223 -0.432898 11.4828
   orientation 1.0 0.0 0.0 -1.56805
   wirecolor 0.0313726 0.0313726 0.0313726 
@@ -1062,5 +1062,5 @@ node trimesh devilstower
      0.682291 0.936264 0
      0.634345 0.818768 0
 endnode
-endmodelgeom towerdevils
-donemodel towerdevils
+endmodelgeom towerdevils07
+donemodel towerdevils07

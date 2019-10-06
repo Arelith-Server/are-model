@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: fix_plc_desk01
+# model: plc_desk01
 #local file: Unknown
 filedependancy Unknown
-newmodel fix_plc_desk01
-setsupermodel fix_plc_desk01 NULL
+newmodel plc_desk01
+setsupermodel plc_desk01 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom fix_plc_desk01
-node dummy fix_plc_desk01
+beginmodelgeom plc_desk01
+node dummy plc_desk01
   parent NULL
 endnode
 node trimesh Box1590
-  parent fix_plc_desk01
+  parent plc_desk01
   position -0.334577 -0.253298 1.16002
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -99,7 +99,7 @@ node trimesh Box1590
     0.515451 0.099164 0
 endnode
 node trimesh Box33
-  parent fix_plc_desk01
+  parent plc_desk01
   position -0.104577 0.376702 0.880019
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -191,7 +191,7 @@ node trimesh Box33
     1.03706 0.589181 0
 endnode
 node trimesh Box1593
-  parent fix_plc_desk01
+  parent plc_desk01
   position -0.434577 0.37629 -0.00998146
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -242,7 +242,7 @@ node trimesh Box1593
     0.356547 0.999501 0
 endnode
 node trimesh Mesh1819
-  parent fix_plc_desk01
+  parent plc_desk01
   position -0.424577 -0.263298 1.08002
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -295,7 +295,7 @@ node trimesh Mesh1819
     0.845118 0.960507 0
 endnode
 node trimesh Mesh1818
-  parent fix_plc_desk01
+  parent plc_desk01
   position -0.424577 -0.263298 1.08002
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -338,7 +338,7 @@ node trimesh Mesh1818
     0.990312 0.997547 0
 endnode
 node trimesh Box1592
-  parent fix_plc_desk01
+  parent plc_desk01
   position -0.434577 -0.303298 -0.00998146
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -389,7 +389,7 @@ node trimesh Box1592
     0.356547 0.999501 0
 endnode
 node trimesh Cylinder171
-  parent fix_plc_desk01
+  parent plc_desk01
   position 0.535423 0.296702 1.40002
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -541,7 +541,7 @@ node trimesh Cylinder171
     0.755064 0.17988 0
 endnode
 node trimesh Box1587
-  parent fix_plc_desk01
+  parent plc_desk01
   position 0.525423 0.37629 -0.00998146
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -592,7 +592,7 @@ node trimesh Box1587
     0.356547 0.999501 0
 endnode
 node trimesh Box1591
-  parent fix_plc_desk01
+  parent plc_desk01
   position 0.525423 -0.303298 -0.00998146
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -643,7 +643,7 @@ node trimesh Box1591
     0.356547 0.999501 0
 endnode
 node trimesh Mesh1817
-  parent fix_plc_desk01
+  parent plc_desk01
   position 0.235423 0.476702 0.990019
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -700,7 +700,7 @@ node trimesh Mesh1817
     0.010224 0.497277 0
 endnode
 node trimesh Mesh1816
-  parent fix_plc_desk01
+  parent plc_desk01
   position 0.705423 0.0167016 1.58002
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -777,5 +777,5 @@ node trimesh Mesh1816
     0.596107 0.140928 0
     0.355102 0.107625 0
 endnode
-endmodelgeom fix_plc_desk01
-donemodel fix_plc_desk01
+endmodelgeom plc_desk01
+donemodel plc_desk01
