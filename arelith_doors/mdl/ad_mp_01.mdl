@@ -3,18 +3,18 @@
 # collapsible antique lift
 #
 #NWmax MODEL ASCII
-# model: gn_door21
+# model: ad_mp_01
 filedependancy gate.max
-newmodel gn_door21
-setsupermodel gn_door21 NULL
+newmodel ad_mp_01
+setsupermodel ad_mp_01 NULL
 classification Door
 #NWmax GEOM  ASCII
-beginmodelgeom gn_door21
-node dummy gn_door21
+beginmodelgeom ad_mp_01
+node dummy ad_mp_01
   parent NULL
 endnode
 node emitter fire!07
-  parent gn_door21
+  parent ad_mp_01
   position 0 0.0288672 0.928905
   orientation 1 0 0 -4.71239
   wirecolor 1 1 1 
@@ -81,7 +81,7 @@ node emitter fire!07
   Drag 0
 endnode
 node trimesh sam
-  parent gn_door21
+  parent ad_mp_01
   position -1 0 0
   orientation 0 0 -1 -1.5708
   wirecolor 1 1 1 
@@ -121,32 +121,32 @@ node trimesh sam
     0.494271 0.876312 0
     0.000499815 0.876312 0
 endnode
-node dummy GN_Door21grnd
-  parent gn_door21
+node dummy ad_mp_01grnd
+  parent ad_mp_01
   position 0 0 0
   orientation 1 0 0 0
   wirecolor 0.839216 0.894118 0.6 
 endnode
-node dummy GN_Door21head
-  parent gn_door21
+node dummy ad_mp_01head
+  parent ad_mp_01
   position 0 0 2.50064
   orientation 1 0 0 0
   wirecolor 0.721569 0.607843 0.898039 
 endnode
-node dummy GN_Door21hhit
-  parent gn_door21
+node dummy ad_mp_01hhit
+  parent ad_mp_01
   position 0 0 2.17507
   orientation 1 0 0 0
   wirecolor 0.721569 0.607843 0.898039 
 endnode
-node dummy GN_Door21impc
-  parent gn_door21
+node dummy ad_mp_01impc
+  parent ad_mp_01
   position 0 0 1.63648
   orientation 1 0 0 0
   wirecolor 0.839216 0.894118 0.6 
 endnode
 node dummy TIN01_B13_03
-  parent gn_door21
+  parent ad_mp_01
   position 1 0 0
   orientation 0 0 -1 0
   wirecolor 0.345098 0.345098 0.882353 
@@ -1913,64 +1913,64 @@ node trimesh Plane32
     0.58 0.833333 0
     0.42 0.833333 0
 endnode
-endmodelgeom gn_door21
+endmodelgeom ad_mp_01
 
 #NWmax ANIM ASCII
-newanim trans gn_door21
+newanim trans ad_mp_01
   length 0.0333333
   transtime 0
-  animroot gn_door21
-    node dummy gn_door21
+  animroot ad_mp_01
+    node dummy ad_mp_01
         parent NULL
     endnode
     node emitter fire!07
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh sam
-        parent gn_door21
+        parent ad_mp_01
         alphakey
             0 0.25 
             0.0333333 0.25 
         endlist
     endnode
-    node dummy GN_Door21_DWK
-        parent gn_door21
+    node dummy ad_mp_01_DWK
+        parent ad_mp_01
     endnode
     node dummy 21_DWK_dp_closed_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_closed_02
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open1_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open2_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_closed
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open1
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open2
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
-    node dummy GN_Door21grnd
-        parent gn_door21
+    node dummy ad_mp_01grnd
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21head
-        parent gn_door21
+    node dummy ad_mp_01head
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21hhit
-        parent gn_door21
+    node dummy ad_mp_01hhit
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21impc
-        parent gn_door21
+    node dummy ad_mp_01impc
+        parent ad_mp_01
     endnode
     node dummy TIN01_B13_03
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -2083,65 +2083,65 @@ newanim trans gn_door21
     node trimesh Plane32
         parent TIN01_B13_03
     endnode
-doneanim trans gn_door21
+doneanim trans ad_mp_01
 
 
 #NWmax ANIM ASCII
-newanim opening1 gn_door21
+newanim opening1 ad_mp_01
   length 0.666667
   transtime 0.25
-  animroot gn_door21
-    node dummy gn_door21
+  animroot ad_mp_01
+    node dummy ad_mp_01
         parent NULL
     endnode
     node emitter fire!07
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh sam
-        parent gn_door21
+        parent ad_mp_01
         alphakey
             0 0 
             0.666667 0 
         endlist
     endnode
-    node dummy GN_Door21_DWK
-        parent gn_door21
+    node dummy ad_mp_01_DWK
+        parent ad_mp_01
     endnode
     node dummy 21_DWK_dp_closed_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_closed_02
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open1_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open2_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_closed
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open1
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open2
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
-    node dummy GN_Door21grnd
-        parent gn_door21
+    node dummy ad_mp_01grnd
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21head
-        parent gn_door21
+    node dummy ad_mp_01head
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21hhit
-        parent gn_door21
+    node dummy ad_mp_01hhit
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21impc
-        parent gn_door21
+    node dummy ad_mp_01impc
+        parent ad_mp_01
     endnode
     node dummy TIN01_B13_03
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -2370,65 +2370,65 @@ newanim opening1 gn_door21
     node trimesh Plane32
         parent TIN01_B13_03
     endnode
-doneanim opening1 gn_door21
+doneanim opening1 ad_mp_01
 
 
 #NWmax ANIM ASCII
-newanim opened1 gn_door21
+newanim opened1 ad_mp_01
   length 0.0333333
   transtime 0
-  animroot gn_door21
-    node dummy gn_door21
+  animroot ad_mp_01
+    node dummy ad_mp_01
         parent NULL
     endnode
     node emitter fire!07
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh sam
-        parent gn_door21
+        parent ad_mp_01
         alphakey
             0 0 
             0.0333333 0 
         endlist
     endnode
-    node dummy GN_Door21_DWK
-        parent gn_door21
+    node dummy ad_mp_01_DWK
+        parent ad_mp_01
     endnode
     node dummy 21_DWK_dp_closed_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_closed_02
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open1_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open2_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_closed
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open1
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open2
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
-    node dummy GN_Door21grnd
-        parent gn_door21
+    node dummy ad_mp_01grnd
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21head
-        parent gn_door21
+    node dummy ad_mp_01head
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21hhit
-        parent gn_door21
+    node dummy ad_mp_01hhit
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21impc
-        parent gn_door21
+    node dummy ad_mp_01impc
+        parent ad_mp_01
     endnode
     node dummy TIN01_B13_03
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -2657,65 +2657,65 @@ newanim opened1 gn_door21
     node trimesh Plane32
         parent TIN01_B13_03
     endnode
-doneanim opened1 gn_door21
+doneanim opened1 ad_mp_01
 
 
 #NWmax ANIM ASCII
-newanim closing1 gn_door21
+newanim closing1 ad_mp_01
   length 0.666667
   transtime 0.25
-  animroot gn_door21
-    node dummy gn_door21
+  animroot ad_mp_01
+    node dummy ad_mp_01
         parent NULL
     endnode
     node emitter fire!07
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh sam
-        parent gn_door21
+        parent ad_mp_01
         alphakey
             0 0 
             0.666667 0 
         endlist
     endnode
-    node dummy GN_Door21_DWK
-        parent gn_door21
+    node dummy ad_mp_01_DWK
+        parent ad_mp_01
     endnode
     node dummy 21_DWK_dp_closed_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_closed_02
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open1_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open2_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_closed
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open1
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open2
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
-    node dummy GN_Door21grnd
-        parent gn_door21
+    node dummy ad_mp_01grnd
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21head
-        parent gn_door21
+    node dummy ad_mp_01head
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21hhit
-        parent gn_door21
+    node dummy ad_mp_01hhit
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21impc
-        parent gn_door21
+    node dummy ad_mp_01impc
+        parent ad_mp_01
     endnode
     node dummy TIN01_B13_03
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -2944,65 +2944,65 @@ newanim closing1 gn_door21
     node trimesh Plane32
         parent TIN01_B13_03
     endnode
-doneanim closing1 gn_door21
+doneanim closing1 ad_mp_01
 
 
 #NWmax ANIM ASCII
-newanim opening2 gn_door21
+newanim opening2 ad_mp_01
   length 0.666667
   transtime 0.25
-  animroot gn_door21
-    node dummy gn_door21
+  animroot ad_mp_01
+    node dummy ad_mp_01
         parent NULL
     endnode
     node emitter fire!07
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh sam
-        parent gn_door21
+        parent ad_mp_01
         alphakey
             0 0 
             0.666667 0 
         endlist
     endnode
-    node dummy GN_Door21_DWK
-        parent gn_door21
+    node dummy ad_mp_01_DWK
+        parent ad_mp_01
     endnode
     node dummy 21_DWK_dp_closed_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_closed_02
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open1_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open2_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_closed
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open1
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open2
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
-    node dummy GN_Door21grnd
-        parent gn_door21
+    node dummy ad_mp_01grnd
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21head
-        parent gn_door21
+    node dummy ad_mp_01head
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21hhit
-        parent gn_door21
+    node dummy ad_mp_01hhit
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21impc
-        parent gn_door21
+    node dummy ad_mp_01impc
+        parent ad_mp_01
     endnode
     node dummy TIN01_B13_03
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -3231,65 +3231,65 @@ newanim opening2 gn_door21
     node trimesh Plane32
         parent TIN01_B13_03
     endnode
-doneanim opening2 gn_door21
+doneanim opening2 ad_mp_01
 
 
 #NWmax ANIM ASCII
-newanim opened2 gn_door21
+newanim opened2 ad_mp_01
   length 0.0333333
   transtime 0
-  animroot gn_door21
-    node dummy gn_door21
+  animroot ad_mp_01
+    node dummy ad_mp_01
         parent NULL
     endnode
     node emitter fire!07
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh sam
-        parent gn_door21
+        parent ad_mp_01
         alphakey
             0 0 
             0.0333333 0 
         endlist
     endnode
-    node dummy GN_Door21_DWK
-        parent gn_door21
+    node dummy ad_mp_01_DWK
+        parent ad_mp_01
     endnode
     node dummy 21_DWK_dp_closed_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_closed_02
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open1_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open2_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_closed
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open1
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open2
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
-    node dummy GN_Door21grnd
-        parent gn_door21
+    node dummy ad_mp_01grnd
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21head
-        parent gn_door21
+    node dummy ad_mp_01head
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21hhit
-        parent gn_door21
+    node dummy ad_mp_01hhit
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21impc
-        parent gn_door21
+    node dummy ad_mp_01impc
+        parent ad_mp_01
     endnode
     node dummy TIN01_B13_03
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -3518,65 +3518,65 @@ newanim opened2 gn_door21
     node trimesh Plane32
         parent TIN01_B13_03
     endnode
-doneanim opened2 gn_door21
+doneanim opened2 ad_mp_01
 
 
 #NWmax ANIM ASCII
-newanim closing2 gn_door21
+newanim closing2 ad_mp_01
   length 0.666667
   transtime 0.25
-  animroot gn_door21
-    node dummy gn_door21
+  animroot ad_mp_01
+    node dummy ad_mp_01
         parent NULL
     endnode
     node emitter fire!07
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh sam
-        parent gn_door21
+        parent ad_mp_01
         alphakey
             0 0 
             0.666667 0 
         endlist
     endnode
-    node dummy GN_Door21_DWK
-        parent gn_door21
+    node dummy ad_mp_01_DWK
+        parent ad_mp_01
     endnode
     node dummy 21_DWK_dp_closed_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_closed_02
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open1_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open2_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_closed
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open1
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open2
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
-    node dummy GN_Door21grnd
-        parent gn_door21
+    node dummy ad_mp_01grnd
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21head
-        parent gn_door21
+    node dummy ad_mp_01head
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21hhit
-        parent gn_door21
+    node dummy ad_mp_01hhit
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21impc
-        parent gn_door21
+    node dummy ad_mp_01impc
+        parent ad_mp_01
     endnode
     node dummy TIN01_B13_03
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -3805,65 +3805,65 @@ newanim closing2 gn_door21
     node trimesh Plane32
         parent TIN01_B13_03
     endnode
-doneanim closing2 gn_door21
+doneanim closing2 ad_mp_01
 
 
 #NWmax ANIM ASCII
-newanim closed gn_door21
+newanim closed ad_mp_01
   length 0.0333333
   transtime 0
-  animroot gn_door21
-    node dummy gn_door21
+  animroot ad_mp_01
+    node dummy ad_mp_01
         parent NULL
     endnode
     node emitter fire!07
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh sam
-        parent gn_door21
+        parent ad_mp_01
         alphakey
             0 0 
             0.0333333 0 
         endlist
     endnode
-    node dummy GN_Door21_DWK
-        parent gn_door21
+    node dummy ad_mp_01_DWK
+        parent ad_mp_01
     endnode
     node dummy 21_DWK_dp_closed_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_closed_02
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open1_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open2_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_closed
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open1
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open2
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
-    node dummy GN_Door21grnd
-        parent gn_door21
+    node dummy ad_mp_01grnd
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21head
-        parent gn_door21
+    node dummy ad_mp_01head
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21hhit
-        parent gn_door21
+    node dummy ad_mp_01hhit
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21impc
-        parent gn_door21
+    node dummy ad_mp_01impc
+        parent ad_mp_01
     endnode
     node dummy TIN01_B13_03
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -4092,66 +4092,66 @@ newanim closed gn_door21
     node trimesh Plane32
         parent TIN01_B13_03
     endnode
-doneanim closed gn_door21
+doneanim closed ad_mp_01
 
 
 #NWmax ANIM ASCII
-newanim die gn_door21
+newanim die ad_mp_01
   length 0.666667
   transtime 0.25
-  animroot gn_door21
+  animroot ad_mp_01
   event 0 detonate
-    node dummy gn_door21
+    node dummy ad_mp_01
         parent NULL
     endnode
     node emitter fire!07
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh sam
-        parent gn_door21
+        parent ad_mp_01
         alphakey
             0 0 
             0.666667 0 
         endlist
     endnode
-    node dummy GN_Door21_DWK
-        parent gn_door21
+    node dummy ad_mp_01_DWK
+        parent ad_mp_01
     endnode
     node dummy 21_DWK_dp_closed_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_closed_02
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open1_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open2_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_closed
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open1
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open2
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
-    node dummy GN_Door21grnd
-        parent gn_door21
+    node dummy ad_mp_01grnd
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21head
-        parent gn_door21
+    node dummy ad_mp_01head
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21hhit
-        parent gn_door21
+    node dummy ad_mp_01hhit
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21impc
-        parent gn_door21
+    node dummy ad_mp_01impc
+        parent ad_mp_01
     endnode
     node dummy TIN01_B13_03
-        parent gn_door21
+        parent ad_mp_01
         positionkey
             0 1 0 0
             0.666667 1 0 -3.1
@@ -4272,65 +4272,65 @@ newanim die gn_door21
     node trimesh Plane32
         parent TIN01_B13_03
     endnode
-doneanim die gn_door21
+doneanim die ad_mp_01
 
 
 #NWmax ANIM ASCII
-newanim dead gn_door21
+newanim dead ad_mp_01
   length 0.0333333
   transtime 0
-  animroot gn_door21
-    node dummy gn_door21
+  animroot ad_mp_01
+    node dummy ad_mp_01
         parent NULL
     endnode
     node emitter fire!07
-        parent gn_door21
+        parent ad_mp_01
     endnode
     node trimesh sam
-        parent gn_door21
+        parent ad_mp_01
         alphakey
             0 0 
             0.0333333 0 
         endlist
     endnode
-    node dummy GN_Door21_DWK
-        parent gn_door21
+    node dummy ad_mp_01_DWK
+        parent ad_mp_01
     endnode
     node dummy 21_DWK_dp_closed_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_closed_02
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open1_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node dummy 21_DWK_dp_open2_01
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_closed
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open1
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
     node aabb 21_DWK_wg_open2
-        parent GN_Door21_DWK
+        parent ad_mp_01_DWK
     endnode
-    node dummy GN_Door21grnd
-        parent gn_door21
+    node dummy ad_mp_01grnd
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21head
-        parent gn_door21
+    node dummy ad_mp_01head
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21hhit
-        parent gn_door21
+    node dummy ad_mp_01hhit
+        parent ad_mp_01
     endnode
-    node dummy GN_Door21impc
-        parent gn_door21
+    node dummy ad_mp_01impc
+        parent ad_mp_01
     endnode
     node dummy TIN01_B13_03
-        parent gn_door21
+        parent ad_mp_01
         positionkey
             0 1 0 -3.1
             0.0333333 1 0 -3.1
@@ -4451,6 +4451,6 @@ newanim dead gn_door21
     node trimesh Plane32
         parent TIN01_B13_03
     endnode
-doneanim dead gn_door21
+doneanim dead ad_mp_01
 
-donemodel gn_door21
+donemodel ad_mp_01

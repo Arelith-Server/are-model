@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: PLC_ET02
+# model: plc_ff02
 filedependancy PLC_FF02.max
-newmodel PLC_ET02
-setsupermodel PLC_ET02 NULL
+newmodel plc_ff02
+setsupermodel plc_ff02 NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom PLC_ET02
-node dummy PLC_ET02
+beginmodelgeom plc_ff02
+node dummy plc_ff02
   parent NULL
 endnode
 node emitter emitter
-  parent PLC_ET02
+  parent plc_ff02
   position 0 0 1
   orientation 1 0 0 -1.57207
   wirecolor 0.878906 0.878906 0.878906
@@ -78,5 +78,5 @@ node emitter emitter
     renderorder 0
     Splat 0
 endnode
-endmodelgeom PLC_ET02
-donemodel PLC_ET02
+endmodelgeom plc_ff02
+donemodel plc_ff02

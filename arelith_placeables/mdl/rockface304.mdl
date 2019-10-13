@@ -2,16 +2,16 @@
 # mdl file
 #
 filedependancy Unknown
-newmodel Rockface3
-setsupermodel Rockface3 NULL
+newmodel Rockface304
+setsupermodel Rockface304 NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom Rockface3
-node dummy Rockface3
+beginmodelgeom Rockface304
+node dummy Rockface304
     parent NULL
 endnode
 node trimesh PLC_NL_RockFceT03
-    parent Rockface3
+    parent Rockface304
     position -6.10352e-007 0.0 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -484,5 +484,5 @@ node trimesh PLC_NL_RockFceT03
         0.461966 0.286218 0
         0.519905 0.0176177 0
 endnode
-endmodelgeom Rockface3
-donemodel Rockface3
+endmodelgeom Rockface304
+donemodel Rockface304

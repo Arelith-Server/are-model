@@ -1,17 +1,17 @@
 #Model converted by mdl2ascii
 #For updates/comments check out http://nwn-j3d.sf.net
 filedependancy Unknown
-newmodel PLC_Tap_2
-setsupermodel PLC_Tap_2 NULL
+newmodel PLC_Tap_3
+setsupermodel PLC_Tap_3 NULL
 classification Character
 setanimationscale 1.000000
 #MAXGEOM  ASCII
-beginmodelgeom PLC_Tap_2
-node dummy PLC_Tap_2
+beginmodelgeom PLC_Tap_3
+node dummy PLC_Tap_3
   parent NULL
 endnode
 node trimesh Plane01
-  parent PLC_Tap_2
+  parent PLC_Tap_3
   position 0.064356 -0.012158 0.010000
   orientation 0.000000 0.000000 0.000000 0.000000
   diffuse 1.000000 1.000000 1.000000
@@ -71,31 +71,31 @@ node trimesh Plane01
      0.008515 0.426434 0.0 
 endnode
 node dummy Tap_2_hand
-  parent PLC_Tap_2
+  parent PLC_Tap_3
   position 0.003984 0.008213 0.484883
   orientation 0.000000 0.000000 0.000000 0.000000
 endnode
 node dummy Tap_2_head
-  parent PLC_Tap_2
+  parent PLC_Tap_3
   position 0.003984 0.010825 0.487122
   orientation 0.000000 0.000000 0.000000 0.000000
 endnode
 node dummy Tap_2_head_hit
-  parent PLC_Tap_2
+  parent PLC_Tap_3
   position 0.003984 0.010825 0.005644
   orientation 0.000000 0.000000 0.000000 0.000000
 endnode
 node dummy Tap_2_impact
-  parent PLC_Tap_2
+  parent PLC_Tap_3
   position 0.003984 0.011001 0.007419
   orientation 0.000000 0.000000 0.000000 0.000000
 endnode
 node dummy Tap_2_ground
-  parent PLC_Tap_2
+  parent PLC_Tap_3
   position -0.003633 0.006987 0.000000
   orientation 0.000000 0.000000 0.000000 0.000000
 endnode
-endmodelgeom PLC_Tap_2
-donemodel PLC_Tap_2
+endmodelgeom PLC_Tap_3
+donemodel PLC_Tap_3
 
 

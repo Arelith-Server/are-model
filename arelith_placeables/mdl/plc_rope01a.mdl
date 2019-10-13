@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: mtp_rope
+# model: plc_rope01a
 filedependancy plc_rope.max
-newmodel mtp_rope 
-setsupermodel mtp_rope NULL
+newmodel plc_rope01a 
+setsupermodel plc_rope01a NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom mtp_rope 
-node dummy mtp_rope 
+beginmodelgeom plc_rope01a 
+node dummy plc_rope01a 
   parent NULL 
 endnode
 node emitter fire! 
-  parent mtp_rope 
+  parent plc_rope01a 
   position 0.0 0.0137917 0.504806
   orientation  1.0 0.0 0.0  -1.5708
   wirecolor 0.690196 0.101961 0.101961  
@@ -77,7 +77,7 @@ node emitter fire!
     Splat 0 
 endnode
 node trimesh damage 
-  parent mtp_rope 
+  parent plc_rope01a 
   position 0.000867307 0.0348657 0.0
   orientation  0.0 0.0 0.0  0.0
   wirecolor 0.603922 0.843137 0.898039  
@@ -168,7 +168,7 @@ node trimesh ROPE_Coil_01
   diffuse 1.0 1.0 1.0  
   specular 0.0 0.0 0.0  
   shininess 11.0 
-    bitmap mtp_rope
+    bitmap plc_rope01a
     verts 96
      0.560159 -0.0109559 0.407452
      0.0643894 -0.535259 0.407452
@@ -882,7 +882,7 @@ node trimesh ROPE_Coil_05
   diffuse 1.0 1.0 1.0  
   specular 0.0 0.0 0.0  
   shininess 11.0 
-    bitmap mtp_rope
+    bitmap plc_rope01a
     verts 16
      0.10061 0.0290637 0.0733902
      0.102537 0.0446877 0.0852491
@@ -978,7 +978,7 @@ node trimesh ROPE_Coil_06
   diffuse 1.0 1.0 1.0  
   specular 0.0 0.0 0.0  
   shininess 11.0 
-    bitmap mtp_rope
+    bitmap plc_rope01a
     verts 25
      0.0647875 0.41336 0.0273291
      0.000426521 0.425256 0.0560871
@@ -1098,50 +1098,50 @@ node trimesh ROPE_Coil_06
      0.263882 0.714586 0 
 endnode
 node dummy rope01_ground 
-  parent mtp_rope 
+  parent plc_rope01a 
   position 0.00363281 -0.0069873 0.0
   orientation  0.0 0.0 0.0  0.0
   wirecolor 0.52549 0.0235294 0.0235294  
 endnode
 node dummy rope01_hand 
-  parent mtp_rope 
+  parent plc_rope01a 
   position -0.0125751 0.00454784 0.193381
   orientation  0.0 0.0 0.0  0.0
   wirecolor 0.878431 0.337255 0.337255  
 endnode
 node dummy rope01_head 
-  parent mtp_rope 
+  parent plc_rope01a 
   position 0.00493592 0.0140453 0.380843
   orientation  0.0 0.0 0.0  0.0
   wirecolor 0.768628 0.345098 0.882353  
 endnode
 node dummy rope01_head_hit 
-  parent mtp_rope 
+  parent plc_rope01a 
   position -0.00398926 -0.0108252 0.406388
   orientation  0.0 0.0 0.0  0.0
   wirecolor 0.101961 0.694118 0.580392  
 endnode
 node dummy rope01_impact 
-  parent mtp_rope 
+  parent plc_rope01a 
   position -0.00398926 -0.011001 0.167571
   orientation  0.0 0.0 0.0  0.0
   wirecolor 0.109804 0.584314 0.694118  
 endnode
-endmodelgeom mtp_rope 
+endmodelgeom plc_rope01a 
 
 #MAXANIM ASCII
-newanim damage mtp_rope 
+newanim damage plc_rope01a 
  length 0.133333
  transtime 0.0
-animroot mtp_rope
-node dummy mtp_rope 
+animroot plc_rope01a
+node dummy plc_rope01a 
   parent NULL 
 endnode
 node emitter fire! 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node trimesh damage 
-  parent mtp_rope 
+  parent plc_rope01a 
     positionkey 
       0.0  0.000867307 0.0348657 0.0
       0.0333333  0.000867307 0.0348657 0.0244581
@@ -1180,47 +1180,47 @@ node trimesh ROPE_Coil_06
     endlist
 endnode
 node dummy rope01_ground 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_hand 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_head 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_head_hit 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_impact 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
-node dummy mtp_rope_pwk 
-  parent mtp_rope 
+node dummy plc_rope01a_pwk 
+  parent plc_rope01a 
 endnode
-node dummy mtp_rope_wg 
-  parent mtp_rope_pwk 
+node dummy plc_rope01a_wg 
+  parent plc_rope01a_pwk 
 endnode
 node dummy IoP_pwk_use01 
-  parent mtp_rope_pwk 
+  parent plc_rope01a_pwk 
 endnode
 node dummy IoP_pwk_use02 
-  parent mtp_rope_pwk 
+  parent plc_rope01a_pwk 
 endnode
-doneanim damage mtp_rope 
+doneanim damage plc_rope01a 
 
 #MAXANIM ASCII
-newanim die mtp_rope 
+newanim die plc_rope01a 
  length 0.166667
  transtime 0.0
-animroot mtp_rope
-node dummy mtp_rope 
+animroot plc_rope01a
+node dummy plc_rope01a 
   parent NULL 
 endnode
 node emitter fire! 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node trimesh damage 
-  parent mtp_rope 
+  parent plc_rope01a 
     positionkey 
       0.0  0.000867307 0.0348657 0.0
       0.166667  0.000867307 0.0348657 -6.95145
@@ -1255,49 +1255,49 @@ node trimesh ROPE_Coil_06
     endlist
 endnode
 node dummy rope01_ground 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_hand 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_head 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_head_hit 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_impact 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 event 0.0  detonate 
 event 0.0  detonate 
-node dummy mtp_rope_pwk 
-  parent mtp_rope 
+node dummy plc_rope01a_pwk 
+  parent plc_rope01a 
 endnode
-node dummy mtp_rope_wg 
-  parent mtp_rope_pwk 
+node dummy plc_rope01a_wg 
+  parent plc_rope01a_pwk 
 endnode
 node dummy IoP_pwk_use01 
-  parent mtp_rope_pwk 
+  parent plc_rope01a_pwk 
 endnode
 node dummy IoP_pwk_use02 
-  parent mtp_rope_pwk 
+  parent plc_rope01a_pwk 
 endnode
-doneanim die mtp_rope 
+doneanim die plc_rope01a 
 
 #MAXANIM ASCII
-newanim dead mtp_rope 
+newanim dead plc_rope01a 
  length 0.0333333
  transtime 0.0
-animroot mtp_rope
-node dummy mtp_rope 
+animroot plc_rope01a
+node dummy plc_rope01a 
   parent NULL 
 endnode
 node emitter fire! 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node trimesh damage 
-  parent mtp_rope 
+  parent plc_rope01a 
     positionkey 
       0.0  0.000867307 0.0348657 -6.95145
       0.0333333  0.000867307 0.0348657 -6.95145
@@ -1331,47 +1331,47 @@ node trimesh ROPE_Coil_06
     endlist
 endnode
 node dummy rope01_ground 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_hand 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_head 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_head_hit 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_impact 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
-node dummy mtp_rope_pwk 
-  parent mtp_rope 
+node dummy plc_rope01a_pwk 
+  parent plc_rope01a 
 endnode
-node dummy mtp_rope_wg 
-  parent mtp_rope_pwk 
+node dummy plc_rope01a_wg 
+  parent plc_rope01a_pwk 
 endnode
 node dummy IoP_pwk_use01 
-  parent mtp_rope_pwk 
+  parent plc_rope01a_pwk 
 endnode
 node dummy IoP_pwk_use02 
-  parent mtp_rope_pwk 
+  parent plc_rope01a_pwk 
 endnode
-doneanim dead mtp_rope 
+doneanim dead plc_rope01a 
 
 #MAXANIM ASCII
-newanim default mtp_rope 
+newanim default plc_rope01a 
  length 0.0
  transtime 0.25
-animroot mtp_rope
-node dummy mtp_rope 
+animroot plc_rope01a
+node dummy plc_rope01a 
   parent NULL 
 endnode
 node emitter fire! 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node trimesh damage 
-  parent mtp_rope 
+  parent plc_rope01a 
     positionkey 
       0.0  0.000867307 0.0348657 0.0
     endlist 
@@ -1405,33 +1405,33 @@ node trimesh ROPE_Coil_06
     endlist
 endnode
 node dummy rope01_ground 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_hand 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_head 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_head_hit 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
 node dummy rope01_impact 
-  parent mtp_rope 
+  parent plc_rope01a 
 endnode
-node dummy mtp_rope_pwk 
-  parent mtp_rope 
+node dummy plc_rope01a_pwk 
+  parent plc_rope01a 
 endnode
-node dummy mtp_rope_wg 
-  parent mtp_rope_pwk 
+node dummy plc_rope01a_wg 
+  parent plc_rope01a_pwk 
 endnode
 node dummy IoP_pwk_use01 
-  parent mtp_rope_pwk 
+  parent plc_rope01a_pwk 
 endnode
 node dummy IoP_pwk_use02 
-  parent mtp_rope_pwk 
+  parent plc_rope01a_pwk 
 endnode
-doneanim default mtp_rope 
+doneanim default plc_rope01a 
 
-donemodel mtp_rope
+donemodel plc_rope01a
 
