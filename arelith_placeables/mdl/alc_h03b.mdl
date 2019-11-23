@@ -1,0 +1,1002 @@
+# Exported from NWmax 0.8 b61 at 11/6/2019 1:24:52 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: alc_h03b
+#local file: D:\gmax\Scenes\NeutralAltar.gmax
+filedependancy NeutralAltar.gmax
+newmodel alc_h03b
+setsupermodel alc_h03b NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom alc_h03b
+node dummy alc_h03b
+  parent NULL
+endnode
+node dummy h03b_hand
+  parent alc_h03b
+  position 0.00398926 -0.505197 0.934402
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.721569 0.894118 0.6 
+endnode
+node dummy h03b_head
+  parent alc_h03b
+  position 0.00398926 0.0108258 2.1763
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.721569 0.6 
+endnode
+node dummy h03b_head_hit
+  parent alc_h03b
+  position 0.00398926 0.0108258 1.69482
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.721569 0.6 
+endnode
+node dummy h03b_impact
+  parent alc_h03b
+  position 0.00398926 0.0109998 0.868134
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.721569 0.6 
+endnode
+node dummy h03b_ground
+  parent alc_h03b
+  position -0.00363281 0.00698791 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.721569 0.6 
+endnode
+node trimesh damage03b
+  parent alc_h03b
+  position 0.0147516 -0.04659 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0705882 0.0 1.0 
+  diffuse 1.0 0.501961 0.643137 
+  specular 0.0 0.9 0.105882 
+  shininess 24
+  center 0.0 0.0 25.0 
+  bitmap NULL
+  verts 12
+    -0.195415 -0.186216 0.0
+    -0.195415 0.186216 0.0
+    0.195415 0.186216 0.0
+    0.195415 -0.186216 0.0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 0.0990513 0.25
+  faces 20
+    0 1 2  1  0 0 0  2
+    2 3 0  1  0 0 0  2
+    4 5 6  1  0 0 0  1
+    6 7 4  1  0 0 0  1
+    0 3 8  2  0 0 0  5
+    8 9 0  2  0 0 0  5
+    9 8 5  2  0 0 0  5
+    5 4 9  2  0 0 0  5
+    3 2 10  4  0 0 0  4
+    10 8 3  4  0 0 0  4
+    8 10 6  4  0 0 0  4
+    6 5 8  4  0 0 0  4
+    2 1 11  2  0 0 0  6
+    11 10 2  2  0 0 0  6
+    10 11 7  2  0 0 0  6
+    7 6 10  2  0 0 0  6
+    1 0 9  4  0 0 0  3
+    9 11 1  4  0 0 0  3
+    11 9 4  4  0 0 0  3
+    4 7 11  4  0 0 0  3
+endnode
+node trimesh Box22
+  parent damage03b
+  position -0.014751 -0.0123334 0.470115
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 2.527 1.80075 7.7825 
+  bitmap alc_marblewht03
+  verts 98
+    0.834798 -0.539515 0.625765
+    1.0 -0.489375 0.378514
+    0.973359 0.0340045 0.455064
+    0.626414 0.527713 0.587308
+    0.84993 0.554561 0.431821
+    0.618314 0.572602 0.550365
+    0.826376 -0.565291 -0.470115
+    1.0 -0.489375 -0.470115
+    0.853117 -0.627042 -0.0151839
+    0.949102 0.0935349 -0.470115
+    1.0 0.458891 -0.470115
+    1.08656 0.437218 -0.0890719
+    0.880644 -0.0544828 -0.299744
+    1.10312 -0.191131 0.323288
+    -0.723975 0.637712 -0.470115
+    -0.889336 0.64668 -0.470115
+    -0.889336 0.596558 0.356959
+    -0.453741 0.499507 -0.470115
+    -0.498201 0.599402 -0.138722
+    -0.19383 0.665667 -0.470115
+    -0.964352 -0.452467 -0.470115
+    -0.924714 -0.647731 -0.470115
+    -0.949565 -0.657275 -0.152687
+    -0.898426 -0.575144 0.15482
+    -1.00459 -0.346828 0.019959
+    -0.96002 0.170662 0.193726
+    -0.810485 -0.184103 0.522728
+    -0.769782 0.0312671 0.522728
+    -0.96002 -0.0090198 0.110018
+    -0.916074 -0.447378 0.587308
+    -1.0 0.494547 0.264954
+    -0.5647 0.564022 0.356959
+    -0.889649 0.48139 0.587308
+    0.0715477 -0.664473 0.0063403
+    -0.113656 -0.596558 0.587308
+    -0.0941656 -0.596558 -0.115497
+    0.847653 0.412425 0.587308
+    0.957719 0.448995 0.555434
+    0.135646 -0.603233 -0.367366
+    0.557105 -0.725481 0.266975
+    -0.0578095 0.167266 0.584538
+    0.0700796 -0.224359 0.552776
+    0.373155 -0.215288 0.603421
+    0.868006 0.690296 -0.196152
+    0.868284 0.690296 -0.470115
+    0.626 0.571646 0.0984312
+    -0.0275636 0.580947 0.587308
+    -0.0042588 0.665667 0.564446
+    -0.0419207 0.647708 0.564446
+    0.256139 0.761496 -0.070549
+    0.0133633 0.665667 -0.470115
+    -0.232967 0.665667 0.356959
+    -0.0571352 0.640337 0.567792
+    -0.0646802 0.640337 0.064115
+    -0.541454 0.500168 0.561055
+    -0.072683 0.640337 -0.470115
+    -0.212459 0.510195 -0.0764304
+    -0.353136 -0.626648 0.0779612
+    -0.272059 -0.524587 0.587308
+    -0.33126 -0.537235 0.587308
+    -0.370244 0.184343 0.584538
+    -0.738351 -0.657275 -0.470115
+    -0.889336 -0.657275 0.349689
+    -0.7066 -0.560411 0.462722
+    -0.72301 -0.657275 0.183732
+    -0.537294 -0.508012 0.0974161
+    -0.695357 -0.431365 0.587308
+    -0.612593 0.069584 0.57319
+    0.288835 0.571667 0.454058
+    0.617482 0.58477 -0.470115
+    0.404585 0.651226 -0.470115
+    0.334073 0.6626 -0.313387
+    0.270188 0.662313 -0.470115
+    0.404585 0.423688 -0.470115
+    0.256139 0.494772 -0.070549
+    0.297168 0.571626 -0.250665
+    0.270188 0.511974 -0.470115
+    0.355802 0.654564 0.283464
+    0.372409 0.061265 0.553503
+    0.84306 0.619526 0.261963
+    0.970609 0.162905 0.181122
+    0.6998 0.151874 0.620307
+    0.524434 -0.615639 -0.470115
+    0.176314 -0.549673 0.599066
+    -0.0849806 -0.687777 -0.470115
+    0.175581 -0.659696 -0.470115
+    -0.364401 -0.556538 -0.470115
+    0.602431 -0.4723 0.616343
+    -0.59689 -0.657275 -0.470115
+    -0.209304 -0.223035 0.546354
+    0.50327 -0.473829 0.612323
+    -0.964352 -0.389529 -0.470115
+    -0.970927 0.495189 -0.470115
+    -1.05258 0.494801 -0.0186664
+    -0.839866 0.0918529 -0.470115
+    -0.839866 0.0199371 -0.470115
+    -0.875371 0.25796 0.587308
+    0.650688 -0.300301 0.617555
+  faces 164
+    0 1 2  1  0 1 2  1
+    3 4 5  1  3 4 5  1
+    6 7 1  2  6 7 8  5
+    1 0 8  4  8 9 10  5
+    9 10 11  1  11 12 13  4
+    12 13 7  1  14 15 16  4
+    14 15 16  1  17 18 19  6
+    17 18 19  1  20 21 22  6
+    20 21 22  1  23 24 25  3
+    22 23 24  2  25 26 27  3
+    25 26 27  1  162 29 30  3
+    28 24 29  1  31 27 32  3
+    30 16 15  2  33 34 35  3
+    31 16 32  4  36 37 38  1
+    16 30 32  8  34 33 39  3
+    33 34 35  1  157 41 42  5
+    4 36 37  2  4 43 44  1
+    33 38 39  2  157 45 158  5
+    40 41 42  1  47 48 49  1
+    43 11 10  2  50 51 52  6
+    10 44 43  4  52 53 50  6
+    45 43 44  1  54 50 53  6
+    46 47 48  1  55 56 57  1
+    49 50 47  2  58 59 60  6
+    51 52 53  1  61 62 63  6
+    54 51 31  2  64 65 36  1
+    55 19 56  2  66 22 67  6
+    57 58 59  1  68 69 70  5
+    60 40 46  2  71 72 55  1
+    57 35 34  2  68 42 41  5
+    61 22 21  4  73 74 75  5
+    62 63 29  2  76 77 78  1
+    64 65 63  1  79 80 81  5
+    66 67 27  2  165 83 84  1
+    66 60 67  1  165 85 83  1
+    3 5 68  2  3 5 86  1
+    48 47 50  4  87 60 59  6
+    29 66 26  4  166 165 89  1
+    55 48 50  8  66 87 59  6
+    46 48 55  16  90 87 66  1
+    46 53 52  4  90 63 62  1
+    44 69 45  2  53 91 54  6
+    69 70 49  1  91 92 58  6
+    71 50 49  16  93 59 58  6
+    72 50 71  1  94 59 93  6
+    73 74 49  4  92 58 95  6
+    49 70 73  4  58 92 96  6
+    74 75 71  2  58 93 97  6
+    71 49 74  8  93 58 95  6
+    75 76 72  4  93 94 98  6
+    72 71 75  32  94 93 97  6
+    77 49 47  32  99 58 60  6
+    5 4 45  4  100 101 54  6
+    68 5 77  8  102 103 104  6
+    3 68 46  32  105 106 90  1
+    45 69 49  64  54 91 58  6
+    78 3 46  8  107 3 55  1
+    36 4 3  16  43 4 3  1
+    18 17 16  16  21 20 19  6
+    54 31 32  16  64 36 38  1
+    18 56 19  4  21 67 22  6
+    46 52 54  64  55 108 172  1
+    52 51 54  8  110 65 64  1
+    79 37 11  4  111 112 51  6
+    13 12 80  2  15 14 113  4
+    45 4 79  8  54 101 111  6
+    37 79 4  32  112 111 101  6
+    11 43 79  16  51 50 111  6
+    45 79 43  128  54 111 50  6
+    81 36 3  4  114 43 3  1
+    36 81 2  8  43 114 115  1
+    80 11 37  8  167 160 116  4
+    37 2 80  16  116 117 167  4
+    7 9 12  4  16 11 14  4
+    12 9 11  32  14 11 13  4
+    12 11 80  64  14 13 113  4
+    2 1 13  32  2 1 118  4
+    13 1 7  8  15 119 16  4
+    80 2 13  4  167 117 161  4
+    36 2 37  64  43 115 44  1
+    82 6 8  1  120 6 10  5
+    1 8 6  16  8 10 6  5
+    38 82 8  8  45 120 10  5
+    39 8 0  32  158 10 9  5
+    83 34 33  4  159 41 157  5
+    84 85 38  1  122 123 45  5
+    86 84 35  4  124 122 42  5
+    33 35 84  8  157 42 122  5
+    38 85 82  4  45 123 120  5
+    38 8 39  64  45 10 158  5
+    0 87 39  8  125 126 127  5
+    40 78 46  128  72 107 55  1
+    38 33 84  16  45 157 122  5
+    39 83 33  128  46 121 40  5
+    64 62 23  4  79 128 129  5
+    29 23 62  8  32 26 130  3
+    64 23 22  16  79 129 74  5
+    29 24 23  32  32 27 26  3
+    22 61 64  8  74 73 79  5
+    61 88 65  2  73 131 80  5
+    34 58 57  8  41 69 68  5
+    64 61 65  32  79 73 80  5
+    63 62 64  64  81 128 79  5
+    57 86 35  16  68 124 42  5
+    57 65 88  4  68 80 131  5
+    88 86 57  32  131 124 68  5
+    63 66 29  16  132 82 88  1
+    59 63 65  8  70 81 80  5
+    57 59 65  64  68 70 80  5
+    89 58 41  2  133 168 48  1
+    63 59 66  32  132 135 82  1
+    89 40 60  4  133 47 85  1
+    83 90 42  2  170 137 49  1
+    90 83 39  1  138 139 127  5
+    90 87 42  4  137 140 49  1
+    87 90 39  16  126 138 127  5
+    77 5 45  16  99 100 54  6
+    45 49 77  256  54 58 99  6
+    47 68 77  64  141 102 104  6
+    46 68 47  256  55 86 56  1
+    91 20 24  4  142 23 27  3
+    22 24 20  64  25 27 23  3
+    15 92 93  4  35 171 144  3
+    29 26 28  64  164 29 163  3
+    15 93 30  16  35 144 33  3
+    28 26 25  2  163 29 162  3
+    94 25 92  8  145 28 143  3
+    94 95 28  4  145 146 31  3
+    28 95 91  8  31 146 142  3
+    25 30 93  32  162 33 144  3
+    25 93 92  64  162 144 171  3
+    96 54 32  32  147 109 148  1
+    96 32 30  1  149 39 33  3
+    25 96 30  4  162 149 33  3
+    27 67 96  8  150 151 173  1
+    26 66 27  128  89 165 84  1
+    25 27 96  16  162 30 149  3
+    28 91 24  16  31 142 27  3
+    25 94 28  128  28 145 31  3
+    58 34 83  16  134 152 136  1
+    89 41 40  8  133 48 47  1
+    66 59 89  256  165 169 133  1
+    46 54 60  512  55 172 71  1
+    87 0 97  2  140 0 153  1
+    81 3 78  64  114 3 107  1
+    0 81 97  16  0 154 153  1
+    0 2 81  128  0 2 154  1
+    97 81 78  1  153 154 155  1
+    42 97 78  32  49 153 155  1
+    42 87 97  64  49 140 153  1
+    40 42 78  16  47 49 155  1
+    67 60 54  1  151 71 172  1
+    67 54 96  128  151 172 173  1
+    58 83 41  32  168 170 48  1
+    41 83 42  256  48 170 49  1
+    66 89 60  64  165 133 85  1
+    59 58 89  128  169 168 133  1
+    31 18 16  32  156 21 19  6
+    18 31 56  8  21 156 67  6
+    31 51 56  64  156 61 67  6
+    53 56 51  16  63 67 61  6
+    17 14 16  64  20 17 19  6
+    46 55 53  4  90 66 63  1
+    56 53 55  32  67 63 66  6
+  tverts 174
+    0.383012 0.941622 0
+    0.359387 1.02465 0
+    0.0975046 1.0159 0
+    0.840371 0.822604 0
+    0.729866 0.973227 0
+    0.561821 0.760975 0
+    0.280286 0.839821 0
+    0.278673 0.926629 0
+    0.615394 0.928009 0
+    0.753742 0.845972 0
+    0.457152 0.853917 0
+    1.00773 0.516156 0
+    1.00773 0.698834 0
+    0.860569 0.687998 0
+    0.938663 0.442147 0
+    0.381796 0.381069 0
+    1.00773 0.224702 0
+    0.760719 0.0888297 0
+    0.759182 0.00615212 0
+    0.4312 0.00749592 0
+    0.763231 0.223942 0
+    0.631401 0.202251 0
+    0.765646 0.353893 0
+    0.69614 0.250402 0
+    0.69614 0.15277 0
+    0.574765 0.147997 0
+    0.450096 0.137223 0
+    0.504771 0.25138 0
+    0.745917 0.55472 0
+    0.47368 0.415985 0
+    0.47368 0.52367 0
+    0.779854 0.464879 0
+    0.27014 0.252946 0
+    0.649968 0.748064 0
+    0.687269 0.799069 0
+    0.359274 0.82413 0
+    0.206103 0.251609 0
+    0.165423 0.0896002 0
+    0.288054 0.088439 0
+    0.47368 0.748731 0
+    0.473142 0.463182 0
+    0.715006 0.371568 0
+    0.425289 0.380127 0
+    0.897522 0.956356 0
+    0.783582 1.02619 0
+    0.328361 0.49464 0
+    0.653595 0.706709 0
+    0.0218857 0.501554 0
+    0.218784 0.562072 0
+    0.216894 0.713665 0
+    0.671605 0.876609 0
+    0.630386 0.994664 0
+    0.776741 0.950785 0
+    0.775357 0.876322 0
+    0.550091 0.764706 0
+    0.858776 0.520285 0
+    0.512278 0.443303 0
+    0.0668214 0.51369 0
+    0.615159 0.579502 0
+    0.767572 0.457485 0
+    0.369693 0.450304 0
+    0.4373 0.335668 0
+    0.365065 0.423884 0
+    0.560006 0.419312 0
+    0.300622 0.229171 0
+    0.0871789 0.424046 0
+    0.766772 0.414464 0
+    0.609354 0.345218 0
+    0.506124 0.250968 0
+    0.716478 0.29237 0
+    0.717028 0.26277 0
+    1.00092 0.34551 0
+    1.05807 0.520878 0
+    0.294828 0.0574873 0
+    0.418162 -0.0476189 0
+    0.296561 -0.0356911 0
+    0.309247 0.0472578 0
+    0.408995 0.139457 0
+    0.533251 0.0357229 0
+    0.552442 0.0662135 0
+    0.516362 0.124535 0
+    0.665393 0.074881 0
+    0.500445 0.0989767 0
+    0.0658781 0.223352 0
+    0.0827406 0.0916491 0
+    0.0106223 0.34551 0
+    0.564244 0.564852 0
+    0.369343 0.431474 0
+    0.483743 -0.204577 0
+    0.190054 0.0694213 0
+    0.341208 0.438768 0
+    0.773186 0.759533 0
+    0.771208 0.653088 0
+    0.68856 0.599716 0
+    0.769959 0.585893 0
+    0.615159 0.579502 0
+    0.771208 0.653088 0
+    0.68856 0.599716 0
+    0.769959 0.585893 0
+    0.472567 0.62992 0
+    0.39289 0.761507 0
+    0.391075 0.877327 0
+    0.582739 0.581618 0
+    0.589561 0.800698 0
+    0.466993 0.627107 0
+    0.0356916 0.77299 0
+    0.091191 0.603967 0
+    1.07134 0.696382 0
+    0.536557 0.443217 0
+    0.974568 0.19362 0
+    0.125036 0.533814 0
+    0.441199 0.873686 0
+    0.389777 0.931229 0
+    0.751027 0.550841 0
+    1.02649 0.880167 0
+    1.0878 1.0159 0
+    0.74586 0.725287 0
+    0.419353 0.525038 0
+    0.211188 1.0788 0
+    0.359406 0.231948 0
+    0.283093 0.688855 0
+    0.726849 0.516607 0
+    0.288756 0.38416 0
+    0.286335 0.514436 0
+    0.291353 0.244455 0
+    0.402596 0.910221 0
+    0.478488 0.794642 0
+    0.288551 0.770419 0
+    0.621267 -0.016671 0
+    0.542781 -0.0446431 0
+    0.371092 0.147997 0
+    0.293514 0.128215 0
+    0.323461 0.0804389 0
+    0.215685 0.422412 0
+    0.37793 0.357007 0
+    0.346296 0.596552 0
+    0.361476 0.580941 0
+    0.347281 0.776457 0
+    0.478703 0.745056 0
+    0.404019 0.580941 0
+    0.347381 0.826043 0
+    0.335338 0.498859 0
+    1.00773 0.274625 0
+    1.00773 0.716983 0
+    0.534983 0.748191 0
+    1.00773 0.515316 0
+    1.00773 0.479358 0
+    0.774923 0.245418 0
+    1.01799 0.35836 0
+    0.47368 0.637016 0
+    1.07304 0.0916491 0
+    1.05617 0.223352 0
+    0.340568 0.435569 0
+    0.261816 0.851669 0
+    0.0361918 0.880167 0
+    0.0786324 0.715706 0
+    0.434217 0.169808 0
+    0.473142 0.463182 0
+    0.653595 0.706709 0
+    0.726849 0.516607 0
+    0.506439 0.719399 0
+    0.362024 0.41247 0
+    0.621091 0.586121 0
+    0.27556 0.503526 0
+    0.47368 0.284347 0
+    0.315592 0.177605 0
+    0.321671 0.0671239 0
+    0.615981 0.582242 0
+    0.36589 0.388408 0
+    0.371696 0.358702 0
+    0.382344 0.612342 0
+    0.359274 0.748384 0
+    0.841535 0.262674 0
+    0.959706 0.0936273 0
+endnode
+node emitter ChunkyWood64
+  parent alc_h03b
+  position 0.0131848 -0.0864288 0.712937
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.701961 0.67451 0.603922 
+  colorEnd 0.854902 0.847059 0.82353 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName alc_Chunk_S02
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter fire!39
+  parent alc_h03b
+  position 0.0131848 -0.0864288 0.532671
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.607843 0.568627 0.486275 
+  colorEnd 0.819608 0.815686 0.796079 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood65
+  parent alc_h03b
+  position 0.0131848 -0.0864288 0.606715
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName alc_Chunk_S01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+endmodelgeom alc_h03b
+#NWmax ANIM ASCII
+newanim damage alc_h03b
+  length 0.133333
+  transtime 0.0
+  animroot alc_h03b
+    node dummy alc_h03b
+        parent NULL
+    endnode
+    node dummy h03b_hand
+        parent alc_h03b
+    endnode
+    node dummy h03b_head
+        parent alc_h03b
+    endnode
+    node dummy h03b_head_hit
+        parent alc_h03b
+    endnode
+    node dummy h03b_impact
+        parent alc_h03b
+    endnode
+    node dummy h03b_ground
+        parent alc_h03b
+    endnode
+    node trimesh damage03b
+        parent alc_h03b
+        positionkey
+            0.0 0.0147516 -0.04659 0.0
+            0.0333333 0.0147516 -0.04659 0.0244581
+            0.133333 0.0147516 -0.04659 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.371336 -0.928463 0.0081026 -0.0469939
+            0.1 -0.59995 0.799969 0.0104722 -0.0436324
+            0.133333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Box22
+        parent damage03b
+    endnode
+    node emitter ChunkyWood64
+        parent alc_h03b
+    endnode
+    node emitter fire!39
+        parent alc_h03b
+    endnode
+    node emitter ChunkyWood65
+        parent alc_h03b
+    endnode
+    node dummy alc_h03b_pwk
+        parent alc_h03b
+    endnode
+    node trimesh alc_h03b_wg
+        parent alc_h03b_pwk
+    endnode
+    node dummy h03b_pwk_use02
+        parent alc_h03b_pwk
+    endnode
+    node dummy h03b_pwk_use01
+        parent alc_h03b_pwk
+    endnode
+doneanim damage alc_h03b
+#NWmax ANIM ASCII
+newanim die alc_h03b
+  length 0.166667
+  transtime 0.0
+  animroot alc_h03b
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+    node dummy alc_h03b
+        parent NULL
+    endnode
+    node dummy h03b_hand
+        parent alc_h03b
+    endnode
+    node dummy h03b_head
+        parent alc_h03b
+    endnode
+    node dummy h03b_head_hit
+        parent alc_h03b
+    endnode
+    node dummy h03b_impact
+        parent alc_h03b
+    endnode
+    node dummy h03b_ground
+        parent alc_h03b
+    endnode
+    node trimesh damage03b
+        parent alc_h03b
+        positionkey
+            0.0 0.0147516 -0.04659 0.0
+            0.1 0.0147516 -0.04659 0.0
+            0.166667 0.0147516 -0.04659 -3.77999
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.1 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Box22
+        parent damage03b
+    endnode
+    node emitter ChunkyWood64
+        parent alc_h03b
+    endnode
+    node emitter fire!39
+        parent alc_h03b
+    endnode
+    node emitter ChunkyWood65
+        parent alc_h03b
+    endnode
+    node dummy alc_h03b_pwk
+        parent alc_h03b
+    endnode
+    node trimesh alc_h03b_wg
+        parent alc_h03b_pwk
+    endnode
+    node dummy h03b_pwk_use02
+        parent alc_h03b_pwk
+    endnode
+    node dummy h03b_pwk_use01
+        parent alc_h03b_pwk
+    endnode
+doneanim die alc_h03b
+#NWmax ANIM ASCII
+newanim dead alc_h03b
+  length 0.0333333
+  transtime 0.0
+  animroot alc_h03b
+    node dummy alc_h03b
+        parent NULL
+    endnode
+    node dummy h03b_hand
+        parent alc_h03b
+    endnode
+    node dummy h03b_head
+        parent alc_h03b
+    endnode
+    node dummy h03b_head_hit
+        parent alc_h03b
+    endnode
+    node dummy h03b_impact
+        parent alc_h03b
+    endnode
+    node dummy h03b_ground
+        parent alc_h03b
+    endnode
+    node trimesh damage03b
+        parent alc_h03b
+        positionkey
+            0.0 0.0147516 -0.04659 -3.77999
+            0.0333333 0.0147516 -0.04659 -3.77999
+        endlist
+    endnode
+    node trimesh Box22
+        parent damage03b
+    endnode
+    node emitter ChunkyWood64
+        parent alc_h03b
+    endnode
+    node emitter fire!39
+        parent alc_h03b
+    endnode
+    node emitter ChunkyWood65
+        parent alc_h03b
+    endnode
+    node dummy alc_h03b_pwk
+        parent alc_h03b
+    endnode
+    node trimesh alc_h03b_wg
+        parent alc_h03b_pwk
+    endnode
+    node dummy h03b_pwk_use02
+        parent alc_h03b_pwk
+    endnode
+    node dummy h03b_pwk_use01
+        parent alc_h03b_pwk
+    endnode
+doneanim dead alc_h03b
+#NWmax ANIM ASCII
+newanim default alc_h03b
+  length 0.0
+  transtime 0.25
+  animroot alc_h03b
+    node dummy alc_h03b
+        parent NULL
+    endnode
+    node dummy h03b_hand
+        parent alc_h03b
+    endnode
+    node dummy h03b_head
+        parent alc_h03b
+    endnode
+    node dummy h03b_head_hit
+        parent alc_h03b
+    endnode
+    node dummy h03b_impact
+        parent alc_h03b
+    endnode
+    node dummy h03b_ground
+        parent alc_h03b
+    endnode
+    node trimesh damage03b
+        parent alc_h03b
+    endnode
+    node trimesh Box22
+        parent damage03b
+    endnode
+    node emitter ChunkyWood64
+        parent alc_h03b
+    endnode
+    node emitter fire!39
+        parent alc_h03b
+    endnode
+    node emitter ChunkyWood65
+        parent alc_h03b
+    endnode
+    node dummy alc_h03b_pwk
+        parent alc_h03b
+    endnode
+    node trimesh alc_h03b_wg
+        parent alc_h03b_pwk
+    endnode
+    node dummy h03b_pwk_use02
+        parent alc_h03b_pwk
+    endnode
+    node dummy h03b_pwk_use01
+        parent alc_h03b_pwk
+    endnode
+doneanim default alc_h03b
+donemodel alc_h03b

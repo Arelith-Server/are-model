@@ -1,0 +1,735 @@
+# Exported from NWmax 0.5-beta at 1/12/2004 3:37:21 PM
+# mdl file
+#
+#NWmaxMODEL ASCII
+# model: PLV_IT2
+filedependancy Unknown
+newmodel PLV_IT2
+setsupermodel PLV_IT2 NULL
+classification Character
+setanimationscale 1.0
+#NWmaxGEOM  ASCII
+beginmodelgeom PLV_IT2
+node dummy PLV_IT2
+  parent NULL
+endnode
+node dummy IT2_hand
+  parent PLV_IT2
+  position 0.00398892 -1.0967 0.649577
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+node dummy IT2_head
+  parent PLV_IT2
+  position 0.003989 0.010825 1.44491
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+node dummy IT2_head_hit
+  parent PLV_IT2
+  position 0.003989 0.010825 0.963437
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+node dummy IT2_impact
+  parent PLV_IT2
+  position 0.003989 0.011001 0.58331
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+node dummy IT2_ground
+  parent PLV_IT2
+  position -0.003633 0.006987 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+node trimesh damage08
+  parent PLV_IT2
+  position 0.014752 0.014497 0.484401
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.694118 0.694118 0.694118 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  selfIllumColor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center 0.0 0.0 25.0 
+  gizmo SubAnim:Gizmo
+  ambient 0.070588 0.0 1.0 
+  diffuse 1.0 0.501961 0.643137 
+  specular 0.0 0.0 0.0 
+  shininess 26.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap NULL
+  verts 12
+    -0.195415 -0.186216 0.0
+    -0.195415 0.186216 0.0
+    0.195415 0.186216 0.0
+    0.195415 -0.186216 0.0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.099051 0.25
+    -0.103944 -0.099051 0.25
+    0.103944 0.099051 0.25
+    -0.103944 0.099051 0.25
+  faces 20
+    0 1 2  1  0 0 0  2
+    2 3 0  1  0 0 0  2
+    4 5 6  1  0 0 0  1
+    6 7 4  1  0 0 0  1
+    0 3 8  1  0 0 0  5
+    8 9 0  1  0 0 0  5
+    9 8 5  1  0 0 0  5
+    5 4 9  1  0 0 0  5
+    3 2 10  1  0 0 0  4
+    10 8 3  1  0 0 0  4
+    8 10 6  1  0 0 0  4
+    6 5 8  1  0 0 0  4
+    2 1 11  1  0 0 0  6
+    11 10 2  1  0 0 0  6
+    10 11 7  1  0 0 0  6
+    7 6 10  1  0 0 0  6
+    1 0 9  1  0 0 0  3
+    9 11 1  1  0 0 0  3
+    11 9 4  1  0 0 0  3
+    4 7 11  1  0 0 0  3
+endnode
+node emitter ChunkyWood70
+  parent PLV_IT2
+  position 0.013185 -0.025341 0.712937
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.694118 0.694118 0.694118 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  iconSize 100.0
+  xSize 0.0
+  ySize 0.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  colorStart 0.701961 0.67451 0.603922 
+  colorEnd 0.854902 0.847059 0.82353 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3.0
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  Splat 0
+  affectedbyWind false
+  texture fxpa_cloud02
+  twosidedtext 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  #chunk undefined
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDivkey 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  opacity 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+  Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
+endnode
+node emitter fire!42
+  parent PLV_IT2
+  position 0.013185 -0.025341 1.01707
+  orientation -1.0 0.0 0.0 -1.5708
+  wirecolor 0.694118 0.694118 0.694118 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  iconSize 100.0
+  xSize 0.0
+  ySize 0.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  colorStart 0.415686 0.403922 0.376471 
+  colorEnd 0.682353 0.678431 0.662745 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10.0
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  Splat 0
+  affectedbyWind false
+  texture fxpa_smoke01
+  twosidedtext 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  #chunk undefined
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDivkey 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  opacity 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+  Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
+endnode
+node emitter ChunkyWood71
+  parent PLV_IT2
+  position 0.013185 -0.025341 0.606715
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.694118 0.694118 0.694118 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  iconSize 100.0
+  xSize 0.0
+  ySize 0.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3.0
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  Splat 0
+  affectedbyWind false
+  texture fxpa_cloud02
+  twosidedtext 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  #chunk undefined
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDivkey 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  opacity 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+  Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
+endnode
+node trimesh Object226
+  parent PLV_IT2
+  position 1.19628 -0.340362 0.658265
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.721569 0.721569 0.721569 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  selfIllumColor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center undefined
+  gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap TIN01_furnish2
+  verts 24
+    0.0806914 -0.310304 0.04
+    -0.0624607 -0.307569 0.04
+    -0.0714721 -0.523251 -0.65
+    0.0932206 -0.531987 -0.65
+    0.0856789 0.974248 0.04
+    0.0927823 1.19975 -0.65
+    -0.0574732 0.976983 0.04
+    -0.0700023 1.19867 -0.65
+    -2.59658 1.09466 0.19
+    -2.59094 -0.401757 0.19
+    -1.1946 -0.405388 0.19
+    0.199843 -0.399203 0.19
+    0.204026 1.09912 0.19
+    -1.19041 1.09294 0.19
+    -2.59658 1.09466 0.04
+    -2.59094 -0.401757 0.04
+    -2.45761 -0.4064 0.04
+    -1.20632 -0.39748 0.04
+    0.0585991 -0.406283 0.04
+    0.199843 -0.399203 0.04
+    0.204026 1.09912 0.04
+    0.0608738 1.10186 0.04
+    -1.19041 1.09294 0.04
+    -2.45533 1.10174 0.04
+  faces 28
+    0 1 2  1  0 1 2  2
+    2 3 0  1  2 3 0  2
+    4 0 3  1  4 5 6  2
+    3 5 4  1  6 7 4  2
+    6 4 5  1  1 0 3  2
+    5 7 6  1  3 2 1  2
+    1 6 7  1  8 9 10  2
+    7 2 1  1  10 11 8  2
+    8 9 10  1  12 13 14  1
+    11 12 13  1  15 16 17  1
+    14 15 9  1  18 19 20  5
+    9 8 14  1  20 21 18  5
+    15 16 17  1  22 23 24  4
+    11 18 19  1  25 1 0  4
+    10 9 15  1  26 27 22  4
+    11 10 17  1  28 29 30  4
+    19 20 12  1  5 4 31  6
+    12 11 19  1  31 32 5  6
+    13 21 22  1  33 34 35  3
+    8 13 22  1  27 36 37  3
+    13 12 20  1  33 28 38  3
+    8 23 14  1  27 23 22  3
+    21 13 20  1  1 36 0  3
+    10 13 8  1  14 17 12  1
+    8 22 23  1  27 37 23  3
+    17 10 15  1  24 26 22  4
+    13 10 11  1  17 14 15  1
+    11 17 18  1  28 30 34  4
+  tverts 39
+    0.228308 0.636368 0
+    0.263455 0.636368 0
+    0.267085 0.463414 0
+    0.224679 0.463414 0
+    -0.408166 0.648533 0
+    -0.0335565 0.648533 0
+    -0.00546086 0.475696 0
+    -0.436262 0.475696 0
+    -0.0335565 0.647786 0
+    -0.408166 0.647787 0
+    -0.436262 0.474795 0
+    -0.00546086 0.474795 0
+    0.0437524 0.385495 0
+    0.418362 0.385495 0
+    0.418362 0.736004 0
+    0.418362 1.0844 0
+    0.0437526 1.0844 0
+    0.0437525 0.735444 0
+    -0.408166 0.633684 0
+    -0.0335565 0.633684 0
+    -0.0335565 0.670897 0
+    -0.408166 0.670897 0
+    0.927211 0.636368 0
+    0.89203 0.636368 0
+    0.578841 0.636368 0
+    0.228308 0.67359 0
+    0.576702 0.67359 0
+    0.927211 0.67359 0
+    0.537686 0.6726 0
+    0.88608 0.6726 0
+    0.888219 0.635377 0
+    -0.408166 0.685747 0
+    -0.0335565 0.685747 0
+    0.88664 0.6726 0
+    0.572833 0.635377 0
+    0.886649 0.635377 0
+    0.577262 0.67359 0
+    0.577271 0.636368 0
+    0.537686 0.635377 0
+endnode
+node trimesh Mesh1246
+  parent PLV_IT2
+  position -1.22149 -0.270408 0.678265
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.552941 0.552941 0.552941 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  selfIllumColor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center undefined
+  gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap TIN01_furnish2
+  verts 8
+    -0.0479328 0.927902 0.02
+    0.0952193 0.925166 0.02
+    0.114047 1.14276 -0.67
+    -0.0585538 1.13977 -0.67
+    -0.0411959 -0.364558 0.02
+    -0.0600237 -0.582149 -0.67
+    0.101956 -0.367294 0.02
+    0.112577 -0.57916 -0.67
+  faces 8
+    0 1 2  1  0 1 2  2
+    2 3 0  1  2 3 0  2
+    4 0 3  1  4 5 6  2
+    3 5 4  1  6 7 4  2
+    6 4 5  1  1 0 3  2
+    5 7 6  1  3 2 1  2
+    1 6 7  1  8 9 10  2
+    7 2 1  1  10 11 8  2
+  tverts 12
+    0.927211 0.636368 0
+    0.89203 0.636368 0
+    0.888355 0.463414 0
+    0.930887 0.463414 0
+    -0.0335565 0.633684 0
+    -0.408166 0.633684 0
+    -0.436262 0.460691 0
+    -0.00546086 0.460691 0
+    -0.408166 0.634431 0
+    -0.0335565 0.634431 0
+    -0.00546086 0.461595 0
+    -0.436262 0.461595 0
+endnode
+endmodelgeom PLV_IT2
+#NWmaxANIM ASCII
+newanim damage PLV_IT2
+    length 0.133333
+    transtime 0.0
+    animroot PLV_IT2
+    node dummy PLV_IT2
+        parent NULL
+    endnode
+    node dummy IT2_hand
+        parent PLV_IT2
+    endnode
+    node dummy IT2_head
+        parent PLV_IT2
+    endnode
+    node dummy IT2_head_hit
+        parent PLV_IT2
+    endnode
+    node dummy IT2_impact
+        parent PLV_IT2
+    endnode
+    node dummy IT2_ground
+        parent PLV_IT2
+    endnode
+    node trimesh damage08
+        parent PLV_IT2
+        positionkey
+            0.0 0.014752 0.014497 0.484401
+            0.0333333 0.014752 0.014497 0.508859
+            0.133333 0.014752 0.014497 0.484401
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.371336 -0.928463 0.008103 -0.0469942
+            0.1 -0.599949 0.799969 0.010472 -0.0436321
+            0.133333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node emitter ChunkyWood70
+        parent PLV_IT2
+    endnode
+    node emitter fire!42
+        parent PLV_IT2
+    endnode
+    node emitter ChunkyWood71
+        parent PLV_IT2
+    endnode
+    node dummy PLV_IT2_pwk
+        parent PLV_IT2
+    endnode
+    node dummy PLV_IT2_wg
+        parent PLV_IT2_pwk
+    endnode
+    node dummy IT2_pwk_use01
+        parent PLV_IT2_pwk
+    endnode
+    node dummy IT2_pwk_use02
+        parent PLV_IT2_pwk
+    endnode
+    node trimesh Object226
+        parent PLV_IT2
+    endnode
+    node trimesh Mesh1246
+        parent PLV_IT2
+    endnode
+doneanim damage PLV_IT2
+#NWmaxANIM ASCII
+newanim die PLV_IT2
+    length 0.166667
+    transtime 0.0
+    animroot PLV_IT2
+    event 0.0 detonate
+    event 0.0 detonate
+    event 0.0 detonate
+    node dummy PLV_IT2
+        parent NULL
+    endnode
+    node dummy IT2_hand
+        parent PLV_IT2
+    endnode
+    node dummy IT2_head
+        parent PLV_IT2
+    endnode
+    node dummy IT2_head_hit
+        parent PLV_IT2
+    endnode
+    node dummy IT2_impact
+        parent PLV_IT2
+    endnode
+    node dummy IT2_ground
+        parent PLV_IT2
+    endnode
+    node trimesh damage08
+        parent PLV_IT2
+        positionkey
+            0.0 0.014752 0.014497 0.484401
+            0.166667 0.014752 0.014497 -3.29559
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node emitter ChunkyWood70
+        parent PLV_IT2
+    endnode
+    node emitter fire!42
+        parent PLV_IT2
+    endnode
+    node emitter ChunkyWood71
+        parent PLV_IT2
+    endnode
+    node dummy PLV_IT2_pwk
+        parent PLV_IT2
+    endnode
+    node dummy PLV_IT2_wg
+        parent PLV_IT2_pwk
+    endnode
+    node dummy IT2_pwk_use01
+        parent PLV_IT2_pwk
+    endnode
+    node dummy IT2_pwk_use02
+        parent PLV_IT2_pwk
+    endnode
+    node trimesh Object226
+        parent PLV_IT2
+    endnode
+    node trimesh Mesh1246
+        parent PLV_IT2
+    endnode
+doneanim die PLV_IT2
+#NWmaxANIM ASCII
+newanim dead PLV_IT2
+    length 0.0333333
+    transtime 0.0
+    animroot PLV_IT2
+    node dummy PLV_IT2
+        parent NULL
+    endnode
+    node dummy IT2_hand
+        parent PLV_IT2
+    endnode
+    node dummy IT2_head
+        parent PLV_IT2
+    endnode
+    node dummy IT2_head_hit
+        parent PLV_IT2
+    endnode
+    node dummy IT2_impact
+        parent PLV_IT2
+    endnode
+    node dummy IT2_ground
+        parent PLV_IT2
+    endnode
+    node trimesh damage08
+        parent PLV_IT2
+        positionkey
+            0.0 0.014752 0.014497 -3.29559
+            0.0333333 0.014752 0.014497 -3.29559
+        endlist
+    endnode
+    node emitter ChunkyWood70
+        parent PLV_IT2
+    endnode
+    node emitter fire!42
+        parent PLV_IT2
+    endnode
+    node emitter ChunkyWood71
+        parent PLV_IT2
+    endnode
+    node dummy PLV_IT2_pwk
+        parent PLV_IT2
+    endnode
+    node dummy PLV_IT2_wg
+        parent PLV_IT2_pwk
+    endnode
+    node dummy IT2_pwk_use01
+        parent PLV_IT2_pwk
+    endnode
+    node dummy IT2_pwk_use02
+        parent PLV_IT2_pwk
+    endnode
+    node trimesh Object226
+        parent PLV_IT2
+    endnode
+    node trimesh Mesh1246
+        parent PLV_IT2
+    endnode
+doneanim dead PLV_IT2
+#NWmaxANIM ASCII
+newanim default PLV_IT2
+    length 0.0
+    transtime 0.25
+    animroot PLV_IT2
+    node dummy PLV_IT2
+        parent NULL
+    endnode
+    node dummy IT2_hand
+        parent PLV_IT2
+    endnode
+    node dummy IT2_head
+        parent PLV_IT2
+    endnode
+    node dummy IT2_head_hit
+        parent PLV_IT2
+    endnode
+    node dummy IT2_impact
+        parent PLV_IT2
+    endnode
+    node dummy IT2_ground
+        parent PLV_IT2
+    endnode
+    node trimesh damage08
+        parent PLV_IT2
+        positionkey
+            0.0 0.014752 0.014497 0.484401
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node emitter ChunkyWood70
+        parent PLV_IT2
+    endnode
+    node emitter fire!42
+        parent PLV_IT2
+    endnode
+    node emitter ChunkyWood71
+        parent PLV_IT2
+    endnode
+    node dummy PLV_IT2_pwk
+        parent PLV_IT2
+    endnode
+    node dummy PLV_IT2_wg
+        parent PLV_IT2_pwk
+    endnode
+    node dummy IT2_pwk_use01
+        parent PLV_IT2_pwk
+    endnode
+    node dummy IT2_pwk_use02
+        parent PLV_IT2_pwk
+    endnode
+    node trimesh Object226
+        parent PLV_IT2
+    endnode
+    node trimesh Mesh1246
+        parent PLV_IT2
+    endnode
+doneanim default PLV_IT2
+donemodel PLV_IT2

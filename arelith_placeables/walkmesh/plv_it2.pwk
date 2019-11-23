@@ -1,0 +1,57 @@
+# Exported from NWmax 0.5-beta at 1/12/2004 3:37:21 PM
+# pwk file
+#
+#NWmaxPWKMESH  ASCII
+node trimesh PLV_IT2_wg
+  parent PLV_IT2_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.694118 0.694118 0.694118 
+  multimaterial 20
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+    NULL
+  ambient 0.0 0.0 0.0 
+  diffuse 0.705882 0.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap NULL
+  verts 4
+    -1.49287 -0.941785 0.0
+    1.54633 -0.941785 0.0
+    -1.49287 0.937715 0.0
+    1.54633 0.937715 0.0
+  faces 2
+    3 0 1  1  0 0 0  7
+    2 0 3  1  0 0 0  7
+endnode
+node dummy IT2_pwk_use01
+  parent PLV_IT2_pwk
+  position 0.0 -1.35712 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.894118 0.6 
+endnode
+node dummy IT2_pwk_use02
+  parent PLV_IT2_pwk
+  position 0.0 1.35299 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.894118 0.6 
+endnode
