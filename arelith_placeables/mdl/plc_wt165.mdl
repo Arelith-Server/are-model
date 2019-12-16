@@ -1,0 +1,692 @@
+#MAXMODEL ASCII
+# model: plc_wt165
+filedependancy plc_wt165.max
+newmodel plc_wt165
+setsupermodel plc_wt165 NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom plc_wt165
+node dummy plc_wt165
+  parent NULL
+endnode
+node dummy wt165_hand
+  parent plc_wt165
+  position 0 0 0.36
+  orientation 0 0 0 0
+endnode
+node dummy wt165_head
+  parent plc_wt165
+  position 0 0 0.57
+  orientation 0 0 0 0
+endnode
+node dummy wt165_head_hit
+  parent plc_wt165
+  position 0 0 0.5
+  orientation 0 0 0 0
+endnode
+node dummy wt165_impact
+  parent plc_wt165
+  position 0 0 0.07
+  orientation 0 0 0 0
+endnode
+node dummy wt165_ground
+  parent plc_wt165
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh damage04
+  parent plc_wt165
+  ambient 0.0705882 0 1
+  diffuse 1 0.501961 0.643137
+  specular 0 0.9 0.105882
+  shininess 24
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 12
+      -0.0651466   -0.0618892    0.0000000
+      -0.0651466    0.0618892    0.0000000
+       0.0651466    0.0618892    0.0000000
+       0.0651466   -0.0618892    0.0000000
+      -0.0651466   -0.0618892    0.1628660
+       0.0651466   -0.0618892    0.1628660
+       0.0651466    0.0618892    0.1628660
+      -0.0651466    0.0618892    0.1628660
+       0.0325733   -0.0325733    0.0814332
+      -0.0325733   -0.0325733    0.0814332
+       0.0325733    0.0325733    0.0814332
+      -0.0325733    0.0325733    0.0814332
+  faces 20
+     0  1  2  1          0         0         0   2
+     2  3  0  1          0         0         0   2
+     4  5  6  1          0         0         0   1
+     6  7  4  1          0         0         0   1
+     0  3  8  2          0         0         0   5
+     8  9  0  2          0         0         0   5
+     9  8  5  2          0         0         0   5
+     5  4  9  2          0         0         0   5
+     3  2 10  4          0         0         0   4
+    10  8  3  4          0         0         0   4
+     8 10  6  4          0         0         0   4
+     6  5  8  4          0         0         0   4
+     2  1 11  2          0         0         0   6
+    11 10  2  2          0         0         0   6
+    10 11  7  2          0         0         0   6
+     7  6 10  2          0         0         0   6
+     1  0  9  4          0         0         0   3
+     9 11  1  4          0         0         0   3
+    11  9  4  4          0         0         0   3
+     4  7 11  4          0         0         0   3
+  position 0.0147516 0.0543283 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh ob_contbox02
+  parent damage04
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  bitmap ob_contbox02
+  verts 24
+       0.2768040   -0.6343320    0.2223280
+       0.5700230    0.4364710    0.2308040
+       0.5218100    0.4053330    0.2311990
+      -0.2492830    0.6133760    0.2351250
+      -0.2182250    0.5651330    0.2351020
+      -0.4452260   -0.4866680    0.2400470
+      -0.4934620   -0.5177930    0.2404430
+      -0.2557150    0.5980120    0.0067316
+      -0.4998630   -0.5332000    0.0031181
+       0.2748790   -0.6683860    0.0077196
+       0.5636180    0.4211080    0.0024104
+      -0.2211980    0.5565630    0.0343232
+      -0.3209340    0.1204260    0.0625645
+       0.5141890    0.3948250    0.0368504
+       0.3966900   -0.1662460    0.0579192
+       0.2468070   -0.6143620    0.0579570
+      -0.4495730   -0.4985830    0.0274765
+       0.1366810   -0.6385810   -0.0062075
+       0.4325190    0.4493810   -0.0115538
+      -0.0568531   -0.6276940    0.0055219
+       0.1882870    0.5036630    0.0045475
+      -0.2991740   -0.5765410   -0.0030652
+      -0.0559478    0.5548690    0.0005534
+       0.2457510   -0.5860790    0.2223500
+  tverts 59
+       1.0202800   -1.3806300  0
+       1.6198900   -1.3806300  0
+       1.5944999   -1.4080700  0
+       0.0873930   -1.3751100  0
+       0.6763330   -1.3751100  0
+       0.6478350   -1.4049400  0
+       0.1158910   -1.4049400  0
+       1.0465300   -1.4207900  0
+       1.5953600   -1.4207900  0
+       1.6204500   -1.4479899  0
+       1.0211400   -1.4479899  0
+       0.9997330   -1.1781501  0
+       0.9997330   -1.0672400  0
+       0.4001240   -1.0672400  0
+       0.4001240   -1.1781501  0
+       0.8089260   -1.7969400  0
+       0.5886660   -1.8040299  0
+       0.8072270   -1.4537100  0
+       0.5225820   -1.4517100  0
+       0.2599750   -1.4527299  0
+       0.2588690   -1.8022400  0
+       0.0000000   -1.9221300  0
+       0.0062140   -1.8000600  0
+       0.3170280   -1.8080500  0
+       0.5981040   -1.4459500  0
+       0.0121230   -1.4459500  0
+       0.0122110   -1.3721800  0
+       0.5981920   -1.3759900  0
+       0.0127610   -1.2450900  0
+       0.5988850   -1.2457500  0
+       0.0121590   -1.1151000  0
+       0.5981400   -1.1145999  0
+       0.0121230   -1.0076801  0
+       0.5981040   -1.0076801  0
+      -0.0002670   -1.0663600  0
+      -0.0002670   -1.1781501  0
+       0.0975360   -1.0617000  0
+       0.2178970   -1.0626700  0
+       0.3358770   -1.0547500  0
+       0.4001240   -1.0663600  0
+       0.0979970   -1.0616900  0
+       0.2171970   -1.0625200  0
+       0.3323620   -1.0547100  0
+       0.5833850   -1.9246700  0
+       1.0456700   -1.4080700  0
+       0.5886520   -1.8070700  0
+       1.0000000   -1.7881700  0
+       0.6763320   -1.4426000  0
+       0.0873940   -1.4426000  0
+       0.1158910   -1.4159499  0
+       0.9936130   -1.9388100  0
+       0.6478330   -1.4159499  0
+       0.3432900   -1.8049200  0
+       0.0021430   -1.9139200  0
+       0.0000000   -1.7964400  0
+       0.5878430   -1.9240800  0
+       0.9972820   -1.7871600  0
+       1.0000000   -1.9211600  0
+       0.5873760   -1.8024000  0
+  faces 44
+     0  1  2  1   0  1  2   1
+     1  3  4  1   3  4  5   1
+     4  2  1  1   5  6  3   1
+     5  4  3  1   7  8  9   1
+     3  6  5  1   9 10  7   1
+     3  7  8  1  11 12 13   1
+     8  6  3  1  13 14 11   1
+     0  9 10  1  14 13 12   1
+    10  1  0  1  12 11 14   1
+    11 12 13  1  15 16 17   1
+    12 14 13  1  16 18 17   1
+    15 14 12  1  19 18 16   1
+    15 12 16  1  19 16 20   1
+     2 13 14  1  21 22 23   1
+    10  9 17  1  24 25 26   1
+    17 18 10  1  26 27 24   1
+    18 17 19  1  27 26 28   1
+    19 20 18  1  28 29 27   1
+    20 19 21  1  29 28 30   1
+    21 22 20  1  30 31 29   1
+    22 21  8  1  31 30 32   1
+     8  7 22  1  32 33 31   1
+     7  3 22  1  34 35 36   1
+     3 20 22  1  35 37 36   1
+     3  1 20  1  35 14 37   1
+     1 18 20  1  14 38 37   1
+     1 10 18  1  14 39 38   1
+     6  8 21  1  35 34 40   1
+     6 21 19  1  35 40 41   1
+     0  6 19  1  14 35 41   1
+     0 19 17  1  14 41 42   1
+     9  0 17  1  39 14 42   1
+    23  2 14  1  43 21 23   1
+     2 23  0  1   2 44  0   1
+    23 15 16  1  43 45 46   1
+     6  0 23  1  47 48 49   1
+    16  5 23  1  46 50 43   1
+    23  5  6  1  49 51 47   1
+    12  5 16  1  52 53 54   1
+    15 23 14  1  45 43 23   1
+    12  4  5  1  52 55 53   1
+    13  2  4  1  56 57 55   1
+    12 11  4  1  52 58 55   1
+     4 11 13  1  55 58 56   1
+  position -0.0147516 -0.0543283 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node emitter ChunkyWood62
+  parent plc_wt165
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_S01
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.0131848 0.0144894 0.06
+  orientation 0 0 0 0
+  xsize 89
+  ysize 40
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 5
+  velocity 8
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter ChunkyWood63
+  parent plc_wt165
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_S02
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0.0131848 0.0144894 0.07
+  orientation 0 0 0 0
+  xsize 89
+  ysize 40
+  threshold 0
+  combinetime 0
+  colorStart 0.701961 0.67451 0.603922
+  colorEnd 0.854902 0.847059 0.82353
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 2.9
+  velocity 8
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter fire!38
+  parent plc_wt165
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.2
+  blastLength 1
+  position 0.0131848 0.0144894 0.05
+  orientation 1 0 0 -4.71239
+  xsize 100
+  ysize 99
+  threshold 0
+  combinetime 0
+  colorStart 0.607843 0.568627 0.486275
+  colorEnd 0.819608 0.815686 0.796079
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  fps 10
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom plc_wt165
+
+#MAXANIM ASCII
+newanim damage plc_wt165
+  length 0.133333
+  transtime 0
+  animroot plc_wt165
+  node dummy plc_wt165
+    parent NULL
+  endnode
+  node dummy wt165_hand
+    parent plc_wt165
+  endnode
+  node dummy wt165_head
+    parent plc_wt165
+  endnode
+  node dummy wt165_head_hit
+    parent plc_wt165
+  endnode
+  node dummy wt165_impact
+    parent plc_wt165
+  endnode
+  node dummy wt165_ground
+    parent plc_wt165
+  endnode
+  node trimesh damage04
+    parent plc_wt165
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    positionkey 3
+         0.0000000    0.0147516    0.0543283    0.0000000
+         0.0333333    0.0147516    0.0543283    0.0244581
+         0.1333330    0.0147516    0.0543283    0.0000000
+    orientationkey 4
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.0333333    0.3713360   -0.9284632    0.0081026   -0.0469939
+         0.1000000   -0.5999500    0.7999690    0.0104722   -0.0436324
+         0.1333330    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node trimesh ob_contbox02
+    parent damage04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node emitter ChunkyWood62
+    parent plc_wt165
+  endnode
+  node emitter ChunkyWood63
+    parent plc_wt165
+  endnode
+  node emitter fire!38
+    parent plc_wt165
+  endnode
+  node dummy plc_wt165_pwk
+    parent plc_wt165
+  endnode
+  node dummy wt165_pwk_use01
+    parent plc_wt165_pwk
+  endnode
+  node dummy wt165_pwk_use02
+    parent plc_wt165_pwk
+  endnode
+  node trimesh pwk
+    parent plc_wt165_pwk
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim damage plc_wt165
+
+#MAXANIM ASCII
+newanim die plc_wt165
+  length 0.166667
+  transtime 0
+  animroot plc_wt165
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+  node dummy plc_wt165
+    parent NULL
+  endnode
+  node dummy wt165_hand
+    parent plc_wt165
+  endnode
+  node dummy wt165_head
+    parent plc_wt165
+  endnode
+  node dummy wt165_head_hit
+    parent plc_wt165
+  endnode
+  node dummy wt165_impact
+    parent plc_wt165
+  endnode
+  node dummy wt165_ground
+    parent plc_wt165
+  endnode
+  node trimesh damage04
+    parent plc_wt165
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    positionkey 3
+         0.0000000    0.0147516    0.0543283    0.0000000
+         0.1000000    0.0147516    0.0543283    0.0000000
+         0.1666670    0.0147516    0.0543283  -15.0000000
+    orientationkey 3
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.1000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.1666670    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node trimesh ob_contbox02
+    parent damage04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node emitter ChunkyWood62
+    parent plc_wt165
+  endnode
+  node emitter ChunkyWood63
+    parent plc_wt165
+  endnode
+  node emitter fire!38
+    parent plc_wt165
+  endnode
+  node dummy plc_wt165_pwk
+    parent plc_wt165
+  endnode
+  node dummy wt165_pwk_use01
+    parent plc_wt165_pwk
+  endnode
+  node dummy wt165_pwk_use02
+    parent plc_wt165_pwk
+  endnode
+  node trimesh pwk
+    parent plc_wt165_pwk
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim die plc_wt165
+
+#MAXANIM ASCII
+newanim dead plc_wt165
+  length 0.0333333
+  transtime 0
+  animroot plc_wt165
+  node dummy plc_wt165
+    parent NULL
+  endnode
+  node dummy wt165_hand
+    parent plc_wt165
+  endnode
+  node dummy wt165_head
+    parent plc_wt165
+  endnode
+  node dummy wt165_head_hit
+    parent plc_wt165
+  endnode
+  node dummy wt165_impact
+    parent plc_wt165
+  endnode
+  node dummy wt165_ground
+    parent plc_wt165
+  endnode
+  node trimesh damage04
+    parent plc_wt165
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    positionkey 2
+         0.0000000    0.0147516    0.0543283  -15.0000000
+         0.0333333    0.0147516    0.0543283  -15.0000000
+  endnode
+  node trimesh ob_contbox02
+    parent damage04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node emitter ChunkyWood62
+    parent plc_wt165
+  endnode
+  node emitter ChunkyWood63
+    parent plc_wt165
+  endnode
+  node emitter fire!38
+    parent plc_wt165
+  endnode
+  node dummy plc_wt165_pwk
+    parent plc_wt165
+  endnode
+  node dummy wt165_pwk_use01
+    parent plc_wt165_pwk
+  endnode
+  node dummy wt165_pwk_use02
+    parent plc_wt165_pwk
+  endnode
+  node trimesh pwk
+    parent plc_wt165_pwk
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim dead plc_wt165
+
+#MAXANIM ASCII
+newanim default plc_wt165
+  length 0
+  transtime 0.25
+  animroot plc_wt165
+  node dummy plc_wt165
+    parent NULL
+  endnode
+  node dummy wt165_hand
+    parent plc_wt165
+  endnode
+  node dummy wt165_head
+    parent plc_wt165
+  endnode
+  node dummy wt165_head_hit
+    parent plc_wt165
+  endnode
+  node dummy wt165_impact
+    parent plc_wt165
+  endnode
+  node dummy wt165_ground
+    parent plc_wt165
+  endnode
+  node trimesh damage04
+    parent plc_wt165
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh ob_contbox02
+    parent damage04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node emitter ChunkyWood62
+    parent plc_wt165
+  endnode
+  node emitter ChunkyWood63
+    parent plc_wt165
+  endnode
+  node emitter fire!38
+    parent plc_wt165
+  endnode
+  node dummy plc_wt165_pwk
+    parent plc_wt165
+  endnode
+  node dummy wt165_pwk_use01
+    parent plc_wt165_pwk
+  endnode
+  node dummy wt165_pwk_use02
+    parent plc_wt165_pwk
+  endnode
+  node trimesh pwk
+    parent plc_wt165_pwk
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim default plc_wt165
+
+donemodel plc_wt165

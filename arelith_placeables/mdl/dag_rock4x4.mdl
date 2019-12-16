@@ -1,0 +1,52 @@
+# Exported from NWmax 0.8 c00 at 2/5/2019 8:30:41 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: dag_rock4x4
+#local file: Unknown
+filedependancy Unknown
+newmodel dag_rock4x4
+setsupermodel dag_rock4x4 NULL
+classification Character
+#NWmax GEOM  ASCII
+beginmodelgeom dag_rock4x4
+node dummy dag_rock4x4
+  parent NULL
+endnode
+node trimesh tm_rock4x4
+  parent dag_rock4x4
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.470588 0.0 0.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1 
+  Diffuse 1 1 1 
+  Specular 0.0 0.0 0.0 
+  shininess 11
+  center 0.0 0.0 0.0 
+  bitmap dag_rock01
+  verts 4
+    -20.0 -20.0 0.0
+    20.0 -20.0 0.0
+    -20.0 20.0 0.0
+    20.0 20.0 0.0
+  faces 2
+    0 1 3  1  0 1 3  1
+    3 2 0  1  3 2 0  1
+  tverts 4
+    0.0 0.0 0
+    4.0 0.0 0
+    0.0 4.0 0
+    4.0 4.0 0
+endnode
+endmodelgeom dag_rock4x4
+donemodel dag_rock4x4

@@ -1,0 +1,65 @@
+#Model converted by mdl2ascii
+#For updates/comments check out http://nwn-j3d.sf.net
+filedependancy Unknown
+newmodel PLC_T07_grn
+setsupermodel PLC_T07_grn PLC_T07
+classification Character
+setanimationscale 1.000000
+#MAXGEOM  ASCII
+beginmodelgeom PLC_T07_grn
+node dummy PLC_T07_grn
+  parent NULL
+endnode
+node trimesh Plane277
+  parent PLC_T07_grn
+  position 0.513057 0.501431 0.020000
+  orientation 0.000000 0.000000 0.000000 0.000000
+  diffuse 1.000000 1.000000 1.000000
+  ambient 1.000000 1.000000 1.000000
+  specular 0.050000 0.050000 0.050000
+  shininess 26.000000
+  render 1
+    bitmap PLC_floordes_grn
+    verts 4
+     -2.513060 1.498570 -0.005000
+     -2.513060 -2.501430 -0.005000
+     1.486940 1.498570 -0.005000
+     1.486940 -2.501430 -0.005000
+    faces 2
+     0 1 2 1 0 1 2 1
+     3 2 1 1 3 2 1 1
+    tverts 4
+     0.000250 1.000000 0
+     0.000250 0.500000 0
+     0.499750 1.000000 0
+     0.499750 0.500000 0
+endnode
+node dummy T07_hand
+  parent PLC_T07_grn
+  position -0.002981 0.024990 0.472766
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy T07_head
+  parent PLC_T07_grn
+  position 0.003984 0.010825 0.499138
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy T07_head_hit
+  parent PLC_T07_grn
+  position 0.003984 0.010825 0.126938
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy T07_impact
+  parent PLC_T07_grn
+  position 0.003984 0.011001 0.015307
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy T07_ground
+  parent PLC_T07_grn
+  position -0.003633 0.006987 0.000000
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+endmodelgeom PLC_T07_grn
+donemodel PLC_T07_grn
+
+
