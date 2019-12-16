@@ -1,0 +1,692 @@
+# Exported from NWmax 0.8 b50 at 11/3/2005 9:02:36 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: dag_tankslvrmt
+#local file: Tankard_SilverEmpty.gmaxTankard_SilverEmpty.gmax
+filedependancy Tankard_SilverEmpty.gmax
+newmodel dag_tankslvrmt
+setsupermodel dag_tankslvrmt NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom dag_tankslvrmt
+node dummy dag_tankslvrmt
+  parent NULL
+endnode
+node dummy tankslvrmt_impact
+  parent dag_tankslvrmt
+  position 9.84275e-005 -0.00408336 0.171553
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.345098 0.882353 
+endnode
+node dummy tankslvrmt_hand
+  parent dag_tankslvrmt
+  position 9.84287e-005 0.0018816 0.20448
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.694118 0.580392 0.101961 
+endnode
+node dummy tankslvrmt_head_hit
+  parent dag_tankslvrmt
+  position 9.84287e-005 0.0206067 0.383963
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node dummy tankslvrmt_ground
+  parent dag_tankslvrmt
+  position -0.00141246 0.00497986 0.0268787
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node dummy tankslvrmt_head
+  parent dag_tankslvrmt
+  position 9.8428e-005 -0.000825892 0.205173
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.52549 0.431373 0.0313726 
+endnode
+node trimesh damage_tankslvrmt
+  parent dag_tankslvrmt
+  position -0.0270694 -0.00242188 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1 
+  Diffuse 1 1 1 
+  specular 0.0 0.9 0.105882 
+  shininess 24
+  center 0.0 0.0 25.0 
+  bitmap NULL
+  verts 12
+    -0.195415 -0.186216 0.0
+    -0.195415 0.186216 0.0
+    0.195415 0.186216 0.0
+    0.195415 -0.186216 0.0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 0.0990513 0.25
+  faces 20
+    0 1 2  1  0 0 0  2
+    2 3 0  1  0 0 0  2
+    4 5 6  1  0 0 0  1
+    6 7 4  1  0 0 0  1
+    0 3 8  2  0 0 0  5
+    8 9 0  2  0 0 0  5
+    9 8 5  2  0 0 0  5
+    5 4 9  2  0 0 0  5
+    3 2 10  4  0 0 0  4
+    10 8 3  4  0 0 0  4
+    8 10 6  4  0 0 0  4
+    6 5 8  4  0 0 0  4
+    2 1 11  2  0 0 0  6
+    11 10 2  2  0 0 0  6
+    10 11 7  2  0 0 0  6
+    7 6 10  2  0 0 0  6
+    1 0 9  4  0 0 0  3
+    9 11 1  4  0 0 0  3
+    11 9 4  4  0 0 0  3
+    4 7 11  4  0 0 0  3
+endnode
+node trimesh Base
+  parent damage_tankslvrmt
+  position 0.0270694 0.00242188 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.894118 0.721569 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0 
+  Diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
+  shininess 20
+  center 0.0 0.0 7.5 
+  bitmap pdag_tankslvr
+  verts 12
+    0.039875 0.0690655 0.0
+    0.055 0.0 0.15
+    0.07975 0.0 0.0
+    0.0275 0.0476314 0.15
+    -0.0275 0.0476314 0.15
+    -0.039875 0.0690655 0.0
+    -0.055 0.0 0.15
+    -0.07975 0.0 0.0
+    -0.0275 -0.0476314 0.15
+    -0.039875 -0.0690655 0.0
+    0.0275 -0.0476314 0.15
+    0.039875 -0.0690655 0.0
+  faces 12
+    0 1 2  1  0 1 2  1
+    0 3 1  1  0 3 1  1
+    4 0 5  1  4 0 5  1
+    4 3 0  1  4 3 0  1
+    6 5 7  1  6 5 7  1
+    6 4 5  1  6 4 5  1
+    8 7 9  1  8 7 9  1
+    8 6 7  1  8 6 7  1
+    10 9 11  1  10 9 11  1
+    10 8 9  1  10 8 9  1
+    2 10 11  1  2 10 11  1
+    2 1 10  1  2 1 10  1
+  tverts 12
+    1.51619 1.0003 0
+    0.0 0.0887985 0
+    1.51619 0.0887985 0
+    0.0 1.0003 0
+    0.0 0.0887985 0
+    1.51619 0.0887985 0
+    0.0 1.0003 0
+    1.51619 1.0003 0
+    0.0 0.0887985 0
+    1.51619 0.0887985 0
+    0.0 1.0003 0
+    1.51619 1.0003 0
+endnode
+node trimesh handle
+  parent Base
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.894118 0.721569 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0 
+  Diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
+  shininess 20
+  center 0.0 7.97438 7.87755 
+  bitmap pdag_tankslvr
+  verts 24
+    0.01 0.057252 0.0200599
+    0.01 0.096941 0.0425455
+    0.01 0.0547491 0.0358629
+    0.01 0.099314 0.0267219
+    -0.01 0.096941 0.0425455
+    -0.01 0.057252 0.0200599
+    -0.01 0.0547491 0.0358629
+    -0.01 0.099314 0.0267219
+    0.01 0.117927 0.0533075
+    0.01 0.102147 0.0506587
+    -0.01 0.117927 0.0533075
+    -0.01 0.102147 0.0506587
+    0.01 0.0906105 0.116088
+    0.01 0.106366 0.118876
+    -0.01 0.106366 0.118876
+    -0.01 0.0906105 0.116088
+    0.01 0.0770188 0.137491
+    0.01 0.0812899 0.122022
+    -0.01 0.0770188 0.137491
+    -0.01 0.0812899 0.122022
+    0.01 0.0415606 0.130599
+    0.01 0.0443494 0.114841
+    -0.01 0.0415606 0.130599
+    -0.01 0.0443494 0.114841
+  faces 40
+    0 1 2  2  0 1 2  1
+    0 3 1  2  0 3 1  1
+    4 5 6  2  4 5 6  1
+    4 7 5  2  4 7 5  1
+    2 4 6  2  2 4 6  1
+    2 1 4  2  2 1 4  1
+    8 1 3  2  8 1 3  1
+    8 9 1  2  8 9 1  1
+    10 3 7  2  10 3 7  1
+    10 8 3  2  10 8 3  1
+    4 10 7  2  4 10 7  1
+    4 11 10  2  4 11 10  1
+    9 4 1  2  9 4 1  1
+    9 11 4  2  9 11 4  1
+    12 8 13  2  12 8 13  1
+    12 9 8  2  12 9 8  1
+    10 13 8  2  10 13 8  1
+    10 14 13  2  10 14 13  1
+    10 15 14  2  10 15 14  1
+    10 11 15  2  10 11 15  1
+    9 15 11  2  9 15 11  1
+    9 12 15  2  9 12 15  1
+    16 12 13  2  16 12 13  1
+    16 17 12  2  16 17 12  1
+    14 16 13  2  14 16 13  1
+    14 18 16  2  14 18 16  1
+    15 18 14  2  15 18 14  1
+    15 19 18  2  15 19 18  1
+    12 19 15  2  12 19 15  1
+    12 17 19  2  12 17 19  1
+    17 20 21  2  17 20 21  1
+    17 16 20  2  17 16 20  1
+    18 20 16  2  18 20 16  1
+    18 22 20  2  18 22 20  1
+    22 19 23  2  22 19 23  1
+    22 18 19  2  22 18 19  1
+    23 17 21  2  23 17 21  1
+    23 19 17  2  23 19 17  1
+    5 3 0  2  5 3 0  1
+    5 7 3  2  5 7 3  1
+  tverts 24
+    0.761246 -0.00325024 0
+    0.972886 1.00815 0
+    0.972886 -0.00325024 0
+    0.761246 1.00815 0
+    0.761246 1.00815 0
+    0.601878 -0.00325024 0
+    0.761246 -0.00325024 0
+    0.601878 1.00815 0
+    0.761246 -0.00325024 0
+    0.972886 -0.00325024 0
+    0.601878 -0.00325024 0
+    0.761246 -0.00325024 0
+    0.972886 1.00815 0
+    0.761246 1.00815 0
+    0.601878 1.00815 0
+    0.761246 1.00815 0
+    0.761246 -0.00325024 0
+    0.972886 -0.00325024 0
+    0.601878 -0.00325024 0
+    0.761246 -0.00325024 0
+    0.761246 1.00815 0
+    0.972886 1.00815 0
+    0.601878 1.00815 0
+    0.761246 1.00815 0
+endnode
+node trimesh Inside
+  parent Base
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.894118 0.721569 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0 0 0 
+  Diffuse 1 1 1 
+  specular 0.0 0.0 0.0 
+  shininess 20
+  center 0.0 0.0 8.2 
+  bitmap pdag_tankslvr
+  verts 7
+    0.055 0.0 0.15
+    0.0275 0.0476314 0.15
+    0.0 0.0 0.014
+    0.0275 -0.0476314 0.15
+    -0.0275 -0.0476314 0.15
+    -0.055 0.0 0.15
+    -0.0275 0.0476314 0.15
+  faces 6
+    0 1 2  2  0 1 2  1
+    3 0 2  2  3 4 2  1
+    4 3 2  2  5 6 2  1
+    2 5 4  2  2 7 8  1
+    2 6 5  2  2 9 10  1
+    1 6 2  2  11 12 2  1
+  tverts 13
+    0.12 0.581 0
+    0.12 0.379 0
+    0.53 0.48 0
+    0.12 0.581 0
+    0.12 0.379 0
+    0.12 0.581 0
+    0.12 0.379 0
+    0.12 0.581 0
+    0.12 0.379 0
+    0.12 0.581 0
+    0.12 0.379 0
+    0.12 0.579685 0
+    0.12 0.379 0
+endnode
+node trimesh ShadowSha1
+  parent Base
+  position 0.0 0.0 0.0283117
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.584314 0.694118 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1
+  Diffuse 1 1 1
+  specular 0.0 0.0 0.0 
+  shininess 50
+  center 0.0 0.0 4.7694 
+  bitmap Default
+  verts 12
+    0.0431034 0.0746574 -0.03
+    0.0862069 0.0 -0.03
+    0.0431034 -0.0746574 -0.03
+    -0.0431034 0.0746574 -0.03
+    -0.0862069 0.0 -0.03
+    -0.0431034 -0.0746574 -0.03
+    0.0615 0.0 0.125388
+    0.03075 0.0532606 0.125388
+    -0.03075 0.0532606 0.125388
+    -0.0615 0.0 0.125388
+    -0.03075 -0.0532606 0.125388
+    0.03075 -0.0532606 0.125388
+  faces 20
+    0 1 2  0  0 0 0  1
+    3 0 2  0  0 0 0  1
+    4 3 5  0  0 0 0  1
+    3 2 5  0  0 0 0  1
+    0 6 1  0  0 0 0  1
+    7 6 0  0  0 0 0  1
+    8 0 3  0  0 0 0  1
+    8 7 0  0  0 0 0  1
+    9 3 4  0  0 0 0  1
+    9 8 3  0  0 0 0  1
+    10 4 5  0  0 0 0  1
+    10 9 4  0  0 0 0  1
+    11 5 2  0  0 0 0  1
+    11 10 5  0  0 0 0  1
+    1 11 2  0  0 0 0  1
+    6 11 1  0  0 0 0  1
+    6 7 11  0  0 0 0  1
+    7 10 11  0  0 0 0  1
+    8 9 10  0  0 0 0  1
+    7 8 10  0  0 0 0  1
+endnode
+node emitter ChunkyGlass01
+  parent dag_tankslvrmt
+  position 7.81965e-005 -0.00118225 0.373306
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 5.0
+  ySize 5.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.701961 0.67451 0.603922 
+  colorEnd 0.854902 0.847059 0.82353 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 12
+  lifeExp 0.75
+  mass 3.0
+  spread 2.96706
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName dag_chunk_g01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+endmodelgeom dag_tankslvrmt
+#NWmax ANIM ASCII
+newanim damage dag_tankslvrmt
+  length 0.133333
+  transtime 0.0
+  animroot dag_tankslvrmt
+    node dummy dag_tankslvrmt
+        parent NULL
+    endnode
+    node dummy tankslvrmt_impact
+        parent dag_tankslvrmt
+        positionkey
+            0.0 9.84275e-005 -0.00408336 0.171553
+            0.133333 0.00031683 -0.00408336 0.171553
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy tankslvrmt_hand
+        parent dag_tankslvrmt
+        positionkey
+            0.0 9.84287e-005 0.0018816 0.20448
+            0.133333 0.00031683 0.0018816 0.20448
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy tankslvrmt_head_hit
+        parent dag_tankslvrmt
+        positionkey
+            0.0 9.84287e-005 0.0206067 0.383963
+            0.133333 0.00031683 0.0206067 0.383963
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy tankslvrmt_ground
+        parent dag_tankslvrmt
+        positionkey
+            0.0 -0.00141246 0.00497986 0.0268787
+            0.133333 -0.00119127 0.00497986 0.0268787
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy tankslvrmt_head
+        parent dag_tankslvrmt
+        positionkey
+            0.0 9.8428e-005 -0.000825892 0.205173
+            0.133333 0.00031683 -0.000825892 0.205173
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh damage_tankslvrmt
+        parent dag_tankslvrmt
+        positionkey
+            0.0 -0.0270694 -0.00242188 0.0
+            0.0333333 -0.0270694 -0.00242188 0.0244581
+            0.1 -0.0270694 -0.00242188 0.0
+            0.133333 -0.0270694 -0.00242188 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.371336 -0.928463 0.00810258 -0.0469939
+            0.0666667 -0.59995 0.799969 0.0104722 -0.0436324
+            0.1 0.0 0.0 0.0 0.0
+            0.133333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Base
+        parent damage_tankslvrmt
+    endnode
+    node trimesh handle
+        parent Base
+    endnode
+    node trimesh Inside
+        parent Base
+    endnode
+    node trimesh ShadowSha1
+        parent Base
+    endnode
+    node emitter ChunkyGlass01
+        parent dag_tankslvrmt
+        positionkey
+            0.0 7.81965e-005 -0.00118225 0.373306
+            0.133333 0.00029664 -0.00118225 0.373306
+        endlist
+        orientationkey
+            0.0 1.0 0.0 0.0 -3.14159
+        endlist
+    endnode
+doneanim damage dag_tankslvrmt
+#NWmax ANIM ASCII
+newanim die dag_tankslvrmt
+  length 0.166667
+  transtime 0.0
+  animroot dag_tankslvrmt
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+    node dummy dag_tankslvrmt
+        parent NULL
+    endnode
+    node dummy tankslvrmt_impact
+        parent dag_tankslvrmt
+    endnode
+    node dummy tankslvrmt_hand
+        parent dag_tankslvrmt
+    endnode
+    node dummy tankslvrmt_head_hit
+        parent dag_tankslvrmt
+    endnode
+    node dummy tankslvrmt_ground
+        parent dag_tankslvrmt
+    endnode
+    node dummy tankslvrmt_head
+        parent dag_tankslvrmt
+    endnode
+    node trimesh damage_tankslvrmt
+        parent dag_tankslvrmt
+        positionkey
+            0.0 -0.0270694 -0.00242188 0.0
+            0.166667 -0.0270694 -0.00242188 -3.77999
+        endlist
+    endnode
+    node trimesh Base
+        parent damage_tankslvrmt
+    endnode
+    node trimesh handle
+        parent Base
+    endnode
+    node trimesh Inside
+        parent Base
+    endnode
+    node trimesh ShadowSha1
+        parent Base
+    endnode
+    node emitter ChunkyGlass01
+        parent dag_tankslvrmt
+        positionkey
+            0.0 7.81965e-005 -0.00118225 0.373306
+            0.0333333 7.81965e-005 -0.00118225 0.373306
+            0.166667 0.000316307 -0.00118225 0.373306
+        endlist
+    endnode
+doneanim die dag_tankslvrmt
+#NWmax ANIM ASCII
+newanim dead dag_tankslvrmt
+  length 0.0333333
+  transtime 0.0
+  animroot dag_tankslvrmt
+    node dummy dag_tankslvrmt
+        parent NULL
+    endnode
+    node dummy tankslvrmt_impact
+        parent dag_tankslvrmt
+    endnode
+    node dummy tankslvrmt_hand
+        parent dag_tankslvrmt
+    endnode
+    node dummy tankslvrmt_head_hit
+        parent dag_tankslvrmt
+    endnode
+    node dummy tankslvrmt_ground
+        parent dag_tankslvrmt
+    endnode
+    node dummy tankslvrmt_head
+        parent dag_tankslvrmt
+    endnode
+    node trimesh damage_tankslvrmt
+        parent dag_tankslvrmt
+        positionkey
+            0.0 -0.0270694 -0.00242188 -3.77999
+            0.0333333 -0.0270694 -0.00242188 -3.77999
+        endlist
+    endnode
+    node trimesh Base
+        parent damage_tankslvrmt
+    endnode
+    node trimesh handle
+        parent Base
+    endnode
+    node trimesh Inside
+        parent Base
+    endnode
+    node trimesh ShadowSha1
+        parent Base
+    endnode
+    node emitter ChunkyGlass01
+        parent dag_tankslvrmt
+    endnode
+doneanim dead dag_tankslvrmt
+#NWmax ANIM ASCII
+newanim default dag_tankslvrmt
+  length 0.0
+  transtime 0.0
+  animroot dag_tankslvrmt
+    node dummy dag_tankslvrmt
+        parent NULL
+    endnode
+    node dummy tankslvrmt_impact
+        parent dag_tankslvrmt
+    endnode
+    node dummy tankslvrmt_hand
+        parent dag_tankslvrmt
+    endnode
+    node dummy tankslvrmt_head_hit
+        parent dag_tankslvrmt
+    endnode
+    node dummy tankslvrmt_ground
+        parent dag_tankslvrmt
+    endnode
+    node dummy tankslvrmt_head
+        parent dag_tankslvrmt
+    endnode
+    node trimesh damage_tankslvrmt
+        parent dag_tankslvrmt
+    endnode
+    node trimesh Base
+        parent damage_tankslvrmt
+    endnode
+    node trimesh handle
+        parent Base
+    endnode
+    node trimesh Inside
+        parent Base
+    endnode
+    node trimesh ShadowSha1
+        parent Base
+    endnode
+    node emitter ChunkyGlass01
+        parent dag_tankslvrmt
+    endnode
+doneanim default dag_tankslvrmt
+donemodel dag_tankslvrmt

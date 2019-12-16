@@ -1,0 +1,163 @@
+# Exported from NWmax 0.8 b50 at 11/20/2005 11:26:33 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: dag_meathoriz
+#local file: Meat_Horizontal.gmaxMeat_Horizontal.gmax
+filedependancy Meat_Horizontal.gmax
+newmodel dag_meathoriz
+setsupermodel dag_meathoriz NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom dag_meathoriz
+node dummy dag_meathoriz
+  parent NULL
+endnode
+node trimesh Beef17
+  parent dag_meathoriz
+  position 0.0 0.0 0.2
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1 1 1 
+  Diffuse 1 1 1 
+  specular 0.05 0.05 0.05 
+  shininess 26
+  center 18.5 -42.0 -5.0 
+  bitmap TIC01_beef00
+  verts 20
+    -0.26 0.53 0.05
+    0.18 0.73 -0.08
+    -0.13 0.79 -0.07
+    1.05 -1.55 -0.34
+    0.57 -0.96 0.03
+    0.93 -1.63 -0.28
+    0.95 -0.55 0.04
+    0.89 -1.0 -0.12
+    0.58 -0.75 -0.22
+    -0.01 -0.08 0.01
+    -0.04 -0.13 0.24
+    0.12 0.31 -0.21
+    -0.21 0.26 -0.33
+    0.4 0.38 0.04
+    0.23 0.5 0.0
+    -0.65 0.1 0.01
+    -0.68 0.21 -0.03
+    -0.17 0.06 -0.2
+    0.66 -0.2 0.1
+    0.86 -0.89 0.1
+  faces 36
+    0 1 2  1  0 1 2  1
+    3 4 5  2  3 4 5  6
+    6 7 8  2  6 7 8  4
+    9 0 10  1  9 0 10  4
+    11 12 1  2  11 12 13  3
+    13 11 14  2  14 11 15  3
+    1 0 14  1  1 0 16  6
+    15 16 17  2  17 18 19  5
+    12 2 1  2  12 20 13  1
+    3 7 4  2  3 21 4  6
+    2 12 0  2  20 12 22  1
+    7 3 8  2  7 23 8  3
+    8 5 4  2  8 24 25  5
+    10 0 15  1  10 0 26  6
+    12 16 0  2  12 18 22  1
+    15 0 16  1  26 0 27  6
+    17 4 10  2  19 25 28  5
+    4 6 9  1  4 29 9  4
+    13 18 11  2  14 30 11  3
+    8 4 17  2  8 25 19  5
+    4 7 19  2  4 21 31  6
+    19 7 6  2  31 21 29  6
+    9 6 18  1  9 29 32  4
+    1 14 11  2  13 15 11  4
+    0 13 14  1  0 33 16  4
+    8 18 6  2  8 30 6  4
+    4 9 10  1  4 9 10  4
+    8 11 18  2  8 11 30  4
+    8 17 11  2  8 19 11  3
+    15 17 10  2  17 19 28  5
+    16 12 17  2  18 12 19  5
+    11 17 12  2  11 19 12  5
+    8 3 5  2  8 23 24  5
+    18 13 0  1  32 33 0  4
+    9 18 0  1  9 32 0  4
+    4 19 6  1  4 31 29  4
+  tverts 34
+    0.257632 0.0788445 0
+    0.0817429 0.116188 0
+    0.153983 0.0335113 0
+    0.286694 0.966489 0
+    0.337767 0.673879 0
+    0.343503 0.960572 0
+    0.849586 0.62537 0
+    0.761009 0.756583 0
+    0.740281 0.636502 0
+    0.310336 0.297141 0
+    0.354192 0.30493 0
+    0.833755 0.206533 0
+    0.747484 0.13396 0
+    0.922184 0.118593 0
+    0.89335 0.261858 0
+    0.87903 0.194284 0
+    0.124897 0.191879 0
+    0.558317 0.0969388 0
+    0.578176 0.0555258 0
+    0.702694 0.208724 0
+    0.849944 0.035916 0
+    0.242918 0.754178 0
+    0.746295 0.0812492 0
+    0.717233 0.968893 0
+    0.660424 0.962976 0
+    0.66616 0.676284 0
+    0.44561 0.0945341 0
+    0.425751 0.0531212 0
+    0.649735 0.307335 0
+    0.154341 0.622965 0
+    0.837688 0.470908 0
+    0.254067 0.695639 0
+    0.166239 0.468504 0
+    0.110577 0.259454 0
+endnode
+node dummy meathoriz_ground
+  parent dag_meathoriz
+  position -0.00141246 0.00497986 0.0268787
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.898039 0.65098 0.843137 
+endnode
+node dummy meathoriz_hand
+  parent dag_meathoriz
+  position 0.207139 0.0887666 0.219652
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.894118 0.839216 
+endnode
+node dummy meathoriz_head
+  parent dag_meathoriz
+  position 9.8428e-005 -0.00681173 0.18901
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.101961 0.694118 0.580392 
+endnode
+node dummy meathoriz_head_hit
+  parent dag_meathoriz
+  position 9.84287e-005 0.0206067 0.507362
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.898039 0.65098 0.843137 
+endnode
+node dummy meathoriz_impact
+  parent dag_meathoriz
+  position 9.84227e-005 0.141572 0.323204
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.894118 0.839216 
+endnode
+endmodelgeom dag_meathoriz
+donemodel dag_meathoriz
