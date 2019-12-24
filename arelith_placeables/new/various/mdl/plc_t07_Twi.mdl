@@ -1,17 +1,17 @@
 #Model converted by mdl2ascii
 #For updates/comments check out http://nwn-j3d.sf.net
 filedependancy Unknown
-newmodel PLC_T07_TWI
-setsupermodel PLC_T07_TWI PLC_T07
+newmodel plc_t07_TWI
+setsupermodel plc_t07_TWI plc_t07
 classification Character
 setanimationscale 1.000000
 #MAXGEOM  ASCII
-beginmodelgeom PLC_T07_TWI
-node dummy PLC_T07_TWI
+beginmodelgeom plc_t07_TWI
+node dummy plc_t07_TWI
   parent NULL
 endnode
 node trimesh Plane277
-  parent PLC_T07_TWI
+  parent plc_t07_TWI
   position 0.513057 0.501431 0.020000
   orientation 0.000000 0.000000 0.000000 0.000000
   diffuse 1.000000 1.000000 1.000000
@@ -35,31 +35,31 @@ node trimesh Plane277
      0.499750 0.500000 0
 endnode
 node dummy T07_hand
-  parent PLC_T07_TWI
+  parent plc_t07_TWI
   position -0.002981 0.024990 0.472766
   orientation 0.000000 0.000000 0.000000 0.000000
 endnode
 node dummy T07_head
-  parent PLC_T07_TWI
+  parent plc_t07_TWI
   position 0.003984 0.010825 0.499138
   orientation 0.000000 0.000000 0.000000 0.000000
 endnode
 node dummy T07_head_hit
-  parent PLC_T07_TWI
+  parent plc_t07_TWI
   position 0.003984 0.010825 0.126938
   orientation 0.000000 0.000000 0.000000 0.000000
 endnode
 node dummy T07_impact
-  parent PLC_T07_TWI
+  parent plc_t07_TWI
   position 0.003984 0.011001 0.015307
   orientation 0.000000 0.000000 0.000000 0.000000
 endnode
 node dummy T07_ground
-  parent PLC_T07_TWI
+  parent plc_t07_TWI
   position -0.003633 0.006987 0.000000
   orientation 0.000000 0.000000 0.000000 0.000000
 endnode
-endmodelgeom PLC_T07_TWI
-donemodel PLC_T07_TWI
+endmodelgeom plc_t07_TWI
+donemodel plc_t07_TWI
 
 
