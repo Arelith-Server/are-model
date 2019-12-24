@@ -2,16 +2,16 @@
 # mdl file
 #
 filedependancy Unknown
-newmodel Table_estateb
-setsupermodel Table_estateb NULL
+newmodel tableestb
+setsupermodel tableestb NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom Table_estateb
-node dummy Table_estateb
+beginmodelgeom tableestb
+node dummy tableestb
     parent NULL
 endnode
 node trimesh PLC_MC_Estate_BTable
-    parent Table_estateb
+    parent tableestb
     position 0.0112559 -0.00915699 0.0
     orientation 1.0 0.0 0.0 0.0
     bitmap plc_table_10
@@ -2803,5 +2803,5 @@ node trimesh PLC_MC_Estate_BTable
         0.270168 -0.0945303 0
         0.29042 -0.137062 0
 endnode
-endmodelgeom Table_estateb
-donemodel Table_estateb
+endmodelgeom tableestb
+donemodel tableestb

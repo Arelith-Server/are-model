@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: alc_mwact02
+# model: plc_mwact2
 #local file: C:\Users\Pablo\Documents\3DS\XYZ.max
 filedependancy XYZ.max
-newmodel alc_mwact02
-setsupermodel alc_mwact02 NULL
+newmodel plc_mwact2
+setsupermodel plc_mwact2 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom alc_mwact02
-node dummy alc_mwact02
+beginmodelgeom plc_mwact2
+node dummy plc_mwact2
   parent NULL
 endnode
 node trimesh Tri_Flora_tree_AC_02_2
-  parent alc_mwact02
+  parent plc_mwact2
   position -0.066667 -0.0292927 3.55453
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.109804 0.34902 0.694118 
@@ -706,7 +706,7 @@ node trimesh Tri_Flora_tree_AC_02_2
     0.341002 0.000499487 0
 endnode
 node trimesh Tri_Flora_tree_AC_02_0
-  parent alc_mwact02
+  parent plc_mwact2
   position -0.066667 -0.0292927 3.55453
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.52549 0.0235294 0.0235294 
@@ -1486,7 +1486,7 @@ node trimesh Tri_Flora_tree_AC_02_0
     0.541697 0.492847 0
 endnode
 node trimesh Tri_Flora_tree_AC_02_1
-  parent alc_mwact02
+  parent plc_mwact2
   position -0.066667 -0.0292927 3.55453
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.0235294 0.52549 0.0235294 
@@ -2582,5 +2582,5 @@ node trimesh Tri_Flora_tree_AC_02_1
     -1.92496 13.6346 0
     -1.73462 11.846 0
 endnode
-endmodelgeom alc_mwact02
-donemodel alc_mwact02
+endmodelgeom plc_mwact2
+donemodel plc_mwact2

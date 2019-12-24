@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: PLC_F08
+# model: plc_mscstnd
 filedependancy Music Stand2.max
-newmodel PLC_F08
-setsupermodel PLC_F08 NULL
+newmodel plc_mscstnd
+setsupermodel plc_mscstnd NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom PLC_F08
-node dummy PLC_F08
+beginmodelgeom plc_mscstnd
+node dummy plc_mscstnd
   parent NULL
 endnode
 node trimesh Box70
-  parent PLC_F08
+  parent plc_mscstnd
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.777344 0.777344 0.777344
@@ -896,37 +896,37 @@ node trimesh Leg03
     0.406336 0.369345 1
 endnode
 node dummy F08_hand
-  parent PLC_F08
+  parent plc_mscstnd
   position 0.00398926 -0.505195 0.934402
   orientation 0 0 0 0
   wirecolor 0.898438 0.898438 0.898438
 endnode
 node dummy F08_head
-  parent PLC_F08
+  parent plc_mscstnd
   position 0 0 1.93662
   orientation 0 0 0 0
   wirecolor 0.898438 0.898438 0.898438
 endnode
 node dummy F08_head_hit
-  parent PLC_F08
+  parent plc_mscstnd
   position 0 0 1.45514
   orientation 0 0 0 0
   wirecolor 0.898438 0.898438 0.898438
 endnode
 node dummy F08_impact
-  parent PLC_F08
+  parent plc_mscstnd
   position 0 0 1.11268
   orientation 0 0 0 0
   wirecolor 0.898438 0.898438 0.898438
 endnode
 node dummy F08_ground
-  parent PLC_F08
+  parent plc_mscstnd
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.898438 0.898438 0.898438
 endnode
 node emitter ChunkyWood236
-  parent PLC_F08
+  parent plc_mscstnd
   position 0 0 0.833401
   orientation 0 0 0 0
   wirecolor 0.777344 0.777344 0.777344
@@ -993,7 +993,7 @@ node emitter ChunkyWood236
     chunkName PLC_Chunk_W01
 endnode
 node emitter fire!144
-  parent PLC_F08
+  parent plc_mscstnd
   position 0 0 0.759357
   orientation -1 0 0 -1.5708
   wirecolor 0.777344 0.777344 0.777344
@@ -1058,18 +1058,18 @@ node emitter fire!144
     renderorder 0
     Splat 0
 endnode
-endmodelgeom PLC_F08
+endmodelgeom plc_mscstnd
 
 #MAXANIM ASCII
-newanim damage PLC_F08
+newanim damage plc_mscstnd
   length 0.233333
   transtime 0
-  animroot PLC_F08
-node dummy PLC_F08
+  animroot plc_mscstnd
+node dummy plc_mscstnd
   parent NULL
 endnode
 node trimesh Box70
-  parent PLC_F08
+  parent plc_mscstnd
     positionkey
       0  0 0 0
       0.233333  0 0 0
@@ -1109,41 +1109,41 @@ node trimesh Leg03
   parent Legs02
 endnode
 node dummy F08_hand
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_head
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_head_hit
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_impact
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_ground
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node emitter ChunkyWood236
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node emitter fire!144
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node trimesh pwk_mscstand
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
-doneanim damage PLC_F08
+doneanim damage plc_mscstnd
 
 #MAXANIM ASCII
-newanim dead PLC_F08
+newanim dead plc_mscstnd
   length 0.0333333
   transtime 0
-  animroot PLC_F08
-node dummy PLC_F08
+  animroot plc_mscstnd
+node dummy plc_mscstnd
   parent NULL
 endnode
 node trimesh Box70
-  parent PLC_F08
+  parent plc_mscstnd
     positionkey
       0  0 0 -5.77217
       0.0333333  0 0 -5.77217
@@ -1177,41 +1177,41 @@ node trimesh Leg03
   parent Legs02
 endnode
 node dummy F08_hand
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_head
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_head_hit
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_impact
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_ground
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node emitter ChunkyWood236
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node emitter fire!144
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node trimesh pwk_mscstand
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
-doneanim dead PLC_F08
+doneanim dead plc_mscstnd
 
 #MAXANIM ASCII
-newanim die PLC_F08
+newanim die plc_mscstnd
   length 0.1
   transtime 0
-  animroot PLC_F08
-node dummy PLC_F08
+  animroot plc_mscstnd
+node dummy plc_mscstnd
   parent NULL
 endnode
 node trimesh Box70
-  parent PLC_F08
+  parent plc_mscstnd
     positionkey
       0  0 0 0
       0.1  0 0 -5.77217
@@ -1248,43 +1248,43 @@ node trimesh Leg03
   parent Legs02
 endnode
 node dummy F08_hand
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_head
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_head_hit
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_impact
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_ground
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node emitter ChunkyWood236
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node emitter fire!144
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node trimesh pwk_mscstand
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 event 0  detonate
 event 0  detonate
-doneanim die PLC_F08
+doneanim die plc_mscstnd
 
 #MAXANIM ASCII
-newanim default PLC_F08
+newanim default plc_mscstnd
   length 0
   transtime 0.25
-  animroot PLC_F08
-node dummy PLC_F08
+  animroot plc_mscstnd
+node dummy plc_mscstnd
   parent NULL
 endnode
 node trimesh Box70
-  parent PLC_F08
+  parent plc_mscstnd
     positionkey
       0  0 0 0
     endlist
@@ -1320,28 +1320,28 @@ node trimesh Leg03
   parent Legs02
 endnode
 node dummy F08_hand
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_head
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_head_hit
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_impact
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node dummy F08_ground
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node emitter ChunkyWood236
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node emitter fire!144
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
 node trimesh pwk_mscstand
-  parent PLC_F08
+  parent plc_mscstnd
 endnode
-doneanim default PLC_F08
-donemodel PLC_F08
+doneanim default plc_mscstnd
+donemodel plc_mscstnd
