@@ -2,16 +2,16 @@
 # mdl file
 #
 filedependancy Unknown
-newmodel Library_intersect
-setsupermodel Library_intersect NULL
+newmodel library_insect
+setsupermodel library_insect NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom Library_intersect
-node dummy Library_intersect
+beginmodelgeom library_insect
+node dummy library_insect
     parent NULL
 endnode
 node trimesh PLC_MC_EstateBS_Intrsct
-    parent Library_intersect
+    parent library_insect
     position 0.0 0.0 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -1735,5 +1735,5 @@ node trimesh PLC_MC_EstateBS_Intrsct
         0.364566 0.755217 0
         0.22496 0.755217 0
 endnode
-endmodelgeom Library_intersect
-donemodel Library_intersect
+endmodelgeom library_insect
+donemodel library_insect

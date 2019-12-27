@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: PLC_TblDBlkRedMarb
+# model: plc_tbldblkredma
 filedependancy DMTileset.max
-newmodel PLC_TblDBlkRedMarb
-setsupermodel PLC_TblDBlkRedMarb NULL
+newmodel plc_tbldblkredma
+setsupermodel plc_tbldblkredma NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom PLC_TblDBlkRedMarb
-node dummy PLC_TblDBlkRedMarb
+beginmodelgeom plc_tbldblkredma
+node dummy plc_tbldblkredma
   parent NULL
 endnode
 node emitter ChunkyWood145
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
   position 0.00243408 0.000917969 0.606715
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
@@ -80,7 +80,7 @@ node emitter ChunkyWood145
     chunkName PLC_Chunk_W01
 endnode
 node emitter ChunkyWood146
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
   position 0.00243408 0.00190308 0.712937
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
@@ -147,7 +147,7 @@ node emitter ChunkyWood146
     chunkName PLC_Chunk_W02
 endnode
 node emitter fire!92
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
   position 0.00243408 0.00190308 0.532671
   orientation 1 0 0 -1.5708
   wirecolor 0.335938 0.335938 0.335938
@@ -213,7 +213,7 @@ node emitter fire!92
     Splat 0
 endnode
 node trimesh damage50
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
   position 0.000867308 0.0224683 0
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
@@ -1865,68 +1865,68 @@ node trimesh Cylinder11
     0 0.000499487 0.999001
 endnode
 node dummy 68L_impact
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
   position 0 0 0.85
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
 endnode
 node dummy 68L_ground
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
 endnode
 node dummy 68L_hand
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
   position 0 0 1
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
 endnode
 node dummy 68L_head
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
   position 0 0 2
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
 endnode
 node dummy 68L_head_hit
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
   position 0 0 1.5
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
 endnode
 node dummy 68L_pwk_use01
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
   position -0.000330734 0.823059 0.5
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
 endnode
 node dummy 68L_pwk_use02
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
   position 0.0138212 -0.889322 1.25
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
 endnode
-endmodelgeom PLC_TblDBlkRedMarb
+endmodelgeom plc_tbldblkredma
 
 #MAXANIM ASCII
-newanim damage PLC_TblDBlkRedMarb
+newanim damage plc_tbldblkredma
   length 0.133333
   transtime 0
-  animroot PLC_TblDBlkRedMarb
-node dummy PLC_TblDBlkRedMarb
+  animroot plc_tbldblkredma
+node dummy plc_tbldblkredma
   parent NULL
 endnode
 node emitter ChunkyWood145
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node emitter ChunkyWood146
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node emitter fire!92
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node trimesh damage50
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
     positionkey
       0  0.000867308 0.0224683 0
       0.0333333  0.000867308 0.0224683 0.0244581
@@ -1970,50 +1970,50 @@ node trimesh Cylinder11
   parent Line02
 endnode
 node dummy 68L_impact
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_ground
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_hand
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_head
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_head_hit
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_pwk_use01
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_pwk_use02
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node trimesh pwk
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
-doneanim damage PLC_TblDBlkRedMarb
+doneanim damage plc_tbldblkredma
 
 #MAXANIM ASCII
-newanim die PLC_TblDBlkRedMarb
+newanim die plc_tbldblkredma
   length 0.166667
   transtime 0
-  animroot PLC_TblDBlkRedMarb
-node dummy PLC_TblDBlkRedMarb
+  animroot plc_tbldblkredma
+node dummy plc_tbldblkredma
   parent NULL
 endnode
 node emitter ChunkyWood145
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node emitter ChunkyWood146
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node emitter fire!92
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node trimesh damage50
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
     positionkey
       0  0.000867308 0.0224683 0
       0.166667  0.000867308 0.0224683 -6.95145
@@ -2053,53 +2053,53 @@ node trimesh Cylinder11
   parent Line02
 endnode
 node dummy 68L_impact
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_ground
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_hand
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_head
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_head_hit
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_pwk_use01
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_pwk_use02
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node trimesh pwk
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 event 0  detonate
 event 0  detonate
 event 0  detonate
-doneanim die PLC_TblDBlkRedMarb
+doneanim die plc_tbldblkredma
 
 #MAXANIM ASCII
-newanim dead PLC_TblDBlkRedMarb
+newanim dead plc_tbldblkredma
   length 0.0333333
   transtime 0
-  animroot PLC_TblDBlkRedMarb
-node dummy PLC_TblDBlkRedMarb
+  animroot plc_tbldblkredma
+node dummy plc_tbldblkredma
   parent NULL
 endnode
 node emitter ChunkyWood145
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node emitter ChunkyWood146
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node emitter fire!92
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node trimesh damage50
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
     positionkey
       0  0.000867308 0.0224683 -6.95145
       0.0333333  0.000867308 0.0224683 -6.95145
@@ -2136,50 +2136,50 @@ node trimesh Cylinder11
   parent Line02
 endnode
 node dummy 68L_impact
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_ground
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_hand
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_head
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_head_hit
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_pwk_use01
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_pwk_use02
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node trimesh pwk
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
-doneanim dead PLC_TblDBlkRedMarb
+doneanim dead plc_tbldblkredma
 
 #MAXANIM ASCII
-newanim default PLC_TblDBlkRedMarb
+newanim default plc_tbldblkredma
   length 0
   transtime 0.25
-  animroot PLC_TblDBlkRedMarb
-node dummy PLC_TblDBlkRedMarb
+  animroot plc_tbldblkredma
+node dummy plc_tbldblkredma
   parent NULL
 endnode
 node emitter ChunkyWood145
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node emitter ChunkyWood146
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node emitter fire!92
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node trimesh damage50
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
     positionkey
       0  0.000867308 0.0224683 0
     endlist
@@ -2218,28 +2218,28 @@ node trimesh Cylinder11
   parent Line02
 endnode
 node dummy 68L_impact
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_ground
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_hand
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_head
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_head_hit
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_pwk_use01
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node dummy 68L_pwk_use02
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
 node trimesh pwk
-  parent PLC_TblDBlkRedMarb
+  parent plc_tbldblkredma
 endnode
-doneanim default PLC_TblDBlkRedMarb
-donemodel PLC_TblDBlkRedMarb
+doneanim default plc_tbldblkredma
+donemodel plc_tbldblkredma

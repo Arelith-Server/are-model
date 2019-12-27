@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: alc_mwact03
+# model: plc_mwact3
 #local file: C:\Users\Pablo\Documents\3DS\XYZ.max
 filedependancy XYZ.max
-newmodel alc_mwact03
-setsupermodel alc_mwact03 NULL
+newmodel plc_mwact3
+setsupermodel plc_mwact3 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom alc_mwact03
-node dummy alc_mwact03
+beginmodelgeom plc_mwact3
+node dummy plc_mwact3
   parent NULL
 endnode
 node trimesh Tri_Flora_tree_AC_03_1
-  parent alc_mwact03
+  parent plc_mwact3
   position -0.406633 0.170325 3.27545
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.341176 0.878431 0.776471 
@@ -527,7 +527,7 @@ node trimesh Tri_Flora_tree_AC_03_1
     -0.219154 0.0 0
 endnode
 node trimesh Tri_Flora_tree_AC_03_2
-  parent alc_mwact03
+  parent plc_mwact3
   position -0.406633 0.170325 3.27545
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.898039 0.65098 0.843137 
@@ -1147,7 +1147,7 @@ node trimesh Tri_Flora_tree_AC_03_2
     0.65387 1.01188 0
 endnode
 node trimesh Tri_Flora_tree_AC_03_3
-  parent alc_mwact03
+  parent plc_mwact3
   position -0.406633 0.170325 3.27545
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.52549 0.431373 0.0313726 
@@ -1311,7 +1311,7 @@ node trimesh Tri_Flora_tree_AC_03_3
     0.652502 0.998505 0
 endnode
 node trimesh Tri_Flora_tree_AC_03_0
-  parent alc_mwact03
+  parent plc_mwact3
   position -0.406633 0.170325 3.27545
   orientation 1.0 0.0 0.0 -1.5708
   wirecolor 0.560784 0.878431 0.341176 
@@ -2003,5 +2003,5 @@ node trimesh Tri_Flora_tree_AC_03_0
     -0.0341658 -2.40262 0
     -0.844279 -0.20264 0
 endnode
-endmodelgeom alc_mwact03
-donemodel alc_mwact03
+endmodelgeom plc_mwact3
+donemodel plc_mwact3

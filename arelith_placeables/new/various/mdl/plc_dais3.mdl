@@ -2,18 +2,18 @@
 # mdl file
 #
 filedependancy Unknown
-newmodel dais3
-setsupermodel dais3 NULL
+newmodel plc_dais3
+setsupermodel plc_dais3 NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom dais3
-node dummy dais3
+beginmodelgeom plc_dais3
+node dummy plc_dais3
     parent NULL
 endnode
-node trimesh plc_dais3_X2
-    parent dais3
+node trimesh plc_plc_dais3_X2
+    parent plc_dais3
     position 0.0 0.0 0.0
-    bitmap plc_dais3
+    bitmap plc_plc_dais3
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
     UIFlag  None
@@ -436,5 +436,5 @@ node trimesh plc_dais3_X2
         0.509587 0.221562 0
         0.509587 0.332512 0
 endnode
-endmodelgeom dais3
-donemodel dais3
+endmodelgeom plc_dais3
+donemodel plc_dais3
