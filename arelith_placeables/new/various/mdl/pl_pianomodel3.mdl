@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: pl_piano3
+# model: pl_pianomodel3
 filedependancy grandpiano.max
-newmodel pl_piano3
-setsupermodel pl_piano3 NULL
+newmodel pl_pianomodel3
+setsupermodel pl_pianomodel3 NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom pl_piano3
-node dummy pl_piano3
+beginmodelgeom pl_pianomodel3
+node dummy pl_pianomodel3
   parent NULL
 endnode
 node trimesh Cylinder01
-  parent pl_piano3
+  parent pl_pianomodel3
   position 1.02688 1.35084 0.955379
   orientation -0.57735 0.57735 -0.57735 -4.18879
   wirecolor 0.835938 0.835938 0.835938
@@ -117,7 +117,7 @@ node trimesh Cylinder01
     0.42671 0.54023 1.06462
 endnode
 node trimesh Box08
-  parent pl_piano3
+  parent pl_pianomodel3
   position 0.0967315 1.35422 0.870003
   orientation 0 0 0 0
   wirecolor 0.839844 0.839844 0.839844
@@ -185,7 +185,7 @@ node trimesh Box08
     0.999499 0.653221 -0.598449
 endnode
 node trimesh Plane01
-  parent pl_piano3
+  parent pl_pianomodel3
   position 0.0992629 1.38844 0.98511
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
@@ -215,7 +215,7 @@ node trimesh Plane01
     4.9975 0.779609 0.5
 endnode
 node trimesh Cylinder04
-  parent pl_piano3
+  parent pl_pianomodel3
   position -0.934753 1.35084 0.955379
   orientation -0.57735 0.57735 -0.57735 -4.18879
   wirecolor 0.835938 0.835938 0.835938
@@ -319,7 +319,7 @@ node trimesh Cylinder04
     0.42671 0.54023 1.06462
 endnode
 node trimesh Box09
-  parent pl_piano3
+  parent pl_pianomodel3
   position 0.0969322 1.23671 1.12468
   orientation -1 0 0 -0.0537024
   wirecolor 0.105469 0.105469 0.105469
@@ -387,7 +387,7 @@ node trimesh Box09
     0.9995 0.999501 0.000499547
 endnode
 node trimesh Plane05
-  parent pl_piano3
+  parent pl_pianomodel3
   position 0.104427 1.36413 1.30048
   orientation 1 0 0 -1.4326
   wirecolor 0.695313 0.695313 0.695313
@@ -441,7 +441,7 @@ node trimesh Plane05
     0.994555 1.00762 0.5
 endnode
 node trimesh Cone01
-  parent pl_piano3
+  parent pl_pianomodel3
   position 0.986734 1.18012 0.870161
   orientation 0.965701 -0.259655 0 -3.14159
   wirecolor 0.835938 0.835938 0.835938
@@ -494,7 +494,7 @@ node trimesh Cone01
     -0.0467918 0.000249758 0
 endnode
 node trimesh Cone02
-  parent pl_piano3
+  parent pl_pianomodel3
   position -0.82029 1.18012 0.870161
   orientation 0.965701 -0.259655 0 -3.14159
   wirecolor 0.835938 0.835938 0.835938
@@ -547,7 +547,7 @@ node trimesh Cone02
     -0.0467918 0.000249758 0
 endnode
 node trimesh Cylinder05
-  parent pl_piano3
+  parent pl_pianomodel3
   position 0.088268 0.186493 0.871008
   orientation 0 0 -1 -0.171206
   wirecolor 0.0351563 0.0351563 0.0351563
@@ -725,7 +725,7 @@ node trimesh Cylinder05
     1.49925 0.816313 0.999501
 endnode
 node trimesh Cylinder06
-  parent pl_piano3
+  parent pl_pianomodel3
   position 0.088268 0.186493 1.29655
   orientation 0 0 -1 -0.171206
   wirecolor 0.0351563 0.0351563 0.0351563
@@ -903,7 +903,7 @@ node trimesh Cylinder06
     0.934918 0.879636 0.628456
 endnode
 node trimesh Cone03
-  parent pl_piano3
+  parent pl_pianomodel3
   position -0.369094 -1.3808 0.870161
   orientation 0.965701 -0.259655 0 -3.14159
   wirecolor 0.835938 0.835938 0.835938
@@ -955,5 +955,5 @@ node trimesh Cone03
     -0.0467918 0.49975 0
     -0.0467918 0.000249758 0
 endnode
-endmodelgeom pl_piano3
-donemodel pl_piano3
+endmodelgeom pl_pianomodel3
+donemodel pl_pianomodel3

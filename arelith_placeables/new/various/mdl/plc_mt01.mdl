@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: PLC_GR01
+# model: plc_mt01
 filedependancy Unknown
-newmodel PLC_GR01
-setsupermodel PLC_GR01 NULL
+newmodel plc_mt01
+setsupermodel plc_mt01 NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom PLC_GR01
-node dummy PLC_GR01
+beginmodelgeom plc_mt01
+node dummy plc_mt01
   parent NULL
 endnode
 node emitter Glow
-  parent PLC_GR01
+  parent plc_mt01
   position 0 0 1.5
   orientation 0 0.707107 -0.707107 -3.14159
   wirecolor 0.34375 0.34375 0.34375
@@ -79,7 +79,7 @@ node emitter Glow
     Splat 0
 endnode
 node trimesh Sphere01
-  parent PLC_GR01
+  parent plc_mt01
   position 0 -0.149561 1.5
   orientation -0.57735 -0.57735 -0.57735 -4.18879
   wirecolor 0.839844 0.839844 0.839844
@@ -233,7 +233,7 @@ node trimesh Sphere01
     0.5 0.5 0.332122
 endnode
 node trimesh Sphere02
-  parent PLC_GR01
+  parent plc_mt01
   position 0 -0.149561 1.5
   orientation -0.57735 -0.57735 -0.57735 -4.18879
   wirecolor 0.839844 0.839844 0.839844
@@ -386,5 +386,5 @@ node trimesh Sphere02
     0.716506 0.375 0.161076
     0.5 0.5 0.000499576
 endnode
-endmodelgeom PLC_GR01
-donemodel PLC_GR01
+endmodelgeom plc_mt01
+donemodel plc_mt01
