@@ -1,0 +1,173 @@
+# Exported from NWgMax Plus v6.11.28 at 30-Dec-19 16:53:54
+# mdl file
+#
+#NWgMax Plus MODEL ASCII
+# model: vdr_barkskin
+filedependancy Unknown
+newmodel vdr_barkskin
+setsupermodel vdr_barkskin NULL
+classification Effect
+#NWgMax Plus GEOM  ASCII
+beginmodelgeom vdr_barkskin
+node dummy vdr_barkskin
+  parent NULL
+endnode
+node dummy Dummy01
+  parent vdr_barkskin
+  position 0.0 0.0 -0.491643
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+node emitter Leaf_Emitter04
+  parent Dummy01
+  position 0.0 0.0 0.535434
+  orientation 0.0 -1.0 0.0 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 200.0
+  ySize 200.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.392157 0.882353 0.243137 
+  colorEnd 0.392157 0.882353 0.243137 
+  alphaStart 1.0
+  alphaEnd 0.3
+  sizeStart 0.5
+  sizeEnd 0.65
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 70
+  lifeExp 0.8
+  mass -0.65
+  spread 3.14159
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.9
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_leaf
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 8
+  frameStart 0
+  frameEnd 15
+  random 1
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+endmodelgeom vdr_barkskin
+#NWgMax Plus ANIM ASCII
+newanim impact vdr_barkskin
+  length 4.3
+  transtime 0.0
+  animroot vdr_barkskin
+    node dummy vdr_barkskin
+        parent NULL
+    endnode
+    node dummy Dummy01
+        parent vdr_barkskin
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.3 0.0 0.0 -1.0 -1.5708
+            0.666667 0.0 0.0 -1.0 -3.14159
+            1.06667 0.0 0.0 -1.0 -4.71239
+            1.43333 0.0 0.0 -1.0 -6.28318
+            1.8 0.0 0.0 1.0 -4.71239
+            2.2 0.0 0.0 1.0 -3.14159
+            2.53333 0.0 0.0 1.0 -1.5708
+            2.9 0.0 0.0 0.0 0.0
+            3.26667 0.0 0.0 -1.0 -1.5708
+            3.63333 0.0 0.0 -1.0 -3.14159
+            3.96667 0.0 0.0 -1.0 -4.71239
+            4.3 0.0 0.0 -1.0 -6.28318
+        endlist
+    endnode
+    node emitter Leaf_Emitter04
+        parent Dummy01
+        birthratekey
+            0.0 50 
+            2.9 70 
+            2.93333 70 
+        endlist
+    endnode
+doneanim impact vdr_barkskin
+#NWgMax Plus ANIM ASCII
+newanim duration vdr_barkskin
+  length 4.3
+  transtime 0.0
+  animroot vdr_barkskin
+    node dummy vdr_barkskin
+        parent NULL
+    endnode
+    node dummy Dummy01
+        parent vdr_barkskin
+        orientationkey
+            0.0 0.99046 0.0 0.137797 -6.28318
+            1.06667 0.0 0.0 1.0 -4.71239
+            2.13333 0.0 0.0 1.0 -3.1416
+            3.2 0.0 0.0 1.0 -1.5708
+            4.3 0.0 0.0 1.0 -4.80474e-006
+        endlist
+    endnode
+    node emitter Leaf_Emitter04
+        parent Dummy01
+        birthratekey
+            0.0 70 
+            4.3 70 
+        endlist
+    endnode
+doneanim duration vdr_barkskin
+#NWgMax Plus ANIM ASCII
+newanim cessation vdr_barkskin
+  length 1.06667
+  transtime 0.0
+  animroot vdr_barkskin
+    node dummy vdr_barkskin
+        parent NULL
+    endnode
+    node dummy Dummy01
+        parent vdr_barkskin
+        orientationkey
+            0.0 0.999966 0.0 0.00824774 -1.751e-006
+            1.06667 0.0 0.0 -1.0 -6.28318
+        endlist
+    endnode
+    node emitter Leaf_Emitter04
+        parent Dummy01
+        birthratekey
+            0.0 70 
+            1.06667 0 
+        endlist
+    endnode
+doneanim cessation vdr_barkskin
+donemodel vdr_barkskin

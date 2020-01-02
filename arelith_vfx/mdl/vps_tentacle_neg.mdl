@@ -1,0 +1,840 @@
+# Exported from NWgMax Plus v6.11.28 at 30-Dec-19 15:52:47
+# mdl file
+#
+#NWgMax Plus MODEL ASCII
+# model: vps_tentacle_neg
+filedependancy Unknown
+newmodel vps_tentacle_neg
+setsupermodel vps_tentacle_neg NULL
+classification Effect
+#NWgMax Plus GEOM  ASCII
+beginmodelgeom vps_tentacle_neg
+node dummy vps_tentacle_neg
+  parent NULL
+endnode
+node dummy Dummy01
+  parent vps_tentacle_neg
+  position 0.0 0.0 -0.065378
+  orientation 0.0 -1.0 0.0 -3.14159
+  wirecolor 0.878431 0.560784 0.341176 
+endnode
+node emitter OmenEmitter01
+  parent Dummy01
+  position 0.0 0.0 -0.122044
+  orientation -1.0 0.0 0.0 -3.735
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 2
+  render Linked
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.81 0.15 0.2 
+  colorEnd 0.81 0.15 0.2 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.01
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 1.0
+  mass 0.1
+  spread 0.0
+  particleRot 0.0
+  velocity 3.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_beam02
+  twosidedtex 0
+  xgrid 2
+  ygrid 1
+  fps 16
+  frameStart 0
+  frameEnd 1
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 1
+  p2p_type Bezier
+  p2p_sel 0
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 3.0
+  drag 0.8
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+  position 0.000805168 0.533824 0.791426
+  orientation 1.0 0.0 0.0 -3.735
+  wirecolor 0.6 0.894118 0.721569 
+  refModel fx_ref
+  reattachable 0
+  Dummy Dummy
+endnode
+node dummy Dummy02
+  parent vps_tentacle_neg
+  position 0.0 0.0 -0.065378
+  orientation -0.0637514 -0.911687 -0.405909 -3.08484
+  wirecolor 0.694118 0.109804 0.584314 
+endnode
+node emitter OmenEmitter02
+  parent Dummy02
+  position 0.0 0.0354196 -0.155878
+  orientation -1.0 0.0 0.0 -3.66519
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 2
+  render Linked
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.81 0.15 0.2 
+  colorEnd 0.81 0.15 0.2 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.15
+  sizeEnd 0.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 0.8
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 2.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_beam02
+  twosidedtex 0
+  xgrid 2
+  ygrid 1
+  fps 16
+  frameStart 0
+  frameEnd 1
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 1
+  p2p_type Bezier
+  p2p_sel 0
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 1.0
+  drag 1.0
+endnode
+node reference OmenRef02
+  parent OmenEmitter02
+  position 0.0 0.670805 1.02986
+  orientation 1.0 0.0 0.0 -3.59538
+  wirecolor 0.839216 0.894118 0.6 
+  refModel fx_ref
+  reattachable 0
+  Dummy Dummy
+endnode
+node emitter OmenEmitter03
+  parent vps_tentacle_neg
+  position 0.0 2.42156e-005 0.0700662
+  orientation 0.483692 0.407365 0.774659 -4.42033
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 2
+  render Linked
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.81 0.15 0.2 
+  colorEnd 0.81 0.15 0.2 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.15
+  sizeEnd 0.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 0.8
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 2.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_beam02
+  twosidedtex 0
+  xgrid 2
+  ygrid 1
+  fps 16
+  frameStart 0
+  frameEnd 1
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 1
+  p2p_type Bezier
+  p2p_sel 0
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 1.0
+  drag 1.0
+endnode
+node reference OmenRef03
+  parent OmenEmitter03
+  position -1.35642e-007 0.670805 1.02986
+  orientation 1.0 0.0 0.0 -3.59538
+  wirecolor 0.839216 0.894118 0.6 
+  refModel fx_ref
+  reattachable 0
+  Dummy Dummy
+endnode
+node dummy Dummy03
+  parent vps_tentacle_neg
+  position 0.0 0.0 -0.065378
+  orientation 0.193686 0.911221 -0.36354 -2.98736
+  wirecolor 0.109804 0.109804 0.694118 
+endnode
+node emitter OmenEmitter04
+  parent Dummy03
+  position 0.0 -0.0158906 -0.161279
+  orientation -1.0 0.0 0.0 -3.66519
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 2
+  render Linked
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.81 0.15 0.2 
+  colorEnd 0.81 0.15 0.2 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.15
+  sizeEnd 0.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 0.8
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 2.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_beam02
+  twosidedtex 0
+  xgrid 2
+  ygrid 1
+  fps 16
+  frameStart 0
+  frameEnd 1
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 1
+  p2p_type Bezier
+  p2p_sel 0
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 1.0
+  drag 1.0
+endnode
+node reference OmenRef04
+  parent OmenEmitter04
+  position -1.20122e-007 0.670805 1.02986
+  orientation 1.0 0.0 0.0 -3.59538
+  wirecolor 0.878431 0.337255 0.337255 
+  refModel fx_ref
+  reattachable 0
+  Dummy Dummy
+endnode
+node dummy Dummy04
+  parent vps_tentacle_neg
+  position -0.0422176 -0.00912168 -0.065378
+  orientation 0.597662 -0.744671 0.297094 -2.67345
+  wirecolor 0.0235294 0.52549 0.443137 
+endnode
+node emitter OmenEmitter05
+  parent Dummy04
+  position 0.0 -0.019208 -0.164775
+  orientation -1.0 0.0 0.0 -3.66519
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 2
+  render Linked
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.81 0.15 0.2 
+  colorEnd 0.81 0.15 0.2 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.15
+  sizeEnd 0.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 0.8
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 2.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_beam02
+  twosidedtex 0
+  xgrid 2
+  ygrid 1
+  fps 16
+  frameStart 0
+  frameEnd 1
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 1
+  p2p_type Bezier
+  p2p_sel 0
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 1.0
+  drag 1.0
+endnode
+node reference OmenRef05
+  parent OmenEmitter05
+  position 0.0 0.670805 1.02986
+  orientation 1.0 0.0 -2.03898e-007 -3.59538
+  wirecolor 0.568627 0.109804 0.694118 
+  refModel fx_ref
+  reattachable 0
+  Dummy Dummy
+endnode
+node emitter dust
+  parent vps_tentacle_neg
+  position 0.0 0.0 -0.00618191
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 60.0
+  ySize 60.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.81 0.15 0.2 
+  colorEnd 0.81 0.15 0.2 
+  alphaStart 0.7
+  alphaEnd 0.0
+  sizeStart 0.3
+  sizeEnd 2.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 30
+  lifeExp 1.0
+  mass 0.0
+  spread 3.14159
+  particleRot 0.4
+  velocity 0.2
+  randvel 0.1
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_Smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+endmodelgeom vps_tentacle_neg
+#NWgMax Plus ANIM ASCII
+newanim impact vps_tentacle_neg
+  length 0.433333
+  transtime 0.25
+  animroot vps_tentacle_neg
+    node dummy vps_tentacle_neg
+        parent NULL
+    endnode
+    node dummy Dummy01
+        parent vps_tentacle_neg
+        orientationkey
+            0.433333 0.0 -1.0 0.0 -3.14159
+        endlist
+    endnode
+    node emitter OmenEmitter01
+        parent Dummy01
+        birthratekey
+            0.0 0 
+            0.4 0 
+            0.433333 15 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent OmenEmitter01
+    endnode
+    node dummy Dummy02
+        parent vps_tentacle_neg
+        orientationkey
+            0.433333 -0.0637514 -0.911687 -0.405909 -3.08484
+        endlist
+    endnode
+    node emitter OmenEmitter02
+        parent Dummy02
+        birthratekey
+            0.0 0 
+            0.4 0 
+            0.433333 15 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent OmenEmitter02
+    endnode
+    node emitter OmenEmitter03
+        parent vps_tentacle_neg
+        orientationkey
+            0.433333 0.64745 0.674529 -0.35471 -2.34435
+        endlist
+        birthratekey
+            0.0 0 
+            0.4 0 
+            0.433333 15 
+        endlist
+        velocitykey
+            0.433333 2.0 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent OmenEmitter03
+    endnode
+    node dummy Dummy03
+        parent vps_tentacle_neg
+        orientationkey
+            0.433333 0.193686 0.911222 -0.36354 -2.98736
+        endlist
+    endnode
+    node emitter OmenEmitter04
+        parent Dummy03
+        birthratekey
+            0.0 0 
+            0.4 0 
+            0.433333 15 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent OmenEmitter04
+    endnode
+    node dummy Dummy04
+        parent vps_tentacle_neg
+        orientationkey
+            0.433333 0.597662 -0.744671 0.297094 -2.67345
+        endlist
+    endnode
+    node emitter OmenEmitter05
+        parent Dummy04
+        birthratekey
+            0.0 0 
+            0.4 0 
+            0.433333 15 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent OmenEmitter05
+    endnode
+    node emitter dust
+        parent vps_tentacle_neg
+        birthratekey
+            0.0 30 
+            0.0333333 30 
+            0.4 30 
+            0.433333 30 
+        endlist
+    endnode
+doneanim impact vps_tentacle_neg
+#NWgMax Plus ANIM ASCII
+newanim duration vps_tentacle_neg
+  length 0.966667
+  transtime 0.25
+  animroot vps_tentacle_neg
+    node dummy vps_tentacle_neg
+        parent NULL
+    endnode
+    node dummy Dummy01
+        parent vps_tentacle_neg
+        orientationkey
+            0.0 0.0 -1.0 0.0 -3.14159
+            0.233333 0.707107 -0.707107 0.0 -3.14159
+            0.466667 1.0 0.0 0.0 -3.14159
+            0.7 0.707107 0.707107 0.0 -3.14159
+            0.966667 0.0 1.0 0.0 -3.14159
+        endlist
+    endnode
+    node emitter OmenEmitter01
+        parent Dummy01
+        birthratekey
+            0.0 15 
+            0.833333 15 
+            0.866667 15 
+            0.9 0 
+            0.966667 0 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent OmenEmitter01
+    endnode
+    node dummy Dummy02
+        parent vps_tentacle_neg
+        orientationkey
+            0.0 -0.0637514 -0.911687 -0.405909 -3.08484
+            0.233333 0.629744 -0.724437 -0.28038 -2.51758
+            0.466667 0.997083 -0.0697228 0.0310426 -2.306
+            0.7 0.715402 0.62189 0.318518 -2.60136
+            0.966667 0.0637514 0.911687 0.405909 -3.19835
+        endlist
+    endnode
+    node emitter OmenEmitter02
+        parent Dummy02
+        birthratekey
+            0.0 15 
+            0.833333 15 
+            0.866667 15 
+            0.9 0 
+            0.966667 0 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent OmenEmitter02
+    endnode
+    node emitter OmenEmitter03
+        parent vps_tentacle_neg
+        orientationkey
+            0.0 0.536055 0.731084 -0.422092 -2.54131
+            0.233333 0.829852 0.52121 -0.199212 -2.03474
+            0.5 0.536055 0.731084 -0.422092 -2.54131
+            0.7 0.829852 0.52121 -0.199212 -2.03474
+            0.866667 0.536055 0.731084 -0.422092 -2.54131
+            0.966667 0.616935 0.6333 0.467249 -4.04861
+        endlist
+        birthratekey
+            0.0 15 
+            0.8 15 
+            0.833333 15 
+            0.866667 0 
+            0.9 0 
+            0.966667 0 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent OmenEmitter03
+    endnode
+    node dummy Dummy03
+        parent vps_tentacle_neg
+        orientationkey
+            0.0 -0.193686 -0.911221 0.36354 -3.29583
+            0.233333 0.532219 -0.819547 0.212334 -3.77361
+            0.466667 0.9748 -0.207201 -0.0826647 -3.8834
+            0.7 0.795331 0.516494 -0.317305 -3.54802
+            0.966667 0.193686 0.911221 -0.36354 -2.98735
+        endlist
+    endnode
+    node emitter OmenEmitter04
+        parent Dummy03
+        birthratekey
+            0.0 15 
+            0.833333 15 
+            0.866667 15 
+            0.9 0 
+            0.933333 0 
+            0.966667 0 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent OmenEmitter04
+    endnode
+    node dummy Dummy04
+        parent vps_tentacle_neg
+        orientationkey
+            0.0 0.597662 -0.744671 0.297094 -2.67345
+            0.233333 0.924041 -0.101199 0.368655 -3.2223
+            0.466667 0.756649 0.607275 0.242278 -3.72794
+            0.7 0.108764 0.99312 -0.0433926 -3.89607
+            0.966667 -0.597662 0.744671 -0.297094 -3.60974
+        endlist
+    endnode
+    node emitter OmenEmitter05
+        parent Dummy04
+        birthratekey
+            0.0 15 
+            0.833333 15 
+            0.866667 15 
+            0.9 0 
+            0.966667 0 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent OmenEmitter05
+    endnode
+    node emitter dust
+        parent vps_tentacle_neg
+        birthratekey
+            0.0 15 
+            0.966667 15 
+        endlist
+    endnode
+doneanim duration vps_tentacle_neg
+#NWgMax Plus ANIM ASCII
+newanim cessation vps_tentacle_neg
+  length 1.03333
+  transtime 0.25
+  animroot vps_tentacle_neg
+    node dummy vps_tentacle_neg
+        parent NULL
+    endnode
+    node dummy Dummy01
+        parent vps_tentacle_neg
+        orientationkey
+            0.0 0.0 -1.0 0.0 -3.1416
+            0.266667 0.707107 -0.707107 0.0 -3.1416
+            0.533333 1.0 1.68589e-007 0.0 -3.1416
+            0.8 0.707107 0.707107 0.0 -3.1416
+            1.03333 0.290285 -0.95694 0.0 -3.14159
+        endlist
+    endnode
+    node emitter OmenEmitter01
+        parent Dummy01
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent OmenEmitter01
+    endnode
+    node dummy Dummy02
+        parent vps_tentacle_neg
+        orientationkey
+            0.0 -0.0637514 -0.911687 -0.405909 -3.08484
+            0.266667 0.629744 -0.724437 -0.28038 -2.51759
+            0.533333 0.997083 -0.0697227 0.0310427 -2.30601
+            0.8 0.715401 0.62189 0.318518 -2.60137
+            1.03333 0.205733 -0.900082 -0.384092 -2.8507
+        endlist
+    endnode
+    node emitter OmenEmitter02
+        parent Dummy02
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+            0.7 0 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent OmenEmitter02
+    endnode
+    node emitter OmenEmitter03
+        parent vps_tentacle_neg
+        orientationkey
+            0.0 0.581537 0.459533 0.6713 -4.18038
+            0.266667 0.829853 0.52121 -0.199212 -2.03474
+            0.6 0.536055 0.731084 -0.422092 -2.54131
+            0.933333 0.829852 0.52121 -0.199212 -2.03474
+            1.03333 0.671259 0.503576 0.543895 -3.85701
+        endlist
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+            0.933333 0 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent OmenEmitter03
+    endnode
+    node dummy Dummy03
+        parent vps_tentacle_neg
+        orientationkey
+            0.0 -0.193686 -0.911221 0.36354 -3.29584
+            0.266667 0.532219 -0.819547 0.212334 -3.77362
+            0.533333 0.9748 -0.207201 -0.0826647 -3.88341
+            0.8 0.795331 0.516494 -0.317305 -3.54803
+            1.03333 0.0802273 -0.940632 0.32981 -3.50141
+        endlist
+    endnode
+    node emitter OmenEmitter04
+        parent Dummy03
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+            0.766667 0 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent OmenEmitter04
+    endnode
+    node dummy Dummy04
+        parent vps_tentacle_neg
+        orientationkey
+            0.0 0.597662 -0.744671 0.297094 -2.67345
+            0.266667 0.924041 -0.101199 0.368655 -3.2223
+            0.533333 0.756649 0.607275 0.242278 -3.72795
+            0.8 0.108764 0.99312 -0.0433927 -3.89608
+            1.03333 0.774015 -0.529483 0.347202 -2.86459
+        endlist
+    endnode
+    node emitter OmenEmitter05
+        parent Dummy04
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent OmenEmitter05
+    endnode
+    node emitter dust
+        parent vps_tentacle_neg
+        birthratekey
+            0.0 15 
+            0.0333333 15 
+            0.0666667 15 
+            0.5 5 
+            0.533333 -30 
+        endlist
+    endnode
+doneanim cessation vps_tentacle_neg
+donemodel vps_tentacle_neg
