@@ -1,0 +1,785 @@
+# Exported from NWgMax Plus v6.11.28 at 30-Dec-19 17:07:01
+# mdl file
+#
+#NWgMax Plus MODEL ASCII
+# model: vff_comet
+filedependancy Unknown
+newmodel vff_comet
+setsupermodel vff_comet NULL
+classification Effect
+#NWgMax Plus GEOM  ASCII
+beginmodelgeom vff_comet
+node dummy vff_comet
+  parent NULL
+endnode
+node trimesh RockLarg
+  parent vff_comet
+  position 0.44443 -3.5872 20.8516
+  orientation 1.0 0.0 0.0 -0.0872666
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.5
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.360784 0.415686 
+  ambient 0.0 0.203922 0.254902 
+  diffuse 0.545098 0.72549 1.0 
+  specular 0.65098 0.72549 0.737255 
+  shininess 9
+  center 1.3102 -1.4746 -9.99315 
+  bitmap vdu_tex_ice
+  verts 26
+    -0.346176 -0.44956 -0.525309
+    -0.360294 0.155293 -0.339498
+    -0.128818 -0.0184605 -0.768255
+    0.0908924 -0.480631 -0.396887
+    -0.56462 0.412461 -0.320192
+    -0.316184 0.626308 -0.494253
+    0.511554 0.450555 -0.402677
+    0.446424 -0.00599087 -0.590337
+    0.424378 -0.472279 -0.47139
+    -0.232747 -0.559145 0.432023
+    0.0252201 -0.255658 0.220588
+    0.0755863 -0.0016494 0.568392
+    -0.167953 -0.0419266 0.475088
+    0.326748 -0.557202 0.554636
+    0.362286 -0.0191617 0.565489
+    0.352081 0.286148 0.354747
+    0.0748513 0.437579 0.55629
+    -0.239873 0.349004 0.180907
+    0.0987841 -0.742129 -0.148839
+    -0.393404 -0.311598 -0.183808
+    0.528272 -0.58877 -0.041232
+    0.627448 -0.013431 -0.0142525
+    0.280438 0.563618 0.0163843
+    -0.152016 0.712637 0.133776
+    -0.52177 0.500331 0.180811
+    -0.601244 -0.00659349 0.000376718
+  faces 48
+    0 1 2  1  0 1 2  2
+    0 2 3  1  0 2 3  2
+    4 5 2  1  4 5 2  2
+    4 2 1  1  4 2 1  2
+    6 7 2  1  6 7 2  2
+    6 2 5  1  6 2 5  2
+    8 3 2  1  8 3 2  2
+    8 2 7  1  8 2 7  2
+    9 10 11  1  9 10 11  1
+    9 11 12  1  9 12 13  1
+    13 14 11  1  14 15 11  1
+    13 11 10  1  14 11 10  1
+    15 16 11  1  16 17 11  1
+    15 11 14  1  16 11 15  1
+    17 12 11  1  18 13 12  1
+    17 11 16  1  18 12 19  1
+    0 3 18  1  0 3 20  5
+    0 18 19  1  0 20 21  5
+    8 20 18  1  8 22 20  5
+    8 18 3  1  8 20 3  5
+    13 10 18  1  14 10 20  5
+    13 18 20  1  14 20 22  5
+    9 19 18  1  9 21 20  5
+    9 18 10  1  9 20 10  5
+    8 7 21  1  8 7 23  4
+    8 21 20  1  8 23 22  4
+    6 22 21  1  24 25 23  4
+    6 21 7  1  24 23 7  4
+    15 14 21  1  16 15 23  4
+    15 21 22  1  16 23 25  4
+    13 20 21  1  14 22 23  4
+    13 21 14  1  14 23 15  4
+    6 5 23  1  6 5 26  6
+    6 23 22  1  6 26 27  6
+    4 24 23  1  4 28 26  6
+    4 23 5  1  4 26 5  6
+    17 16 23  1  18 19 26  6
+    17 23 24  1  18 26 28  6
+    15 22 23  1  29 27 26  6
+    15 23 16  1  29 26 19  6
+    4 1 25  1  4 1 30  3
+    4 25 24  1  4 30 28  3
+    0 19 25  1  0 21 30  3
+    0 25 1  1  0 30 1  3
+    9 12 25  1  9 13 30  3
+    9 25 19  1  9 30 21  3
+    17 24 25  1  18 28 30  3
+    17 25 12  1  18 30 13  3
+  tverts 31
+    0.787017 0.537825 0
+    0.714345 0.539608 0
+    0.73955 0.526982 0
+    0.834592 0.539112 0
+    0.702707 0.54311 0
+    0.677166 0.54003 0
+    0.605232 0.541286 0
+    0.913821 0.53478 0
+    0.866091 0.539385 0
+    0.801822 0.558647 0
+    0.82819 0.56165 0
+    0.924181 0.569985 0
+    0.574975 0.569985 0
+    0.746377 0.566756 0
+    0.854533 0.559855 0
+    0.911996 0.564103 0
+    0.953045 0.559547 0
+    0.992459 0.562215 0
+    0.684567 0.556182 0
+    0.643253 0.562215 0
+    0.831914 0.546608 0
+    0.773151 0.545116 0
+    0.866047 0.54877 0
+    0.912817 0.549719 0
+    0.954438 0.541286 0
+    0.975936 0.550356 0
+    0.6632 0.552221 0
+    0.62673 0.550356 0
+    0.695492 0.553098 0
+    0.603839 0.559547 0
+    0.737358 0.550072 0
+endnode
+node trimesh Cylinder01
+  parent RockLarg
+  position -0.0101374 0.286543 -0.461621
+  orientation -1.0 0.0 0.0 -0.558506
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 5.76157
+  transparencyhint 0
+  selfillumcolor 0.0 0.243137 0.301961 
+  ambient 0.0666667 0.129412 0.286275 
+  diffuse 0.196078 0.317647 0.564706 
+  specular 0.0431373 0.0588235 0.105882 
+  shininess 16
+  center 4.0475 -7.241 47.0356 
+  bitmap fxpa_flame02
+  verts 68
+    0.0 0.00450504 -0.612058
+    0.568583 0.357658 -0.13935
+    0.675876 -0.00762283 -0.148915
+    0.280769 0.606965 -0.132821
+    -0.0961873 0.661145 -0.131403
+    -0.442605 0.502995 -0.135544
+    -0.648499 0.182728 -0.14393
+    -0.648499 -0.197974 -0.153899
+    -0.442605 -0.518241 -0.162286
+    -0.096187 -0.67639 -0.166427
+    0.280769 -0.622211 -0.165008
+    0.568584 -0.372904 -0.15848
+    1.185 0.733485 0.766765
+    1.40861 -0.0278087 0.74683
+    0.585159 1.25307 0.780371
+    -0.200467 1.36599 0.783328
+    -0.922446 1.03639 0.774696
+    -1.35156 0.368908 0.757218
+    -1.35156 -0.424525 0.736441
+    -0.922446 -1.092 0.718963
+    -0.200466 -1.42161 0.710332
+    0.58516 -1.30869 0.713289
+    1.185 -0.789102 0.726895
+    1.68107 1.00758 1.52928
+    1.9983 -0.0724108 1.501
+    0.830122 1.74468 1.54858
+    -0.284387 1.90487 1.55277
+    -1.30861 1.43728 1.54053
+    -1.91735 0.490381 1.51573
+    -1.91735 -0.635203 1.48626
+    -1.3086 -1.5821 1.46146
+    -0.284387 -2.04969 1.44922
+    0.830123 -1.8895 1.45342
+    1.68107 -1.1524 1.47272
+    0.552023 0.346157 -0.113293
+    0.0 0.00329006 -0.572234
+    0.656191 -0.00848453 -0.12258
+    0.272591 0.588203 -0.106955
+    -0.0933858 0.640805 -0.105577
+    -0.429714 0.487261 -0.109598
+    -0.62961 0.176322 -0.11774
+    -0.62961 -0.193292 -0.127419
+    -0.429713 -0.50423 -0.135561
+    -0.0933855 -0.657773 -0.139582
+    0.272592 -0.605172 -0.138204
+    0.552023 -0.363126 -0.131866
+    1.15049 0.71121 0.761116
+    1.36759 -0.0279099 0.741761
+    0.568116 1.21566 0.774325
+    -0.194628 1.32529 0.777196
+    -0.895579 1.00529 0.768817
+    -1.31219 0.357251 0.751847
+    -1.31219 -0.413072 0.731676
+    -0.895578 -1.06111 0.714706
+    -0.194628 -1.38111 0.706327
+    0.568116 -1.27148 0.709197
+    1.15049 -0.767029 0.722407
+    1.63211 0.977655 1.49006
+    1.94009 -0.0708786 1.4626
+    0.805943 1.69329 1.5088
+    -0.276104 1.84881 1.51287
+    -1.27049 1.39484 1.50098
+    -1.86151 0.475521 1.47691
+    -1.8615 -0.617279 1.44829
+    -1.27049 -1.5366 1.42422
+    -0.276104 -1.99057 1.41233
+    0.805944 -1.83504 1.41641
+    1.63211 -1.11941 1.43515
+  faces 110
+    0 1 2  1  0 1 2  2
+    0 3 1  1  0 3 1  2
+    0 4 3  1  0 4 3  2
+    0 5 4  1  0 5 4  2
+    0 6 5  1  0 6 5  2
+    0 7 6  1  0 7 6  2
+    0 8 7  1  0 8 7  2
+    0 9 8  1  0 9 8  2
+    0 10 9  1  0 10 9  2
+    0 11 10  1  0 11 10  2
+    0 2 11  1  0 2 11  2
+    2 12 13  2  12 13 14  3
+    2 1 12  2  12 15 13  3
+    1 14 12  2  15 16 13  3
+    1 3 14  2  15 17 16  3
+    3 15 14  2  3 18 19  3
+    3 4 15  2  3 4 18  3
+    4 16 15  2  4 20 18  3
+    4 5 16  2  4 5 20  3
+    5 17 16  2  5 21 20  3
+    5 6 17  2  5 6 21  3
+    6 18 17  2  6 22 21  3
+    6 7 18  2  6 7 22  3
+    7 19 18  2  7 23 22  3
+    7 8 19  2  7 8 23  3
+    8 20 19  2  8 24 23  3
+    8 9 20  2  8 9 24  3
+    9 21 20  2  9 25 24  3
+    9 10 21  2  9 10 25  3
+    10 22 21  2  10 26 25  3
+    10 11 22  2  10 27 26  3
+    11 13 22  2  27 14 26  3
+    11 2 13  2  27 12 14  3
+    13 23 24  2  14 28 29  3
+    13 12 23  2  14 13 28  3
+    12 25 23  2  13 30 28  3
+    12 14 25  2  13 16 30  3
+    14 26 25  2  19 31 32  3
+    14 15 26  2  19 18 31  3
+    15 27 26  2  18 33 31  3
+    15 16 27  2  18 20 33  3
+    16 28 27  2  20 34 33  3
+    16 17 28  2  20 21 34  3
+    17 29 28  2  21 35 34  3
+    17 18 29  2  21 22 35  3
+    18 30 29  2  22 36 35  3
+    18 19 30  2  22 23 36  3
+    19 31 30  2  23 37 36  3
+    19 20 31  2  23 24 37  3
+    20 32 31  2  24 38 37  3
+    20 21 32  2  24 25 38  3
+    21 33 32  2  25 39 38  3
+    21 22 33  2  25 26 39  3
+    22 24 33  2  26 29 39  3
+    22 13 24  2  26 14 29  3
+    34 35 36  1  40 41 42  2
+    37 35 34  1  43 41 40  2
+    38 35 37  1  44 41 43  2
+    39 35 38  1  45 41 44  2
+    40 35 39  1  46 41 45  2
+    41 35 40  1  47 41 46  2
+    42 35 41  1  48 41 47  2
+    43 35 42  1  49 41 48  2
+    44 35 43  1  50 41 49  2
+    45 35 44  1  51 41 50  2
+    36 35 45  1  42 41 51  2
+    46 36 47  2  52 53 54  3
+    34 36 46  2  55 53 52  3
+    48 34 46  2  56 55 52  3
+    37 34 48  2  57 55 56  3
+    49 37 48  2  58 43 59  3
+    38 37 49  2  44 43 58  3
+    50 38 49  2  60 44 58  3
+    39 38 50  2  45 44 60  3
+    51 39 50  2  61 45 60  3
+    40 39 51  2  46 45 61  3
+    52 40 51  2  62 46 61  3
+    41 40 52  2  47 46 62  3
+    53 41 52  2  63 47 62  3
+    42 41 53  2  48 47 63  3
+    54 42 53  2  64 48 63  3
+    43 42 54  2  49 48 64  3
+    55 43 54  2  65 49 64  3
+    44 43 55  2  50 49 65  3
+    56 44 55  2  66 50 65  3
+    45 44 56  2  67 50 66  3
+    47 45 56  2  54 67 66  3
+    36 45 47  2  53 67 54  3
+    57 47 58  2  68 54 69  3
+    46 47 57  2  52 54 68  3
+    59 46 57  2  70 52 68  3
+    48 46 59  2  56 52 70  3
+    60 48 59  2  71 59 72  3
+    49 48 60  2  58 59 71  3
+    61 49 60  2  73 58 71  3
+    50 49 61  2  60 58 73  3
+    62 50 61  2  74 60 73  3
+    51 50 62  2  61 60 74  3
+    63 51 62  2  75 61 74  3
+    52 51 63  2  62 61 75  3
+    64 52 63  2  76 62 75  3
+    53 52 64  2  63 62 76  3
+    65 53 64  2  77 63 76  3
+    54 53 65  2  64 63 77  3
+    66 54 65  2  78 64 77  3
+    55 54 66  2  65 64 78  3
+    67 55 66  2  79 65 78  3
+    56 55 67  2  66 65 79  3
+    58 56 67  2  69 66 79  3
+    47 56 58  2  54 66 69  3
+  tverts 80
+    0.154183 0.000499517 0
+    -0.282457 0.21864 0
+    -0.467656 0.214225 0
+    -0.108216 0.221652 0
+    0.0586283 0.222307 0
+    0.222305 0.220396 0
+    0.387108 0.216526 0
+    0.557381 0.211925 0
+    0.737243 0.208055 0
+    0.92917 0.206144 0
+    1.13116 0.206799 0
+    -0.664665 0.209811 0
+    1.53234 0.214225 0
+    1.69528 0.636783 0
+    1.51037 0.627583 0
+    1.71754 0.21864 0
+    1.87589 0.643061 0
+    1.89178 0.221652 0
+    0.052828 0.644426 0
+    -0.124108 0.643061 0
+    0.227623 0.640443 0
+    0.402276 0.632377 0
+    0.578862 0.622789 0
+    0.759097 0.614723 0
+    0.943749 0.61074 0
+    1.1321 0.612105 0
+    1.32192 0.618384 0
+    1.33533 0.209811 0
+    1.68531 0.988658 0
+    1.5 0.975607 0
+    1.86951 0.997565 0
+    0.0518341 0.999501 0
+    -0.13049 0.997565 0
+    0.232135 0.99385 0
+    0.410902 0.982408 0
+    0.589098 0.968806 0
+    0.767865 0.957364 0
+    0.948166 0.951714 0
+    1.13049 0.95365 0
+    1.31469 0.962557 0
+    -0.281716 0.230664 0
+    0.156281 0.0188773 0
+    -0.46707 0.226378 0
+    -0.107555 0.233589 0
+    0.0590542 0.234224 0
+    0.222411 0.232369 0
+    0.386862 0.228612 0
+    0.556811 0.224145 0
+    0.736469 0.220388 0
+    0.928441 0.218532 0
+    1.13079 0.219168 0
+    -0.664498 0.222093 0
+    1.69567 0.634176 0
+    1.53293 0.226378 0
+    1.51067 0.625244 0
+    1.71828 0.230664 0
+    1.87625 0.640271 0
+    1.89245 0.233589 0
+    0.0530447 0.641596 0
+    -0.123755 0.640271 0
+    0.227647 0.637729 0
+    0.4021 0.629899 0
+    0.578532 0.62059 0
+    0.758704 0.612759 0
+    0.943421 0.608892 0
+    1.13195 0.610217 0
+    1.32202 0.616313 0
+    1.3355 0.222093 0
+    1.68564 0.97056 0
+    1.50026 0.957889 0
+    1.86979 0.979207 0
+    0.0519836 0.981087 0
+    -0.13021 0.979207 0
+    0.232112 0.975601 0
+    0.410717 0.964492 0
+    0.588809 0.951287 0
+    0.767557 0.940178 0
+    0.947935 0.934692 0
+    1.13041 0.936571 0
+    1.31479 0.945219 0
+endnode
+node emitter smoke01
+  parent RockLarg
+  position 0.0576488 -0.0470785 0.0409528
+  orientation 1.0 0.0 0.0 -5.83041
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 1
+  xSize 150.0
+  ySize 150.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 2
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 0.27451 0.729412 0.843137 
+  alphaStart 0.8
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 5.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 1.5
+  mass 0.0
+  spread 0.349066
+  particleRot -1.0
+  velocity 3.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_Smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  frameStart 0
+  frameEnd 16
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node light AuroraLight01
+  parent vff_comet
+  position 0.0 0.0 1.89631
+  orientation -0.57735 0.57735 0.57735 -2.0944
+  wirecolor 1.0 1.0 1.0 
+  radius 13.0
+  multiplier 6.0
+  color 0.0 0.490196 0.564706 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 2
+  fadingLight 1
+endnode
+node emitter WIND_Dummy
+  parent vff_comet
+  position 0.0452818 -0.122634 0.390378
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 0.0
+  alphaEnd 0.0
+  sizeStart 0.0
+  sizeEnd 0.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 0.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture NULL
+  twosidedtex 0
+  xgrid 0
+  ygrid 0
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 20.0
+  blastLength 1.2
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter Ring
+  parent vff_comet
+  position 0.465293 1.73154 0.620121
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 4
+  render Billboard_to_World_Z
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.882353 0.941177 0.952941 
+  colorEnd 0.184314 0.52549 0.905882 
+  alphaStart 1.0
+  alphaEnd 0.1
+  sizeStart 0.5
+  sizeEnd 17.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 0.4
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_ringwave
+  twosidedtex 0
+  xgrid 2
+  ygrid 2
+  fps 12
+  frameStart 0
+  frameEnd 3
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter Flame01
+  parent vff_comet
+  position -0.549427 1.71421 1.32737
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 7
+  render Motion_Blur
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.623529 0.768628 0.815686 
+  colorEnd 0.498039 0.815686 1.0 
+  alphaStart 0.3
+  alphaEnd 0.3
+  sizeStart 2.0
+  sizeEnd 10.0
+  sizeStart_y 5.0
+  sizeEnd_y 20.0
+  birthrate 5
+  lifeExp 0.2
+  mass 0.0
+  spread 3.14159
+  particleRot 0.0
+  velocity 15.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_flstrk
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+endmodelgeom vff_comet
+#NWgMax Plus ANIM ASCII
+newanim impact vff_comet
+  length 3.3
+  transtime 0.25
+  animroot vff_comet
+  event 2.33333 detonate
+  event 2.36667 detonate
+  event 2.56667 detonate
+  event 2.53333 detonate
+  event 2.63333 detonate
+    node dummy vff_comet
+        parent NULL
+    endnode
+    node trimesh RockLarg
+        parent vff_comet
+        positionkey
+            0.0 0.44443 -3.5872 20.8516
+            2.26667 0.44443 1.90359 1.10153
+            2.3 0.44443 2.08071 0.75391
+            2.53333 0.44 1.18 -5.47245
+            3.3 0.44 1.18 -5.47245
+        endlist
+        alphakey
+            0.0 1.0 
+            2.26667 1.0 
+            2.3 1.0 
+            2.33333 0.0 
+        endlist
+    endnode
+    node trimesh Cylinder01
+        parent RockLarg
+        positionkey
+            2.26667 -0.0101374 0.286543 -0.461618
+            2.36667 -0.0101374 0.286543 -0.461618
+        endlist
+        orientationkey
+            2.26667 -1.0 0.0 0.0 -0.558506
+            2.36667 -1.0 0.0 0.0 -0.558506
+        endlist
+        alphakey
+            2.26667 1.0 
+            2.36667 0.0 
+        endlist
+    endnode
+    node emitter smoke01
+        parent RockLarg
+        birthratekey
+            3.3 0 
+        endlist
+    endnode
+    node light AuroraLight01
+        parent vff_comet
+    endnode
+    node emitter WIND_Dummy
+        parent vff_comet
+    endnode
+    node emitter Ring
+        parent vff_comet
+    endnode
+    node emitter Flame01
+        parent vff_comet
+        positionkey
+            0.0 -0.549427 1.71421 1.32737
+            1.33333 -0.549427 1.71421 1.32737
+            3.3 -0.549427 1.71421 1.32737
+        endlist
+        orientationkey
+            0.0 1.0 0.0 0.0 -0.0766227
+            1.33333 1.0 0.0 0.0 -3.14159
+            3.3 1.0 0.0 0.0 -0.0523627
+        endlist
+    endnode
+doneanim impact vff_comet
+donemodel vff_comet
