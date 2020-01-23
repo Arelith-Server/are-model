@@ -2,50 +2,50 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: alc_x03h
+# model: alc_xh3
 #local file: Unknown
 filedependancy Unknown
-newmodel alc_x03h
-setsupermodel alc_x03h NULL
+newmodel alc_xh3
+setsupermodel alc_xh3 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom alc_x03h
-node dummy alc_x03h
+beginmodelgeom alc_xh3
+node dummy alc_xh3
   parent NULL
 endnode
-node dummy x03h_hand
-  parent alc_x03h
+node dummy xh3_hand
+  parent alc_xh3
   position 0.00398437 -0.505195 0.934402
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.423529 0.0313726 0.533333 
 endnode
-node dummy x03h_head
-  parent alc_x03h
+node dummy xh3_head
+  parent alc_xh3
   position 0.00398437 0.0108252 0.930563
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.603922 0.72549 0.898039 
 endnode
-node dummy x03h_head_hit
-  parent alc_x03h
+node dummy xh3_head_hit
+  parent alc_xh3
   position 0.00398437 0.0108252 0.449084
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.603922 0.72549 0.898039 
 endnode
-node dummy x03h_impact
-  parent alc_x03h
+node dummy xh3_impact
+  parent alc_xh3
   position 0.00398437 0.011001 0.213608
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.603922 0.72549 0.898039 
 endnode
-node dummy x03h_ground
-  parent alc_x03h
+node dummy xh3_ground
+  parent alc_xh3
   position -0.00363281 0.0069873 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.341176 0.878431 0.560784 
 endnode
 node emitter fire!115
-  parent alc_x03h
+  parent alc_xh3
   position 0.0272229 0.00260101 0.435227
   orientation 1.0 0.0 0.0 -4.71239
   wirecolor 1.0 1.0 1.0 
@@ -113,7 +113,7 @@ node emitter fire!115
   drag 0.0
 endnode
 node emitter ChunkyWood186
-  parent alc_x03h
+  parent alc_xh3
   position 0.0272229 0.00260101 0.615493
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -182,7 +182,7 @@ node emitter ChunkyWood186
   drag 0.0
 endnode
 node emitter ChunkyWood187
-  parent alc_x03h
+  parent alc_xh3
   position 0.0272229 0.0035849 0.509271
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -251,7 +251,7 @@ node emitter ChunkyWood187
   drag 0.0
 endnode
 node trimesh damage73
-  parent alc_x03h
+  parent alc_xh3
   position 0.0287878 -0.0179642 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -326,7 +326,7 @@ node trimesh Mesh143
   specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 -5.00679e-006 0.0 
-  bitmap alc_x03h
+  bitmap alc_xh3
   verts 16
     -0.752381 -0.0311596 -0.278539
     0.75238 -0.0311596 -0.278539
@@ -593,7 +593,7 @@ node trimesh Object41
   specular 0.0 0.0 0.0 
   shininess 1
   center 0.734497 -4.1676 48.25 
-  bitmap alc_x03h
+  bitmap alc_xh3
   verts 8
     -0.703893 -0.422038 0.524015
     0.71858 -0.422038 0.524015
@@ -659,41 +659,41 @@ node trimesh fix01
     1.40767 0.497565 0
     0.0923243 0.497565 0
 endnode
-endmodelgeom alc_x03h
+endmodelgeom alc_xh3
 #NWmax ANIM ASCII
-newanim damage alc_x03h
+newanim damage alc_xh3
   length 0.133333
   transtime 0.0
-  animroot alc_x03h
-    node dummy alc_x03h
+  animroot alc_xh3
+    node dummy alc_xh3
         parent NULL
     endnode
-    node dummy x03h_hand
-        parent alc_x03h
+    node dummy xh3_hand
+        parent alc_xh3
     endnode
-    node dummy x03h_head
-        parent alc_x03h
+    node dummy xh3_head
+        parent alc_xh3
     endnode
-    node dummy x03h_head_hit
-        parent alc_x03h
+    node dummy xh3_head_hit
+        parent alc_xh3
     endnode
-    node dummy x03h_impact
-        parent alc_x03h
+    node dummy xh3_impact
+        parent alc_xh3
     endnode
-    node dummy x03h_ground
-        parent alc_x03h
+    node dummy xh3_ground
+        parent alc_xh3
     endnode
     node emitter fire!115
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node emitter ChunkyWood186
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node emitter ChunkyWood187
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node trimesh damage73
-        parent alc_x03h
+        parent alc_xh3
         positionkey
             0.0 0.0287878 -0.0179642 0.0
             0.0333333 0.0287878 -0.0179642 0.0244581
@@ -718,53 +718,53 @@ newanim damage alc_x03h
     node trimesh fix01
         parent damage73
     endnode
-    node dummy alc_x03h_pwk
-        parent alc_x03h
+    node dummy alc_xh3_pwk
+        parent alc_xh3
     endnode
-    node trimesh alc_x03h_wg
-        parent alc_x03h_pwk
+    node trimesh alc_xh3_wg
+        parent alc_xh3_pwk
     endnode
-    node dummy x03h_pwk_use01
-        parent alc_x03h_pwk
+    node dummy xh3_pwk_use01
+        parent alc_xh3_pwk
     endnode
-doneanim damage alc_x03h
+doneanim damage alc_xh3
 #NWmax ANIM ASCII
-newanim die alc_x03h
+newanim die alc_xh3
   length 0.166667
   transtime 0.0
-  animroot alc_x03h
+  animroot alc_xh3
   event 0.0333333 detonate
   event 0.0333333 detonate
   event 0.0333333 detonate
-    node dummy alc_x03h
+    node dummy alc_xh3
         parent NULL
     endnode
-    node dummy x03h_hand
-        parent alc_x03h
+    node dummy xh3_hand
+        parent alc_xh3
     endnode
-    node dummy x03h_head
-        parent alc_x03h
+    node dummy xh3_head
+        parent alc_xh3
     endnode
-    node dummy x03h_head_hit
-        parent alc_x03h
+    node dummy xh3_head_hit
+        parent alc_xh3
     endnode
-    node dummy x03h_impact
-        parent alc_x03h
+    node dummy xh3_impact
+        parent alc_xh3
     endnode
-    node dummy x03h_ground
-        parent alc_x03h
+    node dummy xh3_ground
+        parent alc_xh3
     endnode
     node emitter fire!115
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node emitter ChunkyWood186
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node emitter ChunkyWood187
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node trimesh damage73
-        parent alc_x03h
+        parent alc_xh3
         positionkey
             0.0 0.0287878 -0.0179642 0.0
             0.166667 0.0287878 -0.0179642 -6.95145
@@ -782,50 +782,50 @@ newanim die alc_x03h
     node trimesh fix01
         parent damage73
     endnode
-    node dummy alc_x03h_pwk
-        parent alc_x03h
+    node dummy alc_xh3_pwk
+        parent alc_xh3
     endnode
-    node trimesh alc_x03h_wg
-        parent alc_x03h_pwk
+    node trimesh alc_xh3_wg
+        parent alc_xh3_pwk
     endnode
-    node dummy x03h_pwk_use01
-        parent alc_x03h_pwk
+    node dummy xh3_pwk_use01
+        parent alc_xh3_pwk
     endnode
-doneanim die alc_x03h
+doneanim die alc_xh3
 #NWmax ANIM ASCII
-newanim dead alc_x03h
+newanim dead alc_xh3
   length 0.0333333
   transtime 0.0
-  animroot alc_x03h
-    node dummy alc_x03h
+  animroot alc_xh3
+    node dummy alc_xh3
         parent NULL
     endnode
-    node dummy x03h_hand
-        parent alc_x03h
+    node dummy xh3_hand
+        parent alc_xh3
     endnode
-    node dummy x03h_head
-        parent alc_x03h
+    node dummy xh3_head
+        parent alc_xh3
     endnode
-    node dummy x03h_head_hit
-        parent alc_x03h
+    node dummy xh3_head_hit
+        parent alc_xh3
     endnode
-    node dummy x03h_impact
-        parent alc_x03h
+    node dummy xh3_impact
+        parent alc_xh3
     endnode
-    node dummy x03h_ground
-        parent alc_x03h
+    node dummy xh3_ground
+        parent alc_xh3
     endnode
     node emitter fire!115
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node emitter ChunkyWood186
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node emitter ChunkyWood187
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node trimesh damage73
-        parent alc_x03h
+        parent alc_xh3
         positionkey
             0.0 0.0287878 -0.0179642 -6.95145
             0.0333333 0.0287878 -0.0179642 -6.95145
@@ -843,50 +843,50 @@ newanim dead alc_x03h
     node trimesh fix01
         parent damage73
     endnode
-    node dummy alc_x03h_pwk
-        parent alc_x03h
+    node dummy alc_xh3_pwk
+        parent alc_xh3
     endnode
-    node trimesh alc_x03h_wg
-        parent alc_x03h_pwk
+    node trimesh alc_xh3_wg
+        parent alc_xh3_pwk
     endnode
-    node dummy x03h_pwk_use01
-        parent alc_x03h_pwk
+    node dummy xh3_pwk_use01
+        parent alc_xh3_pwk
     endnode
-doneanim dead alc_x03h
+doneanim dead alc_xh3
 #NWmax ANIM ASCII
-newanim default alc_x03h
+newanim default alc_xh3
   length 0.0
   transtime 0.25
-  animroot alc_x03h
-    node dummy alc_x03h
+  animroot alc_xh3
+    node dummy alc_xh3
         parent NULL
     endnode
-    node dummy x03h_hand
-        parent alc_x03h
+    node dummy xh3_hand
+        parent alc_xh3
     endnode
-    node dummy x03h_head
-        parent alc_x03h
+    node dummy xh3_head
+        parent alc_xh3
     endnode
-    node dummy x03h_head_hit
-        parent alc_x03h
+    node dummy xh3_head_hit
+        parent alc_xh3
     endnode
-    node dummy x03h_impact
-        parent alc_x03h
+    node dummy xh3_impact
+        parent alc_xh3
     endnode
-    node dummy x03h_ground
-        parent alc_x03h
+    node dummy xh3_ground
+        parent alc_xh3
     endnode
     node emitter fire!115
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node emitter ChunkyWood186
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node emitter ChunkyWood187
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node trimesh damage73
-        parent alc_x03h
+        parent alc_xh3
     endnode
     node trimesh Mesh143
         parent damage73
@@ -900,14 +900,14 @@ newanim default alc_x03h
     node trimesh fix01
         parent damage73
     endnode
-    node dummy alc_x03h_pwk
-        parent alc_x03h
+    node dummy alc_xh3_pwk
+        parent alc_xh3
     endnode
-    node trimesh alc_x03h_wg
-        parent alc_x03h_pwk
+    node trimesh alc_xh3_wg
+        parent alc_xh3_pwk
     endnode
-    node dummy x03h_pwk_use01
-        parent alc_x03h_pwk
+    node dummy xh3_pwk_use01
+        parent alc_xh3_pwk
     endnode
-doneanim default alc_x03h
-donemodel alc_x03h
+doneanim default alc_xh3
+donemodel alc_xh3

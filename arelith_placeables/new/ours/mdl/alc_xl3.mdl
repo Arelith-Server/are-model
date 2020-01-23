@@ -1,51 +1,51 @@
-# Exported from NWmax 0.8 b61 at 10/21/2019 2:21:21 PM
+# Exported from NWmax 0.8 b61 at 10/22/2019 8:47:15 PM
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: alc_x03a
+# model: alc_xl3
 #local file: Unknown
 filedependancy Unknown
-newmodel alc_x03a
-setsupermodel alc_x03a NULL
+newmodel alc_xl3
+setsupermodel alc_xl3 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom alc_x03a
-node dummy alc_x03a
+beginmodelgeom alc_xl3
+node dummy alc_xl3
   parent NULL
 endnode
-node dummy x03a_hand
-  parent alc_x03a
+node dummy xl3_hand
+  parent alc_xl3
   position 0.00398437 -0.505195 0.934402
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.898039 0.603922 0.843137 
+  wirecolor 0.768628 0.345098 0.882353 
 endnode
-node dummy x03a_head
-  parent alc_x03a
+node dummy xl3_head
+  parent alc_xl3
   position 0.00398437 0.0108252 0.930563
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.898039 0.603922 0.843137 
+  wirecolor 0.345098 0.560784 0.882353 
 endnode
-node dummy x03a_head_hit
-  parent alc_x03a
+node dummy xl3_head_hit
+  parent alc_xl3
   position 0.00398437 0.0108252 0.449084
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.898039 0.603922 0.843137 
+  wirecolor 0.345098 0.560784 0.882353 
 endnode
-node dummy x03a_impact
-  parent alc_x03a
+node dummy xl3_impact
+  parent alc_xl3
   position 0.00398437 0.011001 0.213608
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.898039 0.603922 0.843137 
+  wirecolor 0.345098 0.560784 0.882353 
 endnode
-node dummy x03a_ground
-  parent alc_x03a
+node dummy xl3_ground
+  parent alc_xl3
   position -0.00363281 0.0069873 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.898039 0.603922 0.843137 
+  wirecolor 0.345098 0.560784 0.882353 
 endnode
 node emitter fire!115
-  parent alc_x03a
+  parent alc_xl3
   position 0.0272229 0.00260101 0.435227
   orientation 1.0 0.0 0.0 -4.71239
   wirecolor 1.0 1.0 1.0 
@@ -113,7 +113,7 @@ node emitter fire!115
   drag 0.0
 endnode
 node emitter ChunkyWood186
-  parent alc_x03a
+  parent alc_xl3
   position 0.0272229 0.00260101 0.615493
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -182,7 +182,7 @@ node emitter ChunkyWood186
   drag 0.0
 endnode
 node emitter ChunkyWood187
-  parent alc_x03a
+  parent alc_xl3
   position 0.0272229 0.0035849 0.509271
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -251,7 +251,7 @@ node emitter ChunkyWood187
   drag 0.0
 endnode
 node trimesh damage73
-  parent alc_x03a
+  parent alc_xl3
   position 0.0287878 -0.0179642 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -326,7 +326,7 @@ node trimesh Mesh143
   specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 -5.00679e-006 0.0 
-  bitmap alc_x03a
+  bitmap alc_xl3
   verts 16
     -0.752381 -0.0311596 -0.278539
     0.75238 -0.0311596 -0.278539
@@ -368,30 +368,30 @@ node trimesh Mesh143
     13 14 4  4  17 23 4  1
     4 6 13  4  4 6 17  1
   tverts 24
-    0.994657 1.1757 0
-    0.994657 -0.184339 0
-    0.658829 -0.279024 0
-    0.658829 1.27038 0
-    0.00153356 -0.192944 0
-    0.205584 1.27038 0
-    0.199972 -0.279026 0
-    0.00153356 1.18431 0
-    0.525095 -0.218341 0
-    0.525095 1.2097 0
-    0.558504 1.1757 0
-    0.558504 -0.184341 0
-    1.02496 -0.218339 0
-    0.672338 -0.317758 0
-    0.672338 1.30912 0
-    1.02496 1.2097 0
-    0.19643 1.30912 0
-    0.19054 -0.317762 0
-    0.415533 -0.227376 0
-    0.415533 1.21874 0
-    0.454158 1.1843 0
-    0.454158 -0.192944 0
-    -0.0178213 1.21874 0
-    -0.0178213 -0.227376 0
+    1.99072 -0.430681 0
+    -1.04337 -0.430681 0
+    -1.25461 0.113362 0
+    2.20194 0.113362 0
+    -1.06257 1.17818 0
+    2.20194 0.847619 0
+    -1.25461 0.85671 0
+    2.00992 1.17818 0
+    -1.11923 0.330011 0
+    2.06657 0.330011 0
+    1.99072 0.275888 0
+    -1.04338 0.275888 0
+    -1.11922 -0.479771 0
+    -1.34102 0.0914765 0
+    2.28836 0.091477 0
+    2.06657 -0.479771 0
+    2.28836 0.862448 0
+    -1.34103 0.87199 0
+    -1.13939 0.507501 0
+    2.08673 0.507501 0
+    2.0099 0.444929 0
+    -1.06257 0.444929 0
+    2.08673 1.20953 0
+    -1.13939 1.20953 0
 endnode
 node trimesh Box121
   parent damage73
@@ -593,7 +593,7 @@ node trimesh Object41
   specular 0.0 0.0 0.0 
   shininess 1
   center 0.734497 -4.1676 48.25 
-  bitmap alc_x03a
+  bitmap alc_xl3
   verts 8
     -0.703893 -0.422038 0.524015
     0.71858 -0.422038 0.524015
@@ -615,14 +615,14 @@ node trimesh Object41
     7 3 6  2  7 3 6  1
     3 2 6  2  3 2 6  1
   tverts 8
-    0.882094 -0.2859 0
-    0.882094 1.33565 0
-    0.0963366 1.33565 0
-    0.0963361 -0.285898 0
-    0.985395 -0.375684 0
-    0.985395 1.42544 0
-    0.0164356 1.42544 0
-    0.0164352 -0.375684 0
+    -1.02174 0.0566719 0
+    2.04853 0.0745216 0
+    2.03997 1.54029 0
+    -1.02174 1.54029 0
+    -1.18089 -0.148718 0
+    2.21975 -0.119042 0
+    2.20379 1.71042 0
+    -1.19685 1.68074 0
 endnode
 node trimesh fix01
   parent damage73
@@ -659,41 +659,41 @@ node trimesh fix01
     1.40767 0.497565 0
     0.0923243 0.497565 0
 endnode
-endmodelgeom alc_x03a
+endmodelgeom alc_xl3
 #NWmax ANIM ASCII
-newanim damage alc_x03a
+newanim damage alc_xl3
   length 0.133333
   transtime 0.0
-  animroot alc_x03a
-    node dummy alc_x03a
+  animroot alc_xl3
+    node dummy alc_xl3
         parent NULL
     endnode
-    node dummy x03a_hand
-        parent alc_x03a
+    node dummy xl3_hand
+        parent alc_xl3
     endnode
-    node dummy x03a_head
-        parent alc_x03a
+    node dummy xl3_head
+        parent alc_xl3
     endnode
-    node dummy x03a_head_hit
-        parent alc_x03a
+    node dummy xl3_head_hit
+        parent alc_xl3
     endnode
-    node dummy x03a_impact
-        parent alc_x03a
+    node dummy xl3_impact
+        parent alc_xl3
     endnode
-    node dummy x03a_ground
-        parent alc_x03a
+    node dummy xl3_ground
+        parent alc_xl3
     endnode
     node emitter fire!115
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node emitter ChunkyWood186
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node emitter ChunkyWood187
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node trimesh damage73
-        parent alc_x03a
+        parent alc_xl3
         positionkey
             0.0 0.0287878 -0.0179642 0.0
             0.0333333 0.0287878 -0.0179642 0.0244581
@@ -718,53 +718,53 @@ newanim damage alc_x03a
     node trimesh fix01
         parent damage73
     endnode
-    node dummy alc_x03a_pwk
-        parent alc_x03a
+    node dummy alc_xl3_pwk
+        parent alc_xl3
     endnode
-    node trimesh alc_x03a_wg
-        parent alc_x03a_pwk
+    node trimesh alc_xl3_wg
+        parent alc_xl3_pwk
     endnode
-    node dummy x03a_pwk_use01
-        parent alc_x03a_pwk
+    node dummy xl3_pwk_use01
+        parent alc_xl3_pwk
     endnode
-doneanim damage alc_x03a
+doneanim damage alc_xl3
 #NWmax ANIM ASCII
-newanim die alc_x03a
+newanim die alc_xl3
   length 0.166667
   transtime 0.0
-  animroot alc_x03a
+  animroot alc_xl3
   event 0.0333333 detonate
   event 0.0333333 detonate
   event 0.0333333 detonate
-    node dummy alc_x03a
+    node dummy alc_xl3
         parent NULL
     endnode
-    node dummy x03a_hand
-        parent alc_x03a
+    node dummy xl3_hand
+        parent alc_xl3
     endnode
-    node dummy x03a_head
-        parent alc_x03a
+    node dummy xl3_head
+        parent alc_xl3
     endnode
-    node dummy x03a_head_hit
-        parent alc_x03a
+    node dummy xl3_head_hit
+        parent alc_xl3
     endnode
-    node dummy x03a_impact
-        parent alc_x03a
+    node dummy xl3_impact
+        parent alc_xl3
     endnode
-    node dummy x03a_ground
-        parent alc_x03a
+    node dummy xl3_ground
+        parent alc_xl3
     endnode
     node emitter fire!115
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node emitter ChunkyWood186
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node emitter ChunkyWood187
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node trimesh damage73
-        parent alc_x03a
+        parent alc_xl3
         positionkey
             0.0 0.0287878 -0.0179642 0.0
             0.166667 0.0287878 -0.0179642 -6.95145
@@ -782,50 +782,50 @@ newanim die alc_x03a
     node trimesh fix01
         parent damage73
     endnode
-    node dummy alc_x03a_pwk
-        parent alc_x03a
+    node dummy alc_xl3_pwk
+        parent alc_xl3
     endnode
-    node trimesh alc_x03a_wg
-        parent alc_x03a_pwk
+    node trimesh alc_xl3_wg
+        parent alc_xl3_pwk
     endnode
-    node dummy x03a_pwk_use01
-        parent alc_x03a_pwk
+    node dummy xl3_pwk_use01
+        parent alc_xl3_pwk
     endnode
-doneanim die alc_x03a
+doneanim die alc_xl3
 #NWmax ANIM ASCII
-newanim dead alc_x03a
+newanim dead alc_xl3
   length 0.0333333
   transtime 0.0
-  animroot alc_x03a
-    node dummy alc_x03a
+  animroot alc_xl3
+    node dummy alc_xl3
         parent NULL
     endnode
-    node dummy x03a_hand
-        parent alc_x03a
+    node dummy xl3_hand
+        parent alc_xl3
     endnode
-    node dummy x03a_head
-        parent alc_x03a
+    node dummy xl3_head
+        parent alc_xl3
     endnode
-    node dummy x03a_head_hit
-        parent alc_x03a
+    node dummy xl3_head_hit
+        parent alc_xl3
     endnode
-    node dummy x03a_impact
-        parent alc_x03a
+    node dummy xl3_impact
+        parent alc_xl3
     endnode
-    node dummy x03a_ground
-        parent alc_x03a
+    node dummy xl3_ground
+        parent alc_xl3
     endnode
     node emitter fire!115
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node emitter ChunkyWood186
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node emitter ChunkyWood187
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node trimesh damage73
-        parent alc_x03a
+        parent alc_xl3
         positionkey
             0.0 0.0287878 -0.0179642 -6.95145
             0.0333333 0.0287878 -0.0179642 -6.95145
@@ -843,50 +843,50 @@ newanim dead alc_x03a
     node trimesh fix01
         parent damage73
     endnode
-    node dummy alc_x03a_pwk
-        parent alc_x03a
+    node dummy alc_xl3_pwk
+        parent alc_xl3
     endnode
-    node trimesh alc_x03a_wg
-        parent alc_x03a_pwk
+    node trimesh alc_xl3_wg
+        parent alc_xl3_pwk
     endnode
-    node dummy x03a_pwk_use01
-        parent alc_x03a_pwk
+    node dummy xl3_pwk_use01
+        parent alc_xl3_pwk
     endnode
-doneanim dead alc_x03a
+doneanim dead alc_xl3
 #NWmax ANIM ASCII
-newanim default alc_x03a
+newanim default alc_xl3
   length 0.0
   transtime 0.25
-  animroot alc_x03a
-    node dummy alc_x03a
+  animroot alc_xl3
+    node dummy alc_xl3
         parent NULL
     endnode
-    node dummy x03a_hand
-        parent alc_x03a
+    node dummy xl3_hand
+        parent alc_xl3
     endnode
-    node dummy x03a_head
-        parent alc_x03a
+    node dummy xl3_head
+        parent alc_xl3
     endnode
-    node dummy x03a_head_hit
-        parent alc_x03a
+    node dummy xl3_head_hit
+        parent alc_xl3
     endnode
-    node dummy x03a_impact
-        parent alc_x03a
+    node dummy xl3_impact
+        parent alc_xl3
     endnode
-    node dummy x03a_ground
-        parent alc_x03a
+    node dummy xl3_ground
+        parent alc_xl3
     endnode
     node emitter fire!115
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node emitter ChunkyWood186
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node emitter ChunkyWood187
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node trimesh damage73
-        parent alc_x03a
+        parent alc_xl3
     endnode
     node trimesh Mesh143
         parent damage73
@@ -900,14 +900,14 @@ newanim default alc_x03a
     node trimesh fix01
         parent damage73
     endnode
-    node dummy alc_x03a_pwk
-        parent alc_x03a
+    node dummy alc_xl3_pwk
+        parent alc_xl3
     endnode
-    node trimesh alc_x03a_wg
-        parent alc_x03a_pwk
+    node trimesh alc_xl3_wg
+        parent alc_xl3_pwk
     endnode
-    node dummy x03a_pwk_use01
-        parent alc_x03a_pwk
+    node dummy xl3_pwk_use01
+        parent alc_xl3_pwk
     endnode
-doneanim default alc_x03a
-donemodel alc_x03a
+doneanim default alc_xl3
+donemodel alc_xl3
