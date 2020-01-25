@@ -1,42 +1,42 @@
 #MAXMODEL ASCII
-# model: alc_x03o
-filedependancy alc_x03o.max
-newmodel alc_x03o
-setsupermodel alc_x03o NULL
+# model: alc_xo3
+filedependancy alc_xo3.max
+newmodel alc_xo3
+setsupermodel alc_xo3 NULL
 classification CHARACTER
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom alc_x03o
-node dummy alc_x03o
+beginmodelgeom alc_xo3
+node dummy alc_xo3
   parent NULL
 endnode
-node dummy x03o_hand
-  parent alc_x03o
+node dummy xo3_hand
+  parent alc_xo3
   position 0.00398437 -0.505195 0.934402
   orientation 0 0 0 0
 endnode
-node dummy x03o_head
-  parent alc_x03o
+node dummy xo3_head
+  parent alc_xo3
   position 0.00398437 0.0108252 0.930563
   orientation 0 0 0 0
 endnode
-node dummy x03o_head_hit
-  parent alc_x03o
+node dummy xo3_head_hit
+  parent alc_xo3
   position 0.00398437 0.0108252 0.449084
   orientation 0 0 0 0
 endnode
-node dummy x03o_impact
-  parent alc_x03o
+node dummy xo3_impact
+  parent alc_xo3
   position 0.00398437 0.011001 0.213608
   orientation 0 0 0 0
 endnode
-node dummy x03o_ground
-  parent alc_x03o
+node dummy xo3_ground
+  parent alc_xo3
   position -0.00363281 0.0069873 0
   orientation 0 0 0 0
 endnode
 node emitter fire!115
-  parent alc_x03o
+  parent alc_xo3
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -96,7 +96,7 @@ node emitter fire!115
   drag 0
 endnode
 node emitter ChunkyWood186
-  parent alc_x03o
+  parent alc_xo3
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -157,7 +157,7 @@ node emitter ChunkyWood186
   drag 0
 endnode
 node emitter ChunkyWood187
-  parent alc_x03o
+  parent alc_xo3
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -218,7 +218,7 @@ node emitter ChunkyWood187
   drag 0
 endnode
 node trimesh damage73
-  parent alc_x03o
+  parent alc_xo3
   ambient 0.0705882 0 1
   diffuse 1 0.501961 0.643137
   specular 0 0.9 0.105882
@@ -271,7 +271,7 @@ node trimesh Mesh143
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap alc_x03o
+  bitmap alc_xo3
   verts 16
       -0.7523810   -0.0311596   -0.2785390
        0.7523800   -0.0311596   -0.2785390
@@ -518,7 +518,7 @@ node trimesh Object41
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap alc_x03o
+  bitmap alc_xo3
   verts 8
       -0.7038930   -0.4220380    0.5240150
        0.7185800   -0.4220380    0.5240150
@@ -578,42 +578,42 @@ node trimesh fix01
   scale 1
   alpha 1
 endnode
-endmodelgeom alc_x03o
+endmodelgeom alc_xo3
 
 #MAXANIM ASCII
-newanim damage alc_x03o
+newanim damage alc_xo3
   length 0.133333
   transtime 0
-  animroot alc_x03o
-  node dummy alc_x03o
+  animroot alc_xo3
+  node dummy alc_xo3
     parent NULL
   endnode
-  node dummy x03o_hand
-    parent alc_x03o
+  node dummy xo3_hand
+    parent alc_xo3
   endnode
-  node dummy x03o_head
-    parent alc_x03o
+  node dummy xo3_head
+    parent alc_xo3
   endnode
-  node dummy x03o_head_hit
-    parent alc_x03o
+  node dummy xo3_head_hit
+    parent alc_xo3
   endnode
-  node dummy x03o_impact
-    parent alc_x03o
+  node dummy xo3_impact
+    parent alc_xo3
   endnode
-  node dummy x03o_ground
-    parent alc_x03o
+  node dummy xo3_ground
+    parent alc_xo3
   endnode
   node emitter fire!115
-    parent alc_x03o
+    parent alc_xo3
   endnode
   node emitter ChunkyWood186
-    parent alc_x03o
+    parent alc_xo3
   endnode
   node emitter ChunkyWood187
-    parent alc_x03o
+    parent alc_xo3
   endnode
   node trimesh damage73
-    parent alc_x03o
+    parent alc_xo3
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -656,58 +656,58 @@ newanim damage alc_x03o
     specular 0 0 0
     shininess 1
   endnode
-  node dummy alc_x03o_pwk
-    parent alc_x03o
+  node dummy alc_xo3_pwk
+    parent alc_xo3
   endnode
-  node trimesh alc_x03o_wg
-    parent alc_x03o_pwk
+  node trimesh alc_xo3_wg
+    parent alc_xo3_pwk
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
-  node dummy x03o_pwk_use01
-    parent alc_x03o_pwk
+  node dummy xo3_pwk_use01
+    parent alc_xo3_pwk
   endnode
-doneanim damage alc_x03o
+doneanim damage alc_xo3
 
 #MAXANIM ASCII
-newanim die alc_x03o
+newanim die alc_xo3
   length 0.166667
   transtime 0
-  animroot alc_x03o
+  animroot alc_xo3
   event 0.0333333 detonate
   event 0.0333333 detonate
   event 0.0333333 detonate
-  node dummy alc_x03o
+  node dummy alc_xo3
     parent NULL
   endnode
-  node dummy x03o_hand
-    parent alc_x03o
+  node dummy xo3_hand
+    parent alc_xo3
   endnode
-  node dummy x03o_head
-    parent alc_x03o
+  node dummy xo3_head
+    parent alc_xo3
   endnode
-  node dummy x03o_head_hit
-    parent alc_x03o
+  node dummy xo3_head_hit
+    parent alc_xo3
   endnode
-  node dummy x03o_impact
-    parent alc_x03o
+  node dummy xo3_impact
+    parent alc_xo3
   endnode
-  node dummy x03o_ground
-    parent alc_x03o
+  node dummy xo3_ground
+    parent alc_xo3
   endnode
   node emitter fire!115
-    parent alc_x03o
+    parent alc_xo3
   endnode
   node emitter ChunkyWood186
-    parent alc_x03o
+    parent alc_xo3
   endnode
   node emitter ChunkyWood187
-    parent alc_x03o
+    parent alc_xo3
   endnode
   node trimesh damage73
-    parent alc_x03o
+    parent alc_xo3
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -744,55 +744,55 @@ newanim die alc_x03o
     specular 0 0 0
     shininess 1
   endnode
-  node dummy alc_x03o_pwk
-    parent alc_x03o
+  node dummy alc_xo3_pwk
+    parent alc_xo3
   endnode
-  node trimesh alc_x03o_wg
-    parent alc_x03o_pwk
+  node trimesh alc_xo3_wg
+    parent alc_xo3_pwk
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
-  node dummy x03o_pwk_use01
-    parent alc_x03o_pwk
+  node dummy xo3_pwk_use01
+    parent alc_xo3_pwk
   endnode
-doneanim die alc_x03o
+doneanim die alc_xo3
 
 #MAXANIM ASCII
-newanim dead alc_x03o
+newanim dead alc_xo3
   length 0.0333333
   transtime 0
-  animroot alc_x03o
-  node dummy alc_x03o
+  animroot alc_xo3
+  node dummy alc_xo3
     parent NULL
   endnode
-  node dummy x03o_hand
-    parent alc_x03o
+  node dummy xo3_hand
+    parent alc_xo3
   endnode
-  node dummy x03o_head
-    parent alc_x03o
+  node dummy xo3_head
+    parent alc_xo3
   endnode
-  node dummy x03o_head_hit
-    parent alc_x03o
+  node dummy xo3_head_hit
+    parent alc_xo3
   endnode
-  node dummy x03o_impact
-    parent alc_x03o
+  node dummy xo3_impact
+    parent alc_xo3
   endnode
-  node dummy x03o_ground
-    parent alc_x03o
+  node dummy xo3_ground
+    parent alc_xo3
   endnode
   node emitter fire!115
-    parent alc_x03o
+    parent alc_xo3
   endnode
   node emitter ChunkyWood186
-    parent alc_x03o
+    parent alc_xo3
   endnode
   node emitter ChunkyWood187
-    parent alc_x03o
+    parent alc_xo3
   endnode
   node trimesh damage73
-    parent alc_x03o
+    parent alc_xo3
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -829,55 +829,55 @@ newanim dead alc_x03o
     specular 0 0 0
     shininess 1
   endnode
-  node dummy alc_x03o_pwk
-    parent alc_x03o
+  node dummy alc_xo3_pwk
+    parent alc_xo3
   endnode
-  node trimesh alc_x03o_wg
-    parent alc_x03o_pwk
+  node trimesh alc_xo3_wg
+    parent alc_xo3_pwk
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
-  node dummy x03o_pwk_use01
-    parent alc_x03o_pwk
+  node dummy xo3_pwk_use01
+    parent alc_xo3_pwk
   endnode
-doneanim dead alc_x03o
+doneanim dead alc_xo3
 
 #MAXANIM ASCII
-newanim default alc_x03o
+newanim default alc_xo3
   length 0
   transtime 0.25
-  animroot alc_x03o
-  node dummy alc_x03o
+  animroot alc_xo3
+  node dummy alc_xo3
     parent NULL
   endnode
-  node dummy x03o_hand
-    parent alc_x03o
+  node dummy xo3_hand
+    parent alc_xo3
   endnode
-  node dummy x03o_head
-    parent alc_x03o
+  node dummy xo3_head
+    parent alc_xo3
   endnode
-  node dummy x03o_head_hit
-    parent alc_x03o
+  node dummy xo3_head_hit
+    parent alc_xo3
   endnode
-  node dummy x03o_impact
-    parent alc_x03o
+  node dummy xo3_impact
+    parent alc_xo3
   endnode
-  node dummy x03o_ground
-    parent alc_x03o
+  node dummy xo3_ground
+    parent alc_xo3
   endnode
   node emitter fire!115
-    parent alc_x03o
+    parent alc_xo3
   endnode
   node emitter ChunkyWood186
-    parent alc_x03o
+    parent alc_xo3
   endnode
   node emitter ChunkyWood187
-    parent alc_x03o
+    parent alc_xo3
   endnode
   node trimesh damage73
-    parent alc_x03o
+    parent alc_xo3
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -911,19 +911,19 @@ newanim default alc_x03o
     specular 0 0 0
     shininess 1
   endnode
-  node dummy alc_x03o_pwk
-    parent alc_x03o
+  node dummy alc_xo3_pwk
+    parent alc_xo3
   endnode
-  node trimesh alc_x03o_wg
-    parent alc_x03o_pwk
+  node trimesh alc_xo3_wg
+    parent alc_xo3_pwk
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
-  node dummy x03o_pwk_use01
-    parent alc_x03o_pwk
+  node dummy xo3_pwk_use01
+    parent alc_xo3_pwk
   endnode
-doneanim default alc_x03o
+doneanim default alc_xo3
 
-donemodel alc_x03o
+donemodel alc_xo3
