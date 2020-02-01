@@ -1,5 +1,5 @@
 #MAXMODEL ASCII
-# model: PX2_e10a
+# model: alx2_e10a
 filedependancy alx2_e10a.max
 newmodel alx2_e10a
 setsupermodel alx2_e10a NULL
@@ -10,27 +10,27 @@ beginmodelgeom alx2_e10a
 node dummy alx2_e10a
   parent NULL
 endnode
-node dummy e10a_head_hit
+node dummy E10_head_hit
   parent alx2_e10a
   position -1.36825 -0.0347899 0.976034
   orientation 0 0 0 0
 endnode
-node dummy e10a_head
+node dummy E10_head
   parent alx2_e10a
   position -1.37609 0.00710608 1.44848
   orientation 0 0 0 0
 endnode
-node dummy e10a_hand
+node dummy E10_hand
   parent alx2_e10a
   position 0.000935764 0.00212986 1.547
   orientation 0 0 0 0
 endnode
-node dummy e10a_impact
+node dummy E10_impact
   parent alx2_e10a
   position -0.0352254 -0.030755 1.07367
   orientation 0 0 0 0
 endnode
-node dummy e10a_ground
+node dummy E10_ground
   parent alx2_e10a
   position -0.0230135 0.00497986 0
   orientation 0 0 0 0
@@ -862,28 +862,28 @@ newanim damage alx2_e10a
   node dummy alx2_e10a_pwk
     parent alx2_e10a
   endnode
-  node dummy e10a_pwk_use01
+  node dummy E10_pwk_use01
     parent alx2_e10a_pwk
   endnode
-  node dummy e10a_pwk_use02
+  node dummy E10_pwk_use02
     parent alx2_e10a_pwk
   endnode
   node dummy alx2_e10a_wg
     parent alx2_e10a_pwk
   endnode
-  node dummy e10a_head_hit
+  node dummy E10_head_hit
     parent alx2_e10a
   endnode
-  node dummy e10a_head
+  node dummy E10_head
     parent alx2_e10a
   endnode
-  node dummy e10a_hand
+  node dummy E10_hand
     parent alx2_e10a
   endnode
-  node dummy e10a_impact
+  node dummy E10_impact
     parent alx2_e10a
   endnode
-  node dummy e10a_ground
+  node dummy E10_ground
     parent alx2_e10a
   endnode
   node emitter fire!191
@@ -948,28 +948,28 @@ newanim die alx2_e10a
   node dummy alx2_e10a_pwk
     parent alx2_e10a
   endnode
-  node dummy e10a_pwk_use01
+  node dummy E10_pwk_use01
     parent alx2_e10a_pwk
   endnode
-  node dummy e10a_pwk_use02
+  node dummy E10_pwk_use02
     parent alx2_e10a_pwk
   endnode
   node dummy alx2_e10a_wg
     parent alx2_e10a_pwk
   endnode
-  node dummy e10a_head_hit
+  node dummy E10_head_hit
     parent alx2_e10a
   endnode
-  node dummy e10a_head
+  node dummy E10_head
     parent alx2_e10a
   endnode
-  node dummy e10a_hand
+  node dummy E10_hand
     parent alx2_e10a
   endnode
-  node dummy e10a_impact
+  node dummy E10_impact
     parent alx2_e10a
   endnode
-  node dummy e10a_ground
+  node dummy E10_ground
     parent alx2_e10a
   endnode
   node emitter fire!191
@@ -1026,28 +1026,28 @@ newanim dead alx2_e10a
   node dummy alx2_e10a_pwk
     parent alx2_e10a
   endnode
-  node dummy e10a_pwk_use01
+  node dummy E10_pwk_use01
     parent alx2_e10a_pwk
   endnode
-  node dummy e10a_pwk_use02
+  node dummy E10_pwk_use02
     parent alx2_e10a_pwk
   endnode
   node dummy alx2_e10a_wg
     parent alx2_e10a_pwk
   endnode
-  node dummy e10a_head_hit
+  node dummy E10_head_hit
     parent alx2_e10a
   endnode
-  node dummy e10a_head
+  node dummy E10_head
     parent alx2_e10a
   endnode
-  node dummy e10a_hand
+  node dummy E10_hand
     parent alx2_e10a
   endnode
-  node dummy e10a_impact
+  node dummy E10_impact
     parent alx2_e10a
   endnode
-  node dummy e10a_ground
+  node dummy E10_ground
     parent alx2_e10a
   endnode
   node emitter fire!191
@@ -1103,28 +1103,28 @@ newanim default alx2_e10a
   node dummy alx2_e10a_pwk
     parent alx2_e10a
   endnode
-  node dummy e10a_pwk_use01
+  node dummy E10_pwk_use01
     parent alx2_e10a_pwk
   endnode
-  node dummy e10a_pwk_use02
+  node dummy E10_pwk_use02
     parent alx2_e10a_pwk
   endnode
   node dummy alx2_e10a_wg
     parent alx2_e10a_pwk
   endnode
-  node dummy e10a_head_hit
+  node dummy E10_head_hit
     parent alx2_e10a
   endnode
-  node dummy e10a_head
+  node dummy E10_head
     parent alx2_e10a
   endnode
-  node dummy e10a_hand
+  node dummy E10_hand
     parent alx2_e10a
   endnode
-  node dummy e10a_impact
+  node dummy E10_impact
     parent alx2_e10a
   endnode
-  node dummy e10a_ground
+  node dummy E10_ground
     parent alx2_e10a
   endnode
   node emitter fire!191
