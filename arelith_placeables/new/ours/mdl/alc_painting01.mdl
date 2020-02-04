@@ -1,0 +1,62 @@
+# Exported from Blender on Monday, 2020-02-03
+filedependancy unknown
+newmodel alc_painting01
+setsupermodel alc_painting01 null
+classification Character
+setanimationscale 1.0
+beginmodelgeom alc_painting01
+node dummy alc_painting01
+  parent null
+endnode
+node trimesh Painting
+  parent alc_painting01
+  position  0.00000  0.00000  2.71147
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap alc_painting01
+  shininess 1
+  verts 8
+     0.07192 -1.00000 -2.70540
+     0.07192 -1.00000  0.00565
+     0.07192  1.00000 -2.70540
+     0.07192  1.00000  0.00565
+    -0.07192 -1.00000 -2.70540
+    -0.07192 -1.00000  0.00565
+    -0.07192  1.00000 -2.70540
+    -0.07192  1.00000  0.00565
+  tverts 15
+     0.9675  0.9026  0
+     1.0000  0.4513  0
+     1.0000  0.9026  0
+     0.9026  0.0000  0
+     0.9351  0.6118  0
+     0.9026  0.6118  0
+     0.4513  0.0000  0
+     0.4513  0.6118  0
+     1.0000  0.0000  0
+     0.9675  0.4513  0
+     0.9675  0.0000  0
+     0.0000  0.0000  0
+     0.0000  0.6118  0
+     0.9351  0.0000  0
+     0.9675  0.6118  0
+  faces 12
+    4 2 0  1   0  1  2 0
+    2 7 3  2   3  4  5 0
+    6 5 7  3   6  5  7 0
+    1 7 5  4   8  9 10 0
+    0 3 1  5  11  7 12 0
+    4 1 5  6  13 14  4 0
+    4 6 2  7   0  9  1 0
+    2 6 7  8   3 13  4 0
+    6 4 5  9   6  3  5 0
+    1 3 7 10   8  1  9 0
+    0 2 3 11  11  6  7 0
+    4 0 1 12  13 10 14 0
+endnode
+endmodelgeom alc_painting01
+donemodel alc_painting01
