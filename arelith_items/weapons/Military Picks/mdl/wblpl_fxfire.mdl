@@ -1,0 +1,147 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: WBlPl_fxfire
+filedependancy Unknown
+newmodel WBlPl_fxfire
+setsupermodel WBlPl_fxfire NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom WBlPl_fxfire
+node dummy WBlPl_fxfire
+  parent NULL
+endnode
+node emitter g_WSwGs_V_Fire
+  parent WBlPl_fxfire
+  position 0 0.296573 0
+  orientation 0 -1 0 -1.5708
+  wirecolor 0.0273438 0.0273438 0.0273438
+    colorStart 0.996079 1 0.894118
+    colorEnd 0.886275 0.556863 0.0392157
+    alphaStart 0.6
+    alphaEnd 0
+    sizeStart 0
+    sizeEnd 0.75
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 10
+    spawnType 0
+    lifeExp 2
+    mass 0
+    spread 0.174533
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 16
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 20
+    ysize 14
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 65
+    deadspace 0
+    opacity 3.56428e+021
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_flame00
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter g_WSwGs_V_Fire01
+  parent WBlPl_fxfire
+  position 0 0.300569 0
+  orientation 1 0 0 -1.5708
+  wirecolor 0.0273438 0.0273438 0.0273438
+    colorStart 0.996079 1 0.894118
+    colorEnd 0.886275 0.556863 0.0392157
+    alphaStart 0.6
+    alphaEnd 0
+    sizeStart 0
+    sizeEnd 0.75
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 10
+    spawnType 0
+    lifeExp 2
+    mass 0
+    spread 0.174533
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 16
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 14
+    ysize 20
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_flame00
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom WBlPl_fxfire
+donemodel WBlPl_fxfire
