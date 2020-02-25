@@ -3,16 +3,16 @@
 # FA grip mdl file
 #
 filedependancy Unknown
-newmodel WxSwFa_b_113
-setsupermodel WxSwFa_b_113 NULL
+newmodel wxswfa_b_113
+setsupermodel wxswfa_b_113 NULL
 classification other
 setanimationscale 1.0
-beginmodelgeom WxSwFa_b_113
-node dummy WxSwFa_b_113
+beginmodelgeom wxswfa_b_113
+node dummy wxswfa_b_113
     parent NULL
 endnode
 node trimesh pommel_1
-    parent WxSwFa_b_113
+    parent wxswfa_b_113
     position 0.0 -0.247933 -0.00673381
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -47,7 +47,7 @@ node trimesh pommel_1
         0.0105028 0.000499547 0
 endnode
 node trimesh handle_1
-    parent WxSwFa_b_113
+    parent wxswfa_b_113
     position 0.0 -0.0737928 -0.00692758
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -177,5 +177,5 @@ node trimesh handle_1
         0.749748 0.00176471 0
         0.250249 0.0017648 0
 endnode
-endmodelgeom WxSwFa_b_113
-donemodel WxSwFa_b_113
+endmodelgeom wxswfa_b_113
+donemodel wxswfa_b_113

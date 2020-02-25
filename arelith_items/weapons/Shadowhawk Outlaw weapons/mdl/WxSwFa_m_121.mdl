@@ -3,16 +3,16 @@
 # FA hilt 2 mdl file
 #
 filedependancy Unknown
-newmodel WxSwFa_m_121
-setsupermodel WxSwFa_m_121 NULL
+newmodel wxswfa_m_121
+setsupermodel wxswfa_m_121 NULL
 classification Other
 setanimationscale 1.0
-beginmodelgeom WxSwFa_m_121
-node dummy WxSwFa_m_121
+beginmodelgeom wxswfa_m_121
+node dummy wxswfa_m_121
     parent NULL
 endnode
 node trimesh guard_2
-    parent WxSwFa_m_121
+    parent wxswfa_m_121
     position 0.000668466 0.0970395 -0.0151793
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -64,7 +64,7 @@ node trimesh guard_2
         13 12 7 1 0 0 0 1
 endnode
 node trimesh guard_2a
-    parent WxSwFa_m_121
+    parent wxswfa_m_121
     position 0.0 0.0850057 -0.0170398
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -181,5 +181,5 @@ node trimesh guard_2a
         20 1 11 64 0 0 0 3
         11 29 20 64 0 0 0 3
 endnode
-endmodelgeom WxSwFa_m_121
-donemodel WxSwFa_m_121
+endmodelgeom wxswfa_m_121
+donemodel wxswfa_m_121

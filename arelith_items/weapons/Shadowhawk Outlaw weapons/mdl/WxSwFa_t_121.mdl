@@ -3,16 +3,16 @@
 # FA blade 3 mdl file
 #
 filedependancy Unknown
-newmodel WxSwFa_t_121
-setsupermodel WxSwFa_t_121 NULL
+newmodel wxswfa_t_121
+setsupermodel wxswfa_t_121 NULL
 classification Other
 setanimationscale 1.0
-beginmodelgeom WxSwFa_t_121
-node dummy WxSwFa_t_121
+beginmodelgeom wxswfa_t_121
+node dummy wxswfa_t_121
     parent NULL
 endnode
 node trimesh blade_3
-    parent WxSwFa_t_121
+    parent wxswfa_t_121
     position 0.0 0.625913 -0.0605368
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -118,5 +118,5 @@ node trimesh blade_3
         0.656525 0.546837 0
         0.656518 0.546838 0
 endnode
-endmodelgeom WxSwFa_t_121
-donemodel WxSwFa_t_121
+endmodelgeom wxswfa_t_121
+donemodel wxswfa_t_121

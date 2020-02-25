@@ -1,17 +1,17 @@
 # Exported from Wayland's NWN Maxscript 0.3b-p1 at 9/19/2003 10:30:54 AM
 # mdl file
 #
-filedependancy WxBlMa_t_141.max
-newmodel WxBlMa_m_141
-setsupermodel WxBlMa_m_141 NULL
+filedependancy wxblma_t_141.max
+newmodel wxblma_m_141
+setsupermodel wxblma_m_141 NULL
 classification undefined
 setanimationscale 1
-beginmodelgeom WxBlMa_m_141
-node dummy WxBlMa_m_141
+beginmodelgeom wxblma_m_141
+node dummy wxblma_m_141
     parent NULL
 endnode
 node trimesh grip_a
-    parent WxBlMa_m_141
+    parent wxblma_m_141
     position 0.000330197 0.711183 -0.000533295
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -83,7 +83,7 @@ node trimesh grip_a
         -0.0833335 0.999501 0
 endnode
 node trimesh grip_b
-    parent WxBlMa_m_141
+    parent wxblma_m_141
     position 0.000330162 0.05 -0.000533329
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -155,7 +155,7 @@ node trimesh grip_b
         -0.0833335 0.999501 0
 endnode
 node trimesh handle_1
-    parent WxBlMa_m_141
+    parent wxblma_m_141
     position 0.0 0.403726 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -208,5 +208,5 @@ node trimesh handle_1
         -0.0845485 0.999501 0
         -0.0845466 0.000499517 0
 endnode
-endmodelgeom WxBlMa_m_141
-donemodel WxBlMa_m_141
+endmodelgeom wxblma_m_141
+donemodel wxblma_m_141

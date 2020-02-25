@@ -3,16 +3,16 @@
 # FA hilt 3 mdl file
 #
 filedependancy Unknown
-newmodel WxSwFa_m_132
-setsupermodel WxSwFa_m_132 NULL
+newmodel wxswfa_m_132
+setsupermodel wxswfa_m_132 NULL
 classification Other
 setanimationscale 1.0
-beginmodelgeom WxSwFa_m_132
-node dummy WxSwFa_m_132
+beginmodelgeom wxswfa_m_132
+node dummy wxswfa_m_132
     parent NULL
 endnode
 node trimesh guard_3
-    parent WxSwFa_m_132
+    parent wxswfa_m_132
     position 0.000668466 0.0970395 -0.0151793
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -64,7 +64,7 @@ node trimesh guard_3
         13 12 7 1 0 0 0 1
 endnode
 node trimesh guard_3a
-    parent WxSwFa_m_132
+    parent wxswfa_m_132
     position 0.0 0.118907 -0.0235897
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -234,5 +234,5 @@ node trimesh guard_3a
         0.0305355 0.66028 0
         0.0497707 0.651644 0
 endnode
-endmodelgeom WxSwFa_m_132
-donemodel WxSwFa_m_132
+endmodelgeom wxswfa_m_132
+donemodel wxswfa_m_132

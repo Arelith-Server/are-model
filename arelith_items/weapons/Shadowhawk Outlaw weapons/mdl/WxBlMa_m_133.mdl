@@ -2,17 +2,17 @@
 # ShadowHawk Xtra weapon type
 # MA shaft mdl file
 #
-filedependancy WxBlMa_t_133.max
-newmodel WxBlMa_m_133
-setsupermodel WxBlMa_m_133 NULL
+filedependancy wxblma_t_133.max
+newmodel wxblma_m_133
+setsupermodel wxblma_m_133 NULL
 classification undefined
 setanimationscale 1
-beginmodelgeom WxBlMa_m_133
-node dummy WxBlMa_m_133
+beginmodelgeom wxblma_m_133
+node dummy wxblma_m_133
     parent NULL
 endnode
 node trimesh handle_1
-    parent WxBlMa_m_133
+    parent wxblma_m_133
     position 0.0 0.403726 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -65,5 +65,5 @@ node trimesh handle_1
         -0.0845485 0.999501 0
         -0.0845466 0.000499517 0
 endnode
-endmodelgeom WxBlMa_m_133
-donemodel WxBlMa_m_133
+endmodelgeom wxblma_m_133
+donemodel wxblma_m_133

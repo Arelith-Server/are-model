@@ -3,16 +3,16 @@
 # MA ax spike pommel mdl file
 #
 filedependancy Unknown
-newmodel WxBlMa_b_122
-setsupermodel WxBlMa_b_122 NULL
+newmodel wxblma_b_122
+setsupermodel wxblma_b_122 NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom WxBlMa_b_122
-node dummy WxBlMa_b_122
+beginmodelgeom wxblma_b_122
+node dummy wxblma_b_122
     parent NULL
 endnode
 node trimesh pommel_fittings
-    parent WxBlMa_b_122
+    parent wxblma_b_122
     position 0.0 -0.230334 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -46,7 +46,7 @@ node trimesh pommel_fittings
         6 1 7 8 0 0 0 3
 endnode
 node trimesh pommel
-    parent WxBlMa_b_122
+    parent wxblma_b_122
     position 0.0 -0.331141 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -145,5 +145,5 @@ node trimesh pommel
         0.561342 0.291876 0
         0.9995 0.487873 0
 endnode
-endmodelgeom WxBlMa_b_122
-donemodel WxBlMa_b_122
+endmodelgeom wxblma_b_122
+donemodel wxblma_b_122

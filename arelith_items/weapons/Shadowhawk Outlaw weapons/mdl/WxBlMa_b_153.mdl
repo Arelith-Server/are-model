@@ -3,16 +3,16 @@
 # MA pommel 3 mdl file
 #
 filedependancy Unknown
-newmodel WxBlMa_b_153
-setsupermodel WxBlMa_b_153 NULL
+newmodel wxblma_b_153
+setsupermodel wxblma_b_153 NULL
 classification Character
 setanimationscale 1.0
-beginmodelgeom WxBlMa_b_153
-node dummy WxBlMa_b_153
+beginmodelgeom wxblma_b_153
+node dummy wxblma_b_153
     parent NULL
 endnode
 node trimesh pommel_fittings
-    parent WxBlMa_b_153
+    parent wxblma_b_153
     position 0.0 -0.230334 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -66,7 +66,7 @@ node trimesh pommel_fittings
         14 9 15 0 0 0 0 3
 endnode
 node trimesh pommel
-    parent WxBlMa_b_153
+    parent wxblma_b_153
     position 0.0 -0.331141 0.0
     orientation 1.0 0.0 0.0 0.0
     scale 1.0
@@ -120,5 +120,5 @@ node trimesh pommel
         0.000499547 0.000499576 0
         0.000499547 0.000499547 0
 endnode
-endmodelgeom WxBlMa_b_153
-donemodel WxBlMa_b_153
+endmodelgeom wxblma_b_153
+donemodel wxblma_b_153
