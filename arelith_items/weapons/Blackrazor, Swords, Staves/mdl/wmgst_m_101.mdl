@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: WMgSt_m_071
+# model: WMgSt_m_101
 filedependancy Staff of Stars - new texturing.max
-newmodel WMgSt_m_071
-setsupermodel WMgSt_m_071 NULL
+newmodel WMgSt_m_101
+setsupermodel WMgSt_m_101 NULL
 classification Tile
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom WMgSt_m_071
-node dummy WMgSt_m_071
+beginmodelgeom WMgSt_m_101
+node dummy WMgSt_m_101
   parent NULL
 endnode
-node trimesh g_WMgSt_m_071
-  parent WMgSt_m_071
+node trimesh g_WMgSt_m_101
+  parent WMgSt_m_101
   position 0 0 -0.000149231
   orientation -1 0 0 -1.5708
   wirecolor 0.226563 0.226563 0.226563
@@ -89,7 +89,7 @@ node trimesh g_WMgSt_m_071
     0.284749 0.419439 0.998991
 endnode
 node trimesh Gold Inlay
-  parent g_WMgSt_m_071
+  parent g_WMgSt_m_101
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.226563 0.226563 0.226563
@@ -161,5 +161,5 @@ node trimesh Gold Inlay
     0.352217 0.580071 0.99899
     0.352217 0.580071 0.99899
 endnode
-endmodelgeom WMgSt_m_071
-donemodel WMgSt_m_071
+endmodelgeom WMgSt_m_101
+donemodel WMgSt_m_101

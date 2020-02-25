@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: WMgSt_t_071
+# model: WMgSt_t_101
 filedependancy Staff of Stars.max
-newmodel WMgSt_t_071
-setsupermodel WMgSt_t_071 NULL
+newmodel WMgSt_t_101
+setsupermodel WMgSt_t_101 NULL
 classification Tile
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom WMgSt_t_071
-node dummy WMgSt_t_071
+beginmodelgeom WMgSt_t_101
+node dummy WMgSt_t_101
   parent NULL
 endnode
-node trimesh g_WMgSt_t_071
-  parent WMgSt_t_071
+node trimesh g_WMgSt_t_101
+  parent WMgSt_t_101
   position 0 0 -0.000149231
   orientation -1 0 0 -1.5708
   wirecolor 0.554688 0.554688 0.554688
@@ -220,7 +220,7 @@ node trimesh g_WMgSt_t_071
     0.488597 0.738676 0
 endnode
 node emitter star26
-  parent g_WMgSt_t_071
+  parent g_WMgSt_t_101
   position 0.0200063 -0.000675514 -1.12958
   orientation 0.57735 -0.57735 0.57735 -2.0944
   wirecolor 0.582031 0.582031 0.582031
@@ -286,7 +286,7 @@ node emitter star26
     Splat 0
 endnode
 node emitter Spin02
-  parent g_WMgSt_t_071
+  parent g_WMgSt_t_101
   position 0.0194144 -0.000101498 -1.12935
   orientation 0.57735 -0.57735 0.57735 -2.09439
   wirecolor 0.582031 0.582031 0.582031
@@ -351,5 +351,5 @@ node emitter Spin02
     renderorder 0
     Splat 0
 endnode
-endmodelgeom WMgSt_t_071
-donemodel WMgSt_t_071
+endmodelgeom WMgSt_t_101
+donemodel WMgSt_t_101

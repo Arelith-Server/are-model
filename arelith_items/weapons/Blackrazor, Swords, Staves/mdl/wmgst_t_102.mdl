@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: WMgSt_t_072
+# model: WMgSt_t_102
 filedependancy Staff of Stars 072.max
-newmodel WMgSt_t_072
-setsupermodel WMgSt_t_072 NULL
+newmodel WMgSt_t_102
+setsupermodel WMgSt_t_102 NULL
 classification Tile
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom WMgSt_t_072
-node dummy WMgSt_t_072
+beginmodelgeom WMgSt_t_102
+node dummy WMgSt_t_102
   parent NULL
 endnode
-node trimesh g_WMgSt_t_072
-  parent WMgSt_t_072
+node trimesh g_WMgSt_t_102
+  parent WMgSt_t_102
   position 0 0 -0.000149231
   orientation -1 0 0 -1.5708
   wirecolor 0.347656 0.347656 0.347656
@@ -119,7 +119,7 @@ node trimesh g_WMgSt_t_072
     0.484941 0.736859 0
 endnode
 node emitter Ring07
-  parent g_WMgSt_t_072
+  parent g_WMgSt_t_102
   position -0.00191467 -0.0128597 -1.1804
   orientation 0.57735 -0.57735 0.57735 -2.0944
   wirecolor 0.34375 0.34375 0.34375
@@ -185,7 +185,7 @@ node emitter Ring07
     Splat 0
 endnode
 node emitter star24
-  parent g_WMgSt_t_072
+  parent g_WMgSt_t_102
   position -0.00191467 -0.0128597 -1.1804
   orientation 0.57735 -0.57735 0.57735 -2.0944
   wirecolor 0.695313 0.695313 0.695313
@@ -251,7 +251,7 @@ node emitter star24
     Splat 0
 endnode
 node emitter star25
-  parent g_WMgSt_t_072
+  parent g_WMgSt_t_102
   position -0.00191467 -0.0128597 -1.1804
   orientation 0.57735 -0.57735 0.57735 -2.0944
   wirecolor 0.695313 0.695313 0.695313
@@ -317,7 +317,7 @@ node emitter star25
     Splat 0
 endnode
 node emitter Flashs12
-  parent g_WMgSt_t_072
+  parent g_WMgSt_t_102
   position -0.00135742 -0.0101418 -1.11506
   orientation 0.633687 -0.443713 0.633687 -2.30637
   wirecolor 0.695313 0.695313 0.695313
@@ -383,7 +383,7 @@ node emitter Flashs12
     Splat 0
 endnode
 node trimesh Crystals
-  parent g_WMgSt_t_072
+  parent g_WMgSt_t_102
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.335938 0.335938 0.335938
@@ -481,5 +481,5 @@ node trimesh Crystals
     0.841574 0.334459 0
     0.841574 0.285003 0
 endnode
-endmodelgeom WMgSt_t_072
-donemodel WMgSt_t_072
+endmodelgeom WMgSt_t_102
+donemodel WMgSt_t_102

@@ -1,19 +1,19 @@
 #Exported from 3ds max by MDL Plug-in Suite 1.0b
 #http://www.bricksbuilder.com/nwn/utils/
 #MAXMODEL ASCII
-# model: WMgSt_t_073
+# model: WMgSt_t_103
 filedependancy Staff of Stars 073.max
-newmodel WMgSt_t_073
-setsupermodel WMgSt_t_073 NULL
+newmodel WMgSt_t_103
+setsupermodel WMgSt_t_103 NULL
 classification Tile
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom WMgSt_t_073
-node dummy WMgSt_t_073
+beginmodelgeom WMgSt_t_103
+node dummy WMgSt_t_103
   parent NULL
 endnode
-node trimesh g_WMgSt_t_073
-  parent WMgSt_t_073
+node trimesh g_WMgSt_t_103
+  parent WMgSt_t_103
   position 0 0 -0.000149231
   orientation -1 0 0 -1.5708
   wirecolor 0.347656 0.347656 0.347656
@@ -119,7 +119,7 @@ node trimesh g_WMgSt_t_073
     0.489588 0.74166 0
 endnode
 node emitter Ring07
-  parent g_WMgSt_t_073
+  parent g_WMgSt_t_103
   position -0.00191468 0 -1.08263
   orientation 0.57735 -0.57735 0.57735 -2.0944
   wirecolor 0.34375 0.34375 0.34375
@@ -185,7 +185,7 @@ node emitter Ring07
     Splat 0
 endnode
 node emitter star24
-  parent g_WMgSt_t_073
+  parent g_WMgSt_t_103
   position -0.00191468 0 -1.08263
   orientation 0.57735 -0.57735 0.57735 -2.0944
   wirecolor 0.695313 0.695313 0.695313
@@ -251,7 +251,7 @@ node emitter star24
     Splat 0
 endnode
 node emitter star25
-  parent g_WMgSt_t_073
+  parent g_WMgSt_t_103
   position -0.00191468 0 -1.08263
   orientation 0.57735 -0.57735 0.57735 -2.0944
   wirecolor 0.695313 0.695313 0.695313
@@ -317,7 +317,7 @@ node emitter star25
     Splat 0
 endnode
 node trimesh Crystal
-  parent g_WMgSt_t_073
+  parent g_WMgSt_t_103
   position 0 0.00186737 -1.10149
   orientation -0.707107 0 -0.707107 -3.14159
   wirecolor 0.105469 0.105469 0.105469
@@ -422,5 +422,5 @@ node trimesh Crystal
     0.20951 0.124969 0
     0.0900066 0.124969 0
 endnode
-endmodelgeom WMgSt_t_073
-donemodel WMgSt_t_073
+endmodelgeom WMgSt_t_103
+donemodel WMgSt_t_103
