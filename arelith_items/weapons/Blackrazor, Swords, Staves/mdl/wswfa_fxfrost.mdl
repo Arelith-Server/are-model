@@ -1,0 +1,214 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: WSwFa_fxfrost
+filedependancy Unknown
+newmodel WSwFa_fxfrost
+setsupermodel WSwFa_fxfrost NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom WSwFa_fxfrost
+node dummy WSwFa_fxfrost
+  parent NULL
+endnode
+node emitter g_WSwGs_V_Cold01
+  parent WSwFa_fxfrost
+  position 0.0033287 0.652185 0.135966
+  orientation -1 0 0 -0.549779
+  wirecolor 0.347656 0.347656 0.347656
+    colorStart 0.729412 0.839216 1
+    colorEnd 0 0 0
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0
+    sizeEnd 0.14
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 5
+    spawnType 0
+    lifeExp 1.5
+    mass 0.17
+    spread 0
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 0
+    random 0
+    inherit 0
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 90
+    bounce 1
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0.09
+    lightningRadius 0.045
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 2
+    p2p_type Gravity
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0.75
+    grav 0.7
+    threshold 0.01
+    texture fxpa_Smoke01a
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter g_WSwGs_V_Cold02
+  parent WSwFa_fxfrost
+  position 0.0033287 0.652185 0.135966
+  orientation -1 0 0 -0.549779
+  wirecolor 0.347656 0.347656 0.347656
+    colorStart 0.894118 0.952941 1
+    colorEnd 0 0 0
+    alphaStart 0
+    alphaEnd 1
+    sizeStart 0.3
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 60
+    spawnType 0
+    lifeExp 1
+    mass 0
+    spread 0
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 1
+    ysize 40
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0.09
+    lightningRadius 0.045
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 2
+    p2p_type Gravity
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0.75
+    grav 0.7
+    threshold 0.01
+    texture fxpa_Smoke01a
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter g_WSwGs_V_Cold
+  parent WSwFa_fxfrost
+  position 0.0033287 0.652185 0.135966
+  orientation -1 0 0 -0.549779
+  wirecolor 0.347656 0.347656 0.347656
+    colorStart 0.670588 0.878431 1
+    colorEnd 0 0 0
+    alphaStart 0
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.2
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 60
+    spawnType 0
+    lifeExp 1
+    mass 0
+    spread 0
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 1
+    ysize 90
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0.09
+    lightningRadius 0.045
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 2
+    p2p_type Gravity
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0.75
+    grav 0.7
+    threshold 0.01
+    texture fxpa_Smoke01a
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom WSwFa_fxfrost
+donemodel WSwFa_fxfrost
