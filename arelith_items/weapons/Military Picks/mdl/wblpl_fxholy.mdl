@@ -1,0 +1,146 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: WBlPl_fxholy
+filedependancy Unknown
+newmodel WBlPl_fxholy
+setsupermodel WBlPl_fxholy NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom WBlPl_fxholy
+node dummy WBlPl_fxholy
+  parent NULL
+endnode
+node emitter g_WSwGs_V_Holy01
+  parent WBlPl_fxholy
+  position 0 0.300188 -0.00357746
+  orientation 1 0 0 -1.5708
+  wirecolor 0.347656 0.347656 0.347656
+    colorStart 0.811765 0.72549 0.541176
+    colorEnd 0.788235 0.596078 0.360784
+    alphaStart 0.8
+    alphaEnd 0
+    sizeStart 0
+    sizeEnd 0.8
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 3
+    birthrate 10
+    spawnType 0
+    lifeExp 2
+    mass 0
+    spread 0
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 14
+    ysize 20
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 1702257997
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_StarBnW
+    xgrid 2
+    ygrid 2
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter g_WSwGs_V_Holy
+  parent WBlPl_fxholy
+  position 0 0.300188 0.00364605
+  orientation 0.57735 -0.57735 0.57735 -2.09439
+  wirecolor 0.347656 0.347656 0.347656
+    colorStart 0.811765 0.72549 0.541176
+    colorEnd 0.788235 0.596078 0.360784
+    alphaStart 0.8
+    alphaEnd 0
+    sizeStart 0
+    sizeEnd 0.8
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 3
+    birthrate 10
+    spawnType 0
+    lifeExp 2
+    mass 0
+    spread 0
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 14
+    ysize 20
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 1632464496
+    deadspace 0
+    opacity 0
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_StarBnW
+    xgrid 2
+    ygrid 2
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom WBlPl_fxholy
+donemodel WBlPl_fxholy

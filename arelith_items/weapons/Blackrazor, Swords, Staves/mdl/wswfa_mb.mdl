@@ -1,0 +1,50 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: WSwFa_MB
+filedependancy Unknown
+newmodel WSwFa_MB
+setsupermodel WSwFa_MB NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom WSwFa_MB
+node dummy WSwFa_MB
+  parent NULL
+endnode
+node trimesh WSwFa_MB
+  parent WSwFa_MB
+  position 0.000317001 0.744053 -0.00430054
+  orientation 0.57735 0.57735 0.57735 -4.18879
+  wirecolor 0.542969 0.542969 0.542969
+  ambient 0.117647 0.117647 0.117647
+  diffuse 0.631373 0.862745 0.968628
+  specular 0 0 0
+  shininess 1
+  bitmap blur_01
+  verts 6
+    0.380657 0.0110774 -0.00229748
+    0.321565 0.576642 -0.00229749
+    -0.597195 0.0112497 -0.0022975
+    -0.567077 0.541166 -0.00229749
+    0.106486 1.03599 -0.00229748
+    -0.754174 1.41603 -0.00229745
+  faces 8
+    0 1 2  1  0 1 2  0
+    3 2 1  1  3 2 1  0
+    1 4 3  1  1 4 3  0
+    4 5 3  1  4 5 3  0
+    0 2 1  1  0 2 1  0
+    1 2 3  1  1 2 3  0
+    3 4 1  1  3 4 1  0
+    4 3 5  1  4 3 5  0
+  tverts 6
+    0.994455 1.00424 0
+    0.567019 0.977565 0
+    0.993832 0.140396 0
+    0.570998 0.138425 0
+    0.13992 0.772677 0
+    0.140236 0.0126707 0
+endnode
+endmodelgeom WSwFa_MB
+donemodel WSwFa_MB
