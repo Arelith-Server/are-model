@@ -1,0 +1,146 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: WBlPl_fxfrost
+filedependancy Unknown
+newmodel WBlPl_fxfrost
+setsupermodel WBlPl_fxfrost NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom WBlPl_fxfrost
+node dummy WBlPl_fxfrost
+  parent NULL
+endnode
+node emitter g_WSwGs_V_Cold01b
+  parent WBlPl_fxfrost
+  position 0.00646851 0.300338 -0.00159831
+  orientation -1 0 0 -1.5708
+  wirecolor 0.335938 0.335938 0.335938
+    colorStart 0.729412 0.839216 1
+    colorEnd 0 0 0
+    alphaStart 0.7
+    alphaEnd 1
+    sizeStart 0.04
+    sizeEnd 0.14
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 15
+    birthrate 3
+    spawnType 0
+    lifeExp 1.5
+    mass 0.14
+    spread 0
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 0
+    random 0
+    inherit 0
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 11
+    ysize 25
+    bounce 1
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 2
+    deadspace 0
+    opacity 1
+    blurlength 10
+    lightningDelay 0.09
+    lightningRadius 0.045
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0.75
+    grav 0.7
+    threshold 0.01
+    texture fxpa_Smoke01a
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter g_WSwGs_V_Cold
+  parent WBlPl_fxfrost
+  position 0.00632873 0.294895 -0.000375993
+  orientation 0.577351 0.577351 0.577349 -4.18879
+  wirecolor 0.335938 0.335938 0.335938
+    colorStart 1 1 1
+    colorEnd 1 1 1
+    alphaStart 0.2
+    alphaEnd 0
+    sizeStart 0
+    sizeEnd 0.75
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 0
+    birthrate 11
+    spawnType 0
+    lifeExp 2
+    mass 0.01
+    spread 3.14159
+    particleRot 0
+    velocity 0
+    randvel 0.1
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 13
+    ysize 20
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    update_sel 1
+    render_sel 1
+    blend_sel 13435085
+    deadspace 0
+    opacity 0
+    blurlength 0.5
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_Smoke01a
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom WBlPl_fxfrost
+donemodel WBlPl_fxfrost

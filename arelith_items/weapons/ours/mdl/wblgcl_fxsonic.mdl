@@ -1,0 +1,72 @@
+# Exported from Blender on Sunday, 2020-03-01
+filedependancy unknown
+newmodel wblgcl_fxsonic
+setsupermodel wblgcl_fxsonic null
+classification ITEM
+setanimationscale 1.0
+beginmodelgeom wblgcl_fxsonic
+node dummy wblgcl_fxsonic
+  parent null
+endnode
+node emitter g_WSwGs_V_Sonic
+  parent wblgcl_fxsonic
+  position -0.00472  0.17407 -0.00030
+  orientation -1.00000  0.00000 -0.00000  1.57080
+  xsize 0.00
+  ysize 0.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 15
+  lifeexp 0.50
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 3.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 0.70
+  alphaend 0.50
+  sizestart 0.33
+  sizeend 0.33
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.20
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 1
+  p2p_sel 1
+  p2p_bezier2 0.00
+  p2p_bezier3 0.00
+  combinetime 0.00
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node reference OmenRef01
+  parent g_WSwGs_V_Sonic
+  position -0.00348  0.00015  0.23489
+  orientation  1.00000 -0.00000  0.00000  1.57080
+  refmodel fx_ref
+  reattachable 0
+endnode
+endmodelgeom wblgcl_fxsonic
+donemodel wblgcl_fxsonic
