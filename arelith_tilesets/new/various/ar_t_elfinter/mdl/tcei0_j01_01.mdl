@@ -1,0 +1,127 @@
+#MAXMODEL ASCII
+# model: tcei0_j01_01
+filedependancy tcei0_j01_01.max
+newmodel tcei0_j01_01
+setsupermodel tcei0_j01_01 null
+classification tile
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tcei0_j01_01
+node dummy tcei0_j01_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy mesh400
+  parent tcei0_j01_01
+  #part-number 1
+  orientation 0 0 0 0
+  position 0.660000026 -0.340000004 3
+endnode
+node trimesh mesh400_pivoted
+  parent mesh400
+  #part-number 2
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0.0500000007 0.0500000007 0.0500000007
+  shininess 26
+  bitmap tcei0_black
+  verts 6
+    3.3599999 5.69999981 0.100000001
+    -6.63999987 5.69999981 0.100000001
+    -6.63999987 -4.30000019 0.100000001
+    3.3599999 0.699999988 0.100000001
+    1.86000001 -4.98000002 0.100000001
+    4.69000006 -2.80999994 0.100000001
+  tverts 6
+    50.5000992 53.5 0
+    0.500122011 53.5 0
+    0.500109971 3.5 0
+    50.5000992 28.4990005 0
+    43.0150986 0.0900000036 0
+    57.1402016 10.9750004 0
+  faces 4
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    2 4 5 1 2 4 5 1
+    2 5 3 1 2 5 3 1
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  orientation 0 0 0 0
+  position 0.980000019 -0.360000014 -0.100000001
+endnode
+node light tcei0_j01_01ml2
+  parent tcei0_j01_01
+  #part-number 3
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 1
+  flareradius 0
+  orientation 0 0 0 0
+  radius 5
+  multiplier 1
+  color 0 0 0
+  position 5.46000004 -4.9000001 5.53999996
+endnode
+node light tcei0_j01_01ml1
+  parent tcei0_j01_01
+  #part-number 4
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 1
+  flareradius 0
+  orientation 0 0 0 0
+  radius 14
+  multiplier 1
+  color 0 0 0
+  position 0 0 5
+endnode
+node aabb object235
+  parent tcei0_j01_01
+  #part-number 5
+  ambient 0.588 0.588 0.588
+  diffuse 0.5 0.5 0.5
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  transparencyhint 0
+  bitmap NULL
+  verts 8
+    4.3499999 -5 2.44000006
+    5 -5 2.58999991
+    5 -4.53999996 2.58999991
+    5 -4.53999996 5.59000015
+    4.3499999 -5 5.44000006
+    5 5 3.04999995
+    -5 5 3
+    -5 -5 3
+  faces 6
+    0 1 2 1 0 0 0 4
+    3 4 2 2 0 0 0 7
+    0 2 4 2 0 0 0 7
+    5 6 3 1 0 0 0 7
+    4 3 6 4 0 0 0 7
+    6 7 4 8 0 0 0 7
+  aabb -5 -5 2.44000006 5 5 5.59000015 -1
+        -5 -5 3 5 5 5.59000015 -1
+         -5 -5 3 4.3499999 5 5.44000006 5
+         -5 -5 3 5 5 5.59000015 -1
+          -5 -5 3 5 5 5.59000015 4
+          -5 -4.53999996 3 5 5 5.59000015 3
+        4.3499999 -5 2.44000006 5 -4.53999996 5.59000015 -1
+         4.3499999 -5 2.44000006 5 -4.53999996 5.44000006 -1
+          4.3499999 -5 2.44000006 5 -4.53999996 2.58999991 0
+          4.3499999 -5 2.44000006 5 -4.53999996 5.44000006 2
+         4.3499999 -5 2.58999991 5 -4.53999996 5.59000015 1
+  orientation 0 0 0 0
+  position 0 0 0
+endnode
+endmodelgeom tcei0_j01_01
+
+donemodel tcei0_j01_01

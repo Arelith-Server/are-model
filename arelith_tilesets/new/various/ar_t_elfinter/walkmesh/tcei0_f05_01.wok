@@ -1,0 +1,26 @@
+# Rewritten by CleanModels 3.0 Sun Sep 10 09:32:04 2006
+#MAXWALKMESH  ASCII
+beginwalkmeshgeom tcei0_f05_01
+node aabb plane05
+  parent tcei0_f05_01
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.541176 0.0313726 0.431373
+  ambient 0.588 0.588 0.588
+  diffuse 0.5 0.5 0.5
+  specular 0.0 0.0 0.0
+  shininess 10.0
+  bitmap NULL
+  position 0 0 0
+  verts 4
+    -5.0 5.0 0.0
+    -5.0 -5.0 0.0
+    5.0 5.0 0.0
+    5.0 -5.0 0.0
+  faces 2
+    0 1 2 1 0 0 0 4
+    3 2 1 1 0 0 0 4
+  aabb     -5.0 -5.0 0.0 5.0 5.0 0.0 -1
+    -5.0 -5.0 0.0 5.0 5.0 0.0 0
+    -5.0 -5.0 0.0 5.0 5.0 0.0 1
+endnode
+endwalkmeshgeom tcei0_f05_01
