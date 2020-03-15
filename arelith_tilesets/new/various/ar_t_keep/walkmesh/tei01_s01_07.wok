@@ -1,0 +1,65 @@
+# Exported from NWmax 0.8 b60 at 21.02.2015 21:30:06
+# wok file
+#
+#NWmax WALKMESH  ASCII
+beginwalkmeshgeom tei01_s01_07
+node aabb wok02
+  parent tei01_s01_07
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 0.0 0.0 
+  multimaterial 20
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+  ambient 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Obscuring
+  verts 8
+    -5.0 -4.0 0.0
+    -5.0 -4.0 3.0
+    -5.0 -5.0 3.0
+    5.0 -4.0 0.0
+    5.0 -4.0 3.0
+    5.0 -5.0 3.0
+    -5.0 5.0 0.0
+    5.0 5.0 0.0
+  faces 6
+    5 4 1  0  0 0 0  2
+    5 1 2  0  0 0 0  2
+    4 3 0  0  0 0 0  2
+    4 0 1  0  0 0 0  2
+    7 6 0  0  0 0 0  5
+    7 0 3  0  0 0 0  5
+    aabb         -5.0 -5.0 0.0 5.0 5.0 3.0 -1
+        -5.0 -5.0 0.0 5.0 5.0 3.0 -1
+        -5.0 -5.0 0.0 5.0 -4.0 3.0 -1
+        -5.0 -4.0 0.0 5.0 -4.0 3.0 3
+        -5.0 -5.0 3.0 5.0 -4.0 3.0 1
+        -5.0 -4.0 0.0 5.0 5.0 0.0 4
+        -5.0 -5.0 0.0 5.0 5.0 3.0 -1
+        -5.0 -5.0 0.0 5.0 -4.0 3.0 -1
+        -5.0 -4.0 0.0 5.0 -4.0 3.0 2
+        -5.0 -5.0 3.0 5.0 -4.0 3.0 0
+        -5.0 -4.0 0.0 5.0 5.0 0.0 5
+endnode
+endwalkmeshgeom tei01_s01_07
