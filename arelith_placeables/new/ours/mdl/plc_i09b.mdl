@@ -1,18 +1,18 @@
 #MAXMODEL ASCII
-# model: plc_i09
-filedependancy plc_i09.max
-newmodel plc_i09
-setsupermodel plc_i09 NULL
+# model: plc_i09b
+filedependancy plc_i09b.max
+newmodel plc_i09b
+setsupermodel plc_i09b NULL
 classification character
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom plc_i09
-node dummy plc_i09
+beginmodelgeom plc_i09b
+node dummy plc_i09b
   parent NULL
   #part-number 0
 endnode
 node emitter OmenEmitter71
-  parent plc_i09
+  parent plc_i09b
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -73,7 +73,7 @@ node emitter OmenEmitter71
   drag 0
 endnode
 node emitter OmenEmitter74
-  parent plc_i09
+  parent plc_i09b
   #part-number 2
   p2p 0
   p2p_sel 1
@@ -134,7 +134,7 @@ node emitter OmenEmitter74
   drag 0
 endnode
 node emitter OmenEmitter73
-  parent plc_i09
+  parent plc_i09b
   #part-number 3
   p2p 0
   p2p_sel 1
@@ -195,7 +195,7 @@ node emitter OmenEmitter73
   drag 0
 endnode
 node emitter OmenEmitter72
-  parent plc_i09
+  parent plc_i09b
   #part-number 4
   p2p 0
   p2p_sel 1
@@ -256,37 +256,37 @@ node emitter OmenEmitter72
   drag 0
 endnode
 node dummy i09_hand
-  parent plc_i09
+  parent plc_i09b
   #part-number 5
   position 0.00398926018 -0.505195022 0.934401989
   orientation 0 0 0 0
 endnode
 node dummy i09_head
-  parent plc_i09
+  parent plc_i09b
   #part-number 6
   position 0.00398926018 0.0108252 2.17630005
   orientation 0 0 0 0
 endnode
 node dummy i09_head_hit
-  parent plc_i09
+  parent plc_i09b
   #part-number 7
   position 0.00398926018 0.0108252 1.90038002
   orientation 0 0 0 0
 endnode
 node dummy i09_impact
-  parent plc_i09
+  parent plc_i09b
   #part-number 8
   position 0.00398926018 0.0110010002 0.868134022
   orientation 0 0 0 0
 endnode
 node dummy i09_ground
-  parent plc_i09
+  parent plc_i09b
   #part-number 9
   position -0.00363280997 0.00698729977 0
   orientation 0 0 0 0
 endnode
 node trimesh damage21
-  parent plc_i09
+  parent plc_i09b
   #part-number 10
   ambient 0.0705882013 0 1
   diffuse 1 0.501960993 0.643136978
@@ -1800,7 +1800,7 @@ node trimesh Cylinder04
   alpha 1
 endnode
 node emitter ChunkyWood94
-  parent plc_i09
+  parent plc_i09b
   #part-number 21
   p2p 0
   p2p_sel 1
@@ -1862,7 +1862,7 @@ node emitter ChunkyWood94
   drag 0
 endnode
 node emitter fire!58
-  parent plc_i09
+  parent plc_i09b
   #part-number 22
   p2p 0
   p2p_sel 1
@@ -1922,67 +1922,67 @@ node emitter fire!58
   grav 0
   drag 0
 endnode
-endmodelgeom plc_i09
+endmodelgeom plc_i09b
 
 #MAXANIM ASCII
-newanim on2off plc_i09
+newanim on2off plc_i09b
   length 0.0333333015
   transtime 0
-  animroot plc_i09
-node dummy plc_i09
+  animroot plc_i09b
+node dummy plc_i09b
   parent NULL
   #part-number 0
 endnode
 node emitter OmenEmitter71
-  parent plc_i09
+  parent plc_i09b
   #part-number 1
   birthratekey 2
     0 3
     0.0333333015 0
 endnode
 node emitter OmenEmitter74
-  parent plc_i09
+  parent plc_i09b
   #part-number 2
   birthratekey 2
     0 3
     0.0333333015 0
 endnode
 node emitter OmenEmitter73
-  parent plc_i09
+  parent plc_i09b
   #part-number 3
   birthratekey 2
     0 3
     0.0333333015 0
 endnode
 node emitter OmenEmitter72
-  parent plc_i09
+  parent plc_i09b
   #part-number 4
   birthratekey 2
     0 3
     0.0333333015 0
 endnode
 node dummy i09_hand
-  parent plc_i09
+  parent plc_i09b
   #part-number 5
 endnode
 node dummy i09_head
-  parent plc_i09
+  parent plc_i09b
   #part-number 6
 endnode
 node dummy i09_head_hit
-  parent plc_i09
+  parent plc_i09b
   #part-number 7
 endnode
 node dummy i09_impact
-  parent plc_i09
+  parent plc_i09b
   #part-number 8
 endnode
 node dummy i09_ground
-  parent plc_i09
+  parent plc_i09b
   #part-number 9
 endnode
 node trimesh damage21
-  parent plc_i09
+  parent plc_i09b
   #part-number 10
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -2070,19 +2070,19 @@ node trimesh Cylinder04
   shininess 1
 endnode
 node emitter ChunkyWood94
-  parent plc_i09
+  parent plc_i09b
   #part-number 21
 endnode
 node emitter fire!58
-  parent plc_i09
+  parent plc_i09b
   #part-number 22
 endnode
-node dummy plc_i09_pwk
-  parent plc_i09
+node dummy plc_i09b_pwk
+  parent plc_i09b
   #part-number -1
 endnode
-node trimesh plc_i09_wg
-  parent plc_i09_pwk
+node trimesh plc_i09b_wg
+  parent plc_i09b_pwk
   #part-number 24
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -2090,74 +2090,74 @@ node trimesh plc_i09_wg
   shininess 1
 endnode
 node dummy i09_pwk_use02
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 25
 endnode
 node dummy i09_pwk_use01
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 26
 endnode
-doneanim on2off plc_i09
+doneanim on2off plc_i09b
 
 #MAXANIM ASCII
-newanim off2on plc_i09
+newanim off2on plc_i09b
   length 0.0333333015
   transtime 0
-  animroot plc_i09
-node dummy plc_i09
+  animroot plc_i09b
+node dummy plc_i09b
   parent NULL
   #part-number 0
 endnode
 node emitter OmenEmitter71
-  parent plc_i09
+  parent plc_i09b
   #part-number 1
   birthratekey 2
     0 0
     0.0333333015 3
 endnode
 node emitter OmenEmitter74
-  parent plc_i09
+  parent plc_i09b
   #part-number 2
   birthratekey 2
     0 0
     0.0333333015 3
 endnode
 node emitter OmenEmitter73
-  parent plc_i09
+  parent plc_i09b
   #part-number 3
   birthratekey 2
     0 0
     0.0333333015 3
 endnode
 node emitter OmenEmitter72
-  parent plc_i09
+  parent plc_i09b
   #part-number 4
   birthratekey 2
     0 0
     0.0333333015 3
 endnode
 node dummy i09_hand
-  parent plc_i09
+  parent plc_i09b
   #part-number 5
 endnode
 node dummy i09_head
-  parent plc_i09
+  parent plc_i09b
   #part-number 6
 endnode
 node dummy i09_head_hit
-  parent plc_i09
+  parent plc_i09b
   #part-number 7
 endnode
 node dummy i09_impact
-  parent plc_i09
+  parent plc_i09b
   #part-number 8
 endnode
 node dummy i09_ground
-  parent plc_i09
+  parent plc_i09b
   #part-number 9
 endnode
 node trimesh damage21
-  parent plc_i09
+  parent plc_i09b
   #part-number 10
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -2249,19 +2249,19 @@ node trimesh Cylinder04
   shininess 1
 endnode
 node emitter ChunkyWood94
-  parent plc_i09
+  parent plc_i09b
   #part-number 21
 endnode
 node emitter fire!58
-  parent plc_i09
+  parent plc_i09b
   #part-number 22
 endnode
-node dummy plc_i09_pwk
-  parent plc_i09
+node dummy plc_i09b_pwk
+  parent plc_i09b
   #part-number -1
 endnode
-node trimesh plc_i09_wg
-  parent plc_i09_pwk
+node trimesh plc_i09b_wg
+  parent plc_i09b_pwk
   #part-number 24
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -2269,74 +2269,74 @@ node trimesh plc_i09_wg
   shininess 1
 endnode
 node dummy i09_pwk_use02
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 25
 endnode
 node dummy i09_pwk_use01
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 26
 endnode
-doneanim off2on plc_i09
+doneanim off2on plc_i09b
 
 #MAXANIM ASCII
-newanim on plc_i09
+newanim on plc_i09b
   length 0.0333333015
   transtime 0
-  animroot plc_i09
-node dummy plc_i09
+  animroot plc_i09b
+node dummy plc_i09b
   parent NULL
   #part-number 0
 endnode
 node emitter OmenEmitter71
-  parent plc_i09
+  parent plc_i09b
   #part-number 1
   birthratekey 2
     0 3
     0.0333333015 3
 endnode
 node emitter OmenEmitter74
-  parent plc_i09
+  parent plc_i09b
   #part-number 2
   birthratekey 2
     0 3
     0.0333333015 3
 endnode
 node emitter OmenEmitter73
-  parent plc_i09
+  parent plc_i09b
   #part-number 3
   birthratekey 2
     0 3
     0.0333333015 3
 endnode
 node emitter OmenEmitter72
-  parent plc_i09
+  parent plc_i09b
   #part-number 4
   birthratekey 2
     0 3
     0.0333333015 3
 endnode
 node dummy i09_hand
-  parent plc_i09
+  parent plc_i09b
   #part-number 5
 endnode
 node dummy i09_head
-  parent plc_i09
+  parent plc_i09b
   #part-number 6
 endnode
 node dummy i09_head_hit
-  parent plc_i09
+  parent plc_i09b
   #part-number 7
 endnode
 node dummy i09_impact
-  parent plc_i09
+  parent plc_i09b
   #part-number 8
 endnode
 node dummy i09_ground
-  parent plc_i09
+  parent plc_i09b
   #part-number 9
 endnode
 node trimesh damage21
-  parent plc_i09
+  parent plc_i09b
   #part-number 10
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -2424,19 +2424,19 @@ node trimesh Cylinder04
   shininess 1
 endnode
 node emitter ChunkyWood94
-  parent plc_i09
+  parent plc_i09b
   #part-number 21
 endnode
 node emitter fire!58
-  parent plc_i09
+  parent plc_i09b
   #part-number 22
 endnode
-node dummy plc_i09_pwk
-  parent plc_i09
+node dummy plc_i09b_pwk
+  parent plc_i09b
   #part-number -1
 endnode
-node trimesh plc_i09_wg
-  parent plc_i09_pwk
+node trimesh plc_i09b_wg
+  parent plc_i09b_pwk
   #part-number 24
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -2444,74 +2444,74 @@ node trimesh plc_i09_wg
   shininess 1
 endnode
 node dummy i09_pwk_use02
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 25
 endnode
 node dummy i09_pwk_use01
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 26
 endnode
-doneanim on plc_i09
+doneanim on plc_i09b
 
 #MAXANIM ASCII
-newanim off plc_i09
+newanim off plc_i09b
   length 0.0333333015
   transtime 0
-  animroot plc_i09
-node dummy plc_i09
+  animroot plc_i09b
+node dummy plc_i09b
   parent NULL
   #part-number 0
 endnode
 node emitter OmenEmitter71
-  parent plc_i09
+  parent plc_i09b
   #part-number 1
   birthratekey 2
     0 0
     0.0333333015 0
 endnode
 node emitter OmenEmitter74
-  parent plc_i09
+  parent plc_i09b
   #part-number 2
   birthratekey 2
     0 0
     0.0333333015 0
 endnode
 node emitter OmenEmitter73
-  parent plc_i09
+  parent plc_i09b
   #part-number 3
   birthratekey 2
     0 0
     0.0333333015 0
 endnode
 node emitter OmenEmitter72
-  parent plc_i09
+  parent plc_i09b
   #part-number 4
   birthratekey 2
     0 0
     0.0333333015 0
 endnode
 node dummy i09_hand
-  parent plc_i09
+  parent plc_i09b
   #part-number 5
 endnode
 node dummy i09_head
-  parent plc_i09
+  parent plc_i09b
   #part-number 6
 endnode
 node dummy i09_head_hit
-  parent plc_i09
+  parent plc_i09b
   #part-number 7
 endnode
 node dummy i09_impact
-  parent plc_i09
+  parent plc_i09b
   #part-number 8
 endnode
 node dummy i09_ground
-  parent plc_i09
+  parent plc_i09b
   #part-number 9
 endnode
 node trimesh damage21
-  parent plc_i09
+  parent plc_i09b
   #part-number 10
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -2599,19 +2599,19 @@ node trimesh Cylinder04
   shininess 1
 endnode
 node emitter ChunkyWood94
-  parent plc_i09
+  parent plc_i09b
   #part-number 21
 endnode
 node emitter fire!58
-  parent plc_i09
+  parent plc_i09b
   #part-number 22
 endnode
-node dummy plc_i09_pwk
-  parent plc_i09
+node dummy plc_i09b_pwk
+  parent plc_i09b
   #part-number -1
 endnode
-node trimesh plc_i09_wg
-  parent plc_i09_pwk
+node trimesh plc_i09b_wg
+  parent plc_i09b_pwk
   #part-number 24
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -2619,62 +2619,62 @@ node trimesh plc_i09_wg
   shininess 1
 endnode
 node dummy i09_pwk_use02
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 25
 endnode
 node dummy i09_pwk_use01
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 26
 endnode
-doneanim off plc_i09
+doneanim off plc_i09b
 
 #MAXANIM ASCII
-newanim damage plc_i09
+newanim damage plc_i09b
   length 0.133332998
   transtime 0
-  animroot plc_i09
-node dummy plc_i09
+  animroot plc_i09b
+node dummy plc_i09b
   parent NULL
   #part-number 0
 endnode
 node emitter OmenEmitter71
-  parent plc_i09
+  parent plc_i09b
   #part-number 1
 endnode
 node emitter OmenEmitter74
-  parent plc_i09
+  parent plc_i09b
   #part-number 2
 endnode
 node emitter OmenEmitter73
-  parent plc_i09
+  parent plc_i09b
   #part-number 3
 endnode
 node emitter OmenEmitter72
-  parent plc_i09
+  parent plc_i09b
   #part-number 4
 endnode
 node dummy i09_hand
-  parent plc_i09
+  parent plc_i09b
   #part-number 5
 endnode
 node dummy i09_head
-  parent plc_i09
+  parent plc_i09b
   #part-number 6
 endnode
 node dummy i09_head_hit
-  parent plc_i09
+  parent plc_i09b
   #part-number 7
 endnode
 node dummy i09_impact
-  parent plc_i09
+  parent plc_i09b
   #part-number 8
 endnode
 node dummy i09_ground
-  parent plc_i09
+  parent plc_i09b
   #part-number 9
 endnode
 node trimesh damage21
-  parent plc_i09
+  parent plc_i09b
   #part-number 10
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -2771,19 +2771,19 @@ node trimesh Cylinder04
   shininess 1
 endnode
 node emitter ChunkyWood94
-  parent plc_i09
+  parent plc_i09b
   #part-number 21
 endnode
 node emitter fire!58
-  parent plc_i09
+  parent plc_i09b
   #part-number 22
 endnode
-node dummy plc_i09_pwk
-  parent plc_i09
+node dummy plc_i09b_pwk
+  parent plc_i09b
   #part-number -1
 endnode
-node trimesh plc_i09_wg
-  parent plc_i09_pwk
+node trimesh plc_i09b_wg
+  parent plc_i09b_pwk
   #part-number 24
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -2791,64 +2791,64 @@ node trimesh plc_i09_wg
   shininess 1
 endnode
 node dummy i09_pwk_use02
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 25
 endnode
 node dummy i09_pwk_use01
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 26
 endnode
-doneanim damage plc_i09
+doneanim damage plc_i09b
 
 #MAXANIM ASCII
-newanim die plc_i09
+newanim die plc_i09b
   length 0.166666999
   transtime 0
-  animroot plc_i09
+  animroot plc_i09b
   event 0.0333333015 detonate
   event 0.0333333015 detonate
-node dummy plc_i09
+node dummy plc_i09b
   parent NULL
   #part-number 0
 endnode
 node emitter OmenEmitter71
-  parent plc_i09
+  parent plc_i09b
   #part-number 1
 endnode
 node emitter OmenEmitter74
-  parent plc_i09
+  parent plc_i09b
   #part-number 2
 endnode
 node emitter OmenEmitter73
-  parent plc_i09
+  parent plc_i09b
   #part-number 3
 endnode
 node emitter OmenEmitter72
-  parent plc_i09
+  parent plc_i09b
   #part-number 4
 endnode
 node dummy i09_hand
-  parent plc_i09
+  parent plc_i09b
   #part-number 5
 endnode
 node dummy i09_head
-  parent plc_i09
+  parent plc_i09b
   #part-number 6
 endnode
 node dummy i09_head_hit
-  parent plc_i09
+  parent plc_i09b
   #part-number 7
 endnode
 node dummy i09_impact
-  parent plc_i09
+  parent plc_i09b
   #part-number 8
 endnode
 node dummy i09_ground
-  parent plc_i09
+  parent plc_i09b
   #part-number 9
 endnode
 node trimesh damage21
-  parent plc_i09
+  parent plc_i09b
   #part-number 10
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -2939,19 +2939,19 @@ node trimesh Cylinder04
   shininess 1
 endnode
 node emitter ChunkyWood94
-  parent plc_i09
+  parent plc_i09b
   #part-number 21
 endnode
 node emitter fire!58
-  parent plc_i09
+  parent plc_i09b
   #part-number 22
 endnode
-node dummy plc_i09_pwk
-  parent plc_i09
+node dummy plc_i09b_pwk
+  parent plc_i09b
   #part-number -1
 endnode
-node trimesh plc_i09_wg
-  parent plc_i09_pwk
+node trimesh plc_i09b_wg
+  parent plc_i09b_pwk
   #part-number 24
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -2959,62 +2959,62 @@ node trimesh plc_i09_wg
   shininess 1
 endnode
 node dummy i09_pwk_use02
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 25
 endnode
 node dummy i09_pwk_use01
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 26
 endnode
-doneanim die plc_i09
+doneanim die plc_i09b
 
 #MAXANIM ASCII
-newanim dead plc_i09
+newanim dead plc_i09b
   length 0.0333333015
   transtime 0
-  animroot plc_i09
-node dummy plc_i09
+  animroot plc_i09b
+node dummy plc_i09b
   parent NULL
   #part-number 0
 endnode
 node emitter OmenEmitter71
-  parent plc_i09
+  parent plc_i09b
   #part-number 1
 endnode
 node emitter OmenEmitter74
-  parent plc_i09
+  parent plc_i09b
   #part-number 2
 endnode
 node emitter OmenEmitter73
-  parent plc_i09
+  parent plc_i09b
   #part-number 3
 endnode
 node emitter OmenEmitter72
-  parent plc_i09
+  parent plc_i09b
   #part-number 4
 endnode
 node dummy i09_hand
-  parent plc_i09
+  parent plc_i09b
   #part-number 5
 endnode
 node dummy i09_head
-  parent plc_i09
+  parent plc_i09b
   #part-number 6
 endnode
 node dummy i09_head_hit
-  parent plc_i09
+  parent plc_i09b
   #part-number 7
 endnode
 node dummy i09_impact
-  parent plc_i09
+  parent plc_i09b
   #part-number 8
 endnode
 node dummy i09_ground
-  parent plc_i09
+  parent plc_i09b
   #part-number 9
 endnode
 node trimesh damage21
-  parent plc_i09
+  parent plc_i09b
   #part-number 10
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -3105,19 +3105,19 @@ node trimesh Cylinder04
   shininess 1
 endnode
 node emitter ChunkyWood94
-  parent plc_i09
+  parent plc_i09b
   #part-number 21
 endnode
 node emitter fire!58
-  parent plc_i09
+  parent plc_i09b
   #part-number 22
 endnode
-node dummy plc_i09_pwk
-  parent plc_i09
+node dummy plc_i09b_pwk
+  parent plc_i09b
   #part-number -1
 endnode
-node trimesh plc_i09_wg
-  parent plc_i09_pwk
+node trimesh plc_i09b_wg
+  parent plc_i09b_pwk
   #part-number 24
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -3125,66 +3125,66 @@ node trimesh plc_i09_wg
   shininess 1
 endnode
 node dummy i09_pwk_use02
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 25
 endnode
 node dummy i09_pwk_use01
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 26
 endnode
-doneanim dead plc_i09
+doneanim dead plc_i09b
 
 #MAXANIM ASCII
-newanim default plc_i09
+newanim default plc_i09b
   length 0
   transtime 0.25
-  animroot plc_i09
-node dummy plc_i09
+  animroot plc_i09b
+node dummy plc_i09b
   parent NULL
   #part-number 0
 endnode
 node emitter OmenEmitter71
-  parent plc_i09
+  parent plc_i09b
   #part-number 1
   birthrate 3
 endnode
 node emitter OmenEmitter74
-  parent plc_i09
+  parent plc_i09b
   #part-number 2
   birthrate 3
 endnode
 node emitter OmenEmitter73
-  parent plc_i09
+  parent plc_i09b
   #part-number 3
   birthrate 3
 endnode
 node emitter OmenEmitter72
-  parent plc_i09
+  parent plc_i09b
   #part-number 4
   birthrate 3
 endnode
 node dummy i09_hand
-  parent plc_i09
+  parent plc_i09b
   #part-number 5
 endnode
 node dummy i09_head
-  parent plc_i09
+  parent plc_i09b
   #part-number 6
 endnode
 node dummy i09_head_hit
-  parent plc_i09
+  parent plc_i09b
   #part-number 7
 endnode
 node dummy i09_impact
-  parent plc_i09
+  parent plc_i09b
   #part-number 8
 endnode
 node dummy i09_ground
-  parent plc_i09
+  parent plc_i09b
   #part-number 9
 endnode
 node trimesh damage21
-  parent plc_i09
+  parent plc_i09b
   #part-number 10
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -3272,19 +3272,19 @@ node trimesh Cylinder04
   shininess 1
 endnode
 node emitter ChunkyWood94
-  parent plc_i09
+  parent plc_i09b
   #part-number 21
 endnode
 node emitter fire!58
-  parent plc_i09
+  parent plc_i09b
   #part-number 22
 endnode
-node dummy plc_i09_pwk
-  parent plc_i09
+node dummy plc_i09b_pwk
+  parent plc_i09b
   #part-number -1
 endnode
-node trimesh plc_i09_wg
-  parent plc_i09_pwk
+node trimesh plc_i09b_wg
+  parent plc_i09b_pwk
   #part-number 24
   ambient 0.200000003 0.200000003 0.200000003
   diffuse 0.800000012 0.800000012 0.800000012
@@ -3292,13 +3292,13 @@ node trimesh plc_i09_wg
   shininess 1
 endnode
 node dummy i09_pwk_use02
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 25
 endnode
 node dummy i09_pwk_use01
-  parent plc_i09_pwk
+  parent plc_i09b_pwk
   #part-number 26
 endnode
-doneanim default plc_i09
+doneanim default plc_i09b
 
-donemodel plc_i09
+donemodel plc_i09b
