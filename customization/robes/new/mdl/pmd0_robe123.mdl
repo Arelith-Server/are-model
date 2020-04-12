@@ -1,18 +1,18 @@
 #MAXMODEL ASCII
-# model: pmd0_robe122
-filedependancy pmd0_robe122.max
-newmodel pmd0_robe122
-setsupermodel pmd0_robe122 pmd0
+# model: pmd0_robe123
+filedependancy pmd0_robe123.max
+newmodel pmd0_robe123
+setsupermodel pmd0_robe123 pmd0
 classification character
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom pmd0_robe122
-node dummy pmd0_robe122
+beginmodelgeom pmd0_robe123
+node dummy pmd0_robe123
   parent NULL
   #part-number 0
 endnode
 node trimesh rootdummy
-  parent pmd0_robe122
+  parent pmd0_robe123
   #part-number 1
   ambient 0.223528996 0.235293999 0.219607994
   diffuse 0.639216006 0.68235302 0.627451003
@@ -20,7 +20,7 @@ node trimesh rootdummy
   shininess 31
   shadow 0
   render 0
-  bitmap pfh0_robe123
+  bitmap pmh0_robe123
   verts 8
     0.0224281996 -0.0195058994 -0.0190152992
     0.0224281996 -0.0195058994 0.0190150999
@@ -60,7 +60,7 @@ node trimesh pelvis_g
   specular 0 0 0
   shininess 27
   render 0
-  bitmap pfh0_robe123
+  bitmap pmh0_robe123
   verts 28
     0 -0.139689997 0.0263627991
     -0.135753006 0.0433952995 0.0263634995
@@ -185,7 +185,7 @@ node trimesh lthigh_g
   specular 0 0 0
   shininess 27
   render 0
-  bitmap pfh0_robe123
+  bitmap pmh0_robe123
   verts 16
     -0.0228730999 0.0594387986 0.0471260995
     -0.0682448 -0.0254143998 0.0473017991
@@ -274,7 +274,7 @@ node trimesh lshin_g
   shininess 11
   shadow 0
   render 0
-  bitmap pfh0_robe123
+  bitmap pmh0_robe123
   verts 8
     -0.0231388006 -0.0635595992 -0.329681993
     -0.00551983016 -0.0735153034 0.0141976001
@@ -319,7 +319,7 @@ node trimesh rthigh_g
   specular 0 0 0
   shininess 27
   render 0
-  bitmap pfh0_robe123
+  bitmap pmh0_robe123
   verts 16
     0.0682447031 -0.0254143998 0.0473012999
     0.0228730999 0.0594387986 0.0471257009
@@ -408,7 +408,7 @@ node trimesh rshin_g
   shininess 11
   shadow 0
   render 0
-  bitmap pfh0_robe123
+  bitmap pmh0_robe123
   verts 8
     0.0227418002 -0.0635610968 -0.329681993
     0.0602770001 -0.0123023996 0.00288705993
@@ -453,7 +453,7 @@ node trimesh torso_g
   specular 0 0 0
   shininess 27
   render 0
-  bitmap pfh0_robe123
+  bitmap pmh0_robe123
   verts 27
     0 -0.0185340997 -0.0474914983
     0.110691004 -0.0710432008 0.0139260003
@@ -567,12 +567,12 @@ node trimesh torso_g
   alpha 1
 endnode
 node skin Surcoat
-  parent pmd0_robe122
+  parent pmd0_robe123
   #part-number -1
   ambient 1 1 1
   diffuse 1 1 1
   specular 0 0 0
-  shininess 11
+  shininess 10
   bitmap pmh0_robe123
   verts 210
     0.0168632995 0.150434002 -0.544770002
@@ -1677,6 +1677,6 @@ node skin Surcoat
   orientation 0 0 0 0
   alpha 1
 endnode
-endmodelgeom pmd0_robe122
+endmodelgeom pmd0_robe123
 
-donemodel pmd0_robe122
+donemodel pmd0_robe123
