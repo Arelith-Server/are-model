@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b61 at 3/22/2020 2:26:29 PM
+# Exported from NWmax 0.8 b60 at 6/18/2006 7:13:51 PM
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -6,7 +6,7 @@
 #local file: Unknown
 filedependancy Unknown
 newmodel pfh3_robe026
-setsupermodel pfh3_robe026 a_fa_coat
+setsupermodel pfh3_robe026 h_fa_coat
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
@@ -30,8 +30,8 @@ node trimesh rootdummy
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 0.0 0.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 0
   center 0.0 5.06639e-006 0.0 
   bitmap rootdummy
@@ -74,8 +74,8 @@ node trimesh torso_g
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 0.0 0.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 0
   center -4.95911e-005 -0.14425 17.7809 
   bitmap torso_g
@@ -293,8 +293,8 @@ node trimesh lbicep_g
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 0.0 0.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 0
   center -1.89726 0.406455 -14.2224 
   bitmap lbicep_g
@@ -410,8 +410,8 @@ node trimesh lforearm_g
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 0.0 0.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 0
   center 0.0360348 0.89973 -11.9758 
   bitmap lforearm_g
@@ -510,8 +510,8 @@ node trimesh rbicep_g
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 0.0 0.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 0
   center 1.89726 0.406455 -14.2224 
   bitmap rbicep_g
@@ -627,8 +627,8 @@ node trimesh rforearm_g
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 0.0 0.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 0
   center -0.0360348 0.89973 -11.9758 
   bitmap rforearm_g
@@ -727,16 +727,16 @@ node danglymesh Coat_top
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 0
-  center 0.0 -11.2704 36.5158 
+  center 0.0 0.5313 18.5887 
   period 6.0
   tightness 5.0
   displacement 0.03
   showdispl true
   displtype 1
-  center 0.0 -11.2704 36.5158 
+  center 0.0 0.5313 18.5887 
   bitmap pfh0_robe026
   verts 116
     -0.097217 0.084332 0.140662
@@ -792,7 +792,7 @@ node danglymesh Coat_top
     0.09231 0.012227 -0.037759
     0.050926 0.017234 0.348496
     0.130214 0.012202 0.336276
-    0.0736643 -0.046132 0.378143
+    0.077336 -0.046132 0.378143
     0.122619 0.028312 0.025053
     0.131112 -0.012574 0.014317
     0.107515 -0.011803 0.005206
@@ -1116,10 +1116,10 @@ node danglymesh Coat_top
   tverts 143
     0.374189 0.724223 0
     0.358797 0.739293 0
-    0.308954 0.712788 0
+    0.317171 0.712305 0
     0.435408 0.77525 0
     0.39532 0.78064 0
-    0.303921 0.739977 0
+    0.313588 0.742394 0
     0.298647 0.766836 0
     0.240865 0.732118 0
     0.378437 0.754911 0
@@ -1128,12 +1128,12 @@ node danglymesh Coat_top
     0.39827 0.858414 0
     0.338705 0.771157 0
     0.240956 0.806173 0
-    0.294849 0.810565 0
+    0.301133 0.810565 0
     0.322038 0.798283 0
     0.244988 0.583531 0
     0.247152 0.545325 0
     0.34851 0.537819 0
-    0.290026 0.891722 0
+    0.299693 0.890272 0
     0.3907 0.916545 0
     0.319682 0.93799 0
     0.247152 0.989397 0
@@ -1148,26 +1148,26 @@ node danglymesh Coat_top
     0.463972 0.666788 0
     0.476809 0.760876 0
     0.357544 0.602643 0
-    0.313616 0.684145 0
+    0.3199 0.684145 0
     0.241918 0.668515 0
-    0.189398 0.708635 0
+    0.177798 0.710568 0
     0.156862 0.742456 0
     0.136224 0.724319 0
     0.108932 0.776192 0
     0.055295 0.764408 0
-    0.19867 0.768139 0
-    0.196888 0.740224 0
+    0.194803 0.768139 0
+    0.185288 0.740224 0
     0.126482 0.75272 0
     0.138731 0.769472 0
     0.145663 0.8013 0
     0.101238 0.863038 0
     0.162556 0.771157 0
-    0.200743 0.820668 0
+    0.196876 0.821635 0
     0.178077 0.798283 0
     0.149701 0.537819 0
-    0.195701 0.897584 0
+    0.189417 0.906768 0
     0.096648 0.914126 0
-    0.168415 0.938501 0
+    0.172765 0.938501 0
     0.090945 0.602882 0
     0.042208 0.610324 0
     0.105339 0.563635 0
@@ -1177,7 +1177,7 @@ node danglymesh Coat_top
     0.00746155 0.759871 0
     0.029477 0.667531 0
     0.13549 0.602643 0
-    0.185623 0.679795 0
+    0.179823 0.684145 0
     0.470136 0.903017 0
     0.241051 0.502295 0
     0.028745 0.902455 0
@@ -1201,7 +1201,7 @@ node danglymesh Coat_top
     0.746976 0.521182 0
     0.830539 0.604589 0
     0.743744 0.953661 0
-    0.750874 0.91972 0
+    0.750874 0.923745 0
     0.866507 0.604589 0
     0.786237 0.604589 0
     0.75081 0.604589 0
@@ -1391,8 +1391,8 @@ node trimesh coat_root
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 0.0 0.0 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 0
   center 0.31537 0.0 2.5 
   bitmap NULL
@@ -1435,8 +1435,8 @@ node trimesh coat_BL1
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 0.682353 0.0 
-  diffuse 1.0 0.682353 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 0.682353 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 2
   center 0.539015 -1.98877 -8.31879 
   bitmap coat_bones
@@ -1749,8 +1749,8 @@ node trimesh coat_BL1a
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 0.682353 0.0 
-  diffuse 1.0 0.682353 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 0.682353 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 2
   center 0.0953202 -4.11818 -20.413 
   bitmap coat_bones
@@ -1878,8 +1878,8 @@ node trimesh coat_BL2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 0.682353 0.0 
-  diffuse 1.0 0.682353 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 0.682353 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 2
   center -0.0914898 -5.32608 -22.2438 
   bitmap coat_bones
@@ -2009,8 +2009,8 @@ node trimesh coat_BR1
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 0.682353 0.0 
-  diffuse 1.0 0.682353 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 0.682353 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 2
   center -0.57083 -1.98865 -8.31879 
   bitmap coat_bones
@@ -2218,8 +2218,8 @@ node trimesh coat_BR1a
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 0.682353 0.0 
-  diffuse 1.0 0.682353 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 0.682353 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 2
   center -0.11004 -4.118 -20.4131 
   bitmap coat_bones
@@ -2346,8 +2346,8 @@ node trimesh coat_BR2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 0.682353 0.0 
-  diffuse 1.0 0.682353 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 0.682353 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 2
   center 0.0767503 -5.32601 -22.2438 
   bitmap coat_bones
@@ -2475,8 +2475,8 @@ node trimesh coat_FL1
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 0.682353 0.0 
-  diffuse 1.0 0.682353 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 0.682353 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 2
   center 0.50316 -0.69685 -8.31879 
   bitmap coat_bones
@@ -2629,8 +2629,8 @@ node trimesh coat_FL1a
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 0.682353 0.0 
-  diffuse 1.0 0.682353 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 0.682353 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 2
   center -0.74058 0.0665851 -20.409 
   bitmap coat_bones
@@ -2727,8 +2727,8 @@ node trimesh coat_FL2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 0.682353 0.0 
-  diffuse 1.0 0.682353 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 0.682353 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 2
   center -0.94716 1.7745 -22.2099 
   bitmap coat_bones
@@ -2826,8 +2826,8 @@ node trimesh coat_FR1
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 0.682353 0.0 
-  diffuse 1.0 0.682353 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 0.682353 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 2
   center -0.44066 -0.696855 -8.31879 
   bitmap coat_bones
@@ -3093,8 +3093,8 @@ node trimesh coat_FR1a
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 0.682353 0.0 
-  diffuse 1.0 0.682353 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 0.682353 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 2
   center 0.7402 0.0665851 -20.409 
   bitmap coat_bones
@@ -3197,8 +3197,8 @@ node trimesh coat_FR2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 0.682353 0.0 
-  diffuse 1.0 0.682353 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 0.682353 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 2
   center 0.94678 1.7745 -22.2099 
   bitmap coat_bones
@@ -4376,72 +4376,72 @@ node skin Skirt_B
     100 128 127  1  100 128 127  0
     99 100 127  1  99 100 127  0
   tverts 132
-    0.301238 0.410117 0
-    0.357504 0.410117 0
-    0.357504 0.523124 0
-    0.301238 0.523124 0
-    0.357504 0.337722 0
-    0.301238 0.337722 0
-    0.301238 0.26221 0
-    0.357504 0.26221 0
-    0.357504 0.159871 0
-    0.301238 0.159871 0
-    0.301238 0.095091 0
-    0.357504 0.095091 0
-    0.357504 0.036785 0
-    0.301238 0.036785 0
-    0.235915 0.523124 0
-    0.235915 0.410117 0
-    0.235915 0.337722 0
-    0.235915 0.26221 0
-    0.235915 0.159871 0
-    0.235915 0.095091 0
-    0.235915 0.036785 0
-    0.166469 0.410117 0
-    0.166469 0.523124 0
-    0.166469 0.337722 0
-    0.166469 0.26221 0
-    0.166469 0.159871 0
-    0.166469 0.095091 0
-    0.166469 0.036785 0
-    0.113713 0.523124 0
-    0.113713 0.410117 0
-    0.113713 0.337722 0
-    0.113713 0.26221 0
-    0.113713 0.159871 0
-    0.113713 0.095091 0
-    0.113713 0.0367849 0
-    0.357504 0.523124 0
-    0.357504 0.410117 0
-    0.301238 0.410117 0
-    0.301238 0.523124 0
-    0.357504 0.337722 0
-    0.301238 0.337722 0
-    0.357504 0.26221 0
-    0.301238 0.26221 0
-    0.357504 0.159871 0
-    0.301238 0.159871 0
-    0.357504 0.095091 0
-    0.301238 0.095091 0
-    0.357504 0.036785 0
-    0.301238 0.036785 0
-    0.235915 0.523124 0
-    0.235915 0.410117 0
-    0.235915 0.337722 0
-    0.235915 0.26221 0
-    0.235915 0.159871 0
-    0.235915 0.095091 0
-    0.235915 0.036785 0
-    0.166469 0.410117 0
-    0.166469 0.523124 0
-    0.166469 0.337722 0
-    0.166469 0.26221 0
-    0.166469 0.159871 0
-    0.166469 0.095091 0
-    0.166469 0.036785 0
-    0.113713 0.523124 0
-    0.113713 0.410117 0
-    0.113713 0.337722 0
+    0.057791 0.118856 0
+    0.001525 0.118856 0
+    0.001525 0.005849 0
+    0.057791 0.005849 0
+    0.001525 0.191251 0
+    0.057791 0.191251 0
+    0.057791 0.266763 0
+    0.001525 0.266763 0
+    0.001525 0.369102 0
+    0.057791 0.369102 0
+    0.057791 0.433882 0
+    0.001525 0.433882 0
+    0.001525 0.492188 0
+    0.057791 0.492188 0
+    0.123114 0.005849 0
+    0.123114 0.118856 0
+    0.123114 0.191251 0
+    0.123114 0.266763 0
+    0.123114 0.369102 0
+    0.123114 0.433882 0
+    0.123114 0.492188 0
+    0.19256 0.118856 0
+    0.19256 0.005849 0
+    0.19256 0.191251 0
+    0.19256 0.266763 0
+    0.19256 0.369102 0
+    0.19256 0.433882 0
+    0.19256 0.492188 0
+    0.245316 0.005849 0
+    0.245316 0.118856 0
+    0.245316 0.191251 0
+    0.245316 0.266763 0
+    0.245316 0.369102 0
+    0.245316 0.433882 0
+    0.245316 0.492188 0
+    0.001525 0.005849 0
+    0.001525 0.118856 0
+    0.057791 0.118856 0
+    0.057791 0.005849 0
+    0.001525 0.191251 0
+    0.057791 0.191251 0
+    0.001525 0.266763 0
+    0.057791 0.266763 0
+    0.001525 0.369102 0
+    0.057791 0.369102 0
+    0.001525 0.433882 0
+    0.057791 0.433882 0
+    0.001525 0.492188 0
+    0.057791 0.492188 0
+    0.123114 0.005849 0
+    0.123114 0.118856 0
+    0.123114 0.191251 0
+    0.123114 0.266763 0
+    0.123114 0.369102 0
+    0.123114 0.433882 0
+    0.123114 0.492188 0
+    0.19256 0.118856 0
+    0.19256 0.005849 0
+    0.19256 0.191251 0
+    0.19256 0.266763 0
+    0.19256 0.369102 0
+    0.19256 0.433882 0
+    0.19256 0.492188 0
+    0.245316 0.005849 0
+    0.245316 0.118856 0
+    0.245316 0.191251 0
     0.506706 0.005849 0
     0.506706 0.118856 0
     0.569331 0.118856 0
@@ -4509,7 +4509,7 @@ node skin Skirt_B
     0.74078 0.118856 0
     0.74078 0.191251 0
   weights 132
-     coat_BL2 0.839825  coat_BL1a 0.160175 
+     coat_BL1a 0.160175  coat_BL2 0.839825 
      coat_BL1a 0.2  coat_BL2 0.8 
      coat_BL2 1.0 
      coat_BL2 1.0 
@@ -4841,7 +4841,7 @@ node skin skirt_FL
     0.74078 0.118856 0
     0.74078 0.191251 0
   weights 56
-     coat_FL1a 0.5  coat_FL1 0.5 
+     coat_FL1 0.5  coat_FL1a 0.5 
      coat_FL1 0.46363  coat_FL1a 0.53637 
      coat_FL2 0.124786  coat_FL1a 0.875214 
      coat_FL1a 0.85485  coat_FL2 0.14515 
@@ -5097,7 +5097,7 @@ node skin skirt_FR
     0.74078 0.118856 0
     0.74078 0.191251 0
   weights 56
-     coat_FR2 0.124607  coat_FR1a 0.875393 
+     coat_FR1a 0.875393  coat_FR2 0.124607 
      coat_FR1 0.46377  coat_FR1a 0.53623 
      coat_FR1 0.5  coat_FR1a 0.5 
      coat_FR1a 0.854747  coat_FR2 0.145253 
