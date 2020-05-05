@@ -1,0 +1,125 @@
+#MAXMODEL ASCII
+# model: zlc_fky_c98
+filedependancy zlc_fky_c98.max
+newmodel zlc_fky_c98
+setsupermodel zlc_fky_c98 null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom zlc_fky_c98
+node dummy zlc_fky_c98
+  parent NULL
+  #part-number 0
+endnode
+node dummy zlc_fky_c98_center
+  parent zlc_fky_c98
+  #part-number 1
+  position -0.2734375 -2.2265625 0
+endnode
+node trimesh mesh2327
+  parent zlc_fky_c98_center
+  #part-number 2
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0.0500000007 0.0500000007 0.0500000007
+  shininess 26
+  transparencyhint 1
+  bitmap tde01_chain
+  verts 4
+    -0.0299999993 -1.87 -3.03999996
+    -0.349999994 -1.96000004 -3.03999996
+    1.04999995 -1.38 3.05999994
+    1.36000001 -1.28999996 3.05999994
+  tverts 4
+    3.06327009 0.951878011 0
+    3.06327009 0.842670023 0
+    0.365583003 0.842670977 0
+    0.365583003 0.951879025 0
+  faces 4
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    1 0 3 2 1 0 3 1
+    3 2 1 2 3 2 1 1
+  position 0.790000021 4.46999979 3.48000002
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  setfillumcolor 0 0 0
+endnode
+node trimesh mesh2328
+  parent zlc_fky_c98_center
+  #part-number 3
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0.0500000007 0.0500000007 0.0500000007
+  shininess 26
+  transparencyhint 1
+  bitmap tde01_chain
+  verts 4
+    -0.140000001 -2.06999993 -3.03999996
+    -0.239999995 -1.75999999 -3.03999996
+    1.15999997 -1.17999995 3.05999994
+    1.25 -1.49000001 3.05999994
+  tverts 4
+    3.06327009 0.951878011 0
+    3.06327009 0.842670023 0
+    0.365583003 0.842670977 0
+    0.365583003 0.951879025 0
+  faces 4
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    1 0 3 2 1 0 3 1
+    3 2 1 2 3 2 1 1
+  position 0.790000021 4.46999979 3.48000002
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  setfillumcolor 0 0 0
+endnode
+node trimesh object352
+  parent zlc_fky_c98_center
+  #part-number 4
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0.0500000007 0.0500000007 0.0500000007
+  shininess 26
+  bitmap tde01_wall9k
+  verts 8
+    0.409999996 0.280000001 0.270000011
+    0.720000029 0.389999986 0.270000011
+    0.610000014 0.709999979 0.270000011
+    0.289999992 0.600000024 0.270000011
+    0.360000014 0.180000007 -0.25999999
+    0.660000026 0.819999993 -0.25999999
+    0.829999983 0.349999994 -0.25999999
+    0.189999998 0.649999976 -0.25999999
+  tverts 12
+    0.443910003 0.490337014 0
+    0.432116985 0.715360999 0
+    0.657141984 0.727154016 0
+    0.668935001 0.502129018 0
+    0.324838996 0.990202308 0
+    0.60661602 1.49020195 0
+    0.381590992 1.49020195 0
+    0.657715023 0.990202308 0
+    0.675161004 0.990202308 0
+    0.342283994 0.990202427 0
+    0.39338401 1.49020195 0
+    0.618408978 1.49020195 0
+  faces 10
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 1 0 2 4 5 6 5
+    5 2 6 4 7 5 4 4
+    1 6 2 4 6 4 5 4
+    5 7 3 2 8 9 10 6
+    3 2 5 2 10 11 8 6
+    4 3 7 4 9 11 8 3
+    4 0 3 4 9 10 11 3
+    4 6 1 2 4 7 5 5
+  position 0.0799999982 2.04999995 0.25999999
+  orientation 0 0 0 0
+endnode
+endmodelgeom zlc_fky_c98
+
+donemodel zlc_fky_c98
