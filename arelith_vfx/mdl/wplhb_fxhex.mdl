@@ -1,0 +1,134 @@
+#MAXMODEL ASCII
+# model: WPlHb_fxneg
+filedependancy WPlHb_fxneg.max
+newmodel WPlHb_fxneg
+setsupermodel WPlHb_fxneg NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom WPlHb_fxneg
+node dummy WPlHb_fxneg
+  parent NULL
+endnode
+node emitter g_WSwGs_V_Neg
+  parent WPlHb_fxneg
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Sparks
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 1.28133 -0.0999379
+  orientation -0.1710879 -0.9702875 -0.1710879 -1.60095
+  colorstart 0.00 0.63 1.00
+  colorend 0.00 0.22 1.00
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 0.7
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 24
+  lifeExp 1
+  mass 0
+  spread 2.26893
+  particleRot 0
+  velocity 0
+  randvel 0.05
+  fps 0
+  xsize 16
+  ysize 42
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter g_WSwGs_V_Neg01
+  parent WPlHb_fxneg
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Sparks
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.894786 -0.161207
+  orientation 0 -1 0 -1.5708
+  colorstart 0.00 0.63 1.00
+  colorend 0.00 0.22 1.00
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 0.7
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 24
+  lifeExp 1
+  mass 0
+  spread 2.26893
+  particleRot 0
+  velocity 0
+  randvel 0.05
+  fps 0
+  xsize 16
+  ysize 42
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom WPlHb_fxneg
+
+donemodel WPlHb_fxneg
