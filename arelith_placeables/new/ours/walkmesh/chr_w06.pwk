@@ -1,0 +1,25 @@
+# Exported from NWmax 0.8 b61 at 7/5/2020 1:40:27 PM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node dummy chr_pwk_use01
+  parent chr_w06_pwk
+  position 0.0 -0.264766 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.101961 0.694118 0.580392 
+endnode
+node trimesh chr_w06_wg
+  parent chr_w06_pwk
+  position -0.15543 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.529412 0.0196078 0.0196078 
+  bitmap NULL
+  verts 4
+    -0.11299 -0.18506 0.0
+    0.48022 -0.18506 0.0
+    -0.11299 0.34327 0.0
+    0.48022 0.34327 0.0
+  faces 2
+    2 0 3  2  0 0 0  7
+    1 3 0  2  0 0 0  7
+endnode

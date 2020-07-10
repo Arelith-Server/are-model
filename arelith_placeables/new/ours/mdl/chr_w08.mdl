@@ -1,0 +1,1083 @@
+# Exported from NWmax 0.8 b61 at 7/5/2020 1:43:19 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: chr_w08
+#local file: Unknown
+filedependancy Unknown
+newmodel chr_w08
+setsupermodel chr_w08 null
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom chr_w08
+node dummy chr_w08
+  parent NULL
+endnode
+node dummy chr_hand
+  parent chr_w08
+  position 0.00398 -0.5052 0.9344
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.603922 0.898039 
+endnode
+node dummy chr_head
+  parent chr_w08
+  position 0.00398 0.01083 1.04677
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.603922 0.898039 
+endnode
+node dummy chr_head_hit
+  parent chr_w08
+  position 0.00398 0.01083 0.56529
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.603922 0.898039 
+endnode
+node dummy chr_impact
+  parent chr_w08
+  position 0.00398 0.011 0.5372
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.603922 0.898039 
+endnode
+node dummy chr_ground
+  parent chr_w08
+  position -0.00363 0.00699 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.603922 0.898039 
+endnode
+node emitter ChunkyWood188
+  parent chr_w08
+  position 0.02722 0.02984 0.61549
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 178.0
+  ySize 80.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.48 0.44 0.32 
+  colorEnd 0.58 0.53 0.41 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 2
+  lifeExp 1.0
+  mass 3.0
+  spread 1.22
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood189
+  parent chr_w08
+  position 0.02722 0.03082 0.50927
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 178.0
+  ySize 80.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 1.0
+  mass 3.0
+  spread 1.22
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node trimesh damage74
+  parent chr_w08
+  position 0.02879 0.00927 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 24
+  center 0.0 0.0 25.0 
+  bitmap null
+  verts 12
+    -0.19542 -0.18622 0.0
+    -0.19542 0.18622 0.0
+    0.19542 0.18622 0.0
+    0.19542 -0.18622 0.0
+    -0.19542 -0.18622 0.5
+    0.19542 -0.18622 0.5
+    0.19542 0.18622 0.5
+    -0.19542 0.18622 0.5
+    0.10394 -0.09905 0.25
+    -0.10394 -0.09905 0.25
+    0.10394 0.09905 0.25
+    -0.10394 0.09905 0.25
+  faces 20
+    0 1 2  2  0 0 0  0
+    2 3 0  2  0 0 0  0
+    4 5 6  3  0 0 0  0
+    6 7 4  3  0 0 0  0
+    0 3 8  4  0 0 0  0
+    8 9 0  4  0 0 0  0
+    9 8 5  4  0 0 0  0
+    5 4 9  4  0 0 0  0
+    3 2 10  5  0 0 0  0
+    10 8 3  5  0 0 0  0
+    8 10 6  5  0 0 0  0
+    6 5 8  5  0 0 0  0
+    2 1 11  6  0 0 0  0
+    11 10 2  6  0 0 0  0
+    10 11 7  6  0 0 0  0
+    7 6 10  6  0 0 0  0
+    1 0 9  7  0 0 0  0
+    9 11 1  7  0 0 0  0
+    11 9 4  7  0 0 0  0
+    4 7 11  7  0 0 0  0
+endnode
+node trimesh ob_chairphi03
+  parent damage74
+  position -0.02934 0.10304 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.162499 0.818 66.2525 
+  bitmap chr_w08
+  verts 106
+    -0.12211 0.17362 -0.00205
+    -0.12211 0.21571 -0.00204
+    -0.07151 0.2157 0.0718
+    -0.2551 -0.31051 0.49909
+    0.25971 -0.31051 0.49909
+    0.25971 0.17368 0.4991
+    -0.2551 0.17368 0.4991
+    0.25971 0.17362 0.45712
+    0.25971 -0.3105 0.45701
+    -0.2551 0.17345 0.45712
+    -0.2551 -0.3105 0.45701
+    0.25971 0.17378 -0.00205
+    0.22618 0.17366 0.34804
+    0.12672 0.17369 -0.00205
+    0.17962 0.17366 0.34804
+    0.07615 0.17365 0.07187
+    0.17962 0.17366 0.4568
+    0.00014 0.17394 0.09989
+    -0.175 0.17366 0.4568
+    -0.22157 0.17366 0.34804
+    -0.2551 0.17362 -0.00205
+    -0.175 0.17366 0.34804
+    -0.07154 0.17362 0.07187
+    0.23622 -0.28076 0.45703
+    0.23622 -0.21411 0.45703
+    0.16369 -0.28076 0.45703
+    -0.23161 -0.28076 0.45703
+    -0.15908 -0.28076 0.45703
+    -0.23161 -0.21411 0.45703
+    -0.15908 -0.22415 0.34804
+    -0.15908 -0.27072 0.34804
+    -0.15908 -0.28076 -0.00205
+    -0.15908 -0.21411 -0.00205
+    -0.23161 -0.28076 -0.00205
+    -0.23161 -0.21411 -0.00205
+    -0.15908 -0.21411 0.45703
+    0.16369 -0.21411 0.45703
+    0.16369 -0.22415 0.4568
+    -0.15908 -0.22415 0.4568
+    0.22618 0.17366 0.4568
+    0.22618 -0.21411 0.4568
+    0.22618 -0.21411 0.34804
+    0.17962 -0.21411 0.34804
+    0.17962 -0.21411 0.4568
+    0.16369 -0.21411 -0.00205
+    0.23622 -0.21411 -0.00205
+    0.07659 0.26735 1.00047
+    0.04008 0.26163 0.95266
+    0.03253 0.21701 0.95655
+    0.16369 -0.27072 0.34804
+    0.16369 -0.27072 0.4568
+    -0.15908 -0.27072 0.4568
+    0.16369 -0.22415 0.34804
+    0.16369 -0.28076 -0.00205
+    0.23622 -0.28076 -0.00205
+    0.25971 0.2157 -0.00204
+    0.12673 0.2157 -0.00204
+    -0.22157 -0.21411 0.4568
+    -0.22157 0.17366 0.4568
+    -0.22157 -0.21411 0.34804
+    -0.175 -0.21411 0.34804
+    -0.175 -0.21411 0.4568
+    -0.0004 0.27955 1.1177
+    -0.05612 0.27489 1.10079
+    0.00039 0.32687 1.32099
+    0.12837 0.30648 1.24024
+    0.17853 0.29079 1.17814
+    0.05638 0.2745 1.09546
+    0.22197 0.27417 1.09056
+    0.25074 0.25909 1.011
+    0.25986 0.24852 0.95536
+    0.07672 0.27033 1.05503
+    0.25979 0.2157 0.4991
+    0.07617 0.2157 0.07181
+    0.0001 0.2157 0.09993
+    -0.2551 0.21571 -0.00204
+    -0.25583 0.21567 0.499
+    -0.00091 0.25954 0.94303
+    -0.25661 0.24852 0.95536
+    -0.24806 0.25909 1.011
+    -0.05097 0.25934 0.95829
+    -0.2201 0.27417 1.09056
+    -0.08592 0.26439 1.00294
+    -0.08934 0.27075 1.05573
+    -0.17755 0.29079 1.17814
+    -0.12747 0.30648 1.24024
+    0.0731 0.22123 1.00187
+    -0.08936 0.22362 1.00314
+    -0.09126 0.22921 1.06069
+    -0.25661 0.20865 0.95875
+    -0.05763 0.23418 1.09576
+    -0.24658 0.22006 1.01897
+    -0.21882 0.23514 1.09838
+    -0.00715 0.23864 1.11326
+    -0.17755 0.25123 1.18319
+    -0.12388 0.26761 1.24803
+    0.05279 0.2338 1.0874
+    0.00039 0.28759 1.3271
+    0.12477 0.26761 1.24803
+    0.07237 0.22687 1.05391
+    0.22066 0.23514 1.09838
+    0.24922 0.22006 1.01897
+    -0.00196 0.2162 0.94574
+    0.25986 0.20865 0.95875
+    -0.05579 0.21932 0.9604
+    0.17853 0.25123 1.18319
+  faces 212
+    0 1 2  2  0 1 2  0
+    3 4 5  2  3 4 5  0
+    5 6 3  2  5 6 3  0
+    7 5 4  2  7 8 9  0
+    4 8 7  2  9 10 7  0
+    6 9 10  2  11 12 13  0
+    10 3 6  2  13 14 11  0
+    10 8 4  2  15 16 17  0
+    4 3 10  2  17 18 15  0
+    11 7 12  2  19 20 21  0
+    13 11 12  2  22 19 21  0
+    13 12 14  2  22 21 23  0
+    15 13 14  2  24 22 23  0
+    15 14 16  2  24 23 25  0
+    17 16 18  2  26 25 27  0
+    19 20 0  2  28 29 30  0
+    19 0 21  2  28 30 31  0
+    0 22 21  2  30 32 31  0
+    22 18 21  2  32 27 31  0
+    23 24 8  2  33 34 35  0
+    23 8 10  2  33 35 36  0
+    25 23 10  2  37 33 36  0
+    26 27 10  2  38 39 36  0
+    28 26 10  2  40 38 36  0
+    29 30 31  2  41 42 43  0
+    32 29 31  2  44 41 43  0
+    27 26 33  2  45 46 47  0
+    33 31 27  2  47 48 45  0
+    26 28 34  2  49 50 51  0
+    34 33 26  2  51 52 49  0
+    33 34 32  2  53 54 55  0
+    32 31 33  2  55 56 53  0
+    35 18 16  2  57 58 59  0
+    36 35 16  2  60 57 59  0
+    36 37 38  2  60 61 62  0
+    36 38 35  2  60 62 57  0
+    12 39 40  2  63 64 65  0
+    40 41 12  2  65 66 63  0
+    16 14 42  2  63 64 65  0
+    42 43 16  2  65 66 63  0
+    14 12 41  2  63 64 65  0
+    41 42 14  2  65 66 63  0
+    44 36 43  2  48 45 67  0
+    44 43 42  2  48 67 68  0
+    44 42 45  2  48 68 47  0
+    42 41 45  2  68 69 47  0
+    41 24 45  2  69 46 47  0
+    41 40 24  2  69 70 46  0
+    46 47 48  2  71 72 73  0
+    49 50 51  2  74 75 65  0
+    51 30 49  2  65 66 74  0
+    37 52 29  2  65 66 74  0
+    29 38 37  2  74 75 65  0
+    52 49 30  2  65 66 74  0
+    30 29 52  2  74 75 65  0
+    53 49 52  2  52 76 77  0
+    44 53 52  2  51 52 77  0
+    54 23 25  2  48 45 46  0
+    25 53 54  2  46 47 48  0
+    45 24 23  2  44 78 79  0
+    23 54 45  2  79 43 44  0
+    44 45 54  2  80 81 82  0
+    54 53 44  2  82 83 80  0
+    55 11 13  2  84 85 86  0
+    55 13 56  2  84 86 87  0
+    57 58 19  2  88 89 66  0
+    19 59 57  2  66 74 88  0
+    60 21 18  2  88 89 66  0
+    18 61 60  2  66 74 88  0
+    59 19 21  2  88 89 66  0
+    21 60 59  2  66 74 88  0
+    61 35 32  2  70 46 47  0
+    61 32 60  2  70 47 69  0
+    32 34 60  2  47 48 69  0
+    34 59 60  2  48 68 69  0
+    34 28 59  2  48 45 68  0
+    28 57 59  2  45 67 68  0
+    62 63 64  2  90 91 92  0
+    62 64 65  2  90 92 93  0
+    62 65 66  2  90 93 94  0
+    67 62 66  2  95 90 94  0
+    67 66 68  2  95 94 96  0
+    67 68 69  2  95 96 97  0
+    67 69 70  2  95 97 98  0
+    71 67 70  2  99 95 98  0
+    71 70 72  2  99 98 100  0
+    46 71 72  2  101 99 100  0
+    72 55 56  2  100 102 103  0
+    72 56 73  2  100 103 104  0
+    46 72 73  2  101 100 104  0
+    46 73 74  2  101 104 105  0
+    46 74 2  2  101 105 106  0
+    46 2 75  2  101 106 107  0
+    46 75 76  2  101 107 108  0
+    47 46 76  2  109 101 108  0
+    77 47 76  2  110 109 108  0
+    77 76 78  2  110 108 111  0
+    77 78 79  2  110 111 112  0
+    77 79 80  2  110 112 113  0
+    79 81 80  2  112 114 113  0
+    81 82 80  2  114 115 113  0
+    81 83 82  2  114 116 115  0
+    81 63 83  2  114 91 116  0
+    63 81 84  2  91 114 117  0
+    63 84 64  2  91 117 92  0
+    84 85 64  2  117 118 92  0
+    2 1 75  2  106 119 107  0
+    48 86 46  2  73 120 71  0
+    87 88 6  2  121 122 123  0
+    88 89 6  2  122 124 123  0
+    88 90 89  2  122 125 124  0
+    90 91 89  2  125 126 124  0
+    90 92 91  2  125 127 126  0
+    90 93 92  2  125 128 127  0
+    93 94 92  2  128 129 127  0
+    93 95 94  2  128 130 129  0
+    93 96 95  2  128 131 130  0
+    96 97 95  2  131 132 130  0
+    96 98 97  2  131 133 132  0
+    96 99 98  2  131 134 133  0
+    99 100 98  2  134 135 133  0
+    99 101 100  2  134 136 135  0
+    101 99 86  2  136 134 137  0
+    101 86 48  2  136 137 138  0
+    102 101 48  2  139 136 138  0
+    102 103 101  2  139 140 136  0
+    102 5 103  2  139 141 140  0
+    102 104 5  2  139 142 141  0
+    104 87 5  2  142 121 141  0
+    87 6 5  2  121 123 141  0
+    100 105 98  2  135 143 133  0
+    71 46 86  2  144 71 120  0
+    75 20 9  2  145 146 147  0
+    75 9 6  2  145 147 148  0
+    75 6 76  2  145 148 149  0
+    76 6 89  2  149 148 150  0
+    89 78 76  2  150 151 149  0
+    78 89 91  2  151 150 152  0
+    91 79 78  2  152 153 151  0
+    81 79 91  2  154 153 152  0
+    91 92 81  2  152 155 154  0
+    84 81 92  2  156 154 155  0
+    84 92 95  2  156 155 157  0
+    84 95 85  2  156 157 158  0
+    85 95 97  2  158 157 159  0
+    97 64 85  2  159 160 158  0
+    64 97 98  2  160 159 157  0
+    98 65 64  2  157 158 160  0
+    66 65 98  2  156 158 157  0
+    98 105 66  2  157 161 156  0
+    92 94 95  2  155 161 157  0
+    68 66 105  2  154 156 161  0
+    105 100 68  2  161 155 154  0
+    68 100 101  2  154 155 152  0
+    101 69 68  2  152 153 154  0
+    70 69 101  2  151 153 152  0
+    101 103 70  2  152 150 151  0
+    72 70 103  2  149 151 150  0
+    103 5 72  2  150 162 149  0
+    5 7 72  2  162 163 149  0
+    55 72 7  2  164 149 163  0
+    7 11 55  2  163 165 164  0
+    86 99 71  2  120 166 144  0
+    0 20 1  2  0 167 1  0
+    20 75 1  2  167 168 1  0
+    22 0 2  2  169 0 2  0
+    47 77 102  2  72 170 171  0
+    22 2 74  2  169 2 172  0
+    102 48 47  2  171 73 72  0
+    17 22 74  2  173 169 172  0
+    77 80 104  2  174 175 176  0
+    17 74 73  2  173 172 177  0
+    104 102 77  2  176 178 174  0
+    15 17 73  2  179 173 177  0
+    80 82 87  2  175 180 181  0
+    15 73 56  2  179 177 87  0
+    87 104 80  2  181 176 175  0
+    13 15 56  2  86 179 87  0
+    82 83 88  2  180 182 183  0
+    37 36 44  2  50 50 51  0
+    88 87 82  2  183 181 180  0
+    25 50 49  2  49 49 76  0
+    83 63 90  2  184 185 186  0
+    53 25 49  2  52 49 76  0
+    90 88 83  2  186 187 184  0
+    37 44 52  2  50 51 77  0
+    63 62 93  2  185 188 189  0
+    35 61 18  2  57 190 58  0
+    93 90 63  2  189 186 185  0
+    36 16 43  2  60 59 191  0
+    62 67 96  2  192 193 194  0
+    32 35 38  2  44 78 78  0
+    96 93 62  2  194 195 192  0
+    32 38 29  2  44 78 41  0
+    67 71 99  2  193 196 197  0
+    30 51 27  2  42 79 79  0
+    99 96 67  2  197 194 193  0
+    30 27 31  2  42 79 43  0
+    22 17 18  2  32 26 27  0
+    9 58 57  2  198 199 200  0
+    17 15 16  2  26 24 25  0
+    9 57 28  2  198 200 40  0
+    7 39 12  2  20 201 21  0
+    40 39 7  2  202 203 204  0
+    19 9 20  2  28 205 29  0
+    40 7 8  2  202 204 35  0
+    19 58 9  2  28 206 205  0
+    24 40 8  2  34 202 35  0
+    9 28 10  2  198 40 36  0
+    50 25 10  2  207 37 36  0
+    27 51 10  2  39 208 36  0
+    51 50 10  2  208 207 36  0
+  tverts 209
+    0.0093 -1.0066 0
+    0.009 -1.0066 0
+    0.009 -1.0062 0
+    0.4559 -1.4094 0
+    0.8762 -1.4094 0
+    0.8762 -1.0173 0
+    0.4559 -1.0173 0
+    0.7903 -1.0263 0
+    0.8232 -1.0263 0
+    0.8232 -1.4052 0
+    0.7902 -1.4052 0
+    0.7235 -1.4209 0
+    0.6876 -1.4207 0
+    0.6875 -1.0061 0
+    0.7235 -1.0061 0
+    0.7294 -1.1345 0
+    0.2384 -1.1345 0
+    0.2384 -1.0944 0
+    0.7294 -1.0944 0
+    0.0219 -1.009 0
+    0.022 -1.3476 0
+    0.0494 -1.2672 0
+    0.1308 -1.009 0
+    0.0875 -1.2672 0
+    0.1722 -1.0635 0
+    0.0875 -1.3474 0
+    0.2344 -1.0842 0
+    0.3778 -1.3474 0
+    0.4159 -1.2672 0
+    0.4433 -1.009 0
+    0.3345 -1.009 0
+    0.3778 -1.2672 0
+    0.2931 -1.0635 0
+    0.4824 -1.4407 0
+    0.4824 -1.494 0
+    0.4641 -1.4169 0
+    0.8637 -1.4169 0
+    0.5387 -1.4407 0
+    0.8455 -1.4407 0
+    0.7892 -1.4407 0
+    0.8455 -1.494 0
+    0.9317 -1.2728 0
+    0.8941 -1.2728 0
+    0.886 -1.0273 0
+    0.9398 -1.0273 0
+    0.8865 -1.3483 0
+    0.9396 -1.3483 0
+    0.9396 -1.0244 0
+    0.8865 -1.0244 0
+    0.8901 -1.0274 0
+    0.9358 -1.0274 0
+    0.9398 -1.3492 0
+    0.886 -1.3492 0
+    0.6177 -1.8366 0
+    0.6177 -1.8992 0
+    0.56 -1.8992 0
+    0.56 -1.8366 0
+    0.7767 -1.4895 0
+    0.7891 -1.7996 0
+    0.5139 -1.7996 0
+    0.5262 -1.4895 0
+    0.5262 -1.4815 0
+    0.7767 -1.4815 0
+    0.9374 -1.8713 0
+    0.9374 -1.984 0
+    0.6492 -1.984 0
+    0.6492 -1.8713 0
+    0.896 -1.3482 0
+    0.896 -1.2714 0
+    0.9301 -1.2714 0
+    0.9301 -1.3482 0
+    0.094 -1.6226 0
+    0.1557 -1.6215 0
+    0.1622 -1.6669 0
+    0.9375 -1.8713 0
+    0.9375 -1.984 0
+    0.8941 -1.1037 0
+    0.9317 -1.1037 0
+    0.9358 -1.3491 0
+    0.8901 -1.3491 0
+    0.6199 -1.8994 0
+    0.5592 -1.8994 0
+    0.5592 -1.8388 0
+    0.6199 -1.8388 0
+    0.009 -1.0036 0
+    0.0093 -1.0036 0
+    0.0093 -1.0046 0
+    0.009 -1.0046 0
+    0.9375 -1.9836 0
+    0.6492 -1.9836 0
+    0.238 -1.835 0
+    0.1933 -1.8237 0
+    0.2445 -1.985 0
+    0.3438 -1.9223 0
+    0.3818 -1.8752 0
+    0.2825 -1.8173 0
+    0.4139 -1.8099 0
+    0.4345 -1.7507 0
+    0.4402 -1.7097 0
+    0.2976 -1.7873 0
+    0.4288 -1.3781 0
+    0.2962 -1.7478 0
+    0.4322 -1.0111 0
+    0.3266 -1.0142 0
+    0.2881 -1.0687 0
+    0.2284 -1.0907 0
+    0.1708 -1.0721 0
+    0.0233 -1.023 0
+    0.0193 -1.39 0
+    0.2659 -1.7137 0
+    0.2331 -1.7076 0
+    0.03 -1.7216 0
+    0.0384 -1.7623 0
+    0.1937 -1.7197 0
+    0.0628 -1.8201 0
+    0.1671 -1.7531 0
+    0.1658 -1.7917 0
+    0.099 -1.8835 0
+    0.1406 -1.9282 0
+    0.1289 -1.02 0
+    0.1015 -1.6688 0
+    0.3059 -1.7483 0
+    0.3085 -1.7919 0
+    0.4433 -1.3786 0
+    0.4446 -1.7163 0
+    0.2815 -1.8124 0
+    0.4369 -1.7591 0
+    0.4141 -1.8176 0
+    0.2404 -1.8292 0
+    0.3798 -1.8813 0
+    0.3374 -1.928 0
+    0.1906 -1.81 0
+    0.2342 -1.9869 0
+    0.131 -1.9281 0
+    0.1742 -1.7865 0
+    0.0534 -1.8178 0
+    0.0299 -1.7591 0
+    0.1752 -1.7482 0
+    0.2123 -1.714 0
+    0.2388 -1.7063 0
+    0.0218 -1.7164 0
+    0.022 -1.3786 0
+    0.2803 -1.7169 0
+    0.0884 -1.8813 0
+    0.038 -1.6317 0
+    0.9855 -1.022 0
+    0.9469 -1.022 0
+    0.9467 -1.3559 0
+    0.9479 -1.385 0
+    0.9854 -1.3864 0
+    0.9465 -1.702 0
+    0.9855 -1.6995 0
+    0.9465 -1.7458 0
+    0.9856 -1.74 0
+    0.9857 -1.7978 0
+    0.9465 -1.8035 0
+    0.9845 -1.8615 0
+    0.9465 -1.9124 0
+    0.9852 -1.9067 0
+    0.9465 -1.9905 0
+    0.9847 -1.9861 0
+    0.9465 -1.8652 0
+    0.947 -1.3863 0
+    0.9469 -1.3559 0
+    0.9854 -1.022 0
+    0.947 -1.022 0
+    0.0499 -1.6743 0
+    0.0093 -1.0076 0
+    0.009 -1.0076 0
+    0.0093 -1.0062 0
+    0.1984 -1.6236 0
+    0.1988 -1.6676 0
+    0.009 -1.0056 0
+    0.0093 -1.0056 0
+    0.401 -1.7271 0
+    0.3505 -1.7231 0
+    0.3489 -1.6841 0
+    0.009 -1.005 0
+    0.4026 -1.6852 0
+    0.0093 -1.005 0
+    0.2949 -1.7233 0
+    0.297 -1.684 0
+    0.2436 -1.7253 0
+    0.2419 -1.685 0
+    0.3284 -1.7938 0
+    0.284 -1.7927 0
+    0.291 -1.7609 0
+    0.3297 -1.7606 0
+    0.2378 -1.7895 0
+    0.2487 -1.7583 0
+    0.7891 -1.4895 0
+    0.5139 -1.4895 0
+    0.0575 -1.6365 0
+    0.1177 -1.6215 0
+    0.1307 -1.6618 0
+    0.0663 -1.6778 0
+    0.1648 -1.6175 0
+    0.1702 -1.6614 0
+    0.8639 -1.8036 0
+    0.8378 -1.8038 0
+    0.8377 -1.494 0
+    0.0494 -1.3474 0
+    0.4902 -1.494 0
+    0.4902 -1.8041 0
+    0.4641 -1.804 0
+    0.4433 -1.3476 0
+    0.4159 -1.3474 0
+    0.5387 -1.4487 0
+    0.7892 -1.4487 0
+endnode
+node emitter fire=116
+  parent chr_w08
+  position 0.02722 0.02984 0.43523
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 200.0
+  ySize 198.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.44 0.39 0.24 
+  colorEnd 0.64 0.61 0.48 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.0
+  mass 0.09
+  spread 2.97
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+endmodelgeom chr_w08
+#NWmax ANIM ASCII
+newanim default chr_w08
+  length 0.0
+  transtime 0.25
+  animroot chr_w08
+    node dummy chr_w08
+        parent NULL
+    endnode
+    node dummy chr_hand
+        parent chr_w08
+    endnode
+    node dummy chr_head
+        parent chr_w08
+    endnode
+    node dummy chr_head_hit
+        parent chr_w08
+    endnode
+    node dummy chr_impact
+        parent chr_w08
+    endnode
+    node dummy chr_ground
+        parent chr_w08
+    endnode
+    node emitter ChunkyWood188
+        parent chr_w08
+    endnode
+    node emitter ChunkyWood189
+        parent chr_w08
+    endnode
+    node trimesh damage74
+        parent chr_w08
+        positionkey
+            0.0 0.02879 0.00927 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh ob_chairphi03
+        parent damage74
+    endnode
+    node emitter fire=116
+        parent chr_w08
+    endnode
+    node dummy chr_w08_pwk
+        parent chr_w08
+    endnode
+    node dummy chr_pwk_use01
+        parent chr_w08_pwk
+    endnode
+    node trimesh chr_w08_wg
+        parent chr_w08_pwk
+    endnode
+doneanim default chr_w08
+#NWmax ANIM ASCII
+newanim damage chr_w08
+  length 0.133333
+  transtime 0.0
+  animroot chr_w08
+    node dummy chr_w08
+        parent NULL
+    endnode
+    node dummy chr_hand
+        parent chr_w08
+    endnode
+    node dummy chr_head
+        parent chr_w08
+    endnode
+    node dummy chr_head_hit
+        parent chr_w08
+    endnode
+    node dummy chr_impact
+        parent chr_w08
+    endnode
+    node dummy chr_ground
+        parent chr_w08
+    endnode
+    node emitter ChunkyWood188
+        parent chr_w08
+    endnode
+    node emitter ChunkyWood189
+        parent chr_w08
+    endnode
+    node trimesh damage74
+        parent chr_w08
+        positionkey
+            0.0 0.02879 0.00927 0.0
+            0.0333333 0.02879 0.00927 0.02446
+            0.133333 0.02879 0.00927 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.371334 -0.928464 0.00809986 -0.0469908
+            0.1 -0.599949 0.799969 0.0104695 -0.0436322
+            0.133333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh ob_chairphi03
+        parent damage74
+    endnode
+    node emitter fire=116
+        parent chr_w08
+    endnode
+    node dummy chr_w08_pwk
+        parent chr_w08
+    endnode
+    node dummy chr_pwk_use01
+        parent chr_w08_pwk
+    endnode
+    node trimesh chr_w08_wg
+        parent chr_w08_pwk
+    endnode
+doneanim damage chr_w08
+#NWmax ANIM ASCII
+newanim die chr_w08
+  length 0.166667
+  transtime 0.0
+  animroot chr_w08
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+    node dummy chr_w08
+        parent NULL
+    endnode
+    node dummy chr_hand
+        parent chr_w08
+    endnode
+    node dummy chr_head
+        parent chr_w08
+    endnode
+    node dummy chr_head_hit
+        parent chr_w08
+    endnode
+    node dummy chr_impact
+        parent chr_w08
+    endnode
+    node dummy chr_ground
+        parent chr_w08
+    endnode
+    node emitter ChunkyWood188
+        parent chr_w08
+    endnode
+    node emitter ChunkyWood189
+        parent chr_w08
+    endnode
+    node trimesh damage74
+        parent chr_w08
+        positionkey
+            0.0 0.02879 0.00927 0.0
+            0.166667 0.02879 0.00927 -6.95145
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh ob_chairphi03
+        parent damage74
+    endnode
+    node emitter fire=116
+        parent chr_w08
+    endnode
+    node dummy chr_w08_pwk
+        parent chr_w08
+    endnode
+    node dummy chr_pwk_use01
+        parent chr_w08_pwk
+    endnode
+    node trimesh chr_w08_wg
+        parent chr_w08_pwk
+    endnode
+doneanim die chr_w08
+#NWmax ANIM ASCII
+newanim dead chr_w08
+  length 0.0333333
+  transtime 0.0
+  animroot chr_w08
+    node dummy chr_w08
+        parent NULL
+    endnode
+    node dummy chr_hand
+        parent chr_w08
+    endnode
+    node dummy chr_head
+        parent chr_w08
+    endnode
+    node dummy chr_head_hit
+        parent chr_w08
+    endnode
+    node dummy chr_impact
+        parent chr_w08
+    endnode
+    node dummy chr_ground
+        parent chr_w08
+    endnode
+    node emitter ChunkyWood188
+        parent chr_w08
+    endnode
+    node emitter ChunkyWood189
+        parent chr_w08
+    endnode
+    node trimesh damage74
+        parent chr_w08
+        positionkey
+            0.0 0.02879 0.00927 -6.95145
+            0.0333333 0.02879 0.00927 -6.95145
+        endlist
+    endnode
+    node trimesh ob_chairphi03
+        parent damage74
+    endnode
+    node emitter fire=116
+        parent chr_w08
+    endnode
+    node dummy chr_w08_pwk
+        parent chr_w08
+    endnode
+    node dummy chr_pwk_use01
+        parent chr_w08_pwk
+    endnode
+    node trimesh chr_w08_wg
+        parent chr_w08_pwk
+    endnode
+doneanim dead chr_w08
+donemodel chr_w08
