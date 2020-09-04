@@ -1,0 +1,54 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: sic11_a00_00e
+filedependancy Unknown
+newmodel sic11_a00_00e
+setsupermodel sic11_a00_00e null
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom sic11_a00_00e
+node dummy sic11_a00_00e
+  parent NULL
+endnode
+node trimesh nero_01
+  parent sic11_a00_00e
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.695313 0.695313 0.695313
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 10
+  bitmap sic11_black
+  verts 8
+    5.00001 5 0
+    -5.00001 5 0
+    5.00001 -5 0
+    -5.00001 -5 0
+    5.00001 5 4.66775
+    -5.00001 5 4.66775
+    5.00001 -5 4.66775
+    -5.00001 -5 4.66775
+  faces 10
+    4 5 7  1  0 1 3  0
+    7 6 4  1  3 2 0  0
+    0 1 5  1  0 1 1  0
+    5 4 0  1  1 0 0  0
+    1 3 7  1  1 3 3  0
+    7 5 1  1  3 1 1  0
+    3 2 6  1  3 2 2  0
+    6 7 3  1  2 3 3  0
+    2 0 4  1  2 0 0  0
+    4 6 2  1  0 2 2  0
+  tverts 4
+    0 0 0
+    1 0 0
+    0 1 0
+    1 1 0
+endnode
+endmodelgeom sic11_a00_00e
+donemodel sic11_a00_00e
+
+
