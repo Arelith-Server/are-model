@@ -1,0 +1,54 @@
+#MAXMODEL ASCII
+# model: bwr01_z05_01
+filedependancy bwr01_z05_01.max
+newmodel bwr01_z05_01
+setsupermodel bwr01_z05_01 NULL
+classification TILE
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom bwr01_z05_01
+node dummy bwr01_z05_01
+  parent NULL
+endnode
+node trimesh ground01
+  parent bwr01_z05_01
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 11
+  shadow 0
+  bitmap bwr01_black01
+  verts 8
+       5.0000000    5.0000000   -3.9600000
+       0.0000000    5.0000000   -3.9600000
+       5.0000000    0.0000000   -3.9600000
+       0.0000000   -5.0000000   -3.9600000
+       5.0000000   -5.0000000   -3.9600000
+      -5.0000000    0.0000000   -3.9600000
+      -5.0000000   -5.0000000   -3.9600000
+      -5.0000000    5.0000000   -3.9600000
+  tverts 8
+       0.9995010    0.9995000  0
+       0.5000000    0.9995000  0
+       0.9995000    0.5000000  0
+       0.5000000    0.0004996  0
+       0.9995000    0.0004995  0
+       0.0004996    0.5000000  0
+       0.0004995    0.0004998  0
+       0.0004998    0.9995010  0
+  faces 6
+    0 1 2  1  0 1 2   1
+    2 3 4  1  2 3 4   1
+    3 5 6  1  3 5 6   1
+    1 7 5  1  1 7 5   1
+    2 1 3  1  2 1 3   1
+    3 1 5  1  3 1 5   1
+  position 0 0 -26.04
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom bwr01_z05_01
+
+donemodel bwr01_z05_01

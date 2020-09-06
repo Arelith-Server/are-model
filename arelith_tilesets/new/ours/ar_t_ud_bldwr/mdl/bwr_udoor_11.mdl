@@ -1,0 +1,37 @@
+#MAXMODEL ASCII
+# model: bwr_udoor_11
+filedependancy bwr_udoor_11.max
+newmodel bwr_udoor_11
+setsupermodel bwr_udoor_11 NULL
+classification DOOR
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom bwr_udoor_11
+node dummy bwr_udoor_11
+  parent NULL
+endnode
+node trimesh sam
+  parent bwr_udoor_11
+  ambient 0.384314 0.478431 0.784314
+  diffuse 0.384314 0.478431 0.784314
+  specular 0.384314 0.478431 0.784314
+  shininess 1
+  shadow 0
+  bitmap 23
+  verts 4
+      -0.6900000    0.2900000    0.9500000
+      -0.7800000   -0.1100000   -1.3600000
+       0.7500000    0.2900000    0.9500000
+       0.8400000   -0.1100000   -1.3600000
+  faces 2
+    0 1 2  1  0 0 0   1
+    3 2 1  1  0 0 0   1
+  position -6.10352e-07 -0.160002 1.27506
+  orientation 0 0 0 0
+  scale 1
+  alpha 0.5
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom bwr_udoor_11
+
+donemodel bwr_udoor_11

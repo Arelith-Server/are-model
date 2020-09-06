@@ -1,0 +1,1632 @@
+#MAXMODEL ASCII
+# model: bwr_udoor_04
+filedependancy bwr_udoor_04.max
+newmodel bwr_udoor_04
+setsupermodel bwr_udoor_04 NULL
+classification DOOR
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom bwr_udoor_04
+node dummy bwr_udoor_04
+  parent NULL
+endnode
+node dummy bwr_udoor_04grnd
+  parent bwr_udoor_04
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy bwr_udoor_04impc
+  parent bwr_udoor_04
+  position 0 0 0.75
+  orientation 0 0 0 0
+endnode
+node dummy bwr_udoor_04hhit
+  parent bwr_udoor_04
+  position 0 0 1.25
+  orientation 0 0 0 0
+endnode
+node dummy bwr_udoor_04head
+  parent bwr_udoor_04
+  position 0 0 1.5
+  orientation 0 0 0 0
+endnode
+node dummy d_anim
+  parent bwr_udoor_04
+  position -0.62 0.01 0
+  orientation 0 0 -1 -1.5708
+endnode
+node trimesh Mesh127
+  parent d_anim
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap bwr01_door04s
+  verts 118
+       0.0247305    0.0337825   -1.1696000
+       0.0247305    0.0357142    0.6454120
+       0.0247293   -0.2465620    0.5907250
+       0.0247290   -0.2838640   -1.1009001
+      -0.0184881    0.0357145    0.6454120
+      -0.0184893   -0.2068490    0.6478170
+       0.0247294   -0.2068490    0.6478170
+      -0.0184881    0.0337828   -1.1696000
+       0.0247278   -0.5640820    0.4359650
+       0.0247279   -0.5435920   -1.1099401
+       0.0247292   -0.2584730    0.6847600
+      -0.0184895   -0.2584730    0.6847600
+      -0.0184908   -0.5406930    0.6847600
+       0.0247278   -0.5406930    0.6847600
+       0.0247265   -0.8619530    0.5609600
+       0.0247264   -0.8824400   -0.4851340
+       0.0247277   -0.5969540    0.6549630
+      -0.0184910   -0.5969540    0.6549630
+      -0.0184921   -0.8501730    0.6742130
+       0.0247265   -0.8501730    0.6742130
+       0.0247252   -1.1474800    0.6406040
+       0.0247251   -1.1715300   -1.1903700
+       0.0247263   -0.9071740    0.6674870
+      -0.0184923   -0.9071730    0.6674870
+      -0.0184934   -1.1474800    0.6406040
+      -0.0184921   -0.8619530    0.5609600
+      -0.0184908   -0.5640810    0.4359650
+      -0.0184894   -0.2465620    0.5907250
+       0.0247263   -0.9062330   -1.2096900
+      -0.0184924   -0.9062330   -1.2096900
+      -0.0184923   -0.8824400   -0.4851340
+       0.0247278   -0.5695090   -1.1956800
+      -0.0184909   -0.5695090   -1.1956800
+      -0.0184908   -0.5435920   -1.1099401
+       0.0247264   -0.8635870   -1.2103601
+      -0.0184922   -0.8635870   -1.2103601
+       0.0247290   -0.2992950   -1.1974500
+      -0.0184897   -0.2992950   -1.1974500
+      -0.0184896   -0.2838640   -1.1009001
+       0.0247279   -0.5281610   -1.1974500
+      -0.0184907   -0.5281610   -1.1974500
+       0.0247291   -0.2579790   -1.1854900
+      -0.0184895   -0.2579790   -1.1854900
+       0.0248960   -1.0818900    0.2133390
+       0.0248957   -1.1142700   -0.0414043
+       0.0518542   -1.1142700   -0.0414043
+       0.0518545   -1.0818900    0.2133390
+       0.0249001    0.0365354    0.1771340
+       0.0518585    0.0365352    0.1771340
+       0.0248960   -1.1088901   -0.6960530
+       0.0248957   -1.1053100   -0.9198000
+       0.0518542   -1.1053100   -0.9198000
+       0.0518544   -1.1088901   -0.6960530
+       0.0249001    0.0365354   -0.6697670
+       0.0518586    0.0365353   -0.6697670
+       0.0518583    0.0365352   -0.0481968
+       0.0518583    0.0365352   -0.9045730
+       0.0477550   -0.9929400   -0.6002640
+       0.0477550   -0.9929400   -0.2630820
+       0.0477546   -1.1184900   -0.2630820
+       0.0477546   -1.1184900   -0.6002640
+       0.0252811   -1.1184900   -0.6002640
+       0.0252815   -0.9929400   -0.6002640
+       0.0252811   -1.1184900   -0.2630820
+       0.0252815   -0.9929400   -0.2630820
+      -0.0621758   -1.0438900   -0.3482970
+       0.0712508   -1.0577900   -0.3360820
+       0.0712509   -1.0438900   -0.3482970
+      -0.0621758   -1.0577900   -0.3360820
+       0.0712507   -1.0716900   -0.3482970
+      -0.0621759   -1.0716900   -0.3482970
+       0.0914468   -1.0577900   -0.3255350
+       0.0516181   -1.0577900   -0.3255350
+       0.0715320   -1.0801899   -0.3255350
+       0.0715322   -1.0353800   -0.3255350
+       0.0872015   -1.0577900   -0.4061790
+       0.0715322   -1.0401599   -0.4061790
+       0.0715320   -1.0754100   -0.4061790
+       0.0914461   -1.0577900   -0.4868240
+       0.0715322   -1.0353800   -0.4868240
+       0.0715320   -1.0801899   -0.4868240
+      -0.0184935   -1.1715300   -1.1903700
+      -0.0176742   -1.0818900    0.2133390
+      -0.0446328   -1.1142700   -0.0414043
+      -0.0176743   -1.1142700   -0.0414043
+      -0.0446327   -1.0818900    0.2133390
+      -0.0176645    0.0365354    0.1771340
+      -0.0446229    0.0365355    0.1771340
+      -0.0176745   -1.1088901   -0.6960530
+      -0.0446327   -1.1053100   -0.9198000
+      -0.0176743   -1.1053100   -0.9198000
+      -0.0446329   -1.1088901   -0.6960530
+      -0.0176645    0.0365354   -0.6697670
+      -0.0446230    0.0365356   -0.6697670
+      -0.0446227    0.0365355   -0.0481968
+      -0.0446227    0.0365356   -0.9045730
+      -0.0405322   -0.9929400   -0.6002640
+      -0.0405333   -1.1185000   -0.2630820
+      -0.0405322   -0.9929400   -0.2630820
+      -0.0405333   -1.1185000   -0.6002640
+      -0.0180597   -1.1185000   -0.6002640
+      -0.0180586   -0.9929400   -0.6002640
+      -0.0180597   -1.1185000   -0.2630820
+      -0.0180586   -0.9929400   -0.2630820
+      -0.0811686   -1.0577900   -0.3255350
+      -0.0612543   -1.0801899   -0.3255350
+      -0.0413399   -1.0577900   -0.3255350
+      -0.0612539   -1.0353800   -0.3255350
+      -0.0612539   -1.0401599   -0.4061790
+      -0.0769232   -1.0577900   -0.4061790
+      -0.0612542   -1.0754100   -0.4061790
+      -0.0612539   -1.0353800   -0.4868240
+      -0.0811686   -1.0577900   -0.4868240
+      -0.0612543   -1.0801899   -0.4868240
+      -0.0176645    0.0365354   -0.0481968
+      -0.0176646    0.0365354   -0.9045730
+       0.0249000    0.0365353   -0.0481968
+       0.0249001    0.0365354   -0.9045730
+  tverts 127
+       0.6441210    0.0262074  0
+       0.6459050    0.9290920  0
+       0.5095660    0.9165820  0
+       0.4900080    0.0605431  0
+       0.6459050    0.9542790  0
+       0.5308390    0.9542790  0
+       0.5308390    0.9290920  0
+       0.8386180    0.0093135  0
+       0.8386180    0.9140950  0
+       0.8312490    0.9140950  0
+       0.8312490    0.0093135  0
+       0.3430820    0.8339030  0
+       0.3538250    0.0560236  0
+       0.5036960    0.9290920  0
+       0.5036960    0.9542790  0
+       0.3553080    0.9542790  0
+       0.3553080    0.9290910  0
+       0.1869020    0.8958770  0
+       0.1761590    0.3684260  0
+       0.3258460    0.9310840  0
+       0.3257270    0.9542790  0
+       0.1925880    0.9542790  0
+       0.1925880    0.9290910  0
+       0.0370117    0.9312260  0
+       0.0245793    0.0158092  0
+       0.1626190    0.9290910  0
+       0.1626190    0.9542780  0
+       0.0362652    0.9542780  0
+       0.8665760    0.9490680  0
+       0.8439650    0.9490680  0
+       0.8439650    0.8933370  0
+       0.8665760    0.8933370  0
+       0.8662820    0.8774620  0
+       0.8442600    0.8774620  0
+       0.8442600    0.7658730  0
+       0.8662820    0.7658730  0
+       0.8439650    0.9525880  0
+       0.8665760    0.9525880  0
+       0.8672060    0.7644760  0
+       0.8433350    0.7644760  0
+       0.8433350    0.7125370  0
+       0.8672060    0.7125370  0
+       0.8442600    0.8926440  0
+       0.8662820    0.8926440  0
+       0.8433350    0.7440720  0
+       0.8672060    0.7440720  0
+       0.8445220    0.3252060  0
+       0.8675310    0.3252060  0
+       0.8675310    0.7109500  0
+       0.8445220    0.7109500  0
+       0.1636810    0.0061468  0
+       0.8432800    0.2244880  0
+       0.8653480    0.2244880  0
+       0.8653480    0.2682680  0
+       0.8432800    0.2682680  0
+       0.1860420    0.0058125  0
+       0.3402370    0.0131546  0
+       0.8675310    0.3248500  0
+       0.8445220    0.3248500  0
+       0.8439740    0.2748460  0
+       0.8651640    0.2748460  0
+       0.8651640    0.3221880  0
+       0.8439740    0.3221880  0
+       0.3619170    0.0122659  0
+       0.4819170    0.0122659  0
+       0.8653480    0.2235810  0
+       0.8432800    0.2235810  0
+       0.5035800    0.0182463  0
+       0.8651640    0.2807110  0
+       0.8439740    0.2807110  0
+       0.7130320    0.8490310  0
+       0.7130320    0.7069240  0
+       0.6968310    0.7069240  0
+       0.6968310    0.8490310  0
+       0.6985580    0.7004010  0
+       0.6985600    0.1305940  0
+       0.7124840    0.1305940  0
+       0.7124820    0.7004010  0
+       0.7130320    0.8361970  0
+       0.7130320    0.7070220  0
+       0.6968310    0.7070220  0
+       0.6968310    0.8361970  0
+       0.6985600    0.1166450  0
+       0.7124840    0.1166450  0
+       0.6500390    0.7042970  0
+       0.0715851    0.7176630  0
+       0.0610520    0.5994270  0
+       0.6500390    0.5912950  0
+       0.6500390    0.2761090  0
+       0.0574246    0.2629670  0
+       0.0593024    0.1554920  0
+       0.6500390    0.1631060  0
+       0.1182200    0.3108610  0
+       0.1182200    0.4794520  0
+       0.0523880    0.4794520  0
+       0.0523880    0.3108610  0
+       0.7151720   -0.0001882  0
+       0.7151720    0.0654494  0
+       0.7269210    0.0654494  0
+       0.7269210   -0.0001883  0
+       0.7150720    0.0652776  0
+       0.7150720    0.2415490  0
+       0.7268210    0.2415490  0
+       0.7268210    0.0652776  0
+       0.7244100    0.3651890  0
+       0.7164250    0.2484020  0
+       0.7244100    0.2484020  0
+       0.7164250    0.3651890  0
+       0.7143200    0.8754080  0
+       0.7143200    0.8964850  0
+       0.7024640    0.8859460  0
+       0.7261760    0.8859460  0
+       0.7275370    0.9937800  0
+       0.7145130    0.9469020  0
+       0.7247610    0.9469020  0
+       0.7145130    0.9937800  0
+       0.7042660    0.9469020  0
+       0.7014900    0.9937800  0
+       0.7145130    0.9000250  0
+       0.7275370    0.9000250  0
+       0.7014900    0.9000250  0
+       0.0155552    0.9312260  0
+       0.0036378    0.0156611  0
+       0.6500390    0.5912950  0
+       0.6500390    0.7042970  0
+       0.6500390    0.1631060  0
+       0.6500390    0.2761090  0
+  faces 152
+      0   1   2   1    0   1   2   1
+      2   3   0   1    2   3   0   1
+      1   4   5   2    1   4   5   1
+      5   6   1   2    5   6   1   1
+      7   4   1   4    7   8   9   2
+      1   0   7   4    9  10   7   2
+      3   2   8   1    3   2  11   1
+      8   9   3   1   11  12   3   1
+     10  11  12   2   13  14  15   1
+     12  13  10   2   15  16  13   1
+      9   8  14   1   12  11  17   1
+     14  15   9   1   17  18  12   1
+     16  17  18   2   19  20  21   1
+     18  19  16   2   21  22  19   1
+     15  14  20   1   18  17  23   1
+     20  21  15   1   23  24  18   1
+     22  23  24   2   25  26  27   1
+     24  20  22   2   27  23  25   1
+     23  22  14   4   28  29  30   1
+     14  25  23   8   30  31  28   1
+     20  14  22   1   23  17  25   1
+     17  16   8   4   32  33  34   1
+      8  26  17   8   34  35  32   1
+     16  19  14   1   19  22  17   1
+     14   8  16   1   17  11  19   1
+     19  18  25  16   36  37  31   1
+     25  14  19  16   31  30  36   1
+     11  10   2   4   38  39  40   1
+      2  27  11   4   40  41  38   1
+     10  13   8   1   13  16  11   1
+      8   2  10   1   11   2  13   1
+     13  12  26   4   42  43  35   1
+     26   8  13  16   35  34  42   1
+      1   6   2   1    1   6   2   1
+      6   5  27   8   44  45  41   1
+     27   2   6   8   41  40  44   1
+     28  29  30   2   46  47  48   1
+     30  15  28   2   48  49  46   1
+     21  28  15   1   24  50  18   1
+     31  32  33   2   51  52  53   1
+     33   9  31   2   53  54  51   1
+     34  31   9   1   55  56  12   1
+      9  15  34   1   12  18  55   1
+     35  34  15   4   57  58  49   1
+     15  30  35   4   49  48  57   1
+     36  37  38   2   59  60  61   1
+     38   3  36   2   61  62  59   1
+     39  36   3   1   63  64   3   1
+      3   9  39   1    3  12  63   1
+     40  39   9   4   65  66  54   1
+      9  33  40   4   54  53  65   1
+      0   3  41   1    0   3  67   1
+     42  41   3   4   68  69  62   1
+      3  38  42   4   62  61  68   1
+     43  44  45   1   70  71  72   1
+     45  46  43   1   72  73  70   1
+     47  43  46   2   74  75  76   1
+     46  48  47   2   76  77  74   1
+     49  50  51   1   78  79  80   1
+     51  52  49   1   80  81  78   1
+     53  49  52   2   74  82  83   1
+     52  54  53   2   83  77  74   1
+     48  46  45   4   84  85  86   3
+     45  55  48   4   86  87  84   3
+     54  52  51   4   88  89  90   3
+     51  56  54   4   90  91  88   3
+     57  58  59   1   92  93  94   2
+     59  60  57   1   94  95  92   2
+     57  60  61   2   96  97  98   5
+     61  62  57   2   98  99  96   5
+     60  59  63   4  100 101 102   4
+     63  61  60   4  102 103 100   4
+     59  58  64   2   97  96  99   6
+     64  63  59   2   99  98  97   6
+     58  57  62   4  101 100 103   3
+     62  64  58   4  103 102 101   3
+     65  66  67   1  104 105 106   3
+     65  68  66   1  104 107 105   3
+     68  69  66   1  107 106 105   3
+     68  70  69   1  107 104 106   3
+     71  72  73   1  108 109 110   2
+     71  74  72   1  108 111 109   2
+     74  75  76   2  112 113 114   3
+     74  71  75   2  112 115 113   3
+     71  77  75   2  115 116 113   3
+     71  73  77   2  115 117 116   3
+     76  78  79   2  114 118 119   3
+     76  75  78   2  114 113 118   3
+     75  80  78   2  113 120 118   3
+     75  77  80   2  113 116 120   3
+     21  20  24   4   24  23 121   1
+     24  81  21   4  121 122  24   1
+      4   7  27   1    1   0   2   1
+     38  27   7   1    3   2   0   1
+     27  38  26   1    2   3  11   1
+     33  26  38   1   12  11   3   1
+     26  33  25   1   11  12  17   1
+     30  25  33   1   18  17  12   1
+     25  30  24   1   17  18  23   1
+     81  24  30   1   24  23  18   1
+     25  24  23   1   17  23  25   1
+     18  17  25   1   22  19  17   1
+     26  25  17   1   11  17  19   1
+     12  11  26   1   16  13  11   1
+     27  26  11   1    2  11  13   1
+      5   4  27   1    6   1   2   1
+     29  81  30   1   50  24  18   1
+     32  35  33   1   56  55  12   1
+     30  33  35   1   18  12  55   1
+     37  40  38   1   64  63   3   1
+     33  38  40   1   12   3  63   1
+     38   7  42   1    3   0  67   1
+     82  83  84   1   70  72  71   1
+     83  82  85   1   72  70  73   1
+     86  85  82   2   74  76  75   1
+     85  86  87   2   76  74  77   1
+     88  89  90   1   78  80  79   1
+     89  88  91   1   80  78  81   1
+     92  91  88   2   74  83  82   1
+     91  92  93   2   83  74  77   1
+     87  83  85   4   84  86  85   3
+     83  87  94   4   86  84  87   3
+     93  89  91   4   88  90  89   3
+     89  93  95   4   90  88  91   3
+     96  97  98   1   92  94  93   2
+     97  96  99   1   94  92  95   2
+     96 100  99   2   96  98  97   5
+    100  96 101   2   98  96  99   5
+     99 102  97   4  100 102 101   4
+    102  99 100   4  102 100 103   4
+     97 103  98   2   97  99  96   6
+    103  97 102   2   99  97  98   6
+     98 101  96   4  101 103 100   3
+    101  98 103   4  103 101 102   3
+    104 105 106   1  108 110 109   2
+    104 106 107   1  108 109 111   2
+    107 108 109   2  112 114 113   3
+    107 109 104   2  112 113 115   3
+    104 109 110   2  115 113 116   3
+    104 110 105   2  115 116 117   3
+    108 111 112   2  114 119 118   3
+    108 112 109   2  114 118 113   3
+    109 112 113   2  113 118 120   3
+    109 113 110   2  113 120 116   3
+     86 114  94   4   84  87 123   3
+     94  87  86   4   87  84 124   3
+     92 115  95   4   88  91 125   3
+     95  93  92   4   91  88 126   3
+    116  47  48   4   87  84 124   3
+     48  55 116   4   84  87 123   3
+    117  53  54   4   91  88 126   3
+     54  56 117   4   88  91 125   3
+  position 0.0282698 -0.0525801 1.22
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+endnode
+node trimesh SAM
+  parent bwr_udoor_04
+  ambient 1 1 1
+  diffuse 0 0 1
+  specular 0 0 0
+  shininess 0
+  shadow 0
+  bitmap NULL
+  verts 4
+       0.1700000   -0.0100000    1.9900000
+       0.2100000    0.0500000    0.0200000
+      -1.1450000    0.1700000    0.0200000
+      -1.1550000    0.1000000    2.0100000
+  tverts 4
+       0.2557280    0.4716520  0
+       0.3224500   -0.4731590  0
+       0.6420210   -0.4201040  0
+       0.6312000    0.4998100  0
+  faces 4
+    0 1 2  1  0 1 2  61
+    3 0 2  2  3 0 2  61
+    1 0 2  4  1 0 2  61
+    0 3 2  8  0 3 2  61
+  position 0.48 -0.04 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 0
+  selfillumcolor 0 0.0627451 0.901961
+endnode
+node emitter em_damage
+  parent bwr_udoor_04
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 1
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture fxpa_smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.4
+  blastLength 0.1
+  position 0.2145 -0.0197021 1
+  orientation 0 0 0 0
+  xsize 20
+  ysize 20
+  threshold 0
+  combinetime 0
+  colorStart 0.635294 0.556863 0.317647
+  colorEnd 0.321569 0.278431 0.243137
+  alphaStart 0.7
+  alphaEnd 0.2
+  sizeStart 0.25
+  sizeEnd 0.4
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 0.5
+  mass 0.2
+  spread 3.14159
+  particleRot 1
+  velocity 0.3
+  randvel 0
+  bounce_co 0.2
+  blurlength 10
+  fps 12
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node trimesh Mesh01
+  parent bwr_udoor_04
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap bwr01_door04s
+  verts 24
+      -0.0950331    0.1034030   -1.2219900
+      -0.0950331    0.1034030    0.7100270
+      -0.0283665    0.1034030    0.7100270
+      -0.0283665    0.1034030   -1.2219900
+      -0.0283665   -0.0765973    0.7100270
+      -0.0283665   -0.0765973   -1.2219900
+       1.2383000    0.1241470    0.7083200
+      -0.0950330    0.1241470    0.7083200
+      -0.0950330    0.1241470    0.7780130
+       1.2383000    0.1241470    0.7780130
+       1.2383000   -0.0973411    0.7083200
+      -0.0950329   -0.0973404    0.7083200
+       1.2383000    0.1034030   -1.2219900
+       1.1716300    0.1034030    0.7100270
+       1.2383000    0.1034030    0.7100270
+       1.1716300    0.1034030   -1.2219900
+       1.1716300   -0.0765970    0.7100270
+       1.1716300   -0.0765970   -1.2219900
+      -0.0950328   -0.0765971    0.7100270
+      -0.0950328   -0.0765971   -1.2219900
+      -0.0950329   -0.0973404    0.7780130
+       1.2383000   -0.0973411    0.7780130
+       1.2383000   -0.0765971   -1.2219900
+       1.2383000   -0.0765971    0.7100270
+  tverts 16
+       0.6924660    0.0000000  0
+       0.6924660    0.9660080  0
+       0.6531400    0.9660080  0
+       0.6531400    0.0000000  0
+       0.8219920    0.0053708  0
+       0.8219920    0.9669090  0
+       0.7324080    0.9669090  0
+       0.7324080    0.0053708  0
+       0.0114124    0.9666670  0
+       0.6924660    0.9666670  0
+       0.6924660    1.0000000  0
+       0.0114124    1.0000000  0
+       0.6488980    0.9948810  0
+       0.0088533    0.9948830  0
+       0.0088530    0.9957450  0
+       0.6488970    0.9957440  0
+  faces 18
+     0  1  2  1   0  1  2   2
+     2  3  0  1   2  3  0   2
+     3  2  4  2   4  5  6   4
+     4  5  3  2   6  7  4   4
+     6  7  8  1   8  9 10   2
+     8  9  6  1  10 11  8   2
+     7  6 10  2  12 13 14   3
+    10 11  7  2  14 15 12   3
+    12 13 14  1   0  2  1   2
+    13 12 15  1   2  0  3   2
+    15 16 13  2   4  6  5   4
+    16 15 17  2   6  4  7   4
+    18 19  4  1   1  0  2   2
+     5  4 19  1   3  2  0   2
+    11 10 20  1   9  8 10   2
+    21 20 10  1  11 10  8   2
+    16 22 23  1   2  0  1   2
+    22 16 17  1   0  2  3   2
+  position -0.56742 0.03827 1.22
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom bwr_udoor_04
+
+#MAXANIM ASCII
+newanim opening1 bwr_udoor_04
+  length 1
+  transtime 0.25
+  animroot bwr_udoor_04
+  node dummy bwr_udoor_04
+    parent NULL
+  endnode
+  node dummy bwr_udoor_04grnd
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04impc
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04hhit
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04head
+    parent bwr_udoor_04
+  endnode
+  node dummy d_anim
+    parent bwr_udoor_04
+    position -0.62 0.01 0
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000   -1.0000000   -1.5707999
+         1.0000000    0.0000000    0.0000000   -1.0000000   -0.2618000
+  endnode
+  node trimesh Mesh127
+    parent d_anim
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh SAM
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    position 0.48 -0.04 0
+    orientation 0 0 0 0
+    alphakey 2
+         0.0000000    0.0000000
+         1.0000000    0.0000000
+  endnode
+  node emitter em_damage
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04_DWK
+    parent bwr_udoor_04
+  endnode
+  node trimesh 04_DWK_wg_closed
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node dummy 04_DWK_dp_open1_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_open2_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_02
+    parent bwr_udoor_04_DWK
+  endnode
+  node trimesh 04_DWK_wg_open1
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh 04_DWK_wg_open2
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim opening1 bwr_udoor_04
+
+#MAXANIM ASCII
+newanim opened1 bwr_udoor_04
+  length 0.0333333
+  transtime 0.25
+  animroot bwr_udoor_04
+  node dummy bwr_udoor_04
+    parent NULL
+  endnode
+  node dummy bwr_udoor_04grnd
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04impc
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04hhit
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04head
+    parent bwr_udoor_04
+  endnode
+  node dummy d_anim
+    parent bwr_udoor_04
+    positionkey 2
+         0.0000000   -0.6200000    0.0100000    0.0000000
+         0.0333333   -0.6200000    0.0100000    0.0000000
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000   -1.0000000   -0.2618000
+         0.0333333    0.0000000    0.0000000   -1.0000000   -0.2618000
+  endnode
+  node trimesh Mesh127
+    parent d_anim
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh SAM
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    alphakey 2
+         0.0000000    0.0000000
+         0.0333333    0.0000000
+  endnode
+  node emitter em_damage
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04_DWK
+    parent bwr_udoor_04
+  endnode
+  node trimesh 04_DWK_wg_closed
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node dummy 04_DWK_dp_open1_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_open2_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_02
+    parent bwr_udoor_04_DWK
+  endnode
+  node trimesh 04_DWK_wg_open1
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh 04_DWK_wg_open2
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim opened1 bwr_udoor_04
+
+#MAXANIM ASCII
+newanim closing1 bwr_udoor_04
+  length 1
+  transtime 0.25
+  animroot bwr_udoor_04
+  node dummy bwr_udoor_04
+    parent NULL
+  endnode
+  node dummy bwr_udoor_04grnd
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04impc
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04hhit
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04head
+    parent bwr_udoor_04
+  endnode
+  node dummy d_anim
+    parent bwr_udoor_04
+    position -0.62 0.01 0
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000   -1.0000000   -0.2618000
+         1.0000000    0.0000000    0.0000000   -1.0000000   -1.5707999
+  endnode
+  node trimesh Mesh127
+    parent d_anim
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh SAM
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    alphakey 2
+         0.0000000    0.0000000
+         1.0000000    0.0000000
+  endnode
+  node emitter em_damage
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04_DWK
+    parent bwr_udoor_04
+  endnode
+  node trimesh 04_DWK_wg_closed
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node dummy 04_DWK_dp_open1_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_open2_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_02
+    parent bwr_udoor_04_DWK
+  endnode
+  node trimesh 04_DWK_wg_open1
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh 04_DWK_wg_open2
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim closing1 bwr_udoor_04
+
+#MAXANIM ASCII
+newanim closed bwr_udoor_04
+  length 0.0333333
+  transtime 0.25
+  animroot bwr_udoor_04
+  node dummy bwr_udoor_04
+    parent NULL
+  endnode
+  node dummy bwr_udoor_04grnd
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04impc
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04hhit
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04head
+    parent bwr_udoor_04
+  endnode
+  node dummy d_anim
+    parent bwr_udoor_04
+    positionkey 2
+         0.0000000   -0.6200000    0.0100000    0.0000000
+         0.0333333   -0.6200000    0.0100000    0.0000000
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000   -1.0000000   -1.5707999
+         0.0333333    0.0000000    0.0000000   -1.0000000   -1.5707999
+  endnode
+  node trimesh Mesh127
+    parent d_anim
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh SAM
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    alphakey 2
+         0.0000000    0.0000000
+         0.0333333    0.0000000
+  endnode
+  node emitter em_damage
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04_DWK
+    parent bwr_udoor_04
+  endnode
+  node trimesh 04_DWK_wg_closed
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node dummy 04_DWK_dp_open1_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_open2_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_02
+    parent bwr_udoor_04_DWK
+  endnode
+  node trimesh 04_DWK_wg_open1
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh 04_DWK_wg_open2
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim closed bwr_udoor_04
+
+#MAXANIM ASCII
+newanim opening2 bwr_udoor_04
+  length 0.666667
+  transtime 0.25
+  animroot bwr_udoor_04
+  node dummy bwr_udoor_04
+    parent NULL
+  endnode
+  node dummy bwr_udoor_04grnd
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04impc
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04hhit
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04head
+    parent bwr_udoor_04
+  endnode
+  node dummy d_anim
+    parent bwr_udoor_04
+    position -0.62 0.01 0
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000   -1.0000000   -1.5707999
+         0.6666670    0.0000000    0.0000000   -1.0000000   -2.8797901
+  endnode
+  node trimesh Mesh127
+    parent d_anim
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh SAM
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    alphakey 2
+         0.0000000    0.0000000
+         0.6666670    0.0000000
+  endnode
+  node emitter em_damage
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04_DWK
+    parent bwr_udoor_04
+  endnode
+  node trimesh 04_DWK_wg_closed
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node dummy 04_DWK_dp_open1_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_open2_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_02
+    parent bwr_udoor_04_DWK
+  endnode
+  node trimesh 04_DWK_wg_open1
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh 04_DWK_wg_open2
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim opening2 bwr_udoor_04
+
+#MAXANIM ASCII
+newanim opened2 bwr_udoor_04
+  length 0.0333333
+  transtime 0.25
+  animroot bwr_udoor_04
+  node dummy bwr_udoor_04
+    parent NULL
+  endnode
+  node dummy bwr_udoor_04grnd
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04impc
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04hhit
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04head
+    parent bwr_udoor_04
+  endnode
+  node dummy d_anim
+    parent bwr_udoor_04
+    positionkey 2
+         0.0000000   -0.6200000    0.0100000    0.0000000
+         0.0333333   -0.6200000    0.0100000    0.0000000
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000   -1.0000000   -2.8797901
+         0.0333333    0.0000000    0.0000000   -1.0000000   -2.8797901
+  endnode
+  node trimesh Mesh127
+    parent d_anim
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh SAM
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    alphakey 2
+         0.0000000    0.0000000
+         0.0333333    0.0000000
+  endnode
+  node emitter em_damage
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04_DWK
+    parent bwr_udoor_04
+  endnode
+  node trimesh 04_DWK_wg_closed
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node dummy 04_DWK_dp_open1_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_open2_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_02
+    parent bwr_udoor_04_DWK
+  endnode
+  node trimesh 04_DWK_wg_open1
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh 04_DWK_wg_open2
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim opened2 bwr_udoor_04
+
+#MAXANIM ASCII
+newanim closing2 bwr_udoor_04
+  length 1
+  transtime 0.25
+  animroot bwr_udoor_04
+  node dummy bwr_udoor_04
+    parent NULL
+  endnode
+  node dummy bwr_udoor_04grnd
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04impc
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04hhit
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04head
+    parent bwr_udoor_04
+  endnode
+  node dummy d_anim
+    parent bwr_udoor_04
+    position -0.62 0.01 0
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000   -1.0000000   -2.8797901
+         1.0000000    0.0000000    0.0000000   -1.0000000   -1.5707999
+  endnode
+  node trimesh Mesh127
+    parent d_anim
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh SAM
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    alphakey 2
+         0.0000000    0.0000000
+         1.0000000    0.0000000
+  endnode
+  node emitter em_damage
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04_DWK
+    parent bwr_udoor_04
+  endnode
+  node trimesh 04_DWK_wg_closed
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node dummy 04_DWK_dp_open1_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_open2_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_02
+    parent bwr_udoor_04_DWK
+  endnode
+  node trimesh 04_DWK_wg_open1
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh 04_DWK_wg_open2
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim closing2 bwr_udoor_04
+
+#MAXANIM ASCII
+newanim trans bwr_udoor_04
+  length 0.0333333
+  transtime 0.25
+  animroot bwr_udoor_04
+  node dummy bwr_udoor_04
+    parent NULL
+  endnode
+  node dummy bwr_udoor_04grnd
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04impc
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04hhit
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04head
+    parent bwr_udoor_04
+  endnode
+  node dummy d_anim
+    parent bwr_udoor_04
+  endnode
+  node trimesh Mesh127
+    parent d_anim
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh SAM
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    alphakey 2
+         0.0000000    0.3000000
+         0.0333333    0.3000000
+  endnode
+  node emitter em_damage
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04_DWK
+    parent bwr_udoor_04
+  endnode
+  node trimesh 04_DWK_wg_closed
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node dummy 04_DWK_dp_open1_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_open2_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_02
+    parent bwr_udoor_04_DWK
+  endnode
+  node trimesh 04_DWK_wg_open1
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh 04_DWK_wg_open2
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim trans bwr_udoor_04
+
+#MAXANIM ASCII
+newanim damage bwr_udoor_04
+  length 0.166667
+  transtime 0.25
+  animroot bwr_udoor_04
+  event 0.0333333 detonate
+  node dummy bwr_udoor_04
+    parent NULL
+  endnode
+  node dummy bwr_udoor_04grnd
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04impc
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04hhit
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04head
+    parent bwr_udoor_04
+  endnode
+  node dummy d_anim
+    parent bwr_udoor_04
+    positionkey 3
+         0.0000000   -0.6200000    0.0100000    0.0000000
+         0.0666667   -0.6200000    0.0100000    0.0500000
+         0.1666670   -0.6200000    0.0100000    0.0000000
+    orientationkey 3
+         0.0000000    0.0000019   -0.0000019   -1.0000000   -1.5707999
+         0.0666667    0.0435779   -0.0435780   -0.9980991   -1.5727000
+         0.1666670    0.0000000    0.0000000   -1.0000000   -1.5707999
+  endnode
+  node trimesh Mesh127
+    parent d_anim
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh SAM
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node emitter em_damage
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04_DWK
+    parent bwr_udoor_04
+  endnode
+  node trimesh 04_DWK_wg_closed
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node dummy 04_DWK_dp_open1_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_open2_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_02
+    parent bwr_udoor_04_DWK
+  endnode
+  node trimesh 04_DWK_wg_open1
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh 04_DWK_wg_open2
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim damage bwr_udoor_04
+
+#MAXANIM ASCII
+newanim die bwr_udoor_04
+  length 0.3
+  transtime 0.25
+  animroot bwr_udoor_04
+  node dummy bwr_udoor_04
+    parent NULL
+  endnode
+  node dummy bwr_udoor_04grnd
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04impc
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04hhit
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04head
+    parent bwr_udoor_04
+  endnode
+  node dummy d_anim
+    parent bwr_udoor_04
+    position -0.62 0.01 0
+    orientationkey 2
+         0.0000000    0.0000019   -0.0000019   -1.0000000   -1.5707999
+         0.3000000    0.5773503   -0.5773503   -0.5773503   -2.0943999
+  endnode
+  node trimesh Mesh127
+    parent d_anim
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh SAM
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    position 0.48 -0.04 0
+    orientation 0 0 0 0
+    alpha 0
+  endnode
+  node emitter em_damage
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04_DWK
+    parent bwr_udoor_04
+  endnode
+  node trimesh 04_DWK_wg_closed
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node dummy 04_DWK_dp_open1_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_open2_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_02
+    parent bwr_udoor_04_DWK
+  endnode
+  node trimesh 04_DWK_wg_open1
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh 04_DWK_wg_open2
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim die bwr_udoor_04
+
+#MAXANIM ASCII
+newanim dead bwr_udoor_04
+  length 0.0333333
+  transtime 0.25
+  animroot bwr_udoor_04
+  node dummy bwr_udoor_04
+    parent NULL
+  endnode
+  node dummy bwr_udoor_04grnd
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04impc
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04hhit
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04head
+    parent bwr_udoor_04
+  endnode
+  node dummy d_anim
+    parent bwr_udoor_04
+    positionkey 2
+         0.0000000   -0.6200000    0.0100000   -5.0000000
+         0.0333333   -0.6200000    0.0100000   -5.0000000
+    orientationkey 1
+         0.0333333    0.5773503   -0.5773503   -0.5773503   -2.0943999
+  endnode
+  node trimesh Mesh127
+    parent d_anim
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh SAM
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node emitter em_damage
+    parent bwr_udoor_04
+  endnode
+  node dummy bwr_udoor_04_DWK
+    parent bwr_udoor_04
+  endnode
+  node trimesh 04_DWK_wg_closed
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node dummy 04_DWK_dp_open1_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_open2_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_01
+    parent bwr_udoor_04_DWK
+  endnode
+  node dummy 04_DWK_dp_closed_02
+    parent bwr_udoor_04_DWK
+  endnode
+  node trimesh 04_DWK_wg_open1
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh 04_DWK_wg_open2
+    parent bwr_udoor_04_DWK
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent bwr_udoor_04
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim dead bwr_udoor_04
+
+donemodel bwr_udoor_04
