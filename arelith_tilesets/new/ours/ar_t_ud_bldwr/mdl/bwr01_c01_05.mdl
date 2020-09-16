@@ -2854,5 +2854,163 @@ node dummy bwr01_c01_05a
   position  0.00000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
+node emitter auraemitter23
+  parent bwr01_c01_05a
+  position -3.50063 -3.34372 -9.11041
+  orientation -1.00000  0.00000  0.00000  1.57080
+  xsize 0.0
+  ysize 0.0
+  update Single
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  loop 1
+  birthrate 1
+  lifeexp -1
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.87 0.72 0.62
+  colorend 1.00 1.00 1.00
+  alphastart 0.40
+  alphaend 0.70
+  sizestart 20.00
+  sizeend 20.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_dot01
+  twosidedtex 0
+  m_istinted 0
+  xgrid 0
+  ygrid 0
+  fps 1
+  framestart 1
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
 endmodelgeom bwr01_c01_05
+
+# ANIM ASCII
+newanim animloop01 bwr01_c01_05
+  length 0.0
+  transtime 0.25
+  animroot bwr01_c01_05
+  node dummy bwr01_c01_05
+  parent null
+  endnode
+  node trimesh mesh164
+  parent bwr01_c01_05
+  endnode
+  node trimesh grass01
+  parent bwr01_c01_05
+  endnode
+  node trimesh mesh26
+  parent bwr01_c01_05
+  endnode
+  node trimesh mesh37
+  parent bwr01_c01_05
+  endnode
+  node trimesh mesh15
+  parent bwr01_c01_05
+  endnode
+  node trimesh mesh59
+  parent bwr01_c01_05
+  endnode
+  node trimesh ground01
+  parent bwr01_c01_05
+  endnode
+  node trimesh plane03
+  parent bwr01_c01_05
+  endnode
+  node aabb walkmesh
+  parent bwr01_c01_05
+  endnode
+  node light bwr01_c01_05ml1
+  parent bwr01_c01_05
+  endnode
+  node light bwr01_c01_05ml2
+  parent bwr01_c01_05
+  endnode
+  node trimesh rim01
+  parent bwr01_c01_05
+  endnode
+  node dummy bwr01_c01_05a
+  parent bwr01_c01_05
+  endnode
+  node emitter auraemitter23
+  parent bwr01_c01_05a
+    birthratekey 1
+       0.000 1
+  endnode
+doneanim animloop01 bwr01_c01_05
+
+newanim tiledefault bwr01_c01_05
+  length 0.0
+  transtime 0.25
+  animroot bwr01_c01_05
+  node dummy bwr01_c01_05
+  parent null
+  endnode
+  node trimesh mesh164
+  parent bwr01_c01_05
+  endnode
+  node trimesh grass01
+  parent bwr01_c01_05
+  endnode
+  node trimesh mesh26
+  parent bwr01_c01_05
+  endnode
+  node trimesh mesh37
+  parent bwr01_c01_05
+  endnode
+  node trimesh mesh15
+  parent bwr01_c01_05
+  endnode
+  node trimesh mesh59
+  parent bwr01_c01_05
+  endnode
+  node trimesh ground01
+  parent bwr01_c01_05
+  endnode
+  node trimesh plane03
+  parent bwr01_c01_05
+  endnode
+  node aabb walkmesh
+  parent bwr01_c01_05
+  endnode
+  node light bwr01_c01_05ml1
+  parent bwr01_c01_05
+  endnode
+  node light bwr01_c01_05ml2
+  parent bwr01_c01_05
+  endnode
+  node trimesh rim01
+  parent bwr01_c01_05
+  endnode
+  node dummy bwr01_c01_05a
+  parent bwr01_c01_05
+  endnode
+  node emitter auraemitter23
+  parent bwr01_c01_05a
+    birthratekey 1
+       0.000 0
+  endnode
+doneanim tiledefault bwr01_c01_05
+
 donemodel bwr01_c01_05
