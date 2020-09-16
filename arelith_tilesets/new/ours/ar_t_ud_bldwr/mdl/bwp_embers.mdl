@@ -1,0 +1,112 @@
+#MAXMODEL ASCII
+# model: bwp_embers
+filedependancy bwp_embers.max
+newmodel bwp_embers
+setsupermodel bwp_embers NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom bwp_embers
+node dummy bwp_embers
+  parent NULL
+endnode
+node trimesh Box02
+  parent bwp_embers
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 8
+      -2.4131300   -2.4131300   -0.1789620
+      -2.4131300    2.4131300   -0.1789620
+       2.4131300    2.4131300   -0.1789620
+       2.4131300   -2.4131300   -0.1789620
+      -2.4131300   -2.4131300    0.8789620
+       2.4131300   -2.4131300    0.8789620
+       2.4131300    2.4131300    0.8789620
+      -2.4131300    2.4131300    0.8789620
+  faces 12
+    0 1 2  1  0 0 0   2
+    2 3 0  1  0 0 0   2
+    4 5 6  1  0 0 0   1
+    6 7 4  1  0 0 0   1
+    0 3 5  2  0 0 0   5
+    5 4 0  2  0 0 0   5
+    3 2 6  4  0 0 0   4
+    6 5 3  4  0 0 0   4
+    2 1 7  2  0 0 0   6
+    7 6 2  2  0 0 0   6
+    1 0 4  4  0 0 0   3
+    4 7 1  4  0 0 0   3
+  position 0 0 0
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  selfillumcolor 0 0 0
+endnode
+node emitter fire!13
+  parent bwp_embers
+  p2p 0
+  p2p_sel 1
+  affectedByWind 1
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Aligned_to_World_Z
+  blend Lighten
+  texture bwfx_ember
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0.00296112 -0.0468668 5.14855
+  orientation 0 -1 0 -1.5708
+  colorStart 0.82353 0.82353 0.82353
+  colorEnd 0.498039 0.498039 0.529412
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.05
+  sizeEnd 0.05
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 6
+  lifeExp 6
+  mass 0
+  spread 3.14159
+  particleRot 0
+  velocity 0.3
+  randvel 0.1
+  fps 10
+  xsize 1000
+  ysize 1000
+  bounce_co 0.1
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 1
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom bwp_embers
+
+donemodel bwp_embers

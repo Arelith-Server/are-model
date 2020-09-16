@@ -1,0 +1,117 @@
+#MAXMODEL ASCII
+# model: bwp_mist01
+filedependancy bwp_mist01.max
+newmodel bwp_mist01
+setsupermodel bwp_mist01 NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom bwp_mist01
+node dummy bwp_mist01
+  parent NULL
+endnode
+node dummy T03_ground02
+  parent bwp_mist01
+  position -0.00363281 0.0069873 0
+  orientation 0 0 0 0
+endnode
+node emitter fire!06
+  parent bwp_mist01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Aligned_to_World_Z
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.0466596 -0.184915 2.36826
+  orientation 1 0 0 -1.42244
+  colorStart 0.831373 0.831373 0.831373
+  colorEnd 0.909804 0.909804 0.968628
+  alphaStart 0.4
+  alphaEnd 0
+  sizeStart 12
+  sizeEnd 12
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 0
+  lifeExp -1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 10
+  xsize 40
+  ysize 40
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node trimesh Box03
+  parent bwp_mist01
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 8
+      -0.3500000   -0.3500000    0.0000000
+      -0.3500000    0.3500000    0.0000000
+       0.3500000    0.3500000    0.0000000
+       0.3500000   -0.3500000    0.0000000
+      -0.3500000   -0.3500000    0.7000000
+       0.3500000   -0.3500000    0.7000000
+       0.3500000    0.3500000    0.7000000
+      -0.3500000    0.3500000    0.7000000
+  faces 12
+    0 1 2  1  0 0 0   2
+    2 3 0  1  0 0 0   2
+    4 5 6  1  0 0 0   1
+    6 7 4  1  0 0 0   1
+    0 3 5  2  0 0 0   5
+    5 4 0  2  0 0 0   5
+    3 2 6  4  0 0 0   4
+    6 5 3  4  0 0 0   4
+    2 1 7  2  0 0 0   6
+    7 6 2  2  0 0 0   6
+    1 0 4  4  0 0 0   3
+    4 7 1  4  0 0 0   3
+  position 0 0 0
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom bwp_mist01
+
+donemodel bwp_mist01
