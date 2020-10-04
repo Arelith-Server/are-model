@@ -1,0 +1,79 @@
+# Exported from NWmax 0.8 b61 at 5/14/2011 7:38:54 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: it_mscmedi_013
+#local file: Unknown
+filedependancy Unknown
+newmodel it_mscmedi_013
+setsupermodel it_mscmedi_013 null
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom it_mscmedi_013
+node dummy it_mscmedi_013
+  parent NULL
+endnode
+node trimesh box
+  parent it_mscmedi_013
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center -0.0704002 -0.308275 3.0 
+  bitmap qit_metalbar
+  verts 8
+    -0.200704 -0.103083 0.0
+    -0.200704 0.0969175 0.0
+    0.199296 0.0969175 0.0
+    0.199296 -0.103083 0.0
+    -0.170704 -0.0730825 0.06
+    0.169296 -0.0730825 0.06
+    0.169296 0.0669175 0.06
+    -0.170704 0.0669175 0.06
+  faces 12
+    0 1 2  1  0 1 2  2
+    2 3 0  1  2 3 0  2
+    4 5 6  1  4 5 6  1
+    6 7 4  1  6 7 4  1
+    0 3 5  2  8 9 5  5
+    5 4 0  2  5 4 8  5
+    3 2 6  4  13 10 6  4
+    6 5 3  4  6 5 13  4
+    2 1 7  2  14 11 7  6
+    7 6 2  2  7 6 14  6
+    1 0 4  4  15 12 4  3
+    4 7 1  4  4 7 15  3
+  tverts 16
+    0.796324 0.680154 0
+    0.796324 0.769976 0
+    0.974766 0.769976 0
+    0.974766 0.680154 0
+    0.712922 0.836342 0
+    0.945105 0.833921 0
+    0.946103 0.929526 0
+    0.713919 0.931947 0
+    0.691958 0.790746 0
+    0.965115 0.787897 0
+    0.992126 0.949535 0
+    0.69391 0.977971 0
+    0.666899 0.816333 0
+    0.990702 0.812957 0
+    0.967067 0.975122 0
+    0.668322 0.952911 0
+endnode
+endmodelgeom it_mscmedi_013
+donemodel it_mscmedi_013

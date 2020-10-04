@@ -1,0 +1,69 @@
+# Exported from NWmax 0.8 b61 at 9/29/2020 5:22:46 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: it_mscmedp_009
+#local file: Unknown
+filedependancy Unknown
+newmodel it_mscmedp_009
+setsupermodel it_mscmedp_009 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom it_mscmedp_009
+node dummy it_mscmedp_009
+  parent NULL
+endnode
+node trimesh SinglePaper
+  parent it_mscmedp_009
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10
+  center -0.7436 -0.4266 2.52276 
+  bitmap ait_mscmedp_009
+  verts 9
+    -0.0185487 -0.236642 0.00616147
+    -0.179188 -0.223343 0.00616147
+    0.0103456 -0.000820879 0.030155
+    -0.150844 -0.000821066 0.00616147
+    0.00325409 0.234999 0.00616147
+    -0.157807 0.228592 0.0442938
+    0.14209 -0.249939 0.00616147
+    0.160601 -0.000821089 0.00616147
+    0.164316 0.241407 0.021177
+  faces 8
+    1 0 2  1  1 0 2  1
+    2 3 1  1  2 3 1  1
+    3 2 4  1  3 2 4  1
+    4 5 3  1  4 5 3  1
+    0 6 7  1  0 6 7  1
+    7 2 0  1  7 2 0  1
+    2 7 8  1  2 7 8  1
+    8 4 2  1  8 4 2  1
+  tverts 9
+    0.542595 0.209281 0
+    0.281695 0.14798 0
+    0.541223 0.487353 0
+    0.284023 0.427787 0
+    0.432222 0.858708 0
+    0.233037 0.864448 0
+    0.76243 0.18604 0
+    0.728941 0.528263 0
+    0.67489 0.884372 0
+endnode
+endmodelgeom it_mscmedp_009
+donemodel it_mscmedp_009
