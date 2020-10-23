@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: it_midmisc_111
+# model: it_mscmedo_013
 #local file: Unknown
 filedependancy Unknown
-newmodel it_midmisc_111
-setsupermodel it_midmisc_111 NULL
+newmodel it_mscmedo_013
+setsupermodel it_mscmedo_013 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom it_midmisc_111
-node dummy it_midmisc_111
+beginmodelgeom it_mscmedo_013
+node dummy it_mscmedo_013
   parent NULL
 endnode
 node trimesh lthigh_g
-  parent it_midmisc_111
+  parent it_mscmedo_013
   position -0.108069 0.0073932 1.02497
   orientation 0.0 -1.0 0.0 -1.5708
   wirecolor 1.0 1.0 1.0 
@@ -129,5 +129,5 @@ node trimesh lthigh_g
     0.649977 0.265901 0
     0.51258 0.290221 0
 endnode
-endmodelgeom it_midmisc_111
-donemodel it_midmisc_111
+endmodelgeom it_mscmedo_013
+donemodel it_mscmedo_013
