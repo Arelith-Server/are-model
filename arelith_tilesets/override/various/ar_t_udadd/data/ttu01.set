@@ -97,7 +97,7 @@ ChangedHeight=0
 Count=0
 
 [TILES]
-Count=325
+Count=326
 
 [TILE0]
 Model=ttu01_a01_01
@@ -9797,6 +9797,36 @@ Sounds=0
 PathNode=A
 Orientation=0
 ImageMap2D=miTU01_d04
+
+[TILE325]
+Model=ttu01_a11_02
+WalkMesh=msb01
+TopLeft=Floor
+TopLeftHeight=0
+TopRight=Water
+TopRightHeight=0
+BottomLeft=Floor
+BottomLeftHeight=0
+BottomRight=Floor
+BottomRightHeight=1
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=0
+AnimLoop2=0
+AnimLoop3=0
+Doors=-1
+Sounds=-1
+PathNode=Q
+Orientation=180
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=miTU01_a11
 
 [GROUPS]
 Count=35
