@@ -3177,34 +3177,6 @@ VisibilityOrientation=270
 ImageMap2D=miid01_l08
 
 [TILE97]
-Model=tid01_d02_02
-WalkMesh=msb01
-TopLeft=floor
-TopLeftHeight=0
-TopRight=wall
-TopRightHeight=0
-BottomLeft=floor
-BottomLeftHeight=0
-BottomRight=wall
-BottomRightHeight=0
-Top=
-Right=
-Bottom=
-Left=
-MainLight1=1
-MainLight2=1
-SourceLight1=1
-SourceLight2=1
-AnimLoop1=1
-AnimLoop2=1
-AnimLoop3=1
-Doors=0
-Sounds=0
-PathNode=I
-Orientation=0
-ImageMap2D=miid01_d02
-
-[TILE98]
 Model=tid01_f01_02
 WalkMesh=msb01
 TopLeft=wall
@@ -3232,7 +3204,7 @@ PathNode=H
 Orientation=0
 ImageMap2D=miid01_f01
 
-[TILE99]
+[TILE98]
 Model=tid01_f02_02
 WalkMesh=msb01
 TopLeft=Floor2
@@ -3260,7 +3232,7 @@ PathNode=I
 Orientation=0
 ImageMap2D=miid01_f02
 
-[TILE100]
+[TILE99]
 Model=tid01_n01_01
 WalkMesh=msb01
 TopLeft=Wall
@@ -3288,7 +3260,7 @@ PathNode=A
 Orientation=0
 ImageMap2D=miii01_e04
 
-[TILE101]
+[TILE100]
 Model=tid01_n02_01
 WalkMesh=msb01
 TopLeft=Wall
@@ -3316,7 +3288,7 @@ PathNode=A
 Orientation=0
 ImageMap2D=miii01_e05
 
-[TILE102]
+[TILE101]
 Model=tid01_n03_01
 WalkMesh=msb01
 TopLeft=Wall
@@ -3344,7 +3316,7 @@ PathNode=A
 Orientation=0
 ImageMap2D=miii01_e06
 
-[TILE103]
+[TILE102]
 Model=tid01_o01_01
 WalkMesh=msb01
 TopLeft=Wall
@@ -3372,14 +3344,14 @@ PathNode=A
 Orientation=0
 ImageMap2D=miii01_f07
 
-[TILE103DOOR0]
+[TILE102DOOR0]
 Type=0
 X=0.00
 Y=3.50
 Z=0.00
 Orientation=0.0
 
-[TILE104]
+[TILE103]
 Model=tid01_o02_01
 WalkMesh=msb01
 TopLeft=Wall
@@ -3407,7 +3379,7 @@ PathNode=A
 Orientation=0
 ImageMap2D=miii01_f05
 
-[TILE105]
+[TILE104]
 Model=tid01_o03_01
 WalkMesh=msb01
 TopLeft=Wall
@@ -3435,14 +3407,14 @@ PathNode=A
 Orientation=0
 ImageMap2D=miii01_f09
 
-[TILE105DOOR0]
+[TILE104DOOR0]
 Type=0
 X=0.00
 Y=-3.50
 Z=0.00
 Orientation=180.0
 
-[TILE106]
+[TILE105]
 Model=tid01_p01_01
 WalkMesh=msb01
 TopLeft=Wall
@@ -3470,7 +3442,7 @@ PathNode=A
 Orientation=0
 ImageMap2D=miii01_g04
 
-[TILE107]
+[TILE106]
 Model=tid01_p02_01
 WalkMesh=msb01
 TopLeft=Wall
@@ -3498,7 +3470,7 @@ PathNode=A
 Orientation=0
 ImageMap2D=miii01_g05
 
-[TILE108]
+[TILE107]
 Model=tid01_p03_01
 WalkMesh=msb01
 TopLeft=Wall
@@ -3525,6 +3497,34 @@ Sounds=0
 PathNode=A
 Orientation=0
 ImageMap2D=miii01_g06
+
+[TILE108]
+Model=tid01_d01_03
+WalkMesh=msb01
+TopLeft=wall
+TopLeftHeight=0
+TopRight=wall
+TopRightHeight=0
+BottomLeft=floor
+BottomLeftHeight=0
+BottomRight=wall
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=H
+Orientation=0
+ImageMap2D=miid01_d01
 
 [GROUPS]
 Count=10
@@ -3621,13 +3621,13 @@ Name=Round Chamber
 StrRef=83899
 Rows=3
 Columns=3
-Tile0=102
-Tile1=105
-Tile2=108
-Tile3=101
-Tile4=104
-Tile5=107
-Tile6=100
-Tile7=103
-Tile8=106
+Tile0=101
+Tile1=104
+Tile2=107
+Tile3=100
+Tile4=103
+Tile5=106
+Tile6=99
+Tile7=102
+Tile8=105
 
