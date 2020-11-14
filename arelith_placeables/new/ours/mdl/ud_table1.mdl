@@ -1,0 +1,826 @@
+# Exported from Blender on Saturday, 2020-11-14
+filedependancy unknown
+newmodel ud_table1
+setsupermodel ud_table1 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom ud_table1
+node dummy ud_table1
+  parent null
+endnode
+node emitter ChunkyWood
+  parent ud_table1
+  position  0.00528  0.01334  0.71352
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 15.00
+  ysize 7.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 0.75
+  mass 3.00
+  velocity 8.00
+  randvel 0.30
+  particlerot 1.00
+  spread 1.22
+  splat 0
+  affectedbywind 0
+  colorstart 0.48 0.44 0.32
+  colorend 0.58 0.53 0.41
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.50
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_cloud02
+  twosidedtex 1
+  m_istinted 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter fire!
+  parent ud_table1
+  position  0.00000  0.01379  0.50481
+  orientation -1.00000  0.00000  0.00000  1.57080
+  xsize 400.00
+  ysize 400.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 2.50
+  mass 0.09
+  velocity 2.00
+  randvel 0.50
+  particlerot 0.50
+  spread 2.97
+  splat 0
+  affectedbywind 0
+  colorstart 0.47 0.45 0.39
+  colorend 0.76 0.75 0.69
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 4.00
+  sizeend 1.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 1
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.20
+  blastlength 1.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+node trimesh damage
+  parent ud_table1
+  position  0.00087  0.03487  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.60 0.84 0.90
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 25
+  render 0
+  shadow 0
+  verts 12
+     0.19542  0.18622  0.00000
+     0.19542 -0.18622  0.00000
+    -0.19542 -0.18622  0.00000
+    -0.19542  0.18622  0.00000
+     0.19542  0.18622  0.50000
+    -0.19542  0.18622  0.50000
+    -0.19542 -0.18622  0.50000
+     0.19542 -0.18622  0.50000
+    -0.10394  0.09905  0.25000
+     0.10394  0.09905  0.25000
+    -0.10394 -0.09905  0.25000
+     0.10394 -0.09905  0.25000
+  faces 20
+     0  1  2 1  0 0 0 0
+     2  3  0 1  0 0 0 0
+     4  5  6 1  0 0 0 0
+     6  7  4 1  0 0 0 0
+     0  3  8 1  0 0 0 0
+     8  9  0 1  0 0 0 0
+     9  8  5 1  0 0 0 0
+     5  4  9 1  0 0 0 0
+     3  2 10 1  0 0 0 0
+    10  8  3 1  0 0 0 0
+     8 10  6 1  0 0 0 0
+     6  5  8 1  0 0 0 0
+     2  1 11 1  0 0 0 0
+    11 10  2 1  0 0 0 0
+    10 11  7 1  0 0 0 0
+     7  6 10 1  0 0 0 0
+     1  0  9 1  0 0 0 0
+     9 11  1 1  0 0 0 0
+    11  9  4 1  0 0 0 0
+     4  7 11 1  0 0 0 0
+endnode
+node trimesh TableBase
+  parent damage
+  position -0.00087 -0.03487  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.03 0.03 0.53
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap TTU01_StoneWall
+  shininess 13
+  verts 8
+    -0.41627 -0.39236  0.00000
+     0.41627 -0.39236  0.00000
+     0.41627 -0.39236  0.69887
+    -0.41627 -0.39236  0.69887
+     0.41627  0.40662  0.00000
+     0.41627  0.40662  0.69887
+    -0.41627  0.40662  0.00000
+    -0.41627  0.40662  0.69887
+  tverts 16
+     0.6038  0.8373  0
+     0.8131  0.8349  0
+     0.8156  0.9992  0
+     0.6066  1.0000  0
+     0.6040  0.8364  0
+     0.8131  0.8346  0
+     0.8156  0.9988  0
+     0.6069  0.9991  0
+     0.6046  0.8373  0
+     0.8139  0.8349  0
+     0.8164  0.9992  0
+     0.6074  1.0000  0
+     0.6037  0.8367  0
+     0.8129  0.8349  0
+     0.8154  0.9991  0
+     0.6066  0.9994  0
+  faces 8
+    0 1 2 1   0  1  2 0
+    2 3 0 1   2  3  0 0
+    1 4 5 2   4  5  6 0
+    5 2 1 2   6  7  4 0
+    4 6 7 3   8  9 10 0
+    7 5 4 3  10 11  8 0
+    6 0 3 4  12 13 14 0
+    3 7 6 4  14 15 12 0
+endnode
+node trimesh TableTop
+  parent damage
+  position -0.00087 -0.03487  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.03 0.03 0.53
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap TII01_BLKstone
+  shininess 13
+  verts 36
+    -0.88621  0.54594  0.93857
+     0.80131 -0.85955  0.93857
+     0.82767 -0.94436  0.89515
+    -0.80141 -0.84520  0.93857
+     0.88621 -0.87685  0.89515
+    -0.80141  0.33308  0.93857
+    -0.88621  0.48344  0.87012
+    -0.81007  0.45946  0.93857
+    -0.80141  0.85361  0.93857
+    -0.80141  0.57795  0.93857
+     0.80141  0.85361  0.93857
+     0.88621 -0.82196  0.93857
+     0.76398 -0.94436  0.93857
+    -0.88621  0.36237  0.93857
+    -0.80141  0.46259  0.93857
+     0.76940 -0.82735  0.93085
+    -0.76949 -0.81357  0.93085
+    -0.76949  0.33308  0.93085
+    -0.76949  0.82169  0.93085
+    -0.76949  0.57796  0.93085
+     0.76949  0.82169  0.93085
+    -0.76949  0.46259  0.93085
+     0.80141  0.85361  0.93085
+    -0.80141  0.85361  0.93085
+     0.80131 -0.85955  0.93085
+    -0.80141 -0.84520  0.93085
+    -0.80141  0.57795  0.93085
+    -0.80141  0.33308  0.93085
+    -0.80141  0.46259  0.93085
+     0.74742 -0.80687  0.93955
+    -0.76070 -0.79337  0.93955
+    -0.76070  0.33035  0.93955
+    -0.76070  0.80919  0.93955
+    -0.76070  0.57033  0.93955
+     0.74750  0.80919  0.93955
+    -0.76070  0.45727  0.93955
+  tverts 49
+     1.6989 -0.6993  0
+     1.5336 -0.7906  0
+     1.6199 -0.7906  0
+    -0.6970  0.9759  0
+    -0.5942  1.1071  0
+    -0.6970  1.1395  0
+     0.8463  1.7226  0
+     0.8139  1.8153  0
+     0.9310  1.8153  0
+     1.1645  0.5029  0
+     0.2290  0.4984  0
+     0.2290  0.5029  0
+     0.2476  0.6551  0
+     0.2528  0.7180  0
+     0.2476  0.7225  0
+     0.7225  0.5029  0
+     0.8834  0.4984  0
+     0.8834  0.5029  0
+     0.6551  0.5029  0
+     0.7225  0.4984  0
+    -0.1166  0.4984  0
+    -0.1166  0.5029  0
+     1.1646  0.4984  0
+     1.1646  0.5029  0
+    -0.1083  0.5029  0
+     0.5795  0.4984  0
+     0.5795  0.5029  0
+     0.6551  0.4984  0
+     1.1460  0.8647  0
+     0.2290  0.8834  0
+     0.2476  0.8647  0
+     1.1459 -0.0978  0
+     0.2290 -0.1083  0
+     1.1645 -0.1166  0
+     0.2290  0.7225  0
+     0.2476 -0.0898  0
+     0.2290  0.5795  0
+     0.2476  0.5795  0
+     0.2290  0.6551  0
+     1.1646  0.8834  0
+     0.2528  0.5779  0
+     0.2528 -0.0780  0
+     1.1331 -0.0859  0
+     0.2528  0.6520  0
+     0.2528  0.8574  0
+     1.1331  0.8574  0
+     1.6989 -0.6251  0
+     1.1645  0.4984  0
+    -0.1083  0.4984  0
+  faces 46
+     4 12  2 1   0  1  2 0
+    13  7  6 2   3  4  5 0
+     6  7  0 3   6  7  8 0
+     1 25  3 4   9 10 11 0
+    21 33 19 5  12 13 14 0
+     9 23  8 4  15 16 17 0
+    14 26  9 4  18 19 15 0
+    10 24  1 4  17 20 21 0
+     8 22 10 4  11 22 23 0
+     3 27  5 4  24 25 26 0
+     5 28 14 4  26 27 18 0
+    20 23 18 6  28 29 30 0
+    15 25 24 6  31 32 33 0
+    18 26 19 6  30 34 14 0
+    16 27 25 6  35 36 32 0
+    17 28 27 6  37 38 36 0
+    19 28 21 6  14 38 12 0
+    15 22 20 6  31 39 28 0
+    16 31 17 5  35 40 37 0
+    15 30 16 5  31 41 35 0
+    20 29 15 5  28 42 31 0
+    17 35 21 5  37 43 12 0
+    19 32 18 5  14 44 30 0
+    18 34 20 5  30 45 28 0
+     4 11 12 1   0 46  1 0
+     1 24 25 4   9 47 10 0
+    21 35 33 5  12 43 13 0
+     9 26 23 4  15 19 16 0
+    14 28 26 4  18 27 19 0
+    10 22 24 4  17 16 20 0
+     8 23 22 4  11 10 22 0
+     3 25 27 4  24 48 25 0
+     5 27 28 4  26 25 27 0
+    20 22 23 6  28 39 29 0
+    15 16 25 6  31 35 32 0
+    18 23 26 6  30 29 34 0
+    16 17 27 6  35 37 36 0
+    17 21 28 6  37 12 38 0
+    19 26 28 6  14 34 38 0
+    15 24 22 6  31 33 39 0
+    16 30 31 5  35 41 40 0
+    15 29 30 5  31 42 41 0
+    20 34 29 5  28 45 42 0
+    17 31 35 5  37 40 43 0
+    19 33 32 5  14 13 44 0
+    18 32 34 5  30 44 45 0
+endnode
+node trimesh TableTop.001
+  parent damage
+  position -0.00087 -0.03487  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.03 0.03 0.53
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap TTU01_Rock3
+  shininess 13
+  verts 7
+     0.74742 -0.80687  0.93955
+    -0.76070 -0.79337  0.93955
+    -0.76070  0.33035  0.93955
+    -0.76070  0.80919  0.93955
+    -0.76070  0.57033  0.93955
+     0.74750  0.80919  0.93955
+    -0.76070  0.45727  0.93955
+  tverts 7
+     0.8934  0.9266  0
+     0.0991  0.7413  0
+     0.0991  0.6744  0
+     0.0991  0.9266  0
+     0.0991  0.8008  0
+     0.0991  0.0826  0
+     0.8934  0.0755  0
+  faces 5
+    5 6 2 1  0 1 2 0
+    5 3 4 1  0 3 4 0
+    5 4 6 1  0 4 1 0
+    1 0 2 1  5 6 2 0
+    0 5 2 1  6 0 2 0
+endnode
+node trimesh TableTop.002
+  parent damage
+  position -0.00087 -0.03487  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.03 0.03 0.53
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap TTU01_Rock3
+  shininess 13
+  verts 18
+     0.88621  0.89111  0.93857
+    -0.88621  0.89111  0.93857
+    -0.88621  0.54594  0.93857
+     0.80131 -0.85955  0.93857
+    -0.80141 -0.84520  0.93857
+    -0.80141  0.33308  0.93857
+    -0.81007  0.45946  0.93857
+    -0.80141  0.85361  0.93857
+    -0.80141  0.57795  0.93857
+    -0.82767  0.94436  0.93857
+     0.82767  0.94436  0.93857
+     0.80141  0.85361  0.93857
+     0.88621 -0.82196  0.93857
+    -0.88621 -0.87685  0.93857
+    -0.82767 -0.94436  0.93857
+     0.76398 -0.94436  0.93857
+    -0.88621  0.36237  0.93857
+    -0.80141  0.46259  0.93857
+  tverts 18
+     0.0918  0.9333  0
+     0.0490  0.7780  0
+     0.0918  0.7942  0
+     0.9007  0.9333  0
+     0.0786  0.9791  0
+     0.9435  0.0877  0
+     0.9435  0.9522  0
+     0.0918  0.0759  0
+     0.0490  0.0600  0
+     0.0786  0.0259  0
+     0.8818  0.0259  0
+     0.9007  0.0687  0
+     0.9140  0.9791  0
+     0.0490  0.9522  0
+     0.0490  0.6854  0
+     0.0918  0.6706  0
+     0.0874  0.7344  0
+     0.0918  0.7360  0
+  faces 18
+     7  2  8 1   0  1  2 0
+    11  9  7 1   3  4  0 0
+    11 12  0 1   3  5  6 0
+     4 13 14 1   7  8  9 0
+     4 15  3 1   7 10 11 0
+     3 15 12 1  11 10  5 0
+    11  0 10 1   3  6 12 0
+     7  9  1 1   0  4 13 0
+     4 16 13 1   7 14  8 0
+     5  6 16 1  15 16 14 0
+     8  6 17 1   2 16 17 0
+     7  1  2 1   0 13  1 0
+    11 10  9 1   3 12  4 0
+    11  3 12 1   3 11  5 0
+     4 14 15 1   7  9 10 0
+     4  5 16 1   7 15 14 0
+     5 17  6 1  15 17 16 0
+     8  2  6 1   2  1 16 0
+endnode
+node trimesh TableTop.003
+  parent damage
+  position -0.00087 -0.03487  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.03 0.03 0.53
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap TTU01_StoneWall
+  shininess 13
+  verts 21
+     0.88621  0.89111  0.93857
+    -0.88621  0.89111  0.93857
+    -0.88621  0.54594  0.93857
+     0.82767 -0.94436  0.69887
+     0.82767 -0.94436  0.89515
+    -0.82767 -0.94436  0.69887
+     0.88621 -0.87685  0.69887
+     0.88621  0.89111  0.69887
+     0.82767  0.94436  0.69887
+    -0.82767  0.94436  0.69887
+    -0.88621  0.89111  0.69887
+    -0.88621 -0.87685  0.69887
+     0.88621 -0.87685  0.89515
+    -0.88621  0.48344  0.87012
+    -0.82767  0.94436  0.93857
+     0.82767  0.94436  0.93857
+     0.88621 -0.82196  0.93857
+    -0.88621 -0.87685  0.93857
+    -0.82767 -0.94436  0.93857
+     0.76398 -0.94436  0.93857
+    -0.88621  0.36237  0.93857
+  tverts 22
+     1.0134  0.9928  0
+     1.0526  0.8450  0
+     1.0526  0.9660  0
+     0.2541  0.8450  0
+    -0.0393  0.8450  0
+     0.0022  0.9660  0
+    -0.0393  0.9660  0
+     0.8701  0.8450  0
+     0.0022  0.8450  0
+     0.0022  0.9928  0
+     0.7242  0.9928  0
+     0.8701  0.9928  0
+     0.2181  0.9928  0
+     0.2541  0.9928  0
+     1.0526  0.9928  0
+     0.0360  0.9928  0
+     1.0887  0.8450  0
+     0.6110  0.9928  0
+     0.6856  0.9505  0
+    -0.0393  0.9928  0
+     0.2181  0.8450  0
+     1.0887  0.9928  0
+  faces 21
+    19  3  4 1   0  1  2 0
+    19  5  3 1   0  3  1 0
+     3 12  4 2   4  5  6 0
+    10 11 17 3   7  8  9 0
+     2  1 10 3  10 11  7 0
+     9  1 14 4   3 12 13 0
+    15  9 14 5  14  3 13 0
+    16  7  0 6  15  7 11 0
+    15  7  8 7  14 16  1 0
+    17 20 13 3   9 17 18 0
+    13  2 10 3  18 10  7 0
+    17 13 10 3   9 18  7 0
+    16 12  6 6  15  5  8 0
+    18 11  5 8  19  8  4 0
+    19 18  5 1   0 13  3 0
+     3  6 12 2   4  8  5 0
+     9 10  1 4   3 20 12 0
+    15  8  9 5  14  1  3 0
+    16  6  7 6  15  8  7 0
+    15  0  7 7  14 21 16 0
+    18 17 11 8  19  9  8 0
+endnode
+node dummy table1_ground
+  parent ud_table1
+  position -0.14000  0.08000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy table1_hand
+  parent ud_table1
+  position -0.14000  0.94000  0.70000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy table1_head
+  parent ud_table1
+  position -0.14000  0.08000  0.94000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy table1_head_hit
+  parent ud_table1
+  position -0.14000  0.08000  1.14000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy table1_impact
+  parent ud_table1
+  position -0.14000  0.08000  0.70000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+endmodelgeom ud_table1
+
+# ANIM ASCII
+newanim default ud_table1
+  length 0.0
+  transtime 0.25
+  animroot ud_table1
+  node dummy ud_table1
+    parent null
+  endnode
+  node pwk ud_table1_pwk
+    parent ud_table1
+  endnode
+  node dummy table1_PWK_use01
+    parent ud_table1_pwk
+  endnode
+  node dummy table1_PWK_use02
+    parent ud_table1_pwk
+  endnode
+  node trimesh table1_wg
+    parent ud_table1_pwk
+  endnode
+  node emitter ChunkyWood
+    parent ud_table1
+  endnode
+  node emitter fire!
+    parent ud_table1
+  endnode
+  node trimesh damage
+    parent ud_table1
+    positionkey 1
+       0.000  0.00087  0.03487  0.00000
+    endlist
+    orientationkey 1
+       0.000  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node trimesh TableBase
+    parent damage
+  endnode
+  node trimesh TableTop
+    parent damage
+  endnode
+  node trimesh TableTop.001
+    parent damage
+  endnode
+  node trimesh TableTop.002
+    parent damage
+  endnode
+  node trimesh TableTop.003
+    parent damage
+  endnode
+  node dummy table1_ground
+    parent ud_table1
+  endnode
+  node dummy table1_hand
+    parent ud_table1
+  endnode
+  node dummy table1_head
+    parent ud_table1
+  endnode
+  node dummy table1_head_hit
+    parent ud_table1
+  endnode
+  node dummy table1_impact
+    parent ud_table1
+  endnode
+doneanim default ud_table1
+
+newanim damage ud_table1
+  length 0.133
+  transtime 0.0
+  animroot ud_table1
+  node dummy ud_table1
+    parent null
+  endnode
+  node pwk ud_table1_pwk
+    parent ud_table1
+  endnode
+  node dummy table1_PWK_use01
+    parent ud_table1_pwk
+  endnode
+  node dummy table1_PWK_use02
+    parent ud_table1_pwk
+  endnode
+  node trimesh table1_wg
+    parent ud_table1_pwk
+  endnode
+  node emitter ChunkyWood
+    parent ud_table1
+  endnode
+  node emitter fire!
+    parent ud_table1
+  endnode
+  node trimesh damage
+    parent ud_table1
+    positionkey 3
+       0.000  0.00087  0.03487  0.00000
+       0.033  0.00087  0.03487  0.02446
+       0.133  0.00087  0.03487  0.00000
+    endlist
+    orientationkey 4
+       0.000  0.00000  1.00000  0.00000  0.00000
+       0.033  0.37136 -0.92850 -0.00810  0.04699
+       0.100 -0.59994  0.79996 -0.01047  0.04363
+       0.133  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node trimesh TableBase
+    parent damage
+  endnode
+  node trimesh TableTop
+    parent damage
+  endnode
+  node trimesh TableTop.001
+    parent damage
+  endnode
+  node trimesh TableTop.002
+    parent damage
+  endnode
+  node trimesh TableTop.003
+    parent damage
+  endnode
+  node dummy table1_ground
+    parent ud_table1
+  endnode
+  node dummy table1_hand
+    parent ud_table1
+  endnode
+  node dummy table1_head
+    parent ud_table1
+  endnode
+  node dummy table1_head_hit
+    parent ud_table1
+  endnode
+  node dummy table1_impact
+    parent ud_table1
+  endnode
+doneanim damage ud_table1
+
+newanim die ud_table1
+  length 0.167
+  transtime 0.0
+  animroot ud_table1
+  node dummy ud_table1
+    parent null
+  endnode
+  node pwk ud_table1_pwk
+    parent ud_table1
+  endnode
+  node dummy table1_PWK_use01
+    parent ud_table1_pwk
+  endnode
+  node dummy table1_PWK_use02
+    parent ud_table1_pwk
+  endnode
+  node trimesh table1_wg
+    parent ud_table1_pwk
+  endnode
+  node emitter ChunkyWood
+    parent ud_table1
+  endnode
+  node emitter fire!
+    parent ud_table1
+  endnode
+  node trimesh damage
+    parent ud_table1
+    positionkey 1
+       0.000  0.00087  0.03487  0.00000
+    endlist
+    orientationkey 1
+       0.000  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node trimesh TableBase
+    parent damage
+  endnode
+  node trimesh TableTop
+    parent damage
+  endnode
+  node trimesh TableTop.001
+    parent damage
+  endnode
+  node trimesh TableTop.002
+    parent damage
+  endnode
+  node trimesh TableTop.003
+    parent damage
+  endnode
+  node dummy table1_ground
+    parent ud_table1
+  endnode
+  node dummy table1_hand
+    parent ud_table1
+  endnode
+  node dummy table1_head
+    parent ud_table1
+  endnode
+  node dummy table1_head_hit
+    parent ud_table1
+  endnode
+  node dummy table1_impact
+    parent ud_table1
+  endnode
+doneanim die ud_table1
+
+newanim dead ud_table1
+  length 0.033
+  transtime 0.0
+  animroot ud_table1
+  node dummy ud_table1
+    parent null
+  endnode
+  node pwk ud_table1_pwk
+    parent ud_table1
+  endnode
+  node dummy table1_PWK_use01
+    parent ud_table1_pwk
+  endnode
+  node dummy table1_PWK_use02
+    parent ud_table1_pwk
+  endnode
+  node trimesh table1_wg
+    parent ud_table1_pwk
+  endnode
+  node emitter ChunkyWood
+    parent ud_table1
+  endnode
+  node emitter fire!
+    parent ud_table1
+  endnode
+  node trimesh damage
+    parent ud_table1
+    positionkey 2
+       0.000  0.00087  0.03487 -6.95145
+       0.033  0.00087  0.03487 -6.95145
+    endlist
+  endnode
+  node trimesh TableBase
+    parent damage
+  endnode
+  node trimesh TableTop
+    parent damage
+  endnode
+  node trimesh TableTop.001
+    parent damage
+  endnode
+  node trimesh TableTop.002
+    parent damage
+  endnode
+  node trimesh TableTop.003
+    parent damage
+  endnode
+  node dummy table1_ground
+    parent ud_table1
+  endnode
+  node dummy table1_hand
+    parent ud_table1
+  endnode
+  node dummy table1_head
+    parent ud_table1
+  endnode
+  node dummy table1_head_hit
+    parent ud_table1
+  endnode
+  node dummy table1_impact
+    parent ud_table1
+  endnode
+doneanim dead ud_table1
+
+donemodel ud_table1
