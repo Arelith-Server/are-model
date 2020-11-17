@@ -1,0 +1,19 @@
+node dummy couch1_PWK_use01
+  parent ud_couch1_pwk
+  position  0.00000 -0.29745  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node trimesh couch1_wg
+  parent ud_couch1_pwk
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  verts 4
+     1.00001  0.76772  0.00000
+    -1.00001  0.76772  0.00000
+    -1.00001 -0.26239  0.00000
+     1.00001 -0.26239  0.00000
+  faces 2
+    2 0 3 1  0 0 0 0
+    2 1 0 2  0 0 0 0
+endnode
