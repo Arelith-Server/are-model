@@ -1,18 +1,18 @@
-# Exported from NWmax 0.5-beta at 1/13/2004 11:58:59 AM
+# Exported from NWmax 0.5-beta at 1/13/2004 12:47:58 PM
 # pwk file
 #
 #NWmaxPWKMESH  ASCII
-node dummy UL1_pwk_use01
+node dummy UL2_pwk_use01
   parent PLV_UL2_pwk
   position 0.0 -1.48643 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.0313726 0.431373 0.52549 
+  wirecolor 0.721569 0.894118 0.6 
 endnode
 node trimesh PLV_UL2_wg
   parent PLV_UL2_pwk
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.835294 0.835294 0.835294 
+  wirecolor 0.341176 0.341176 0.882353 
   multimaterial 20
     NULL
     NULL
@@ -41,14 +41,14 @@ node trimesh PLV_UL2_wg
   selfillumcolor 0.0 0.0 0.0 
   bitmap NULL
   verts 8
-    -0.656746 -0.668382 0.0
-    0.655806 -0.668382 0.0
-    -0.656747 0.689164 0.0
-    0.655807 0.689164 0.0
-    -0.266753 -0.670522 0.0
-    -0.265737 -1.22755 0.0
-    0.28322 -1.22755 0.0
-    0.283613 -0.677573 0.0
+    -0.36286 -0.36929  0.00000
+     0.36234 -0.36929  0.00000
+    -0.36286  0.38077  0.00000
+     0.36234  0.38077  0.00000
+    -0.14739 -0.37047  0.00000
+    -0.14682 -0.67824  0.00000
+     0.15648 -0.67824  0.00000
+     0.15670 -0.37437  0.00000
   faces 4
     3 0 1  1  0 0 0  7
     2 0 3  1  0 0 0  7
