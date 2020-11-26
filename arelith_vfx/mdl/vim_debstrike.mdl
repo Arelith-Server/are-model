@@ -1,0 +1,694 @@
+#MAXMODEL ASCII
+# model: vim_debstrike
+filedependancy vim_debstrike.max
+newmodel vim_debstrike
+setsupermodel vim_debstrike NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_debstrike
+node dummy vim_debstrike
+  parent NULL
+  #part-number 0
+endnode
+node emitter vCA_self002
+  parent vim_debstrike
+  #part-number 1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.499924988
+  orientation 0 0 0 0
+  colorStart 0.533333004 0.533333004 0.533333004
+  colorEnd 0.533333004 0.533333004 0.533333004
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.200000003
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 5
+  lifeExp 1
+  mass 0
+  spread 2.09439993
+  particleRot 1
+  velocity 0.5
+  randvel 0.300000012
+  fps 15
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter09
+  parent vim_debstrike
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Normal
+  blend Lighten
+  texture fxpa_StarBnW
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.00233880989 0.00201330008 0.507157981
+  orientation 0 0 0 0
+  colorStart 0.533333004 0.533333004 0.533333004
+  colorEnd 0.533333004 0.533333004 0.533333004
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 1
+  lifeExp -1
+  mass 0
+  spread 0
+  particleRot 1
+  velocity 0
+  randvel 0
+  fps 30
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter11
+  parent vim_debstrike
+  #part-number 3
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 1
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_StarBnW
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.000355978991 0.000117447998 -0.202806994
+  orientation 0 0 -1 -0.785398006
+  colorStart 0.533333004 0.533333004 0.533333004
+  colorEnd 0.533333004 0.533333004 0.533333004
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.600000024
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 2
+  birthrate 10
+  lifeExp 0.200000003
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 15
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter12
+  parent vim_debstrike
+  #part-number 4
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 1
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_StarBnW
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.000355978991 0.000117447998 -0.202806994
+  orientation 0 0 -1 -0.785398006
+  colorStart 0.533333004 0.533333004 0.533333004
+  colorEnd 0.533333004 0.533333004 0.533333004
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.600000024
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 2
+  birthrate 10
+  lifeExp 0.200000003
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 15
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter10
+  parent vim_debstrike
+  #part-number 5
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 1
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_StarBnW
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -7.86528981e-05 0.000117447998 -0.202806994
+  orientation 0 0 1 -0.785398006
+  colorStart 0.533333004 0.533333004 0.533333004
+  colorEnd 0.533333004 0.533333004 0.533333004
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.600000024
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 2
+  birthrate 10
+  lifeExp 0.200000003
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 15
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter01
+  parent vim_debstrike
+  #part-number 6
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 1
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_StarBnW
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -7.86528981e-05 0.000117447998 -0.202806994
+  orientation 0 0 1 -0.785398006
+  colorStart 0.533333004 0.533333004 0.533333004
+  colorEnd 0.533333004 0.533333004 0.533333004
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.600000024
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 2
+  birthrate 10
+  lifeExp 0.200000003
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 15
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vim_debstrike
+
+#MAXANIM ASCII
+newanim impact vim_debstrike
+  length 0.966666996
+  transtime 0.25
+  animroot vim_debstrike
+  event 0.600000024 detonate
+node dummy vim_debstrike
+  parent NULL
+  #part-number 0
+endnode
+node emitter vCA_self002
+  parent vim_debstrike
+  #part-number 1
+endnode
+node emitter OmenEmitter09
+  parent vim_debstrike
+  #part-number 2
+  sizeStartkey 3
+    0 0
+    0.56666702 0
+    0.600000024 2
+  sizeEndkey 3
+    0 0
+    0.56666702 0
+    0.600000024 2
+  birthratekey 3
+    0 1
+    0.93333298 1
+    0.966666996 0
+endnode
+node emitter OmenEmitter11
+  parent vim_debstrike
+  #part-number 3
+  positionkey 10
+    0 0.000355978991 0.000117447998 -0.202806994
+    0.300000012 0.000355978991 0.000117447998 -0.202806994
+    0.333332986 -0.119383998 0.119857997 -0.188203007
+    0.366667002 -0.253697008 0.254171014 -0.125558004
+    0.400000006 -0.337559998 0.338032991 -0.0132975001
+    0.433333009 -0.372117996 0.372592002 0.138088003
+    0.5 -0.353201002 0.353673995 0.295675993
+    0.533333004 -0.269234985 0.269708991 0.410632014
+    0.56666702 -0.134362996 0.134837002 0.484113991
+    0.600000024 0.000356000994 0.000117426003 0.505761027
+  colorStartkey 1
+    0.433333009 0.533333004 0.533333004 0.533333004
+  colorEndkey 1
+    0.433333009 0.533333004 0 0
+  alphaStartkey 1
+    0.433333009 1
+  alphaEndkey 1
+    0.433333009 1
+  sizeStartkey 1
+    0.433333009 0.600000024
+  sizeEndkey 1
+    0.433333009 0.100000001
+  frameStartkey 1
+    0.433333009 0
+  frameEndkey 1
+    0.433333009 2
+  birthratekey 4
+    0 10
+    0.433333009 10
+    0.93333298 10
+    0.966666996 0
+  lifeExpkey 1
+    0.433333009 0.200000003
+  masskey 1
+    0.433333009 0
+  spreadkey 1
+    0.433333009 0
+  velocitykey 1
+    0.433333009 0
+  randvelkey 1
+    0.433333009 0
+  fpskey 1
+    0.433333009 15
+  xsizekey 1
+    0.433333009 0
+  ysizekey 1
+    0.433333009 0
+  bounce_cokey 1
+    0.433333009 0
+  lightningDelaykey 1
+    0.433333009 0
+  lightningRadiuskey 1
+    0.433333009 0
+  lightningScalekey 1
+    0.433333009 0
+  p2p_bezier2key 1
+    0.433333009 0
+  p2p_bezier3key 1
+    0.433333009 0
+  combinetimekey 1
+    0.433333009 0
+  dragkey 1
+    0.433333009 0
+  gravkey 1
+    0.433333009 0
+endnode
+node emitter OmenEmitter12
+  parent vim_debstrike
+  #part-number 4
+  positionkey 10
+    0 0.000355978991 0.000117447998 -0.202806994
+    0.300000012 0.000355978991 0.000117447998 -0.202806994
+    0.333332986 0.124173 -0.123699002 -0.188203007
+    0.366667002 0.247989997 -0.247516006 -0.125558004
+    0.400000006 0.337837011 -0.337363988 -0.0132975001
+    0.433333009 0.373353988 -0.372880995 0.138088003
+    0.5 0.353693008 -0.353219986 0.295675993
+    0.533333004 0.266364008 -0.265890986 0.410632014
+    0.56666702 0.133445993 -0.132973 0.484113991
+    0.600000024 0.000356000994 0.000117426003 0.505761027
+  colorStartkey 1
+    0.433333009 0.533333004 0.533333004 0.533333004
+  colorEndkey 1
+    0.433333009 0.533333004 0 0
+  alphaStartkey 1
+    0.433333009 1
+  alphaEndkey 1
+    0.433333009 1
+  sizeStartkey 1
+    0.433333009 0.600000024
+  sizeEndkey 1
+    0.433333009 0.100000001
+  frameStartkey 1
+    0.433333009 0
+  frameEndkey 1
+    0.433333009 2
+  birthratekey 4
+    0 10
+    0.433333009 10
+    0.93333298 10
+    0.966666996 0
+  lifeExpkey 1
+    0.433333009 0.200000003
+  masskey 1
+    0.433333009 0
+  spreadkey 1
+    0.433333009 0
+  velocitykey 1
+    0.433333009 0
+  randvelkey 1
+    0.433333009 0
+  fpskey 1
+    0.433333009 15
+  xsizekey 1
+    0.433333009 0
+  ysizekey 1
+    0.433333009 0
+  bounce_cokey 1
+    0.433333009 0
+  lightningDelaykey 1
+    0.433333009 0
+  lightningRadiuskey 1
+    0.433333009 0
+  lightningScalekey 1
+    0.433333009 0
+  p2p_bezier2key 1
+    0.433333009 0
+  p2p_bezier3key 1
+    0.433333009 0
+  combinetimekey 1
+    0.433333009 0
+  dragkey 1
+    0.433333009 0
+  gravkey 1
+    0.433333009 0
+endnode
+node emitter OmenEmitter10
+  parent vim_debstrike
+  #part-number 5
+  positionkey 10
+    0 -7.86528981e-05 0.000117447998 -0.202806994
+    0.300000012 -7.86528981e-05 0.000117447998 -0.202806994
+    0.333332986 0.119662002 0.119857997 -0.188203007
+    0.366667002 0.253973991 0.254171014 -0.125558004
+    0.400000006 0.337837011 0.338032991 -0.0132975001
+    0.433333009 0.372395992 0.372592002 0.138088003
+    0.5 0.353478014 0.353673995 0.295675993
+    0.533333004 0.269513011 0.269708991 0.410632014
+    0.56666702 0.134641007 0.134837002 0.484113991
+    0.600000024 -7.86747987e-05 0.000117426003 0.505761027
+  colorStartkey 1
+    0.433333009 0.533333004 0.533333004 0.533333004
+  colorEndkey 1
+    0.433333009 0.533333004 0 0
+  alphaStartkey 1
+    0.433333009 1
+  alphaEndkey 1
+    0.433333009 1
+  sizeStartkey 1
+    0.433333009 0.600000024
+  sizeEndkey 1
+    0.433333009 0.100000001
+  frameStartkey 1
+    0.433333009 0
+  frameEndkey 1
+    0.433333009 2
+  birthratekey 4
+    0 10
+    0.433333009 10
+    0.93333298 10
+    0.966666996 0
+  lifeExpkey 1
+    0.433333009 0.200000003
+  masskey 1
+    0.433333009 0
+  spreadkey 1
+    0.433333009 0
+  velocitykey 1
+    0.433333009 0
+  randvelkey 1
+    0.433333009 0
+  fpskey 1
+    0.433333009 15
+  xsizekey 1
+    0.433333009 0
+  ysizekey 1
+    0.433333009 0
+  bounce_cokey 1
+    0.433333009 0
+  lightningDelaykey 1
+    0.433333009 0
+  lightningRadiuskey 1
+    0.433333009 0
+  lightningScalekey 1
+    0.433333009 0
+  p2p_bezier2key 1
+    0.433333009 0
+  p2p_bezier3key 1
+    0.433333009 0
+  combinetimekey 1
+    0.433333009 0
+  dragkey 1
+    0.433333009 0
+  gravkey 1
+    0.433333009 0
+endnode
+node emitter OmenEmitter01
+  parent vim_debstrike
+  #part-number 6
+  positionkey 10
+    0 -7.86528981e-05 0.000117447998 -0.202806994
+    0.300000012 -7.86528981e-05 0.000117447998 -0.202806994
+    0.333332986 -0.123894997 -0.123699002 -0.188203007
+    0.366667002 -0.247712001 -0.247516006 -0.125558004
+    0.400000006 -0.337559998 -0.337363988 -0.0132975001
+    0.433333009 -0.373077005 -0.372880995 0.138088003
+    0.5 -0.353415996 -0.353219986 0.295675993
+    0.533333004 -0.266086996 -0.265890986 0.410632014
+    0.56666702 -0.133168995 -0.132972002 0.484113991
+    0.600000024 -7.86747987e-05 0.000117426003 0.505761027
+  colorStartkey 1
+    0.433333009 0.533333004 0.533333004 0.533333004
+  colorEndkey 1
+    0.433333009 0.533333004 0 0
+  alphaStartkey 1
+    0.433333009 1
+  alphaEndkey 1
+    0.433333009 1
+  sizeStartkey 1
+    0.433333009 0.600000024
+  sizeEndkey 1
+    0.433333009 0.100000001
+  frameStartkey 1
+    0.433333009 0
+  frameEndkey 1
+    0.433333009 2
+  birthratekey 4
+    0 10
+    0.433333009 10
+    0.93333298 10
+    0.966666996 0
+  lifeExpkey 1
+    0.433333009 0.200000003
+  masskey 1
+    0.433333009 0
+  spreadkey 1
+    0.433333009 0
+  velocitykey 1
+    0.433333009 0
+  randvelkey 1
+    0.433333009 0
+  fpskey 1
+    0.433333009 15
+  xsizekey 1
+    0.433333009 0
+  ysizekey 1
+    0.433333009 0
+  bounce_cokey 1
+    0.433333009 0
+  lightningDelaykey 1
+    0.433333009 0
+  lightningRadiuskey 1
+    0.433333009 0
+  lightningScalekey 1
+    0.433333009 0
+  p2p_bezier2key 1
+    0.433333009 0
+  p2p_bezier3key 1
+    0.433333009 0
+  combinetimekey 1
+    0.433333009 0
+  dragkey 1
+    0.433333009 0
+  gravkey 1
+    0.433333009 0
+endnode
+doneanim impact vim_debstrike
+
+donemodel vim_debstrike
