@@ -2,14 +2,14 @@
 # pwk file
 #
 #NWmaxPWKMESH  ASCII
-node dummy UL2_pwk_use01
-  parent PLV_UL2_pwk
+node dummy UL4_pwk_use01
+  parent PLV_UL4_pwk
   position 0.0 -1.48643 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.721569 0.894118 0.6 
 endnode
-node trimesh PLV_UL2_wg
-  parent PLV_UL2_pwk
+node trimesh PLV_UL4_wg
+  parent PLV_UL4_pwk
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.341176 0.341176 0.882353 

@@ -1,21 +1,22 @@
-# Exported from Blender on Saturday, 2020-11-21
+# Exported from Blender on Sunday, 2020-11-22
 filedependancy unknown
-newmodel plv_ul3
-setsupermodel plv_ul3 null
+newmodel plv_ul5
+setsupermodel plv_ul5 null
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom plv_ul3
-node dummy plv_ul3
+beginmodelgeom plv_ul5
+node dummy plv_ul5
   parent null
 endnode
-node dummy UL3_ground
-  parent plv_ul3
-  position -0.00363  0.00699  0.00000
+node dummy UL5_ground
+  parent plv_ul5
+  position -0.00239  0.00461  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
+  scale 0.659
 endnode
 node trimesh damage08
-  parent plv_ul3
-  position  0.01475  0.01450  0.14024
+  parent plv_ul5
+  position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.72 0.72 0.72
   ambient 1.00 1.00 1.00
@@ -26,18 +27,18 @@ node trimesh damage08
   render 0
   shadow 1
   verts 12
-    -0.19542 -0.18622  0.00000
-    -0.19542  0.18622  0.00000
-     0.19542  0.18622  0.00000
-     0.19542 -0.18622  0.00000
-    -0.19542 -0.18622  0.50000
-     0.19542 -0.18622  0.50000
-     0.19542  0.18622  0.50000
-    -0.19542  0.18622  0.50000
-     0.10394 -0.09905  0.25000
-    -0.10394 -0.09905  0.25000
-     0.10394  0.09905  0.25000
-    -0.10394  0.09905  0.25000
+    -0.11915 -0.11325  0.09249
+    -0.11915  0.13237  0.09249
+     0.13860  0.13237  0.09249
+     0.13860 -0.11325  0.09249
+    -0.11915 -0.11325  0.42223
+     0.13860 -0.11325  0.42223
+     0.13860  0.13237  0.42223
+    -0.11915  0.13237  0.42223
+     0.07827 -0.05576  0.25736
+    -0.05882 -0.05576  0.25736
+     0.07827  0.07488  0.25736
+    -0.05882  0.07488  0.25736
   faces 20
      0  1  2 1  0 0 0 0
      2  3  0 1  0 0 0 0
@@ -62,7 +63,7 @@ node trimesh damage08
 endnode
 node trimesh Mesh2886
   parent damage08
-  position  0.01267  0.00000  0.39750
+  position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.54 0.54 0.54
   ambient 1.00 1.00 1.00
@@ -75,18 +76,18 @@ node trimesh Mesh2886
   shadow 0
   transparencyhint 1
   verts 12
-    -0.01881 -1.32625  1.46573
-     0.12374 -1.23626  1.89273
-    -0.01881 -1.32625  1.89273
-     0.12374 -1.23626  1.46573
-     0.10852 -1.07057  1.89273
-     0.10852 -1.07057  1.46573
-    -0.03983 -0.99785  1.89273
-    -0.03983 -0.99785  1.46573
-    -0.17915 -1.09405  1.89273
-    -0.17915 -1.09405  1.46573
-    -0.16715 -1.25353  1.89273
-    -0.16715 -1.25353  1.46573
+     0.00784 -0.14869  0.02440
+     0.14214 -0.06390  0.42669
+     0.00784 -0.14869  0.42669
+     0.14214 -0.06390  0.02440
+     0.12780  0.09220  0.42669
+     0.12780  0.09220  0.02440
+    -0.01196  0.16070  0.42669
+    -0.01196  0.16070  0.02440
+    -0.14321  0.07007  0.42669
+    -0.14321  0.07007  0.02440
+    -0.13192 -0.08018  0.42669
+    -0.13192 -0.08018  0.02440
   tverts 14
      0.4562  0.0556  0
      0.7705  0.9607  0
@@ -118,10 +119,10 @@ node trimesh Mesh2886
 endnode
 node emitter R_eye135
   parent damage08
-  position -0.03276 -1.15384  2.05000
+  position  0.00000  0.00000  0.12000
   orientation -0.62332  0.65767 -0.42302  1.87821
-  xsize 10.00
-  ysize 10.00
+  xsize 6.59
+  ysize 6.59
   update Fountain
   render Aligned_to_World_Z
   blend Lighten
@@ -167,7 +168,7 @@ node emitter R_eye135
 endnode
 node emitter R_eye136
   parent damage08
-  position -0.01093 -1.15505  1.84423
+  position  0.00000  0.00000  0.00000
   orientation  0.00000  0.00000  1.00000  1.57080
   xsize 18.00
   ysize 18.00
@@ -191,6 +192,8 @@ node emitter R_eye136
   alphaend 0.50
   sizestart 0.14
   sizeend 0.14
+  sizestart_y 0.00
+  sizeend_y 0.00
   bounce 0
   bounce_co 0.00
   blurlength 10.00
@@ -214,7 +217,7 @@ node emitter R_eye136
 endnode
 node trimesh Mesh2887
   parent damage08
-  position  0.01267  0.00000  0.39750
+  position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.34 0.34 0.34
   ambient 1.00 1.00 1.00
@@ -226,19 +229,19 @@ node trimesh Mesh2887
   render 1
   shadow 0
   verts 13
-    -0.05671 -1.21168  1.42753
-    -0.00631 -1.19908  1.42753
-     0.01609 -1.22428  1.65153
-    -0.06231 -1.24318  1.65153
-     0.01049 -1.14238  1.42753
-     0.03849 -1.13608  1.65153
-    -0.02311 -1.10458  1.42753
-    -0.01751 -1.07308  1.65153
-    -0.07351 -1.11718  1.42753
-    -0.09031 -1.09198  1.65153
-    -0.09031 -1.17388  1.42753
-    -0.11831 -1.18018  1.65153
-    -0.03991 -1.16128  1.76353
+    -0.02908 -0.04765  0.02440
+     0.03027 -0.03446  0.02440
+     0.05665 -0.06084  0.23544
+    -0.03568 -0.08063  0.23544
+     0.05005  0.02489  0.02440
+     0.08303  0.03148  0.23544
+     0.01049  0.06446  0.02440
+     0.01708  0.09743  0.23544
+    -0.04887  0.05127  0.02440
+    -0.06865  0.07765  0.23544
+    -0.06865 -0.00809  0.02440
+    -0.10163 -0.01468  0.23544
+    -0.00930  0.00510  0.34095
   tverts 20
      0.1260  0.0005  0
      0.2932  0.0005  0
@@ -280,65 +283,9 @@ node trimesh Mesh2887
     11  3 12 1  11  3 18 0
      9 11 12 1   9 13 19 0
 endnode
-node trimesh Line1
-  parent damage08
-  position -0.00208 -0.01450 -0.00976
-  orientation  0.00000  1.00000  0.00000  0.00000
-  wirecolor 1.00 0.00 0.00
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
-  specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
-  bitmap TTU01_Chain
-  shininess 28
-  render 1
-  shadow 0
-  transparencyhint 1
-  verts 4
-    -0.01835 -1.11111  3.13751
-    -0.01835 -1.19111  3.13751
-    -0.01835 -1.19111  2.43751
-    -0.01835 -1.11111  2.43751
-  tverts 4
-     0.9995  0.0032  0
-     0.0005  0.0032  0
-     0.9995  6.4967  0
-     0.0005  6.4967  0
-  faces 2
-    1 0 2 1  0 1 2 0
-    2 0 3 1  2 1 3 0
-endnode
-node trimesh Line1849
-  parent damage08
-  position  0.00000  0.00000  0.00000
-  orientation  0.00000  1.00000  0.00000  0.00000
-  wirecolor 1.00 0.00 0.00
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
-  specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
-  bitmap TTU01_Chain
-  shininess 28
-  render 1
-  shadow 0
-  transparencyhint 1
-  verts 4
-    -0.06134 -1.16299  3.11082
-     0.01866 -1.16299  3.11082
-     0.01866 -1.16299  2.41082
-    -0.06134 -1.16299  2.41082
-  tverts 4
-     0.9995  0.0032  0
-     0.0005  0.0032  0
-     0.9995  6.4967  0
-     0.0005  6.4967  0
-  faces 2
-    1 0 2 1  0 1 2 0
-    2 0 3 1  2 1 3 0
-endnode
 node trimesh Cylinder620
   parent damage08
-  position  0.01267  0.00000  0.39750
+  position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 0.00 0.00
   ambient 1.00 1.00 1.00
@@ -349,13 +296,13 @@ node trimesh Cylinder620
   shininess 28
   transparencyhint 1
   verts 7
-    -0.01601 -1.35901  1.89272
-     0.14499 -1.24701  1.89272
-    -0.03001 -1.16301  2.09572
-     0.13099 -1.05101  1.89272
-    -0.04401 -0.96701  1.89272
-    -0.20501 -1.07901  1.89272
-    -0.19101 -1.27501  1.89272
+     0.01049 -0.17955  0.42668
+     0.16217 -0.07403  0.42668
+    -0.00270  0.00510  0.61793
+     0.14898  0.11062  0.42668
+    -0.01589  0.18976  0.42668
+    -0.16758  0.08424  0.42668
+    -0.15439 -0.10041  0.42668
   tverts 16
      0.6924  0.9819  0
      0.8409  0.9819  0
@@ -385,108 +332,9 @@ node trimesh Cylinder620
     4 3 5 1  14 13 12 0
     0 6 5 1  11 15 12 0
 endnode
-node trimesh Box1774
-  parent damage08
-  position  0.00000  0.00000  0.00000
-  orientation  0.00000  1.00000  0.00000  0.00000
-  wirecolor 0.89 0.89 0.89
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
-  specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
-  bitmap TTU01_Rock3
-  shininess 28
-  verts 18
-    -0.08478  0.26808  3.24111
-    -0.07865 -0.11541  3.09111
-    -0.09943 -1.01227  3.24111
-    -0.05615 -1.25807  3.09111
-     0.00697 -1.26126  3.09111
-     0.05086 -1.01557  3.24111
-     0.07164 -0.11870  3.09111
-     0.07494  0.03159  3.09111
-     0.06552  0.26478  3.09111
-    -0.08478  0.26808  3.09111
-     0.06552  0.26478  3.24111
-    -0.08413 -0.51649  3.09111
-     0.06617 -0.51979  3.09111
-    -0.07536  0.03489  3.09111
-     0.05933 -0.70993  3.09111
-    -0.08189 -0.71748  3.09111
-     0.02808 -1.20684  3.16611
-    -0.07713 -1.20360  3.16611
-  tverts 38
-     1.0114  0.6136  0
-     0.7617  0.5154  0
-     0.1757  0.6136  0
-     0.1823  0.4295  0
-     0.0523  0.5021  0
-     0.0562  0.4333  0
-     0.7683  0.5154  0
-     0.8665  0.5154  0
-     0.1823  0.6136  0
-     0.4940  0.5154  0
-     0.5922  0.5154  0
-     0.5922  0.6136  0
-     0.4940  0.6136  0
-     0.4999  0.5154  0
-     0.5064  0.5154  0
-     0.1757  0.5277  0
-     1.0180  0.4940  0
-     1.0114  0.5922  0
-     0.8599  0.5154  0
-     1.0114  0.5154  0
-     1.0180  0.5154  0
-     1.0180  0.6136  0
-     0.3821  0.5154  0
-     0.3690  0.5154  0
-     0.0195  0.5154  0
-     0.0180  0.5154  0
-     0.0523  0.5645  0
-     0.4333  0.5645  0
-     0.4852  0.5154  0
-     0.4439  0.5154  0
-     0.3690  0.5333  0
-     0.0195  0.4439  0
-     0.0180  0.4852  0
-     0.4999  0.5464  0
-     0.3821  0.4416  0
-     0.0562  0.5645  0
-     0.5021  0.5645  0
-     0.5064  0.4482  0
-  faces 28
-     0  1  2 1   0  1  2 0
-     5 17 16 2   3  4  5 0
-     6  7  5 1   6  7  8 0
-     8  9  0 3   9 10 11 0
-     0 10  8 3  11 12  9 0
-     2  1 11 1   2  1 13 0
-     5 12  6 1   8 14  6 0
-     2  5 10 2  15  3 16 0
-    10  0  2 2  16 17 15 0
-    13  1  0 1  18  1  0 0
-     0  9 13 1   0 19 18 0
-     5  7  8 1   8  7 20 0
-     8 10  5 1  20 21  8 0
-     5 14 12 1   8 22 14 0
-     2 11 15 1   2 13 23 0
-     5  4 14 1   8 24 22 0
-     2  3 17 1   2 25 26 0
-    16  3  4 2  27 28 29 0
-    15  4  3 4  30 31 32 0
-     8 11  9 5  16 33 17 0
-    15 14  4 4  30 34 31 0
-     5  2 17 2   3 15  4 0
-     5 16  4 1   8 35 24 0
-     2 15  3 1   2 23 25 0
-    16 17  3 2  27 36 28 0
-     8 12 11 5  16 37 33 0
-    14 11 12 1  34 13 37 0
-    14 15 11 1  34 30 13 0
-endnode
 node trimesh lowerlamp
   parent damage08
-  position  0.01267  0.00000  0.39750
+  position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 0.00 0.00
   ambient 1.00 1.00 1.00
@@ -496,13 +344,13 @@ node trimesh lowerlamp
   bitmap TTU01_Pillar
   shininess 28
   verts 7
-    -0.03001 -1.16301  1.38873
-     0.14499 -1.24701  1.46573
-    -0.01601 -1.35901  1.46573
-     0.13099 -1.05101  1.46573
-    -0.04401 -0.96701  1.46573
-    -0.20501 -1.07901  1.46573
-    -0.19101 -1.27501  1.46573
+    -0.00270  0.00510 -0.04814
+     0.16217 -0.07403  0.02440
+     0.01049 -0.17955  0.02440
+     0.14898  0.11062  0.02440
+    -0.01589  0.18976  0.02440
+    -0.16758  0.08424  0.02440
+    -0.15439 -0.10041  0.02440
   tverts 10
      0.7230  0.4219  0
      0.8133  0.7474  0
@@ -526,66 +374,11 @@ node trimesh lowerlamp
     3 4 5 1   7  8  6 0
     6 2 5 1   9  4  6 0
 endnode
-node trimesh Line1850
-  parent damage08
-  position  0.00000  0.00000  0.00000
-  orientation  0.00000  1.00000  0.00000  0.00000
-  wirecolor 1.00 0.00 0.00
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
-  specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
-  bitmap TTU01_Chain
-  shininess 28
-  render 1
-  shadow 0
-  transparencyhint 1
-  verts 4
-    -0.05950 -1.16549  2.43854
-     0.02050 -1.16549  2.43854
-     0.02050 -1.16549  3.13854
-    -0.05950 -1.16549  3.13854
-  tverts 4
-     0.9995  0.0032  0
-     0.0005  0.0032  0
-     0.9995  6.4967  0
-     0.0005  6.4967  0
-  faces 2
-    1 0 2 1  0 1 2 0
-    2 0 3 1  2 1 3 0
-endnode
-node trimesh Line2
-  parent damage08
-  position  0.00238 -0.01450 -0.00976
-  orientation  0.00000  1.00000  0.00000  0.00000
-  wirecolor 1.00 0.00 0.00
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
-  specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
-  bitmap TTU01_Chain
-  shininess 28
-  render 1
-  shadow 0
-  transparencyhint 1
-  verts 4
-    -0.02193 -1.11361  2.43854
-    -0.02193 -1.19361  2.43854
-    -0.02193 -1.19361  3.13854
-    -0.02193 -1.11361  3.13854
-  tverts 4
-     0.9995  0.0032  0
-     0.0005  0.0032  0
-     0.9995  6.4967  0
-     0.0005  6.4967  0
-  faces 2
-    1 0 2 1  0 1 2 0
-    2 0 3 1  2 1 3 0
-endnode
 node light Point
   parent damage08
-  position -0.03968 -1.16966  1.86288
+  position -0.01729  0.00071  0.17073
   orientation  0.00000  1.00000  0.00000  0.00000
+  scale 0.659
   ambientonly 0
   ndynamictype 1
   affectdynamic 1
@@ -598,7 +391,7 @@ node light Point
   flareradius 1.0
 endnode
 node emitter fire!42
-  parent plv_ul3
+  parent plv_ul5
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   xsize 0.00
@@ -647,8 +440,8 @@ node emitter fire!42
   inherit_part 0
 endnode
 node emitter ChunkyWood70
-  parent plv_ul3
-  position  0.01319 -0.02534  0.55629
+  parent plv_ul5
+  position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   xsize 0.00
   ysize 0.00
@@ -695,29 +488,33 @@ node emitter ChunkyWood70
   inherit_local 0
   inherit_part 0
 endnode
-node dummy UL3_impact
-  parent plv_ul3
-  position  0.00399  0.01100  1.78317
+node dummy UL5_impact
+  parent plv_ul5
+  position  0.00263  0.00725  0.09758
   orientation  0.00000  1.00000  0.00000  0.00000
+  scale 0.659
 endnode
-node dummy UL3_hand
-  parent plv_ul3
-  position -0.00839 -1.42590  2.35527
+node dummy UL5_hand
+  parent plv_ul5
+  position -0.00637 -0.17784  0.31812
   orientation  0.00000  1.00000  0.00000  0.00000
+  scale 0.659
 endnode
-node dummy UL3_head
-  parent plv_ul3
-  position  0.00399  0.01083  3.14801
+node dummy UL5_head
+  parent plv_ul5
+  position  0.00263  0.00714  0.50395
   orientation  0.00000  1.00000  0.00000  0.00000
+  scale 0.659
 endnode
-node dummy UL3_head_hit
-  parent plv_ul3
-  position  0.00399  0.01083  3.44693
+node dummy UL5_head_hit
+  parent plv_ul5
+  position  0.00263  0.00714  0.70109
   orientation  0.00000  1.00000  0.00000  0.00000
+  scale 0.659
 endnode
 node emitter ChunkyWood71
-  parent plv_ul3
-  position  0.01319 -0.02534  0.45007
+  parent plv_ul5
+  position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   xsize 0.00
   ysize 0.00
@@ -764,21 +561,21 @@ node emitter ChunkyWood71
   inherit_local 0
   inherit_part 0
 endnode
-endmodelgeom plv_ul3
+endmodelgeom plv_ul5
 
 # ANIM ASCII
-newanim default plv_ul3
+newanim default plv_ul5
   length 0.0
   transtime 0.25
-  animroot plv_ul3
-  node dummy plv_ul3
+  animroot plv_ul5
+  node dummy plv_ul5
     parent null
   endnode
-  node dummy UL3_ground
-    parent plv_ul3
+  node dummy UL5_ground
+    parent plv_ul5
   endnode
   node trimesh damage08
-    parent plv_ul3
+    parent plv_ul5
     positionkey 1
        0.000  0.01475  0.01450  0.14024
     endlist
@@ -798,65 +595,50 @@ newanim default plv_ul3
   node trimesh Mesh2887
     parent damage08
   endnode
-  node trimesh Line1
-    parent damage08
-  endnode
-  node trimesh Line1849
-    parent damage08
-  endnode
   node trimesh Cylinder620
     parent damage08
   endnode
-  node trimesh Box1774
-    parent damage08
-  endnode
   node trimesh lowerlamp
-    parent damage08
-  endnode
-  node trimesh Line1850
-    parent damage08
-  endnode
-  node trimesh Line2
     parent damage08
   endnode
   node light Point
     parent damage08
   endnode
   node emitter fire!42
-    parent plv_ul3
+    parent plv_ul5
   endnode
   node emitter ChunkyWood70
-    parent plv_ul3
+    parent plv_ul5
   endnode
-  node dummy UL3_impact
-    parent plv_ul3
+  node dummy UL5_impact
+    parent plv_ul5
   endnode
-  node dummy UL3_hand
-    parent plv_ul3
+  node dummy UL5_hand
+    parent plv_ul5
   endnode
-  node dummy UL3_head
-    parent plv_ul3
+  node dummy UL5_head
+    parent plv_ul5
   endnode
-  node dummy UL3_head_hit
-    parent plv_ul3
+  node dummy UL5_head_hit
+    parent plv_ul5
   endnode
   node emitter ChunkyWood71
-    parent plv_ul3
+    parent plv_ul5
   endnode
-doneanim default plv_ul3
+doneanim default plv_ul5
 
-newanim damage plv_ul3
+newanim damage plv_ul5
   length 0.133
   transtime 0.0
-  animroot plv_ul3
-  node dummy plv_ul3
+  animroot plv_ul5
+  node dummy plv_ul5
     parent null
   endnode
-  node dummy UL3_ground
-    parent plv_ul3
+  node dummy UL5_ground
+    parent plv_ul5
   endnode
   node trimesh damage08
-    parent plv_ul3
+    parent plv_ul5
     positionkey 3
        0.000  0.01475  0.01450  0.14024
        0.033  0.01475  0.01450  0.16469
@@ -881,68 +663,53 @@ newanim damage plv_ul3
   node trimesh Mesh2887
     parent damage08
   endnode
-  node trimesh Line1
-    parent damage08
-  endnode
-  node trimesh Line1849
-    parent damage08
-  endnode
   node trimesh Cylinder620
     parent damage08
   endnode
-  node trimesh Box1774
-    parent damage08
-  endnode
   node trimesh lowerlamp
-    parent damage08
-  endnode
-  node trimesh Line1850
-    parent damage08
-  endnode
-  node trimesh Line2
     parent damage08
   endnode
   node light Point
     parent damage08
   endnode
   node emitter fire!42
-    parent plv_ul3
+    parent plv_ul5
   endnode
   node emitter ChunkyWood70
-    parent plv_ul3
+    parent plv_ul5
   endnode
-  node dummy UL3_impact
-    parent plv_ul3
+  node dummy UL5_impact
+    parent plv_ul5
   endnode
-  node dummy UL3_hand
-    parent plv_ul3
+  node dummy UL5_hand
+    parent plv_ul5
   endnode
-  node dummy UL3_head
-    parent plv_ul3
+  node dummy UL5_head
+    parent plv_ul5
   endnode
-  node dummy UL3_head_hit
-    parent plv_ul3
+  node dummy UL5_head_hit
+    parent plv_ul5
   endnode
   node emitter ChunkyWood71
-    parent plv_ul3
+    parent plv_ul5
   endnode
-doneanim damage plv_ul3
+doneanim damage plv_ul5
 
-newanim die plv_ul3
+newanim die plv_ul5
   length 0.167
   transtime 0.0
-  animroot plv_ul3
+  animroot plv_ul5
   event 0.0 detonate
   event 0.0 detonate
   event 0.0 detonate
-  node dummy plv_ul3
+  node dummy plv_ul5
     parent null
   endnode
-  node dummy UL3_ground
-    parent plv_ul3
+  node dummy UL5_ground
+    parent plv_ul5
   endnode
   node trimesh damage08
-    parent plv_ul3
+    parent plv_ul5
     positionkey 1
        0.000  0.01475  0.01450  0.14024
     endlist
@@ -962,65 +729,50 @@ newanim die plv_ul3
   node trimesh Mesh2887
     parent damage08
   endnode
-  node trimesh Line1
-    parent damage08
-  endnode
-  node trimesh Line1849
-    parent damage08
-  endnode
   node trimesh Cylinder620
     parent damage08
   endnode
-  node trimesh Box1774
-    parent damage08
-  endnode
   node trimesh lowerlamp
-    parent damage08
-  endnode
-  node trimesh Line1850
-    parent damage08
-  endnode
-  node trimesh Line2
     parent damage08
   endnode
   node light Point
     parent damage08
   endnode
   node emitter fire!42
-    parent plv_ul3
+    parent plv_ul5
   endnode
   node emitter ChunkyWood70
-    parent plv_ul3
+    parent plv_ul5
   endnode
-  node dummy UL3_impact
-    parent plv_ul3
+  node dummy UL5_impact
+    parent plv_ul5
   endnode
-  node dummy UL3_hand
-    parent plv_ul3
+  node dummy UL5_hand
+    parent plv_ul5
   endnode
-  node dummy UL3_head
-    parent plv_ul3
+  node dummy UL5_head
+    parent plv_ul5
   endnode
-  node dummy UL3_head_hit
-    parent plv_ul3
+  node dummy UL5_head_hit
+    parent plv_ul5
   endnode
   node emitter ChunkyWood71
-    parent plv_ul3
+    parent plv_ul5
   endnode
-doneanim die plv_ul3
+doneanim die plv_ul5
 
-newanim dead plv_ul3
+newanim dead plv_ul5
   length 0.033
   transtime 0.0
-  animroot plv_ul3
-  node dummy plv_ul3
+  animroot plv_ul5
+  node dummy plv_ul5
     parent null
   endnode
-  node dummy UL3_ground
-    parent plv_ul3
+  node dummy UL5_ground
+    parent plv_ul5
   endnode
   node trimesh damage08
-    parent plv_ul3
+    parent plv_ul5
     positionkey 2
        0.000  0.01475  0.01450 -3.63976
        0.033  0.01475  0.01450 -3.63976
@@ -1038,51 +790,36 @@ newanim dead plv_ul3
   node trimesh Mesh2887
     parent damage08
   endnode
-  node trimesh Line1
-    parent damage08
-  endnode
-  node trimesh Line1849
-    parent damage08
-  endnode
   node trimesh Cylinder620
     parent damage08
   endnode
-  node trimesh Box1774
-    parent damage08
-  endnode
   node trimesh lowerlamp
-    parent damage08
-  endnode
-  node trimesh Line1850
-    parent damage08
-  endnode
-  node trimesh Line2
     parent damage08
   endnode
   node light Point
     parent damage08
   endnode
   node emitter fire!42
-    parent plv_ul3
+    parent plv_ul5
   endnode
   node emitter ChunkyWood70
-    parent plv_ul3
+    parent plv_ul5
   endnode
-  node dummy UL3_impact
-    parent plv_ul3
+  node dummy UL5_impact
+    parent plv_ul5
   endnode
-  node dummy UL3_hand
-    parent plv_ul3
+  node dummy UL5_hand
+    parent plv_ul5
   endnode
-  node dummy UL3_head
-    parent plv_ul3
+  node dummy UL5_head
+    parent plv_ul5
   endnode
-  node dummy UL3_head_hit
-    parent plv_ul3
+  node dummy UL5_head_hit
+    parent plv_ul5
   endnode
   node emitter ChunkyWood71
-    parent plv_ul3
+    parent plv_ul5
   endnode
-doneanim dead plv_ul3
+doneanim dead plv_ul5
 
-donemodel plv_ul3
+donemodel plv_ul5
