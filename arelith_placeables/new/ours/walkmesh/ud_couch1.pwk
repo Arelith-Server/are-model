@@ -1,19 +1,25 @@
-node dummy couch1_PWK_use01
+# Exported from NWmax 0.8 b61 at 10/22/2019 8:46:32 PM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh ud_couch1_wg
   parent ud_couch1_pwk
-  position  0.00000 -0.29745  0.00000
-  orientation  0.00000  1.00000  0.00000  0.00000
-endnode
-node trimesh couch1_wg
-  parent ud_couch1_pwk
-  position  0.00000  0.00000  0.00000
-  orientation  0.00000  1.00000  0.00000  0.00000
-  wirecolor 1.00 1.00 1.00
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.0156863 0.0156863 
+  bitmap NULL
   verts 4
-     1.00001  0.76772  0.00000
-    -1.00001  0.76772  0.00000
-    -1.00001 -0.26239  0.00000
-     1.00001 -0.26239  0.00000
+    -0.983102 -0.285507 0.0
+    0.998101 -0.285507 0.0
+    -0.9831 0.752493 0.0
+    0.998101 0.752493 0.0
   faces 2
-    2 0 3 1  0 0 0 0
-    2 1 0 2  0 0 0 0
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+endnode
+node dummy uh1_pwk_use01
+  parent ud_couch1_pwk
+  position 0.00216712 -0.314978 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.694118 0.101961 
 endnode
