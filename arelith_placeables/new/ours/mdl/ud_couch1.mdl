@@ -1,15 +1,416 @@
-# Exported from Blender on Sunday, 2020-11-15
-filedependancy unknown
+# Exported from NWmax 0.8 b61 at 10/22/2019 8:46:32 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: ud_couch1
+#local file: Unknown
+filedependancy Unknown
 newmodel ud_couch1
-setsupermodel ud_couch1 null
-classification CHARACTER
+setsupermodel ud_couch1 NULL
+classification Character
 setanimationscale 1.0
+#NWmax GEOM  ASCII
 beginmodelgeom ud_couch1
 node dummy ud_couch1
-  parent null
+  parent NULL
+endnode
+node dummy uh1_hand
+  parent ud_couch1
+  position 0.00398437 -0.505195 0.934402
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy uh1_head
+  parent ud_couch1
+  position 0.00398437 0.0108252 0.930563
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy uh1_head_hit
+  parent ud_couch1
+  position 0.00398437 0.0108252 0.449084
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy uh1_impact
+  parent ud_couch1
+  position 0.00398437 0.011001 0.213608
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy uh1_ground
+  parent ud_couch1
+  position -0.00363281 0.0069873 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node emitter fire!115
+  parent ud_couch1
+  position 0.0272229 0.00260101 0.435227
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.443137 0.392157 0.254902 
+  colorEnd 0.639216 0.607843 0.482353 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood186
+  parent ud_couch1
+  position 0.0272229 0.00260101 0.615493
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.482353 0.435294 0.317647 
+  colorEnd 0.584314 0.533333 0.407843 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName plc_Chunk_W01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood187
+  parent ud_couch1
+  position 0.0272229 0.0035849 0.509271
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 2
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName plc_Chunk_W02
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node trimesh damage73
+  parent ud_couch1
+  position 0.0287878 -0.0179642 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0705882 0.0 1.0 
+  diffuse 1.0 0.501961 0.643137 
+  specular 0.0 0.9 0.105882 
+  shininess 24
+  center 0.0 0.0 25.0 
+  bitmap NULL
+  verts 12
+    -0.195415 -0.186216 0.0
+    -0.195415 0.186216 0.0
+    0.195415 0.186216 0.0
+    0.195415 -0.186216 0.0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 0.0990513 0.25
+  faces 20
+    0 1 2  1  0 0 0  2
+    2 3 0  1  0 0 0  2
+    4 5 6  1  0 0 0  1
+    6 7 4  1  0 0 0  1
+    0 3 8  2  0 0 0  5
+    8 9 0  2  0 0 0  5
+    9 8 5  2  0 0 0  5
+    5 4 9  2  0 0 0  5
+    3 2 10  4  0 0 0  4
+    10 8 3  4  0 0 0  4
+    8 10 6  4  0 0 0  4
+    6 5 8  4  0 0 0  4
+    2 1 11  2  0 0 0  6
+    11 10 2  2  0 0 0  6
+    10 11 7  2  0 0 0  6
+    7 6 10  2  0 0 0  6
+    1 0 9  4  0 0 0  3
+    9 11 1  4  0 0 0  3
+    11 9 4  4  0 0 0  3
+    4 7 11  4  0 0 0  3
+endnode
+node trimesh Mesh143
+  parent damage73
+  position -0.00735  0.18668  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap bat_udcouch1
+  shininess 1
+  verts 24
+    -0.70389 -0.42204  0.52402
+     0.71858 -0.42204  0.52402
+     0.71858  0.34542  0.53000
+    -0.70389  0.34542  0.53000
+    -0.78266 -0.46668  0.43500
+     0.79734 -0.46668  0.43500
+     0.79734  0.38332  0.50000
+    -0.78266  0.38332  0.50000
+    -0.74504  0.36438  0.51719
+     0.75973  0.36438  0.51719
+     0.86449  0.34560  0.70766
+    -0.84980  0.34560  0.70766
+     0.76925  0.42356  1.08047
+    -0.84980  0.39844  0.96474
+     0.86449  0.39913  0.96792
+    -0.75456  0.42356  1.08047
+    -0.78265  0.38332  0.50000
+     0.79734  0.38332  0.50000
+     0.90734  0.36361  0.70000
+    -0.89266  0.36361  0.70000
+    -0.89265  0.41909  0.96993
+     0.90735  0.41981  0.97327
+     0.80734  0.44547  1.09145
+    -0.79265  0.44547  1.09145
+  tverts 32
+    -1.0217  0.0567  0
+     2.0485  0.0745  0
+     2.0400  1.5403  0
+    -1.0217  1.5403  0
+    -1.1809 -0.1487  0
+     2.2197 -0.1190  0
+     2.2038  1.7104  0
+    -1.1968  1.6807  0
+     1.9907 -0.4307  0
+    -1.0434 -0.4307  0
+    -1.2546  0.1134  0
+     2.2019  0.1134  0
+    -1.0626  1.1782  0
+     2.2019  0.8476  0
+    -1.2546  0.8567  0
+     2.0099  1.1782  0
+    -1.1192  0.3300  0
+     2.0666  0.3300  0
+     1.9907  0.2759  0
+    -1.0434  0.2759  0
+    -1.1192 -0.4798  0
+    -1.3410  0.0915  0
+     2.2884  0.0915  0
+     2.0666 -0.4798  0
+     2.2884  0.8624  0
+    -1.3410  0.8720  0
+    -1.1394  0.5075  0
+     2.0867  0.5075  0
+     2.0099  0.4449  0
+    -1.0626  0.4449  0
+     2.0867  1.2095  0
+    -1.1394  1.2095  0
+  faces 32
+     0  1  2  1   0  1  2 0
+     2  3  0  1   2  3  0 0
+     4  5  1  1   4  5  1 0
+     1  0  4  1   1  0  4 0
+     5  6  2  1   5  6  2 0
+     2  1  5  1   2  1  5 0
+     7  4  0  1   7  4  0 0
+     0  3  7  1   0  3  7 0
+     7  3  6  2   7  3  6 0
+     3  2  6  2   3  2  6 0
+     8  9 10  3   8  9 10 0
+    10 11  8  3  10 11  8 0
+    12 13 11  3  12 13 11 0
+    11 10 14  3  11 10 14 0
+    12 15 13  3  12 15 13 0
+    11 14 12  3  11 14 12 0
+    16 17  9  4  16 17 18 0
+     9  8 16  4  18 19 16 0
+    17 18 10  5  20 21 10 0
+    10  9 17  5  10  9 20 0
+    19 16  8  6  22 23  8 0
+     8 11 19  6   8 11 22 0
+    20 19 11  7  24 22 11 0
+    11 13 20  7  11 13 24 0
+    18 21 14  8  21 25 14 0
+    14 10 18  9  14 10 21 0
+    22 23 15 10  26 27 28 0
+    15 12 22 10  28 29 26 0
+    23 20 13 11  30 24 13 0
+    13 15 23 11  13 15 30 0
+    21 22 12 12  25 31 12 0
+    12 14 21 12  12 14 25 0
 endnode
 node trimesh Box121
-  parent ud_couch1
+  parent damage73
   position -0.00735  0.18668  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -312,174 +713,278 @@ node trimesh Box121
     53 55 30  1  109 133  51 0
     54 53 12  2  110 134 111 0
 endnode
-node trimesh Object41
-  parent ud_couch1
-  position -0.00735  0.18668  0.00000
-  orientation  0.00000  1.00000  0.00000  0.00000
-  wirecolor 1.00 1.00 1.00
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
-  specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
-  bitmap bat_udcouch1
+node trimesh fix01
+  parent damage73
+  position -0.0361328 0.20464 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.54902 0.666667 0.666667 
+  diffuse 0.54902 0.666667 0.666667 
+  specular 0.0 0.0 0.0 
   shininess 1
-  verts 24
-    -0.70389 -0.42204  0.52402
-     0.71858 -0.42204  0.52402
-     0.71858  0.34542  0.53000
-    -0.70389  0.34542  0.53000
-    -0.78266 -0.46668  0.43500
-     0.79734 -0.46668  0.43500
-     0.79734  0.38332  0.50000
-    -0.78266  0.38332  0.50000
-    -0.74504  0.36438  0.51719
-     0.75973  0.36438  0.51719
-     0.86449  0.34560  0.70766
-    -0.84980  0.34560  0.70766
-     0.76925  0.42356  1.08047
-    -0.84980  0.39844  0.96474
-     0.86449  0.39913  0.96792
-    -0.75456  0.42356  1.08047
-    -0.78265  0.38332  0.50000
-     0.79734  0.38332  0.50000
-     0.90734  0.36361  0.70000
-    -0.89266  0.36361  0.70000
-    -0.89265  0.41909  0.96993
-     0.90735  0.41981  0.97327
-     0.80734  0.44547  1.09145
-    -0.79265  0.44547  1.09145
-  tverts 32
-    -1.0217  0.0567  0
-     2.0485  0.0745  0
-     2.0400  1.5403  0
-    -1.0217  1.5403  0
-    -1.1809 -0.1487  0
-     2.2197 -0.1190  0
-     2.2038  1.7104  0
-    -1.1968  1.6807  0
-     1.9907 -0.4307  0
-    -1.0434 -0.4307  0
-    -1.2546  0.1134  0
-     2.2019  0.1134  0
-    -1.0626  1.1782  0
-     2.2019  0.8476  0
-    -1.2546  0.8567  0
-     2.0099  1.1782  0
-    -1.1192  0.3300  0
-     2.0666  0.3300  0
-     1.9907  0.2759  0
-    -1.0434  0.2759  0
-    -1.1192 -0.4798  0
-    -1.3410  0.0915  0
-     2.2884  0.0915  0
-     2.0666 -0.4798  0
-     2.2884  0.8624  0
-    -1.3410  0.8720  0
-    -1.1394  0.5075  0
-     2.0867  0.5075  0
-     2.0099  0.4449  0
-    -1.0626  0.4449  0
-     2.0867  1.2095  0
-    -1.1394  1.2095  0
-  faces 32
-     0  1  2  1   0  1  2 0
-     2  3  0  1   2  3  0 0
-     4  5  1  1   4  5  1 0
-     1  0  4  1   1  0  4 0
-     5  6  2  1   5  6  2 0
-     2  1  5  1   2  1  5 0
-     7  4  0  1   7  4  0 0
-     0  3  7  1   0  3  7 0
-     7  3  6  2   7  3  6 0
-     3  2  6  2   3  2  6 0
-     8  9 10  3   8  9 10 0
-    10 11  8  3  10 11  8 0
-    12 13 11  3  12 13 11 0
-    11 10 14  3  11 10 14 0
-    12 15 13  3  12 15 13 0
-    11 14 12  3  11 14 12 0
-    16 17  9  4  16 17 18 0
-     9  8 16  4  18 19 16 0
-    17 18 10  5  20 21 10 0
-    10  9 17  5  10  9 20 0
-    19 16  8  6  22 23  8 0
-     8 11 19  6   8 11 22 0
-    20 19 11  7  24 22 11 0
-    11 13 20  7  11 13 24 0
-    18 21 14  8  21 25 14 0
-    14 10 18  9  14 10 21 0
-    22 23 15 10  26 27 28 0
-    15 12 22 10  28 29 26 0
-    23 20 13 11  30 24 13 0
-    13 15 23 11  13 15 30 0
-    21 22 12 12  25 31 12 0
-    12 14 21 12  12 14 25 0
-endnode
-node dummy couch1_ground
-  parent ud_couch1
-  position  0.00000  0.41000  0.00000
-  orientation  0.00000  1.00000  0.00000  0.00000
-endnode
-node dummy couch1_hand
-  parent ud_couch1
-  position  0.00000  0.77000  0.77000
-  orientation  0.00000  1.00000  0.00000  0.00000
-endnode
-node dummy couch1_head
-  parent ud_couch1
-  position  0.00000  0.41000  1.22000
-  orientation  0.00000  1.00000  0.00000  0.00000
-endnode
-node dummy couch1_head_hit
-  parent ud_couch1
-  position  0.00000  0.41000  1.42000
-  orientation  0.00000  1.00000  0.00000  0.00000
-endnode
-node dummy couch1_impact
-  parent ud_couch1
-  position  0.00000  0.41000  0.77000
-  orientation  0.00000  1.00000  0.00000  0.00000
+  center 0.734348 -48.1676 41.0 
+  bitmap plx_wood01
+  verts 4
+    -0.892655 -0.496676 0.385
+    0.907342 -0.495152 0.385492
+    0.797345 -0.466676 0.435
+    -0.782655 -0.466676 0.435
+  faces 2
+    0 1 2  1  0 1 2  5
+    2 3 0  1  2 3 0  5
+  tverts 4
+    0.0007492 0.45594 0
+    1.49925 0.45635 0
+    1.40767 0.497565 0
+    0.0923243 0.497565 0
 endnode
 endmodelgeom ud_couch1
-
-# ANIM ASCII
+#NWmax ANIM ASCII
+newanim damage ud_couch1
+  length 0.133333
+  transtime 0.0
+  animroot ud_couch1
+    node dummy ud_couch1
+        parent NULL
+    endnode
+    node dummy uh1_hand
+        parent ud_couch1
+    endnode
+    node dummy uh1_head
+        parent ud_couch1
+    endnode
+    node dummy uh1_head_hit
+        parent ud_couch1
+    endnode
+    node dummy uh1_impact
+        parent ud_couch1
+    endnode
+    node dummy uh1_ground
+        parent ud_couch1
+    endnode
+    node emitter fire!115
+        parent ud_couch1
+    endnode
+    node emitter ChunkyWood186
+        parent ud_couch1
+    endnode
+    node emitter ChunkyWood187
+        parent ud_couch1
+    endnode
+    node trimesh damage73
+        parent ud_couch1
+        positionkey
+            0.0 0.0287878 -0.0179642 0.0
+            0.0333333 0.0287878 -0.0179642 0.0244581
+            0.133333 0.0287878 -0.0179642 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.371336 -0.928463 0.0081026 -0.0469939
+            0.1 -0.59995 0.799969 0.0104722 -0.0436324
+            0.133333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Mesh143
+        parent damage73
+    endnode
+    node trimesh Box121
+        parent damage73
+    endnode
+    node trimesh fix01
+        parent damage73
+    endnode
+    node dummy ud_couch1_pwk
+        parent ud_couch1
+    endnode
+    node trimesh ud_couch1_wg
+        parent ud_couch1_pwk
+    endnode
+    node dummy uh1_pwk_use01
+        parent ud_couch1_pwk
+    endnode
+doneanim damage ud_couch1
+#NWmax ANIM ASCII
+newanim die ud_couch1
+  length 0.166667
+  transtime 0.0
+  animroot ud_couch1
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+    node dummy ud_couch1
+        parent NULL
+    endnode
+    node dummy uh1_hand
+        parent ud_couch1
+    endnode
+    node dummy uh1_head
+        parent ud_couch1
+    endnode
+    node dummy uh1_head_hit
+        parent ud_couch1
+    endnode
+    node dummy uh1_impact
+        parent ud_couch1
+    endnode
+    node dummy uh1_ground
+        parent ud_couch1
+    endnode
+    node emitter fire!115
+        parent ud_couch1
+    endnode
+    node emitter ChunkyWood186
+        parent ud_couch1
+    endnode
+    node emitter ChunkyWood187
+        parent ud_couch1
+    endnode
+    node trimesh damage73
+        parent ud_couch1
+        positionkey
+            0.0 0.0287878 -0.0179642 0.0
+            0.166667 0.0287878 -0.0179642 -6.95145
+        endlist
+    endnode
+    node trimesh Mesh143
+        parent damage73
+    endnode
+    node trimesh Box121
+        parent damage73
+    endnode
+    node trimesh fix01
+        parent damage73
+    endnode
+    node dummy ud_couch1_pwk
+        parent ud_couch1
+    endnode
+    node trimesh ud_couch1_wg
+        parent ud_couch1_pwk
+    endnode
+    node dummy uh1_pwk_use01
+        parent ud_couch1_pwk
+    endnode
+doneanim die ud_couch1
+#NWmax ANIM ASCII
+newanim dead ud_couch1
+  length 0.0333333
+  transtime 0.0
+  animroot ud_couch1
+    node dummy ud_couch1
+        parent NULL
+    endnode
+    node dummy uh1_hand
+        parent ud_couch1
+    endnode
+    node dummy uh1_head
+        parent ud_couch1
+    endnode
+    node dummy uh1_head_hit
+        parent ud_couch1
+    endnode
+    node dummy uh1_impact
+        parent ud_couch1
+    endnode
+    node dummy uh1_ground
+        parent ud_couch1
+    endnode
+    node emitter fire!115
+        parent ud_couch1
+    endnode
+    node emitter ChunkyWood186
+        parent ud_couch1
+    endnode
+    node emitter ChunkyWood187
+        parent ud_couch1
+    endnode
+    node trimesh damage73
+        parent ud_couch1
+        positionkey
+            0.0 0.0287878 -0.0179642 -6.95145
+            0.0333333 0.0287878 -0.0179642 -6.95145
+        endlist
+    endnode
+    node trimesh Mesh143
+        parent damage73
+    endnode
+    node trimesh Box121
+        parent damage73
+    endnode
+    node trimesh fix01
+        parent damage73
+    endnode
+    node dummy ud_couch1_pwk
+        parent ud_couch1
+    endnode
+    node trimesh ud_couch1_wg
+        parent ud_couch1_pwk
+    endnode
+    node dummy uh1_pwk_use01
+        parent ud_couch1_pwk
+    endnode
+doneanim dead ud_couch1
+#NWmax ANIM ASCII
 newanim default ud_couch1
   length 0.0
   transtime 0.25
   animroot ud_couch1
-  node dummy ud_couch1
-    parent null
-  endnode
-  node trimesh Box121
-    parent ud_couch1
-  endnode
-  node trimesh Object41
-    parent ud_couch1
-  endnode
-  node dummy couch1_ground
-    parent ud_couch1
-  endnode
-  node dummy couch1_hand
-    parent ud_couch1
-  endnode
-  node dummy couch1_head
-    parent ud_couch1
-  endnode
-  node dummy couch1_head_hit
-    parent ud_couch1
-  endnode
-  node dummy couch1_impact
-    parent ud_couch1
-  endnode
-  node pwk ud_couch1_pwk
-    parent ud_couch1
-  endnode
-  node dummy couch1_PWK_use01
-    parent ud_couch1_pwk
-  endnode
-  node trimesh couch1_wg
-    parent ud_couch1_pwk
-  endnode
+    node dummy ud_couch1
+        parent NULL
+    endnode
+    node dummy uh1_hand
+        parent ud_couch1
+    endnode
+    node dummy uh1_head
+        parent ud_couch1
+    endnode
+    node dummy uh1_head_hit
+        parent ud_couch1
+    endnode
+    node dummy uh1_impact
+        parent ud_couch1
+    endnode
+    node dummy uh1_ground
+        parent ud_couch1
+    endnode
+    node emitter fire!115
+        parent ud_couch1
+    endnode
+    node emitter ChunkyWood186
+        parent ud_couch1
+    endnode
+    node emitter ChunkyWood187
+        parent ud_couch1
+    endnode
+    node trimesh damage73
+        parent ud_couch1
+    endnode
+    node trimesh Mesh143
+        parent damage73
+    endnode
+    node trimesh Box121
+        parent damage73
+    endnode
+    node trimesh fix01
+        parent damage73
+    endnode
+    node dummy ud_couch1_pwk
+        parent ud_couch1
+    endnode
+    node trimesh ud_couch1_wg
+        parent ud_couch1_pwk
+    endnode
+    node dummy uh1_pwk_use01
+        parent ud_couch1_pwk
+    endnode
 doneanim default ud_couch1
-
 donemodel ud_couch1
