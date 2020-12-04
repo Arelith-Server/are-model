@@ -969,9 +969,15 @@ newanim default ud_faebrazier
   endnode
   node emitter Flame01
     parent Dummy01
-    birthrate 30
-    velocity 3
-    randvel 0.4
+    birthratekey 1
+       0.000 30
+    endlist
+    velocitykey 1
+       0.000 0.30
+    endlist
+    randvelkey 1
+       0.000 0.40
+    endlist
   endnode
   node emitter sparks01
     parent FaerieFire
