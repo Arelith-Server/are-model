@@ -1,5 +1,5 @@
-# Exported from Blender on Wednesday, 2020-11-11
-filedependancy UDBuild2_Interior2.blend
+# Exported from Blender on Tuesday, 2020-12-15
+filedependancy unknown
 newmodel tid01_o03_01
 setsupermodel tid01_o03_01 null
 classification TILE
@@ -118,6 +118,7 @@ node light tid01_o03_01ml1
   radius 14.0
   multiplier 1.0
   color 0.00 0.00 0.00
+  flareradius 1.0
 endnode
 node light tid01_o03_01ml2
   parent tid01_o03_01
@@ -132,6 +133,7 @@ node light tid01_o03_01ml2
   radius 5.0
   multiplier 1.0
   color 0.00 0.00 0.00
+  flareradius 1.0
 endnode
 node trimesh Mesh359
   parent tid01_o03_01
@@ -448,7 +450,7 @@ node trimesh Object142
      5  9  8 2   4 10  5 0
     10 11  3 1   9 11  3 0
 endnode
-node trimesh Object142.001
+node trimesh Object143
   parent tid01_o03_01
   position  0.00000 -5.24000  2.50000
   orientation  0.00000  1.00000  0.00000  0.00000
@@ -487,7 +489,7 @@ node trimesh Object142.001
     6 7 5 1  6 7 5 0
     5 4 6 1  5 4 6 0
 endnode
-node trimesh Mesh323.002
+node trimesh Mesh323
   parent tid01_o03_01
   position  0.04667  9.92498  0.00000
   orientation  0.00000  0.00000 -1.00000  1.57080
@@ -514,7 +516,7 @@ node trimesh Mesh323.002
     2 3 0 1  0 1 2 0
     0 1 2 1  2 3 0 0
 endnode
-node trimesh Mesh323a.002
+node trimesh Mesh323a
   parent tid01_o03_01
   position  0.04667  9.92498  0.00000
   orientation  0.00000  0.00000 -1.00000  1.57080
@@ -539,7 +541,7 @@ node trimesh Mesh323a.002
     2 3 1 1  0 1 1 0
     1 0 2 1  1 0 0 0
 endnode
-node trimesh Mesh236.002
+node trimesh Mesh236a
   parent tid01_o03_01
   position -1.31334 -4.97502  1.65000
   orientation  0.00000  0.00000 -1.00000  1.57080
@@ -634,7 +636,7 @@ node trimesh Mesh236.002
      0 12 18  6  30 31 32 0
     18 17  0  6  32 33 30 0
 endnode
-node trimesh Mesh244.002
+node trimesh Mesh244a
   parent tid01_o03_01
   position  0.04667  9.92498  0.00000
   orientation  0.00000  0.00000 -1.00000  1.57080
@@ -674,7 +676,7 @@ node trimesh Mesh244.002
     4 5 6 2   6  7  8 0
     4 6 7 2   9 10  3 0
 endnode
-node trimesh Mesh681.002
+node trimesh Mesh681
   parent tid01_o03_01
   position  0.04666 -4.22502  3.15000
   orientation  0.00000  0.00000 -1.00000  1.57080
@@ -719,7 +721,7 @@ node trimesh Mesh681.002
     5 0 3 5   9  5 10 0
     3 6 5 5  10 11  9 0
 endnode
-node trimesh Mesh678.002
+node trimesh Mesh678
   parent tid01_o03_01
   position  1.27666 -4.97502  1.65000
   orientation  0.00000  0.00000 -1.00000  1.57080

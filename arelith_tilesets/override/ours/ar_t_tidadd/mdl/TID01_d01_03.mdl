@@ -1,15 +1,15 @@
-# Exported from Blender on Saturday, 2020-11-14
+# Exported from Blender on Tuesday, 2020-12-15
 filedependancy unknown
-newmodel TID01_d01_03
-setsupermodel TID01_d01_03 null
+newmodel tid01_d01_03
+setsupermodel tid01_d01_03 null
 classification TILE
 setanimationscale 1.0
-beginmodelgeom TID01_d01_03
-node dummy TID01_d01_03
+beginmodelgeom tid01_d01_03
+node dummy tid01_d01_03
   parent null
 endnode
 node aabb Mesh1000
-  parent TID01_d01_03
+  parent tid01_d01_03
   position  0.00000  0.00000  1.50000
   orientation  0.00000  1.00000  0.00000  0.00000
   verts 16
@@ -29,7 +29,7 @@ node aabb Mesh1000
      5.00000 -5.00000  1.50000
      5.00000  5.00000  1.50000
     -5.00000  5.00000  1.50000
-  faces 25
+  faces 22
      0  6  3 0  0 0 0 4
      3  6  1 0  0 0 0 4
      6  0  4 0  0 0 0 4
@@ -39,20 +39,17 @@ node aabb Mesh1000
      9  7  2 0  0 0 0 7
      2  3  9 0  0 0 0 7
     10 11  4 0  0 0 0 7
-     4  5 10 0  0 0 0 7
-    10 10  5 0  0 0 0 7
-     5  5 10 0  0 0 0 7
+    11 10 14 0  0 0 0 7
+    10  4  5 0  0 0 0 7
+     5  8 10 0  0 0 0 7
     11 12  6 0  0 0 0 7
      6  4 11 0  0 0 0 7
-     8 10  5 0  0 0 0 7
+    10  8 14 0  0 0 0 7
     13 14  8 0  0 0 0 7
      8  7 13 0  0 0 0 7
      7  9 13 0  0 0 0 7
     14 15 11 0  0 0 0 7
-    11 10 14 0  0 0 0 7
-    10 10 14 0  0 0 0 7
     12 11 15 0  0 0 0 7
-    10  8 14 0  0 0 0 7
      5  0  8 0  0 0 0 7
      5  4  0 0  0 0 0 4
   aabb -5.00000 -5.00000 -1.50000   5.00000  5.00000  1.50000  -1
@@ -67,20 +64,16 @@ node aabb Mesh1000
        -5.00000  1.22000 -1.50000  -1.56000  2.36000  1.50000  -1
        -5.00000  1.50000 -1.50000  -4.58000  2.36000  1.50000  12
        -4.58000  1.22000 -1.50000  -1.56000  2.36000  1.50000   8
-       -5.00000  1.50000  1.50000  -4.58000  5.00000  1.50000  21
+       -5.00000  1.50000  1.50000  -4.58000  5.00000  1.50000  19
        -5.00000 -5.00000 -1.50000   5.00000  5.00000  1.50000  -1
-       -4.53753 -1.75761 -1.50000   0.98282  2.30379  1.50000  -1
-       -4.53753  0.98285 -1.50000  -1.56000  2.30379  1.50000   9
-       -4.53753 -1.75761 -1.50000   0.98282  2.30379  1.50000  -1
-       -4.53753 -1.75761 -1.50000   0.98282  2.30379 -1.50000  24
-       -1.75764  0.98285 -1.50000  -1.56000  1.22000  1.50000  -1
-       -1.75764  0.98285 -1.50000  -1.56000  1.22000  1.50000  11
-       -1.75764  0.98285 -1.50000  -1.56000  1.22000  1.50000  10
-       -5.00000 -5.00000 -1.50000   5.00000  5.00000  1.50000  -1
+       -5.00000 -1.75761 -1.50000   5.00000  5.00000  1.50000  -1
+       -4.53753  0.98285 -1.50000  -1.56000  2.30379  1.50000  10
+       -5.00000 -1.75761 -1.50000   5.00000  5.00000  1.50000  -1
+       -4.53753 -1.75761 -1.50000   0.98282  2.30379 -1.50000  21
        -5.00000  2.36000  1.50000   5.00000  5.00000  1.50000  18
        -5.00000 -5.00000 -1.50000   1.50000  1.50000  1.50000  -1
        -5.00000 -5.00000 -1.50000   1.50000  1.50000 -1.50000   0
-       -1.75764 -1.56000 -1.50000   1.22000  1.22000  1.50000  14
+       -1.75764 -1.56000 -1.50000   1.22000  1.22000  1.50000  11
        -4.58000 -5.00000 -1.50000   5.00000  5.00000  1.50000  -1
         0.98282 -5.00000 -1.50000   5.00000 -1.56000  1.50000  -1
         0.98282 -5.00000 -1.50000   2.35000 -1.56000  1.50000  -1
@@ -97,16 +90,14 @@ node aabb Mesh1000
         1.50000 -5.00000  1.50000   5.00000 -4.58000  1.50000  17
        -4.58000 -5.00000 -1.50000   5.00000  5.00000  1.50000  -1
        -1.75764 -5.00000 -1.50000   5.00000  5.00000  1.50000  -1
-       -1.75764 -1.75761 -1.50000   1.22000  0.98285  1.50000  23
+       -1.75764 -1.75761 -1.50000   1.22000  0.98285  1.50000  20
         1.22000 -5.00000  1.50000   5.00000  5.00000  1.50000  15
        -4.58000 -1.56000  1.50000   5.00000  5.00000  1.50000  -1
-       -4.58000  1.22000  1.50000   5.00000  5.00000  1.50000  19
-       -1.56000 -1.56000  1.50000   5.00000  5.00000  1.50000  -1
-       -1.56000  1.22000  1.50000   5.00000  5.00000  1.50000  20
-       -1.56000 -1.56000  1.50000   5.00000  5.00000  1.50000  22
+       -4.58000  1.22000  1.50000   5.00000  5.00000  1.50000   9
+       -1.56000 -1.56000  1.50000   5.00000  5.00000  1.50000  14
 endnode
-node light TID01_d01_03ml1
-  parent TID01_d01_03
+node light tid01_d01_03ml1
+  parent tid01_d01_03
   position  0.00000  0.00000  5.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   ambientonly 0
@@ -120,8 +111,8 @@ node light TID01_d01_03ml1
   color 0.00 0.00 0.00
   flareradius 1.0
 endnode
-node light TID01_d01_03ml2
-  parent TID01_d01_03
+node light tid01_d01_03ml2
+  parent tid01_d01_03
   position -0.54970 -0.65726  2.50000
   orientation  0.00000  1.00000  0.00000  0.00000
   ambientonly 0
@@ -136,7 +127,7 @@ node light TID01_d01_03ml2
   flareradius 1.0
 endnode
 node trimesh Line112
-  parent TID01_d01_03
+  parent tid01_d01_03
   position  1.12000  1.20000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -181,7 +172,7 @@ node trimesh Line112
      9  8  7 2   9  8  7 0
 endnode
 node trimesh Mesh990
-  parent TID01_d01_03
+  parent tid01_d01_03
   position  0.00000  0.00000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -226,7 +217,7 @@ node trimesh Mesh990
      3  4  9 1   3  4  9 0
 endnode
 node trimesh Object130
-  parent TID01_d01_03
+  parent tid01_d01_03
   position  1.23000 -13.30000  4.24000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -343,7 +334,7 @@ node trimesh Object130
     32 25 31 2  32 25 31 0
 endnode
 node trimesh Mesh996
-  parent TID01_d01_03
+  parent tid01_d01_03
   position -4.96000  1.82000  1.93000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -434,7 +425,7 @@ node trimesh Mesh996
     20 19 10 1  30 31 32 0
 endnode
 node trimesh Box495
-  parent TID01_d01_03
+  parent tid01_d01_03
   position  1.83000 -4.79000  1.62000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -525,7 +516,7 @@ node trimesh Box495
     12 19 10 3  30 31 32 0
 endnode
 node trimesh Mesh999
-  parent TID01_d01_03
+  parent tid01_d01_03
   position  0.00000  10.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -552,7 +543,7 @@ node trimesh Mesh999
     3 2 1 1  3 2 1 0
 endnode
 node trimesh Mesh997
-  parent TID01_d01_03
+  parent tid01_d01_03
   position -4.79000  2.21000  2.84000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -683,7 +674,7 @@ node trimesh Mesh997
     18 27  0 27  21 51 19 0
 endnode
 node trimesh Object78
-  parent TID01_d01_03
+  parent tid01_d01_03
   position  4.80000  4.85000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -800,7 +791,7 @@ node trimesh Object78
     10 13 12 5  41 38 45 0
 endnode
 node trimesh Mesh994
-  parent TID01_d01_03
+  parent tid01_d01_03
   position  0.00000  10.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -897,7 +888,7 @@ node trimesh Mesh994
     15  9 21 1  19 11 30 0
 endnode
 node trimesh Mesh998
-  parent TID01_d01_03
+  parent tid01_d01_03
   position  2.20000 -4.79000  2.84000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1028,7 +1019,7 @@ node trimesh Mesh998
     20 27  3 26  51 50 49 0
 endnode
 node trimesh Mesh210
-  parent TID01_d01_03
+  parent tid01_d01_03
   position  0.26000  0.25000  0.16000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1061,7 +1052,7 @@ node trimesh Mesh210
     4 5 3 2  4 5 3 0
 endnode
 node trimesh Mesh202
-  parent TID01_d01_03
+  parent tid01_d01_03
   position  0.96000 -0.95000  3.63000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1292,7 +1283,7 @@ node trimesh Mesh202
     39 38 47 4  79 78 87 0
 endnode
 node trimesh Line31
-  parent TID01_d01_03
+  parent tid01_d01_03
   position  1.06000 -0.86000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1320,7 +1311,7 @@ node trimesh Line31
     4 3 5 1  0 0 0 0
 endnode
 node trimesh Line29
-  parent TID01_d01_03
+  parent tid01_d01_03
   position -0.86000  1.06000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1347,5 +1338,5 @@ node trimesh Line29
     0 3 4 1  0 0 0 0
     5 0 4 1  0 0 0 0
 endnode
-endmodelgeom TID01_d01_03
-donemodel TID01_d01_03
+endmodelgeom tid01_d01_03
+donemodel tid01_d01_03
