@@ -1,15 +1,15 @@
-# Exported from Blender on Saturday, 2020-11-07
+# Exported from Blender on Tuesday, 2020-12-15
 filedependancy unknown
-newmodel TID01_f02_02
-setsupermodel TID01_f02_02 null
+newmodel tid01_f02_02
+setsupermodel tid01_f02_02 null
 classification TILE
 setanimationscale 1.0
-beginmodelgeom TID01_f02_02
-node dummy TID01_f02_02
+beginmodelgeom tid01_f02_02
+node dummy tid01_f02_02
   parent null
 endnode
 node aabb Box507
-  parent TID01_f02_02
+  parent tid01_f02_02
   position  0.00000  0.00000  1.50000
   orientation  0.00000  1.00000  0.00000  0.00000
   verts 14
@@ -82,8 +82,8 @@ node aabb Box507
         2.95000 -5.00000  1.50000   5.00000  5.00000  1.50000  16
         1.85000  1.30000 -1.50000   2.95000  2.19000 -1.50000   6
 endnode
-node light TID01_f02_02ml1
-  parent TID01_f02_02
+node light tid01_f02_02ml1
+  parent tid01_f02_02
   position  0.00000  0.00000  5.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   ambientonly 0
@@ -95,9 +95,10 @@ node light TID01_f02_02ml1
   radius 14.0
   multiplier 1.0
   color 0.00 0.00 0.00
+  flareradius 1.0
 endnode
-node light TID01_f02_02ml2
-  parent TID01_f02_02
+node light tid01_f02_02ml2
+  parent tid01_f02_02
   position  1.39600  3.18849  2.50000
   orientation  0.00000  1.00000  0.00000  0.00000
   ambientonly 0
@@ -109,9 +110,10 @@ node light TID01_f02_02ml2
   radius 5.0
   multiplier 1.0
   color 0.00 0.00 0.00
+  flareradius 1.0
 endnode
 node trimesh Mesh1302
-  parent TID01_f02_02
+  parent tid01_f02_02
   position -3.49000 -133.48000  1.64000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -204,7 +206,7 @@ node trimesh Mesh1302
     10  8 17 1  33 29 32 0
 endnode
 node trimesh Sphere23
-  parent TID01_f02_02
+  parent tid01_f02_02
   position -3.49000 -133.48000  1.64000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -249,7 +251,7 @@ node trimesh Sphere23
     7 5 6 1  11  8  9 0
 endnode
 node trimesh Mesh726
-  parent TID01_f02_02
+  parent tid01_f02_02
   position  4.29000 -1.66000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -438,7 +440,7 @@ node trimesh Mesh726
     18 16 23 2  56 57 58 0
 endnode
 node trimesh Box07
-  parent TID01_f02_02
+  parent tid01_f02_02
   position  4.29000  1.79000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -626,7 +628,7 @@ node trimesh Box07
     18 16 23 2  55 56 57 0
 endnode
 node trimesh Mesh219
-  parent TID01_f02_02
+  parent tid01_f02_02
   position  4.75000  0.00000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -674,7 +676,7 @@ node trimesh Mesh219
      7  9 10 1   7  9 10 0
 endnode
 node trimesh Object95
-  parent TID01_f02_02
+  parent tid01_f02_02
   position  5.25000  0.00000 -1.28000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -864,7 +866,7 @@ node trimesh Object95
     18 48 43 28  58 65 59 0
 endnode
 node trimesh Mesh211
-  parent TID01_f02_02
+  parent tid01_f02_02
   position  5.49000  0.00000  2.58000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1126,7 +1128,7 @@ node trimesh Mesh211
     65  5 68 41  65 67 72 0
 endnode
 node trimesh Mesh213
-  parent TID01_f02_02
+  parent tid01_f02_02
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1186,7 +1188,7 @@ node trimesh Mesh213
      6 12 13 1   6 12 13 0
 endnode
 node trimesh Object96
-  parent TID01_f02_02
+  parent tid01_f02_02
   position  3.80000  0.00000  1.72000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1365,7 +1367,7 @@ node trimesh Object96
     48 50 23 2  48 50 23 0
 endnode
 node trimesh Box573
-  parent TID01_f02_02
+  parent tid01_f02_02
   position  3.71000  0.03000  0.53000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1453,7 +1455,7 @@ node trimesh Box573
     24 21 26 3  12  3 16 0
 endnode
 node trimesh Box06
-  parent TID01_f02_02
+  parent tid01_f02_02
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1515,5 +1517,5 @@ node trimesh Box06
      7 11  8 1   7 11  8 0
     13  8 11 1  13  8 11 0
 endnode
-endmodelgeom TID01_f02_02
-donemodel TID01_f02_02
+endmodelgeom tid01_f02_02
+donemodel tid01_f02_02
