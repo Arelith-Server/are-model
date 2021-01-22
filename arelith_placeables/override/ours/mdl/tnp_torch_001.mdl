@@ -1,0 +1,1350 @@
+#MAXMODEL ASCII
+# model: tnp_torch_001 
+filedependancy torch_01.max
+newmodel tnp_torch_001 
+setsupermodel tnp_torch_001 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom tnp_torch_001 
+node dummy tnp_torch_001 
+  parent NULL 
+endnode
+node dummy base 
+  parent tnp_torch_001 
+  position 0.0 0.0 0.0
+  orientation  0.0 0.0 -1.0  -3.14159
+  wirecolor 0.109804 0.109804 0.694118  
+endnode
+node trimesh torch07 
+  parent base 
+  position 0.0 -0.0949487 1.4
+  orientation  0.0 0.0 -1.0  -3.14159
+  wirecolor 0.690196 0.101961 0.101961  
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tno01_post
+    verts 10
+     0.025 0.0 0.0
+     0.00772542 0.0223425 0.00813201
+     -0.0202254 0.0138084 0.00502586
+     -0.0202254 -0.0138084 -0.00502586
+     0.00772543 -0.0223425 -0.00813201
+     0.05 -0.205212 0.563816
+     0.0154508 -0.160527 0.58008
+     -0.0404508 -0.177595 0.573867
+     -0.0404508 -0.232829 0.553764
+     0.0154509 -0.249897 0.547552
+    faces 13
+     0 6 5  8  0 6 5  3
+     0 1 6  8  0 1 6  3
+     1 7 6  8  10 7 11  3
+     1 2 7  8  12 2 7  3
+     2 8 7  8  2 8 7  3
+     2 3 8  8  2 3 8  3
+     3 9 8  8  3 9 8  3
+     3 4 9  8  3 4 9  3
+     4 5 9  8  4 5 9  3
+     4 0 5  8  4 0 5  3
+     5 6 7  1  13 14 7  1
+     5 7 8  1  15 7 8  1
+     5 8 9  1  5 8 9  1
+    tverts 16
+     0.749999 -0.1795 0 
+     0.980348 -0.1795 0 
+     0.165427 -0.1795 0 
+     0.334574 -0.1795 0 
+     0.519652 -0.1795 0 
+     0.75 0.8195 0 
+     0.96485 0.8195 0 
+     0.158285 0.8195 0 
+     0.341715 0.8195 0 
+     0.53515 0.8195 0 
+     -0.019652 -0.1795 0 
+     -0.0351497 0.8195 0 
+     -0.019652 -0.1795 0 
+     -0.25 0.8195 0 
+     -0.0351497 0.8195 0 
+     -0.25 0.8195 0 
+endnode
+node emitter torch_em_flame03 
+  parent base 
+  position 0.0 0.115051 2.03
+  orientation  0.0 -0.996195 0.0871557  -3.14159
+  wirecolor 0.541176 0.0313726 0.431373  
+    colorStart 1.0 1.0 1.0  
+    colorEnd 0.427451 0.427451 0.427451  
+    alphaStart 0.7 
+    alphaEnd 0.1 
+    sizeStart 0.3 
+    sizeEnd 0.1 
+    sizeStart_y 0.7 
+    sizeEnd_y 0.1 
+    frameStart 0 
+    frameEnd 15 
+    birthrate 0 
+    spawnType 0 
+    lifeExp 2.0 
+    mass 0.0 
+    spread 0.0 
+    particleRot 0.0 
+    velocity 0.0 
+    randvel 0.0 
+    fps 24 
+    random 1 
+    inherit 0 
+    inherit_local 0 
+    inherit_part 0 
+    inheritvel 0 
+    xSize 4 
+    ySize 4 
+    bounce 0 
+    bounce_co 0.0 
+    loop 0 
+    update Fountain 
+    render Normal 
+    Blend Lighten 
+    update_sel 1 
+    render_sel 1 
+    blend_sel 3 
+    deadspace 0.0 
+    opacity 0.5 
+    blurlength 10.0 
+    lightningDelay 0.0 
+    lightningRadius 0.0 
+    lightningScale 0.0 
+    blastRadius 0.0 
+    blastLength 0.0 
+    twosidedtex 0 
+    p2p 0 
+    p2p_sel 1 
+    p2p_type Bezier 
+    p2p_bezier2 0.0 
+    p2p_bezier3 0.0 
+    combinetime 0.0 
+    Drag 0.0 
+    grav 0.0 
+    threshold 0.0 
+    texture fxpa_flame00 
+    xgrid 4 
+    ygrid 4 
+    affectedByWind false 
+    m_isTinted 0 
+    renderorder 1 
+    Splat 0 
+endnode
+node emitter torch_em_smoke12 
+  parent base 
+  position 0.0 0.115051 2.25
+  orientation  0.0 -1.0 0.0  -3.14159
+  wirecolor 0.541176 0.0313726 0.431373  
+    colorStart 0.419608 0.419608 0.419608  
+    colorEnd 0.215686 0.215686 0.215686  
+    alphaStart 0.4 
+    alphaEnd 0.0 
+    sizeStart 0.2 
+    sizeEnd 0.5 
+    sizeStart_y 0.0 
+    sizeEnd_y 0.0 
+    frameStart 0 
+    frameEnd 24 
+    birthrate 0 
+    spawnType 0 
+    lifeExp 1.5 
+    mass -0.1 
+    spread 0.0 
+    particleRot 1.5 
+    velocity 0.2 
+    randvel 0.0 
+    fps 10 
+    random 1 
+    inherit 0 
+    inherit_local 0 
+    inherit_part 0 
+    inheritvel 0 
+    xSize 4 
+    ySize 4 
+    bounce 0 
+    bounce_co 0.0 
+    loop 0 
+    update Fountain 
+    render Normal 
+    Blend Lighten 
+    update_sel 1 
+    render_sel 1 
+    blend_sel 3 
+    deadspace 0.0 
+    opacity 0.5 
+    blurlength 10.0 
+    lightningDelay 0.0 
+    lightningRadius 0.0 
+    lightningScale 0.0 
+    blastRadius 0.0 
+    blastLength 0.0 
+    twosidedtex 0 
+    p2p 0 
+    p2p_sel 1 
+    p2p_type Bezier 
+    p2p_bezier2 0.0 
+    p2p_bezier3 0.0 
+    combinetime 0.0 
+    Drag 0.0 
+    grav 0.0 
+    threshold 0.0 
+    texture fxpa_smoke01 
+    xgrid 4 
+    ygrid 4 
+    affectedByWind false 
+    m_isTinted 0 
+    renderorder 0 
+    Splat 0 
+endnode
+node trimesh torch_handle07 
+  parent base 
+  position 0.0 -0.0149487 1.84089
+  orientation  0.0 0.0 -1.0  -3.14159
+  wirecolor 0.109804 0.584314 0.694118  
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tno01_post
+    verts 6
+     0.0 0.123902 -0.0225
+     -0.0194856 0.123902 0.01125
+     0.0194856 0.123902 0.01125
+     0.0 -0.038111 -0.0225
+     -0.0194856 -0.0526409 0.01125
+     0.0194856 -0.0526409 0.01125
+    faces 6
+     0 3 4  1  6 8 9  1
+     4 1 0  1  9 7 6  1
+     1 4 5  1  1 10 11  1
+     5 2 1  1  11 4 1  1
+     2 5 3  1  2 5 3  1
+     3 0 2  1  3 0 2  1
+    tverts 12
+     -0.00322419 1.10357 0 
+     -0.0646428 1.102 0 
+     0.0 1.036 0 
+     0.877765 1.10357 0 
+     -0.0581945 1.03792 0 
+     0.96 1.036 0 
+     1.96016 1.10529 0 
+     1.96661 1.036 0 
+     1.07917 1.10529 0 
+     1.00661 1.036 0 
+     -1.0 1.102 0 
+     -1.0 1.03792 0 
+endnode
+node light torch_light12 
+  parent base 
+  position 0.0 0.110051 2.25
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.690196 0.101961 0.101961  
+  radius 0.0 
+  multiplier 2.0
+  color 0.941177 0.788236 0.172549  
+  ambientonly 0 
+  nDynamicType 1 
+  affectDynamic 1 
+  shadow 1 
+  lightpriority 2 
+  lensflares 0
+  fadingLight 1
+endnode
+node trimesh torch_panel07 
+  parent base 
+  position 0.0 -0.154949 1.72
+  orientation  0.0 0.0 -1.0  -3.14159
+  wirecolor 0.341176 0.878431 0.341176  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.0 -2.5 -4.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tno01_metal01
+    verts 10
+     -0.1 0.0 -0.32
+     0.1 0.0 -0.32
+     0.1 0.0 0.18
+     0.0 0.0 0.23
+     -0.1 0.0 0.18
+     0.05 -0.05 0.149098
+     0.0 -0.05 0.174098
+     -0.05 -0.05 0.149098
+     -0.05 -0.05 -0.27
+     0.05 -0.05 -0.27
+    faces 13
+     5 6 7  1  5 6 7  1
+     7 8 9  1  7 8 9  1
+     5 7 9  1  5 7 9  1
+     2 3 6  0  2 3 6  1
+     6 5 2  0  6 5 2  1
+     3 4 7  0  3 4 7  1
+     7 6 3  0  7 6 3  1
+     4 0 8  0  4 0 8  1
+     8 7 4  0  8 7 4  1
+     0 1 9  0  0 1 9  1
+     9 8 0  0  9 8 0  1
+     1 2 5  0  1 2 5  1
+     5 9 1  0  5 9 1  1
+    tverts 10
+     0.45 0.3625 0 
+     0.55 0.3625 0 
+     0.55 0.6125 0 
+     0.5 0.6375 0 
+     0.45 0.6125 0 
+     0.525 0.597049 0 
+     0.5 0.609549 0 
+     0.475 0.597049 0 
+     0.475 0.3875 0 
+     0.525 0.3875 0 
+endnode
+node trimesh torch01 
+  parent base 
+  position -0.00831555 0.134465 2.02778
+  orientation  0.0 0.0 -1.0  -3.14159
+  wirecolor 0.690196 0.101961 0.101961  
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap tno01_mtlcage01
+    verts 20
+     0.0787665 0.034202 -0.0939693
+     0.0185943 0.112027 -0.0656432
+     -0.0787664 0.0823008 -0.0764628
+     -0.0787664 -0.0138966 -0.111476
+     0.0185942 -0.0436232 -0.122295
+     0.0787664 -0.034202 0.0939692
+     0.0185942 0.0436233 0.122295
+     -0.0787665 0.0138967 0.111476
+     -0.0787665 -0.0823006 0.0764627
+     0.0185942 -0.112027 0.0656431
+     0.0787665 0.034202 -0.0939693
+     0.0185943 0.112027 -0.0656432
+     -0.0787664 0.0823008 -0.0764629
+     -0.0787664 -0.0138966 -0.111476
+     0.0185942 -0.0436232 -0.122295
+     0.0787664 -0.034202 0.0939693
+     0.0185942 0.0436233 0.122295
+     -0.0787665 0.0138967 0.111476
+     -0.0787665 -0.0823006 0.0764627
+     0.0185942 -0.112027 0.0656432
+    faces 20
+     0 1 6  0  0 1 6  1
+     6 5 0  0  6 5 0  1
+     1 2 7  0  10 2 7  1
+     7 6 1  0  7 11 12  1
+     2 3 8  0  2 3 8  1
+     8 7 2  0  8 7 2  1
+     3 4 9  0  3 4 9  1
+     9 8 3  0  9 8 3  1
+     4 0 5  0  4 0 5  1
+     5 9 4  0  5 9 4  1
+     11 10 16  0  14 13 19  1
+     15 16 10  0  18 19 13  1
+     12 11 17  0  15 23 20  1
+     16 17 11  0  24 20 25  1
+     13 12 18  0  16 15 21  1
+     17 18 12  0  20 21 15  1
+     14 13 19  0  17 16 22  1
+     18 19 13  0  21 22 16  1
+     10 14 15  0  13 17 18  1
+     19 15 14  0  22 18 17  1
+    tverts 26
+     2.17007 0.0225297 0 
+     3.02947 0.0225297 0 
+     -0.196792 0.0225297 0 
+     0.536929 0.0225297 0 
+     1.31067 0.0225297 0 
+     2.17007 1.10396 0 
+     3.02947 1.10396 0 
+     -0.196791 1.10396 0 
+     0.536929 1.10396 0 
+     1.31067 1.10396 0 
+     -0.97053 0.0225297 0 
+     -0.97053 1.10396 0 
+     -0.97053 0.0225297 0 
+     2.17007 0.0225297 0 
+     3.02947 0.0225297 0 
+     -0.196792 0.0225297 0 
+     0.536929 0.0225297 0 
+     1.31067 0.0225297 0 
+     2.17007 1.10396 0 
+     3.02947 1.10396 0 
+     -0.196791 1.10396 0 
+     0.536929 1.10396 0 
+     1.31067 1.10396 0 
+     -0.97053 0.0225297 0 
+     -0.97053 1.10396 0 
+     -0.97053 0.0225297 0 
+endnode
+endmodelgeom tnp_torch_001 
+
+#MAXANIM ASCII
+newanim default tnp_torch_001 
+ length 0.666667
+ transtime 0.25
+animroot tnp_torch_001
+node dummy tnp_torch_001 
+  parent NULL 
+endnode
+node dummy base 
+  parent tnp_torch_001 
+endnode
+node dummy torch07 
+  parent base 
+endnode
+node emitter torch_em_flame03 
+  parent base 
+    positionkey 
+    endlist 
+    orientationkey 
+    endlist 
+    colorStartkey
+    endlist
+    colorEndkey
+    endlist
+    alphaStartkey
+    endlist
+    alphaEndkey
+    endlist
+    sizeStartkey
+    endlist
+    sizeEndkey
+    endlist
+    sizeStart_ykey
+    endlist
+    sizeEnd_ykey
+    endlist
+    lockAxeskey
+    endlist
+    frameStartkey
+    endlist
+    frameEndkey
+    endlist
+    birthratekey
+      0.0   5.0
+      0.666667   5.0
+    endlist
+    spawnTypekey
+    endlist
+    lifeExpkey
+    endlist
+    masskey
+    endlist
+    spreadkey
+    endlist
+    particleRotkey
+    endlist
+    velocitykey
+    endlist
+    randvelkey
+    endlist
+    fpskey
+    endlist
+    randomkey
+    endlist
+    inheritkey
+    endlist
+    inherit_localkey
+    endlist
+    inherit_partkey
+    endlist
+    inheritvelkey
+    endlist
+    xSizekey
+    endlist
+    ySizekey
+    endlist
+    bouncekey
+    endlist
+    bounce_cokey
+    endlist
+    loopkey
+    endlist
+    chunkykey
+    endlist
+    opacitykey
+    endlist
+    blurlengthkey
+    endlist
+    lightningDelaykey
+    endlist
+    lightningRadiuskey
+    endlist
+    lightningSubDivkey
+    endlist
+    lightningScalekey
+    endlist
+    blastRadiuskey
+    endlist
+    blastLengthkey
+    endlist
+    twosidedtexkey
+    endlist
+    p2pkey
+    endlist
+    p2p_bezier2key
+    endlist
+    p2p_bezier3key
+    endlist
+    combinetimekey
+    endlist
+    Dragkey
+    endlist
+    gravkey
+    endlist
+    thresholdkey
+    endlist
+    xgridkey
+    endlist
+    ygridkey
+    endlist
+    affectedByWindkey
+    endlist
+    m_isTintedkey
+    endlist
+    renderorderkey
+    endlist
+    Splatkey
+    endlist
+endnode
+node emitter torch_em_smoke12 
+  parent base 
+    positionkey 
+    endlist 
+    orientationkey 
+    endlist 
+    colorStartkey
+    endlist
+    colorEndkey
+    endlist
+    alphaStartkey
+    endlist
+    alphaEndkey
+    endlist
+    sizeStartkey
+    endlist
+    sizeEndkey
+    endlist
+    sizeStart_ykey
+    endlist
+    sizeEnd_ykey
+    endlist
+    lockAxeskey
+    endlist
+    frameStartkey
+    endlist
+    frameEndkey
+    endlist
+    birthratekey
+      0.0   10.0
+      0.666667   10.0
+    endlist
+    spawnTypekey
+    endlist
+    lifeExpkey
+    endlist
+    masskey
+    endlist
+    spreadkey
+    endlist
+    particleRotkey
+    endlist
+    velocitykey
+    endlist
+    randvelkey
+    endlist
+    fpskey
+    endlist
+    randomkey
+    endlist
+    inheritkey
+    endlist
+    inherit_localkey
+    endlist
+    inherit_partkey
+    endlist
+    inheritvelkey
+    endlist
+    xSizekey
+    endlist
+    ySizekey
+    endlist
+    bouncekey
+    endlist
+    bounce_cokey
+    endlist
+    loopkey
+    endlist
+    chunkykey
+    endlist
+    opacitykey
+    endlist
+    blurlengthkey
+    endlist
+    lightningDelaykey
+    endlist
+    lightningRadiuskey
+    endlist
+    lightningSubDivkey
+    endlist
+    lightningScalekey
+    endlist
+    blastRadiuskey
+    endlist
+    blastLengthkey
+    endlist
+    twosidedtexkey
+    endlist
+    p2pkey
+    endlist
+    p2p_bezier2key
+    endlist
+    p2p_bezier3key
+    endlist
+    combinetimekey
+    endlist
+    Dragkey
+    endlist
+    gravkey
+    endlist
+    thresholdkey
+    endlist
+    xgridkey
+    endlist
+    ygridkey
+    endlist
+    affectedByWindkey
+    endlist
+    m_isTintedkey
+    endlist
+    renderorderkey
+    endlist
+    Splatkey
+    endlist
+endnode
+node dummy torch_handle07 
+  parent base 
+endnode
+node light torch_light12 
+  parent base 
+    positionkey 
+    endlist 
+    orientationkey 
+    endlist 
+    colorkey
+    endlist
+    radiuskey
+    0.0   3.0
+    0.333333   4.0
+    0.666667   3.0
+    endlist
+endnode
+node trimesh torch_panel07 
+  parent base 
+    centerkey
+    endlist
+    gizmokey
+    endlist
+endnode
+node dummy torch01 
+  parent base 
+endnode
+node dummy tnp_torch_001_pwk 
+  parent tnp_torch_001 
+endnode
+node dummy 001_pwk_use01 
+  parent tnp_torch_001_pwk 
+endnode
+doneanim default tnp_torch_001 
+
+#MAXANIM ASCII
+newanim on tnp_torch_001 
+ length 0.666667
+ transtime 0.25
+animroot tnp_torch_001
+node dummy tnp_torch_001 
+  parent NULL 
+endnode
+node dummy base 
+  parent tnp_torch_001 
+endnode
+node dummy torch07 
+  parent base 
+endnode
+node emitter torch_em_flame03 
+  parent base 
+    positionkey 
+    endlist 
+    orientationkey 
+    endlist 
+    colorStartkey
+    endlist
+    colorEndkey
+    endlist
+    alphaStartkey
+    endlist
+    alphaEndkey
+    endlist
+    sizeStartkey
+    endlist
+    sizeEndkey
+    endlist
+    sizeStart_ykey
+    endlist
+    sizeEnd_ykey
+    endlist
+    lockAxeskey
+    endlist
+    frameStartkey
+    endlist
+    frameEndkey
+    endlist
+    birthratekey
+      0.0   5.0
+      0.666667   5.0
+    endlist
+    spawnTypekey
+    endlist
+    lifeExpkey
+    endlist
+    masskey
+    endlist
+    spreadkey
+    endlist
+    particleRotkey
+    endlist
+    velocitykey
+    endlist
+    randvelkey
+    endlist
+    fpskey
+    endlist
+    randomkey
+    endlist
+    inheritkey
+    endlist
+    inherit_localkey
+    endlist
+    inherit_partkey
+    endlist
+    inheritvelkey
+    endlist
+    xSizekey
+    endlist
+    ySizekey
+    endlist
+    bouncekey
+    endlist
+    bounce_cokey
+    endlist
+    loopkey
+    endlist
+    chunkykey
+    endlist
+    opacitykey
+    endlist
+    blurlengthkey
+    endlist
+    lightningDelaykey
+    endlist
+    lightningRadiuskey
+    endlist
+    lightningSubDivkey
+    endlist
+    lightningScalekey
+    endlist
+    blastRadiuskey
+    endlist
+    blastLengthkey
+    endlist
+    twosidedtexkey
+    endlist
+    p2pkey
+    endlist
+    p2p_bezier2key
+    endlist
+    p2p_bezier3key
+    endlist
+    combinetimekey
+    endlist
+    Dragkey
+    endlist
+    gravkey
+    endlist
+    thresholdkey
+    endlist
+    xgridkey
+    endlist
+    ygridkey
+    endlist
+    affectedByWindkey
+    endlist
+    m_isTintedkey
+    endlist
+    renderorderkey
+    endlist
+    Splatkey
+    endlist
+endnode
+node emitter torch_em_smoke12 
+  parent base 
+    positionkey 
+    endlist 
+    orientationkey 
+    endlist 
+    colorStartkey
+    endlist
+    colorEndkey
+    endlist
+    alphaStartkey
+    endlist
+    alphaEndkey
+    endlist
+    sizeStartkey
+    endlist
+    sizeEndkey
+    endlist
+    sizeStart_ykey
+    endlist
+    sizeEnd_ykey
+    endlist
+    lockAxeskey
+    endlist
+    frameStartkey
+    endlist
+    frameEndkey
+    endlist
+    birthratekey
+      0.0   10.0
+      0.666667   10.0
+    endlist
+    spawnTypekey
+    endlist
+    lifeExpkey
+    endlist
+    masskey
+    endlist
+    spreadkey
+    endlist
+    particleRotkey
+    endlist
+    velocitykey
+    endlist
+    randvelkey
+    endlist
+    fpskey
+    endlist
+    randomkey
+    endlist
+    inheritkey
+    endlist
+    inherit_localkey
+    endlist
+    inherit_partkey
+    endlist
+    inheritvelkey
+    endlist
+    xSizekey
+    endlist
+    ySizekey
+    endlist
+    bouncekey
+    endlist
+    bounce_cokey
+    endlist
+    loopkey
+    endlist
+    chunkykey
+    endlist
+    opacitykey
+    endlist
+    blurlengthkey
+    endlist
+    lightningDelaykey
+    endlist
+    lightningRadiuskey
+    endlist
+    lightningSubDivkey
+    endlist
+    lightningScalekey
+    endlist
+    blastRadiuskey
+    endlist
+    blastLengthkey
+    endlist
+    twosidedtexkey
+    endlist
+    p2pkey
+    endlist
+    p2p_bezier2key
+    endlist
+    p2p_bezier3key
+    endlist
+    combinetimekey
+    endlist
+    Dragkey
+    endlist
+    gravkey
+    endlist
+    thresholdkey
+    endlist
+    xgridkey
+    endlist
+    ygridkey
+    endlist
+    affectedByWindkey
+    endlist
+    m_isTintedkey
+    endlist
+    renderorderkey
+    endlist
+    Splatkey
+    endlist
+endnode
+node dummy torch_handle07 
+  parent base 
+endnode
+node light torch_light12 
+  parent base 
+    positionkey 
+    endlist 
+    orientationkey 
+    endlist 
+    colorkey
+    endlist
+    radiuskey
+    0.0   3.0
+    0.333333   4.0
+    0.666667   3.0
+    endlist
+endnode
+node trimesh torch_panel07 
+  parent base 
+    centerkey
+    endlist
+    gizmokey
+    endlist
+endnode
+node dummy torch01 
+  parent base 
+endnode
+node dummy tnp_torch_001_pwk 
+  parent tnp_torch_001 
+endnode
+node dummy 001_pwk_use01 
+  parent tnp_torch_001_pwk 
+endnode
+doneanim on tnp_torch_001 
+
+#MAXANIM ASCII
+newanim off tnp_torch_001 
+ length 0.0
+ transtime 0.25
+animroot tnp_torch_001
+node dummy tnp_torch_001 
+  parent NULL 
+endnode
+node dummy base 
+  parent tnp_torch_001 
+endnode
+node dummy torch07 
+  parent base 
+endnode
+node emitter torch_em_flame03 
+  parent base 
+    positionkey 
+      0.0  0.0 0.115051 2.03
+    endlist 
+    orientationkey 
+      0.0   0.0 0.996195 -0.0871557  3.14159
+    endlist 
+    colorStartkey
+      0.0   1.0 1.0 1.0
+    endlist
+    colorEndkey
+      0.0   0.427451 0.427451 0.427451
+    endlist
+    alphaStartkey
+      0.0   0.7
+    endlist
+    alphaEndkey
+      0.0   0.1
+    endlist
+    sizeStartkey
+      0.0   0.3
+    endlist
+    sizeEndkey
+      0.0   0.1
+    endlist
+    sizeStart_ykey
+      0.0   0.7
+    endlist
+    sizeEnd_ykey
+      0.0   0.1
+    endlist
+    lockAxeskey
+      0.0   0.0
+    endlist
+    frameStartkey
+      0.0   0.0
+    endlist
+    frameEndkey
+      0.0   15.0
+    endlist
+    birthratekey
+      0.0   0.0
+    endlist
+    spawnTypekey
+      0.0   0.0
+    endlist
+    lifeExpkey
+      0.0   2.0
+    endlist
+    masskey
+      0.0   0.0
+    endlist
+    spreadkey
+      0.0   0.0
+    endlist
+    particleRotkey
+      0.0   0.0
+    endlist
+    velocitykey
+      0.0   0.0
+    endlist
+    randvelkey
+      0.0   0.0
+    endlist
+    fpskey
+      0.0   24.0
+    endlist
+    randomkey
+      0.0   1.0
+    endlist
+    inheritkey
+      0.0   0.0
+    endlist
+    inherit_localkey
+      0.0   0.0
+    endlist
+    inherit_partkey
+      0.0   0.0
+    endlist
+    inheritvelkey
+      0.0   0.0
+    endlist
+    xSizekey
+      0.0   4.0
+    endlist
+    ySizekey
+      0.0   4.0
+    endlist
+    bouncekey
+      0.0   0.0
+    endlist
+    bounce_cokey
+      0.0   0.0
+    endlist
+    loopkey
+      0.0   0.0
+    endlist
+    chunkykey
+      0.0   0.0
+    endlist
+    opacitykey
+      0.0   0.5
+    endlist
+    blurlengthkey
+      0.0   10.0
+    endlist
+    lightningDelaykey
+      0.0   0.0
+    endlist
+    lightningRadiuskey
+      0.0   0.0
+    endlist
+    lightningSubDivkey
+      0.0   0.0
+    endlist
+    lightningScalekey
+      0.0   0.0
+    endlist
+    blastRadiuskey
+      0.0   0.0
+    endlist
+    blastLengthkey
+      0.0   0.0
+    endlist
+    twosidedtexkey
+      0.0   0.0
+    endlist
+    p2pkey
+      0.0   0.0
+    endlist
+    p2p_bezier2key
+      0.0   0.0
+    endlist
+    p2p_bezier3key
+      0.0   0.0
+    endlist
+    combinetimekey
+      0.0   0.0
+    endlist
+    Dragkey
+      0.0   0.0
+    endlist
+    gravkey
+      0.0   0.0
+    endlist
+    thresholdkey
+      0.0   0.0
+    endlist
+    xgridkey
+      0.0   4.0
+    endlist
+    ygridkey
+      0.0   4.0
+    endlist
+    affectedByWindkey
+      0.0   0.0
+    endlist
+    m_isTintedkey
+      0.0   0.0
+    endlist
+    renderorderkey
+      0.0   1.0
+    endlist
+    Splatkey
+      0.0   0.0
+    endlist
+endnode
+node emitter torch_em_smoke12 
+  parent base 
+    positionkey 
+      0.0  0.0 0.115051 2.25
+    endlist 
+    orientationkey 
+      0.0   0.0 1.0 0.0  3.14159
+    endlist 
+    colorStartkey
+      0.0   0.419608 0.419608 0.419608
+    endlist
+    colorEndkey
+      0.0   0.215686 0.215686 0.215686
+    endlist
+    alphaStartkey
+      0.0   0.4
+    endlist
+    alphaEndkey
+      0.0   0.0
+    endlist
+    sizeStartkey
+      0.0   0.2
+    endlist
+    sizeEndkey
+      0.0   0.5
+    endlist
+    sizeStart_ykey
+      0.0   0.3
+    endlist
+    sizeEnd_ykey
+      0.0   0.5
+    endlist
+    lockAxeskey
+      0.0   1.0
+    endlist
+    frameStartkey
+      0.0   0.0
+    endlist
+    frameEndkey
+      0.0   24.0
+    endlist
+    birthratekey
+      0.0   0.0
+    endlist
+    spawnTypekey
+      0.0   0.0
+    endlist
+    lifeExpkey
+      0.0   1.5
+    endlist
+    masskey
+      0.0   -0.1
+    endlist
+    spreadkey
+      0.0   0.0
+    endlist
+    particleRotkey
+      0.0   1.5
+    endlist
+    velocitykey
+      0.0   0.2
+    endlist
+    randvelkey
+      0.0   0.0
+    endlist
+    fpskey
+      0.0   10.0
+    endlist
+    randomkey
+      0.0   1.0
+    endlist
+    inheritkey
+      0.0   0.0
+    endlist
+    inherit_localkey
+      0.0   0.0
+    endlist
+    inherit_partkey
+      0.0   0.0
+    endlist
+    inheritvelkey
+      0.0   0.0
+    endlist
+    xSizekey
+      0.0   4.0
+    endlist
+    ySizekey
+      0.0   4.0
+    endlist
+    bouncekey
+      0.0   0.0
+    endlist
+    bounce_cokey
+      0.0   0.0
+    endlist
+    loopkey
+      0.0   0.0
+    endlist
+    chunkykey
+      0.0   0.0
+    endlist
+    opacitykey
+      0.0   0.5
+    endlist
+    blurlengthkey
+      0.0   10.0
+    endlist
+    lightningDelaykey
+      0.0   0.0
+    endlist
+    lightningRadiuskey
+      0.0   0.0
+    endlist
+    lightningSubDivkey
+      0.0   0.0
+    endlist
+    lightningScalekey
+      0.0   0.0
+    endlist
+    blastRadiuskey
+      0.0   0.0
+    endlist
+    blastLengthkey
+      0.0   0.0
+    endlist
+    twosidedtexkey
+      0.0   0.0
+    endlist
+    p2pkey
+      0.0   0.0
+    endlist
+    p2p_bezier2key
+      0.0   0.0
+    endlist
+    p2p_bezier3key
+      0.0   0.0
+    endlist
+    combinetimekey
+      0.0   0.0
+    endlist
+    Dragkey
+      0.0   0.0
+    endlist
+    gravkey
+      0.0   0.0
+    endlist
+    thresholdkey
+      0.0   0.0
+    endlist
+    xgridkey
+      0.0   4.0
+    endlist
+    ygridkey
+      0.0   4.0
+    endlist
+    affectedByWindkey
+      0.0   0.0
+    endlist
+    m_isTintedkey
+      0.0   0.0
+    endlist
+    renderorderkey
+      0.0   0.0
+    endlist
+    Splatkey
+      0.0   0.0
+    endlist
+endnode
+node dummy torch_handle07 
+  parent base 
+endnode
+node light torch_light12 
+  parent base 
+    positionkey 
+      0.0  0.0 0.110051 2.25
+    endlist 
+    orientationkey 
+      0.0   0.0 0.0 0.0  0.0
+    endlist 
+    colorkey
+    0.0   0.941177 0.788236 0.172549
+    endlist
+    radiuskey
+    0.0   0.0
+    endlist
+endnode
+node trimesh torch_panel07 
+  parent base 
+    centerkey
+    endlist
+    gizmokey
+    endlist
+endnode
+node dummy torch01 
+  parent base 
+endnode
+node dummy tnp_torch_001_pwk 
+  parent tnp_torch_001 
+endnode
+node dummy 001_pwk_use01 
+  parent tnp_torch_001_pwk 
+endnode
+doneanim off tnp_torch_001 
+
+donemodel tnp_torch_001 
+
