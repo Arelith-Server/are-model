@@ -1,0 +1,478 @@
+# Exported from blender Wednesday, 2021-01-27
+filedependancy unknown
+newmodel alc_guldmap02
+setsupermodel alc_guldmap02 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom alc_guldmap02
+node dummy alc_guldmap02
+  parent null
+endnode
+node trimesh damage08
+  parent alc_guldmap02
+  position  0.01475  0.01494  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 24
+  render 0
+  shadow 0
+  verts 12
+    -0.19542 -0.18622  0.00000
+    -0.19542  0.18622  0.00000
+     0.19542  0.18622  0.00000
+     0.19542 -0.18622  0.00000
+    -0.19542 -0.18622  0.50000
+     0.19542 -0.18622  0.50000
+     0.19542  0.18622  0.50000
+    -0.19542  0.18622  0.50000
+     0.10394 -0.09905  0.25000
+    -0.10394 -0.09905  0.25000
+     0.10394  0.09905  0.25000
+    -0.10394  0.09905  0.25000
+  faces 20
+     0  1  2  1  0 0 0  0
+     3  0  2  1  0 0 0  0
+     4  5  6  1  0 0 0  0
+     6  7  4  1  0 0 0  0
+     0  3  8  1  0 0 0  0
+     9  0  8  1  0 0 0  0
+     9  8  5  1  0 0 0  0
+     5  4  9  1  0 0 0  0
+     3  2 10  1  0 0 0  0
+    10  8  3  1  0 0 0  0
+     8 10  6  1  0 0 0  0
+     6  5  8  1  0 0 0  0
+     2  1 11  1  0 0 0  0
+    11 10  2  1  0 0 0  0
+    10 11  7  1  0 0 0  0
+     7  6 10  1  0 0 0  0
+     1  0  9  1  0 0 0  0
+     9 11  1  1  0 0 0  0
+    11  9  4  1  0 0 0  0
+     4  7 11  1  0 0 0  0
+endnode
+node trimesh map
+  parent damage08
+  position -0.01475 -0.01494  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap alc_guldmapold
+  shininess 10
+  render 1
+  shadow 0
+  verts 56
+    -0.69937 -0.46667  0.05085
+    -0.69949 -0.70000  0.05147
+    -0.49937 -0.46667  0.04612
+    -0.49949 -0.70000  0.04615
+    -0.29937 -0.46667  0.07015
+    -0.29949 -0.70000  0.04701
+    -0.09937 -0.46667  0.07611
+    -0.09949 -0.70000  0.07000
+     0.10063 -0.46667  0.07279
+     0.10051 -0.70000  0.06118
+     0.30063 -0.46667  0.04879
+     0.30051 -0.70000  0.04966
+     0.50063 -0.46667  0.03982
+     0.50051 -0.70000  0.07825
+     0.70063 -0.46667  0.07361
+     0.70051 -0.70000  0.07670
+    -0.70284 -0.23333  0.04642
+    -0.50285 -0.23333  0.05292
+    -0.30285 -0.23333  0.04520
+    -0.10285 -0.23333  0.07433
+     0.09715 -0.23333  0.07899
+     0.29715 -0.23333  0.08731
+     0.49715 -0.23333  0.08122
+     0.69715 -0.23333  0.06045
+    -0.69960  0.00000  0.03747
+    -0.49961  0.00000  0.03289
+    -0.29961  0.00000  0.05636
+    -0.09960  0.00000  0.05388
+     0.10040  0.00000  0.05225
+     0.30040  0.00000  0.06647
+     0.50039  0.00000  0.05709
+     0.70039  0.00000  0.06879
+    -0.70029  0.23333  0.04829
+    -0.50029  0.23333  0.05430
+    -0.30029  0.23333  0.07387
+    -0.10029  0.23333  0.08425
+     0.09971  0.23333  0.08027
+     0.29971  0.23333  0.06929
+     0.49971  0.23333  0.07484
+     0.69971  0.23333  0.04589
+    -0.69715  0.46667  0.07757
+    -0.49715  0.46667  0.06145
+    -0.29715  0.46667  0.05743
+    -0.09715  0.46667  0.05742
+     0.10285  0.46667  0.05094
+     0.30285  0.46667  0.07612
+     0.50285  0.46667  0.07259
+     0.70284  0.46667  0.04402
+    -0.69957  0.70000  0.05009
+    -0.49957  0.70000  0.03954
+    -0.29957  0.70000  0.04346
+    -0.09957  0.70000  0.04369
+     0.10043  0.70000  0.05240
+     0.30043  0.70000  0.07554
+     0.50043  0.70000  0.05115
+     0.70043  0.70000  0.06279
+  tverts 56
+     0.997  0.833  0
+     0.997  0.999  0
+     0.855  0.833  0
+     0.855  0.999  0
+     0.713  0.833  0
+     0.713  0.999  0
+     0.571  0.833  0
+     0.571  0.999  0
+     0.429  0.833  0
+     0.429  0.999  0
+     0.287  0.833  0
+     0.287  0.999  0
+     0.145  0.833  0
+     0.145  0.999  0
+     0.002  0.833  0
+     0.003  0.999  0
+     1.000  0.666  0
+     0.858  0.666  0
+     0.716  0.666  0
+     0.573  0.666  0
+     0.431  0.666  0
+     0.289  0.667  0
+     0.147  0.667  0
+     0.005  0.667  0
+     0.998  0.500  0
+     0.855  0.500  0
+     0.713  0.500  0
+     0.571  0.500  0
+     0.429  0.500  0
+     0.287  0.500  0
+     0.145  0.500  0
+     0.003  0.500  0
+     0.998  0.333  0
+     0.856  0.333  0
+     0.714  0.333  0
+     0.572  0.333  0
+     0.429  0.333  0
+     0.287  0.333  0
+     0.145  0.333  0
+     0.003  0.333  0
+     0.996  0.167  0
+     0.854  0.167  0
+     0.712  0.167  0
+     0.569  0.167  0
+     0.427  0.167  0
+     0.285  0.167  0
+     0.143  0.167  0
+     0.001  0.167  0
+     0.998  0.000  0
+     0.855  0.001  0
+     0.713  0.000  0
+     0.571  0.000  0
+     0.429  0.000  0
+     0.287  0.000  0
+     0.145  0.000  0
+     0.003  0.000  0
+  faces 84
+     0  1  2  1   0  1  2  0
+     3  2  1  1   3  2  1  0
+     2  3  4  1   2  3  4  0
+     5  4  3  1   5  4  3  0
+     4  5  6  1   4  5  6  0
+     7  6  5  1   7  6  5  0
+     6  7  8  1   6  7  8  0
+     9  8  7  1   9  8  7  0
+     8  9 10  1   8  9 10  0
+    11 10  9  1  11 10  9  0
+    10 11 12  1  10 11 12  0
+    13 12 11  1  13 12 11  0
+    12 13 14  1  12 13 14  0
+    15 14 13  1  15 14 13  0
+    16  0 17  1  16  0 17  0
+    17  0  2  1  17  0  2  0
+    17  2 18  1  17  2 18  0
+     4 18  2  1   4 18  2  0
+    18  4 19  1  18  4 19  0
+     6 19  4  1   6 19  4  0
+    19  6 20  1  19  6 20  0
+     8 20  6  1   8 20  6  0
+    20  8 21  1  20  8 21  0
+    10 21  8  1  10 21  8  0
+    21 10 22  1  21 10 22  0
+    12 22 10  1  12 22 10  0
+    22 12 23  1  22 12 23  0
+    14 23 12  1  14 23 12  0
+    24 16 25  1  24 16 25  0
+    17 25 16  1  17 25 16  0
+    25 17 26  1  25 17 26  0
+    18 26 17  1  18 26 17  0
+    26 18 27  1  26 18 27  0
+    19 27 18  1  19 27 18  0
+    27 19 28  1  27 19 28  0
+    20 28 19  1  20 28 19  0
+    28 20 29  1  28 20 29  0
+    21 29 20  1  21 29 20  0
+    29 21 30  1  29 21 30  0
+    22 30 21  1  22 30 21  0
+    30 22 31  1  30 22 31  0
+    23 31 22  1  23 31 22  0
+    32 24 33  1  32 24 33  0
+    25 33 24  1  25 33 24  0
+    33 25 34  1  33 25 34  0
+    26 34 25  1  26 34 25  0
+    34 26 35  1  34 26 35  0
+    27 35 26  1  27 35 26  0
+    35 27 36  1  35 27 36  0
+    28 36 27  1  28 36 27  0
+    36 28 37  1  36 28 37  0
+    29 37 28  1  29 37 28  0
+    37 29 38  1  37 29 38  0
+    30 38 29  1  30 38 29  0
+    38 30 39  1  38 30 39  0
+    31 39 30  1  31 39 30  0
+    40 32 41  1  40 32 41  0
+    33 41 32  1  33 41 32  0
+    41 33 42  1  41 33 42  0
+    34 42 33  1  34 42 33  0
+    42 34 43  1  42 34 43  0
+    35 43 34  1  35 43 34  0
+    43 35 44  1  43 35 44  0
+    36 44 35  1  36 44 35  0
+    44 36 45  1  44 36 45  0
+    37 45 36  1  37 45 36  0
+    45 37 46  1  45 37 46  0
+    38 46 37  1  38 46 37  0
+    46 38 47  1  46 38 47  0
+    39 47 38  1  39 47 38  0
+    48 40 49  1  48 40 49  0
+    41 49 40  1  41 49 40  0
+    49 41 50  1  49 41 50  0
+    42 50 41  1  42 50 41  0
+    50 42 51  1  50 42 51  0
+    43 51 42  1  43 51 42  0
+    51 43 52  1  51 43 52  0
+    44 52 43  1  44 52 43  0
+    52 44 53  1  52 44 53  0
+    45 53 44  1  45 53 44  0
+    53 45 54  1  53 45 54  0
+    46 54 45  1  46 54 45  0
+    54 46 55  1  54 46 55  0
+    47 55 46  1  47 55 46  0
+endnode
+node emitter fire=42
+  parent alc_guldmap02
+  position  0.01318 -0.02490  0.53267
+  orientation  1.00000  0.00000  0.00000  1.57080
+  xsize 141.99999570846558
+  ysize 100.0
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 2
+  mass 0.09
+  velocity 2.00
+  randvel 0.50
+  particlerot 0.50
+  spread 2.97
+  splat 0
+  affectedbywind 0
+  colorstart 0.61 0.57 0.49
+  colorend 0.82 0.82 0.80
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 4.00
+  sizeend 1.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 1
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.20
+  blastlength 1.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node dummy m01_ground
+  parent alc_guldmap02
+  position  0.00000  0.00000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node dummy m01_head
+  parent alc_guldmap02
+  position  0.00000  0.00000  1.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node dummy m01_head_hit
+  parent alc_guldmap02
+  position  0.00000  0.00000  0.10000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node dummy m01_impact
+  parent alc_guldmap02
+  position  0.00000  0.00000  0.07000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+endmodelgeom alc_guldmap02
+
+# ANIM ASCII
+newanim default alc_guldmap02
+  length 0.0
+  transtime 0.25
+  animroot alc_guldmap02
+  node dummy alc_guldmap02
+  parent null
+  endnode
+  node trimesh damage08
+  parent alc_guldmap02
+  endnode
+  node trimesh map
+  parent damage08
+  endnode
+  node emitter fire=42
+  parent alc_guldmap02
+  endnode
+  node dummy m01_ground
+  parent alc_guldmap02
+  endnode
+  node dummy m01_head
+  parent alc_guldmap02
+  endnode
+  node dummy m01_head_hit
+  parent alc_guldmap02
+  endnode
+  node dummy m01_impact
+  parent alc_guldmap02
+  endnode
+doneanim default alc_guldmap02
+
+newanim damage alc_guldmap02
+  length 0.1
+  transtime 0.25
+  animroot alc_guldmap02
+  node dummy alc_guldmap02
+  parent null
+  endnode
+  node trimesh damage08
+  parent alc_guldmap02
+    positionkey 2
+       0.000  0.01475  0.01494  0.00000
+       0.033  0.01475  0.01494  0.02446
+    orientationkey 3
+       0.000  1.00000  0.00000  0.00000  0.00000
+       0.033 -0.37135  0.92849 -0.00810  0.04699
+       0.100  0.59998 -0.80001 -0.01047  0.04363
+  endnode
+  node trimesh map
+  parent damage08
+  endnode
+  node emitter fire=42
+  parent alc_guldmap02
+  endnode
+  node dummy m01_ground
+  parent alc_guldmap02
+  endnode
+  node dummy m01_head
+  parent alc_guldmap02
+  endnode
+  node dummy m01_head_hit
+  parent alc_guldmap02
+  endnode
+  node dummy m01_impact
+  parent alc_guldmap02
+  endnode
+doneanim damage alc_guldmap02
+
+newanim dead alc_guldmap02
+  length 0.0
+  transtime 0.25
+  animroot alc_guldmap02
+  node dummy alc_guldmap02
+  parent null
+  endnode
+  node trimesh damage08
+  parent alc_guldmap02
+    positionkey 1
+       0.000  0.01475  0.01494 -5.84479
+  endnode
+  node trimesh map
+  parent damage08
+  endnode
+  node emitter fire=42
+  parent alc_guldmap02
+  endnode
+  node dummy m01_ground
+  parent alc_guldmap02
+  endnode
+  node dummy m01_head
+  parent alc_guldmap02
+  endnode
+  node dummy m01_head_hit
+  parent alc_guldmap02
+  endnode
+  node dummy m01_impact
+  parent alc_guldmap02
+  endnode
+doneanim dead alc_guldmap02
+
+newanim die alc_guldmap02
+  length 0.167
+  transtime 0.25
+  animroot alc_guldmap02
+  event 0.0 detonate
+  node dummy alc_guldmap02
+  parent null
+  endnode
+  node trimesh damage08
+  parent alc_guldmap02
+    positionkey 2
+       0.000  0.01475  0.01494  0.00000
+       0.167  0.01475  0.01494 -5.84479
+    orientationkey 2
+       0.000  1.00000  0.00000  0.00000  0.00000
+       0.167  1.00000  0.00000  0.00000  0.00000
+  endnode
+  node trimesh map
+  parent damage08
+  endnode
+  node emitter fire=42
+  parent alc_guldmap02
+  endnode
+  node dummy m01_ground
+  parent alc_guldmap02
+  endnode
+  node dummy m01_head
+  parent alc_guldmap02
+  endnode
+  node dummy m01_head_hit
+  parent alc_guldmap02
+  endnode
+  node dummy m01_impact
+  parent alc_guldmap02
+  endnode
+doneanim die alc_guldmap02
+
+donemodel alc_guldmap02
