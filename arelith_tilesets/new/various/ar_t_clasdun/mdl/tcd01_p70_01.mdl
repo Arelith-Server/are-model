@@ -1,0 +1,1634 @@
+#MAXMODEL ASCII
+# model: tcd01_p70_01
+filedependancy tcd01_p70_01.max
+newmodel tcd01_p70_01
+setsupermodel tcd01_p70_01 NULL
+classification TILE
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tcd01_p70_01
+node dummy tcd01_p70_01
+  parent NULL
+endnode
+node dummy tcd01_p70_01a
+  parent tcd01_p70_01
+  position 5.40371e-06 3.26685e-06 0
+  orientation 0 0 0 0
+endnode
+node emitter fount0201
+  parent tcd01_p70_01a
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -1.32857 -0.0015104 0.01
+  orientation 0 0 1 -0.0174533
+  xsize 50
+  ysize 50
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.2
+  alphaEnd 0
+  sizeStart 1
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 1.7
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter fount0203
+  parent tcd01_p70_01a
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 1.02553 1.042 0.01
+  orientation 0 0 -1 -3.92699
+  xsize 50
+  ysize 50
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.2
+  alphaEnd 0
+  sizeStart 1
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 1.7
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter fount0202
+  parent tcd01_p70_01a
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.877857 -1.0135 0.01
+  orientation 0 0 -1 -3.8659
+  xsize 50
+  ysize 50
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.2
+  alphaEnd 0
+  sizeStart 1
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 1.7
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node dummy CenterDummy
+  parent tcd01_p70_01a
+  position 5.40371e-06 -5.53269e-05 2.05353
+  orientation 0 0 0 0
+endnode
+node emitter fount0205
+  parent CenterDummy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Linked
+  blend Lighten
+  texture Fxpa_splash
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.600752 -0.0323524 -0.256509
+  orientation 0.632705 0 -0.774393 -3.14159
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 0.721569 0.721569 0.784314
+  alphaStart 1
+  alphaEnd 0.4
+  sizeStart 0.2
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate -3
+  lifeExp 1.2
+  mass 0.3
+  spread 0.872665
+  particleRot 0
+  velocity 0.6
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter fount0206
+  parent CenterDummy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Linked
+  blend Lighten
+  texture Fxpa_splash
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.454502 -0.442323 -0.256509
+  orientation 0.3358039 0.8107038 -0.4795779 -4.8584
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 0.721569 0.721569 0.784314
+  alphaStart 1
+  alphaEnd 0.4
+  sizeStart 0.2
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate -3
+  lifeExp 1.2
+  mass 0.3
+  spread 0.872665
+  particleRot 0
+  velocity 0.6
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter fount0207
+  parent CenterDummy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Linked
+  blend Lighten
+  texture Fxpa_splash
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.450439 0.474777 -0.256509
+  orientation 0.231149 0.558043 0.7969681 -3.7793
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 0.721569 0.721569 0.784314
+  alphaStart 1
+  alphaEnd 0.4
+  sizeStart 0.2
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 1.2
+  mass 0.3
+  spread 0.872665
+  particleRot 0
+  velocity 0.6
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter fount0205
+  parent CenterDummy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Linked
+  blend Punch-Through
+  texture Fxpa_splash
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.600752 -0.0323524 -0.256509
+  orientation 0.632705 0 -0.774393 -3.14159
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 0.721569 0.721569 0.784314
+  alphaStart 1
+  alphaEnd 0.4
+  sizeStart 0.2
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate -3
+  lifeExp 1.2
+  mass 0.3
+  spread 0.872665
+  particleRot 0
+  velocity 0.6
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter fount0206
+  parent CenterDummy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Linked
+  blend Punch-Through
+  texture Fxpa_splash
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.454502 -0.442323 -0.256509
+  orientation -0.3358039 -0.8107039 0.4795779 -1.42479
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 0.721569 0.721569 0.784314
+  alphaStart 1
+  alphaEnd 0.4
+  sizeStart 0.2
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate -3
+  lifeExp 1.2
+  mass 0.3
+  spread 0.872665
+  particleRot 0
+  velocity 0.6
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter fount0207
+  parent CenterDummy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Linked
+  blend Punch-Through
+  texture Fxpa_splash
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.450439 0.474777 -0.256509
+  orientation -0.231149 -0.5580431 -0.796968 -2.50389
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 0.721569 0.721569 0.784314
+  alphaStart 1
+  alphaEnd 0.4
+  sizeStart 0.2
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 1.2
+  mass 0.3
+  spread 0.872665
+  particleRot 0
+  velocity 0.6
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node trimesh Water
+  parent tcd01_p70_01a
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  shadow 0
+  rotatetexture 1
+  bitmap TDS01_water01
+  verts 9
+      -3.0999999    0.0000000    0.0000000
+      -2.5000000   -2.5000000    0.0000000
+       0.0000000    0.0000000    0.0000000
+       0.0000000   -3.0999999    0.0000000
+       3.0999999    0.0000000    0.0000000
+       2.5000000   -2.5000000    0.0000000
+      -2.5000000    2.5000000    0.0000000
+       0.0000000    3.0999999    0.0000000
+       2.5000000    2.5000000    0.0000000
+  tverts 9
+       0.5000000    1.0000000  0
+       0.5000000    0.5000000  0
+       1.0000000    1.0000000  0
+       1.0000000    0.5000000  0
+       1.5000000    1.0000000  0
+       1.5000000    0.5000000  0
+       0.5000000    1.5000000  0
+       1.0000000    1.5000000  0
+       1.5000000    1.5000000  0
+  faces 8
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+    2 3 4  1  2 3 4   1
+    5 4 3  1  5 4 3   1
+    6 0 7  1  6 0 7   1
+    2 7 0  1  2 7 0   1
+    7 2 8  1  7 2 8   1
+    4 8 2  1  4 8 2   1
+  position -5.40371e-06 -3.26685e-06 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node light tcd01_p70_01ml1
+  parent tcd01_p70_01
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 5
+  fadingLight 0
+  flareradius 0
+  position 0 0 5
+  orientation 0 0 0 0
+  radius 14
+  multiplier 1
+  color 0 0 0
+endnode
+node trimesh Floor
+  parent tcd01_p70_01
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 12
+  rotatetexture 1
+  bitmap tx_Flagstone
+  verts 24
+      -5.0000000   -2.5000000    0.0000000
+      -5.0000000   -5.0000000    0.0000000
+      -2.8184299   -2.8184299    0.0000000
+      -2.5000000   -5.0000000    0.0000000
+       0.0000000   -3.9900000    0.0000000
+       0.0000000   -5.0000000    0.0000000
+       2.8184299   -2.8184299    0.0000000
+       2.5000000   -5.0000000    0.0000000
+       5.0000000   -2.5000000    0.0000000
+       5.0000000   -5.0000000    0.0000000
+      -5.0000000    0.0000000    0.0000000
+      -3.9900000    0.0000000    0.0000000
+       3.9900000    0.0000000    0.0000000
+       5.0000000    0.0000000    0.0000000
+      -5.0000000    2.5000000    0.0000000
+      -2.8184299    2.8184299    0.0000000
+       2.8184299    2.8184299    0.0000000
+       5.0000000    2.5000000    0.0000000
+      -5.0000000    5.0000000    0.0000000
+      -2.5000000    5.0000000    0.0000000
+       0.0000000    5.0000000    0.0000000
+       0.0000000    3.9900000    0.0000000
+       2.5000000    5.0000000    0.0000000
+       5.0000000    5.0000000    0.0000000
+  tverts 24
+       0.0009992    0.5005000  0
+       0.0009990    0.0009995  0
+       0.4368770    0.4368770  0
+       0.5004990    0.0009994  0
+       1.0000000    0.2027970  0
+       1.0000000    0.0009993  0
+       1.5631200    0.4368770  0
+       1.4995000    0.0009992  0
+       1.9990000    0.5004990  0
+       1.9990000    0.0009990  0
+       0.0009993    1.0000000  0
+       0.2027970    1.0000000  0
+       1.7972000    1.0000000  0
+       1.9990000    1.0000000  0
+       0.0009994    1.4995000  0
+       0.4368770    1.5631200  0
+       1.5631200    1.5631200  0
+       1.9990000    1.4995000  0
+       0.0009995    1.9990000  0
+       0.5005000    1.9990000  0
+       1.0000000    1.9990000  0
+       1.0000000    1.7972000  0
+       1.4995000    1.9990000  0
+       1.9990000    1.9990000  0
+  faces 24
+     0  1  2  1   0  1  2   1
+     3  2  1  1   3  2  1   1
+     2  3  4  1   2  3  4   1
+     5  4  3  1   5  4  3   1
+     4  5  6  1   4  5  6   1
+     7  6  5  1   7  6  5   1
+     6  7  8  1   6  7  8   1
+     9  8  7  1   9  8  7   1
+    10  0 11  1  10  0 11   1
+     2 11  0  1   2 11  0   1
+    12  6 13  1  12  6 13   1
+     8 13  6  1   8 13  6   1
+    14 10 15  1  14 10 15   1
+    11 15 10  1  11 15 10   1
+    16 12 17  1  16 12 17   1
+    13 17 12  1  13 17 12   1
+    18 14 19  1  18 14 19   1
+    15 19 14  1  15 19 14   1
+    19 15 20  1  19 15 20   1
+    21 20 15  1  21 20 15   1
+    20 21 22  1  20 21 22   1
+    16 22 21  1  16 22 21   1
+    22 16 23  1  22 16 23   1
+    17 23 16  1  17 23 16   1
+  position 0 0 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh Mesh01
+  parent tcd01_p70_01
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  bitmap tx_pavestone
+  verts 6
+       1.2200000    1.4100000    0.0000000
+      -0.4041210   -0.9658790    0.5000000
+       0.0484271   -1.4184300    0.0000000
+       0.5800000    1.4100000    0.5000000
+      -1.2202100   -0.1497940   -0.5000000
+      -0.5741180    1.4100000   -0.5000000
+  tverts 6
+       3.0000000    1.9931099  0
+       2.5000000    2.1929100  0
+       2.5000000    1.9931099  0
+       3.0000000    2.1929100  0
+       2.5000000    1.7933100  0
+       3.0000000    1.7933100  0
+  faces 4
+    0 1 2  1  0 1 2   1
+    0 3 1  1  0 3 1   1
+    3 4 1  2  3 4 1   4
+    3 5 4  2  3 5 4   4
+  position 2.78 -1.41 -0.01
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh Mesh02
+  parent tcd01_p70_01
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  bitmap tx_pavestone
+  verts 6
+       1.4184300   -0.0484271    0.0000000
+      -1.4100000   -0.5800000    0.5000000
+      -1.4100000   -1.2200000    0.0000000
+       0.9658790    0.4041210    0.5000000
+      -1.4100000    0.5741180   -0.5000000
+       0.1497940    1.2202100   -0.5000000
+  tverts 6
+       2.5000000    1.9931099  0
+       2.0000000    2.1929100  0
+       2.0000000    1.9931099  0
+       2.5000000    2.1929100  0
+       2.0000000    1.7933100  0
+       2.5000000    1.7933100  0
+  faces 4
+    0 1 2  1  0 1 2   1
+    0 3 1  1  0 3 1   1
+    3 4 1  2  3 4 1   4
+    3 5 4  2  3 5 4   4
+  position 1.41 -2.78 -0.01
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh Mesh03
+  parent tcd01_p70_01
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  bitmap tx_pavestone
+  verts 6
+       1.4100000   -1.2200000    0.0000000
+      -0.9658790    0.4041210    0.5000000
+      -1.4184300   -0.0484268    0.0000000
+       1.4100000   -0.5800000    0.5000000
+      -0.1497950    1.2202100   -0.5000000
+       1.4100000    0.5741180   -0.5000000
+  tverts 6
+       2.0000000    1.9931099  0
+       1.5000000    2.1929100  0
+       1.5000000    1.9931099  0
+       2.0000000    2.1929100  0
+       1.5000000    1.7933100  0
+       2.0000000    1.7933100  0
+  faces 4
+    0 1 2  1  0 1 2   1
+    0 3 1  1  0 3 1   1
+    3 4 1  2  3 4 1   4
+    3 5 4  2  3 5 4   4
+  position -1.41 -2.78 -0.01
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh Mesh04
+  parent tcd01_p70_01
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  bitmap tx_pavestone
+  verts 6
+      -0.0284274   -1.4084300    0.0000000
+      -0.5600000    1.4200000    0.5000000
+      -1.2000000    1.4200000    0.0000000
+       0.4241210   -0.9558790    0.5000000
+       0.5941180    1.4200000   -0.5000000
+       1.2402101   -0.1397940   -0.5000000
+  tverts 6
+       1.5000000    1.9931099  0
+       1.0000000    2.1929100  0
+       1.0000000    1.9931099  0
+       1.5000000    2.1929100  0
+       1.0000000    1.7933100  0
+       1.5000000    1.7933100  0
+  faces 4
+    0 1 2  1  0 1 2   1
+    0 3 1  1  0 3 1   1
+    3 4 1  2  3 4 1   4
+    3 5 4  2  3 5 4   4
+  position -2.8 -1.42 -0.01
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh Mesh05
+  parent tcd01_p70_01
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  bitmap tx_pavestone
+  verts 6
+      -1.2200000   -1.4200000    0.0000000
+       0.4041210    0.9558790    0.5000000
+      -0.0484268    1.4084300    0.0000000
+      -0.5800000   -1.4200000    0.5000000
+       1.2202100    0.1397950   -0.5000000
+       0.5741180   -1.4200000   -0.5000000
+  tverts 6
+       1.0000000    1.9931099  0
+       0.5000000    2.1929100  0
+       0.5000000    1.9931099  0
+       1.0000000    2.1929100  0
+       0.5000000    1.7933100  0
+       1.0000000    1.7933100  0
+  faces 4
+    0 1 2  1  0 1 2   1
+    0 3 1  1  0 3 1   1
+    3 4 1  2  3 4 1   4
+    3 5 4  2  3 5 4   4
+  position -2.78 1.42 -0.01
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh Mesh06
+  parent tcd01_p70_01
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  bitmap tx_pavestone
+  verts 6
+      -1.4084300    0.0484274    0.0000000
+       1.4200000    0.5800000    0.5000000
+       1.4200000    1.2200000    0.0000000
+      -0.9558790   -0.4041210    0.5000000
+       1.4200000   -0.5741180   -0.5000000
+      -0.1397940   -1.2202100   -0.5000000
+  tverts 6
+       0.5000000    1.9931099  0
+      -0.0000002    2.1929100  0
+      -0.0000002    1.9931099  0
+       0.5000000    2.1929100  0
+      -0.0000002    1.7933100  0
+       0.5000000    1.7933100  0
+  faces 4
+    0 1 2  1  0 1 2   1
+    0 3 1  1  0 3 1   1
+    3 4 1  2  3 4 1   4
+    3 5 4  2  3 5 4   4
+  position -1.42 2.78 -0.01
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh Mesh07
+  parent tcd01_p70_01
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  bitmap tx_pavestone
+  verts 6
+      -1.4200000    1.2200000    0.0000000
+       0.9558790   -0.4041210    0.5000000
+       1.4084300    0.0484271    0.0000000
+      -1.4200000    0.5800000    0.5000000
+       0.1397940   -1.2202100   -0.5000000
+      -1.4200000   -0.5741180   -0.5000000
+  tverts 6
+       4.0000000    1.9931099  0
+       3.5000000    2.1929100  0
+       3.5000000    1.9931099  0
+       4.0000000    2.1929100  0
+       3.5000000    1.7933100  0
+       4.0000000    1.7933100  0
+  faces 4
+    0 1 2  1  0 1 2   1
+    0 3 1  1  0 3 1   1
+    3 4 1  2  3 4 1   4
+    3 5 4  2  3 5 4   4
+  position 1.42 2.78 -0.01
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh Mesh08
+  parent tcd01_p70_01
+  ambient 0 0 0
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 12
+  bitmap tx_pavestone
+  verts 6
+       0.0484271    1.4084300    0.0000000
+       0.5800000   -1.4200000    0.5000000
+       1.2200000   -1.4200000    0.0000000
+      -0.4041210    0.9558790    0.5000000
+      -0.5741180   -1.4200000   -0.5000000
+      -1.2202100    0.1397940   -0.5000000
+  tverts 6
+       3.5000000    1.9931099  0
+       3.0000000    2.1929100  0
+       3.0000000    1.9931099  0
+       3.5000000    2.1929100  0
+       3.0000000    1.7933100  0
+       3.5000000    1.7933100  0
+  faces 4
+    0 1 2  1  0 1 2   1
+    0 3 1  1  0 3 1   1
+    3 4 1  2  3 4 1   4
+    3 5 4  2  3 5 4   4
+  position 2.78 1.42 -0.01
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node aabb WOK
+  parent tcd01_p70_01
+  ambient 0 0 0
+  diffuse 0.5 0.5 0.5
+  specular 0 0 0
+  shininess 11
+  shadow 0
+  transparencyhint 0
+  bitmap Stone
+  verts 25
+      -5.0000000   -2.5000000    0.0000000
+      -5.0000000   -5.0000000    0.0000000
+      -2.5000000   -2.5000000    0.0000000
+      -2.5000000   -5.0000000    0.0000000
+       0.0000000   -2.5000000    0.0000000
+       0.0000000   -5.0000000    0.0000000
+       2.5000000   -2.5000000    0.0000000
+       2.5000000   -5.0000000    0.0000000
+       5.0000000   -2.5000000    0.0000000
+       5.0000000   -5.0000000    0.0000000
+      -5.0000000    0.0000000    0.0000000
+      -2.5000000    0.0000000    0.0000000
+       0.0000000    0.0000000    0.0000000
+       2.5000000    0.0000000    0.0000000
+       5.0000000    0.0000000    0.0000000
+      -5.0000000    2.5000000    0.0000000
+      -2.5000000    2.5000000    0.0000000
+       0.0000000    2.5000000    0.0000000
+       2.5000000    2.5000000    0.0000000
+       5.0000000    2.5000000    0.0000000
+      -5.0000000    5.0000000    0.0000000
+      -2.5000000    5.0000000    0.0000000
+       0.0000000    5.0000000    0.0000000
+       2.5000000    5.0000000    0.0000000
+       5.0000000    5.0000000    0.0000000
+  faces 32
+     0  1  2  1  0 0 0   4
+     3  2  1  1  0 0 0   4
+     2  3  4  1  0 0 0   4
+     5  4  3  1  0 0 0   4
+     4  5  6  1  0 0 0   4
+     7  6  5  1  0 0 0   4
+     6  7  8  1  0 0 0   4
+     9  8  7  1  0 0 0   4
+    10  0 11  1  0 0 0   4
+     2 11  0  1  0 0 0   4
+    11  2 12  1  0 0 0   4
+     4 12  2  1  0 0 0   4
+    12  4 13  1  0 0 0   4
+     6 13  4  1  0 0 0   4
+    13  6 14  1  0 0 0   4
+     8 14  6  1  0 0 0   4
+    15 10 16  1  0 0 0   4
+    11 16 10  1  0 0 0   4
+    16 11 17  1  0 0 0   4
+    12 17 11  1  0 0 0   4
+    17 12 18  1  0 0 0   4
+    13 18 12  1  0 0 0   4
+    18 13 19  1  0 0 0   4
+    14 19 13  1  0 0 0   4
+    20 15 21  1  0 0 0   4
+    16 21 15  1  0 0 0   4
+    21 16 22  1  0 0 0   4
+    17 22 16  1  0 0 0   4
+    22 17 23  1  0 0 0   4
+    18 23 17  1  0 0 0   4
+    23 18 24  1  0 0 0   4
+    19 24 18  1  0 0 0   4
+  aabb   -5.0000000   -5.0000000    0.0000000    5.0000000    5.0000000    0.0000000 -1
+          -5.0000000   -5.0000000    0.0000000    0.0000000    5.0000000    0.0000000 -1
+           -5.0000000   -5.0000000    0.0000000    0.0000000    0.0000000    0.0000000 -1
+            -5.0000000   -5.0000000    0.0000000   -2.5000000    0.0000000    0.0000000 -1
+             -5.0000000   -5.0000000    0.0000000   -2.5000000   -2.5000000    0.0000000 -1
+              -5.0000000   -5.0000000    0.0000000   -2.5000000   -2.5000000    0.0000000 0
+              -5.0000000   -5.0000000    0.0000000   -2.5000000   -2.5000000    0.0000000 1
+             -5.0000000   -2.5000000    0.0000000   -2.5000000    0.0000000    0.0000000 -1
+              -5.0000000   -2.5000000    0.0000000   -2.5000000    0.0000000    0.0000000 8
+              -5.0000000   -2.5000000    0.0000000   -2.5000000    0.0000000    0.0000000 9
+            -2.5000000   -5.0000000    0.0000000    0.0000000    0.0000000    0.0000000 -1
+             -2.5000000   -5.0000000    0.0000000    0.0000000   -2.5000000    0.0000000 -1
+              -2.5000000   -5.0000000    0.0000000    0.0000000   -2.5000000    0.0000000 2
+              -2.5000000   -5.0000000    0.0000000    0.0000000   -2.5000000    0.0000000 3
+             -2.5000000   -2.5000000    0.0000000    0.0000000    0.0000000    0.0000000 -1
+              -2.5000000   -2.5000000    0.0000000    0.0000000    0.0000000    0.0000000 10
+              -2.5000000   -2.5000000    0.0000000    0.0000000    0.0000000    0.0000000 11
+           -5.0000000    0.0000000    0.0000000    0.0000000    5.0000000    0.0000000 -1
+            -5.0000000    0.0000000    0.0000000   -2.5000000    5.0000000    0.0000000 -1
+             -5.0000000    0.0000000    0.0000000   -2.5000000    2.5000000    0.0000000 -1
+              -5.0000000    0.0000000    0.0000000   -2.5000000    2.5000000    0.0000000 16
+              -5.0000000    0.0000000    0.0000000   -2.5000000    2.5000000    0.0000000 17
+             -5.0000000    2.5000000    0.0000000   -2.5000000    5.0000000    0.0000000 -1
+              -5.0000000    2.5000000    0.0000000   -2.5000000    5.0000000    0.0000000 24
+              -5.0000000    2.5000000    0.0000000   -2.5000000    5.0000000    0.0000000 25
+            -2.5000000    0.0000000    0.0000000    0.0000000    5.0000000    0.0000000 -1
+             -2.5000000    0.0000000    0.0000000    0.0000000    2.5000000    0.0000000 -1
+              -2.5000000    0.0000000    0.0000000    0.0000000    2.5000000    0.0000000 18
+              -2.5000000    0.0000000    0.0000000    0.0000000    2.5000000    0.0000000 19
+             -2.5000000    2.5000000    0.0000000    0.0000000    5.0000000    0.0000000 -1
+              -2.5000000    2.5000000    0.0000000    0.0000000    5.0000000    0.0000000 26
+              -2.5000000    2.5000000    0.0000000    0.0000000    5.0000000    0.0000000 27
+           0.0000000   -5.0000000    0.0000000    5.0000000    5.0000000    0.0000000 -1
+            0.0000000   -5.0000000    0.0000000    5.0000000    0.0000000    0.0000000 -1
+             0.0000000   -5.0000000    0.0000000    2.5000000    0.0000000    0.0000000 -1
+              0.0000000   -5.0000000    0.0000000    2.5000000   -2.5000000    0.0000000 -1
+               0.0000000   -5.0000000    0.0000000    2.5000000   -2.5000000    0.0000000 4
+               0.0000000   -5.0000000    0.0000000    2.5000000   -2.5000000    0.0000000 5
+              0.0000000   -2.5000000    0.0000000    2.5000000    0.0000000    0.0000000 -1
+               0.0000000   -2.5000000    0.0000000    2.5000000    0.0000000    0.0000000 12
+               0.0000000   -2.5000000    0.0000000    2.5000000    0.0000000    0.0000000 13
+             2.5000000   -5.0000000    0.0000000    5.0000000    0.0000000    0.0000000 -1
+              2.5000000   -5.0000000    0.0000000    5.0000000   -2.5000000    0.0000000 -1
+               2.5000000   -5.0000000    0.0000000    5.0000000   -2.5000000    0.0000000 6
+               2.5000000   -5.0000000    0.0000000    5.0000000   -2.5000000    0.0000000 7
+              2.5000000   -2.5000000    0.0000000    5.0000000    0.0000000    0.0000000 -1
+               2.5000000   -2.5000000    0.0000000    5.0000000    0.0000000    0.0000000 14
+               2.5000000   -2.5000000    0.0000000    5.0000000    0.0000000    0.0000000 15
+            0.0000000    0.0000000    0.0000000    5.0000000    5.0000000    0.0000000 -1
+             0.0000000    0.0000000    0.0000000    2.5000000    5.0000000    0.0000000 -1
+              0.0000000    0.0000000    0.0000000    2.5000000    2.5000000    0.0000000 -1
+               0.0000000    0.0000000    0.0000000    2.5000000    2.5000000    0.0000000 20
+               0.0000000    0.0000000    0.0000000    2.5000000    2.5000000    0.0000000 21
+              0.0000000    2.5000000    0.0000000    2.5000000    5.0000000    0.0000000 -1
+               0.0000000    2.5000000    0.0000000    2.5000000    5.0000000    0.0000000 28
+               0.0000000    2.5000000    0.0000000    2.5000000    5.0000000    0.0000000 29
+             2.5000000    0.0000000    0.0000000    5.0000000    5.0000000    0.0000000 -1
+              2.5000000    0.0000000    0.0000000    5.0000000    2.5000000    0.0000000 -1
+               2.5000000    0.0000000    0.0000000    5.0000000    2.5000000    0.0000000 22
+               2.5000000    0.0000000    0.0000000    5.0000000    2.5000000    0.0000000 23
+              2.5000000    2.5000000    0.0000000    5.0000000    5.0000000    0.0000000 -1
+               2.5000000    2.5000000    0.0000000    5.0000000    5.0000000    0.0000000 30
+               2.5000000    2.5000000    0.0000000    5.0000000    5.0000000    0.0000000 31
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh PoolBase
+  parent tcd01_p70_01
+  ambient 0.313726 0.313726 0.313726
+  diffuse 0.313726 0.313726 0.313726
+  specular 0 0 0
+  shininess 11
+  shadow 0
+  bitmap tx_Flagslime
+  verts 4
+      -2.2000000    2.2000000    0.0000000
+      -2.2000000   -2.2000000    0.0000000
+       2.2000000    2.2000000    0.0000000
+       2.2000000   -2.2000000    0.0000000
+  tverts 4
+       0.0604398    0.9395600  0
+       0.0604396    0.0604398  0
+       0.9395600    0.9395600  0
+       0.9395600    0.0604396  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 0 0 -1.01
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh PoolSides
+  parent tcd01_p70_01
+  ambient 0.898039 0.898039 0.898039
+  diffuse 0.898039 0.898039 0.898039
+  specular 0 0 0
+  shininess 11
+  shadow 0
+  bitmap tx_line03
+  verts 16
+       0.0000000    2.2058799    0.5000000
+       1.5597900    1.5597900    0.0000000
+       1.5597900    1.5597900    0.5000000
+       0.0000000    2.2058799    0.0000000
+       2.2058799    0.0000000    0.0000000
+       2.2058799    0.0000000    0.5000000
+       1.5597900   -1.5597900    0.0000000
+       1.5597900   -1.5597900    0.5000000
+       0.0000000   -2.2058799    0.0000000
+       0.0000000   -2.2058799    0.5000000
+      -1.5597900   -1.5597900    0.0000000
+      -1.5597900   -1.5597900    0.5000000
+      -2.2058799    0.0000002    0.0000000
+      -2.2058799    0.0000002    0.5000000
+      -1.5597900    1.5597900    0.0000000
+      -1.5597900    1.5597900    0.5000000
+  tverts 18
+       8.0000000    4.0082002  0
+       7.0000000    3.6085999  0
+       7.0000000    4.0082002  0
+       8.0000000    3.6085999  0
+       6.0000000    3.6085999  0
+       6.0000000    4.0082002  0
+       5.0000000    3.6085999  0
+       5.0000000    4.0082002  0
+       4.0000000    3.6085999  0
+       4.0000000    4.0082002  0
+       3.0000000    3.6085999  0
+       3.0000000    4.0082002  0
+       2.0000000    3.6085999  0
+       2.0000000    4.0082002  0
+       1.0000000    3.6085999  0
+       1.0000000    4.0082002  0
+      -0.0000005    3.6085999  0
+      -0.0000005    4.0082002  0
+  faces 16
+     0  1  2  1   0  1  2   4
+     0  3  1  1   0  3  1   4
+     2  4  5  1   2  4  5   4
+     2  1  4  1   2  1  4   4
+     5  6  7  1   5  6  7   4
+     5  4  6  1   5  4  6   4
+     7  8  9  1   7  8  9   4
+     7  6  8  1   7  6  8   4
+     9 10 11  1   9 10 11   4
+     9  8 10  1   9  8 10   4
+    11 12 13  1  11 12 13   4
+    11 10 12  1  11 10 12   4
+    13 14 15  1  13 14 15   4
+    13 12 14  1  13 12 14   4
+    15  3  0  1  15 16 17   4
+    15 14  3  1  15 14 16   4
+  position 0 0 -1.01
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh Groups02321
+  parent tcd01_p70_01
+  ambient 0.705882 0.705882 0.705882
+  diffuse 0.705882 0.705882 0.705882
+  specular 0 0 0
+  shininess 11
+  bitmap tx_stone01sl
+  verts 19
+      -0.2400000    0.0000000   -2.6500001
+       0.1300000   -0.2100000   -2.6500001
+      -0.0600000   -0.1200000   -0.0968861
+       0.0800000   -0.1200000    0.2031140
+       0.1200000    0.2200000   -2.6500001
+       0.1000000    0.0000000   -0.0968861
+       0.0800000    0.1300000    0.2031140
+      -0.0600000    0.1100000   -0.0968861
+      -0.1300000    0.0000000    0.2031140
+       0.0600000   -0.1000000    0.2731140
+      -0.0200000    0.0000000    0.3531140
+      -0.1100000    0.0000000    0.2731140
+       0.0600000    0.1100000    0.2731140
+      -0.1700000    0.3000000    0.0131139
+       0.3600000    0.0000000    0.0131139
+      -0.1700000   -0.3000000    0.0131139
+       0.0800000    0.0000000    0.0131139
+      -0.0300000   -0.0600000    0.0131139
+      -0.0300000    0.0600000    0.0131139
+  tverts 41
+       0.0004995    0.3012770  0
+       0.6165500    0.3012770  0
+       0.3002000    1.1505800  0
+       0.5333000    1.2503800  0
+       0.1503500    0.3012770  0
+       0.8663000    0.3012770  0
+       0.5000000    1.1505800  0
+       0.7164500    1.2503800  0
+       0.4001000    0.3012770  0
+       0.9995010    0.3012770  0
+       0.6998000    1.1505800  0
+       0.5000000    1.2503800  0
+       0.3168500    1.1505800  0
+       0.5000000    0.3012770  0
+       0.5000000    1.2736700  0
+       0.3668000    1.3002800  0
+       0.2169500    1.2736700  0
+       0.6831500    1.2736700  0
+       0.5000000    1.3002800  0
+       0.3335000    1.2736700  0
+       0.7830500    1.2736700  0
+       0.6332000    1.3002800  0
+       0.1836500    1.2503800  0
+       0.3002000    1.2503800  0
+       0.8163500    1.2503800  0
+       0.4667000    1.2503800  0
+       0.0004995    1.1871800  0
+       0.4334000    1.1505800  0
+       0.0004995    1.1871800  0
+       0.5000000    1.1871800  0
+       0.4667000    1.1871800  0
+       0.9995010    1.1871800  0
+       0.5333000    1.1871800  0
+       0.3501500    1.1871800  0
+       0.6498500    1.1871800  0
+       0.2835500    1.2503800  0
+       0.4001000    1.1871800  0
+       0.5999000    1.1871800  0
+       0.6998000    1.2503800  0
+       0.6831500    1.1505800  0
+       0.5666000    1.1505800  0
+  faces 33
+     0  1  2    1   0  1  2   5
+     3  2  1    1   3  2  1   5
+     1  4  5    2   4  5  6   4
+     6  5  4    2   7  6  5   4
+     4  0  7    4   8  9 10   6
+     8  7  0    4  11 12 13   6
+     9 10 11    1  14 15 16   5
+    12 10  9    2  17 18 19   4
+    11 10 12    4  20 21 14   6
+     3  9  8    1   3 14 22   5
+    11  8  9    1  16 22 14   5
+     6 12  3    2   7 17 23   4
+     9  3 12    2  19 23 17   4
+     8 11  6    4  24 20 25   6
+    12  6 11    4  14 25 20   6
+     7  8 13    2  12 11 26   6
+     5  6 14    1  27 25 26   4
+     2  3 15    4   2 23 28   5
+     6  3 16    8   7 23 29   4
+     3 14 16   16  25 26 30   4
+    14  6 16   32  31  3 32   4
+     3  8 17   32   3 22 33   5
+     8  6 18   16  24 25 34   6
+     6 13 18   64  35 26 36   6
+    13  8 18    8  31 11 37   6
+     8 15 17   64  11 28 36   5
+    15  3 17  128  31 38 37   5
+     6  7 13  128   7 39 31   6
+     7  6  4    4  10 25  8   6
+     3  5 14   64   3 40 31   4
+     5  3  1    2   6 23  4   4
+     8  2 15  256  11 10 31   5
+     2  8  0    1  10 11 13   5
+  position 0.03 0 1.65
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node light tcd01_p70_01ml2
+  parent tcd01_p70_01
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 5
+  fadingLight 0
+  flareradius 0
+  position 2.5 0 4
+  orientation 0 0 0 0
+  radius 14
+  multiplier 1
+  color 0 0 0
+endnode
+endmodelgeom tcd01_p70_01
+
+#MAXANIM ASCII
+newanim animloop01 tcd01_p70_01
+  length 1.56667
+  transtime 0
+  animroot tcd01_p70_01
+  node dummy tcd01_p70_01
+    parent NULL
+  endnode
+  node dummy tcd01_p70_01a
+    parent tcd01_p70_01
+  endnode
+  node emitter fount0201
+    parent tcd01_p70_01a
+    birthratekey 2
+         0.0000000    4.0000000
+         1.5666699    4.0000000
+  endnode
+  node emitter fount0203
+    parent tcd01_p70_01a
+    birthratekey 2
+         0.0000000    4.0000000
+         1.5666699    4.0000000
+  endnode
+  node emitter fount0202
+    parent tcd01_p70_01a
+    birthratekey 2
+         0.0000000    4.0000000
+         1.5666699    4.0000000
+  endnode
+  node dummy CenterDummy
+    parent tcd01_p70_01a
+    orientationkey 9
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.2000000    0.0000000    0.0000000    1.0000000   -1.5707999
+         0.4000000    0.0000000    0.0000000    1.0000000   -3.1415901
+         0.6000000    0.0000000    0.0000000    1.0000000   -4.7123899
+         0.8000000    0.0000000    0.0000000    0.0000000    0.0000000
+         1.0000000    0.0000000    0.0000000   -1.0000000   -4.7123899
+         1.2000000    0.0000000    0.0000000   -1.0000000   -3.1415901
+         1.4000000    0.0000000    0.0000000   -1.0000000   -1.5707999
+         1.5666699    0.0000000    0.0000000   -1.0000000   -0.1745330
+  endnode
+  node emitter fount0205
+    parent CenterDummy
+    birthratekey 2
+         0.0000000   12.0000000
+         1.5666699   12.0000000
+  endnode
+  node emitter fount0206
+    parent CenterDummy
+    birthratekey 2
+         0.0000000   12.0000000
+         1.5666699   12.0000000
+  endnode
+  node emitter fount0207
+    parent CenterDummy
+    birthratekey 2
+         0.0000000   15.0000000
+         1.5666699   15.0000000
+  endnode
+  node emitter fount0205
+    parent CenterDummy
+  endnode
+  node emitter fount0206
+    parent CenterDummy
+  endnode
+  node emitter fount0207
+    parent CenterDummy
+  endnode
+  node trimesh Water
+    parent tcd01_p70_01a
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node light tcd01_p70_01ml1
+    parent tcd01_p70_01
+  endnode
+  node trimesh Floor
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh02
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh03
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh04
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh05
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh06
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh07
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh08
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node aabb WOK
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    shadow 0
+    transparencyhint 0
+  endnode
+  node trimesh PoolBase
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh PoolSides
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Groups02321
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node light tcd01_p70_01ml2
+    parent tcd01_p70_01
+  endnode
+doneanim animloop01 tcd01_p70_01
+
+#MAXANIM ASCII
+newanim tiledefault tcd01_p70_01
+  length 0
+  transtime 0
+  animroot tcd01_p70_01
+  node dummy tcd01_p70_01
+    parent NULL
+  endnode
+  node dummy tcd01_p70_01a
+    parent tcd01_p70_01
+  endnode
+  node emitter fount0201
+    parent tcd01_p70_01a
+  endnode
+  node emitter fount0203
+    parent tcd01_p70_01a
+  endnode
+  node emitter fount0202
+    parent tcd01_p70_01a
+  endnode
+  node dummy CenterDummy
+    parent tcd01_p70_01a
+  endnode
+  node emitter fount0205
+    parent CenterDummy
+  endnode
+  node emitter fount0206
+    parent CenterDummy
+  endnode
+  node emitter fount0207
+    parent CenterDummy
+  endnode
+  node emitter fount0205
+    parent CenterDummy
+  endnode
+  node emitter fount0206
+    parent CenterDummy
+  endnode
+  node emitter fount0207
+    parent CenterDummy
+  endnode
+  node trimesh Water
+    parent tcd01_p70_01a
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node light tcd01_p70_01ml1
+    parent tcd01_p70_01
+  endnode
+  node trimesh Floor
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh01
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh02
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh03
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh04
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh05
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh06
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh07
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Mesh08
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node aabb WOK
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    shadow 0
+    transparencyhint 0
+  endnode
+  node trimesh PoolBase
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh PoolSides
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node trimesh Groups02321
+    parent tcd01_p70_01
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+  node light tcd01_p70_01ml2
+    parent tcd01_p70_01
+  endnode
+doneanim tiledefault tcd01_p70_01
+
+donemodel tcd01_p70_01
