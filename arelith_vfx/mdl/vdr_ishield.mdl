@@ -1,23 +1,23 @@
 #MAXMODEL ASCII
-# model: vdr_ishield
-filedependancy vdr_ishield.max
-newmodel vdr_ishield
-setsupermodel vdr_ishield NULL
+# model: vdr_eleshield
+filedependancy vdr_eleshield.max
+newmodel vdr_eleshield
+setsupermodel vdr_eleshield NULL
 classification EFFECT
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom vdr_ishield
-node dummy vdr_ishield
+beginmodelgeom vdr_eleshield
+node dummy vdr_eleshield
   parent NULL
 endnode
 node trimesh Cylinder02
-  parent vdr_ishield
+  parent vdr_eleshield
   ambient 1 1 1
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
   shadow 0
-  bitmap fxpa_ice02
+  bitmap fxpa_flame02
   verts 36
        1.1009200    0.4007040    0.6054860
        0.9992880    0.0000000    0.0118980
@@ -174,7 +174,7 @@ node trimesh Cylinder02
   selfillumcolor 0 0 0
 endnode
 node dummy Dummy01
-  parent vdr_ishield
+  parent vdr_eleshield
   position 0 0 0
   orientation 0 0 0 0
 endnode
@@ -316,7 +316,7 @@ node emitter Flame01
   update Fountain
   render Normal
   blend Lighten
-  texture fxpa_IceBb
+  texture fxpa_FireBb
   xgrid 4
   ygrid 4
   loop 0
@@ -358,18 +358,18 @@ node emitter Flame01
   grav 0
   threshold 0
 endnode
-endmodelgeom vdr_ishield
+endmodelgeom vdr_eleshield
 
 #MAXANIM ASCII
-newanim impact vdr_ishield
+newanim impact vdr_eleshield
   length 0.966667
   transtime 0.25
-  animroot vdr_ishield
-  node dummy vdr_ishield
+  animroot vdr_eleshield
+  node dummy vdr_eleshield
     parent NULL
   endnode
   node trimesh Cylinder02
-    parent vdr_ishield
+    parent vdr_eleshield
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -380,7 +380,7 @@ newanim impact vdr_ishield
          0.9666670    1.0000000
   endnode
   node dummy Dummy01
-    parent vdr_ishield
+    parent vdr_eleshield
     orientationkey 5
          0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
          0.2333330   -0.0000000   -0.0000000    1.0000000   -1.5707999
@@ -421,18 +421,18 @@ newanim impact vdr_ishield
          0.5000000    0.4000000
          0.5333330    0.0000000
   endnode
-doneanim impact vdr_ishield
+doneanim impact vdr_eleshield
 
 #MAXANIM ASCII
-newanim duration vdr_ishield
+newanim duration vdr_eleshield
   length 1
   transtime 0.25
-  animroot vdr_ishield
-  node dummy vdr_ishield
+  animroot vdr_eleshield
+  node dummy vdr_eleshield
     parent NULL
   endnode
   node trimesh Cylinder02
-    parent vdr_ishield
+    parent vdr_eleshield
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -442,7 +442,7 @@ newanim duration vdr_ishield
          1.0000000    1.0000000
   endnode
   node dummy Dummy01
-    parent vdr_ishield
+    parent vdr_eleshield
     orientationkey 5
          0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
          0.2333330   -0.0000000   -0.0000000   -1.0000000   -4.7123899
@@ -466,18 +466,18 @@ newanim duration vdr_ishield
     parent Dummy01
     alphaStart 0
   endnode
-doneanim duration vdr_ishield
+doneanim duration vdr_eleshield
 
 #MAXANIM ASCII
-newanim cessation vdr_ishield
+newanim cessation vdr_eleshield
   length 1
   transtime 0.25
-  animroot vdr_ishield
-  node dummy vdr_ishield
+  animroot vdr_eleshield
+  node dummy vdr_eleshield
     parent NULL
   endnode
   node trimesh Cylinder02
-    parent vdr_ishield
+    parent vdr_eleshield
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -487,7 +487,7 @@ newanim cessation vdr_ishield
          0.3333330    0.0000000
   endnode
   node dummy Dummy01
-    parent vdr_ishield
+    parent vdr_eleshield
     orientationkey 7
          0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
          0.1333330   -0.0000000   -0.0000000    1.0000000   -1.5707999
@@ -512,6 +512,6 @@ newanim cessation vdr_ishield
   node emitter Flame01
     parent Dummy01
   endnode
-doneanim cessation vdr_ishield
+doneanim cessation vdr_eleshield
 
-donemodel vdr_ishield
+donemodel vdr_eleshield
