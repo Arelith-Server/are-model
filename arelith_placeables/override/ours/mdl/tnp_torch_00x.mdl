@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: tnp_torch_001 
+# model: tnp_torch_00x 
 filedependancy torch_01.max
-newmodel tnp_torch_001 
-setsupermodel tnp_torch_001 NULL
+newmodel tnp_torch_00x 
+setsupermodel tnp_torch_00x NULL
 classification Character
 setanimationscale 1.0
 #MAXGEOM  ASCII
-beginmodelgeom tnp_torch_001 
-node dummy tnp_torch_001 
+beginmodelgeom tnp_torch_00x 
+node dummy tnp_torch_00x 
   parent NULL 
 endnode
 node dummy base 
-  parent tnp_torch_001 
+  parent tnp_torch_00x 
   position 0.0 0.0 0.0
   orientation  0.0 0.0 -1.0  -3.14159
   wirecolor 0.109804 0.109804 0.694118  
@@ -400,18 +400,18 @@ node trimesh torch01
      -0.97053 1.10396 0 
      -0.97053 0.0225297 0 
 endnode
-endmodelgeom tnp_torch_001 
+endmodelgeom tnp_torch_00x 
 
 #MAXANIM ASCII
-newanim default tnp_torch_001 
+newanim default tnp_torch_00x 
  length 0.666667
  transtime 0.25
-animroot tnp_torch_001
-node dummy tnp_torch_001 
+animroot tnp_torch_00x
+node dummy tnp_torch_00x 
   parent NULL 
 endnode
 node dummy base 
-  parent tnp_torch_001 
+  parent tnp_torch_00x 
 endnode
 node dummy torch07 
   parent base 
@@ -673,24 +673,24 @@ endnode
 node dummy torch01 
   parent base 
 endnode
-node dummy tnp_torch_001_pwk 
-  parent tnp_torch_001 
+node dummy tnp_torch_00x_pwk 
+  parent tnp_torch_00x 
 endnode
 node dummy 001_pwk_use01 
-  parent tnp_torch_001_pwk 
+  parent tnp_torch_00x_pwk 
 endnode
-doneanim default tnp_torch_001 
+doneanim default tnp_torch_00x 
 
 #MAXANIM ASCII
-newanim on tnp_torch_001 
+newanim on tnp_torch_00x 
  length 0.666667
  transtime 0.25
-animroot tnp_torch_001
-node dummy tnp_torch_001 
+animroot tnp_torch_00x
+node dummy tnp_torch_00x 
   parent NULL 
 endnode
 node dummy base 
-  parent tnp_torch_001 
+  parent tnp_torch_00x 
 endnode
 node dummy torch07 
   parent base 
@@ -952,24 +952,24 @@ endnode
 node dummy torch01 
   parent base 
 endnode
-node dummy tnp_torch_001_pwk 
-  parent tnp_torch_001 
+node dummy tnp_torch_00x_pwk 
+  parent tnp_torch_00x 
 endnode
 node dummy 001_pwk_use01 
-  parent tnp_torch_001_pwk 
+  parent tnp_torch_00x_pwk 
 endnode
-doneanim on tnp_torch_001 
+doneanim on tnp_torch_00x 
 
 #MAXANIM ASCII
-newanim off tnp_torch_001 
+newanim off tnp_torch_00x 
  length 0.0
  transtime 0.25
-animroot tnp_torch_001
-node dummy tnp_torch_001 
+animroot tnp_torch_00x
+node dummy tnp_torch_00x 
   parent NULL 
 endnode
 node dummy base 
-  parent tnp_torch_001 
+  parent tnp_torch_00x 
 endnode
 node dummy torch07 
   parent base 
@@ -1338,13 +1338,13 @@ endnode
 node dummy torch01 
   parent base 
 endnode
-node dummy tnp_torch_001_pwk 
-  parent tnp_torch_001 
+node dummy tnp_torch_00x_pwk 
+  parent tnp_torch_00x 
 endnode
 node dummy 001_pwk_use01 
-  parent tnp_torch_001_pwk 
+  parent tnp_torch_00x_pwk 
 endnode
-doneanim off tnp_torch_001 
+doneanim off tnp_torch_00x 
 
-donemodel tnp_torch_001 
+donemodel tnp_torch_00x 
 
