@@ -1,0 +1,38 @@
+#MAXMODEL ASCII
+# model: tcd01_z10_01
+filedependancy tcd01_z10_01.max
+newmodel tcd01_z10_01
+setsupermodel tcd01_z10_01 null
+classification TILE
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tcd01_z10_01
+node dummy tcd01_z10_01
+  parent NULL
+endnode
+node trimesh wall
+  parent tcd01_z10_01
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 11
+  bitmap tde01_black
+  verts 4
+      -5.0000000    5.0000000    0.0000000
+      -5.0000000   -5.0000000    0.0000000
+       5.0000000    5.0000000    0.0000000
+       5.0000000   -5.0000000    0.0000000
+  tverts 4
+       0.0004998    0.9995010  0
+       0.0004995    0.0004998  0
+       0.9995010    0.9995000  0
+       0.9995000    0.0004995  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 0 0 6.2
+  orientation 0 0 0 0
+endnode
+endmodelgeom tcd01_z10_01
+
+donemodel tcd01_z10_01

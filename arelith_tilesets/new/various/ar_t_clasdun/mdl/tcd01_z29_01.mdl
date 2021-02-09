@@ -1,0 +1,67 @@
+#MAXMODEL ASCII
+# model: tcd01_z29_01
+filedependancy tcd01_z29_01.max
+newmodel tcd01_z29_01
+setsupermodel tcd01_z29_01 null
+classification TILE
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tcd01_z29_01
+node dummy tcd01_z29_01
+  parent NULL
+endnode
+node trimesh pitfloor01
+  parent tcd01_z29_01
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 10
+  bitmap tx_black
+  verts 4
+      -5.0500002    5.0500002    0.0000000
+      -5.0500002   -5.0500002    0.0000000
+       5.0500002    5.0500002    0.0000000
+       5.0500002   -5.0500002    0.0000000
+  tverts 4
+      -6.4374900    1.0045000  0
+      -6.4374900   -0.0044953  0
+       1.0365000    1.0045000  0
+       1.0365000   -0.0044955  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 0 0 -4.98
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+node trimesh roof01
+  parent tcd01_z29_01
+  ambient 0.898039 0.898039 0.898039
+  diffuse 0.898039 0.898039 0.898039
+  specular 0 0 0
+  shininess 10
+  rotatetexture 1
+  tilefade 0
+  bitmap tx_stone00
+  verts 4
+       5.0000000    5.0000000    0.0000000
+       5.0000000   -5.0000000    0.0000000
+      -5.0000000    5.0000000    0.0000000
+      -5.0000000   -5.0000000    0.0000000
+  tverts 4
+       0.0009995    1.9990000  0
+       0.0009990    0.0009995  0
+       1.9990000    1.9990000  0
+       1.9990000    0.0009990  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 0 0 8
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+endnode
+endmodelgeom tcd01_z29_01
+
+donemodel tcd01_z29_01
