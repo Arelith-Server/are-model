@@ -1,0 +1,39 @@
+/** **********************************
+*   Full screen loadscreen system.
+*********************************** */
+
+uniform highp int screenWidth;
+uniform highp int screenHeight;
+uniform highp mat4 m_mvp;
+uniform highp mat4 m_texture;
+attribute highp vec4 vPos;
+attribute highp vec2 vTcIn;
+varying highp vec2 vVertexTexCoords;
+
+void main ()
+{
+    float modelWidth = 3760.0;
+    float modelHeight = 2048.0;
+    float screenWidth = float(screenWidth);
+    float screenHeight = float(screenHeight);
+    highp float modelRatio = modelWidth / modelHeight;
+    highp float screenRatio = screenWidth / screenHeight;
+    highp float x = screenWidth / modelWidth;
+    highp float y = screenHeight / modelHeight;
+
+    if (screenRatio < modelRatio)
+        x = y;
+    else
+        y = x;
+
+    //vec4 vPosProj = m_mvp * vPos;
+    mat4 m = mat4(
+        x,   0.0, 0.0, 0.0,
+        0.0, y,   0.0, 0.0,
+        0.0, 0.0, 1.0, 0.0,
+        0.0, 0.0, 0.0, 1.0
+        );
+    gl_Position = m_mvp * vPos * m;
+
+    vVertexTexCoords = (m_texture * vec4(vTcIn.x, vTcIn.y, 0.0, 1.0)).xy;
+}

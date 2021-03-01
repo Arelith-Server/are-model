@@ -1,0 +1,78 @@
+#MAXMODEL ASCII
+newmodel ctl_loadstatus
+    filedependency Unknown
+    classification CHARACTER
+    setsupermodel ctl_loadstatus NULL
+    setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_loadstatus
+    node dummy ctl_loadstatus
+        parent NULL
+    endnode
+    node animmesh loader_bar
+        parent ctl_loadstatus
+        orientation 0 0 0 0
+        position 0 1.87 10
+        bitmap ls_loader
+        materialname ls_m_loader
+        verts 4
+            -4 0.1 0
+            -4 -0.1 0
+            -3.9 0.1 0
+            -3.9 -0.1 0
+        faces 2
+            0 1 3  1  0 1 3  1
+            3 2 0  1  3 2 0  1
+        tverts 4
+            0.01 1 0
+            0.01 0 0
+            0.3 1 0
+            0.3 0 0
+    endnode
+endmodelgeom ctl_loadstatus
+
+newanim percentage ctl_loadstatus
+    length 3.33333
+    transtime 0
+    animroot ctl_loadstatus
+    node dummy ctl_loadstatus
+        parent NULL
+    endnode
+    node animmesh loader_bar
+        parent ctl_loadstatus
+        sampleperiod 3.33333
+        verts 4
+            -4 0.1 0
+            -4 -0.1 0
+            -3.9 0.1 0
+            -3.9 -0.1 0
+        faces 2
+            0 1 3  1  0 1 3  1
+            3 2 0  1  3 2 0  1
+        tverts 4
+            0.01 1 0
+            0.01 0 0
+            0.3 1 0
+            0.3 0 0
+        animverts 8
+            -4 0.1 0
+            -4 -0.1 0
+            -3.9 0.1 0
+            -3.9 -0.1 0
+            -4 0.1 0
+            -4 -0.1 0
+            4 0.1 0
+            4 -0.1 0
+        animtverts 8
+            0.01 1 0
+            0.01 0 0
+            0.3 1 0
+            0.3 0 0
+            0.01 1 0
+            0.01 0 0
+            0.99 1 0
+            0.99 0 0
+    endnode
+doneanim percentage ctl_loadstatus
+
+donemodel ctl_loadstatus
