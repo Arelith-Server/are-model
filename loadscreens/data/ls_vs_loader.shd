@@ -2,6 +2,7 @@
 *   Full screen loadscreen system.
 *********************************** */
 
+uniform highp vec2 screenParams;
 uniform highp int screenWidth;
 uniform highp int screenHeight;
 uniform highp mat4 m_mvp;
@@ -12,14 +13,19 @@ varying highp vec2 vVertexTexCoords;
 
 void main ()
 {
-    float modelWidth = 800.0;
-    float modelHeight = 20.0;
-    highp float screenWidth = float(screenWidth);
-    highp float screenHeight = float(screenHeight);
+    float modelX = 800.0;
+    float modelY = 20.0;
+    highp float screenX = screenParams.x;
+    highp float screenY = screenParams.y;
+    if (! bool(screenX))
+        screenX = float(screenWidth);
+    if (! bool(screenY))
+        screenY = float(screenHeight);
+
     float yPadding = 10.0;
     float xPadding = 14.0;
-    highp float x = screenWidth / modelWidth - 2 * xPadding / screenWidth;
-    highp float yOffset = 1.0 - modelHeight / screenHeight - yPadding / screenHeight;
+    highp float x = screenX / modelX - 2 * xPadding / screenX;
+    highp float yOffset = 1.0 - modelY / screenY - yPadding / screenY;
 
     highp vec4 vPosProj = m_mvp * vPos;
     // push the bar at the top of the screen

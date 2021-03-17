@@ -2,6 +2,7 @@
 *   Full screen loadscreen system.
 *********************************** */
 
+uniform highp vec2 screenParams;
 uniform highp int screenWidth;
 uniform highp int screenHeight;
 uniform highp mat4 m_mvp;
@@ -12,14 +13,19 @@ varying highp vec2 vVertexTexCoords;
 
 void main ()
 {
-    float modelWidth = 3760.0;
-    float modelHeight = 2048.0;
-    float screenWidth = float(screenWidth);
-    float screenHeight = float(screenHeight);
-    highp float modelRatio = modelWidth / modelHeight;
-    highp float screenRatio = screenWidth / screenHeight;
-    highp float x = screenWidth / modelWidth;
-    highp float y = screenHeight / modelHeight;
+    float modelX = 3760.0;
+    float modelY = 2048.0;
+    highp float screenX = screenParams.x;
+    highp float screenY = screenParams.y;
+    if (! bool(screenX))
+        screenX = float(screenWidth);
+    if (! bool(screenY))
+        screenY = float(screenHeight);
+
+    highp float modelRatio = modelX / modelY;
+    highp float screenRatio = screenX / screenY;
+    highp float x = screenX / modelX;
+    highp float y = screenY / modelY;
 
     if (screenRatio < modelRatio)
         x = y;
