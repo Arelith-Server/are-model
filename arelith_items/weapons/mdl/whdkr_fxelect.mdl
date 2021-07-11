@@ -1,0 +1,82 @@
+# Exported from blender Wednesday, 2021-03-17
+filedependancy CHARACTER
+newmodel whdkr_fxelect
+setsupermodel whdkr_fxelect null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom whdkr_fxelect
+node dummy whdkr_fxelect
+  parent null
+endnode
+node emitter g_whdkr_v_elec_b01
+  parent whdkr_fxelect
+  position  0.00000  0.00000  -0.24800
+  orientation  0.00000  1.00000  0.00000  1.57080
+  xsize 31.00000023841858
+  ysize 10.40000629425049
+  alpha 0.5
+  wirecolor 0.603922 0.603922 0.898039
+  colorStart 1 1 1
+  colorEnd 0.572549 0.643137 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 10
+  spawntype 0
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 12
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Linked
+  blend Lighten
+  deadspace 0
+  blurlength 10
+  lightningDelay 0.05
+  lightningRadius 0.05
+  lightningScale 0.5
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 1
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 10
+  drag 0.2
+  grav 0
+  threshold 0
+  texture fxpa_lightning2
+  xgrid 2
+  ygrid 2
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+endnode
+node reference g_whdkr_v_elec_b_ref01
+  parent g_whdkr_v_elec_b01
+  position 0.14 0 0
+  orientation 0 1 0 -1.5708
+  wirecolor 0.898039 0.603922 0.843137
+  refModel fx_ref
+  reattachable 1
+endnode
+endmodelgeom whdkr_fxelect
+donemodel whdkr_fxelect
