@@ -1,0 +1,89 @@
+#MAXMODEL ASCII
+# model: light_blue
+filedependancy light_blue.max
+newmodel light_blue
+setsupermodel light_blue NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom light_blue
+node dummy light_blue
+  parent NULL
+endnode
+node trimesh Rectangle13
+  parent light_blue
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 8
+    -0.300000012 -0.300000012 0.177000001
+    0.300000012 -0.300000012 0.177000001
+    0.300000012 0.300000012 0.177000001
+    -0.300000012 0.300000012 0.177000001
+    -0.300000012 -0.300000012 0
+    0.300000012 -0.300000012 0
+    0.300000012 0.300000012 0
+    -0.300000012 0.300000012 0
+  faces 10
+    0 1 2 1 0 0 0 1
+    3 0 2 1 0 0 0 1
+    4 5 1 2 0 0 0 1
+    1 0 4 2 0 0 0 1
+    5 6 2 4 0 0 0 1
+    2 1 5 4 0 0 0 1
+    7 4 0 4 0 0 0 1
+    0 3 7 4 0 0 0 1
+    6 7 3 2 0 0 0 1
+    3 2 6 2 0 0 0 1
+  position 0 0 0
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  setfillumcolor 0 0 0
+endnode
+node light LightGlow
+  parent light_blue
+  ambientonly 0
+  shadow 0
+  isdynamic 1
+  affectdynamic 1
+  lightpriority 2
+  fadingLight 1
+  flareradius 0
+  position 0 0 0.5
+  orientation 0 0 0 0
+  radius 6
+  multiplier 4
+  color 0 0 1
+endnode
+node dummy blu_hand
+  parent light_blue
+  position 0.0039843698 -0.505195022 0.934401989
+  orientation 0 0 0 0
+endnode
+node dummy blu_head
+  parent light_blue
+  position 0.0039843698 0.0108252 1.21001995
+  orientation 0 0 0 0
+endnode
+node dummy blu_head_hit
+  parent light_blue
+  position 0.0039843698 0.0108252 0.533897996
+  orientation 0 0 0 0
+endnode
+node dummy blu_impact
+  parent light_blue
+  position 0.0039843698 0.0110010002 0.250216007
+  orientation 0 0 0 0
+endnode
+node dummy blu_ground
+  parent light_blue
+  position -0.00363280997 0.00698729977 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom light_blue
+
+donemodel light_blue
