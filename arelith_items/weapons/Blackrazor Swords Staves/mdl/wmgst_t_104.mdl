@@ -1,15 +1,15 @@
 # Exported from Blender on Monday, 2021-08-16
 filedependancy unknown
-newmodel WMgSt_t_101
-setsupermodel WMgSt_t_101 null
+newmodel WMgSt_t_104
+setsupermodel WMgSt_t_104 null
 classification TILE
 setanimationscale 1.0
-beginmodelgeom WMgSt_t_101
-node dummy WMgSt_t_101
+beginmodelgeom WMgSt_t_104
+node dummy WMgSt_t_104
   parent null
 endnode
-node trimesh g_WMgSt_t_101
-  parent WMgSt_t_101
+node trimesh g_WMgSt_t_104
+  parent WMgSt_t_104
   position  0.00000  0.00000 -0.00015
   orientation  1.00000  0.00000  0.00000  1.57080
   wirecolor 0.55 0.55 0.55
@@ -48,10 +48,10 @@ node trimesh g_WMgSt_t_101
     -0.00024 -0.07512 -1.18206
      0.00000  0.07541 -1.18206
   tverts 4
-     0.0152  0.5139  0
-     0.2425  0.5139  0
-     0.2425  0.7411  0
-     0.0152  0.7411  0
+     0.7608  0.5065  0
+     0.9881  0.5065  0
+     0.9881  0.7337  0
+     0.7608  0.7337  0
   faces 42
      0  1  2 1  0 1 2 0
      0  2  3 1  0 1 2 0
@@ -97,8 +97,8 @@ node trimesh g_WMgSt_t_101
     22 21 24 2  0 1 2 0
 endnode
 node emitter star26
-  parent g_WMgSt_t_101
-  position 0 0 -1.12958
+  parent g_WMgSt_t_104
+  position  0 0 -1.12958
   orientation -0.57735  0.57735 -0.57735  2.09440
   xsize 0.00
   ysize 0.00
@@ -119,7 +119,7 @@ node emitter star26
   colorstart 1.00 1.00 1.00
   colorend 1.00 1.00 1.00
   alphastart 1.00
-  alphaend 0.8
+  alphaend 1.00
   sizestart 0.30
   sizeend 0.00
   sizestart_y 0.00
@@ -146,8 +146,8 @@ node emitter star26
   inherit_part 0
 endnode
 node emitter Spin02
-  parent g_WMgSt_t_101
-  position 0 0 -1.12935
+  parent g_WMgSt_t_104
+  position  0 0 -1.12935
   orientation -0.57735  0.57735 -0.57735  2.09439
   xsize 2.00
   ysize 2.00
@@ -165,10 +165,10 @@ node emitter Spin02
   spread 0.00
   splat 0
   affectedbywind 0
-  colorstart 0.12 0.12 0.12
-  colorend 0.12 0.51 0.94
-  alphastart 1.00
-  alphaend 1.00
+  colorstart 1 0.02 0
+  colorend 1 0.70 0
+  alphastart 0.85
+  alphaend 0.70
   sizestart 0.60
   sizeend 0.10
   sizestart_y 0.00
@@ -194,5 +194,5 @@ node emitter Spin02
   inherit_local 0
   inherit_part 0
 endnode
-endmodelgeom WMgSt_t_101
-donemodel WMgSt_t_101
+endmodelgeom WMgSt_t_104
+donemodel WMgSt_t_104
