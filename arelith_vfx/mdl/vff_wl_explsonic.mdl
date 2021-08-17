@@ -1,0 +1,297 @@
+#MAXMODEL ASCII
+# model: vff_wl_explsonic
+filedependancy vff_wl_explsonic.max
+newmodel vff_wl_explsonic
+setsupermodel vff_wl_explsonic NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vff_wl_explsonic
+node dummy vff_wl_explsonic
+  parent NULL
+  #part-number 0
+endnode
+node emitter Blast_wave_1
+  parent vff_wl_explsonic
+  #part-number 1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Billboard_to_World_Z
+  blend Lighten
+  texture FXPA_RINGWAVE
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 1
+  orientation -1 0 0 -1.6
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 10
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 2
+  lifeExp 0.75
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Blast_01
+  parent vff_wl_explsonic
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Motion_Blur
+  blend Lighten
+  texture fxpa_Dot01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.7
+  alphaEnd 0
+  sizeStart 0.75
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 150
+  lifeExp 0.75
+  mass 0
+  spread 15
+  particleRot 0
+  velocity 10
+  randvel 4
+  fps 0
+  xsize 0.5
+  ysize 0.5
+  bounce_co 3
+  blurlength 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter flareburst_1
+  parent vff_wl_explsonic
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Flare1
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 1.5
+  orientation 0 0 0 0
+  xsize 250
+  ysize 250
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 3
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 0.2
+  mass 0
+  spread 4
+  particleRot 1.6
+  velocity 0.5
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  fps 60
+  frameStart 0
+  frameEnd 3
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter flareburst_2
+  parent vff_wl_explsonic
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Flare1
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.5
+  orientation 0 0 0 0
+  xsize 250
+  ysize 250
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 3
+  sizeEnd 0.8
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 0.1
+  mass 0
+  spread 4
+  particleRot 0
+  velocity 0.2
+  randvel 0.2
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 3
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom vff_wl_explsonic
+
+#MAXANIM ASCII
+newanim impact vff_wl_explsonic
+  length 0.7
+  transtime 0.25
+  animroot vff_wl_explsonic
+  event 0 detonate
+  event 0 detonate
+  event 0.133332998 detonate
+node dummy vff_wl_explsonic
+  parent NULL
+  #part-number 0
+endnode
+node emitter Blast_wave_1
+  parent vff_wl_explsonic
+  birthratekey 1
+    0.133332998 2
+endnode
+endnode
+node emitter Blast_01
+  parent vff_wl_explsonic
+endnode
+node emitter flareburst_1
+  parent vff_wl_explsonic
+  birthratekey 4
+       0.0  0
+       0.01 100
+       0.7  100
+       0.71 0
+endnode
+node emitter flareburst_2
+  parent vff_wl_explsonic
+  birthratekey 4
+       0.0  0
+       0.01 100
+       0.7  100
+       0.71 0
+endnode
+doneanim impact vff_wl_explsonic
+
+donemodel vff_wl_explsonic

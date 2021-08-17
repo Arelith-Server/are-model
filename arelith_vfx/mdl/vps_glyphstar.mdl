@@ -1,0 +1,521 @@
+#MAXMODEL ASCII
+# model: vps_glyphstar
+filedependancy vps_glyphstar.max
+newmodel vps_glyphstar
+setsupermodel vps_glyphstar NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vps_glyphstar
+node dummy vps_glyphstar
+  parent NULL
+  #part-number 0
+endnode
+node emitter Nebula
+  parent vps_glyphstar
+  #part-number 3
+  p2p 0
+  p2p_sel 1
+  affectedByWind 1
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 1
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.241205007
+  orientation 0 0 0 0
+  colorStart 0.6 0.1 0.9
+  colorEnd 0.6 0 1
+  alphaStart 0.05
+  alphaEnd 0.02
+  sizeStart 5
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 30
+  lifeExp 4
+  mass 0.5
+  spread 50
+  particleRot 0
+  velocity 2
+  randvel 1
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 1
+  blurlength 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node dummy Dummy_rot
+  parent vps_glyphstar
+  #part-number 3
+  position 0 0 -0.483087003
+  orientation 0 0 0 0
+endnode
+node emitter AuraEmitter03
+  parent Dummy_rot
+  #part-number 4
+  p2p 1
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 1.43760002
+  orientation 0 0 0 0
+  colorStart 1 0 1
+  colorEnd 1 0.5 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.200000003
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 100
+  lifeExp 1.60000002
+  mass 0
+  spread 4.53785992
+  particleRot 0
+  velocity 6.5
+  randvel 1
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0.300000012
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 1
+  grav 0
+  threshold 0
+endnode
+node reference AuraRef01
+  parent AuraEmitter03
+  #part-number 5
+  refModel fx_ref
+  reattachable 0
+  position 0 0 -0.0431074016
+  orientation 0 0 0 0
+endnode
+node emitter CircleRunes
+  parent vps_glyphstar
+  #part-number 7
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Symbl_1344a
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.0133555001
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  lifeExp -1
+  mass 0
+  spread 0
+  particleRot 0.08
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter CircleStarfield
+  parent vps_glyphstar
+  #part-number 7
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Symbl_1344b
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.0133555001
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  lifeExp -1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vps_glyphstar
+
+#MAXANIM ASCII
+newanim impact vps_glyphstar
+  length 0.300000012
+  transtime 0
+  animroot vps_glyphstar
+node dummy vps_glyphstar
+  parent NULL
+  #part-number 0
+endnode
+node emitter Nebula
+  parent vps_glyphstar
+  birthratekey 4
+    0 0
+    0.1 0
+    0.2 30
+    0.3 30
+endnode
+node dummy Dummy_rot
+  parent vps_glyphstar
+  #part-number 3
+  orientationkey 1
+    0.300000012 0 0 0 0
+endnode
+node emitter AuraEmitter03
+  parent Dummy_rot
+  #part-number 4
+endnode
+node dummy AuraRef01
+  parent AuraEmitter03
+  #part-number 5
+endnode
+node emitter CircleRunes
+  parent vps_glyphstar
+  #part-number 7
+  alphaStartkey 1
+    0.300000012 1
+  alphaEndkey 1
+    0.300000012 1
+  sizeStartkey 4
+    0 0
+    0.166666999 6
+    0.200000003 6
+    0.300000012 6
+  sizeEndkey 4
+    0 0
+    0.166666999 6
+    0.200000003 6
+    0.300000012 6
+endnode
+node emitter CircleStarfield
+  parent vps_glyphstar
+  alphaStartkey 1
+    0.300000012 1
+  alphaEndkey 1
+    0.300000012 1
+  sizeStartkey 4
+    0 0
+    0.166666999 6
+    0.200000003 6
+    0.300000012 6
+  sizeEndkey 4
+    0 0
+    0.166666999 6
+    0.200000003 6
+    0.300000012 6
+endnode
+doneanim impact vps_glyphstar
+
+#MAXANIM ASCII
+newanim duration vps_glyphstar
+  length 1
+  transtime 0
+  animroot vps_glyphstar
+node dummy vps_glyphstar
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy_rot
+  parent vps_glyphstar
+  #part-number 3
+  orientationkey 5
+    0 0 0 0 0
+    0.266667008 -0 -0 -1 -1.57079995
+    0.5 -0 -0 -1 -3.14159012
+    0.766667008 -0 -0 -1 -4.71238995
+    1 0 0 0 0
+endnode
+node emitter Nebula
+  parent vps_glyphstar
+  birthratekey 4
+    0 30
+    0.03 30
+    0.96 30
+    1 30
+endnode
+node emitter AuraEmitter03
+  parent Dummy_rot
+  #part-number 4
+endnode
+node dummy AuraRef01
+  parent AuraEmitter03
+  #part-number 5
+endnode
+node emitter CircleRunes
+  parent vps_glyphstar
+  #part-number 7
+  alphaStartkey 5
+    0 1
+    0.0333333015 1
+    0.433333009 0.699999988
+    0.966666996 1
+    1 1
+  alphaEndkey 5
+    0 1
+    0.0333333015 1
+    0.433333009 0.699999988
+    0.966666996 1
+    1 1
+  sizeStartkey 4
+    0 6
+    0.0333333015 6
+    0.966666996 6
+    1 6
+  sizeEndkey 4
+    0 6
+    0.0333333015 6
+    0.966666996 6
+    1 6
+endnode
+node emitter CircleStarfield
+  parent vps_glyphstar
+  alphaStartkey 5
+    0 1
+    0.0333333015 1
+    0.433333009 0.699999988
+    0.966666996 1
+    1 1
+  alphaEndkey 5
+    0 1
+    0.0333333015 1
+    0.433333009 0.699999988
+    0.966666996 1
+    1 1
+  sizeStartkey 4
+    0 6
+    0.0333333015 6
+    0.966666996 6
+    1 6
+  sizeEndkey 4
+    0 6
+    0.0333333015 6
+    0.966666996 6
+    1 6
+endnode
+doneanim duration vps_glyphstar
+
+#MAXANIM ASCII
+newanim cessation vps_glyphstar
+  length 2
+  transtime 0
+  animroot vps_glyphstar
+  event 0.200000003 detonate
+node dummy vps_glyphstar
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy_rot
+  parent vps_glyphstar
+  #part-number 3
+  orientationkey 10
+    0 0 0 0 0
+    0.233333007 -0 -0 1 -4.71238995
+    0.466666996 -0 -0 1 -3.14159012
+    0.699999988 -0 -0 1 -1.57079995
+    0.93333298 0 0 0 0
+    1.16666996 -0 -0 -1 -1.57079995
+    1.36667001 -0 -0 -1 -3.14159012
+    1.56666994 -0 -0 -1 -4.71238995
+    1.76666999 0 0 0 0
+    2 -0 -0 1 -4.71238995
+endnode
+node emitter Nebula
+  parent vps_glyphstar
+  birthratekey 3
+    0 30
+    0.0333333015 0
+    0.0666666999 0
+endnode
+node emitter AuraEmitter03
+  parent Dummy_rot
+  #part-number 4
+  gravkey 5
+    0.166666999 0
+    0.200000003 0
+    0.266667008 0
+    0.300000012 5
+    0.333332986 10
+endnode
+node dummy AuraRef01
+  parent AuraEmitter03
+  #part-number 5
+endnode
+node emitter CircleRunes
+  parent vps_glyphstar
+  #part-number 7
+  alphaStartkey 2
+    0 1
+    0.200000003 1
+  alphaEndkey 2
+    0 1
+    0.200000003 1
+  sizeStartkey 5
+    0 6
+    0.200000003 6
+    0.233333007 6
+    0.533333004 0
+    0.666666985 0
+  sizeEndkey 5
+    0 6
+    0.200000003 6
+    0.233333007 6
+    0.533333004 0
+    0.666666985 0
+endnode
+node emitter CircleStarfield
+  parent vps_glyphstar
+  alphaStartkey 2
+    0 1
+    0.200000003 1
+  alphaEndkey 2
+    0 1
+    0.200000003 1
+  sizeStartkey 5
+    0 6
+    0.200000003 6
+    0.233333007 6
+    0.533333004 0
+    0.666666985 0
+  sizeEndkey 5
+    0 6
+    0.200000003 6
+    0.233333007 6
+    0.533333004 0
+    0.666666985 0
+endnode
+doneanim cessation vps_glyphstar
+
+donemodel vps_glyphstar
