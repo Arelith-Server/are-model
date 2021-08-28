@@ -1,0 +1,246 @@
+#MAXMODEL ASCII
+# model: vim_raypos
+filedependancy vim_raypos.max
+newmodel vim_raypos
+setsupermodel vim_raypos NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_raypos
+node dummy vim_raypos
+  parent NULL
+  #part-number 0
+endnode
+node emitter OmenEmitter03
+  parent vim_raypos
+  #part-number 1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Lightning
+  render Linked
+  blend Lighten
+  texture fxpa_white
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.202030003 0
+  orientation 0 0 0 0
+  colorStart 0.90 0.85 0.65
+  colorEnd 0.8 0.775 0.55
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.0500000007
+  sizeEnd 0.0500000007
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 3
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node reference OmenRef03
+  parent OmenEmitter03
+  #part-number 2
+  refModel fx_ref_holy
+  reattachable 1
+  position -0.00129215 5.9971199 0
+  orientation 0 0 0 0
+endnode
+node emitter handbal
+  parent vim_raypos
+  #part-number 3
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.202030003 0
+  orientation 0 0 0 0
+  colorStart 0.8 0.775 0.55
+  colorEnd 0.7 0.7 0.45
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.5
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 15
+  lifeExp 0.5
+  mass 0
+  spread 6.28318977
+  particleRot 0.5
+  velocity 1
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter04
+  parent vim_raypos
+  #part-number 4
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Lightning
+  render Linked
+  blend Lighten
+  texture fxpa_white
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.000494537002 0.205740005 0
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 0.705882013 0.525489986 0.905882001
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.00999999978
+  sizeEnd 0.00999999978
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 65
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0.0399999991
+  lightningScale 0.100000001
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node reference OmenRef04
+  parent OmenEmitter04
+  #part-number 5
+  refModel fx_ref
+  reattachable 1
+  position -0.00129215 5.9971199 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom vim_raypos
+
+#MAXANIM ASCII
+newanim impact vim_raypos
+  length 0
+  transtime 0
+  animroot vim_raypos
+node dummy vim_raypos
+  parent NULL
+  #part-number 0
+endnode
+node emitter OmenEmitter03
+  parent vim_raypos
+  #part-number 1
+endnode
+node dummy OmenRef03
+  parent OmenEmitter03
+  #part-number 2
+endnode
+node emitter handbal
+  parent vim_raypos
+  #part-number 3
+endnode
+node emitter OmenEmitter04
+  parent vim_raypos
+  #part-number 4
+endnode
+node dummy OmenRef04
+  parent OmenEmitter04
+  #part-number 5
+endnode
+doneanim impact vim_raypos
+
+donemodel vim_raypos

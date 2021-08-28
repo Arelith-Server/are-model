@@ -1,0 +1,350 @@
+#MAXMODEL ASCII
+# model: vim_ballmagic
+filedependancy vim_ballmagic.max
+newmodel vim_ballmagic
+setsupermodel vim_ballmagic NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_ballmagic
+node dummy vim_ballmagic
+  parent NULL
+  #part-number 0
+endnode
+node emitter Fireball_1
+  parent vim_ballmagic
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_fireball_w
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 -0.1
+  orientation 0 0 0 0
+  colorStart 1 0.7 0.8
+  colorEnd 1 0.1 0.6
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 2
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 5
+  lifeExp 1
+  mass -0.1
+  spread 0
+  particleRot -3
+  velocity 0
+  randvel 1
+  fps 25
+  xsize 20
+  ysize 20
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Fireball_02
+  parent vim_ballmagic
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 2
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_fireball_w
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 -0.1
+  orientation 0 0 0 0
+  colorStart 1 0 0.5
+  colorEnd 0.2 0 0.9
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 4
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 5
+  lifeExp 1
+  mass -0.1
+  spread 0
+  particleRot 3
+  velocity 0
+  randvel 1
+  fps 25
+  xsize 20
+  ysize 20
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Fireball_03
+  parent vim_ballmagic
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 2
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_fireball_w
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 -0.1
+  orientation 0 0 0 0
+  colorStart 1 0 0.8
+  colorEnd 0.1 0 0.8
+  alphaStart 0.4
+  alphaEnd 0.1
+  sizeStart 6
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 12
+  lifeExp 1
+  mass -0.1
+  spread 360
+  particleRot 3
+  velocity 0
+  randvel 1.2
+  fps 25
+  xsize 20
+  ysize 20
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter spkfire
+  parent vim_ballmagic
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 1 0 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.18
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 50
+  lifeExp 0.6
+  mass 0
+  spread 360
+  particleRot 0.5
+  velocity 1
+  randvel 1.5
+  fps 0
+  xsize 100
+  ysize 100
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vim_ballmagic
+
+#MAXANIM ASCII
+newanim impact vim_ballmagic
+  length 0
+  transtime 0.25
+  animroot vim_ballmagic
+node dummy vim_ballmagic
+  parent NULL
+  #part-number 0
+endnode
+node emitter Fireball_1
+  parent vim_ballmagic
+  #part-number 1
+  birthrate 5
+endnode
+node emitter Fireball_02
+  parent vim_ballmagic
+  #part-number 2
+  birthrate 5
+endnode
+node emitter Fireball_03
+  parent vim_ballmagic
+  #part-number 2
+  birthrate 12
+endnode
+node emitter spkfire
+  parent vim_ballmagic
+  #part-number 2
+  birthrate 100
+endnode
+doneanim impact vim_ballmagic
+
+#MAXANIM ASCII
+newanim duration vim_ballmagic
+  length 0
+  transtime 0.25
+  animroot vim_ballmagic
+node dummy vim_ballmagic
+  parent NULL
+endnode
+node emitter Fireball_1
+  parent vim_ballmagic
+endnode
+node emitter Fireball_02
+  parent vim_ballmagic
+endnode
+node emitter Fireball_03
+  parent vim_ballmagic
+
+endnode
+node emitter spkfire
+  parent vim_ballmagic
+endnode
+doneanim duration vim_ballmagic
+
+#MAXANIM ASCII
+newanim cessation vim_ballmagic
+  length 0.966666996
+  transtime 0.25
+  animroot vim_ballmagic
+node dummy vim_ballmagic
+  parent NULL
+  #part-number 0
+endnode
+node emitter Fireball_1
+  parent vim_ballmagic
+  #part-number 1
+  birthratekey 2
+    0 5
+    0.0333333015 0
+endnode
+node emitter Fireball_02
+  parent vim_ballmagic
+  #part-number 2
+  birthratekey 2
+    0 5
+    0.0333333015 0
+endnode
+node emitter Fireball_03
+  parent vim_ballmagic
+  #part-number 2
+  birthratekey 2
+    0 12
+    0.0333333015 0
+endnode
+node emitter spkfire
+  parent vim_ballmagic
+  #part-number 2
+  birthratekey 2
+    0 100
+    0.0333333015 0
+endnode
+doneanim cessation vim_ballmagic
+
+donemodel vim_ballmagic
