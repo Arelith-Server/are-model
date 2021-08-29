@@ -1,0 +1,191 @@
+#MAXMODEL ASCII
+# model: vim_ballneg
+filedependancy vim_ballneg.max
+newmodel vim_ballneg
+setsupermodel vim_ballneg NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_ballneg
+node dummy vim_ballneg
+  parent NULL
+  #part-number 0
+endnode
+node emitter Inferno_1
+  parent vim_ballneg
+  #part-number 1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_elect
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 1 0 0.1
+  colorEnd 0.4 0 0.2
+  alphaStart 0.3
+  alphaEnd 0.1
+  sizeStart 3
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 20
+  lifeExp 1
+  mass 0.2
+  spread 360
+  particleRot -0.2
+  velocity 0.5
+  randvel 0.3
+  fps 25
+  xsize 8
+  ysize 8
+  bounce_co 0.4
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Suffuse
+  parent vim_ballneg
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 2
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_fireball_w
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 -0.25
+  orientation 0 0 0 0
+  colorStart 1 0.1 0.1
+  colorEnd 1 0.1 0.1
+  alphaStart 0.5
+  alphaEnd 0.2
+  sizeStart 4
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 10
+  lifeExp 0.8
+  mass 0
+  spread 360
+  particleRot 0.6
+  velocity 0
+  randvel 1
+  fps 25
+  xsize 20
+  ysize 20
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vim_ballneg
+
+#MAXANIM ASCII
+newanim impact vim_ballneg
+  length 0
+  transtime 0.25
+  animroot vim_ballneg
+node dummy vim_ballneg
+  parent NULL
+endnode
+node emitter Inferno_1
+  parent vim_ballneg
+endnode
+node emitter Suffuse
+  parent vim_ballneg
+endnode
+doneanim impact vim_ballneg
+
+#MAXANIM ASCII
+newanim duration vim_ballneg
+  length 0
+  transtime 0.25
+  animroot vim_ballneg
+node dummy vim_ballneg
+  parent NULL
+endnode
+node emitter Inferno_1
+  parent vim_ballneg
+endnode
+node emitter Suffuse
+  parent vim_ballneg
+endnode
+doneanim duration vim_ballneg
+
+#MAXANIM ASCII
+newanim cessation vim_ballneg
+  length 0.966666996
+  transtime 0.25
+  animroot vim_ballneg
+node dummy vim_ballneg
+  parent NULL
+endnode
+node emitter Inferno_1
+  parent vim_ballneg
+  birthratekey 2
+    0 20
+    0.0333333015 0
+endnode
+node emitter Suffuse
+  parent vim_ballneg
+  birthratekey 2
+    0 10
+    0.0333333015 0
+endnode
+doneanim cessation vim_ballneg
+
+donemodel vim_ballneg

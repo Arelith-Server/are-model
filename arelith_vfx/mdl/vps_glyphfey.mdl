@@ -1,0 +1,578 @@
+#MAXMODEL ASCII
+# model: vps_glyphfey
+filedependancy vps_glyphfey.max
+newmodel vps_glyphfey
+setsupermodel vps_glyphfey NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vps_glyphfey
+node dummy vps_glyphfey
+  parent NULL
+  #part-number 0
+endnode
+node emitter AuraEmitter01
+  parent vps_glyphfey
+  #part-number 1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Symbl_004_w
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.044
+  orientation 0 0 0 0
+  colorStart 0.7 1 0.85
+  colorEnd 0.7 1 0.85
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  lifeExp -1
+  mass 0
+  spread 0
+  particleRot -0.16
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node dummy Dummy_rot
+  parent vps_glyphfey
+  #part-number 3
+  position 0 0 -0.48
+  orientation 0 0 0 0
+endnode
+node emitter AuraEmitter03
+  parent Dummy_rot
+  #part-number 4
+  p2p 1
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 1.44
+  orientation 0 0 0 0
+  colorStart 0.4 0.4 1
+  colorEnd 0.4 0.4 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 100
+  lifeExp 1.6
+  mass 0
+  spread 4.54
+  particleRot 0
+  velocity 6.5
+  randvel 1
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0.3
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 1
+  grav 0
+  threshold 0
+endnode
+node reference AuraRef01
+  parent AuraEmitter03
+  #part-number 5
+  refModel fx_ref
+  reattachable 0
+  position 0 0 -0.043
+  orientation 0 0 0 0
+endnode
+node emitter rings
+  parent vps_glyphfey
+  #part-number 6
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_spellturn
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.065
+  orientation 0 0 0 0
+  colorStart 0.7 1 0.85
+  colorEnd 0.2 0 1
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 3.5
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 2
+  mass -0.02
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0.1
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter AuraEmitter04
+  parent vps_glyphfey
+  #part-number 7
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Symbl_1342
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.013
+  orientation 0 0 0 0
+  colorStart 0.6 0.6 1
+  colorEnd 0.6 0.6 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  lifeExp -1
+  mass 0
+  spread 0
+  particleRot 0.12
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Shinies
+  parent vps_glyphfey
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare1
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.8 0.8 1
+  colorEnd 0.2 1 0.4
+  alphaStart 0.6
+  alphaEnd 0.1
+  sizeStart 0.12
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 20
+  lifeExp 6
+  mass -0.2
+  spread 360
+  particleRot 3
+  velocity 0
+  randvel 2
+  fps 4
+  speed 4
+  xsize 280
+  ysize 280
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vps_glyphfey
+
+#MAXANIM ASCII
+newanim impact vps_glyphfey
+  length 0.3
+  transtime 0
+  animroot vps_glyphfey
+node dummy vps_glyphfey
+  parent NULL
+  #part-number 0
+endnode
+node emitter AuraEmitter01
+  parent vps_glyphfey
+  #part-number 1
+  alphaStartkey 1
+    0.3 1
+  alphaEndkey 1
+    0.3 1
+  sizeStartkey 2
+    0 0
+    0.17 5.95
+  sizeEndkey 2
+    0 0
+    0.17 5.95
+endnode
+node dummy Dummy_rot
+  parent vps_glyphfey
+  #part-number 3
+  orientationkey 1
+    0.3 0 0 0 0
+endnode
+node emitter AuraEmitter03
+  parent Dummy_rot
+  #part-number 4
+endnode
+node dummy AuraRef01
+  parent AuraEmitter03
+  #part-number 5
+endnode
+node emitter rings
+  parent vps_glyphfey
+  #part-number 6
+  birthratekey 2
+    0 0
+    0.2 10
+endnode
+node emitter AuraEmitter04
+  parent vps_glyphfey
+  #part-number 7
+  alphaStartkey 1
+    0.3 1
+  alphaEndkey 1
+    0.3 1
+  sizeStartkey 2
+    0 0
+    0.1 6
+  sizeEndkey 2
+    0 0
+    0.1 6
+endnode
+node emitter Shinies
+  parent vps_glyphfey
+  birthratekey 2
+    0 0
+    0.1 20
+endnode
+doneanim impact vps_glyphfey
+
+#MAXANIM ASCII
+newanim duration vps_glyphfey
+  length 1
+  transtime 0
+  animroot vps_glyphfey
+node dummy vps_glyphfey
+  parent NULL
+  #part-number 0
+endnode
+node emitter AuraEmitter01
+  parent vps_glyphfey
+  #part-number 1
+  alphaStartkey 5
+    0 1
+    0.033 1
+    0.433 0.7
+    0.97 1
+    1 1
+  alphaEndkey 5
+    0 1
+    0.033 1
+    0.433 0.7
+    0.97 1
+    1 1
+  sizeStartkey 2
+    0 5.95
+    1 5.95
+  sizeEndkey 2
+    0 5.95
+    1 5.95
+endnode
+node dummy Dummy_rot
+  parent vps_glyphfey
+  #part-number 3
+  orientationkey 5
+    0 0 0 0 0
+    0.266 -0 -0 -1 -1.57
+    0.5 -0 -0 -1 -3.1416
+    0.766 -0 -0 -1 -4.71
+    1 0 0 0 0
+endnode
+node emitter AuraEmitter03
+  parent Dummy_rot
+  #part-number 4
+endnode
+node dummy AuraRef01
+  parent AuraEmitter03
+  #part-number 5
+endnode
+node emitter rings
+  parent vps_glyphfey
+  #part-number 6
+  birthratekey 2
+    0 10
+    1 10
+endnode
+node emitter AuraEmitter04
+  parent vps_glyphfey
+  #part-number 7
+  alphaStartkey 5
+    0 1
+    0.033 1
+    0.433 0.7
+    0.97 1
+    1 1
+  alphaEndkey 5
+    0 1
+    0.033 1
+    0.433 0.7
+    0.97 1
+    1 1
+  sizeStartkey 2
+    0 6
+    1 6
+  sizeEndkey 2
+    0 6
+    1 6
+endnode
+node emitter Shinies
+  parent vps_glyphfey
+  birthratekey 2
+    0 20
+    0.1 20
+endnode
+doneanim duration vps_glyphfey
+
+#MAXANIM ASCII
+newanim cessation vps_glyphfey
+  length 2
+  transtime 0
+  animroot vps_glyphfey
+  event 0.2 detonate
+node dummy vps_glyphfey
+  parent NULL
+  #part-number 0
+endnode
+node emitter AuraEmitter01
+  parent vps_glyphfey
+  #part-number 1
+  alphaStartkey 2
+    0 1
+    0.37 1
+  alphaEndkey 2
+    0 1
+    0.37 1
+  sizeStartkey 3
+    0 5.95
+    0.37 5.95
+    0.67 0
+  sizeEndkey 3
+    0 5.95
+    0.37 5.95
+    0.67 0
+endnode
+node dummy Dummy_rot
+  parent vps_glyphfey
+  #part-number 3
+  orientationkey 10
+    0 0 0 0 0
+    0.23 -0 -0 1 -4.712
+    0.47 -0 -0 1 -3.1416
+    0.7 -0 -0 1 -1.57079995
+    0.93 0 0 0 0
+    1.17 -0 -0 -1 -1.5708
+    1.37 -0 -0 -1 -3.1416
+    1.57 -0 -0 -1 -4.712
+    1.77 0 0 0 0
+    2 -0 -0 1 -4.712
+endnode
+node emitter AuraEmitter03
+  parent Dummy_rot
+  #part-number 4
+  gravkey 5
+    0.17 0
+    0.2 0
+    0.27 0
+    0.3 5
+    0.33 10
+endnode
+node dummy AuraRef01
+  parent AuraEmitter03
+  #part-number 5
+endnode
+node emitter rings
+  parent vps_glyphfey
+  #part-number 6
+  birthratekey 3
+    0 10
+    0.033 0
+    0.067 0
+endnode
+node emitter AuraEmitter04
+  parent vps_glyphfey
+  #part-number 7
+  alphaStartkey 2
+    0 1
+    0.2 1
+  alphaEndkey 2
+    0 1
+    0.2 1
+  sizeStartkey 3
+    0 6
+    0.23 6
+    0.53 0
+  sizeEndkey 3
+    0 6
+    0.23 6
+    0.53 0
+endnode
+node emitter Shinies
+  parent vps_glyphfey
+  birthratekey 2
+    0 20
+    0.1 0
+endnode
+doneanim cessation vps_glyphfey
+
+donemodel vps_glyphfey

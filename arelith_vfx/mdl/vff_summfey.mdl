@@ -1,0 +1,1830 @@
+#MAXMODEL ASCII
+# model: vff_summfey
+filedependancy vff_summfey.max
+newmodel vff_summfey
+setsupermodel vff_summfey NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vff_summfey
+node dummy vff_summfey
+  parent NULL
+  #part-number 0
+endnode
+node trimesh shard
+  parent vff_summfey
+  #part-number 1
+  ambient 0.162090003 0.203920007 0.326793998
+  diffuse 0.486274987 0.611765027 0.980391979
+  specular 0.0450000018 0.0450000018 0.0450000018
+  shininess 26
+  shadow 0
+  bitmap fxpa_crystal01
+  verts 39
+    0.377438009 -0.62796098 0.546240985
+    0.202847004 0.163093001 0.78223002
+    -1.75380992e-05 -0.0323299989 0.514487028
+    0.0270610992 -0.582114995 0.685653985
+    0.294919014 -1.13593996 0.739705026
+    0.652149975 -1.47258997 0.484905005
+    0.706927001 0.109736003 0.365382999
+    0.503141999 0.825245023 0.890863001
+    0.165129006 0.979869008 0.849628985
+    -0.0903974995 1.09486997 0.553350985
+    -0.304812014 -0.126975 0.510806978
+    0.0578844994 -2.46377993 0.313098997
+    0.350434989 1.03504002 0.769502997
+    0.129995003 2.46723008 1.15763998
+    -0.599536002 2.48747993 0.533039987
+    0.909192026 -3.11265993 0.607761025
+    1.08142996 -0.430157006 -0.157111004
+    0.627438009 1.11012995 0.305458009
+    0.536475003 2.67821002 0.717800021
+    0.126543999 2.62645006 -0.414705992
+    -0.663958013 2.46936011 0.0463555008
+    0.496199012 -3.86533999 0.312310994
+    1.04585004 -1.96685004 -0.0956579968
+    1.27225006 2.47088003 0.100368001
+    -0.676136017 2.37017989 -0.531646013
+    -0.856590986 0.563166976 -0.147680998
+    0.0515354984 -1.99573004 0.0446502008
+    0.481947005 -3.27617002 -0.349595994
+    1.00838006 -3.26536989 -0.0614714995
+    1.22504997 2.28961992 -0.741726995
+    -0.0719553009 2.40563011 -1.25636995
+    -0.293051004 0.837274015 -0.52632302
+    1.14793003 -0.957139015 -0.44472
+    0.526520014 1.31816006 -0.934749007
+    0.0895003006 0.669560015 -0.476615995
+    -0.226963997 0.179487005 -0.426389009
+    -0.132697999 -0.620036006 -0.448863
+    0.322557002 0.297412992 -0.584150016
+    0.270678997 -0.692619026 -0.552743971
+  tverts 4
+    0 0 0
+    1 0 0
+    1 1 0
+    0 1 0
+  faces 74
+    0 1 2 1 0 1 2 2
+    0 2 3 2 0 1 2 2
+    0 3 4 4 0 1 2 2
+    0 4 5 4 0 1 2 2
+    0 5 6 1 0 1 2 2
+    0 6 7 8 0 1 2 2
+    0 7 1 8 2 3 0 2
+    1 8 9 2 0 1 2 2
+    1 9 2 1 0 2 3 2
+    2 9 10 1 0 1 2 2
+    2 10 3 4 0 2 3 2
+    3 10 11 1 0 1 2 2
+    3 11 4 1 0 2 3 2
+    4 11 5 1 2 3 0 2
+    7 12 1 8 2 0 1 2
+    1 12 8 4 2 3 0 2
+    8 13 14 4 0 1 2 2
+    8 14 9 2 0 2 3 2
+    9 14 10 1 2 3 0 2
+    5 15 16 1 0 1 2 2
+    5 16 6 1 0 2 3 2
+    6 17 7 2 0 2 3 2
+    7 17 18 2 0 1 2 2
+    7 18 12 8 0 2 3 2
+    12 18 13 8 2 3 0 2
+    12 13 8 4 2 0 1 2
+    13 19 20 4 2 3 0 2
+    13 20 14 4 0 2 3 2
+    14 20 10 1 2 3 0 2
+    5 11 21 2 0 1 2 2
+    5 21 15 1 0 1 2 2
+    15 22 16 1 0 1 2 2
+    6 16 23 1 2 3 0 2
+    6 23 17 1 0 2 3 2
+    17 23 18 8 0 1 2 2
+    18 19 13 8 2 0 1 2
+    19 24 20 4 2 0 1 2
+    20 24 25 1 0 1 2 2
+    20 25 10 1 2 0 1 2
+    10 25 26 1 0 1 2 2
+    10 26 11 1 2 3 0 2
+    11 27 21 2 0 2 3 2
+    21 27 28 2 0 1 2 2
+    21 28 15 4 0 2 3 2
+    15 28 22 1 0 1 2 2
+    16 29 23 1 2 0 1 2
+    23 29 18 8 0 2 3 2
+    18 29 19 8 2 3 0 2
+    19 30 24 1 0 2 3 2
+    24 30 31 1 0 1 2 2
+    24 31 25 2 0 1 2 2
+    11 26 27 1 2 3 0 2
+    28 27 22 1 0 1 2 2
+    16 22 32 1 0 1 2 2
+    29 16 33 1 0 1 2 2
+    29 33 30 8 2 3 0 2
+    29 30 19 8 2 0 1 2
+    30 34 31 1 2 3 0 2
+    31 35 25 4 0 2 3 2
+    25 35 36 4 0 1 2 2
+    25 36 26 1 0 2 3 2
+    32 22 37 1 0 1 2 2
+    32 37 16 1 2 0 1 2
+    16 37 33 1 0 2 3 2
+    33 37 34 1 2 3 0 2
+    33 34 30 1 2 0 1 2
+    38 31 34 1 0 1 2 2
+    38 35 31 8 2 3 0 2
+    38 36 35 4 2 3 0 2
+    38 26 36 1 2 3 0 2
+    38 27 26 1 0 1 2 2
+    38 22 27 1 2 3 0 2
+    38 37 22 1 2 3 0 2
+    38 34 37 1 0 1 2 2
+  position 0.0500494987 -5.18296003 -4.75950003
+  orientation 0.567908704 0.460548759 -0.682183623 -2.30468988
+  alpha 0.961794019
+  scale 1
+  setfillumcolor 0.0470587984 0.0470587984 0.0470587984
+endnode
+node trimesh shard01
+  parent vff_summfey
+  #part-number 2
+  ambient 0.162090003 0.203920007 0.326793998
+  diffuse 0.486274987 0.611765027 0.980391979
+  specular 0.0450000018 0.0450000018 0.0450000018
+  shininess 26
+  shadow 0
+  bitmap fxpa_crystal01
+  verts 39
+    0.297354013 -0.756422997 0.761911988
+    0.136289001 0.239877999 0.835103989
+    0.0291466005 0.0436828993 0.634105027
+    -0.143263996 -0.258558005 0.648895025
+    0.0276491009 -1.20907998 0.313899994
+    0.430348992 -1.26539004 0.494484991
+    0.688645005 0.176213995 0.495007992
+    0.181770995 0.793026984 0.173071995
+    -0.043402601 1.01654994 0.727374971
+    -0.171011001 0.980880022 0.932925999
+    -0.598964989 0.503660023 0.603257
+    -0.242081001 -3.66532993 0.290282995
+    0.334991992 1.09127998 0.909819007
+    0.422500998 2.62001991 0.899785995
+    -0.158050999 1.60848999 0.715533972
+    0.185228005 -3.23119998 0.352378011
+    0.844474971 -0.416644007 0.0097548496
+    0.750735998 1.13943005 0.538829029
+    0.912109017 2.57650995 0.463542998
+    0.195539996 2.50264001 -0.120802999
+    -0.487535 2.63481998 0.569078982
+    -0.0723358989 -3.75494003 0.393298
+    0.396468997 -1.46730006 0.0844106004
+    1.11587 1.57284999 -0.00917327963
+    -1.05735004 2.42106009 -0.258327991
+    -0.798789024 0.544529974 -0.186826006
+    -0.305691004 -1.03129005 -0.0852760002
+    0.0394073017 -3.44575 -0.152364999
+    0.107785001 -3.55732012 0.126797006
+    1.29012001 2.27809 -0.950308025
+    -0.672506988 2.04139996 -1.31094003
+    -0.617837012 0.787853003 -0.575037003
+    0.594269991 -0.451593012 -0.336106002
+    0.42246601 2.06228995 -1.45428002
+    -0.172934994 0.547812998 -0.843824983
+    -0.459888011 0.179570004 -0.466681004
+    -0.315063 -0.292614996 -0.343178988
+    0.337357998 0.27887699 -0.644080997
+    0.0240065008 -0.469592005 -0.544809997
+  tverts 4
+    0 0 0
+    1 0 0
+    1 1 0
+    0 1 0
+  faces 74
+    0 1 2 1 0 1 2 2
+    0 2 3 2 0 1 2 2
+    0 3 4 4 0 1 2 2
+    0 4 5 4 0 1 2 2
+    0 5 6 1 0 1 2 2
+    0 6 7 8 0 1 2 2
+    0 7 1 8 2 3 0 2
+    1 8 9 2 0 1 2 2
+    1 9 2 1 0 2 3 2
+    2 9 10 1 0 1 2 2
+    2 10 3 4 0 2 3 2
+    3 10 11 1 0 1 2 2
+    3 11 4 1 0 2 3 2
+    4 11 5 1 2 3 0 2
+    7 12 1 8 2 0 1 2
+    1 12 8 4 2 3 0 2
+    8 13 14 4 0 1 2 2
+    8 14 9 2 0 2 3 2
+    9 14 10 1 2 3 0 2
+    5 15 16 1 0 1 2 2
+    5 16 6 1 0 2 3 2
+    6 17 7 2 0 2 3 2
+    7 17 18 2 0 1 2 2
+    7 18 12 8 0 2 3 2
+    12 18 13 8 2 3 0 2
+    12 13 8 4 2 0 1 2
+    13 19 20 4 2 3 0 2
+    13 20 14 4 0 2 3 2
+    14 20 10 1 2 3 0 2
+    5 11 21 2 0 1 2 2
+    5 21 15 1 0 1 2 2
+    15 22 16 1 0 1 2 2
+    6 16 23 1 2 3 0 2
+    6 23 17 1 0 2 3 2
+    17 23 18 8 0 1 2 2
+    18 19 13 8 2 0 1 2
+    19 24 20 4 2 0 1 2
+    20 24 25 1 0 1 2 2
+    20 25 10 1 2 0 1 2
+    10 25 26 1 0 1 2 2
+    10 26 11 1 2 3 0 2
+    11 27 21 2 0 2 3 2
+    21 27 28 2 0 1 2 2
+    21 28 15 4 0 2 3 2
+    15 28 22 1 0 1 2 2
+    16 29 23 1 2 0 1 2
+    23 29 18 8 0 2 3 2
+    18 29 19 8 2 3 0 2
+    19 30 24 1 0 2 3 2
+    24 30 31 1 0 1 2 2
+    24 31 25 2 0 1 2 2
+    11 26 27 1 2 3 0 2
+    28 27 22 1 0 1 2 2
+    16 22 32 1 0 1 2 2
+    29 16 33 1 0 1 2 2
+    29 33 30 8 2 3 0 2
+    29 30 19 8 2 0 1 2
+    30 34 31 1 2 3 0 2
+    31 35 25 4 0 2 3 2
+    25 35 36 4 0 1 2 2
+    25 36 26 1 0 2 3 2
+    32 22 37 1 0 1 2 2
+    32 37 16 1 2 0 1 2
+    16 37 33 1 0 2 3 2
+    33 37 34 1 2 3 0 2
+    33 34 30 1 2 0 1 2
+    38 31 34 1 0 1 2 2
+    38 35 31 8 2 3 0 2
+    38 36 35 4 2 3 0 2
+    38 26 36 1 2 3 0 2
+    38 27 26 1 0 1 2 2
+    38 22 27 1 2 3 0 2
+    38 37 22 1 2 3 0 2
+    38 34 37 1 0 1 2 2
+  position 3.98332 2.15608001 -4.02959013
+  orientation 0.607243061 -0.391778082 0.691206038 -1.49555004
+  alpha 0.800000012
+  scale 1
+  setfillumcolor 0.0666666999 0.0666666999 0.0666666999
+endnode
+node trimesh shard02
+  parent vff_summfey
+  #part-number 3
+  ambient 0.162090003 0.203920007 0.326793998
+  diffuse 0.486274987 0.611765027 0.980391979
+  specular 0.0450000018 0.0450000018 0.0450000018
+  shininess 26
+  shadow 0
+  bitmap fxpa_crystal01
+  verts 39
+    -0.00474931998 -0.86601299 0.573068023
+    -0.000471467007 0.307752997 0.957629025
+    -0.0897492021 0.00379626988 0.455743015
+    -0.203702003 -0.285261005 0.611958981
+    -0.206751004 -0.90457201 0.670162022
+    -0.0248470008 -1.36848998 0.421151012
+    0.622318029 0.146891996 0.305557996
+    0.324609011 0.897701025 0.203833997
+    0.000114093004 0.99694097 0.36185199
+    -0.282546014 1.13250995 0.476112008
+    -0.396753013 -0.0915343016 0.452035993
+    -0.118151002 -2.94026995 -0.0898654982
+    0.163148999 1.62612998 0.536334991
+    -0.0657102019 3.36723995 0.561187983
+    -0.50701201 2.2002399 0.745540023
+    0.142719001 -3.60625005 -0.244589999
+    0.583068013 -0.492224991 -0.214892
+    0.736392975 1.14830005 0.227577001
+    1.02462995 3.04801011 0.517445982
+    -0.933997989 3.10981989 0.339843988
+    -0.826611996 1.98856997 0.559237003
+    -0.0350815989 -3.04333997 -0.148405999
+    0.306852996 -1.62761998 -0.137767002
+    0.927039027 1.72509003 0.0112846997
+    -1.08139002 2.75257993 -0.357138008
+    -0.583405018 0.603609025 -0.211224005
+    -0.183028996 -1.16944003 -0.356516987
+    0.0181673001 -2.99459004 -0.335539997
+    0.0881114006 -3.15180993 -0.354344994
+    1.00150001 2.58156991 -0.825317979
+    -0.402471006 2.43549991 -1.46721005
+    -0.384905994 0.879701972 -0.592608988
+    0.520420015 -0.530957997 -0.591804028
+    0.512973011 2.36435008 -1.14701998
+    0.000417333009 0.710771978 -0.542541981
+    -0.318340003 0.217148006 -0.491952002
+    -0.334464014 -0.267890006 -0.725320995
+    0.235163003 0.335927993 -0.650856018
+    0.00152716995 -0.500402987 -0.629060984
+  tverts 4
+    0 0 0
+    1 0 0
+    1 1 0
+    0 1 0
+  faces 74
+    0 1 2 1 0 1 2 2
+    0 2 3 2 0 1 2 2
+    0 3 4 4 0 1 2 2
+    0 4 5 4 0 1 2 2
+    0 5 6 1 0 1 2 2
+    0 6 7 8 0 1 2 2
+    0 7 1 8 2 3 0 2
+    1 8 9 2 0 1 2 2
+    1 9 2 1 0 2 3 2
+    2 9 10 1 0 1 2 2
+    2 10 3 4 0 2 3 2
+    3 10 11 1 0 1 2 2
+    3 11 4 1 0 2 3 2
+    4 11 5 1 2 3 0 2
+    7 12 1 8 2 0 1 2
+    1 12 8 4 2 3 0 2
+    8 13 14 4 0 1 2 2
+    8 14 9 2 0 2 3 2
+    9 14 10 1 2 3 0 2
+    5 15 16 1 0 1 2 2
+    5 16 6 1 0 2 3 2
+    6 17 7 2 0 2 3 2
+    7 17 18 2 0 1 2 2
+    7 18 12 8 0 2 3 2
+    12 18 13 8 2 3 0 2
+    12 13 8 4 2 0 1 2
+    13 19 20 4 2 3 0 2
+    13 20 14 4 0 2 3 2
+    14 20 10 1 2 3 0 2
+    5 11 21 2 0 1 2 2
+    5 21 15 1 0 1 2 2
+    15 22 16 1 0 1 2 2
+    6 16 23 1 2 3 0 2
+    6 23 17 1 0 2 3 2
+    17 23 18 8 0 1 2 2
+    18 19 13 8 2 0 1 2
+    19 24 20 4 2 0 1 2
+    20 24 25 1 0 1 2 2
+    20 25 10 1 2 0 1 2
+    10 25 26 1 0 1 2 2
+    10 26 11 1 2 3 0 2
+    11 27 21 2 0 2 3 2
+    21 27 28 2 0 1 2 2
+    21 28 15 4 0 2 3 2
+    15 28 22 1 0 1 2 2
+    16 29 23 1 2 0 1 2
+    23 29 18 8 0 2 3 2
+    18 29 19 8 2 3 0 2
+    19 30 24 1 0 2 3 2
+    24 30 31 1 0 1 2 2
+    24 31 25 2 0 1 2 2
+    11 26 27 1 2 3 0 2
+    28 27 22 1 0 1 2 2
+    16 22 32 1 0 1 2 2
+    29 16 33 1 0 1 2 2
+    29 33 30 8 2 3 0 2
+    29 30 19 8 2 0 1 2
+    30 34 31 1 2 3 0 2
+    31 35 25 4 0 2 3 2
+    25 35 36 4 0 1 2 2
+    25 36 26 1 0 2 3 2
+    32 22 37 1 0 1 2 2
+    32 37 16 1 2 0 1 2
+    16 37 33 1 0 2 3 2
+    33 37 34 1 2 3 0 2
+    33 34 30 1 2 0 1 2
+    38 31 34 1 0 1 2 2
+    38 35 31 8 2 3 0 2
+    38 36 35 4 2 3 0 2
+    38 26 36 1 2 3 0 2
+    38 27 26 1 0 1 2 2
+    38 22 27 1 2 3 0 2
+    38 37 22 1 2 3 0 2
+    38 34 37 1 0 1 2 2
+  position -3.74107003 2.74486995 -4.1346302
+  orientation 0.764508545 0.375594765 -0.523884714 -1.4957
+  alpha 0.800000012
+  scale 1
+  setfillumcolor 0.0862744972 0.0862744972 0.0862744972
+endnode
+node emitter dust03
+  parent vff_summfey
+  #part-number 4
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.042 -3.39 0.02
+  orientation 0 0 0 0
+  colorStart 0.8 0.9 1
+  colorEnd 0.58 0.498 0.427
+  alphaStart 0.7
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1.5
+  mass 0
+  spread 3.14159012
+  particleRot 0.4
+  velocity 0.2
+  randvel 0.1
+  fps 16
+  xsize 100
+  ysize 100
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dust04
+  parent vff_summfey
+  #part-number 5
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.792567015 -2.19341993 0.0202625003
+  orientation 0 0 0 0
+  colorStart 0.8 0.9 1
+  colorEnd 0.584313989 0.498039007 0.427451015
+  alphaStart 0.699999988
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1.5
+  mass 0
+  spread 3.14159012
+  particleRot 0.4
+  velocity 0.2
+  randvel 0.1
+  fps 16
+  xsize 100
+  ysize 100
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dust05
+  parent vff_summfey
+  #part-number 6
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.941986978 -2.22814012 0.0202625003
+  orientation 0 0 0 0
+  colorStart 0.8 0.9 1
+  colorEnd 0.584313989 0.498039007 0.427451015
+  alphaStart 0.699999988
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1.5
+  mass 0
+  spread 3.14159012
+  particleRot 0.4
+  velocity 0.2
+  randvel 0.1
+  fps 16
+  xsize 100
+  ysize 100
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dust06
+  parent vff_summfey
+  #part-number 7
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -3.60661006 2.56122994 0.0299936999
+  orientation 0 0 0 0
+  colorStart 0.8 0.9 1
+  colorEnd 0.584313989 0.498039007 0.427451015
+  alphaStart 0.699999988
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1.5
+  mass 0
+  spread 3.14159012
+  particleRot 0.4
+  velocity 0.2
+  randvel 0.1
+  fps 16
+  xsize 100
+  ysize 100
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dust07
+  parent vff_summfey
+  #part-number 8
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -2.10254002 2.52652001 0.0299936999
+  orientation 0 0 0 0
+  colorStart 0.8 0.9 1
+  colorEnd 0.584313989 0.498039007 0.427451015
+  alphaStart 0.699999988
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1.5
+  mass 0
+  spread 3.14159012
+  particleRot 0.4
+  velocity 0.2
+  randvel 0.1
+  fps 16
+  xsize 100
+  ysize 100
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dust08
+  parent vff_summfey
+  #part-number 9
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -2.85658002 1.3628 0.0299936999
+  orientation 0 0 0 0
+  colorStart 0.8 0.9 1
+  colorEnd 0.584313989 0.498039007 0.427451015
+  alphaStart 0.699999988
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1.5
+  mass 0
+  spread 3.14159012
+  particleRot 0.4
+  velocity 0.2
+  randvel 0.1
+  fps 16
+  xsize 100
+  ysize 100
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dust09
+  parent vff_summfey
+  #part-number 10
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 3.32377005 2.79497004 0.0299936999
+  orientation 0 0 0 0
+  colorStart 0.8 0.9 1
+  colorEnd 0.584313989 0.498039007 0.427451015
+  alphaStart 0.699999988
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1.5
+  mass 0
+  spread 3.14159012
+  particleRot 0.4
+  velocity 0.2
+  randvel 0.1
+  fps 16
+  xsize 100
+  ysize 100
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dust10
+  parent vff_summfey
+  #part-number 11
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 1.81971002 2.82968998 0.0299936999
+  orientation 0 0 0 0
+  colorStart 0.8 0.9 1
+  colorEnd 0.584313989 0.498039007 0.427451015
+  alphaStart 0.699999988
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1.5
+  mass 0
+  spread 3.14159012
+  particleRot 0.4
+  velocity 0.2
+  randvel 0.1
+  fps 16
+  xsize 100
+  ysize 100
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dust11
+  parent vff_summfey
+  #part-number 12
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 2.56973004 1.63125002 0.0299936999
+  orientation 0 0 0 0
+  colorStart 0.8 0.9 1
+  colorEnd 0.584313989 0.498039007 0.427451015
+  alphaStart 0.699999988
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1.5
+  mass 0
+  spread 3.14159012
+  particleRot 0.4
+  velocity 0.2
+  randvel 0.1
+  fps 16
+  xsize 100
+  ysize 100
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Chunkssml
+  parent vff_summfey
+  #part-number 13
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture NULL
+  chunkName Fx_Cryschunksml
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -2.43723011 1.92875004 0.0346363001
+  orientation 0 0 1 -0.637045026
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.04
+  sizeEnd 0.04
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 1.5
+  mass 1
+  spread 1.04719996
+  particleRot 5
+  velocity 4.5
+  randvel 1
+  fps 0
+  xsize 86
+  ysize 185
+  bounce_co 0.4
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Chunkssml01
+  parent vff_summfey
+  #part-number 14
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture NULL
+  chunkName Fx_Cryschunksml
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.00652359007 -2.17461991 0.0249054991
+  orientation 0 0 -1 -1.56207001
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.04
+  sizeEnd 0.04
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 1.5
+  mass 1
+  spread 1.04719996
+  particleRot 5
+  velocity 4.5
+  randvel 1
+  fps 0
+  xsize 165
+  ysize 185
+  bounce_co 0.4
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Chunkssml02
+  parent vff_summfey
+  #part-number 15
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture NULL
+  chunkName Fx_Cryschunksml
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 2.86361003 1.26905 0.0346363001
+  orientation 0 0 -1 -1.56207001
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.04
+  sizeEnd 0.04
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 1.5
+  mass 1
+  spread 1.04719996
+  particleRot 5
+  velocity 4.5
+  randvel 1
+  fps 0
+  xsize 165
+  ysize 185
+  bounce_co 0.4
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter03
+  parent vff_summfey
+  #part-number 16
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Motion_Blur
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 20
+  orientation -1 0 0 -3.14159012
+  colorStart 1 0.4 1
+  colorEnd 0.8 0.5 1
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 0.5
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 28
+  randvel 3
+  fps 0
+  xsize 293
+  ysize 293
+  bounce_co 0
+  blurlength 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Splat
+  parent vff_summfey
+  #part-number 17
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.0653183013
+  orientation 0 0 0 0
+  colorStart 0.6 0 0.4
+  colorEnd 0.3 1 0.4
+  alphaStart 0.6
+  alphaEnd 0.6
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1
+  mass 0
+  spread 0.523599029
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 16
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Shinies
+  parent vff_summfey
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare1
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.8 0.8 1
+  colorEnd 0.2 1 0.4
+  alphaStart 1
+  alphaEnd 0.1
+  sizeStart 0.2
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 0
+  lifeExp 6
+  mass -0.2
+  spread 360
+  particleRot 3
+  velocity 0
+  randvel 2
+  fps 4
+  speed 4
+  xsize 280
+  ysize 280
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vff_summfey
+
+#MAXANIM ASCII
+newanim impact vff_summfey
+  length 6.63332987
+  transtime 0.25
+  animroot vff_summfey
+node dummy vff_summfey
+  parent NULL
+  #part-number 0
+endnode
+node trimesh shard
+  parent vff_summfey
+  #part-number 1
+  ambient 0.2 0.2 0.2
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 6
+    1.36667001 0.0500494987 -5.18296003 -4.75950003
+    1.66666996 0.0500494987 -5.18296003 -4.75950003
+    1.83333004 0.0500494987 -5.18296003 -4.75950003
+    2.63333011 0.107795 -2.52507997 1.79167998
+    5.80000019 0.106430002 -2.51638007 1.78878999
+    5.83333015 0.0655936971 -4.84737015 -5.18934011
+  orientationkey 13
+    1.36667001 0.569861054 0.462303102 -0.679363132 -2.30947995
+    1.66666996 0.569861054 0.462303102 -0.679363132 -2.30947995
+    1.96667004 0.575782955 0.467627943 -0.670669913 -2.32427001
+    2.06666994 0.583497882 0.47457391 -0.659021854 -2.34414005
+    2.13333011 0.569861054 0.462303102 -0.679363132 -2.30947995
+    2.20000005 0.583497882 0.47457391 -0.659021854 -2.34414005
+    2.26666999 0.577731967 0.469380945 -0.667762935 -2.32922006
+    2.33332992 0.591007352 0.481349289 -0.647312343 -2.36418009
+    2.4000001 0.577731967 0.469380945 -0.667762935 -2.32922006
+    2.46667004 0.589149177 0.479671121 -0.65024519 -2.35915995
+    2.53332996 0.581589043 0.472853988 -0.661939085 -2.33914995
+    2.5999999 0.575782955 0.467627943 -0.670669913 -2.32427001
+    2.63333011 0.572338998 0.477667004 -0.666530013 -2.35476995
+  alphakey 6
+    2.5999999 0.800000012
+    2.63333011 0.800000012
+    4.96667004 0.800000012
+    5 0.800000012
+    5.80000019 -0.0340570994
+    6.63332987 -0.0340570994
+endnode
+node trimesh shard01
+  parent vff_summfey
+  #part-number 2
+  ambient 0.2 0.2 0.2
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 6
+    1.66666996 3.98332 2.15608001 -4.02959013
+    1.96667004 3.98332 2.15608001 -4.02959013
+    2.16667008 3.98332 2.15608001 -4.02959013
+    2.96667004 2.44139004 1.59898996 1.68716002
+    5.80000019 2.43792009 1.59747005 1.68483996
+    5.83333015 6.03226995 3.63105989 -4.99856997
+  orientationkey 9
+    1.66666996 0.658682883 -0.488156915 0.572572887 -1.57965004
+    1.96667004 0.652477026 -0.475354999 0.590179086 -1.56580985
+    2.43333006 0.647074163 -0.500389099 0.575244129 -1.55293
+    2.53332996 0.65161401 -0.482411981 0.585386932 -1.56331992
+    2.5999999 0.62755096 -0.496134937 0.600024939 -1.50803995
+    2.66667008 0.63686794 -0.487894982 0.596956968 -1.52925992
+    2.73333001 0.632278681 -0.452462792 0.628888726 -1.52411997
+    2.86666989 0.6214571 -0.456630111 0.636616111 -1.49912989
+    2.96667004 0.599492908 -0.415280938 0.68421489 -1.46621001
+  alphakey 6
+    0 0.800000012
+    0.0333333015 0.800000012
+    4.93333006 0.800000012
+    4.96667004 0.800000012
+    5.80000019 0
+    6.63332987 0
+endnode
+node trimesh shard02
+  parent vff_summfey
+  #part-number 3
+  ambient 0.2 0.2 0.2
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 5
+    0.766667008 -3.74107003 2.74486995 -4.1346302
+    1.06666994 -3.74107003 2.74486995 -4.1346302
+    1.66666996 -2.02443004 1.40367997 2.0171299
+    5.80000019 -2.0293901 1.39733005 2.0171299
+    5.83333015 -3.90162992 2.86008 -4.69222021
+  orientationkey 2
+    1.06666994 0.778867006 0.46540004 -0.420439005 -1.58494997
+    1.66666996 0.76379168 0.372525811 -0.527111769 -1.49322999
+  alphakey 8
+    0 0.800000012
+    0.0333333015 0.800000012
+    1.66666996 0.800000012
+    1.70000005 0.800000012
+    4.93333006 0.800000012
+    4.96667004 0.800000012
+    5.80000019 0
+    6.63332987 0
+endnode
+node emitter dust03
+  parent vff_summfey
+  #part-number 4
+  positionkey 14
+    0.600000024 -0.0421750993 -3.38083005 0.0202625003
+    0.766667008 -1.05741 -3.71617007 0.0202625003
+    1.06666994 1.12633002 -3.82460999 0.0202625003
+    1.23333001 -0.0633023009 -3.24376011 0.0202625003
+    1.33333004 -0.133423999 -4.76804018 0.0202623997
+    1.5 -0.561098993 -4.1542902 0.0202623997
+    1.60000002 0.336690992 -3.99986005 0.0202623997
+    1.70000005 -0.851424992 -3.09933996 0.0202625003
+    1.93333006 0.458846986 -3.57950997 0.0202625003
+    2.13333011 0.0762154981 -4.01406002 0.0202623997
+    2.26666999 -0.609620988 -4.61583996 0.0202623997
+    2.43333006 0.616078019 -3.57606006 0.0202625003
+    2.66667008 -0.0405407995 -3.67940998 0.0202625003
+    2.79999995 -0.194372997 -3.93659997 0.0202623997
+  birthratekey 5
+    0 0
+    0.300000012 0
+    0.600000024 60
+    2.79999995 60
+    2.83332992 0
+endnode
+node emitter dust04
+  parent vff_summfey
+  #part-number 5
+  positionkey 16
+    0.600000024 -0.792198002 -2.18238997 0.0202625003
+    0.766667008 -1.80743003 -2.51773 0.0202625003
+    1.06666994 0.376309007 -2.62616992 0.0202623997
+    1.23333001 -0.813324988 -2.04532003 0.0202625003
+    1.33333004 -0.883445978 -3.56960011 0.0202623997
+    1.5 -1.31112003 -2.95584989 0.0202623997
+    1.60000002 -0.413331002 -2.80141997 0.0202623997
+    1.70000005 -1.60144997 -1.90090001 0.0202625003
+    1.93333006 -0.291175008 -2.3810699 0.0202625003
+    2.13333011 -0.673807025 -2.81561995 0.0202623997
+    2.26666999 -1.35964 -3.41739988 0.0202623997
+    2.29999995 -1.11334002 -3.57965994 0.0202623997
+    2.43333006 -0.133945003 -2.37761998 0.0202625003
+    2.66667008 -0.790562987 -2.48096991 0.0202625003
+    2.70000005 -0.828544021 -2.64801002 0.0202623997
+    2.79999995 -0.944395006 -2.73815989 0.0202623997
+  birthratekey 5
+    0 0
+    0.300000012 0
+    0.600000024 60
+    2.79999995 60
+    2.83332992 0
+endnode
+node emitter dust05
+  parent vff_summfey
+  #part-number 6
+  positionkey 16
+    0.600000024 0.94235599 -2.21710992 0.0202625003
+    0.766667008 -0.0728776976 -2.55244994 0.0202625003
+    1.06666994 2.11086011 -2.6608901 0.0202625003
+    1.23333001 0.921229005 -2.08003998 0.0202625003
+    1.33333004 0.851107001 -3.60432005 0.0202623997
+    1.5 0.423433006 -2.99057007 0.0202623997
+    1.60000002 1.32122004 -2.83613992 0.0202623997
+    1.70000005 0.133107007 -1.93561995 0.0202625003
+    1.93333006 1.44338 -2.41579008 0.0202625003
+    2.13333011 1.06075001 -2.85033989 0.0202623997
+    2.26666999 0.374909997 -3.45212007 0.0202623997
+    2.29999995 1.15734994 -3.22870994 0.0202623997
+    2.43333006 1.60061002 -2.41233993 0.0202625003
+    2.66667008 0.943989992 -2.51569009 0.0202625003
+    2.70000005 1.55780995 -2.56694007 0.0202625003
+    2.79999995 0.790157974 -2.77288008 0.0202623997
+  birthratekey 5
+    0 0
+    0.300000012 0
+    0.600000024 60
+    2.79999995 60
+    2.83332992 0
+endnode
+node emitter dust06
+  parent vff_summfey
+  #part-number 7
+  positionkey 23
+    0.233333007 -3.60627007 2.57142997 0.0299936999
+    0.433333009 -4.62150002 2.23608994 0.0299936999
+    0.766667008 -2.66473007 2.81761003 0.0299936999
+    1.03332996 -3.62738991 2.70849991 0.0299936999
+    1.10000002 -3.28127003 2.0754199 0.0299936999
+    1.33333004 -3.14732003 2.10580993 0.0299936999
+    1.43333006 -2.90569997 1.52918994 0.0299935993
+    1.5 -4.12518978 1.79796004 0.0299935993
+    1.53332996 -2.46578002 2.38309002 0.0299936999
+    1.60000002 -3.10243011 1.13627005 0.0299935993
+    1.66666996 -2.77152991 1.46337998 0.0299935993
+    1.70000005 -4.41551018 2.85291004 0.0299936999
+    1.73333001 -2.48167992 2.38927007 0.0299936999
+    1.79999995 -3.45261002 1.67665005 0.0299935993
+    1.89999998 -2.37322998 2.19133997 0.0299935993
+    1.93333006 -3.10524011 2.37274003 0.0299936999
+    2 -2.56804991 1.83486998 0.0299935993
+    2.13333011 -2.43698001 1.93175995 0.0299935993
+    2.26666999 -2.27296996 2.41167998 0.0299936999
+    2.29999995 -3.36988997 2.73167992 0.0299936999
+    2.43333006 -2.93937993 1.59709001 0.0299935993
+    2.66667008 -3.59441996 1.60977995 0.0299935993
+    2.79999995 -3.4654901 2.54357004 0.0299936999
+  birthratekey 5
+    0 0
+    0.2 0
+    0.233333007 60
+    2.79999995 60
+    2.83332992 0
+endnode
+node emitter dust07
+  parent vff_summfey
+  #part-number 8
+  positionkey 23
+    0.233333007 -2.10220003 2.53671002 0.0299936999
+    0.433333009 -3.11743999 2.20137 0.0299936999
+    0.766667008 -1.47273004 1.81917 0.0299935993
+    1.03332996 -2.12333012 2.67377996 0.0299936999
+    1.10000002 -2.01215005 2.07938004 0.0299936999
+    1.33333004 -1.64326 2.07108998 0.0299936999
+    1.43333006 -1.40164006 1.49447 0.0299935993
+    1.5 -2.62112999 1.76324999 0.0299935993
+    1.53332996 -0.961721003 2.34837008 0.0299936999
+    1.60000002 -1.59836996 1.10154998 0.0299935993
+    1.66666996 -1.26747 1.42867005 0.0299935993
+    1.70000005 -2.91144991 2.8181901 0.0299936999
+    1.73333001 -0.977616012 2.3545599 0.0299936999
+    1.79999995 -1.94854999 1.64194 0.0299935993
+    1.89999998 -0.869166017 2.15662003 0.0299936999
+    1.93333006 -1.60117996 2.33802009 0.0299936999
+    2 -1.06399 1.80015004 0.0299935993
+    2.13333011 -0.932919025 1.89704001 0.0299935993
+    2.26666999 -0.768909991 2.37696004 0.0299936999
+    2.29999995 -1.59958005 2.58141994 0.0299936999
+    2.43333006 -1.43532002 1.56236994 0.0299935993
+    2.66667008 -2.09035993 1.57506001 0.0299935993
+    2.79999995 -1.53928995 2.74029994 0.0299936999
+  birthratekey 5
+    0 0
+    0.2 0
+    0.233333007 60
+    2.79999995 60
+    2.83332992 0
+endnode
+node emitter dust08
+  parent vff_summfey
+  #part-number 9
+  positionkey 23
+    0.233333007 -2.85624003 1.37299001 0.0299936999
+    0.433333009 -3.87147999 1.03764999 0.0299936999
+    0.766667008 -2.8803699 0.929540992 0.0299936999
+    1.03332996 -2.87737012 1.51005995 0.0299936999
+    1.10000002 -3.14991999 0.341560006 0.0299935993
+    1.33333004 -2.3973 0.907371998 0.0299936999
+    1.43333006 -2.15567994 0.330749989 0.0299935993
+    1.5 -3.37516999 0.599524975 0.0299935993
+    1.53332996 -1.71575999 1.18464994 0.0299936999
+    1.60000002 -2.35241008 -0.0621694997 0.0299935993
+    1.66666996 -2.02150989 0.264945 0.0299935993
+    1.70000005 -3.66548991 1.65446997 0.0299936999
+    1.73333001 -1.73166001 1.19084001 0.0299936999
+    1.79999995 -2.70258999 0.478215009 0.0299935993
+    1.89999998 -1.62320006 0.992904007 0.0299936999
+    1.93333006 -2.35522008 1.17429996 0.0299936999
+    2 -1.81803 0.636430025 0.0299935993
+    2.13333011 -1.68695998 0.733323991 0.0299935993
+    2.26666999 -1.52295005 1.21324003 0.0299936999
+    2.29999995 -2.50601006 0.997824013 0.0299936999
+    2.43333006 -2.1893599 0.398649007 0.0299935993
+    2.66667008 -2.84439993 0.411336988 0.0299935993
+    2.79999995 -2.44739008 0.539833009 0.0299935993
+  birthratekey 5
+    0 0
+    0.2 0
+    0.233333007 60
+    2.79999995 60
+    2.83332992 0
+endnode
+node emitter dust09
+  parent vff_summfey
+  #part-number 10
+  positionkey 28
+    0.800000012 3.32414007 2.80615997 0.0299936999
+    0.899999976 3.52144003 2.06055999 0.0299936999
+    0.966666996 3.77174997 2.6208899 0.0299936999
+    1.06666994 4.49265003 2.36238003 0.0299936999
+    1.33333004 4.37792015 1.74219 0.0299935993
+    1.43333006 4.69351006 2.49812007 0.0299936999
+    1.73333001 4.49370003 2.23010993 0.0299936999
+    1.79999995 4.4137702 3.52770996 0.0299938004
+    1.89999998 4.62272978 1.79846001 0.0299936999
+    2.03332996 5.84227991 2.14521003 0.0299936999
+    2.13333011 4.13145018 1.19210005 0.0299935993
+    2.33332992 3.96538997 1.78242004 0.0299935993
+    2.36666989 3.82517004 2.60747004 0.0299936999
+    2.4000001 3.66122007 1.74509001 0.0299935993
+    2.5 3.68958998 1.67209995 0.0299935993
+    2.5999999 3.53617001 1.58471 0.0299935993
+    2.66667008 3.44252992 2.17293 0.0299936999
+    2.70000005 3.26654005 1.48020005 0.0299935993
+    2.76666999 3.42413998 1.54083002 0.0299935993
+    2.79999995 2.75670004 1.57114995 0.0299935993
+    2.83332992 3.92078996 1.79290998 0.0299935993
+    2.9000001 3.44485998 2.35298991 0.0299936999
+    2.96667004 3.32071996 2.22073007 0.0299936999
+    3.03332996 3.31750989 1.91359997 0.0299936999
+    3.0999999 3.31615996 1.64699996 0.0299935993
+    3.20000005 3.32577991 2.50757003 0.0299936999
+    3.23333001 3.66513991 1.68119001 0.0299935993
+    3.33332992 3.16336012 1.74583006 0.0299935993
+  birthratekey 5
+    0 0
+    0.766667008 0
+    0.800000012 60
+    3.33332992 60
+    3.36666989 0
+endnode
+node emitter dust10
+  parent vff_summfey
+  #part-number 11
+  positionkey 28
+    0.800000012 1.82008004 2.84087992 0.0299936999
+    0.899999976 2.01738 2.09527993 0.0299936999
+    0.966666996 2.26768994 2.65561008 0.0299936999
+    1.06666994 2.98859 2.39709997 0.0299936999
+    1.33333004 2.87385988 1.77690995 0.0299935993
+    1.43333006 3.18945003 2.53284001 0.0299936999
+    1.73333001 2.98964 2.26483011 0.0299936999
+    1.79999995 2.90970993 3.56241989 0.0299938004
+    1.89999998 3.11866999 1.83317995 0.0299935993
+    2.03332996 4.33821011 2.17992997 0.0299935993
+    2.13333011 2.62738991 1.22681999 0.0299935993
+    2.33332992 2.46132994 1.81713998 0.0299935993
+    2.36666989 2.3211 2.64218998 0.0299936999
+    2.4000001 2.15716004 1.77980006 0.0299935993
+    2.5 2.18552995 1.70682001 0.0299935993
+    2.5999999 2.03210998 1.61942995 0.0299935993
+    2.66667008 1.93847001 2.20764995 0.0299935993
+    2.70000005 1.76247001 1.51492 0.0299935993
+    2.76666999 1.92007995 1.57554996 0.0299935993
+    2.79999995 1.25263 1.60587001 0.0299935993
+    2.83332992 1.88058996 1.44196999 0.0299935993
+    2.9000001 1.67272997 2.19488001 0.0299936999
+    2.96667004 1.81666005 2.25545001 0.0299936999
+    3.03332996 1.81343997 1.94832003 0.0299935993
+    3.0999999 1.81209004 1.68172002 0.0299935993
+    3.20000005 1.82172 2.54228997 0.0299936999
+    3.23333001 1.50927997 1.60011995 0.0299935993
+    3.33332992 1.65928996 1.78055 0.0299935993
+  birthratekey 5
+    0 0
+    0.766667008 0
+    0.800000012 60
+    3.33332992 60
+    3.36666989 0
+endnode
+node emitter dust11
+  parent vff_summfey
+  #part-number 12
+  positionkey 28
+    0.800000012 2.57010007 1.64243996 0.0299936999
+    0.899999976 2.76740003 0.89684099 0.0299936999
+    0.966666996 3.01770997 1.45717001 0.0299936999
+    1.06666994 3.73861003 1.19866002 0.0299936999
+    1.33333004 3.62387991 0.578465998 0.0299935993
+    1.43333006 3.93947005 1.33440006 0.0299936999
+    1.73333001 3.73966002 1.06639004 0.0299936999
+    1.79999995 3.65972996 2.36399007 0.0299938004
+    1.89999998 3.86869001 0.634742022 0.0299936999
+    2.03332996 5.08824015 0.981494009 0.0299936999
+    2.13333011 3.37741995 0.0283832997 0.0299935993
+    2.33332992 3.21134996 0.618700981 0.0299935993
+    2.36666989 3.07113004 1.44375002 0.0299936999
+    2.4000001 2.90718007 0.581364989 0.0299935993
+    2.5 2.93554997 0.508381009 0.0299935993
+    2.5999999 2.78213 0.420991987 0.0299935993
+    2.66667008 2.68848991 1.00920999 0.0299936999
+    2.70000005 2.51250005 0.316480011 0.0299935993
+    2.76666999 2.67009997 0.377113014 0.0299935993
+    2.79999995 2.00266004 0.40742901 0.0299935993
+    2.83332992 2.62945008 0.613741994 0.0299935993
+    2.9000001 2.42216992 1.18154001 0.0299936999
+    2.96667004 2.56667995 1.05701005 0.0299936999
+    3.03332996 2.56346989 0.749882996 0.0299936999
+    3.0999999 2.56211996 0.483276993 0.0299935993
+    3.20000005 2.57173991 1.34385002 0.0299936999
+    3.23333001 2.25882006 0.504423976 0.0299935993
+    3.33332992 2.40932012 0.582108974 0.0299935993
+  birthratekey 5
+    0 0
+    0.766667008 0
+    0.800000012 60
+    3.33332992 60
+    3.36666989 0
+endnode
+node emitter Chunkssml
+  parent vff_summfey
+  #part-number 13
+  birthratekey 5
+    0 0
+    0.56666702 0
+    0.600000024 24
+    2.03332996 12
+    2.06666994 0
+endnode
+node emitter Chunkssml01
+  parent vff_summfey
+  #part-number 14
+  birthratekey 5
+    0 0
+    1.5 0
+    1.53332996 25
+    2.86666989 12
+    2.9000001 0
+endnode
+node emitter Chunkssml02
+  parent vff_summfey
+  #part-number 15
+  birthratekey 5
+    0 0
+    1.79999995 0
+    1.83333004 23
+    3.36666989 12
+    3.4000001 0
+endnode
+node emitter OmenEmitter03
+  parent vff_summfey
+  #part-number 16
+  birthratekey 7
+    0 0
+    2.46667004 0
+    2.5 100
+    2.53332996 100
+    4.5 100
+    4.53332996 100
+    5.66666985 0
+  xsizekey 3
+    2.46667004 20
+    2.53332996 20
+    4.5 500
+  ysizekey 3
+    2.46667004 20
+    2.53332996 20
+    4.5 500
+endnode
+node emitter Splat
+  parent vff_summfey
+  #part-number 17
+  sizeStartkey 7
+    0 0
+    2.56666994 0
+    3 0
+    3.03332996 0
+    3.43333006 8
+    5.03332996 10
+    5.80000019 0
+  sizeEndkey 4
+    3.03332996 0
+    3.43333006 10
+    5.03332996 14
+    5.80000019 0
+  birthratekey 8
+    0 0
+    2.56666994 0
+    3 0
+    3.03332996 6
+    4.16666985 4
+    5.03332996 5
+    5.80000019 4
+    5.83333015 0
+endnode
+node emitter Shinies
+  parent vff_summfey
+  birthratekey 3
+    0 10
+    3 10
+    4.5 180
+    4 0
+  lifeexpKey 3
+    0 6
+    5.5 6
+    6.1 0
+endnode
+doneanim impact vff_summfey
+
+donemodel vff_summfey

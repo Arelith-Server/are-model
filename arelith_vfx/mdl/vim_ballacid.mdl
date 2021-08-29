@@ -1,0 +1,283 @@
+#MAXMODEL ASCII
+# model: vim_ballacid
+filedependancy vim_ballacid.max
+newmodel vim_ballacid
+setsupermodel vim_ballacid NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_ballacid
+node dummy vim_ballacid
+  parent NULL
+  #part-number 0
+endnode
+node emitter Inferno_1
+  parent vim_ballacid
+  #part-number 1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_fireball_w
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.6 1 0.4
+  colorEnd 0 0.5 0
+  alphaStart 1
+  alphaEnd 0.7
+  sizeStart 4
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 5
+  lifeExp 1
+  mass 0
+  spread 6.3
+  particleRot -0.6
+  velocity 0
+  randvel 1
+  fps 25
+  xsize 20
+  ysize 20
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Inferno_2
+  parent vim_ballacid
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 2
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_fireball_w
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.027
+  orientation 0 0 0 0
+  colorStart 0.4 1 0.4
+  colorEnd 0 0.8 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 4
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 5
+  lifeExp 1
+  mass 0
+  spread 6.28
+  particleRot 0.6
+  velocity 0
+  randvel 1
+  fps 25
+  xsize 20
+  ysize 20
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Inferno_3
+  parent vim_ballacid
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 2
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_fireball_w
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.027
+  orientation 0 0 0 0
+  colorStart 0.4 1 0.4
+  colorEnd 0 0.8 0
+  alphaStart 0.7
+  alphaEnd 0.7
+  sizeStart 0.2
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 12
+  lifeExp 2
+  mass 0.5
+  spread 4
+  particleRot 0.6
+  velocity 0
+  randvel 1.2
+  fps 25
+  xsize 80
+  ysize 80
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vim_ballacid
+
+#MAXANIM ASCII
+newanim impact vim_ballacid
+  length 0
+  transtime 0.25
+  animroot vim_ballacid
+node dummy vim_ballacid
+  parent NULL
+  #part-number 0
+endnode
+node emitter Inferno_1
+  parent vim_ballacid
+  #part-number 1
+  birthrate 5
+endnode
+node emitter Inferno_2
+  parent vim_ballacid
+  #part-number 2
+  birthrate 5
+endnode
+node emitter Inferno_3
+  parent vim_ballacid
+  #part-number 2
+  birthrate 12
+endnode
+doneanim impact vim_ballacid
+
+#MAXANIM ASCII
+newanim duration vim_ballacid
+  length 0
+  transtime 0.25
+  animroot vim_ballacid
+node dummy vim_ballacid
+  parent NULL
+  #part-number 0
+endnode
+node emitter Inferno_1
+  parent vim_ballacid
+  #part-number 1
+  birthrate 5
+endnode
+node emitter Inferno_2
+  parent vim_ballacid
+  #part-number 2
+  birthrate 5
+endnode
+node emitter Inferno_3
+  parent vim_ballacid
+  #part-number 2
+  birthrate 12
+endnode
+doneanim duration vim_ballacid
+
+#MAXANIM ASCII
+newanim cessation vim_ballacid
+  length 0.966666996
+  transtime 0.25
+  animroot vim_ballacid
+node dummy vim_ballacid
+  parent NULL
+  #part-number 0
+endnode
+node emitter Inferno_1
+  parent vim_ballacid
+  #part-number 1
+  birthratekey 2
+    0 5
+    0.0333333015 0
+endnode
+node emitter Inferno_2
+  parent vim_ballacid
+  #part-number 2
+  birthratekey 2
+    0 5
+    0.0333333015 0
+endnode
+node emitter Inferno_3
+  parent vim_ballacid
+  #part-number 2
+  birthratekey 2
+    0 12
+    0.0333333015 0
+endnode
+doneanim cessation vim_ballacid
+
+donemodel vim_ballacid
