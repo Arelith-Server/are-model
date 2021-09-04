@@ -1,15 +1,15 @@
 # Exported from Blender on Saturday, 2021-09-04
 filedependancy unknown
-newmodel wmgst_t_111
-setsupermodel wmgst_t_111 null
+newmodel wmgst_t_113
+setsupermodel wmgst_t_113 null
 classification TILE
 setanimationscale 1.0
-beginmodelgeom wmgst_t_111
-node dummy wmgst_t_111
+beginmodelgeom wmgst_t_113
+node dummy wmgst_t_113
   parent null
 endnode
-node trimesh g_wmgst_t_111
-  parent wmgst_t_111
+node trimesh g_wmgst_t_113
+  parent wmgst_t_113
   position  0.00000  0.00000 -0.00015
   orientation  1.00000  0.00000  0.00000  1.57080
   wirecolor 0.35 0.35 0.35
@@ -35,10 +35,10 @@ node trimesh g_wmgst_t_111
      0.06321  0.00000 -1.02434
      0.00000 -0.06752 -1.02468
   tverts 4
-     0.0147  0.5079  0
-     0.2435  0.5079  0
-     0.2435  0.7367  0
-     0.0147  0.7367  0
+     0.5118  0.5104  0
+     0.7406  0.5104  0
+     0.7406  0.7392  0
+     0.5118  0.7392  0
   faces 20
      0  1  2 1  0 1 2 0
      0  2  3 1  0 1 2 0
@@ -62,15 +62,18 @@ node trimesh g_wmgst_t_111
     11 10  4 1  2 3 0 0
 endnode
 node emitter Ring07
-  parent g_wmgst_t_111
+  parent g_wmgst_t_113
   position -0.00191  0.00000 -1.08263
   orientation -0.57735  0.57735 -0.57735  2.09440
   xsize 0.00
   ysize 0.00
+  update Single
+  render Normal
+  blend Lighten
   spawntype 0
   renderorder 0
   loop 0
-  birthrate 3
+  birthrate 1
   lifeexp -1.00
   mass 0.00
   velocity 0.00
@@ -79,11 +82,8 @@ node emitter Ring07
   spread 0.00
   splat 0
   affectedbywind 0
-  update Single
-  render Normal
-  blend Lighten
-  colorstart 0.42 0.61 0
-  colorend 0.42 0.62 0
+  colorstart 0.42 0.61 1.00
+  colorend 0.42 0.62 1.00
   alphastart 1.00
   alphaend 1.00
   sizestart 0.50
@@ -94,15 +94,14 @@ node emitter Ring07
   bounce_co 0.00
   blurlength 10.00
   deadspace 0.00
-  texture fxpa_ringwave
+  texture fxpa_lensring
   twosidedtex 0
   m_istinted 0
-  xgrid 2
-  ygrid 2
+  xgrid 1
+  ygrid 1
   fps 0
   framestart 0
-  frameend 3
-  fps 16
+  frameend 0
   random 0
   p2p 0
   blastradius 0.00
@@ -113,7 +112,7 @@ node emitter Ring07
   inherit_part 0
 endnode
 node emitter star24
-  parent g_wmgst_t_111
+  parent g_wmgst_t_113
   position -0.00191  0.00000 -1.08263
   orientation -0.57735  0.57735 -0.57735  2.09440
   xsize 0.00
@@ -163,7 +162,7 @@ node emitter star24
   inherit_part 0
 endnode
 node emitter star25
-  parent g_wmgst_t_111
+  parent g_wmgst_t_113
   position -0.00191  0.00000 -1.08263
   orientation -0.57735  0.57735 -0.57735  2.09440
   xsize 0.00
@@ -213,7 +212,7 @@ node emitter star25
   inherit_part 0
 endnode
 node trimesh Crystal
-  parent g_wmgst_t_111
+  parent g_wmgst_t_113
   position  0.00000  0.00187 -1.10149
   orientation  0.70711 -0.00000  0.70711  3.14159
   wirecolor 0.11 0.11 0.11
@@ -265,5 +264,5 @@ node trimesh Crystal
     11 10  9 1  2 3 0 0
     11  6 10 1  0 1 2 0
 endnode
-endmodelgeom wmgst_t_111
-donemodel wmgst_t_111
+endmodelgeom wmgst_t_113
+donemodel wmgst_t_113
