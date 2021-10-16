@@ -1,0 +1,42 @@
+# Exported from blender Monday, 2021-09-20
+filedependancy unknown
+newmodel wplpk_b_012
+setsupermodel wplpk_b_012 null
+classification Character
+setanimationscale 1.0
+beginmodelgeom wplpk_b_012
+node dummy wplpk_b_012
+  parent null
+endnode
+node trimesh g_wplpk_b_012
+  parent wplpk_b_012
+  position  0.00004 -0.31247  0.00148
+  orientation  1.00000  0.00000  0.00000  1.57080
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap w_metal_tex
+  shininess 1
+  verts 5
+    -0.00300 -0.00300 -0.00120
+    -0.00000  0.00000  0.00480
+    -0.00300  0.00300 -0.00120
+     0.00300 -0.00300 -0.00120
+     0.00300  0.00300 -0.00120
+  tverts 5
+     0.000  0.000  0
+     0.000  0.000  0
+     0.000  0.000  0
+     0.000  0.000  0
+     0.000  0.000  0
+  faces 6
+    0 1 2  1  0 1 2  0
+    2 1 4  1  2 1 3  0
+    4 1 3  1  3 1 4  0
+    3 1 0  1  4 1 0  0
+    4 0 2  1  3 0 2  0
+    4 3 0  1  3 4 0  0
+endnode
+endmodelgeom wplpk_b_012
+donemodel wplpk_b_012
