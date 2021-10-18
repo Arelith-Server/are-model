@@ -1,17 +1,17 @@
 # Custom for Friedeyes
 #MAXMODEL ASCII
 filedependency Unknown
-newmodel ait_bagg
-setsupermodel ait_bagg null
+newmodel ait_bag_gold
+setsupermodel ait_bag_gold null
 setanimationscale 1
 classification ITEM
 #MAXGEOM ASCII
-beginmodelgeom ait_bagg
-node dummy ait_bagg
+beginmodelgeom ait_bag_gold
+node dummy ait_bag_gold
   parent NULL
 endnode
 node trimesh geosphere01
-  parent ait_bagg
+  parent ait_bag_gold
   ambient 1 1 1
   diffuse 1 1 1
   specular 0 0 0
@@ -207,5 +207,5 @@ node trimesh geosphere01
     2.27361 0.522865 0
     2.21809 0.767387 0
 endnode
-endmodelgeom ait_bagg
-donemodel ait_bagg
+endmodelgeom ait_bag_gold
+donemodel ait_bag_gold
