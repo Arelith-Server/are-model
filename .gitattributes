@@ -1,4 +1,7 @@
 *.tga filter=lfs diff=lfs merge=lfs -text
-*/binary*/*.mdl filter=lfs diff=lfs merge=lfs -text
+*.dds filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+mdl/compiled/**/*.mdl filter=lfs diff=lfs merge=lfs -text
 *.plt filter=lfs diff=lfs merge=lfs -text
 *.set text eol=crlf
