@@ -1,0 +1,64 @@
+# Exported from NWmax 0.8 b60 at 27.12.2013 21:05:32
+# wok file
+#
+#NWmax WALKMESH  ASCII
+beginwalkmeshgeom tfm01_m21_02
+node aabb walkmesh
+  parent tfm01_m21_02
+  position 0.0 0.0 9.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0 1.0 0.0 
+  multimaterial 20
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+  ambient 0.0 0.0 0.0 
+  diffuse 0.0 0.752941 0.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Leaves
+  verts 7
+    -5.0 -5.0 5.0
+    -5.0 5.0 5.0
+    5.0 5.0 5.0
+    4.85 -4.85 0.0
+    4.5 -5.0 0.0
+    5.0 -4.5 0.0
+    5.0 -5.0 0.0
+  faces 6
+    4 6 3  0  0 0 0  14
+    5 3 6  0  0 0 0  14
+    0 3 1  0  0 0 0  7
+    3 2 1  0  0 0 0  7
+    3 5 2  0  0 0 0  7
+    4 3 0  0  0 0 0  7
+    aabb         -5.0 -5.0 0.0 5.0 5.0 5.0 -1
+        -5.0 -5.0 0.0 5.0 5.0 5.0 -1
+        -5.0 -5.0 0.0 4.85 5.0 5.0 2
+        -5.0 -5.0 0.0 5.0 5.0 5.0 -1
+        -5.0 -5.0 0.0 4.85 -4.85 5.0 5
+        -5.0 -4.85 0.0 5.0 5.0 5.0 3
+        4.5 -5.0 0.0 5.0 5.0 5.0 -1
+        4.5 -5.0 0.0 5.0 -4.5 0.0 -1
+        4.5 -5.0 0.0 5.0 -4.85 0.0 0
+        4.85 -5.0 0.0 5.0 -4.5 0.0 1
+        4.85 -4.85 0.0 5.0 5.0 5.0 4
+endnode
+endwalkmeshgeom tfm01_m21_02

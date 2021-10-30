@@ -1,0 +1,29 @@
+# Exported from NWmax 0.8 b60 at 06.10.2012 01:18:08
+# wok file
+#
+#NWmax WALKMESH  ASCII
+beginwalkmeshgeom tdm01_tr4_03
+node aabb wok
+  parent tdm01_tr4_03
+  position 0.0 0.0 5e-007
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 0.0 0.0 
+  bitmap NULL
+  verts 4
+    5.0 -5.0 0.0
+    -5.0 5.0 0.0
+    -5.0 -5.0 0.0
+    5.0 5.0 0.0
+  faces 2
+    0 1 2  1  0 1 2  4
+    1 0 3  1  1 0 3  4
+  tverts 4
+    0.9995 -0.998502 0
+    -0.998501 0.999501 0
+    -0.295651 0.225178 0
+    0.999501 0.9995 0
+    aabb         -5.0 -5.0 0.0 5.0 5.0 0.0 -1
+        -5.0 -5.0 0.0 5.0 5.0 0.0 0
+        -5.0 -5.0 0.0 5.0 5.0 0.0 1
+endnode
+endwalkmeshgeom tdm01_tr4_03
