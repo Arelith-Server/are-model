@@ -1,0 +1,19 @@
+node trimesh plc_telscop_wg
+    parent plc_telscop_pwk
+    position -0.00972221 -0.0370781 0.0
+    orientation 1.0 0.0 0.0 0.0
+    scale 1.0
+    diffuse 0.8000 0.8000 0.8000
+    ambient 0.2000 0.2000 0.2000
+    specular 0.0000 0.0000 0.0000
+    render 0
+    bitmap NULL
+    verts 4
+        -0.5 -0.85 0.0
+        0.5 -0.85 0.0
+        -0.5 0.85 0.0
+        0.5 0.85 0.0
+    faces 2
+        2 0 3 1 0 0 0 1
+        1 3 0 1 0 0 0 1
+endnode

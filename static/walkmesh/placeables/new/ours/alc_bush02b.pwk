@@ -1,0 +1,44 @@
+# Exported from blender Monday, 2019-10-28
+filedependancy unknown
+node dummy bush02b_pwk_use01
+  parent alc_bush02b_pwk
+  position  0.06000 -1.07000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node dummy bush02b_pwk_use02
+  parent alc_bush02b_pwk
+  position  0.06000  1.27000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node trimesh bush02b_wg
+  parent alc_bush02b_pwk
+  position  0.00000  0.00000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  verts 8
+     0.65433  0.77112  0.00000
+    -0.53393  0.77112  0.00000
+    -0.53393 -0.57460  0.00000
+     0.65433 -0.57460  0.00000
+     0.65433  0.77112  0.78878
+    -0.53393  0.77112  0.78878
+    -0.53393 -0.57460  0.78878
+     0.65433 -0.57460  0.78878
+  faces 12
+    3 1 0  1  0 0 0  0
+    5 7 4  1  0 0 0  0
+    3 6 2  1  0 0 0  0
+    1 4 0  1  0 0 0  0
+    2 5 1  1  0 0 0  0
+    0 7 3  1  0 0 0  0
+    3 2 1  1  0 0 0  0
+    5 6 7  1  0 0 0  0
+    3 7 6  1  0 0 0  0
+    1 5 4  1  0 0 0  0
+    2 6 5  1  0 0 0  0
+    0 4 7  1  0 0 0  0
+endnode

@@ -1,0 +1,30 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLV_DB2
+filedependancy Unknown
+node trimesh PLV_DB2_wg
+  parent PLV_DB2_pwk
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.570313 0.570313 0.570313
+  ambient 0 0 0
+  diffuse 0.705882 0 1
+  specular 0 0 0
+  shininess 11
+  bitmap NULL
+  verts 4
+    -0.454724 -0.329006 0
+    0.444732 -0.329006 0
+    -0.454725 0.323949 0
+    0.444733 0.323949 0
+  faces 2
+    3 0 1  1  0 0 0  7
+    2 0 3  1  0 0 0  7
+endnode
+node dummy DB2_PWK_USE01
+  parent PLV_DB2_wg
+  position 0 -1.04601 0
+  orientation 0 0 0 0
+  wirecolor 0.34375 0.34375 0.34375
+endnode

@@ -1,0 +1,44 @@
+# Exported from blender Sunday, 2019-08-25
+filedependancy unknown
+node dummy 03_pwk_use01
+  parent red_plant_pot_03_pwk
+  position  0.09000 -1.10000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node dummy 03_pwk_use02
+  parent red_plant_pot_03_pwk
+  position  0.09000  0.88000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+endnode
+node trimesh 03_wg
+  parent red_plant_pot_03_pwk
+  position  0.00000  0.00000  0.00000
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  verts 8
+     0.71815  0.18017  0.00000
+    -0.70694  0.39806  0.00000
+    -0.70385 -0.36346  0.00000
+     0.71815 -0.41288  0.00000
+     0.71815  0.18017  0.43259
+    -0.70694  0.39806  0.43259
+    -0.70385 -0.36346  0.43259
+     0.71815 -0.41288  0.43259
+  faces 12
+    0 2 1  1  0 0 0  0
+    4 6 7  1  0 0 0  0
+    3 6 2  1  0 0 0  0
+    1 4 0  1  0 0 0  0
+    2 5 1  1  0 0 0  0
+    0 7 3  1  0 0 0  0
+    0 3 2  1  0 0 0  0
+    4 5 6  1  0 0 0  0
+    3 7 6  1  0 0 0  0
+    1 5 4  1  0 0 0  0
+    2 6 5  1  0 0 0  0
+    0 4 7  1  0 0 0  0
+endnode
