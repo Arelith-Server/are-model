@@ -1,17 +1,17 @@
 # Custom for Friedeyes
 #MAXMODEL ASCII
 filedependency Unknown
-newmodel it_mscthno_000
-setsupermodel it_mscthno_000 null
+newmodel it_medkit_000
+setsupermodel it_medkit_000 null
 setanimationscale 1
 classification ITEM
 #MAXGEOM ASCII
-beginmodelgeom it_mscthno_000
-node dummy it_mscthno_000
+beginmodelgeom it_medkit_000
+node dummy it_medkit_000
   parent NULL
 endnode
-node trimesh it_mscthno_000g
-  parent it_mscthno_000
+node trimesh it_medkit_000g
+  parent it_medkit_000
   position 0 0 0
   orientation -1 0 0 -3.14159
   wirecolor 1 1 1
@@ -69,5 +69,5 @@ node trimesh it_mscthno_000g
     0.960775 0.210327 0
     0.818844 0.210327 0
 endnode
-endmodelgeom it_mscthno_000
-donemodel it_mscthno_000
+endmodelgeom it_medkit_000
+donemodel it_medkit_000

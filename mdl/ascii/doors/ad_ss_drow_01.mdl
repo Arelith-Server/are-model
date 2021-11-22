@@ -3,18 +3,18 @@
 # mechanical stone
 #
 #NWmax MODEL ASCII
-# model: ad_ss_01
+# model: ad_ss_drow_01
 filedependancy stonedoor.max
-newmodel ad_ss_01
-setsupermodel ad_ss_01 NULL
+newmodel ad_ss_drow_01
+setsupermodel ad_ss_drow_01 NULL
 classification Door
 #NWmax GEOM  ASCII
-beginmodelgeom ad_ss_01
-node dummy ad_ss_01
+beginmodelgeom ad_ss_drow_01
+node dummy ad_ss_drow_01
   parent NULL
 endnode
 node emitter fire!07
-  parent ad_ss_01
+  parent ad_ss_drow_01
   position 0 0.0288672 0.928905
   orientation 1 0 0 -4.71239
   wirecolor 1 1 1 
@@ -81,7 +81,7 @@ node emitter fire!07
   Drag 0
 endnode
 node trimesh sam
-  parent ad_ss_01
+  parent ad_ss_drow_01
   position -1 0 0
   orientation 0 0 -1 -1.5708
   wirecolor 1 1 1 
@@ -121,32 +121,32 @@ node trimesh sam
     0.494271 0.876312 0
     0.000499815 0.876312 0
 endnode
-node dummy ad_ss_01grnd
-  parent ad_ss_01
+node dummy ad_ss_drow_01grnd
+  parent ad_ss_drow_01
   position 0 0 0
   orientation 1 0 0 0
   wirecolor 0.345098 0.694118 0.101961 
 endnode
-node dummy ad_ss_01head
-  parent ad_ss_01
+node dummy ad_ss_drow_01head
+  parent ad_ss_drow_01
   position 0 0 2.50064
   orientation 1 0 0 0
   wirecolor 0.345098 0.694118 0.101961 
 endnode
-node dummy ad_ss_01hhit
-  parent ad_ss_01
+node dummy ad_ss_drow_01hhit
+  parent ad_ss_drow_01
   position 0 0 2.17507
   orientation 1 0 0 0
   wirecolor 0.423529 0.0313726 0.533333 
 endnode
-node dummy ad_ss_01impc
-  parent ad_ss_01
+node dummy ad_ss_drow_01impc
+  parent ad_ss_drow_01
   position 0 0 1.63648
   orientation 1 0 0 0
   wirecolor 0.423529 0.0313726 0.533333 
 endnode
 node dummy TIN01_B13_03
-  parent ad_ss_01
+  parent ad_ss_drow_01
   position 0 0 0
   orientation 1 0 0 0
   wirecolor 0.423529 0.0313726 0.533333 
@@ -941,64 +941,64 @@ node trimesh Plane01
     0.567515 0.524462 0
     1 0.524462 0
 endnode
-endmodelgeom ad_ss_01
+endmodelgeom ad_ss_drow_01
 
 #NWmax ANIM ASCII
-newanim trans ad_ss_01
+newanim trans ad_ss_drow_01
   length 0.0333333
   transtime 0
-  animroot ad_ss_01
-    node dummy ad_ss_01
+  animroot ad_ss_drow_01
+    node dummy ad_ss_drow_01
         parent NULL
     endnode
     node emitter fire!07
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh sam
-        parent ad_ss_01
+        parent ad_ss_drow_01
         alphakey
             0 0.25 
             0.0333333 0.25 
         endlist
     endnode
-    node dummy ad_ss_01_DWK
-        parent ad_ss_01
+    node dummy ad_ss_drow_01_DWK
+        parent ad_ss_drow_01
     endnode
     node dummy 23_DWK_dp_closed_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_closed_02
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open1_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open2_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_closed
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open1
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open2
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
-    node dummy ad_ss_01grnd
-        parent ad_ss_01
+    node dummy ad_ss_drow_01grnd
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01head
-        parent ad_ss_01
+    node dummy ad_ss_drow_01head
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01hhit
-        parent ad_ss_01
+    node dummy ad_ss_drow_01hhit
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01impc
-        parent ad_ss_01
+    node dummy ad_ss_drow_01impc
+        parent ad_ss_drow_01
     endnode
     node dummy TIN01_B13_03
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -1021,65 +1021,65 @@ newanim trans ad_ss_01
     node trimesh Plane01
         parent TIN01_B13_03
     endnode
-doneanim trans ad_ss_01
+doneanim trans ad_ss_drow_01
 
 
 #NWmax ANIM ASCII
-newanim opening1 ad_ss_01
+newanim opening1 ad_ss_drow_01
   length 0.666667
   transtime 0.25
-  animroot ad_ss_01
-    node dummy ad_ss_01
+  animroot ad_ss_drow_01
+    node dummy ad_ss_drow_01
         parent NULL
     endnode
     node emitter fire!07
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh sam
-        parent ad_ss_01
+        parent ad_ss_drow_01
         alphakey
             0 0 
             0.666667 0 
         endlist
     endnode
-    node dummy ad_ss_01_DWK
-        parent ad_ss_01
+    node dummy ad_ss_drow_01_DWK
+        parent ad_ss_drow_01
     endnode
     node dummy 23_DWK_dp_closed_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_closed_02
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open1_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open2_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_closed
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open1
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open2
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
-    node dummy ad_ss_01grnd
-        parent ad_ss_01
+    node dummy ad_ss_drow_01grnd
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01head
-        parent ad_ss_01
+    node dummy ad_ss_drow_01head
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01hhit
-        parent ad_ss_01
+    node dummy ad_ss_drow_01hhit
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01impc
-        parent ad_ss_01
+    node dummy ad_ss_drow_01impc
+        parent ad_ss_drow_01
     endnode
     node dummy TIN01_B13_03
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -1134,65 +1134,65 @@ newanim opening1 ad_ss_01
     node trimesh Plane01
         parent TIN01_B13_03
     endnode
-doneanim opening1 ad_ss_01
+doneanim opening1 ad_ss_drow_01
 
 
 #NWmax ANIM ASCII
-newanim opened1 ad_ss_01
+newanim opened1 ad_ss_drow_01
   length 0.0333333
   transtime 0
-  animroot ad_ss_01
-    node dummy ad_ss_01
+  animroot ad_ss_drow_01
+    node dummy ad_ss_drow_01
         parent NULL
     endnode
     node emitter fire!07
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh sam
-        parent ad_ss_01
+        parent ad_ss_drow_01
         alphakey
             0 0 
             0.0333333 0 
         endlist
     endnode
-    node dummy ad_ss_01_DWK
-        parent ad_ss_01
+    node dummy ad_ss_drow_01_DWK
+        parent ad_ss_drow_01
     endnode
     node dummy 23_DWK_dp_closed_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_closed_02
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open1_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open2_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_closed
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open1
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open2
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
-    node dummy ad_ss_01grnd
-        parent ad_ss_01
+    node dummy ad_ss_drow_01grnd
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01head
-        parent ad_ss_01
+    node dummy ad_ss_drow_01head
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01hhit
-        parent ad_ss_01
+    node dummy ad_ss_drow_01hhit
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01impc
-        parent ad_ss_01
+    node dummy ad_ss_drow_01impc
+        parent ad_ss_drow_01
     endnode
     node dummy TIN01_B13_03
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -1239,65 +1239,65 @@ newanim opened1 ad_ss_01
     node trimesh Plane01
         parent TIN01_B13_03
     endnode
-doneanim opened1 ad_ss_01
+doneanim opened1 ad_ss_drow_01
 
 
 #NWmax ANIM ASCII
-newanim closing1 ad_ss_01
+newanim closing1 ad_ss_drow_01
   length 0.666667
   transtime 0.25
-  animroot ad_ss_01
-    node dummy ad_ss_01
+  animroot ad_ss_drow_01
+    node dummy ad_ss_drow_01
         parent NULL
     endnode
     node emitter fire!07
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh sam
-        parent ad_ss_01
+        parent ad_ss_drow_01
         alphakey
             0 0 
             0.666667 0 
         endlist
     endnode
-    node dummy ad_ss_01_DWK
-        parent ad_ss_01
+    node dummy ad_ss_drow_01_DWK
+        parent ad_ss_drow_01
     endnode
     node dummy 23_DWK_dp_closed_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_closed_02
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open1_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open2_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_closed
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open1
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open2
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
-    node dummy ad_ss_01grnd
-        parent ad_ss_01
+    node dummy ad_ss_drow_01grnd
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01head
-        parent ad_ss_01
+    node dummy ad_ss_drow_01head
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01hhit
-        parent ad_ss_01
+    node dummy ad_ss_drow_01hhit
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01impc
-        parent ad_ss_01
+    node dummy ad_ss_drow_01impc
+        parent ad_ss_drow_01
     endnode
     node dummy TIN01_B13_03
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -1350,65 +1350,65 @@ newanim closing1 ad_ss_01
     node trimesh Plane01
         parent TIN01_B13_03
     endnode
-doneanim closing1 ad_ss_01
+doneanim closing1 ad_ss_drow_01
 
 
 #NWmax ANIM ASCII
-newanim opening2 ad_ss_01
+newanim opening2 ad_ss_drow_01
   length 0.666667
   transtime 0.25
-  animroot ad_ss_01
-    node dummy ad_ss_01
+  animroot ad_ss_drow_01
+    node dummy ad_ss_drow_01
         parent NULL
     endnode
     node emitter fire!07
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh sam
-        parent ad_ss_01
+        parent ad_ss_drow_01
         alphakey
             0 0 
             0.666667 0 
         endlist
     endnode
-    node dummy ad_ss_01_DWK
-        parent ad_ss_01
+    node dummy ad_ss_drow_01_DWK
+        parent ad_ss_drow_01
     endnode
     node dummy 23_DWK_dp_closed_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_closed_02
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open1_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open2_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_closed
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open1
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open2
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
-    node dummy ad_ss_01grnd
-        parent ad_ss_01
+    node dummy ad_ss_drow_01grnd
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01head
-        parent ad_ss_01
+    node dummy ad_ss_drow_01head
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01hhit
-        parent ad_ss_01
+    node dummy ad_ss_drow_01hhit
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01impc
-        parent ad_ss_01
+    node dummy ad_ss_drow_01impc
+        parent ad_ss_drow_01
     endnode
     node dummy TIN01_B13_03
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -1463,65 +1463,65 @@ newanim opening2 ad_ss_01
     node trimesh Plane01
         parent TIN01_B13_03
     endnode
-doneanim opening2 ad_ss_01
+doneanim opening2 ad_ss_drow_01
 
 
 #NWmax ANIM ASCII
-newanim opened2 ad_ss_01
+newanim opened2 ad_ss_drow_01
   length 0.0333333
   transtime 0
-  animroot ad_ss_01
-    node dummy ad_ss_01
+  animroot ad_ss_drow_01
+    node dummy ad_ss_drow_01
         parent NULL
     endnode
     node emitter fire!07
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh sam
-        parent ad_ss_01
+        parent ad_ss_drow_01
         alphakey
             0 0 
             0.0333333 0 
         endlist
     endnode
-    node dummy ad_ss_01_DWK
-        parent ad_ss_01
+    node dummy ad_ss_drow_01_DWK
+        parent ad_ss_drow_01
     endnode
     node dummy 23_DWK_dp_closed_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_closed_02
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open1_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open2_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_closed
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open1
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open2
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
-    node dummy ad_ss_01grnd
-        parent ad_ss_01
+    node dummy ad_ss_drow_01grnd
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01head
-        parent ad_ss_01
+    node dummy ad_ss_drow_01head
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01hhit
-        parent ad_ss_01
+    node dummy ad_ss_drow_01hhit
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01impc
-        parent ad_ss_01
+    node dummy ad_ss_drow_01impc
+        parent ad_ss_drow_01
     endnode
     node dummy TIN01_B13_03
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -1568,65 +1568,65 @@ newanim opened2 ad_ss_01
     node trimesh Plane01
         parent TIN01_B13_03
     endnode
-doneanim opened2 ad_ss_01
+doneanim opened2 ad_ss_drow_01
 
 
 #NWmax ANIM ASCII
-newanim closing2 ad_ss_01
+newanim closing2 ad_ss_drow_01
   length 0.666667
   transtime 0.25
-  animroot ad_ss_01
-    node dummy ad_ss_01
+  animroot ad_ss_drow_01
+    node dummy ad_ss_drow_01
         parent NULL
     endnode
     node emitter fire!07
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh sam
-        parent ad_ss_01
+        parent ad_ss_drow_01
         alphakey
             0 0 
             0.666667 0 
         endlist
     endnode
-    node dummy ad_ss_01_DWK
-        parent ad_ss_01
+    node dummy ad_ss_drow_01_DWK
+        parent ad_ss_drow_01
     endnode
     node dummy 23_DWK_dp_closed_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_closed_02
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open1_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open2_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_closed
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open1
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open2
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
-    node dummy ad_ss_01grnd
-        parent ad_ss_01
+    node dummy ad_ss_drow_01grnd
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01head
-        parent ad_ss_01
+    node dummy ad_ss_drow_01head
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01hhit
-        parent ad_ss_01
+    node dummy ad_ss_drow_01hhit
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01impc
-        parent ad_ss_01
+    node dummy ad_ss_drow_01impc
+        parent ad_ss_drow_01
     endnode
     node dummy TIN01_B13_03
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -1679,65 +1679,65 @@ newanim closing2 ad_ss_01
     node trimesh Plane01
         parent TIN01_B13_03
     endnode
-doneanim closing2 ad_ss_01
+doneanim closing2 ad_ss_drow_01
 
 
 #NWmax ANIM ASCII
-newanim closed ad_ss_01
+newanim closed ad_ss_drow_01
   length 0.0333333
   transtime 0
-  animroot ad_ss_01
-    node dummy ad_ss_01
+  animroot ad_ss_drow_01
+    node dummy ad_ss_drow_01
         parent NULL
     endnode
     node emitter fire!07
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh sam
-        parent ad_ss_01
+        parent ad_ss_drow_01
         alphakey
             0 0 
             0.0333333 0 
         endlist
     endnode
-    node dummy ad_ss_01_DWK
-        parent ad_ss_01
+    node dummy ad_ss_drow_01_DWK
+        parent ad_ss_drow_01
     endnode
     node dummy 23_DWK_dp_closed_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_closed_02
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open1_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open2_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_closed
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open1
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open2
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
-    node dummy ad_ss_01grnd
-        parent ad_ss_01
+    node dummy ad_ss_drow_01grnd
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01head
-        parent ad_ss_01
+    node dummy ad_ss_drow_01head
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01hhit
-        parent ad_ss_01
+    node dummy ad_ss_drow_01hhit
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01impc
-        parent ad_ss_01
+    node dummy ad_ss_drow_01impc
+        parent ad_ss_drow_01
     endnode
     node dummy TIN01_B13_03
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh Box01
         parent TIN01_B13_03
@@ -1784,66 +1784,66 @@ newanim closed ad_ss_01
     node trimesh Plane01
         parent TIN01_B13_03
     endnode
-doneanim closed ad_ss_01
+doneanim closed ad_ss_drow_01
 
 
 #NWmax ANIM ASCII
-newanim die ad_ss_01
+newanim die ad_ss_drow_01
   length 0.666667
   transtime 0.25
-  animroot ad_ss_01
+  animroot ad_ss_drow_01
   event 0 detonate
-    node dummy ad_ss_01
+    node dummy ad_ss_drow_01
         parent NULL
     endnode
     node emitter fire!07
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh sam
-        parent ad_ss_01
+        parent ad_ss_drow_01
         alphakey
             0 0 
             0.666667 0 
         endlist
     endnode
-    node dummy ad_ss_01_DWK
-        parent ad_ss_01
+    node dummy ad_ss_drow_01_DWK
+        parent ad_ss_drow_01
     endnode
     node dummy 23_DWK_dp_closed_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_closed_02
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open1_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open2_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_closed
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open1
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open2
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
-    node dummy ad_ss_01grnd
-        parent ad_ss_01
+    node dummy ad_ss_drow_01grnd
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01head
-        parent ad_ss_01
+    node dummy ad_ss_drow_01head
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01hhit
-        parent ad_ss_01
+    node dummy ad_ss_drow_01hhit
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01impc
-        parent ad_ss_01
+    node dummy ad_ss_drow_01impc
+        parent ad_ss_drow_01
     endnode
     node dummy TIN01_B13_03
-        parent ad_ss_01
+        parent ad_ss_drow_01
         positionkey
             0 0 0 0
             0.666667 0 0 -3.1
@@ -1874,65 +1874,65 @@ newanim die ad_ss_01
     node trimesh Plane01
         parent TIN01_B13_03
     endnode
-doneanim die ad_ss_01
+doneanim die ad_ss_drow_01
 
 
 #NWmax ANIM ASCII
-newanim dead ad_ss_01
+newanim dead ad_ss_drow_01
   length 0.0333333
   transtime 0
-  animroot ad_ss_01
-    node dummy ad_ss_01
+  animroot ad_ss_drow_01
+    node dummy ad_ss_drow_01
         parent NULL
     endnode
     node emitter fire!07
-        parent ad_ss_01
+        parent ad_ss_drow_01
     endnode
     node trimesh sam
-        parent ad_ss_01
+        parent ad_ss_drow_01
         alphakey
             0 0 
             0.0333333 0 
         endlist
     endnode
-    node dummy ad_ss_01_DWK
-        parent ad_ss_01
+    node dummy ad_ss_drow_01_DWK
+        parent ad_ss_drow_01
     endnode
     node dummy 23_DWK_dp_closed_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_closed_02
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open1_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dummy 23_DWK_dp_open2_01
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_closed
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open1
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
     node dwk 23_DWK_wg_open2
-        parent ad_ss_01_DWK
+        parent ad_ss_drow_01_DWK
     endnode
-    node dummy ad_ss_01grnd
-        parent ad_ss_01
+    node dummy ad_ss_drow_01grnd
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01head
-        parent ad_ss_01
+    node dummy ad_ss_drow_01head
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01hhit
-        parent ad_ss_01
+    node dummy ad_ss_drow_01hhit
+        parent ad_ss_drow_01
     endnode
-    node dummy ad_ss_01impc
-        parent ad_ss_01
+    node dummy ad_ss_drow_01impc
+        parent ad_ss_drow_01
     endnode
     node dummy TIN01_B13_03
-        parent ad_ss_01
+        parent ad_ss_drow_01
         positionkey
             0 0 0 -3.1
             0.0333333 0 0 -3.1
@@ -1963,6 +1963,6 @@ newanim dead ad_ss_01
     node trimesh Plane01
         parent TIN01_B13_03
     endnode
-doneanim dead ad_ss_01
+doneanim dead ad_ss_drow_01
 
-donemodel ad_ss_01
+donemodel ad_ss_drow_01
