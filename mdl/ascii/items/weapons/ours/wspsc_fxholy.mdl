@@ -1,0 +1,315 @@
+#MAXMODEL ASCII
+# model: wspsc_fxholy
+filedependancy wspsc_fxholy.max
+newmodel wspsc_fxholy
+setsupermodel wspsc_fxholy NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom wspsc_fxholy
+node dummy wspsc_fxholy
+  parent NULL
+endnode
+node emitter g_WSwGs_V_Holy
+  parent wspsc_fxholy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_StarBnW
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.161524 0.0422095
+  orientation -1 0 0 -0.942478
+  xsize 1
+  ysize 11
+  threshold 0
+  combinetime 0
+  colorStart 0.811765 0.72549 0.541176
+  colorEnd 0.788235 0.596078 0.360784
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 5
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 3
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter g_WSwGs_V_Holy01
+  parent wspsc_fxholy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_StarBnW
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.244038 0.121241
+  orientation -1 1.2776e-07 0 -0.514872
+  xsize 1
+  ysize 12
+  threshold 0
+  combinetime 0
+  colorStart 0.811765 0.72549 0.541176
+  colorEnd 0.788235 0.596078 0.360784
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 5
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 3
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter g_WSwGs_V_Holy02
+  parent wspsc_fxholy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_StarBnW
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.471534 0.00147389
+  orientation 1 0 0 -1.61443
+  xsize 1
+  ysize 12
+  threshold 0
+  combinetime 0
+  colorStart 0.811765 0.72549 0.541176
+  colorEnd 0.788235 0.596078 0.360784
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 5
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 3
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter g_WSwGs_V_Holy03
+  parent wspsc_fxholy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_StarBnW
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.342108 0.143856
+  orientation 1 1.181e-06 2.36686e-07 -0.0610865
+  xsize 1
+  ysize 12
+  threshold 0
+  combinetime 0
+  colorStart 0.811765 0.72549 0.541176
+  colorEnd 0.788235 0.596078 0.360784
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 5
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 3
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter g_WSwGs_V_Holy04
+  parent wspsc_fxholy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_StarBnW
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.433943 0.098105
+  orientation 1 0 0 -0.8901181
+  xsize 1
+  ysize 12
+  threshold 0
+  combinetime 0
+  colorStart 0.811765 0.72549 0.541176
+  colorEnd 0.788235 0.596078 0.360784
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 5
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 3
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom wspsc_fxholy
+
+donemodel wspsc_fxholy

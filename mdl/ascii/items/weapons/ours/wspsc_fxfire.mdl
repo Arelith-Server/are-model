@@ -1,0 +1,315 @@
+#MAXMODEL ASCII
+# model: wspsc_fxfire
+filedependancy wspsc_fxfire.max
+newmodel wspsc_fxfire
+setsupermodel wspsc_fxfire NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom wspsc_fxfire
+node dummy wspsc_fxfire
+  parent NULL
+endnode
+node emitter g_WSwGs_V_Fire
+  parent wspsc_fxfire
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flame00
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.174569 0.0594913
+  orientation -0.357407 -0.862856 -0.357407 -1.71777
+  xsize 6
+  ysize 16
+  threshold 0
+  combinetime 0
+  colorStart 0.996079 1 0.894118
+  colorEnd 0.886275 0.556863 0.0392157
+  alphaStart 0.6
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 1.75
+  mass 0
+  spread 0.174533
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 16
+  frameStart 0
+  frameEnd 15
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter g_WSwGs_V_Fire_b
+  parent wspsc_fxfire
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.419794 0.0755362
+  orientation 1 0 0 -0.811578
+  xsize 3
+  ysize 20
+  threshold 0
+  combinetime 0
+  colorStart 0.996079 1 0.894118
+  colorEnd 0.886275 0.556863 0.0392157
+  alphaStart 0.5
+  alphaEnd 0.25
+  sizeStart 0.06
+  sizeEnd 0.07
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 5
+  lifeExp 0.5
+  mass -1
+  spread 0.174533
+  particleRot 2
+  velocity 0
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter g_WSwGs_V_Fire01
+  parent wspsc_fxfire
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flame00
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.453041 0.0480246
+  orientation 0.5221369 -0.6743488 0.5221369 -1.95499
+  xsize 6
+  ysize 20
+  threshold 0
+  combinetime 0
+  colorStart 0.996079 1 0.894118
+  colorEnd 0.886275 0.556863 0.0392157
+  alphaStart 0.6
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 1.75
+  mass 0
+  spread 0.174533
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 16
+  frameStart 0
+  frameEnd 15
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter g_WSwGs_V_Fire_b01
+  parent wspsc_fxfire
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.246086 0.100051
+  orientation -1 0 0 -0.619592
+  xsize 3
+  ysize 20
+  threshold 0
+  combinetime 0
+  colorStart 0.996079 1 0.894118
+  colorEnd 0.886275 0.556863 0.0392157
+  alphaStart 0.5
+  alphaEnd 0.25
+  sizeStart 0.06
+  sizeEnd 0.07
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 5
+  lifeExp 0.5
+  mass -1
+  spread 0.174533
+  particleRot 2
+  velocity 0
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter g_WSwGs_V_Fire02
+  parent wspsc_fxfire
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flame00
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.328686 0.138044
+  orientation -0.00436286 -0.999981 -0.0043638 -1.57081
+  xsize 6
+  ysize 18
+  threshold 0
+  combinetime 0
+  colorStart 0.996079 1 0.894118
+  colorEnd 0.886275 0.556863 0.0392157
+  alphaStart 0.6
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 1.75
+  mass 0
+  spread 0.174533
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 16
+  frameStart 0
+  frameEnd 15
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom wspsc_fxfire
+
+donemodel wspsc_fxfire
