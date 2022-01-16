@@ -1,0 +1,391 @@
+#MAXMODEL ASCII
+# model: vff_sf_magnova
+filedependancy vff_sf_magnova.max
+newmodel vff_sf_magnova
+setsupermodel vff_sf_magnova NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vff_sf_magnova
+node dummy vff_sf_magnova
+  parent NULL
+endnode
+node emitter groundsyb
+  parent vff_sf_magnova
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture sf_mnova
+  xgrid 4
+  ygrid 11
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.0438979
+  orientation 0 0 0 0
+  colorStart 0.7 0.9 1
+  colorEnd 0.8 0.4 0.8
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 43
+  birthrate 1
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 45
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node dummy Dummy01
+  parent vff_sf_magnova
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node emitter WIND_Dummy
+  parent vff_sf_magnova
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture NULL
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 16
+  blastLength 1
+  position -0.00249214 0.000424422 0.390378
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter sparks
+  parent vff_sf_magnova
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Aligned_to_Particle_Dir
+  blend Lighten
+  texture fxpa_strk_b
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.174533
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0 0.00443132 0.00302643
+  orientation -1 0 0 -3.14159
+  colorStart 0.2843 0.3615 1
+  colorEnd 0.2305 0.1831 0.269
+  alphaStart 1
+  alphaEnd 0.2
+  sizeStart 5
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 120
+  lifeExp 0.9
+  mass 0
+  spread 6.28319
+  particleRot 0
+  velocity 5
+  randvel 1
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter frost
+  parent vff_sf_magnova
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Aligned_to_Particle_Dir
+  blend Lighten
+  texture fxpa_strk_b
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0 0.00443132 0.00558975
+  orientation 1 0 0 -3.14159
+  colorStart 0.2843 0.3615 1
+  colorEnd 0.2305 0.1831 0.269
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 10
+  sizeEnd 8
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 50
+  lifeExp 0.8
+  mass 0
+  spread 6.28319
+  particleRot 0
+  velocity 3
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter cloud
+  parent vff_sf_magnova
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 9.92656e-05
+  orientation 0 0 0 0
+  colorStart 0.2843 0.3615 1
+  colorEnd 0.2305 0.1831 0.269
+  alphaStart 0.1
+  alphaEnd 0
+  sizeStart 10
+  sizeEnd 5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 5
+  lifeExp 2
+  mass 0
+  spread 2
+  particleRot 0.5
+  velocity 0.3
+  randvel 0.3
+  fps 16
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vff_sf_magnova
+
+#MAXANIM ASCII
+newanim impact vff_sf_magnova
+  length 4
+  transtime 4
+  animroot vff_sf_magnova
+  event 0 detonate
+  node dummy vff_sf_magnova
+    parent NULL
+  endnode
+  node emitter groundsyb
+    parent vff_sf_magnova
+    alphaStartkey 3
+         1.0000000    1.0000000
+         0.0666667    0.0000000
+         1.0000000    1.0000000
+    alphaEndkey 3
+         1.0000000    1.0000000
+         0.0666667    1.0000000
+         1.0000000    0.0000000
+    sizeStartkey 2
+         0.0000000    0.0000000
+         0.2000000   9.0000000
+    sizeEndkey 2
+         0.0000000    0.0000000
+         0.2000000   9.0000000
+  endnode
+  node dummy Dummy01
+    parent vff_sf_magnova
+    orientationkey 25
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.0666667   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         0.1333330   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         0.2000000   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         0.2666670    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3333330   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         0.4000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         0.4666670   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         0.5333330    0.0000000    0.0000000    0.0000000    0.0000000
+         0.6000000   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         0.6666670   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         0.7333330   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         0.8000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.8666670   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         0.9333330   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         1.0000000   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         1.0666699    0.0000000    0.0000000    0.0000000    0.0000000
+         1.1333300   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         1.2000000   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         1.2666700   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         1.3333300    0.0000000    0.0000000    0.0000000    0.0000000
+         1.4000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         1.4666700   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         1.5333300   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         1.6000000    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node emitter WIND_Dummy
+    parent vff_sf_magnova
+  endnode
+  node emitter sparks
+    parent vff_sf_magnova
+    birthrate 30
+    spread 6.28318
+  endnode
+  node emitter frost
+    parent vff_sf_magnova
+  endnode
+  node emitter cloud
+    parent vff_sf_magnova
+  endnode
+doneanim impact vff_sf_magnova
+
+donemodel vff_sf_magnova
