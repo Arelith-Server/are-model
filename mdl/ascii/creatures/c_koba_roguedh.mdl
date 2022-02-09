@@ -1,15 +1,15 @@
 # Exported from blender Wednesday, 2022-01-19
 filedependancy unknown
-newmodel c_koba_rogueb_hood
-setsupermodel c_koba_rogueb_hood c_goblinx
+newmodel c_koba_roguedh
+setsupermodel c_koba_roguedh c_goblinx
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom c_koba_rogueb_hood
-node dummy c_koba_rogueb_hood
+beginmodelgeom c_koba_roguedh
+node dummy c_koba_roguedh
   parent null
 endnode
 node dummy rootdummy
-  parent c_koba_rogueb_hood
+  parent c_koba_roguedh
   position  0.00000  0.01208  0.70260
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
@@ -21,7 +21,7 @@ node trimesh torso_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 28
      0.00000 -0.06447 -0.03804
@@ -153,7 +153,7 @@ node trimesh lbicep_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 16
     -0.05125 -0.01591 -0.01388
@@ -227,7 +227,7 @@ node trimesh pauldronl
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 1
   verts 22
     -0.01000  0.05000 -0.02000
@@ -335,7 +335,7 @@ node trimesh lforearm_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 20
      0.02904 -0.02545 -0.00081
@@ -421,7 +421,7 @@ node trimesh lhand_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 17
     -0.01999 -0.00954  0.00000
@@ -521,7 +521,7 @@ node trimesh neck_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 6
     -0.04819 -0.06357  0.00991
@@ -553,7 +553,7 @@ node trimesh head_g.001
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 134
     -0.04813 -0.03210  0.00729
@@ -1085,7 +1085,7 @@ node trimesh rbicep_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 16
      0.05125 -0.01591 -0.01388
@@ -1159,7 +1159,7 @@ node trimesh pauldronr
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 1
   verts 22
     -0.01000  0.05000 -0.02000
@@ -1267,7 +1267,7 @@ node trimesh rforearm_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 20
     -0.02904 -0.02545 -0.00081
@@ -1353,7 +1353,7 @@ node trimesh rhand_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 22
     -0.00622  0.02340 -0.00000
@@ -1472,7 +1472,7 @@ node trimesh pelvis_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 28
     -0.08921 -0.07430 -0.08411
@@ -1576,7 +1576,7 @@ node trimesh belt
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 40
      0.03857 -0.04656 -0.01221
@@ -1754,7 +1754,7 @@ node trimesh rthigh_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 14
      0.03999 -0.00362  0.00639
@@ -1820,7 +1820,7 @@ node trimesh rshin_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 26
     -0.00543  0.00204  0.02219
@@ -1934,7 +1934,7 @@ node trimesh rfoot_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 61
      0.03688 -0.01247  0.00233
@@ -2145,7 +2145,7 @@ node trimesh lthigh_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 14
     -0.03999 -0.00362  0.00639
@@ -2211,7 +2211,7 @@ node trimesh lshin_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 26
      0.00543  0.00204  0.02219
@@ -2325,7 +2325,7 @@ node trimesh lfoot_g
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 61
     -0.03688 -0.01247  0.00233
@@ -2536,7 +2536,7 @@ node trimesh cylinder01
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 8
      0.00000  0.00000  0.04745
@@ -2578,7 +2578,7 @@ node trimesh cylinder02
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 8
      0.00000  0.00000  0.03038
@@ -2620,7 +2620,7 @@ node trimesh cylinder03
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 8
      0.00000  0.00000  0.02706
@@ -2662,7 +2662,7 @@ node trimesh cylinder04
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 8
      0.00000  0.00000  0.02433
@@ -2704,7 +2704,7 @@ node trimesh cylinder05
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.05 0.05 0.05
-  bitmap c_koba_rogue
+  bitmap c_koba_rogueb
   shininess 26
   verts 5
      0.00000  0.00000  0.01881
@@ -2727,14 +2727,14 @@ node trimesh cylinder05
     3 1 4  2  3 2 4  0
 endnode
 node dummy handconjure
-  parent c_koba_rogueb_hood
+  parent c_koba_roguedh
   position  0.00791  0.38522  0.95162
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
 node dummy headconjure
-  parent c_koba_rogueb_hood
+  parent c_koba_roguedh
   position  0.00000  0.05000  1.58620
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
-endmodelgeom c_koba_rogueb_hood
-donemodel c_koba_rogueb_hood
+endmodelgeom c_koba_roguedh
+donemodel c_koba_roguedh
