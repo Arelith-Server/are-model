@@ -1,15 +1,15 @@
 # Exported from blender Wednesday, 2022-01-19
 filedependancy unknown
-newmodel c_koba_cultistb_hood
-setsupermodel c_koba_cultistb_hood c_goblinx
+newmodel c_koba_cultbh
+setsupermodel c_koba_cultbh c_goblinx
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom c_koba_cultistb_hood
-node dummy c_koba_cultistb_hood
+beginmodelgeom c_koba_cultbh
+node dummy c_koba_cultbh
   parent null
 endnode
 node dummy rootdummy
-  parent c_koba_cultistb_hood
+  parent c_koba_cultbh
   position  0.00000  0.01208  0.70260
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
@@ -3179,14 +3179,14 @@ node trimesh cylinder05
     3 1 4  2  3 2 4  0
 endnode
 node dummy handconjure
-  parent c_koba_cultistb_hood
+  parent c_koba_cultbh
   position  0.00791  0.38522  0.95162
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
 node dummy headconjure
-  parent c_koba_cultistb_hood
+  parent c_koba_cultbh
   position  0.00000  0.05000  1.58620
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
-endmodelgeom c_koba_cultistb_hood
-donemodel c_koba_cultistb_hood
+endmodelgeom c_koba_cultbh
+donemodel c_koba_cultbh
