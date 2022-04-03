@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: WSpKu_fxabgry
-filedependancy WSpKu_fxabgry.max
-newmodel WSpKu_fxabgry
-setsupermodel WSpKu_fxabgry NULL
+# model: WSpKu_fxmind
+filedependancy WSpKu_fxmind.max
+newmodel WSpKu_fxmind
+setsupermodel WSpKu_fxmind NULL
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom WSpKu_fxabgry
-node dummy WSpKu_fxabgry
+beginmodelgeom WSpKu_fxmind
+node dummy WSpKu_fxmind
   parent NULL
   #part-number 0
 endnode
 node emitter g_WSwGs_V_Neg
-  parent WSpKu_fxabgry
+  parent WSpKu_fxmind
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -71,6 +71,6 @@ node emitter g_WSwGs_V_Neg
   grav 0
   threshold 0
 endnode
-endmodelgeom WSpKu_fxabgry
+endmodelgeom WSpKu_fxmind
 
-donemodel WSpKu_fxabgry
+donemodel WSpKu_fxmind

@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: WBIMI_fxabgry
-filedependancy WBIMI_fxabgry.max
-newmodel WBIMI_fxabgry
-setsupermodel WBIMI_fxabgry NULL
+# model: WBIMI_fxmind
+filedependancy WBIMI_fxmind.max
+newmodel WBIMI_fxmind
+setsupermodel WBIMI_fxmind NULL
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom WBIMI_fxabgry
-node dummy WBIMI_fxabgry
+beginmodelgeom WBIMI_fxmind
+node dummy WBIMI_fxmind
   parent NULL
   #part-number 0
 endnode
 node emitter g_WSwGs_V_Neg
-  parent WBIMI_fxabgry
+  parent WBIMI_fxmind
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -72,7 +72,7 @@ node emitter g_WSwGs_V_Neg
   threshold 0
 endnode
 node emitter g_WSwGs_V_Neg01
-  parent WBIMI_fxabgry
+  parent WBIMI_fxmind
   #part-number 2
   p2p 0
   p2p_sel 1
@@ -132,6 +132,6 @@ node emitter g_WSwGs_V_Neg01
   grav 0
   threshold 0
 endnode
-endmodelgeom WBIMI_fxabgry
+endmodelgeom WBIMI_fxmind
 
-donemodel WBIMI_fxabgry
+donemodel WBIMI_fxmind

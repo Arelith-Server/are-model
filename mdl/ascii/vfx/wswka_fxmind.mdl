@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: WSwKa_fxabgry
-filedependancy WSwKa_fxabgry.max
-newmodel WSwKa_fxabgry
-setsupermodel WSwKa_fxabgry NULL
+# model: WSwKa_fxmind
+filedependancy WSwKa_fxmind.max
+newmodel WSwKa_fxmind
+setsupermodel WSwKa_fxmind NULL
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom WSwKa_fxabgry
-node dummy WSwKa_fxabgry
+beginmodelgeom WSwKa_fxmind
+node dummy WSwKa_fxmind
   parent NULL
   #part-number 0
 endnode
 node emitter g_WSwGs_V_Neg
-  parent WSwKa_fxabgry
+  parent WSwKa_fxmind
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -71,6 +71,6 @@ node emitter g_WSwGs_V_Neg
   grav 0
   threshold 0
 endnode
-endmodelgeom WSwKa_fxabgry
+endmodelgeom WSwKa_fxmind
 
-donemodel WSwKa_fxabgry
+donemodel WSwKa_fxmind

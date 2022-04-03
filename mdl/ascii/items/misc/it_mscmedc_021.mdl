@@ -1,24 +1,24 @@
 # Custom for Friedeyes
 #MAXMODEL ASCII
 filedependency Unknown
-newmodel it_miscmedc_021
-setsupermodel it_miscmedc_021 null
+newmodel it_mscmedc_021
+setsupermodel it_mscmedc_021 null
 setanimationscale 1
 classification ITEM
 #MAXGEOM ASCII
-beginmodelgeom it_miscmedc_021
-node dummy it_miscmedc_021
+beginmodelgeom it_mscmedc_021
+node dummy it_mscmedc_021
   parent NULL
 endnode
-node trimesh it_miscmedc_021g
-  parent it_miscmedc_021
+node trimesh it_mscmedc_021g
+  parent it_mscmedc_021
   position 0 0 0
   wirecolor 1 1 1
   ambient 0.588235 0.588235 0.588235
   diffuse 0.588235 0.588235 0.588235
   specular 0 0 0
   shininess 10
-  bitmap ait_miscmedc_bag
+  bitmap ait_mscmedc_bag
   orientation 0 0 0 0
   shadow 0
   verts 56
@@ -231,5 +231,5 @@ node trimesh it_miscmedc_021g
     0.93709 0.691281 0
     0.883426 0.691424 0
 endnode
-endmodelgeom it_miscmedc_021
-donemodel it_miscmedc_021
+endmodelgeom it_mscmedc_021
+donemodel it_mscmedc_021

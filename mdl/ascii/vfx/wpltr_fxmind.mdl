@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: WPlTr_fxabgry
-filedependancy WPlTr_fxabgry.max
-newmodel WPlTr_fxabgry
-setsupermodel WPlTr_fxabgry NULL
+# model: WPlTr_fxmind
+filedependancy WPlTr_fxmind.max
+newmodel WPlTr_fxmind
+setsupermodel WPlTr_fxmind NULL
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom WPlTr_fxabgry
-node dummy WPlTr_fxabgry
+beginmodelgeom WPlTr_fxmind
+node dummy WPlTr_fxmind
   parent NULL
   #part-number 0
 endnode
 node emitter g_WSwGs_V_Neg
-  parent WPlTr_fxabgry
+  parent WPlTr_fxmind
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -72,7 +72,7 @@ node emitter g_WSwGs_V_Neg
   drag 0
 endnode
 node emitter g_WSwGs_V_Neg01
-  parent WPlTr_fxabgry
+  parent WPlTr_fxmind
   #part-number 2
   p2p 0
   p2p_sel 1
@@ -133,7 +133,7 @@ node emitter g_WSwGs_V_Neg01
   drag 0
 endnode
 node emitter g_WSwGs_V_Neg02
-  parent WPlTr_fxabgry
+  parent WPlTr_fxmind
   #part-number 3
   p2p 0
   p2p_sel 1
@@ -193,6 +193,6 @@ node emitter g_WSwGs_V_Neg02
   grav 0
   drag 0
 endnode
-endmodelgeom WPlTr_fxabgry
+endmodelgeom WPlTr_fxmind
 
-donemodel WPlTr_fxabgry
+donemodel WPlTr_fxmind

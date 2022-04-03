@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: WPlSs_fxabgry
-filedependancy WPlSs_fxabgry.max
-newmodel WPlSs_fxabgry
-setsupermodel WPlSs_fxabgry NULL
+# model: WPlSs_fxmind
+filedependancy WPlSs_fxmind.max
+newmodel WPlSs_fxmind
+setsupermodel WPlSs_fxmind NULL
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom WPlSs_fxabgry
-node dummy WPlSs_fxabgry
+beginmodelgeom WPlSs_fxmind
+node dummy WPlSs_fxmind
   parent NULL
   #part-number 0
 endnode
 node emitter g_WSwGs_V_Neg
-  parent WPlSs_fxabgry
+  parent WPlSs_fxmind
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -71,6 +71,6 @@ node emitter g_WSwGs_V_Neg
   grav 0
   threshold 0
 endnode
-endmodelgeom WPlSs_fxabgry
+endmodelgeom WPlSs_fxmind
 
-donemodel WPlSs_fxabgry
+donemodel WPlSs_fxmind

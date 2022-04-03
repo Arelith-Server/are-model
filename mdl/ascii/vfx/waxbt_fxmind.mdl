@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: WAxBt_fxabgry
-filedependancy WAxBt_fxabgry.max
-newmodel WAxBt_fxabgry
-setsupermodel WAxBt_fxabgry NULL
+# model: WAxBt_fxmind
+filedependancy WAxBt_fxmind.max
+newmodel WAxBt_fxmind
+setsupermodel WAxBt_fxmind NULL
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom WAxBt_fxabgry
-node dummy WAxBt_fxabgry
+beginmodelgeom WAxBt_fxmind
+node dummy WAxBt_fxmind
   parent NULL
   #part-number 0
 endnode
 node emitter g_WSwGs_V_Neg
-  parent WAxBt_fxabgry
+  parent WAxBt_fxmind
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -72,7 +72,7 @@ node emitter g_WSwGs_V_Neg
   threshold 0
 endnode
 node emitter g_WSwGs_V_Neg01
-  parent WAxBt_fxabgry
+  parent WAxBt_fxmind
   #part-number 2
   p2p 0
   p2p_sel 1
@@ -132,6 +132,6 @@ node emitter g_WSwGs_V_Neg01
   grav 0
   threshold 0
 endnode
-endmodelgeom WAxBt_fxabgry
+endmodelgeom WAxBt_fxmind
 
-donemodel WAxBt_fxabgry
+donemodel WAxBt_fxmind

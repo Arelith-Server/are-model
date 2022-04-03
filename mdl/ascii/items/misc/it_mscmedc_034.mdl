@@ -1,17 +1,17 @@
 # Custom for Friedeyes
 #MAXMODEL ASCII
 filedependency Unknown
-newmodel it_miscmedc_034
-setsupermodel it_miscmedc_034 null
+newmodel it_mscmedc_034
+setsupermodel it_mscmedc_034 null
 setanimationscale 1
 classification ITEM
 #MAXGEOM ASCII
-beginmodelgeom it_miscmedc_034
-node dummy it_miscmedc_034
+beginmodelgeom it_mscmedc_034
+node dummy it_mscmedc_034
   parent NULL
 endnode
 node trimesh box
-  parent it_miscmedc_034
+  parent it_mscmedc_034
   position 0 0 0
   wirecolor 1 1 1
   ambient 1 1 1
@@ -106,5 +106,5 @@ node trimesh box
     0.000380516 0.612968 0
     0.000324333 0.707238 0
 endnode
-endmodelgeom it_miscmedc_034
-donemodel it_miscmedc_034
+endmodelgeom it_mscmedc_034
+donemodel it_mscmedc_034
