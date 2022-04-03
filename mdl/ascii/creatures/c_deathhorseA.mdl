@@ -1,4 +1,4 @@
-# Exported from NeverBlender 2.8.22 - Thursday, 2022-03-24
+# Exported from NeverBlender 2.8.22 - Sunday, 2022-04-03
 filedependancy unknown
 newmodel c_deathhorseA
 setsupermodel c_deathhorseA h_ba
@@ -25,7 +25,7 @@ node dummy rootdummy_h
 endnode
 node trimesh torso_h
   parent rootdummy_h
-  position  0.00000  0.00000  0.00000
+  position -0.00000  0.49092 -0.10903
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.58 0.69 0.10
   ambient 1.00 1.00 1.00
@@ -36,16 +36,16 @@ node trimesh torso_h
   render 0
   shadow 0
   verts 10
-     0.00000  1.10729 -0.00001
-     0.00000  0.80111 -0.57103
-     0.27214  0.82042 -0.11320
-     0.00000  0.86753  0.27209
-     0.00000  0.10510 -0.45505
-     0.00000  0.17419  0.18063
-     0.29481  0.13079 -0.10390
-    -0.27214  0.82042 -0.11320
-    -0.29481  0.13079 -0.10390
-     0.00000 -0.04845 -0.08276
+     0.00000  0.61637  0.10902
+     0.00000  0.31019 -0.46200
+     0.27214  0.32950 -0.00417
+     0.00000  0.37661  0.38112
+     0.00000 -0.38582 -0.34602
+     0.00000 -0.31673  0.28966
+     0.29481 -0.36013  0.00513
+    -0.27214  0.32950 -0.00417
+    -0.29481 -0.36013  0.00513
+     0.00000 -0.53937  0.02627
   faces 16
      1  0  2 1  0 0 0 0
      4  1  6 1  0 0 0 0
@@ -66,7 +66,7 @@ node trimesh torso_h
 endnode
 node trimesh torso1_h
   parent torso_h
-  position  0.00000  0.94500  0.00001
+  position  0.00000  0.45408  0.10904
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.58 0.69 0.10
   ambient 1.00 1.00 1.00
@@ -2975,11 +2975,6 @@ node dummy wings
   parent torso1_h
   position -0.00001 -0.20886 -0.11075
   orientation -1.00000  0.00000  0.00000  1.57080
-endnode
-node dummy lforearm
-  parent torso_h
-  position -0.45653  0.74509  0.07450
-  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh pelvis_h
   parent rootdummy_h
