@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: wxblma_fxabgry
-filedependancy wxblma_fxabgry.max
-newmodel wxblma_fxabgry
-setsupermodel wxblma_fxabgry null
+# model: wxblma_fxmind
+filedependancy wxblma_fxmind.max
+newmodel wxblma_fxmind
+setsupermodel wxblma_fxmind null
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom wxblma_fxabgry
-node dummy wxblma_fxabgry
+beginmodelgeom wxblma_fxmind
+node dummy wxblma_fxmind
   parent NULL
   #part-number 0
 endnode
 node emitter g_wswgs_v_neg01
-  parent wxblma_fxabgry
+  parent wxblma_fxmind
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -72,7 +72,7 @@ node emitter g_wswgs_v_neg01
   threshold 0
 endnode
 node emitter g_wswgs_v_neg
-  parent wxblma_fxabgry
+  parent wxblma_fxmind
   #part-number 2
   p2p 0
   p2p_sel 1
@@ -132,6 +132,6 @@ node emitter g_wswgs_v_neg
   grav 0
   threshold 0
 endnode
-endmodelgeom wxblma_fxabgry
+endmodelgeom wxblma_fxmind
 
-donemodel wxblma_fxabgry
+donemodel wxblma_fxmind

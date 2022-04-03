@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: WWhip_fxabgry
-filedependancy WWhip_fxabgry.max
-newmodel WWhip_fxabgry
-setsupermodel WWhip_fxabgry NULL
+# model: WWhip_fxmind
+filedependancy WWhip_fxmind.max
+newmodel WWhip_fxmind
+setsupermodel WWhip_fxmind NULL
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom WWhip_fxabgry
-node dummy WWhip_fxabgry
+beginmodelgeom WWhip_fxmind
+node dummy WWhip_fxmind
   parent NULL
   #part-number 0
 endnode
 node emitter g_WSwGs_V_Neg
-  parent WWhip_fxabgry
+  parent WWhip_fxmind
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -72,7 +72,7 @@ node emitter g_WSwGs_V_Neg
   threshold 0
 endnode
 node emitter g_WSwGs_V_Neg01
-  parent WWhip_fxabgry
+  parent WWhip_fxmind
   #part-number 2
   p2p 0
   p2p_sel 1
@@ -132,6 +132,6 @@ node emitter g_WSwGs_V_Neg01
   grav 0
   threshold 0
 endnode
-endmodelgeom WWhip_fxabgry
+endmodelgeom WWhip_fxmind
 
-donemodel WWhip_fxabgry
+donemodel WWhip_fxmind

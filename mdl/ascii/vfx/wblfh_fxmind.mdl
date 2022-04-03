@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: WBlFh_fxabgry
-filedependancy WBlFh_fxabgry.max
-newmodel WBlFh_fxabgry
-setsupermodel WBlFh_fxabgry NULL
+# model: WBlFh_fxmind
+filedependancy WBlFh_fxmind.max
+newmodel WBlFh_fxmind
+setsupermodel WBlFh_fxmind NULL
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom WBlFh_fxabgry
-node dummy WBlFh_fxabgry
+beginmodelgeom WBlFh_fxmind
+node dummy WBlFh_fxmind
   parent NULL
   #part-number 0
 endnode
 node emitter g_WSwGs_V_Neg
-  parent WBlFh_fxabgry
+  parent WBlFh_fxmind
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -72,7 +72,7 @@ node emitter g_WSwGs_V_Neg
   threshold 0
 endnode
 node emitter g_WSwGs_V_Neg01
-  parent WBlFh_fxabgry
+  parent WBlFh_fxmind
   #part-number 2
   p2p 0
   p2p_sel 1
@@ -132,6 +132,6 @@ node emitter g_WSwGs_V_Neg01
   grav 0
   threshold 0
 endnode
-endmodelgeom WBlFh_fxabgry
+endmodelgeom WBlFh_fxmind
 
-donemodel WBlFh_fxabgry
+donemodel WBlFh_fxmind

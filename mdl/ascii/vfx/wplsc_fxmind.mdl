@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: WPlSc_fxabgry
-filedependancy WPlSc_fxabgry.max
-newmodel WPlSc_fxabgry
-setsupermodel WPlSc_fxabgry NULL
+# model: WPlSc_fxmind
+filedependancy WPlSc_fxmind.max
+newmodel WPlSc_fxmind
+setsupermodel WPlSc_fxmind NULL
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom WPlSc_fxabgry
-node dummy WPlSc_fxabgry
+beginmodelgeom WPlSc_fxmind
+node dummy WPlSc_fxmind
   parent NULL
   #part-number 0
 endnode
 node emitter g_WSwGs_V_Neg01
-  parent WPlSc_fxabgry
+  parent WPlSc_fxmind
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -72,7 +72,7 @@ node emitter g_WSwGs_V_Neg01
   threshold 0
 endnode
 node emitter g_WSwGs_V_Neg
-  parent WPlSc_fxabgry
+  parent WPlSc_fxmind
   #part-number 2
   p2p 0
   p2p_sel 1
@@ -132,6 +132,6 @@ node emitter g_WSwGs_V_Neg
   grav 0
   threshold 0
 endnode
-endmodelgeom WPlSc_fxabgry
+endmodelgeom WPlSc_fxmind
 
-donemodel WPlSc_fxabgry
+donemodel WPlSc_fxmind

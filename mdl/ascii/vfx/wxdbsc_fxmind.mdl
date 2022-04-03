@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: wxdbsc_fxabgry
-filedependancy wxdbsc_fxabgry.max
-newmodel wxdbsc_fxabgry
-setsupermodel wxdbsc_fxabgry null
+# model: wxdbsc_fxmind
+filedependancy wxdbsc_fxmind.max
+newmodel wxdbsc_fxmind
+setsupermodel wxdbsc_fxmind null
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom wxdbsc_fxabgry
-node dummy wxdbsc_fxabgry
+beginmodelgeom wxdbsc_fxmind
+node dummy wxdbsc_fxmind
   parent NULL
   #part-number 0
 endnode
 node emitter g_wswgs_v_neg
-  parent wxdbsc_fxabgry
+  parent wxdbsc_fxmind
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -72,7 +72,7 @@ node emitter g_wswgs_v_neg
   threshold 0
 endnode
 node emitter g_wswgs_v_neg01
-  parent wxdbsc_fxabgry
+  parent wxdbsc_fxmind
   #part-number 2
   p2p 0
   p2p_sel 1
@@ -132,6 +132,6 @@ node emitter g_wswgs_v_neg01
   grav 0
   threshold 0
 endnode
-endmodelgeom wxdbsc_fxabgry
+endmodelgeom wxdbsc_fxmind
 
-donemodel wxdbsc_fxabgry
+donemodel wxdbsc_fxmind

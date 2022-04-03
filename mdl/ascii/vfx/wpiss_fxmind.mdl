@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: WPISs_fxabgry
-filedependancy WPISs_fxabgry.max
-newmodel WPISs_fxabgry
-setsupermodel WPISs_fxabgry NULL
+# model: WPISs_fxmind
+filedependancy WPISs_fxmind.max
+newmodel WPISs_fxmind
+setsupermodel WPISs_fxmind NULL
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom WPISs_fxabgry
-node dummy WPISs_fxabgry
+beginmodelgeom WPISs_fxmind
+node dummy WPISs_fxmind
   parent NULL
   #part-number 0
 endnode
 node emitter g_WSwGs_V_Neg
-  parent WPISs_fxabgry
+  parent WPISs_fxmind
   #part-number 1
   p2p 0
   p2p_sel 1
@@ -71,6 +71,6 @@ node emitter g_WSwGs_V_Neg
   grav 0
   threshold 0
 endnode
-endmodelgeom WPISs_fxabgry
+endmodelgeom WPISs_fxmind
 
-donemodel WPISs_fxabgry
+donemodel WPISs_fxmind
