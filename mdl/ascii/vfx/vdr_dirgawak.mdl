@@ -1,0 +1,161 @@
+#MAXMODEL ASCII
+# model: vrd_eleshield04
+filedependancy vrd_eleshield04.max
+newmodel vrd_eleshield04
+setsupermodel vrd_eleshield04 NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vrd_eleshield04
+node dummy vrd_eleshield04
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy01
+  parent vrd_eleshield04
+  #part-number 1
+  position 0 0 0.1
+  orientation 0 0 0 3.14159012
+endnode
+node emitter Sparkles01
+  parent Dummy01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture Fxpa_song
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 2 0 0.202754
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.3
+  alphaEnd 0
+  sizeStart 0.3
+  sizeEnd 0.4
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 10
+  lifeExp 2.5
+  mass -0.3
+  spread 0
+  particleRot 0
+  velocity 0.05
+  randvel 1
+  fps 0
+  xsize 13
+  ysize 20
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav -10
+  threshold 0
+endnode
+endmodelgeom vrd_eleshield04
+
+#MAXANIM ASCII
+newanim impact vrd_eleshield04
+  length 0.966666996
+  transtime 0.966666996
+  animroot vrd_eleshield04
+node dummy vrd_eleshield04
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy01
+  parent vrd_eleshield04
+  #part-number 1
+  orientationkey 5
+    0 0 0 0 0
+    0.233333007 -0 -0 1 -1.57079995
+    0.5 -0 -0 1 -3.14159012
+    0.733332992 -0 -0 1 -4.71238995
+    0.966666996 0 0 0 0
+endnode
+node emitter Sparkles01
+  parent Dummy01
+  #part-number 3
+  birthratekey 4
+    0 50
+    0.133332998 500
+    0.166666999 500
+    0.966666996 500
+endnode
+doneanim impact vrd_eleshield04
+
+#MAXANIM ASCII
+newanim duration vrd_eleshield04
+  length 1
+  transtime 0.25
+  animroot vrd_eleshield04
+node dummy vrd_eleshield04
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy01
+  parent vrd_eleshield04
+  #part-number 1
+  orientationkey 5
+    0 0 0 0 0
+    0.233333007 -0 -0 -1 -4.71238995
+    0.5 -0 -0 -1 -3.14159012
+    0.733332992 -0 -0 -1 -1.57079995
+    1 0 0 0 0
+endnode
+doneanim duration vrd_eleshield04
+
+#MAXANIM ASCII
+newanim cessation vrd_eleshield04
+  length 0.600000024
+  transtime 0.25
+  animroot vrd_eleshield04
+node dummy vrd_eleshield04
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy01
+  parent vrd_eleshield04
+  #part-number 1
+  orientationkey 5
+    0 0 0 0 0
+    0.133332998 -0 -0 1 -1.57079995
+    0.300000012 -0 -0 1 -3.14159012
+    0.466666996 -0 -0 1 -4.71238995
+    0.600000024 0 0 0 0
+endnode
+node emitter Sparkles01
+  parent Dummy01
+  #part-number 3
+  birthratekey 2
+    0 100
+    0.600000024 0
+endnode
+doneanim cessation vrd_eleshield04
+
+donemodel vrd_eleshield04
