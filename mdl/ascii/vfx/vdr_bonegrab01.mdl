@@ -1,16 +1,16 @@
 # Exported from NeverBlender 2.8.22 - Friday, 2022-04-01
 filedependancy boneARM.blend
-newmodel vdr_bonegrab
-setsupermodel vdr_bonegrab null
+newmodel vdr_bonegrab01
+setsupermodel vdr_bonegrab01 null
 classification EFFECT
 setanimationscale 1.0
-beginmodelgeom vdr_bonegrab
-node dummy vdr_bonegrab
+beginmodelgeom vdr_bonegrab01
+node dummy vdr_bonegrab01
   parent null
   scale 0.75
 endnode
 node trimesh UpperArm
-  parent vdr_bonegrab
+  parent vdr_bonegrab01
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -5980,7 +5980,7 @@ node trimesh LowerArmB
       9  30  18 1  130 138 133 0
 endnode
 node trimesh UpperArm.001
-  parent vdr_bonegrab
+  parent vdr_bonegrab01
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -11950,7 +11950,7 @@ node trimesh LowerArmB.001
       9  30  18 1  129 137 132 0
 endnode
 node trimesh UpperArm.002
-  parent vdr_bonegrab
+  parent vdr_bonegrab01
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -17920,7 +17920,7 @@ node trimesh LowerArmB.002
       9  30  18 1  130 138 133 0
 endnode
 node trimesh UpperArm.003
-  parent vdr_bonegrab
+  parent vdr_bonegrab01
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -23889,5 +23889,5 @@ node trimesh LowerArmB.003
     172 175 145 1   18  61 248 0
       9  30  18 1  129 137 132 0
 endnode
-endmodelgeom vdr_bonegrab
-donemodel vdr_bonegrab
+endmodelgeom vdr_bonegrab01
+donemodel vdr_bonegrab01

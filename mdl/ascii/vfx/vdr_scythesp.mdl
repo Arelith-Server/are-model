@@ -2,18 +2,18 @@
 # mdl file
 #
 #NWgMax Plus MODEL ASCII
-# model: vdr_stone03
+# model: vdr_scythesp
 filedependancy Unknown
-newmodel vdr_stone03
-setsupermodel vdr_stone03 NULL
+newmodel vdr_scythesp
+setsupermodel vdr_scythesp NULL
 classification Effect
 #NWgMax Plus GEOM  ASCII
-beginmodelgeom vdr_stone03
-node dummy vdr_stone03
+beginmodelgeom vdr_scythesp
+node dummy vdr_scythesp
   parent NULL
 endnode
 node dummy Dummy01
-  parent vdr_stone03
+  parent vdr_scythesp
   position 0.0 0.0 0.0
   orientation 0.0 1.90749e-007 -1.0 -2.99324
   wirecolor 0.894118 0.6 0.721569
@@ -3213,36 +3213,36 @@ node trimesh Blade
     20 41 67 148   34 149  43 0
 endnode
 endmodelgeom vdr_scythe
-endmodelgeom vdr_stone03
+endmodelgeom vdr_scythesp
 
 #NWgMax Plus ANIM ASCII
-newanim impact vdr_stone03
+newanim impact vdr_scythesp
   length 0.1
   transtime 0.25
-  animroot vdr_stone03
+  animroot vdr_scythesp
   event 0.0 detonate
-    node dummy vdr_stone03
+    node dummy vdr_scythesp
         parent NULL
     endnode
     node dummy Dummy01
-        parent vdr_stone03
+        parent vdr_scythesp
         orientationkey
             0.0 0.0 1.90749e-007 -1.0 -2.99324
             0.1 0.0 1.96703e-007 -1.0 -3.12414
         endlist
     endnode
-doneanim impact vdr_stone03
+doneanim impact vdr_scythesp
 
 #NWgMax Plus ANIM ASCII
-newanim duration vdr_stone03
+newanim duration vdr_scythesp
   length 1.2
   transtime 0.25
-  animroot vdr_stone03
-    node dummy vdr_stone03
+  animroot vdr_scythesp
+    node dummy vdr_scythesp
         parent NULL
     endnode
     node dummy Dummy01
-        parent vdr_stone03
+        parent vdr_scythesp
         orientationkey
             0.0 0.0 1.96703e-007 -1.0 -3.12414
             0.3 0.0 2.86717e-007 -1.0 -4.69494
@@ -3251,18 +3251,18 @@ newanim duration vdr_stone03
             1.2 0.0 -1.96703e-007 1.0 -3.15905
         endlist
     endnode
-doneanim duration vdr_stone03
+doneanim duration vdr_scythesp
 
 #NWgMax Plus ANIM ASCII
-newanim cessation vdr_stone03
+newanim cessation vdr_scythesp
   length 0.333333
   transtime 0.25
-  animroot vdr_stone03
-    node dummy vdr_stone03
+  animroot vdr_scythesp
+    node dummy vdr_scythesp
         parent NULL
     endnode
     node dummy Dummy01
-        parent vdr_stone03
+        parent vdr_scythesp
         orientationkey
             0.0 0.0 1.96694e-007 -1.0 -3.12414
             0.333333 0.0 0.0 -1.0 -3.29867
@@ -3289,5 +3289,5 @@ newanim cessation vdr_stone03
             0.333333 0.0 
         endlist
     endnode
-doneanim cessation vdr_stone03
-donemodel vdr_stone03
+doneanim cessation vdr_scythesp
+donemodel vdr_scythesp

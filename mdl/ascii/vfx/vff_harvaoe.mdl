@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: vff_sumonmummy
-filedependancy vff_sumonmummy.max
-newmodel vff_sumonmummy
-setsupermodel vff_sumonmummy NULL
+# model: vff_harvaoe
+filedependancy vff_harvaoe.max
+newmodel vff_harvaoe
+setsupermodel vff_harvaoe NULL
 classification EFFECT
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom vff_sumonmummy
-node dummy vff_sumonmummy
+beginmodelgeom vff_harvaoe
+node dummy vff_harvaoe
   parent NULL
 endnode
 node dummy DummyRotator
-  parent vff_sumonmummy
+  parent vff_harvaoe
   position 0 0 -0.694064
   orientation 0 0 0 0
 endnode
@@ -136,7 +136,7 @@ node emitter dust_colum01
   threshold 0
 endnode
 node emitter WIND_Dummy
-  parent vff_sumonmummy
+  parent vff_harvaoe
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -196,7 +196,7 @@ node emitter WIND_Dummy
   threshold 0
 endnode
 node emitter Rockssmall
-  parent vff_sumonmummy
+  parent vff_harvaoe
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -256,7 +256,7 @@ node emitter Rockssmall
   threshold 0
 endnode
 node emitter Implosion
-  parent vff_sumonmummy
+  parent vff_harvaoe
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -316,7 +316,7 @@ node emitter Implosion
   threshold 0
 endnode
 node emitter part2
-  parent vff_sumonmummy
+  parent vff_harvaoe
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -376,7 +376,7 @@ node emitter part2
   threshold 0
 endnode
 node emitter Part1
-  parent vff_sumonmummy
+  parent vff_harvaoe
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -436,7 +436,7 @@ node emitter Part1
   threshold 0
 endnode
 node emitter part03
-  parent vff_sumonmummy
+  parent vff_harvaoe
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -495,20 +495,20 @@ node emitter part03
   grav 0
   threshold 0
 endnode
-endmodelgeom vff_sumonmummy
+endmodelgeom vff_harvaoe
 
 #MAXANIM ASCII
-newanim impact vff_sumonmummy
+newanim impact vff_harvaoe
   length 3.96667
   transtime 0.25
-  animroot vff_sumonmummy
+  animroot vff_harvaoe
   event 0.0333333 detonate
   event 1.06667 detonate
-  node dummy vff_sumonmummy
+  node dummy vff_harvaoe
     parent NULL
   endnode
   node dummy DummyRotator
-    parent vff_sumonmummy
+    parent vff_harvaoe
     orientationkey 13
          0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
          0.3000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
@@ -544,14 +544,14 @@ newanim impact vff_sumonmummy
          2.7000000    0.0000000
   endnode
   node emitter WIND_Dummy
-    parent vff_sumonmummy
+    parent vff_harvaoe
     birthratekey 3
          0.0000000    0.0000000
          0.0333333    1.0000000
          0.0666667    0.0000000
   endnode
   node emitter Rockssmall
-    parent vff_sumonmummy
+    parent vff_harvaoe
     birthratekey 7
          0.0000000    0.0000000
          0.0333333    0.0000000
@@ -562,7 +562,7 @@ newanim impact vff_sumonmummy
          1.1000000    0.0000000
   endnode
   node emitter Implosion
-    parent vff_sumonmummy
+    parent vff_harvaoe
     alphaStartkey 4
          0.0000000    0.0000000
          1.4333301    0.0000000
@@ -594,7 +594,7 @@ newanim impact vff_sumonmummy
          1.8333300    0.5000000
   endnode
   node emitter part2
-    parent vff_sumonmummy
+    parent vff_harvaoe
     alphaStartkey 6
          0.0000000    0.0000000
          0.2000000    0.2500000
@@ -611,7 +611,7 @@ newanim impact vff_sumonmummy
          1.4333301    0.0000000
   endnode
   node emitter Part1
-    parent vff_sumonmummy
+    parent vff_harvaoe
     alphaStartkey 6
          0.0000000    0.0000000
          0.3000000    0.4000000
@@ -628,7 +628,7 @@ newanim impact vff_sumonmummy
          1.4666700    0.0000000
   endnode
   node emitter part03
-    parent vff_sumonmummy
+    parent vff_harvaoe
     alphaStartkey 6
          0.0000000    0.0000000
          0.2000000    0.2500000
@@ -644,6 +644,6 @@ newanim impact vff_sumonmummy
          1.0000000    0.2500000
          1.4333301    0.0000000
   endnode
-doneanim impact vff_sumonmummy
+doneanim impact vff_harvaoe
 
-donemodel vff_sumonmummy
+donemodel vff_harvaoe

@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: Fx_Skull01
-filedependancy Fx_Skull01.max
-newmodel Fx_Skull01
-setsupermodel Fx_Skull01 NULL
+# model: fx_dirskull01
+filedependancy fx_dirskull01.max
+newmodel fx_dirskull01
+setsupermodel fx_dirskull01 NULL
 classification EFFECT
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom Fx_Skull01
-node dummy Fx_Skull01
+beginmodelgeom fx_dirskull01
+node dummy fx_dirskull01
   parent NULL
 endnode
 node trimesh skull01
-  parent Fx_Skull01
+  parent fx_dirskull01
   ambient 0 0 0
   diffuse 0.0980392 0.0980392 0.0980392
   specular 0.00960784 0.00960784 0.00960784
@@ -256,18 +256,18 @@ node emitter OmenEmitter05
   grav 0
   threshold 0
 endnode
-endmodelgeom Fx_Skull01
+endmodelgeom fx_dirskull01
 
 #MAXANIM ASCII
-newanim impact Fx_Skull01
+newanim impact fx_dirskull01
   length 1.96667
   transtime 0
-  animroot Fx_Skull01
-  node dummy Fx_Skull01
+  animroot fx_dirskull01
+  node dummy fx_dirskull01
     parent NULL
   endnode
   node trimesh skull01
-    parent Fx_Skull01
+    parent fx_dirskull01
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -296,6 +296,6 @@ newanim impact Fx_Skull01
          1.0000000    0.0000000
          1.9666700    0.0000000
   endnode
-doneanim impact Fx_Skull01
+doneanim impact fx_dirskull01
 
-donemodel Fx_Skull01
+donemodel fx_dirskull01

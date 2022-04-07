@@ -1,18 +1,18 @@
 #MAXMODEL ASCII
-# model: vrd_eleshield04
-filedependancy vrd_eleshield04.max
-newmodel vrd_eleshield04
-setsupermodel vrd_eleshield04 NULL
+# model: vdr_dirgawak
+filedependancy vdr_dirgawak.max
+newmodel vdr_dirgawak
+setsupermodel vdr_dirgawak NULL
 classification effect
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom vrd_eleshield04
-node dummy vrd_eleshield04
+beginmodelgeom vdr_dirgawak
+node dummy vdr_dirgawak
   parent NULL
   #part-number 0
 endnode
 node dummy Dummy01
-  parent vrd_eleshield04
+  parent vdr_dirgawak
   #part-number 1
   position 0 0 0.1
   orientation 0 0 0 3.14159012
@@ -77,19 +77,19 @@ node emitter Sparkles01
   grav -10
   threshold 0
 endnode
-endmodelgeom vrd_eleshield04
+endmodelgeom vdr_dirgawak
 
 #MAXANIM ASCII
-newanim impact vrd_eleshield04
+newanim impact vdr_dirgawak
   length 0.966666996
   transtime 0.966666996
-  animroot vrd_eleshield04
-node dummy vrd_eleshield04
+  animroot vdr_dirgawak
+node dummy vdr_dirgawak
   parent NULL
   #part-number 0
 endnode
 node dummy Dummy01
-  parent vrd_eleshield04
+  parent vdr_dirgawak
   #part-number 1
   orientationkey 5
     0 0 0 0 0
@@ -107,19 +107,19 @@ node emitter Sparkles01
     0.166666999 500
     0.966666996 500
 endnode
-doneanim impact vrd_eleshield04
+doneanim impact vdr_dirgawak
 
 #MAXANIM ASCII
-newanim duration vrd_eleshield04
+newanim duration vdr_dirgawak
   length 1
   transtime 0.25
-  animroot vrd_eleshield04
-node dummy vrd_eleshield04
+  animroot vdr_dirgawak
+node dummy vdr_dirgawak
   parent NULL
   #part-number 0
 endnode
 node dummy Dummy01
-  parent vrd_eleshield04
+  parent vdr_dirgawak
   #part-number 1
   orientationkey 5
     0 0 0 0 0
@@ -128,19 +128,19 @@ node dummy Dummy01
     0.733332992 -0 -0 -1 -1.57079995
     1 0 0 0 0
 endnode
-doneanim duration vrd_eleshield04
+doneanim duration vdr_dirgawak
 
 #MAXANIM ASCII
-newanim cessation vrd_eleshield04
+newanim cessation vdr_dirgawak
   length 0.600000024
   transtime 0.25
-  animroot vrd_eleshield04
-node dummy vrd_eleshield04
+  animroot vdr_dirgawak
+node dummy vdr_dirgawak
   parent NULL
   #part-number 0
 endnode
 node dummy Dummy01
-  parent vrd_eleshield04
+  parent vdr_dirgawak
   #part-number 1
   orientationkey 5
     0 0 0 0 0
@@ -156,6 +156,6 @@ node emitter Sparkles01
     0 100
     0.600000024 0
 endnode
-doneanim cessation vrd_eleshield04
+doneanim cessation vdr_dirgawak
 
-donemodel vrd_eleshield04
+donemodel vdr_dirgawak
