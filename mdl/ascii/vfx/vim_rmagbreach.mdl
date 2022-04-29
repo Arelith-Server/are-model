@@ -1,0 +1,539 @@
+#MAXMODEL ASCII
+# model: vim_rmagbreach
+filedependancy vim_rmagbreach.max
+newmodel vim_rmagbreach
+setsupermodel vim_rmagbreach NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_rmagbreach
+node dummy vim_rmagbreach
+  parent NULL
+endnode
+node emitter OmenEmitter02
+  parent vim_rmagbreach
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Aligned_to_Particle_Dir
+  blend Lighten
+  texture fxpa_dot01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0.978515 0 -1.09897
+  orientation 0 0 0 0
+  colorStart 1 0.5 0.5
+  colorEnd 1 0.5 0.5
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 20
+  lifeExp 0.1
+  mass 0
+  spread 6.28319
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter03
+  parent vim_rmagbreach
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Aligned_to_Particle_Dir
+  blend Lighten
+  texture fxpa_dot01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0.978515 -0.442627 -1.09897
+  orientation 0 0 0 0
+  colorStart 1 0.5 0.5
+  colorEnd 1 0.5 0.5
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 20
+  lifeExp 0.1
+  mass 0
+  spread 6.28319
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Smoke
+  parent vim_rmagbreach
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 -0.570526
+  orientation 0 0 -1 -0.00872665
+  colorStart 1 0.5 0.5
+  colorEnd 0 0 0
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 4
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 40
+  lifeExp 1
+  mass 0
+  spread 0.698132
+  particleRot 0
+  velocity 1
+  randvel 2
+  fps 16
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter04
+  parent vim_rmagbreach
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Aligned_to_Particle_Dir
+  blend Lighten
+  texture fxpa_dot01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position -0.318496 -0.590584 -0.28913
+  orientation 0 0 0 0
+  colorStart 1 0.5 0.5
+  colorEnd 1 0.5 0.5
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 20
+  lifeExp 0.1
+  mass 0
+  spread 6.28319
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter WIND_Dummy
+  parent vim_rmagbreach
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture NULL
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 5
+  blastLength 1.2
+  position 0 0 -0.511581
+  orientation 0 0 0 0
+  colorStart 1 0.5 0.5
+  colorEnd 1 0.5 0.5
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node light AuroraLight01
+  parent vim_rmagbreach
+  ambientonly 0
+  shadow 0
+  isdynamic 1
+  affectdynamic 1
+  lightpriority 2
+  fadingLight 0
+  flareradius 0
+  position 0 0 0.664235
+  orientation -0.5773503 0.5773503 0.5773503 -2.0944
+  radius 4.5
+  multiplier 3
+  color 0 2.38419e-07 1.78814e-07
+endnode
+endmodelgeom vim_rmagbreach
+
+#MAXANIM ASCII
+newanim impact vim_rmagbreach
+  length 2.63333
+  transtime 0.25
+  animroot vim_rmagbreach
+  event 0.166667 detonate
+  event 0.166667 detonate
+  event 0.166667 detonate
+  event 0.366667 detonate
+  event 0.366667 detonate
+  event 0.366667 detonate
+  event 0.6 detonate
+  event 0.6 detonate
+  event 0.6 detonate
+  event 0.633333 detonate
+  event 0.866667 detonate
+  event 0.866667 detonate
+  event 0.866667 detonate
+  event 1 detonate
+  event 1.2 detonate
+  event 1.2 detonate
+  event 1.2 detonate
+  event 1.3 detonate
+  event 1.5 detonate
+  event 1.5 detonate
+  event 1.5 detonate
+  event 1.76667 detonate
+  event 1.9 detonate
+  event 1.9 detonate
+  event 1.9 detonate
+  event 2.1 detonate
+  event 2.1 detonate
+  event 2.1 detonate
+  node dummy vim_rmagbreach
+    parent NULL
+  endnode
+  node emitter OmenEmitter02
+    parent vim_rmagbreach
+    positionkey 38
+         0.1000000    0.9785150    0.0000000   -1.0989701
+         0.1333330    0.6198190   -0.0024095   -1.0989701
+         0.2333330    0.4854810   -0.3610830   -0.4215760
+         0.2366670    0.4810030   -0.3730380   -0.9593960
+         0.3333330    0.1720790    0.1895030   -0.2997640
+         0.3402080    0.1501080   -0.5761410   -0.8205220
+         0.4437500   -0.2282700   -0.5337990   -0.6823810
+         0.5333330   -0.4593220   -0.3082210    0.0522238
+         0.5472920   -0.4953240   -0.2730730   -0.5450160
+         0.5666670    0.4647430   -0.2052670   -0.8000100
+         0.6000000   -0.5204530   -0.0886122   -0.0192535
+         0.6508330   -0.5446880    0.0892871   -0.4084730
+         0.7000000    0.0260952   -0.3843570   -0.3440520
+         0.7543750   -0.3646560    0.3989470   -0.2728060
+         0.7666670   -0.3259510    0.4145020    0.3940920
+         0.8577080   -0.0392737    0.5297140   -0.1380750
+         0.8666670   -0.0107396    0.5215110   -0.5805310
+         0.9000000    0.0954340   -0.5940740   -0.3774730
+         0.9612500    0.2905280    0.4349000   -0.0043527
+         1.0647900    0.4879330    0.1634430    0.1282790
+         1.1666700    0.5930010   -0.1592240   -0.8364920
+         1.1683300    0.4769810   -0.1645030    0.2597200
+         1.2000000   -0.3021890    0.3067080    0.2995190
+         1.2718800    0.2715290   -0.4106380    0.3898510
+         1.3754200   -0.0344928   -0.4768360    0.5185230
+         1.4666700   -0.2775720   -0.3596510    0.9243250
+         1.4787500   -0.3097600   -0.3441340    0.6455450
+         1.5333300    0.3919340    0.1658660    0.7115050
+         1.5822901   -0.4418990   -0.0769536    0.7706680
+         1.6858300   -0.3833060    0.2076340    0.8935440
+         1.7666700    0.3105330   -0.4337840    0.9873160
+         1.7893800   -0.1678040    0.3911320    1.0136600
+         1.8666700    0.0376832    0.3999560    0.9015340
+         1.8929200    0.1074710    0.4029530    1.1301600
+         1.9964600    0.3256670    0.2473160    1.2413100
+         2.0000000    0.3282040    0.2387740    1.0402400
+         2.0333300   -0.5140510   -0.3597910    1.1400900
+         2.0999999   -0.3778210   -0.0024097    1.1447901
+    colorStartkey 7
+         0.1000000    1.0000000    0.5000000    0.5000000
+         0.1333330    0.0000000    0.0000000    0.0000000
+         0.3666670    1.0000000    0.5000000    0.5000000
+         0.6000000    0.0000000    0.0000000    0.0000000
+         0.8666670    1.0000000    0.5000000    0.5000000
+         1.5000000    0.0000000    0.0000000    0.0000000
+         1.9000000    1.0000000    0.5000000    0.5000000
+  endnode
+  node emitter OmenEmitter03
+    parent vim_rmagbreach
+    positionkey 49
+         0.1000000    0.9785150   -0.4426270   -1.0989701
+         0.1333330   -0.1694420    0.2129190    1.3305500
+         0.2366670   -0.7396840   -0.0990343    1.1909800
+         0.3333330   -0.5218510   -0.4909090    0.1802560
+         0.3402080   -0.5063580   -0.5187790    1.0520999
+         0.4437500   -0.0785448   -0.6998880    0.9139610
+         0.4666670    0.2289300    0.3578690    0.8835580
+         0.5472920    0.3549650   -0.5833350    0.7765960
+         0.5666670   -0.6261240   -0.2095930    0.7510460
+         0.6000000    0.4386830   -0.2204920    0.7070880
+         0.6508330    0.6154010   -0.2371120    0.6400530
+         0.6666670    0.6142230   -0.1732680    1.3437099
+         0.7000000   -0.0914671    0.4673330    1.0247200
+         0.7333330    0.1446310   -0.6268580    0.7057430
+         0.7543750    0.6076980    0.1803960    0.5043860
+         0.8000000   -0.0025963   -0.5345450    0.4448980
+         0.8577080    0.3543580    0.4924180    0.3696550
+         0.8666670    0.3804210   -0.3570320    0.3580860
+         0.9333330   -0.3431030    0.1789110    0.2719870
+         0.9612500   -0.0221548    0.5786430    0.2359320
+         0.9666670    0.1144360   -0.5916050    0.2289940
+         1.0000000   -0.4135930   -0.3732430    0.1862960
+         1.0647900   -0.3576550    0.4212040    0.1033010
+         1.0666699   -0.4084210   -0.4574820    0.0895786
+         1.1333300   -0.0124044    0.4314600   -0.3983280
+         1.1666700   -0.5151720    0.1095070   -0.6422820
+         1.1683300   -0.5177490    0.1044080   -0.0281403
+         1.2000000    0.5035650    0.1895620   -0.0679388
+         1.2666700   -0.0377262    0.3688360   -0.1517250
+         1.2718800   -0.4515250   -0.2283660   -0.1582710
+         1.3000000   -0.1314480    0.3700500   -0.1932220
+         1.3754200   -0.2060170   -0.4392620   -0.2869430
+         1.4000000   -0.1328140    0.3841190   -0.4266830
+         1.4666700    0.4815780    0.0208620   -0.8056380
+         1.4787500    0.1016840   -0.4530320   -0.4139650
+         1.5000000   -0.1767200    0.3811700   -0.4396440
+         1.5333300   -0.4785570   -0.4535740   -0.4799250
+         1.5822901    0.3395280   -0.2830020   -0.5390880
+         1.6858300    0.4171580   -0.0173777   -0.6619650
+         1.7000000    0.1646140   -0.5700370   -0.6783990
+         1.7666700   -0.2925020    0.3162920   -0.7557370
+         1.7893800    0.3198210    0.2249090   -0.7820800
+         1.8666700    0.1609570   -0.5529860   -0.7533810
+         1.8929200    0.1070030    0.3472710   -0.8985800
+         1.9333301   -0.0973913   -0.5389900   -0.9419680
+         1.9964600   -0.1204290    0.3138440   -1.0097300
+         2.0000000   -0.4724560   -0.2291330   -1.0131000
+         2.0666699   -0.0557320    0.4619240   -1.0765100
+         2.0999999   -0.9011020   -0.5374000   -0.4764450
+    colorStartkey 7
+         0.1000000    1.0000000    0.5000000    0.5000000
+         0.1333330    0.0000000    0.0000000    0.0000000
+         0.3666670    1.0000000    0.5000000    0.5000000
+         0.6000000    0.0000000    0.0000000    0.0000000
+         0.8666670    1.0000000    0.5000000    0.5000000
+         1.5000000    0.0000000    0.0000000    0.0000000
+         1.9000000    1.0000000    0.5000000    0.5000000
+  endnode
+  node emitter Smoke
+    parent vim_rmagbreach
+    orientationkey 9
+         0.0000000   -0.0000000   -0.0000000   -1.0000000   -0.0087266
+         0.3000000   -0.0000000   -0.0000000   -1.0000000   -1.5795200
+         0.6333330   -0.0000000   -0.0000000   -1.0000000   -3.1503201
+         0.9666670   -0.0000000   -0.0000000   -1.0000000   -4.7211199
+         1.3000000   -0.0000000   -0.0000000   -1.0000000   -6.0911999
+         1.6333300   -0.0000000   -0.0000000    1.0000000   -4.7298398
+         1.9666700   -0.0000000   -0.0000000    1.0000000   -3.1590500
+         2.3000000   -0.0000000   -0.0000000    1.0000000   -1.5882499
+         2.6333301   -0.0000000   -0.0000000    1.0000000   -0.0174534
+    birthratekey 6
+         0.0000000   40.0000000
+         0.1333330   40.0000000
+         0.1666670   20.0000000
+         1.6333300   20.0000000
+         1.6666700   20.0000000
+         1.7000000    0.0000000
+    velocitykey 3
+         0.0000000    1.0000000
+         0.1333330    1.5000000
+         0.1666670    1.0000000
+  endnode
+  node emitter OmenEmitter04
+    parent vim_rmagbreach
+    positionkey 15
+         0.1000000   -0.3184960   -0.5905840   -0.2891300
+         0.1333330    0.0233342   -0.6086900    0.8413450
+         0.3333330    0.3032010   -0.4192820   -0.1142170
+         0.3666670    0.2505610   -0.2924380    0.9610730
+         0.5666670   -0.0652772    0.4686300    0.9199030
+         0.6000000   -0.0652772    0.3455700   -0.1446390
+         0.8333330   -0.0652773   -0.5158460    0.0418291
+         0.8666670   -0.5691770   -0.3469180   -0.1635290
+         1.1666700   -0.0652772    0.1309660    1.6344200
+         1.2000000   -0.0599268   -0.3640450    1.8113900
+         1.4666700   -0.0171228    0.3682660    0.6380830
+         1.5000000   -0.0171228   -0.2304260    0.8598290
+         1.7666700    0.3512440    0.1856330    0.8108890
+         1.9000000   -0.2695230   -0.5302860    0.8108890
+         2.0999999    0.3925170    0.2181310    0.8488750
+  endnode
+  node emitter WIND_Dummy
+    parent vim_rmagbreach
+  endnode
+  node light AuroraLight01
+    parent vim_rmagbreach
+    colorkey 8
+		 0.0000000    0.0000002    0.0000000    0.0000002
+         0.1000000    0.8509810    0.1450980    0.5000000
+         0.4333330    0.8509810    0.1450980    0.5000000
+         1.1333300    0.7882360    0.1686270    0.4615690
+         1.5333300    0.6666670    0.1137250    0.4615690
+         2.0000000    0.7843140    0.1764700    0.5000000
+         2.4666700    0.6666670    0.1137260    0.4615690
+         2.6333301    0.0000002    0.0000000    0.0000003
+		 
+
+  endnode
+doneanim impact vim_rmagbreach
+
+donemodel vim_rmagbreach
