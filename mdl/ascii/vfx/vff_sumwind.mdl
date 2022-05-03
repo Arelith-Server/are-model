@@ -351,13 +351,13 @@ node emitter Sparkles
   birthrate 200
   lifeExp 0.5
   mass 0
-  spread 0
+  spread 10
   particleRot 0
   velocity 0
-  randvel 0
+  randvel 3
   fps 0
-  xsize 251
-  ysize 251
+  xsize 300
+  ysize 300
   bounce_co 0
   blurlength 10
   lightningDelay 0
@@ -709,8 +709,8 @@ node emitter WIND_Dummy
   loop 0
   deadspace 0
   twosidedtex 0
-  blastRadius 6
-  blastLength 1.6
+  blastRadius 9
+  blastLength 2
   position -0.00249214 0.000424422 0.390378
   orientation 0 0 0 0
   colorStart 1 1 1
