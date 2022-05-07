@@ -1,0 +1,580 @@
+#MAXMODEL ASCII
+# model: vim_echo_barr
+filedependancy vim_echo_barr.max
+newmodel vim_echo_barr
+setsupermodel vim_echo_barr NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_echo_barr
+node dummy vim_echo_barr
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy01
+  parent vim_echo_barr
+  #part-number 1
+  position 0.00347899995 0.000208932994 0
+  orientation 0 0 0 0
+endnode
+node emitter OmenEmitter022
+  parent Dummy01
+  #part-number 2
+  p2p 1
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture Fxpa_song
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position -0.00347899995 -0.000208950994 1.39550996
+  orientation -1 0 0 -3.7349999
+  colorStart 0.760784314 0.827450980 0.909803922
+  colorEnd 0 0 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 100
+  lifeExp 1
+  mass 0
+  spread 6.28318977
+  particleRot 0
+  velocity 2
+  randvel 0
+  fps 0
+  xsize 300
+  ysize 300
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 1
+  grav 2
+  threshold 0
+endnode
+node reference OmenRef01
+  parent OmenEmitter022
+  #part-number 3
+  refModel fx_ref
+  reattachable 0
+  position 0 -0.264046013 -0.391463995
+  orientation -1 0 0 -2.5481801
+endnode
+node dummy Group02
+  parent Dummy01
+  #part-number 4
+  position -0.732627988 0.162459999 2.4828999
+  orientation -0.0590536259 0.718163371 -0.693364322 -2.75412989
+endnode
+node emitter OmenEmitter03
+  parent Group02
+  #part-number 5
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_eye1
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 -1 -2.67035007
+  colorStart 0.705882013 0.705882013 0.705882013
+  colorEnd 1 1 1
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 0.300000012
+  sizeEnd 0.300000012
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 0
+  lifeExp 0.699999988
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 2
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node light AuroraLight01
+  parent vim_echo_barr
+  #part-number 6
+  ambientonly 0
+  shadow 0
+  isdynamic 1
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 1
+  flareradius 0
+  position 0 0 1.00422001
+  orientation 0 0 0 0
+  radius 4
+  multiplier 2
+  color 0.760784314 0.827450980 0.909803922
+endnode
+node dummy Group01
+  parent vim_echo_barr
+  #part-number 7
+  position 1.10662997 -0.81131202 1.30885994
+  orientation 0 0 0 0
+endnode
+node emitter OmenEmitter01
+  parent Group01
+  #part-number 8
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_eye1
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 -1 -2.67035007
+  colorStart 0.725489974 0.725489974 0.725489974
+  colorEnd 1 1 1
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 0.300000012
+  sizeEnd 0.300000012
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 0
+  lifeExp 0.800000012
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 2
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vim_echo_barr
+
+#MAXANIM ASCII
+newanim impact vim_echo_barr
+  length 0.466666996
+  transtime 0.25
+  animroot vim_echo_barr
+  event 0.0333333015 detonate
+node dummy vim_echo_barr
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy01
+  parent vim_echo_barr
+  #part-number 1
+  orientationkey 6
+    0 0 0 0 0
+    0.0666666999 -0 -0 1 -1.57079995
+    0.133332998 -0 -0 1 -3.14159012
+    0.233333007 -0 -0 1 -4.71238995
+    0.300000012 0 0 0 0
+    0.400000006 -0 -0 -1 -4.69408989
+endnode
+node emitter OmenEmitter022
+  parent Dummy01
+  #part-number 2
+  sizeEndkey 2
+    0 0.5
+    0.0333333015 0.5
+endnode
+node dummy OmenRef01
+  parent OmenEmitter022
+  #part-number 3
+endnode
+node dummy Group02
+  parent Dummy01
+  #part-number 4
+endnode
+node emitter OmenEmitter03
+  parent Group02
+  #part-number 5
+  birthratekey 2
+    0 0
+    0.466666996 0
+endnode
+node light AuroraLight01
+  parent vim_echo_barr
+  #part-number 6
+  colorkey 3
+    0 0.415686011 0.623529017 1
+    0.0333333015 0.309803993 0.552941024 1
+    0.0666666999 0.254902005 0.517647028 1
+  radius 4
+endnode
+node dummy Group01
+  parent vim_echo_barr
+  #part-number 7
+endnode
+node emitter OmenEmitter01
+  parent Group01
+  #part-number 8
+  positionkey 1
+    0.466666996 0 0 0
+  birthratekey 3
+    0 0
+    0.433333009 0
+    0.466666996 3
+endnode
+doneanim impact vim_echo_barr
+
+#MAXANIM ASCII
+newanim duration vim_echo_barr
+  length 1.96667004
+  transtime 0.25
+  animroot vim_echo_barr
+node dummy vim_echo_barr
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy01
+  parent vim_echo_barr
+  #part-number 1
+  orientationkey 12
+    0.0666666999 -0 -0 -1 -3.13182998
+    0.200000003 -0 -0 -1 -1.57554996
+    0.333332986 -0 -0 1 -1.58349001
+    0.466666996 -0 -0 1 -3.14886999
+    0.633333027 -0 -0 1 -4.69012022
+    0.833333015 -0 -0 1 -6.27140999
+    1 -0 -0 -1 -4.71781015
+    1.16666996 -0 -0 -1 -3.12837005
+    1.36667001 -0 -0 -1 -1.57237995
+    1.53332996 -0 -0 1 -1.55723
+    1.70000005 -0 -0 1 -3.15251994
+    1.89999998 -0 -0 1 -4.71938992
+endnode
+node emitter OmenEmitter022
+  parent Dummy01
+  #part-number 2
+  sizeEndkey 1
+    1.96667004 0.5
+endnode
+node dummy OmenRef01
+  parent OmenEmitter022
+  #part-number 3
+endnode
+node dummy Group02
+  parent Dummy01
+  #part-number 4
+endnode
+node emitter OmenEmitter03
+  parent Group02
+  #part-number 5
+  positionkey 55
+    0.0333333015 0 0 0
+    0.0666666999 -1.02965999 -0.551268995 -0.497682005
+    0.100000001 -2.05932999 -0.128701001 -0.995365024
+    0.133332998 -2.18948007 1.59563005 -0.00711914012
+    0.166666999 -0.136516005 1.92900002 0.981127024
+    0.200000003 0.230652004 0.78719002 0.0678514019
+    0.233333007 -0.148236006 -0.254359007 -0.845423996
+    0.266667008 -1.36398005 -0.300906003 -0.263835996
+    0.300000012 -2.19478011 0.502323985 0.317752987
+    0.333332986 -2.15372992 1.43886006 0.899340987
+    0.366667002 -1.21445 2.13406992 -0.102536
+    0.400000006 -0.275164008 1.38750005 -1.10441005
+    0.433333009 -0.168204993 0.180388004 0.142821997
+    0.466666996 -1.16023004 -0.518070996 1.39005995
+    0.5 -2.34644008 0.574599028 0.176899001
+    0.533333004 -1.88212001 1.97534001 -1.03626001
+    0.600000024 -2.07440996 1.75850999 0.953863978
+    0.633333027 -1.08474004 0.823741972 1.32352996
+    0.666666985 -0.095078297 -0.111025997 0.981127024
+    0.699999988 0.205465004 0.673960984 0.490563005
+    0.733332992 0.105053999 1.45895004 0
+    0.766667008 -0.981136978 2.18512988 -0.477236003
+    0.800000012 -2.06732988 1.82561004 -0.954472005
+    0.866666973 -2.41892004 0.719250023 0.463149011
+    0.899999976 -1.29913998 2.19042993 -0.286554009
+    0.93333298 -0.179352 1.89192998 -1.03626001
+    0.966666996 0.264918 0.854764998 0.0405892991
+    1 -0.183378994 -0.182395995 1.11743999
+    1.03332996 -0.97598201 -0.564996004 -0.048011899
+    1.06666994 -1.76857996 -0.384276986 -1.21345997
+    1.10000002 -2.42289996 0.871308029 0.0746667013
+    1.13332999 -0.785422981 1.83873999 1.07187998
+    1.16666996 -1.97907996 1.70750999 0.535938025
+    1.20000005 -2.49113011 0.788076997 0
+    1.23333001 -1.10540998 -0.560608029 0
+    1.26666999 0.280310988 0.815585017 0
+    1.29999995 -0.90161401 1.99706995 0.483747989
+    1.33333004 -2.08353996 -0.124773003 0.967495024
+    1.36667001 -0.222815007 -0.0684223995 0.0133272996
+    1.39999998 -0.104176 1.75874996 -0.940841019
+    1.43333006 -1.04005003 2.11583996 0.0405892991
+    1.46667004 -1.97591996 1.90658998 1.02201998
+    1.5 -2.21451998 0.0468517989 -0.0275656004
+    1.53332996 -0.436527014 0.0137596997 -1.07714999
+    1.56666994 -1.30911005 -0.269809991 -0.949343979
+    1.60000002 -2.18169999 0.0120877 -0.821537971
+    1.66666996 -2.02852988 1.88164997 0.994756997
+    1.70000005 -1.03213 2.13653994 0.0746667013
+    1.73333001 -0.0357352011 1.68842006 -0.845423996
+    1.76666999 -0.571102977 -0.280600995 -0.872686028
+    1.79999995 -2.03040004 -0.180942997 -0.899948001
+    1.86667001 -1.94594002 1.93444002 -1.00899994
+    1.89999998 -0.562846005 2.09619999 -0.0684584007
+    1.93333006 0.00566420984 1.64567006 0.872079015
+    1.96667004 -1.23710001 -0.359905988 0.436039001
+  birthratekey 4
+    0 0
+    0.0333333015 2
+    1.83333004 2
+    1.86667001 2
+endnode
+node light AuroraLight01
+  parent vim_echo_barr
+  #part-number 6
+  colorkey 6
+    0.166666999 0.356862992 0.568627 1
+    0.699999988 0.321568996 0.529411972 1
+    1.29999995 0.25097999 0.498039007 1
+    1.79999995 0.380391985 0.600000024 1
+    1.83333004 0.447059005 0.643136978 1
+    1.86667001 0.337255001 0.572548985 1
+  radiuskey 1
+    1.83333004 4
+endnode
+node dummy Group01
+  parent vim_echo_barr
+  #part-number 7
+endnode
+node emitter OmenEmitter01
+  parent Group01
+  #part-number 8
+  positionkey 56
+    0 0 0 0
+    0.0333333015 -1.02965999 -0.551268995 -0.497682005
+    0.0666666999 -2.05932999 -0.128701001 -0.995365024
+    0.100000001 -2.18948007 1.59563005 -0.00711914012
+    0.133332998 -0.136516005 1.92900002 0.981127024
+    0.166666999 0.230652004 0.78719002 0.0678514019
+    0.200000003 -0.148236006 -0.254359007 -0.845423996
+    0.233333007 -1.36398005 -0.300906003 -0.263835996
+    0.266667008 -2.19478011 0.502323985 0.317752987
+    0.300000012 -2.15372992 1.43886006 0.899340987
+    0.333332986 -1.21445 2.13406992 -0.102536
+    0.366667002 -0.275164008 1.38750005 -1.10441005
+    0.400000006 -0.168204993 0.180388004 0.142821997
+    0.433333009 -1.16023004 -0.518070996 1.39005995
+    0.466666996 -2.34644008 0.574599028 0.176899001
+    0.5 -1.88212001 1.97534001 -1.03626001
+    0.56666702 -2.07440996 1.75850999 0.953863978
+    0.600000024 -1.08474004 0.823741972 1.32352996
+    0.633333027 -0.095078297 -0.111025997 0.981127024
+    0.666666985 0.205465004 0.673960984 0.490563005
+    0.699999988 0.105053999 1.45895004 0
+    0.733332992 -0.981136978 2.18512988 -0.477236003
+    0.766667008 -2.06732988 1.82561004 -0.954472005
+    0.833333015 -2.41892004 0.719250023 0.463149011
+    0.866666973 -1.29913998 2.19042993 -0.286554009
+    0.899999976 -0.179352 1.89192998 -1.03626001
+    0.93333298 0.264918 0.854764998 0.0405892991
+    0.966666996 -0.183378994 -0.182395995 1.11743999
+    1 -0.97598201 -0.564996004 -0.048011899
+    1.03332996 -1.76857996 -0.384276986 -1.21345997
+    1.06666994 -2.42289996 0.871308029 0.0746667013
+    1.10000002 -0.785422981 1.83873999 1.07187998
+    1.13332999 -1.97907996 1.70750999 0.535938025
+    1.16666996 -2.49113011 0.788076997 0
+    1.20000005 -1.10540998 -0.560608029 0
+    1.23333001 0.280310988 0.815585017 0
+    1.26666999 -0.90161401 1.99706995 0.483747989
+    1.29999995 -2.08353996 -0.124773003 0.967495024
+    1.33333004 -0.222815007 -0.0684223995 0.0133272996
+    1.36667001 -0.104176 1.75874996 -0.940841019
+    1.39999998 -1.04005003 2.11583996 0.0405892991
+    1.43333006 -1.97591996 1.90658998 1.02201998
+    1.46667004 -2.21451998 0.0468517989 -0.0275656004
+    1.5 -0.436527014 0.0137596997 -1.07714999
+    1.53332996 -1.30911005 -0.269809991 -0.949343979
+    1.56666994 -2.18169999 0.0120877 -0.821537971
+    1.63332999 -2.02852988 1.88164997 0.994756997
+    1.66666996 -1.03213 2.13653994 0.0746667013
+    1.70000005 -0.0357352011 1.68842006 -0.845423996
+    1.73333001 -0.571102977 -0.280600995 -0.872686028
+    1.76666999 -2.03040004 -0.180942997 -0.899948001
+    1.83333004 -1.94594002 1.93444002 -1.00899994
+    1.86667001 -0.562846005 2.09619999 -0.0684584007
+    1.89999998 0.00566420984 1.64567006 0.872079015
+    1.93333006 -1.23710001 -0.359905988 0.436039001
+    1.96667004 -2.47987008 0.825991988 0
+  birthratekey 4
+    0 3
+    1.83333004 3
+    1.86667001 3
+    1.96667004 0
+endnode
+doneanim duration vim_echo_barr
+
+#MAXANIM ASCII
+newanim cessation vim_echo_barr
+  length 1.83333004
+  transtime 0.25
+  animroot vim_echo_barr
+node dummy vim_echo_barr
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy01
+  parent vim_echo_barr
+  #part-number 1
+  orientationkey 8
+    0.0666666999 -0 -0 1 -4.71938992
+    0.266667008 0 0 0 0
+    0.466666996 -0 -0 -1 -4.71210003
+    0.633333027 -0 -0 -1 -3.14955997
+    0.800000012 -0 -0 -1 -1.56762993
+    1 -0 -0 -1 -0.0134247001
+    1.23333001 -0 -0 1 -1.56724
+    1.46667004 -0 -0 1 -3.13585997
+endnode
+node emitter OmenEmitter022
+  parent Dummy01
+  #part-number 2
+  sizeEndkey 3
+    0.133332998 0.5
+    0.166666999 0.5
+    1.13332999 0
+endnode
+node dummy OmenRef01
+  parent OmenEmitter022
+  #part-number 3
+endnode
+node dummy Group02
+  parent Dummy01
+  #part-number 4
+endnode
+node emitter OmenEmitter03
+  parent Group02
+  #part-number 5
+  positionkey 5
+    0.0333333015 -1.94594002 1.93444002 -1.00899994
+    0.0666666999 -0.562846005 2.09619999 -0.0684584007
+    0.100000001 0.00566420984 1.64567006 0.872079015
+    0.133332998 -1.23710001 -0.359905988 0.436039001
+    0.166666999 -2.47987008 0.825991988 0
+  birthratekey 3
+    0 2
+    0.0333333015 2
+    0.166666999 0
+endnode
+node light AuroraLight01
+  parent vim_echo_barr
+  #part-number 6
+  colorkey 3
+    0 0.447059005 0.643136978 1
+    0.0333333015 0.337255001 0.572548985 1
+    0.466666996 0 0 0
+  radius 4
+endnode
+node dummy Group01
+  parent vim_echo_barr
+  #part-number 7
+endnode
+node emitter OmenEmitter01
+  parent Group01
+  #part-number 8
+  positionkey 5
+    0 -1.94594002 1.93444002 -1.00899994
+    0.0333333015 -0.562846005 2.09619999 -0.0684584007
+    0.0666666999 0.00566420984 1.64567006 0.872079015
+    0.100000001 -1.23710001 -0.359905988 0.436039001
+    0.133332998 -2.47987008 0.825991988 0
+  birthratekey 3
+    0 3
+    0.0333333015 3
+    0.133332998 0
+endnode
+doneanim cessation vim_echo_barr
+
+donemodel vim_echo_barr
