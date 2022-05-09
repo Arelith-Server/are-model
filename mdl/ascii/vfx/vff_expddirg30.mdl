@@ -28,9 +28,9 @@ node emitter groundsyb
   update Single
   render Billboard_to_Local_Z
   blend Lighten
-  texture dirge_harv
-  xgrid 5
-  ygrid 18
+  texture fxpa_Symbl_003
+  xgrid 1
+  ygrid 1
   loop 0
   deadspace 0
   twosidedtex 0
@@ -47,7 +47,7 @@ node emitter groundsyb
   sizeStart_y 0
   sizeEnd_y 0
   frameStart 0
-  frameEnd 89
+  frameEnd 0
   birthrate 1
   lifeExp 2
   mass 0
@@ -113,7 +113,7 @@ node emitter OmenEmitter01
   sizeEnd_y 0
   frameStart 0
   frameEnd 0
-  birthrate 200
+  birthrate 50
   lifeExp 0.7
   mass 0
   spread 0
@@ -261,7 +261,7 @@ newanim impact vff_expddirg30
          0.4666670    1.0000000
          1.5666699    0.0000000
     birthratekey 3
-         0.4666670  200.0000000
+         0.4666670  50.0000000
          0.6666670  -20.0000000
          1.5666699 -150.0000000
   endnode
