@@ -1,20 +1,20 @@
 # Rewritten by CleanModels 3 Version 3.5.1 Fri Oct 23 13:46:54 2020
 #MAXMODEL ASCII
 filedependency Unknown
-newmodel pme0_head102
+newmodel helm_253
   classification CHARACTER
-  setsupermodel pme0_head102 NULL
+  setsupermodel helm_253 NULL
   setanimationscale 1
 #MAXGEOM ASCII
-beginmodelgeom pme0_head102
-node dummy pme0_head102
+beginmodelgeom helm_253
+node dummy helm_253
   parent NULL
 endnode
-node danglymesh pme0_head102g
-  parent pme0_head102
+node danglymesh helm_253g
+  parent helm_253
   wirecolor 1 0 0
   position 0 -0.01 0.01
-  bitmap pme0_head102
+  bitmap ihelm_253
   orientation 0 0.70711 0.70711 3.14159
   ambient 1 1 1
   diffuse 1 1 1
@@ -874,5 +874,5 @@ node danglymesh pme0_head102g
     0
     0
 endnode
-endmodelgeom pme0_head102
-donemodel pme0_head102
+endmodelgeom helm_253
+donemodel helm_253
