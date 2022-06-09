@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
 # model: vfx_deadeyes 
 filedependancy vfx_flagreeyehf.max
-newmodel vfx_flagreeyehf 
+newmodel vfx_flagreeyehf
 setsupermodel vfx_flagreeyehf NULL
 classification Effects
 #MAXGEOM  ASCII
-beginmodelgeom vfx_flagreeyehf 
-node dummy vfx_flagreeyehf 
+beginmodelgeom vfx_flagreeyehf
+node dummy vfx_flagreeyehf
   parent NULL 
 endnode
 node emitter L_eye 
-  parent vfx_flagreeyehf 
-  position -0.0308607 0.0701179 -0.0888522 
+  parent vfx_flagreeyehf
+  position -0.0308607 0.0708267 -0.0888522
   orientation  0.0 0.0 0.0  -1.16649e-006
   wirecolor 0.898039 0.65098 0.843137  
     colorStart 0.0 0.8 0.0  
@@ -76,8 +76,8 @@ node emitter L_eye
     Splat 0 
 endnode
 node emitter R_eye 
-  parent vfx_flagreeyehf 
-  position 0.0302767 0.0705035 -0.0880422
+  parent vfx_flagreeyehf
+  position 0.0302767 0.0701059 -0.0880422
   orientation  0.0 0.0 0.0  -9.77589e-007
   wirecolor 0.898039 0.65098 0.843137  
     colorStart 0.0 0.8 0.0  
@@ -142,7 +142,7 @@ node emitter R_eye
     Splat 0 
 endnode
 node emitter L_eye01 
-  parent vfx_flagreeyehf 
+  parent vfx_flagreeyehf
   position -0.0308607 0.0708267 -0.0888522
   orientation  0.0 0.0 0.0  -1.16649e-006
   wirecolor 0.898039 0.65098 0.843137  
@@ -208,7 +208,7 @@ node emitter L_eye01
     Splat 0 
 endnode
 node emitter R_eye01 
-  parent vfx_flagreeyehf 
+  parent vfx_flagreeyehf
   position 0.0302767 0.0701059 -0.0880422
   orientation  0.0 0.0 0.0  -9.77589e-007
   wirecolor 0.898039 0.65098 0.843137  
@@ -273,7 +273,7 @@ node emitter R_eye01
     renderorder 0 
     Splat 0 
 endnode
-endmodelgeom vfx_flagreeyehf 
+endmodelgeom vfx_flagreeyehf
 
-donemodel vfx_flagreeyehf 
+donemodel vfx_flagreeyehf
 

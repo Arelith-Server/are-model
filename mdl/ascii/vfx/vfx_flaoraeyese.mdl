@@ -1,16 +1,16 @@
 #MAXMODEL ASCII
 # model: vfx_deadeyes 
 filedependancy vfx_flaoraeyese.max
-newmodel vfx_flaoraeyese 
+newmodel vfx_flaoraeyese
 setsupermodel vfx_flaoraeyese NULL
 classification Effects
 #MAXGEOM  ASCII
-beginmodelgeom vfx_flaoraeyese 
-node dummy vfx_flaoraeyese 
+beginmodelgeom vfx_flaoraeyese
+node dummy vfx_flaoraeyese
   parent NULL 
 endnode
 node emitter L_eye 
-  parent vfx_flaoraeyese 
+  parent vfx_flaoraeyese
   position -0.0058607 0.0758267 -0.1108522
   orientation  0.0 0.0 0.0  -1.16649e-006
   wirecolor 0.898039 0.65098 0.843137  
@@ -76,7 +76,7 @@ node emitter L_eye
     Splat 0 
 endnode
 node emitter R_eye 
-  parent vfx_flaoraeyese 
+  parent vfx_flaoraeyese
   position 0.0552767 0.0751059 -0.1100422
   orientation  0.0 0.0 0.0  -9.77589e-007
   wirecolor 0.898039 0.65098 0.843137  
@@ -142,7 +142,7 @@ node emitter R_eye
     Splat 0 
 endnode
 node emitter L_eye01 
-  parent vfx_flaoraeyese 
+  parent vfx_flaoraeyese
   position -0.0058607 0.0758267 -0.1108522
   orientation  0.0 0.0 0.0  -1.16649e-006
   wirecolor 0.898039 0.65098 0.843137  
@@ -208,7 +208,7 @@ node emitter L_eye01
     Splat 0 
 endnode
 node emitter R_eye01 
-  parent vfx_flaoraeyese 
+  parent vfx_flaoraeyese
   position 0.0552767 0.0751059 -0.1100422
   orientation  0.0 0.0 0.0  -9.77589e-007
   wirecolor 0.898039 0.65098 0.843137  
@@ -273,7 +273,7 @@ node emitter R_eye01
     renderorder 0 
     Splat 0 
 endnode
-endmodelgeom vfx_flaoraeyese 
+endmodelgeom vfx_flaoraeyese
 
-donemodel vfx_flaoraeyese 
+donemodel vfx_flaoraeyese
 

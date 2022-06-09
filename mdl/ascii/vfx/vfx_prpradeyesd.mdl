@@ -11,8 +11,7 @@ classification Effect
 #NWmax GEOM  ASCII
 beginmodelgeom vfx_prpradeyesd
 node dummy vfx_prpradeyesd
-  parent vfx_prpradeyesd
-endnode
+  parent NULL
 node emitter L_eye
   parent vfx_prpradeyesd
   position -0.0428607 0.0948267 -0.1178522
@@ -49,7 +48,7 @@ node emitter L_eye
   lifeExp 0.5
   mass 0.0
   spread 0.0
-  parent vfx_prpradeyesd
+  particleRot 0.0
   velocity 0.0
   randvel 0.0
   bounce_co 0.0
@@ -117,7 +116,7 @@ node emitter R_eye
   lifeExp 0.5
   mass 0.0
   spread 0.0
-  parent vfx_prpradeyesd
+  particleRot 0.0
   velocity 0.0
   randvel 0.0
   bounce_co 0.0
@@ -185,7 +184,7 @@ node emitter L_eye01
   lifeExp -1.0
   mass 0.0
   spread 0.0
-  parent vfx_prpradeyesd
+  particleRot 0.0
   velocity 0.0
   randvel 0.0
   bounce_co 0.0
@@ -253,7 +252,7 @@ node emitter R_eye01
   lifeExp -1.0
   mass 0.0
   spread 0.0
-  parent vfx_prpradeyesd
+  particleRot 0.0
   velocity 0.0
   randvel 0.0
   bounce_co 0.0
