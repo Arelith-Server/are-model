@@ -1,15 +1,15 @@
 # Exported from blender Monday, 2021-03-08
 filedependancy unknown
-newmodel aca_port82
-setsupermodel aca_port82 null
+newmodel aca_port103
+setsupermodel aca_port103 null
 classification UNKNOWN
 setanimationscale 1.0
-beginmodelgeom aca_port82
-node dummy aca_port82
+beginmodelgeom aca_port103
+node dummy aca_port103
   parent null
 endnode
 node trimesh frame
-  parent aca_port82
+  parent aca_port103
   position  0.00000  0.00000  0.54078
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -915,14 +915,14 @@ node trimesh frame
     351 352  64  119  351 352 271  0
 endnode
 node trimesh aca_port0
-  parent aca_port82
+  parent aca_port103
   position  0.00000  0.00000  0.54078
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 0.78 0.78 0.78
   specular 0.95 0.95 0.95
-  bitmap ls_sydneyharrow
+  bitmap ls_graveyard
   shininess 1
   verts 4
      1.00000 -0.03018  0.50000
@@ -938,5 +938,5 @@ node trimesh aca_port0
     3 0 1  1  0 1 2  0
     1 2 3  1  2 3 0  0
 endnode
-endmodelgeom aca_port82
-donemodel aca_port82
+endmodelgeom aca_port103
+donemodel aca_port103
