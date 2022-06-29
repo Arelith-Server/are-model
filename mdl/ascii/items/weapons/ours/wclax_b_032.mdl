@@ -1,0 +1,65 @@
+# Exported from blender Sunday, 2022-06-05
+filedependancy unknown
+newmodel wclax_b_032
+setsupermodel wclax_b_032 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom wclax_b_032
+node dummy wclax_b_032
+  parent null
+endnode
+node trimesh g_wclax_b_032
+  parent wclax_b_032
+  position  0.00018 -0.14571  0.00019
+  orientation  1.00000  0.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.05 0.05 0.05
+  bitmap w_metal_tex
+  shininess 26
+  verts 10
+     0.00000 -0.26340  0.00000
+     0.00000 -0.27364  0.04360
+     0.04360 -0.27364  0.00000
+    -0.04360 -0.27364  0.00000
+     0.00000 -0.27364 -0.04360
+     0.00000 -0.34049  0.00000
+     0.04152 -0.30580  0.00000
+     0.00000 -0.30580  0.04152
+    -0.04152 -0.30580  0.00000
+     0.00000 -0.30580 -0.04152
+  tverts 13
+     0.323  0.621  0
+     0.323  0.681  0
+     0.293  0.621  0
+     0.353  0.621  0
+     0.323  0.561  0
+     0.480  0.621  0
+     0.450  0.621  0
+     0.480  0.561  0
+     0.401  0.621  0
+     0.432  0.621  0
+     0.401  0.681  0
+     0.371  0.621  0
+     0.401  0.560  0
+  faces 16
+     0  1  2  1   0  1  2  0
+     0  3  1  1   0  3  1  0
+     0  4  3  1   0  4  3  0
+     0  2  4  1   5  6  7  0
+     5  6  7  2   8  9 10  0
+     5  7  8  2   8 10 11  0
+     5  8  9  2   8 11 12  0
+     5  9  6  2   8 12  9  0
+     2  1  7  2   2  1 10  0
+     7  6  2  2  10  9  6  0
+     1  3  8  2   1  3 11  0
+     8  7  1  2  11 10  1  0
+     3  4  9  2   3  4 12  0
+     9  8  3  2  12 11  3  0
+     4  2  6  2   7  6  9  0
+     6  9  4  2   9 12  7  0
+endnode
+endmodelgeom wclax_b_032
+donemodel wclax_b_032

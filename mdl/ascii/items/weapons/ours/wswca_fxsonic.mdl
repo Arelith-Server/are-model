@@ -1,16 +1,16 @@
 #MAXMODEL ASCII
-# model: WSwBs_fxsonic 
-filedependancy WSwBs.max
-newmodel WSwBs_fxsonic 
-setsupermodel WSwBs_fxsonic NULL
-Classification Item
+# model: wswca_fxsonic 
+filedependancy wswca.max
+newmodel wswca_fxsonic 
+setsupermodel wswca_fxsonic NULL
+classification CHARACTER
 #MAXGEOM  ASCII
-beginmodelgeom WSwBs_fxsonic 
-node dummy WSwBs_fxsonic 
+beginmodelgeom wswca_fxsonic 
+node dummy wswca_fxsonic 
   parent NULL 
 endnode
 node emitter g_WSwGs_V_Sonic 
-  parent WSwBs_fxsonic 
+  parent wswca_fxsonic 
   position 0.00719727 0.180831 0.0068057
   orientation  1.0 -1.306e-007 1.74911e-007  -1.5708
   wirecolor 0.6 0.894118 0.6  
@@ -83,7 +83,105 @@ node reference OmenRef01
   refModel fx_ref 
   reattachable 0 
 endnode
-endmodelgeom WSwBs_fxsonic 
+node emitter g_wswca_V_sonic_rune 
+  parent wswca_fxsonic
+  position  0.0200  0.47500 -0.00000
+  orientation  0.57735  0.57735  0.57735  2.09439
+  xsize 1
+  ysize 1
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 1
+  lifeexp -1
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0
+  splat 0
+  affectedbywind 0
+  colorStart 1.0 1.0 1.0  
+  colorEnd 1.0 1.0 1.0  
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.5
+  sizeend 0.5
+  sizestart_y 0.04
+  sizeend_y 0.04
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_sonicrunes
+  twosidedtex 1
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter g_wswca_V_sonic_rune2 
+  parent wswca_fxsonic
+  position  -0.0200  0.47500 -0.00000
+  orientation  0.57735 -0.57735 -0.57735  2.09440
+  xsize 1
+  ysize 1
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 1
+  lifeexp -1
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0
+  splat 0
+  affectedbywind 0
+  colorStart 1.0 1.0 1.0  
+  colorEnd 1.0 1.0 1.0  
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.5
+  sizeend 0.5
+  sizestart_y 0.04
+  sizeend_y 0.04
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_sonicrunes
+  twosidedtex 1
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom wswca_fxsonic 
 
-donemodel WSwBs_fxsonic 
+donemodel wswca_fxsonic 
 
