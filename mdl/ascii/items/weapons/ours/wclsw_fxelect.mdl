@@ -1,0 +1,261 @@
+#MAXMODEL ASCII
+# model: wclsw_fxelect
+filedependancy WSwGs.max
+newmodel wclsw_fxelect
+setsupermodel wclsw_fxelect NULL
+classification CHARACTER
+#MAXGEOM  ASCII
+beginmodelgeom wclsw_fxelect
+node dummy wclsw_fxelect
+  parent NULL 
+endnode
+node emitter g_wclsw_V_Elec_b 
+  parent wclsw_fxelect
+  position 0 0.98  0.00
+  orientation  0.01745  0.99970  0.01745  1.57110
+  wirecolor 0.603922 0.603922 0.898039  
+    colorStart 1.0 1.0 1.0  
+    colorEnd 0.572549 0.643137 1.0  
+    alphaStart 1.0 
+    alphaEnd 0.0 
+    sizeStart 0.05 
+    sizeEnd 0.8 
+    sizeStart_y 0.0 
+    sizeEnd_y 0.0 
+    frameStart 0 
+    frameEnd 3 
+    birthrate 20 
+    spawnType 0 
+    lifeExp 1.0 
+    mass 0.0 
+    spread 0.0 
+    particleRot 0.0 
+    velocity 0.0 
+    randvel 0.0 
+    fps 12 
+    random 0 
+    inherit 1 
+    inherit_local 0 
+    inherit_part 0 
+    inheritvel 0 
+    xsize 22.4
+    ysize 140
+    bounce 0 
+    bounce_co 0.0 
+    loop 0 
+    update Fountain 
+    render Linked 
+    Blend Lighten 
+    update_sel 1 
+    render_sel 2 
+    blend_sel 3 
+    deadspace 0.0 
+    opacity 0.5 
+    blurlength 10.0 
+    lightningDelay 0.05 
+    lightningRadius 0.05 
+    lightningScale 0.5 
+    blastRadius 0.0 
+    blastLength 0.0 
+    twosidedtex 0 
+    p2p 1 
+    p2p_sel 1 
+    p2p_type Bezier 
+    p2p_bezier2 0.0 
+    p2p_bezier3 0.0 
+    combinetime 10.0 
+    drag 0.2 
+    grav 0.0 
+    threshold 0.0 
+    texture fxpa_lightning2 
+    xgrid 2 
+    ygrid 2 
+    affectedByWind false 
+    m_isTinted 0 
+    renderorder 0 
+    Splat 0 
+endnode
+node reference g_wclsw_V_Elec_b_ref 
+  parent g_wclsw_V_Elec_b 
+  position 0.0 0.571936 0.1283
+  orientation  0.0  0.0  0.0  0.0
+  wirecolor 0.898039 0.603922 0.843137  
+  refModel fx_ref 
+  reattachable 1 
+endnode
+node emitter g_wclsw_V_Elec 
+  parent wclsw_fxelect
+  position  0.00000  0.98000 -0.00000
+  orientation  0.01745  0.99970  0.01745  1.57110
+  wirecolor 0.6 0.894118 0.6  
+    colorStart 1.0 1.0 1.0  
+    colorEnd 0.545098 0.976471 0.737255  
+    alphaStart 0.75 
+    alphaEnd 0.5 
+    sizeStart 0.2 
+    sizeEnd 0.075 
+    sizeStart_y 0.0 
+    sizeEnd_y 0.0 
+    frameStart 0 
+    frameEnd 0 
+    birthrate 5 
+    spawnType 0 
+    lifeExp 1.0 
+    mass 0.0 
+    spread 0.0 
+    particleRot 200.0 
+    velocity 0.0 
+    randvel 0.0 
+    fps 0 
+    random 0 
+    inherit 1 
+    inherit_local 0 
+    inherit_part 0 
+    inheritvel 0 
+    xsize 22.4
+    ysize 140
+    bounce 0 
+    bounce_co 0.0 
+    loop 0 
+    update Lightning 
+    render Linked 
+    Blend Lighten 
+    update_sel 4 
+    render_sel 2 
+    blend_sel 3 
+    deadspace 0.0 
+    opacity 0.5 
+    blurlength 10.0 
+    lightningDelay 0.09 
+    lightningRadius 0.045 
+    lightningScale 0.0 
+    blastRadius 0.0 
+    blastLength 0.0 
+    twosidedtex 0 
+    p2p 0 
+    p2p_sel 1 
+    p2p_type Bezier 
+    p2p_bezier2 0.0 
+    p2p_bezier3 0.0 
+    combinetime 0.0 
+    drag 0.0 
+    grav 0.0 
+    threshold 0.0 
+    texture fxpa_lightning2 
+    xgrid 2 
+    ygrid 2 
+    affectedByWind false 
+    m_isTinted 0 
+    renderorder 0 
+    Splat 0 
+endnode
+node reference g_wclsw_V_Elec_ref 
+  parent g_wclsw_V_Elec 
+  position -0.00832392 -0.00485185 0
+  orientation  -1.0  0.0  0.0  -3.14159
+  wirecolor 0.898039 0.603922 0.843137  
+  refModel fx_ref 
+  reattachable 1 
+endnode
+node emitter g_wclsw_V_elect_rune 
+  parent wclsw_fxelect 
+  position  0.035000  0.94500 -0.00000
+  orientation  0.57735  0.57735  0.57735  2.09439
+  xsize 1
+  ysize 1
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 1
+  lifeexp -1
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0
+  splat 0
+  affectedbywind 0
+  colorstart 0.572549 0.643137 1.0
+  colorend 0.572549 0.643137 1.0
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.91
+  sizeend 0.91
+  sizestart_y 0.10
+  sizeend_y 0.10
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_electrunes
+  twosidedtex 1
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter g_wclsw_V_elect_rune2 
+  parent wclsw_fxelect 
+  position  -0.035000  0.94500 -0.00000
+  orientation  0.57735 -0.57735 -0.57735  2.09440
+  xsize 1
+  ysize 1
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 1
+  lifeexp -1
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0
+  splat 0
+  affectedbywind 0
+  colorstart 0.572549 0.643137 1.0
+  colorend 0.572549 0.643137 1.0
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.91
+  sizeend 0.91
+  sizestart_y 0.10
+  sizeend_y 0.10
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_electrunes
+  twosidedtex 1
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom wclsw_fxelect
+
+donemodel wclsw_fxelect
+

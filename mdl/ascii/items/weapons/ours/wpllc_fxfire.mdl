@@ -1,0 +1,207 @@
+# Exported from blender Wednesday, 2021-02-10
+filedependancy unknown
+newmodel wpllc_fxfire
+setsupermodel wpllc_fxfire null
+setanimationscale 1.0
+beginmodelgeom wpllc_fxfire
+node dummy wpllc_fxfire
+  parent null
+endnode
+node emitter g_wswgs_v_fire
+  parent wpllc_fxfire
+  position  0.00000  1.52722 -0.00000
+  orientation -0.57735  0.57735 -0.57735  2.09440
+  xsize 266.00000858306885
+  ysize 19.999998807907104
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 15
+  lifeexp 2
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.17
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 0.89
+  colorend 0.89 0.56 0.04
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.75
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flame00
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter g_wswgs_v_fire.001
+  parent wpllc_fxfire
+  position  0.00000 -0.33306 -0.00000
+  orientation -0.57735  0.57735 -0.57735  2.09440
+  xsize 47.12378978729248
+  ysize 19.999998807907104
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 5
+  lifeexp 2
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.17
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 0.89
+  colorend 0.89 0.56 0.04
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.75
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flame00
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter g_wswgs_v_fire01
+  parent wpllc_fxfire
+  position  0.00000  1.52722  0.00000
+  orientation  1.00000 -0.00000  0.00000  3.14159
+  xsize 19.999998807907104
+  ysize 266.00000858306885
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 15
+  lifeexp 2
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.17
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 0.89
+  colorend 0.89 0.56 0.04
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.75
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flame00
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter g_wswgs_v_fire01.001
+  parent wpllc_fxfire
+  position -0.00000 -0.33306  0.00000
+  orientation  1.00000 -0.00000  0.00000  3.14159
+  xsize 19.999998807907104
+  ysize 47.12378978729248
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 5
+  lifeexp 2
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.17
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 0.89
+  colorend 0.89 0.56 0.04
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.75
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flame00
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom wpllc_fxfire
+donemodel wpllc_fxfire
