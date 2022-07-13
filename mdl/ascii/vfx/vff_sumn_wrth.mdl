@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: vff_summon3
-filedependancy vff_summon3.max
-newmodel vff_summon3
-setsupermodel vff_summon3 NULL
+# model: vff_sumn_wrth
+filedependancy vff_sumn_wrth.max
+newmodel vff_sumn_wrth
+setsupermodel vff_sumn_wrth NULL
 classification EFFECT
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom vff_summon3
-node dummy vff_summon3
+beginmodelgeom vff_sumn_wrth
+node dummy vff_sumn_wrth
   parent NULL
 endnode
 node emitter groundsyb
-  parent vff_summon3
+  parent vff_sumn_wrth
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -71,7 +71,7 @@ node emitter groundsyb
   threshold 0
 endnode
 node dummy DummyRotator
-  parent vff_summon3
+  parent vff_sumn_wrth
   position 0 0 -0.694064
   orientation 0 0 0 0
 endnode
@@ -136,7 +136,7 @@ node emitter dust_colum
   threshold 0
 endnode
 node emitter Spooky
-  parent vff_summon3
+  parent vff_sumn_wrth
   position 0 0 1
   orientation 0 0 0 0
   wirecolor 0.1 0.1 0.1
@@ -203,7 +203,7 @@ node emitter Spooky
   Drag 0
 endnode
 node emitter OmenEmitter01
-  parent vff_summon3
+  parent vff_sumn_wrth
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -263,7 +263,7 @@ node emitter OmenEmitter01
   threshold 0
 endnode
 node light AuroraLight01
-  parent vff_summon3
+  parent vff_sumn_wrth
   ambientonly 0
   shadow 0
   isdynamic 1
@@ -278,7 +278,7 @@ node light AuroraLight01
   color 0 0 0.333
 endnode
 node emitter WIND_Dummy
-  parent vff_summon3
+  parent vff_sumn_wrth
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -337,19 +337,19 @@ node emitter WIND_Dummy
   grav 0
   threshold 0
 endnode
-endmodelgeom vff_summon3
+endmodelgeom vff_sumn_wrth
 
 #MAXANIM ASCII
-newanim impact vff_summon3
+newanim impact vff_sumn_wrth
   length 4.63333
   transtime 0.25
-  animroot vff_summon3
+  animroot vff_sumn_wrth
   event 0.133333 detonate
-  node dummy vff_summon3
+  node dummy vff_sumn_wrth
     parent NULL
   endnode
   node emitter groundsyb
-    parent vff_summon3
+    parent vff_sumn_wrth
     alphaStartkey 8
          0.0000000    0.0000000
          0.4666670    1.0000000
@@ -370,7 +370,7 @@ newanim impact vff_summon3
          3.6333301    0.0000000
   endnode
     node dummy DummyRotator
-    parent vff_summon3
+    parent vff_sumn_wrth
     orientationkey 13
          0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
          0.3000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
@@ -397,7 +397,7 @@ newanim impact vff_summon3
          2.9000001    0.0000000
   endnode
   node emitter Spooky
-        parent vff_summon3
+        parent vff_sumn_wrth
         birthratekey 3
             0 24
             0.833333 24
@@ -405,7 +405,7 @@ newanim impact vff_summon3
         endlist
     endnode
   node emitter OmenEmitter01
-    parent vff_summon3
+    parent vff_sumn_wrth
     alphaStartkey 5
          0.0000000    0.0000000
          0.2000000    0.5000000
@@ -429,21 +429,21 @@ newanim impact vff_summon3
          2.7666700    0.0000000
   endnode
   node light AuroraLight01
-    parent vff_summon3
+    parent vff_sumn_wrth
     colorkey 9
-         0.0000000    0.4137250    0.0    0.0
-         0.0333333    0.4137250    0.0    0.0
-         0.3666670    0.4450980    0.0    0.0
-         0.8000000    0.4137250    0.0    0.0
-         1.2333300    0.4686270    0.0    0.0
-         1.6333300    0.4137250    0.0    0.0
-         2.1333301    0.4764700    0.0    0.0
-         2.5999999    0.4137250    0.0    0.0
+         0.0000000    0.0001111    0.0001111    0.0001111
+         0.0333333    0.0001111    0.0001111    0.0001111
+         0.3666670    0.0001111    0.0001111    0.0001111
+         0.8000000    0.0001111    0.0001111    0.0001111
+         1.2333300    0.0001111    0.0001111    0.0001111
+         1.6333300    0.0001111    0.0001111    0.0001111
+         2.1333301    0.0001111    0.0001111    0.0001111
+         2.5999999    0.0001111    0.0001111    0.0001111
          2.9333301    0.0    0.0          0.0
   endnode
   node emitter WIND_Dummy
-    parent vff_summon3
+    parent vff_sumn_wrth
   endnode
-doneanim impact vff_summon3
+doneanim impact vff_sumn_wrth
 
-donemodel vff_summon3
+donemodel vff_sumn_wrth

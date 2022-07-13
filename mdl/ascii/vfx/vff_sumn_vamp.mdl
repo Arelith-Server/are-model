@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: vff_summon3
-filedependancy vff_summon3.max
-newmodel vff_summon3
-setsupermodel vff_summon3 NULL
+# model: vff_sumn_vamp
+filedependancy vff_sumn_vamp.max
+newmodel vff_sumn_vamp
+setsupermodel vff_sumn_vamp NULL
 classification EFFECT
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom vff_summon3
-node dummy vff_summon3
+beginmodelgeom vff_sumn_vamp
+node dummy vff_sumn_vamp
   parent NULL
 endnode
 node emitter groundsyb
-  parent vff_summon3
+  parent vff_sumn_vamp
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -71,7 +71,7 @@ node emitter groundsyb
   threshold 0
 endnode
 node emitter Acid
-  parent vff_summon3
+  parent vff_sumn_vamp
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -131,7 +131,7 @@ node emitter Acid
   threshold 0
 endnode
 node emitter Cold
-  parent vff_summon3
+  parent vff_sumn_vamp
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -191,7 +191,7 @@ node emitter Cold
   threshold 0
 endnode
 node emitter Mind
-  parent vff_summon3
+  parent vff_sumn_vamp
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -251,7 +251,7 @@ node emitter Mind
   threshold 0
 endnode
 node emitter Sparkles
-  parent vff_summon3
+  parent vff_sumn_vamp
   p2p 0
   p2p_sel 0
   affectedByWind 0
@@ -311,7 +311,7 @@ node emitter Sparkles
   threshold 0
 endnode
 node dummy DummyRotator
-  parent vff_summon3
+  parent vff_sumn_vamp
   position 0 0 -0.694064
   orientation 0 0 0 0
 endnode
@@ -376,7 +376,7 @@ node emitter dust_colum01
   threshold 0
 endnode
 node emitter Fire002
-  parent vff_summon3
+  parent vff_sumn_vamp
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -436,7 +436,7 @@ node emitter Fire002
   threshold 0
 endnode
 node emitter Cold02
-  parent vff_summon3
+  parent vff_sumn_vamp
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -496,7 +496,7 @@ node emitter Cold02
   threshold 0
 endnode
 node emitter Acid01
-  parent vff_summon3
+  parent vff_sumn_vamp
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -556,7 +556,7 @@ node emitter Acid01
   threshold 0
 endnode
 node emitter OmenEmitter01
-  parent vff_summon3
+  parent vff_sumn_vamp
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -616,7 +616,7 @@ node emitter OmenEmitter01
   threshold 0
 endnode
 node light AuroraLight01
-  parent vff_summon3
+  parent vff_sumn_vamp
   ambientonly 0
   shadow 0
   isdynamic 1
@@ -631,7 +631,7 @@ node light AuroraLight01
   color 0.333 0 0
 endnode
 node emitter WIND_Dummy
-  parent vff_summon3
+  parent vff_sumn_vamp
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -690,19 +690,19 @@ node emitter WIND_Dummy
   grav 0
   threshold 0
 endnode
-endmodelgeom vff_summon3
+endmodelgeom vff_sumn_vamp
 
 #MAXANIM ASCII
-newanim impact vff_summon3
+newanim impact vff_sumn_vamp
   length 4.63333
   transtime 0.25
-  animroot vff_summon3
+  animroot vff_sumn_vamp
   event 0.133333 detonate
-  node dummy vff_summon3
+  node dummy vff_sumn_vamp
     parent NULL
   endnode
   node emitter groundsyb
-    parent vff_summon3
+    parent vff_sumn_vamp
     alphaStartkey 8
          0.0000000    0.0000000
          0.4666670    1.0000000
@@ -723,7 +723,7 @@ newanim impact vff_summon3
          3.6333301    0.0000000
   endnode
   node emitter Acid
-    parent vff_summon3
+    parent vff_sumn_vamp
     birthratekey 5
          0.0000000    0.0000000
          0.2666670    0.0000000
@@ -732,7 +732,7 @@ newanim impact vff_summon3
          2.3333299    0.0000000
   endnode
   node emitter Cold
-    parent vff_summon3
+    parent vff_sumn_vamp
     birthratekey 5
          0.0000000    0.0000000
          0.2666670    0.0000000
@@ -741,7 +741,7 @@ newanim impact vff_summon3
          2.3333299    0.0000000
   endnode
   node emitter Mind
-    parent vff_summon3
+    parent vff_sumn_vamp
     birthratekey 5
          0.0000000    0.0000000
          0.2666670    0.0000000
@@ -750,7 +750,7 @@ newanim impact vff_summon3
          2.3333299    0.0000000
   endnode
   node emitter Sparkles
-    parent vff_summon3
+    parent vff_sumn_vamp
     sizeEndkey 7
          0.0000000    0.1000000
          0.0333333    0.1000000
@@ -788,7 +788,7 @@ newanim impact vff_summon3
          2.8333299   81.2474976
   endnode
   node dummy DummyRotator
-    parent vff_summon3
+    parent vff_sumn_vamp
     orientationkey 13
          0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
          0.3000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
@@ -814,7 +814,7 @@ newanim impact vff_summon3
          2.7000000    0.0000000
   endnode
   node emitter Fire002
-    parent vff_summon3
+    parent vff_sumn_vamp
     birthratekey 5
          0.0000000    0.0000000
          0.2666670    0.0000000
@@ -823,7 +823,7 @@ newanim impact vff_summon3
          2.3333299    0.0000000
   endnode
   node emitter Cold02
-    parent vff_summon3
+    parent vff_sumn_vamp
     birthratekey 5
          0.0000000    0.0000000
          0.2666670    0.0000000
@@ -832,7 +832,7 @@ newanim impact vff_summon3
          2.3333299    0.0000000
   endnode
   node emitter Acid01
-    parent vff_summon3
+    parent vff_sumn_vamp
     birthratekey 5
          0.0000000    0.0000000
          0.2666670    0.0000000
@@ -841,7 +841,7 @@ newanim impact vff_summon3
          2.3333299    0.0000000
   endnode
   node emitter OmenEmitter01
-    parent vff_summon3
+    parent vff_sumn_vamp
     alphaStartkey 5
          0.0000000    0.0000000
          0.2000000    0.5000000
@@ -865,7 +865,7 @@ newanim impact vff_summon3
          2.7666700    0.0000000
   endnode
   node light AuroraLight01
-    parent vff_summon3
+    parent vff_sumn_vamp
     colorkey 9
          0.0000000    0.4137250    0.0    0.0
          0.0333333    0.4137250    0.0    0.0
@@ -878,8 +878,8 @@ newanim impact vff_summon3
          2.9333301    0.0000000    0.0    0.0
   endnode
   node emitter WIND_Dummy
-    parent vff_summon3
+    parent vff_sumn_vamp
   endnode
-doneanim impact vff_summon3
+doneanim impact vff_sumn_vamp
 
-donemodel vff_summon3
+donemodel vff_sumn_vamp
