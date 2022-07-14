@@ -1,0 +1,234 @@
+#MAXMODEL ASCII
+# model: vim_raymind
+filedependancy vim_raymind.max
+newmodel vim_raymind
+setsupermodel vim_raymind NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_raymind
+node dummy vim_raymind
+  parent NULL
+endnode
+node emitter OmenEmitter03
+  parent vim_raymind
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Lightning
+  render Linked
+  blend Lighten
+  texture fxpa_white
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.204346 0
+  orientation 0 0 0 0
+  colorStart 1 0 0.117647
+  colorEnd 1 0 0.117647
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.05
+  sizeEnd 0.05
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 3
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node reference OmenRef03
+  parent OmenEmitter03
+  refModel fx_ref_mind
+  reattachable 1
+  position -0.00129215 5.99712 0
+  orientation 0 0 0 0
+endnode
+node emitter handbal
+  parent vim_raymind
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.204346 0
+  orientation 0 0 0 0
+  colorStart 1 0 0.352941
+  colorEnd 1 0.407843 0.478431
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.5
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 100
+  lifeExp 0.5
+  mass 0
+  spread 6.28319
+  particleRot 0.5
+  velocity 1
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter04
+  parent vim_raymind
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Lightning
+  render Linked
+  blend Lighten
+  texture fxpa_white
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.000494537 0.20574 0
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 0.905882 0.52549 0.705882
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.01
+  sizeEnd 0.01
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 65
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0.04
+  lightningScale 0.1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node reference OmenRef04
+  parent OmenEmitter04
+  refModel fx_ref
+  reattachable 1
+  position -0.00129215 5.99712 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom vim_raymind
+
+#MAXANIM ASCII
+newanim impact vim_raymind
+  length 0
+  transtime 0
+  animroot vim_raymind
+  node dummy vim_raymind
+    parent NULL
+  endnode
+  node emitter OmenEmitter03
+    parent vim_raymind
+  endnode
+  node dummy OmenRef03
+    parent OmenEmitter03
+  endnode
+  node emitter handbal
+    parent vim_raymind
+  endnode
+  node emitter OmenEmitter04
+    parent vim_raymind
+  endnode
+  node dummy OmenRef04
+    parent OmenEmitter04
+  endnode
+doneanim impact vim_raymind
+
+donemodel vim_raymind

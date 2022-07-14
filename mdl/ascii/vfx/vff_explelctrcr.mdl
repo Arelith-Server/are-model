@@ -1,0 +1,382 @@
+#MAXMODEL ASCII
+# model: vff_explelectric
+filedependancy vff_explelectric.max
+newmodel vff_explelectric
+setsupermodel vff_explelectric NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vff_explelectric
+node dummy vff_explelectric
+  parent NULL
+endnode
+node emitter Ring
+  parent vff_explelectric
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_ringwave
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 11
+  blastLength 0.8
+  position -0.000507622 0.000816663 0.457434
+  orientation 0 0 0 0
+  colorStart 1 0.396078 0.396078
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.5
+  sizeEnd 35
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 1
+  lifeExp 0.4
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 12
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Plasma
+  parent vff_explelectric
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Motion_Blur
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.768827
+  orientation 1 0 0 -6.27446
+  colorStart 0.796079 0.756863 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 5
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 0.3
+  mass 0
+  spread 3.49066
+  particleRot 0
+  velocity 20
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Electric_01
+  parent vff_explelectric
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture fxpa_elect
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.4
+  orientation 0 0 0 0
+  colorStart 1 0 0
+  colorEnd 1 0 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 1
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 16
+  xsize 100
+  ysize 100
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter WIND_Dummy01
+  parent vff_explelectric
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture NULL
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 8
+  blastLength 0.5
+  position 0.0117078 0.00566773 0.267095
+  orientation 0 0 0 0
+  colorStart 1 0 0
+  colorEnd 1 0 0
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node light AuroraLight01
+  parent vff_explelectric
+  ambientonly 0
+  shadow 1
+  isdynamic 1
+  affectdynamic 1
+  lightpriority 2
+  fadingLight 0
+  flareradius 0
+  position 0 0 1.7
+  orientation -0.5773503 0.5773503 0.5773503 -2.0944
+  radius 10
+  multiplier 5
+  color 0.996078 0 0
+endnode
+node emitter Electric_02
+  parent vff_explelectric
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture fxpa_elect
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.0421329
+  orientation 0 0 0 0
+  colorStart 1 0 0
+  colorEnd 1 0 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 10
+  sizeEnd 15
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 1
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 16
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vff_explelectric
+
+#MAXANIM ASCII
+newanim impact vff_explelectric
+  length 4.96667
+  transtime 0.25
+  animroot vff_explelectric
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+  node dummy vff_explelectric
+    parent NULL
+  endnode
+  node emitter Ring
+    parent vff_explelectric
+  endnode
+  node emitter Plasma
+    parent vff_explelectric
+    birthratekey 10
+         0.0000000    0.0000000
+         0.0333333    0.0000000
+         0.0666667    0.0000000
+         0.1000000  100.0000000
+         0.1333330  100.0000000
+         0.5333330  100.0000000
+         0.5666670  100.0000000
+         0.6000000    0.0000000
+         0.6333330    0.0000000
+         0.8000000    0.0000000
+  endnode
+  node emitter Electric_01
+    parent vff_explelectric
+  endnode
+  node emitter WIND_Dummy01
+    parent vff_explelectric
+  endnode
+  node light AuroraLight01
+    parent vff_explelectric
+    colorkey 10
+         0.0000000    1.0000000    0.7529420    0.0000000
+         0.0333333    1.0000000    0.7529420    0.0000000
+         0.1666670    1.0000000    0.7529420    0.0000000
+         0.2666670    1.0000000    1.0000000    1.0000000
+         0.4000000    1.0000000    0.7529420    0.0000000
+         0.5333330    1.0000000    1.0000000    1.0000000
+         0.6333330    1.0000000    0.8705890    0.2823530
+         0.7333330    1.0000000    0.7529420    0.0000000
+         0.7666670    0.9686280    0.7215690    0.0000000
+         1.1000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node emitter Electric_02
+    parent vff_explelectric
+  endnode
+doneanim impact vff_explelectric
+
+donemodel vff_explelectric
