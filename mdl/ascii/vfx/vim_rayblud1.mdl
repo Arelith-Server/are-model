@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: vim_raymind
-filedependancy vim_raymind.max
-newmodel vim_raymind
-setsupermodel vim_raymind NULL
+# model: vim_rayblud1
+filedependancy vim_rayblud1.max
+newmodel vim_rayblud1
+setsupermodel vim_rayblud1 NULL
 classification EFFECT
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom vim_raymind
-node dummy vim_raymind
+beginmodelgeom vim_rayblud1
+node dummy vim_rayblud1
   parent NULL
 endnode
 node emitter OmenEmitter03
-  parent vim_raymind
+  parent vim_rayblud1
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -78,7 +78,7 @@ node reference OmenRef03
   orientation 0 0 0 0
 endnode
 node emitter handbal
-  parent vim_raymind
+  parent vim_rayblud1
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -138,7 +138,7 @@ node emitter handbal
   threshold 0
 endnode
 node emitter OmenEmitter04
-  parent vim_raymind
+  parent vim_rayblud1
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -204,31 +204,31 @@ node reference OmenRef04
   position -0.00129215 5.99712 0
   orientation 0 0 0 0
 endnode
-endmodelgeom vim_raymind
+endmodelgeom vim_rayblud1
 
 #MAXANIM ASCII
-newanim impact vim_raymind
+newanim impact vim_rayblud1
   length 0
   transtime 0
-  animroot vim_raymind
-  node dummy vim_raymind
+  animroot vim_rayblud1
+  node dummy vim_rayblud1
     parent NULL
   endnode
   node emitter OmenEmitter03
-    parent vim_raymind
+    parent vim_rayblud1
   endnode
   node dummy OmenRef03
     parent OmenEmitter03
   endnode
   node emitter handbal
-    parent vim_raymind
+    parent vim_rayblud1
   endnode
   node emitter OmenEmitter04
-    parent vim_raymind
+    parent vim_rayblud1
   endnode
   node dummy OmenRef04
     parent OmenEmitter04
   endnode
-doneanim impact vim_raymind
+doneanim impact vim_rayblud1
 
-donemodel vim_raymind
+donemodel vim_rayblud1

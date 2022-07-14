@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: vff_explelectric
-filedependancy vff_explelectric.max
-newmodel vff_explelectric
-setsupermodel vff_explelectric NULL
+# model: vff_explelctrcr
+filedependancy vff_explelctrcr.max
+newmodel vff_explelctrcr
+setsupermodel vff_explelctrcr NULL
 classification EFFECT
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom vff_explelectric
-node dummy vff_explelectric
+beginmodelgeom vff_explelctrcr
+node dummy vff_explelctrcr
   parent NULL
 endnode
 node emitter Ring
-  parent vff_explelectric
+  parent vff_explelctrcr
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -71,7 +71,7 @@ node emitter Ring
   threshold 0
 endnode
 node emitter Plasma
-  parent vff_explelectric
+  parent vff_explelctrcr
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -131,7 +131,7 @@ node emitter Plasma
   threshold 0
 endnode
 node emitter Electric_01
-  parent vff_explelectric
+  parent vff_explelctrcr
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -191,7 +191,7 @@ node emitter Electric_01
   threshold 0
 endnode
 node emitter WIND_Dummy01
-  parent vff_explelectric
+  parent vff_explelctrcr
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -251,7 +251,7 @@ node emitter WIND_Dummy01
   threshold 0
 endnode
 node light AuroraLight01
-  parent vff_explelectric
+  parent vff_explelctrcr
   ambientonly 0
   shadow 1
   isdynamic 1
@@ -266,7 +266,7 @@ node light AuroraLight01
   color 0.996078 0 0
 endnode
 node emitter Electric_02
-  parent vff_explelectric
+  parent vff_explelctrcr
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -325,23 +325,23 @@ node emitter Electric_02
   grav 0
   threshold 0
 endnode
-endmodelgeom vff_explelectric
+endmodelgeom vff_explelctrcr
 
 #MAXANIM ASCII
-newanim impact vff_explelectric
+newanim impact vff_explelctrcr
   length 4.96667
   transtime 0.25
-  animroot vff_explelectric
+  animroot vff_explelctrcr
   event 0.0333333 detonate
   event 0.0333333 detonate
-  node dummy vff_explelectric
+  node dummy vff_explelctrcr
     parent NULL
   endnode
   node emitter Ring
-    parent vff_explelectric
+    parent vff_explelctrcr
   endnode
   node emitter Plasma
-    parent vff_explelectric
+    parent vff_explelctrcr
     birthratekey 10
          0.0000000    0.0000000
          0.0333333    0.0000000
@@ -355,13 +355,13 @@ newanim impact vff_explelectric
          0.8000000    0.0000000
   endnode
   node emitter Electric_01
-    parent vff_explelectric
+    parent vff_explelctrcr
   endnode
   node emitter WIND_Dummy01
-    parent vff_explelectric
+    parent vff_explelctrcr
   endnode
   node light AuroraLight01
-    parent vff_explelectric
+    parent vff_explelctrcr
     colorkey 10
          0.0000000    1.0000000    0.7529420    0.0000000
          0.0333333    1.0000000    0.7529420    0.0000000
@@ -375,8 +375,8 @@ newanim impact vff_explelectric
          1.1000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter Electric_02
-    parent vff_explelectric
+    parent vff_explelctrcr
   endnode
-doneanim impact vff_explelectric
+doneanim impact vff_explelctrcr
 
-donemodel vff_explelectric
+donemodel vff_explelctrcr

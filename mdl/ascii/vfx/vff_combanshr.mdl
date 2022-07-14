@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: vff_combansh
-filedependancy vff_combansh.max
-newmodel vff_combansh
-setsupermodel vff_combansh NULL
+# model: vff_combanshr
+filedependancy vff_combanshr.max
+newmodel vff_combanshr
+setsupermodel vff_combanshr NULL
 classification EFFECT
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom vff_combansh
-node dummy vff_combansh
+beginmodelgeom vff_combanshr
+node dummy vff_combanshr
   parent NULL
 endnode
 node trimesh Pelvis
-  parent vff_combansh
+  parent vff_combanshr
   ambient 0.3627451 0.029412 0.027451
   diffuse 0.894118 0.454902 0.4
   specular 0.37 0.37 0.37
@@ -5017,7 +5017,7 @@ node trimesh Object02
   selfillumcolor 0.960784 0.113726 0
 endnode
 node emitter flares
-  parent vff_combansh
+  parent vff_combanshr
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -5377,7 +5377,7 @@ node emitter Flare_01
   threshold 0
 endnode
 node dummy Dummy01
-  parent vff_combansh
+  parent vff_combanshr
   position 0 0 -0.491643
   orientation 0 0 0 0
 endnode
@@ -5449,7 +5449,7 @@ node reference OmenRef03
   orientation -1 0 0 -3.14159
 endnode
 node emitter burst
-  parent vff_combansh
+  parent vff_combanshr
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -5509,7 +5509,7 @@ node emitter burst
   threshold 0
 endnode
 node light AuroraLight01
-  parent vff_combansh
+  parent vff_combanshr
   ambientonly 1
   shadow 0
   isdynamic 1
@@ -5523,19 +5523,19 @@ node light AuroraLight01
   multiplier 5
   color 0 0 0
 endnode
-endmodelgeom vff_combansh
+endmodelgeom vff_combanshr
 
 #MAXANIM ASCII
-newanim impact vff_combansh
+newanim impact vff_combanshr
   length 5.96667
   transtime 0.25
-  animroot vff_combansh
+  animroot vff_combanshr
   event 3.03333 detonate
-  node dummy vff_combansh
+  node dummy vff_combanshr
     parent NULL
   endnode
   node trimesh Pelvis
-    parent vff_combansh
+    parent vff_combanshr
     ambient 0.2 0.1 0.1
     diffuse 0.8 0.4 0.4
     specular 0 0 0
@@ -6021,7 +6021,7 @@ newanim impact vff_combansh
          5.1333299    0.0000000
   endnode
   node emitter flares
-    parent vff_combansh
+    parent vff_combanshr
     birthratekey 5
          0.0000000    0.0000000
          1.3333300    0.0000000
@@ -6105,7 +6105,7 @@ newanim impact vff_combansh
          5.5999999    0.0000000
   endnode
   node dummy Dummy01
-    parent vff_combansh
+    parent vff_combanshr
     orientationkey 15
          0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
          0.3000000   -0.0000000   -0.0000000   -1.0000000   -1.5707999
@@ -6136,10 +6136,10 @@ newanim impact vff_combansh
     parent spark
   endnode
   node emitter burst
-    parent vff_combansh
+    parent vff_combanshr
   endnode
   node light AuroraLight01
-    parent vff_combansh
+    parent vff_combanshr
     colorkey 9
          0.0000000    0.0000000    0.0000000    0.0000000
          1.2666700    0.5450980    0.5450980    0.5450980
@@ -6164,6 +6164,6 @@ newanim impact vff_combansh
          4.3333302    6.0000000
          4.3666701    6.0000000
   endnode
-doneanim impact vff_combansh
+doneanim impact vff_combanshr
 
-donemodel vff_combansh
+donemodel vff_combanshr
