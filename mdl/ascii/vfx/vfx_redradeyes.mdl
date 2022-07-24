@@ -15,7 +15,7 @@ node dummy vfx_redradeyes
 endnode
 node emitter L_eye
   parent vfx_redradeyes
-  position -0.0408607 0.0801179 -0.1108522
+  position -0.0378607 0.1151179 -0.1278522
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.894118 0.647059 0.839216 
   update_sel 1
@@ -37,8 +37,8 @@ node emitter L_eye
   combinetime 0.0
   deadspace 0.0
   opacity 0.5
-    colorStart 0.8 0.0 0.0  
-    colorEnd 1.0 0.0 0.0  
+    colorStart 0.5 0.0 0.0  
+    colorEnd 0.7 0.0 0.0  
   alphaStart 0.5
   alphaEnd 0.0
   sizeStart 0.025
@@ -83,7 +83,7 @@ node emitter L_eye
 endnode
 node emitter R_eye
   parent vfx_redradeyes
-  position 0.0402767 0.0805035 -0.1100422
+  position 0.0392767 0.1155035 -0.1270422
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.894118 0.647059 0.839216 
   update_sel 1
@@ -105,8 +105,8 @@ node emitter R_eye
   combinetime 0.0
   deadspace 0.0
   opacity 0.5
-    colorStart 0.8 0.0 0.0  
-    colorEnd 1.0 0.0 0.0  
+    colorStart 0.5 0.0 0.0  
+    colorEnd 0.7 0.0 0.0  
   alphaStart 0.5
   alphaEnd 0.0
   sizeStart 0.025
@@ -151,7 +151,7 @@ node emitter R_eye
 endnode
 node emitter L_eye01
   parent vfx_redradeyes
-  position -0.0408607 0.0801179 -0.1108522
+  position -0.0378607 0.1151179 -0.1278522
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.894118 0.647059 0.839216 
   update_sel 2
@@ -173,8 +173,8 @@ node emitter L_eye01
   combinetime 0.0
   deadspace 0.0
   opacity 0.5
-    colorStart 0.8 0.0 0.0  
-    colorEnd 0.8 0.0 0.0    
+    colorStart 0.5 0.0 0.0  
+    colorEnd 0.5 0.0 0.0    
   alphaStart 0.5
   alphaEnd 0.5
   sizeStart 0.1
@@ -219,7 +219,7 @@ node emitter L_eye01
 endnode
 node emitter R_eye01
   parent vfx_redradeyes
-  position 0.0402767 0.0805035 -0.1100422
+  position 0.0392767 0.1155035 -0.1270422
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.894118 0.647059 0.839216 
   update_sel 2
@@ -241,8 +241,8 @@ node emitter R_eye01
   combinetime 0.0
   deadspace 0.0
   opacity 0.5
-    colorStart 0.8 0.0 0.0  
-    colorEnd 0.8 0.0 0.0  
+    colorStart 0.5 0.0 0.0  
+    colorEnd 0.5 0.0 0.0  
   alphaStart 0.5
   alphaEnd 0.5
   sizeStart 0.1

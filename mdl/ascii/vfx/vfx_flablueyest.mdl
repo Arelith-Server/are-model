@@ -1,16 +1,16 @@
 #MAXMODEL ASCII
 # model: vfx_deadeyes 
-filedependancy c_troglodyte.max
-newmodel vfx_flablueyest 
+filedependancy vfx_flablueyest.max
+newmodel vfx_flablueyest
 setsupermodel vfx_flablueyest NULL
 classification Effects
 #MAXGEOM  ASCII
-beginmodelgeom vfx_flablueyest 
-node dummy vfx_flablueyest 
+beginmodelgeom vfx_flablueyest
+node dummy vfx_flablueyest
   parent NULL 
 endnode
 node emitter L_eye 
-  parent vfx_flablueyest 
+  parent vfx_flablueyest
   position -0.0704988 0.0553775 -0.0648079
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.898039 0.65098 0.843137  
@@ -76,8 +76,8 @@ node emitter L_eye
     Splat 0 
 endnode
 node emitter R_eye 
-  parent vfx_flablueyest 
-  position 0.0721247 0.055763 -0.063998
+  parent vfx_flablueyest
+  position 0.0721247 0.0557630 -0.0639980
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.898039 0.65098 0.843137  
     colorStart 0.0 0.0 0.8  
@@ -142,8 +142,8 @@ node emitter R_eye
     Splat 0 
 endnode
 node emitter L_eye01 
-  parent vfx_flablueyest 
-  position -0.0704988 0.0550862 -0.0648079
+  parent vfx_flablueyest
+  position -0.0704988 0.0553775 -0.0648079
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.898039 0.65098 0.843137  
     colorStart 0.0 0.0 0.8  
@@ -208,8 +208,8 @@ node emitter L_eye01
     Splat 0 
 endnode
 node emitter R_eye01 
-  parent vfx_flablueyest 
-  position 0.0721247 0.0553654 -0.063998
+  parent vfx_flablueyest
+  position 0.0721247 0.0557630 -0.0639980
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.898039 0.65098 0.843137  
     colorStart 0.0 0.0 0.8  
@@ -273,7 +273,7 @@ node emitter R_eye01
     renderorder 0 
     Splat 0 
 endnode
-endmodelgeom vfx_flablueyest 
+endmodelgeom vfx_flablueyest
 
-donemodel vfx_flablueyest 
+donemodel vfx_flablueyest
 
