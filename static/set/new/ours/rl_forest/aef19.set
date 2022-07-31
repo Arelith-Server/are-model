@@ -833,7 +833,7 @@ ChangedHeight=1
 Count=0
 
 [TILES]
-Count=624
+Count=625
 
 [TILE0]
 Model=aef19_a01_01
@@ -19257,8 +19257,38 @@ PathNode=A
 Orientation=0
 ImageMap2D=maef19b_h12_02
 
+[TILE624]
+Model=aef19_b21_01
+WalkMesh=msb01
+TopLeft=Grass
+TopLeftHeight=0
+TopRight=Grass
+TopRightHeight=0
+BottomLeft=Grass
+BottomLeftHeight=0
+BottomRight=Grass
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=T
+Orientation=0
+VisibilityNode=T
+VisibilityOrientation=0
+ImageMap2D=maef19_B20_01
+
 [GROUPS]
-Count=92
+Count=93
 
 [GROUP0]
 Name=Shrine01
@@ -20014,3 +20044,8 @@ Rows=1
 Columns=1
 Tile0=622
 
+[GROUP92]
+Name=Water, Walkable
+Rows=1
+Columns=1
+Tile0=624
