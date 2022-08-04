@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
 # model: vfx_deadeyes 
 filedependancy vfx_flacyaeyeso.max
-newmodel vfx_flacyaeyeso 
+newmodel vfx_flacyaeyeso
 setsupermodel vfx_flacyaeyeso NULL
 classification Effects
 #MAXGEOM  ASCII
-beginmodelgeom vfx_flacyaeyeso 
-node dummy vfx_flacyaeyeso 
+beginmodelgeom vfx_flacyaeyeso
+node dummy vfx_flacyaeyeso
   parent NULL 
 endnode
 node emitter L_eye 
-  parent vfx_flacyaeyeso 
-  position -0.0458607 0.1251179 -0.16522
+  parent vfx_flacyaeyeso
+  position -0.0458607 0.1248267 -0.1685220
   orientation  0.0 0.0 0.0  -1.16649e-006
   wirecolor 0.898039 0.65098 0.843137  
     colorStart 0.0 0.4 0.4  
@@ -76,8 +76,8 @@ node emitter L_eye
     Splat 0 
 endnode
 node emitter R_eye 
-  parent vfx_flacyaeyeso 
-  position 0.0472767 0.1255035 -0.160422
+  parent vfx_flacyaeyeso
+  position 0.0472767 0.1251059 -0.1604220
   orientation  0.0 0.0 0.0  -9.77589e-007
   wirecolor 0.898039 0.65098 0.843137  
     colorStart 0.0 0.4 0.4  
@@ -142,8 +142,8 @@ node emitter R_eye
     Splat 0 
 endnode
 node emitter L_eye01 
-  parent vfx_flacyaeyeso 
-  position -0.0458607 0.1248267 -0.168522
+  parent vfx_flacyaeyeso
+  position -0.0458607 0.1248267 -0.1685220
   orientation  0.0 0.0 0.0  -1.16649e-006
   wirecolor 0.898039 0.65098 0.843137  
     colorStart 0.0 0.4 0.4  
@@ -208,8 +208,8 @@ node emitter L_eye01
     Splat 0 
 endnode
 node emitter R_eye01 
-  parent vfx_flacyaeyeso 
-  position 0.0472767 0.1251059 -0.160422
+  parent vfx_flacyaeyeso
+  position 0.0472767 0.1251059 -0.1604220
   orientation  0.0 0.0 0.0  -9.77589e-007
   wirecolor 0.898039 0.65098 0.843137  
     colorStart 0.0 0.4 0.4  
@@ -273,7 +273,7 @@ node emitter R_eye01
     renderorder 0 
     Splat 0 
 endnode
-endmodelgeom vfx_flacyaeyeso 
+endmodelgeom vfx_flacyaeyeso
 
-donemodel vfx_flacyaeyeso 
+donemodel vfx_flacyaeyeso
 

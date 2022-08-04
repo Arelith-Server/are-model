@@ -5,12 +5,12 @@ newmodel vfx_flablaeyedf
 setsupermodel vfx_flablaeyedf NULL
 classification Effects
 #MAXGEOM  ASCII
-beginmodelgeom vfx_flablaeyedf 
-node dummy vfx_flablaeyedf 
+beginmodelgeom vfx_flablaeyedf
+node dummy vfx_flablaeyedf
   parent NULL 
 endnode
 node emitter L_eye 
-  parent vfx_flablaeyedf 
+  parent vfx_flablaeyedf
   position -0.0408607 0.0801179 -0.1108522
   orientation  0.0 0.0 0.0  -1.16649e-006
   wirecolor 0.898039 0.65098 0.843137  
@@ -76,7 +76,7 @@ node emitter L_eye
     Splat 0 
 endnode
 node emitter R_eye 
-  parent vfx_flablaeyedf 
+  parent vfx_flablaeyedf
   position 0.0402767 0.0805035 -0.1100422
   orientation  0.0 0.0 0.0  -9.77589e-007
   wirecolor 0.898039 0.65098 0.843137  
@@ -142,8 +142,8 @@ node emitter R_eye
     Splat 0 
 endnode
 node emitter L_eye01 
-  parent vfx_flablaeyedf 
-  position -0.0408607 0.0808267 -0.1108522
+  parent vfx_flablaeyedf
+  position -0.0408607 0.0801179 -0.1108522
   orientation  0.0 0.0 0.0  -1.16649e-006
   wirecolor 0.898039 0.65098 0.843137  
     colorStart 0.0 0.0 0.0  
@@ -208,8 +208,8 @@ node emitter L_eye01
     Splat 0 
 endnode
 node emitter R_eye01 
-  parent vfx_flablaeyedf 
-  position 0.0402767 0.0801059 -0.1100422
+  parent vfx_flablaeyedf
+  position 0.0402767 0.0805035 -0.1100422
   orientation  0.0 0.0 0.0  -9.77589e-007
   wirecolor 0.898039 0.65098 0.843137  
     colorStart 0.0 0.0 0.0  
@@ -273,7 +273,7 @@ node emitter R_eye01
     renderorder 0 
     Splat 0 
 endnode
-endmodelgeom vfx_flablaeyedf 
+endmodelgeom vfx_flablaeyedf
 
-donemodel vfx_flablaeyedf 
+donemodel vfx_flablaeyedf
 

@@ -1,0 +1,121 @@
+#MAXMODEL ASCII
+# model: vim_explightr
+filedependancy vim_explightr.max
+newmodel vim_explightr
+setsupermodel vim_explightr NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_explightr
+node dummy vim_explightr
+  parent NULL
+endnode
+node light AuroraLight01
+  parent vim_explightr
+  ambientonly 0
+  shadow 0
+  isdynamic 1
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 1
+  flareradius 0
+  position -0.00489616 0.229704 0.215118
+  orientation 0.4074398 -0.6457526 -0.6457526 -3.9154
+  radius 4.99813
+  multiplier 1
+  color 0.847059 0.576471 0.3
+endnode
+node emitter burst
+  parent vim_explightr
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Aligned_to_Particle_Dir
+  blend Lighten
+  texture fxpa_strk_b
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 1 0 0 -1.5708
+  colorStart 1 1 1
+  colorEnd 1 0.572549 0.572549 
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 1.5
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 200
+  lifeExp 0.1
+  mass 0
+  spread 6.28319
+  particleRot 0
+  velocity 0
+  randvel 1
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vim_explightr
+
+#MAXANIM ASCII
+newanim impact vim_explightr
+  length 0.966667
+  transtime 0.25
+  animroot vim_explightr
+  node dummy vim_explightr
+    parent NULL
+  endnode
+  node light AuroraLight01
+    parent vim_explightr
+    colorkey 7
+         0.0000000    0.8470590    0.5764710    0.5921570
+         0.1000000    0.9137260    0.6823530    0.6823530
+         0.2333330    0.0745098    0.5921570    0.2470590
+         0.3666670    0.8470590    0.5764710    0.5921570
+         0.4666670    0.8470590    0.5921570    0.1058820
+         0.5000000    0.0000004    0.0000000    0.0000000
+         0.5333330    0.0000004    0.0000000    0.0000000
+    radiuskey 2
+         0.4666670    4.9720001
+         0.5333330    0.0000000
+  endnode
+  node emitter burst
+    parent vim_explightr
+    birthratekey 3
+         0.0000000  200.0000000
+         0.4666670  200.0000000
+         0.5000000    0.0000000
+  endnode
+doneanim impact vim_explightr
+
+donemodel vim_explightr
