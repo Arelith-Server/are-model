@@ -1,0 +1,51 @@
+# Exported from blender Friday, 2021-02-19
+filedependancy unknown
+newmodel wimsm_m_011
+setsupermodel wimsm_m_011 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom wimsm_m_011
+node dummy wimsm_m_011
+  parent null
+endnode
+endmodelgeom wimsm_m_011
+
+# ANIM ASCII
+newanim default wimsm_m_011
+  length 0.0
+  transtime 0.25
+  animroot wimsm_m_011
+  node dummy wimsm_m_011
+  parent null
+  endnode
+doneanim default wimsm_m_011
+
+newanim damage wimsm_m_011
+  length 0.1
+  transtime 0.25
+  animroot wimsm_m_011
+  node dummy wimsm_m_011
+  parent null
+  endnode
+doneanim damage wimsm_m_011
+
+newanim die wimsm_m_011
+  length 0.167
+  transtime 0.25
+  animroot wimsm_m_011
+  event 0.0 detonate
+  node dummy wimsm_m_011
+  parent null
+  endnode
+doneanim die wimsm_m_011
+
+newanim dead wimsm_m_011
+  length 0.0
+  transtime 0.25
+  animroot wimsm_m_011
+  node dummy wimsm_m_011
+  parent null
+  endnode
+doneanim dead wimsm_m_011
+
+donemodel wimsm_m_011
