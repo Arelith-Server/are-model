@@ -1,4 +1,4 @@
-# Exported from NeverBlender 2.8.22 - Sunday, 2022-07-24
+# Exported from NeverBlender 2.8.22 - Sunday, 2022-08-21
 filedependancy unknown
 newmodel c_kuatoa_a
 setsupermodel c_kuatoa_a a_da
@@ -13,7 +13,7 @@ node dummy rootdummy
   position -0.00041  0.02001  0.78180
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-node trimesh torso_g.001
+node trimesh torso_g
   parent rootdummy
   position -0.00173  0.00683  0.00021
   orientation  1.00005  0.00000  0.00000  0.08727
@@ -87,8 +87,8 @@ node trimesh torso_g.001
     20  2 18 1  0 0 0 0
      3 13  2 1  0 0 0 0
 endnode
-node trimesh neck_g.001
-  parent torso_g.001
+node trimesh neck_g
+  parent torso_g
   position  0.00000 -0.05055  0.37195
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -129,7 +129,7 @@ node trimesh neck_g.001
      7  9  6 1  0 0 0 0
 endnode
 node trimesh head_g
-  parent neck_g.001
+  parent neck_g
   position  0.00000  0.00502  0.03318
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -542,8 +542,8 @@ node dummy head
   position  0.00214  0.06468  0.12165
   orientation -1.00005  0.00000  0.00000  0.08727
 endnode
-node trimesh lbicep_g.001
-  parent torso_g.001
+node trimesh lbicep_g
+  parent torso_g
   position -0.18451 -0.04849  0.28399
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -583,8 +583,8 @@ node trimesh lbicep_g.001
      2  4  9 1  0 0 0 0
      4  5  9 1  0 0 0 0
 endnode
-node trimesh lforearm_g.001
-  parent lbicep_g.001
+node trimesh lforearm_g
+  parent lbicep_g
   position -0.03553  0.01272 -0.25392
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -624,8 +624,8 @@ node trimesh lforearm_g.001
      2  4  9 1  0 0 0 0
      4  5  9 1  0 0 0 0
 endnode
-node trimesh lhand_g.001
-  parent lforearm_g.001
+node trimesh lhand_g
+  parent lforearm_g
   position -0.02909  0.02139 -0.23676
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -672,17 +672,17 @@ node trimesh lhand_g.001
     11  3 10 1  0 0 0 0
 endnode
 node dummy lhand
-  parent lhand_g.001
+  parent lhand_g
   position -0.01320  0.00000 -0.07391
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy lforearm
-  parent lforearm_g.001
+  parent lforearm_g
   position -0.02232  0.00000 -0.15153
   orientation  0.65830  0.75239  0.02303  0.09276
 endnode
-node trimesh rbicep_g.001
-  parent torso_g.001
+node trimesh rbicep_g
+  parent torso_g
   position  0.18451 -0.04849  0.28399
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -722,8 +722,8 @@ node trimesh rbicep_g.001
      9  3  0 1  0 0 0 0
      9  5  3 1  0 0 0 0
 endnode
-node trimesh rforearm_g.001
-  parent rbicep_g.001
+node trimesh rforearm_g
+  parent rbicep_g
   position  0.03553  0.01272 -0.25392
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -763,8 +763,8 @@ node trimesh rforearm_g.001
      9  3  0 1  0 0 0 0
      9  5  3 1  0 0 0 0
 endnode
-node trimesh rhand_g.001
-  parent rforearm_g.001
+node trimesh rhand_g
+  parent rforearm_g
   position  0.02909  0.02139 -0.23676
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -810,12 +810,12 @@ node trimesh rhand_g.001
      3  5 11 1  0 0 0 0
      8  3 11 1  0 0 0 0
 endnode
-node dummy rhand.001
-  parent rhand_g.001
+node dummy rhand
+  parent rhand_g
   position  0.01320  0.00000 -0.07553
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-node trimesh pelvis_g.001
+node trimesh pelvis_g
   parent rootdummy
   position -0.00173  0.00683  0.00021
   orientation  0.00000  1.00000  0.00000  0.00000
@@ -895,8 +895,8 @@ node trimesh pelvis_g.001
     22  6  5 1  0 0 0 0
     22  8  6 1  0 0 0 0
 endnode
-node trimesh lthigh_g.001
-  parent pelvis_g.001
+node trimesh lthigh_g
+  parent pelvis_g
   position -0.08807 -0.01444 -0.13044
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -948,8 +948,8 @@ node trimesh lthigh_g.001
      3  6 13 1  0 0 0 0
      6  7 13 1  0 0 0 0
 endnode
-node trimesh lshin_g.001
-  parent lthigh_g.001
+node trimesh lshin_g
+  parent lthigh_g
   position  0.01922 -0.01027 -0.28194
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -1015,8 +1015,8 @@ node trimesh lshin_g.001
     12 14 19 2  0 0 0 0
     14 15 19 2  0 0 0 0
 endnode
-node trimesh lfoot_g.001
-  parent lshin_g.001
+node trimesh lfoot_g
+  parent lshin_g
   position  0.01683 -0.04083 -0.26241
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -1044,8 +1044,8 @@ node trimesh lfoot_g.001
     3 5 1 1  0 0 0 0
     3 4 5 1  0 0 0 0
 endnode
-node trimesh rthigh_g.001
-  parent pelvis_g.001
+node trimesh rthigh_g
+  parent pelvis_g
   position  0.08807 -0.01444 -0.13044
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -1097,8 +1097,8 @@ node trimesh rthigh_g.001
     13  5  3 1  0 0 0 0
     13  7  5 1  0 0 0 0
 endnode
-node trimesh rshin_g.001
-  parent rthigh_g.001
+node trimesh rshin_g
+  parent rthigh_g
   position -0.01922 -0.01027 -0.28194
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
@@ -1165,7 +1165,7 @@ node trimesh rshin_g.001
     19 15 13 2  0 0 0 0
 endnode
 node trimesh rfoot_g.001
-  parent rshin_g.001
+  parent rshin_g
   position -0.01683 -0.04083 -0.26241
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.60 0.60 0.60
