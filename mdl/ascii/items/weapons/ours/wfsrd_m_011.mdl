@@ -1,8 +1,8 @@
-# Exported from NeverBlender 2.8.35 - Friday, 2022-06-17
-filedependancy Fishing_rods_001.blend
+# Exported from NeverBlender 2.8.37 - Thursday, 2022-09-01
+filedependancy unknown
 newmodel wfsrd_m_011
 setsupermodel wfsrd_m_011 null
-classification UNKNOWN
+classification Item
 setanimationscale 1.0
 beginmodelgeom wfsrd_m_011
 node dummy wfsrd_m_011
@@ -16,8 +16,11 @@ node trimesh g_wfsrd_m_011
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
   bitmap fishing_rod
   shininess 1
+  render 1
+  shadow 1
   verts 609
      0.01069  1.71939 -0.00000
     -0.03319  1.58550  0.00401
