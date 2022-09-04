@@ -1,15 +1,15 @@
 # Exported from blender at Friday, 2017-12-29
 filedependancy unknown
-newmodel Sky_001
-setsupermodel Sky_001 NULL
+newmodel sb_strmd
+setsupermodel sb_strmd NULL
 classification EFFECT
 setanimationscale 1.0
-beginmodelgeom Sky_001
-node dummy Sky_001
+beginmodelgeom sb_strmd
+node dummy sb_strmd
   parent null
 endnode
 node trimesh Cylinder01
-  parent Sky_001
+  parent sb_strmd
   position  100.00000  100.00000 -75.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor  0.89  0.89  0.89
@@ -192,7 +192,7 @@ node trimesh Cylinder01
      0.656  0.000  0
      0.719  0.000  0
 endnode
-endmodelgeom Sky_001
+endmodelgeom sb_strmd
 
 # ANIM ASCII
-donemodel Sky_001
+donemodel sb_strmd
