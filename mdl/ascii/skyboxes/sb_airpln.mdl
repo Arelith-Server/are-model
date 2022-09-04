@@ -1,22 +1,22 @@
 # Exported from blender at Friday, 2017-12-29
 filedependancy unknown
-newmodel sb_strm
-setsupermodel sb_strm NULL
+newmodel sb_airpln
+setsupermodel sb_airpln NULL
 classification EFFECT
 setanimationscale 1.0
-beginmodelgeom sb_strm
-node dummy sb_strm
+beginmodelgeom sb_airpln
+node dummy sb_airpln
   parent null
 endnode
 node trimesh Cylinder01
-  parent sb_strm
+  parent sb_airpln
   position  100.00000  100.00000 -75.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor  0.89  0.89  0.89
   ambient  1.00  1.00  1.00
   diffuse  1.00  1.00  1.00
   specular  0.00  0.00  0.00
-  bitmap storm_skyday
+  bitmap planar_air
   alpha 1.0
   shininess 10
   selfillumcolor  0.00  0.00  0.00
@@ -192,7 +192,7 @@ node trimesh Cylinder01
      0.656  0.000  0
      0.719  0.000  0
 endnode
-endmodelgeom sb_strm
+endmodelgeom sb_airpln
 
 # ANIM ASCII
-donemodel sb_strm
+donemodel sb_airpln
