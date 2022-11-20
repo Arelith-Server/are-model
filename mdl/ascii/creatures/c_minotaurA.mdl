@@ -7,11 +7,11 @@ classification CHARACTER
 setanimationscale 1
 #MAXGEOM  ASCII
 beginmodelgeom c_minotaurA
-node dummy c_minotaur
+node dummy c_minotaurA
   parent NULL
 endnode
 node dummy rootdummy
-  parent c_minotaur
+  parent c_minotaurA
   position 0.00836868 -0.2721 1.25036
   orientation 0 0 0 0
 endnode
