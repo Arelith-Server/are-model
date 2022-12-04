@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: vim_cursfire
-filedependancy vim_cursfire.max
-newmodel vim_cursfire
-setsupermodel vim_cursfire NULL
+# model: vim_ballbli
+filedependancy vim_ballbli.max
+newmodel vim_ballbli
+setsupermodel vim_ballbli NULL
 classification EFFECT
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom vim_cursfire
-node dummy vim_cursfire
+beginmodelgeom vim_ballbli
+node dummy vim_ballbli
   parent NULL
 endnode
 node emitter Fireball_1
-  parent vim_cursfire
+  parent vim_ballbli
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -71,7 +71,7 @@ node emitter Fireball_1
   threshold 0
 endnode
 node emitter Fireball_02
-  parent vim_cursfire
+  parent vim_ballbli
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -130,64 +130,64 @@ node emitter Fireball_02
   grav 0
   threshold 0
 endnode
-endmodelgeom vim_cursfire
+endmodelgeom vim_ballbli
 
 #MAXANIM ASCII
-newanim impact vim_cursfire
+newanim impact vim_ballbli
   length 0
   transtime 0.25
-  animroot vim_cursfire
-  node dummy vim_cursfire
+  animroot vim_ballbli
+  node dummy vim_ballbli
     parent NULL
   endnode
   node emitter Fireball_1
-    parent vim_cursfire
+    parent vim_ballbli
     birthrate 5
   endnode
   node emitter Fireball_02
-    parent vim_cursfire
+    parent vim_ballbli
     birthrate 5
   endnode
-doneanim impact vim_cursfire
+doneanim impact vim_ballbli
 
 #MAXANIM ASCII
-newanim duration vim_cursfire
+newanim duration vim_ballbli
   length 0
   transtime 0.25
-  animroot vim_cursfire
-  node dummy vim_cursfire
+  animroot vim_ballbli
+  node dummy vim_ballbli
     parent NULL
   endnode
   node emitter Fireball_1
-    parent vim_cursfire
+    parent vim_ballbli
     birthrate 5
   endnode
   node emitter Fireball_02
-    parent vim_cursfire
+    parent vim_ballbli
     birthrate 5
   endnode
-doneanim duration vim_cursfire
+doneanim duration vim_ballbli
 
 #MAXANIM ASCII
-newanim cessation vim_cursfire
+newanim cessation vim_ballbli
   length 0.966667
   transtime 0.25
-  animroot vim_cursfire
-  node dummy vim_cursfire
+  animroot vim_ballbli
+  node dummy vim_ballbli
     parent NULL
   endnode
   node emitter Fireball_1
-    parent vim_cursfire
+    parent vim_ballbli
     birthratekey 2
          0.0000000    5.0000000
          0.0333333    0.0000000
   endnode
   node emitter Fireball_02
-    parent vim_cursfire
+    parent vim_ballbli
     birthratekey 2
          0.0000000    5.0000000
          0.0333333    0.0000000
   endnode
-doneanim cessation vim_cursfire
+doneanim cessation vim_ballbli
 
-donemodel vim_cursfire
+donemodel vim_ballbli
