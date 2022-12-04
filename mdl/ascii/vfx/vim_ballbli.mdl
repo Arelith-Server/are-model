@@ -1,0 +1,193 @@
+#MAXMODEL ASCII
+# model: vim_ballbli
+filedependancy vim_ballbli.max
+newmodel vim_ballbli
+setsupermodel vim_ballbli NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vim_ballbli
+node dummy vim_ballbli
+  parent NULL
+endnode
+node emitter Fireball_1
+  parent vim_ballbli
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_fireball_w
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.2 0.05 0.1
+  colorEnd 0.2 0.05 0.1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 5
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 5
+  lifeExp 1
+  mass -0.2
+  spread 6.28319
+  particleRot -0.6
+  velocity 0
+  randvel 1
+  fps 25
+  xsize 20
+  ysize 20
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Fireball_02
+  parent vim_ballbli
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 2
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_fireball_w
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.0267764
+  orientation 0 0 0 0
+  colorStart 0.2 0.05 0.1
+  colorEnd 0.2 0.05 0.1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 5
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 5
+  lifeExp 1
+  mass -0.2
+  spread 6.28319
+  particleRot 0.6
+  velocity 0
+  randvel 1
+  fps 25
+  xsize 20
+  ysize 20
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vim_ballbli
+
+#MAXANIM ASCII
+newanim impact vim_ballbli
+  length 0
+  transtime 0.25
+  animroot vim_ballbli
+  node dummy vim_ballbli
+    parent NULL
+  endnode
+  node emitter Fireball_1
+    parent vim_ballbli
+    birthrate 5
+  endnode
+  node emitter Fireball_02
+    parent vim_ballbli
+    birthrate 5
+  endnode
+doneanim impact vim_ballbli
+
+#MAXANIM ASCII
+newanim duration vim_ballbli
+  length 0
+  transtime 0.25
+  animroot vim_ballbli
+  node dummy vim_ballbli
+    parent NULL
+  endnode
+  node emitter Fireball_1
+    parent vim_ballbli
+    birthrate 5
+  endnode
+  node emitter Fireball_02
+    parent vim_ballbli
+    birthrate 5
+  endnode
+doneanim duration vim_ballbli
+
+#MAXANIM ASCII
+newanim cessation vim_ballbli
+  length 0.966667
+  transtime 0.25
+  animroot vim_ballbli
+  node dummy vim_ballbli
+    parent NULL
+  endnode
+  node emitter Fireball_1
+    parent vim_ballbli
+    birthratekey 2
+         0.0000000    5.0000000
+         0.0333333    0.0000000
+  endnode
+  node emitter Fireball_02
+    parent vim_ballbli
+    birthratekey 2
+         0.0000000    5.0000000
+         0.0333333    0.0000000
+  endnode
+doneanim cessation vim_ballbli
+
+donemodel vim_ballbli
