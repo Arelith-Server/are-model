@@ -1,0 +1,214 @@
+#MAXMODEL ASCII
+# model: MAmAr_001
+filedependancy MAmAr_001.max
+newmodel MAmAr_001
+setsupermodel MAmAr_001 NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom MAmAr_001
+node dummy MAmAr_001
+  parent NULL
+endnode
+node trimesh g_MAmAr_001
+  parent MAmAr_001
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap fxpa_globe2
+  verts 21
+      -0.0003116    0.0844225    0.0412467
+       0.0177611    0.0931003    0.0172101
+      -0.0003116    0.1436140    0.0171628
+      -0.0003116    0.0844226   -0.0068265
+      -0.0183842    0.0931003    0.0172101
+      -0.0056912    0.0937637    0.0273817
+       0.0120022    0.0937637    0.0172075
+      -0.0056884    0.0937637    0.0069938
+      -0.0056912   -0.7275620    0.0273819
+       0.0120022   -0.7275620    0.0172077
+      -0.0056884   -0.7275620    0.0069939
+       0.0388898   -0.7232930    0.0174925
+       0.0388898   -0.6071840    0.0174925
+      -0.0016474   -0.5711370    0.0172275
+      -0.0383954   -0.7232930    0.0174925
+      -0.0383954   -0.6071840    0.0174925
+       0.0001147   -0.7232930   -0.0212826
+       0.0001147   -0.6071840   -0.0212826
+       0.0003797   -0.5711370    0.0192546
+       0.0001147   -0.7232930    0.0560026
+       0.0001147   -0.6071840    0.0560026
+  tverts 21
+       0.1524490    0.7921850  0
+       0.1917110    0.8151860  0
+       0.2309670    0.9490760  0
+       0.0346634    0.8151860  0
+       0.0739253    0.7921850  0
+       0.0739190    0.9490760  0
+       0.1131870    0.8151860  0
+       0.4036620    0.4791860  0
+       0.2901870    0.4791860  0
+       0.3550860    0.4791860  0
+       0.4684400    0.4791860  0
+       0.4036620    0.3011110  0
+       0.4684390    0.3011110  0
+       0.3550870    0.3011110  0
+       0.2901860    0.3011110  0
+       0.4944700    0.0121723  0
+       0.4944700    0.1332540  0
+       0.4340210    0.1896550  0
+       0.3792220    0.0121723  0
+       0.3792220    0.1332540  0
+       0.4396710    0.1896550  0
+  faces 26
+     0  1  2  1   0  1  2   2
+     1  3  2  1   3  4  5   2
+     2  4  0  2   5  6  0   1
+     2  3  4  2   5  4  6   1
+     3  1  4  4   4  3  6   3
+     0  4  1  4   0  6  1   3
+     5  6  7  1   7  8  9   2
+     6  8  9  2  10 11 12   3
+     6  5  8  2  10  7 11   3
+     5 10  8  2   7 13 11   3
+     5  7 10  2   7  9 13   3
+     7  9 10  2   9 14 13   3
+     7  6  9  2   9  8 14   3
+     8 10  9  1  11 13 14   1
+    11 12 13  1  15 16 17   4
+    13 14 11  1  17 18 15   4
+    12 11 14  2  16 15 18   3
+    14 13 12  2  18 17 16   3
+    14 15 13  2  18 19 17   3
+    14 13 15  1  18 17 19   4
+    16 17 18  1  18 19 20   4
+    18 19 16  1  20 15 18   4
+    18 16 19  2  20 18 15   3
+    16 18 17  2  18 20 19   3
+    19 20 18  2  15 16 20   3
+    19 18 20  1  15 20 16   4
+  position 0.000178909 0.0240612 -0.00234709
+  orientation 0 0 0 0
+endnode
+node emitter OmenEmitter01
+  parent MAmAr_001
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 1
+  update Fountain
+  render Linked
+  blend Normal
+  texture fxpa_globe2
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -9.91058e-05 0.10471 0
+  orientation -1 0 0 -1.5708
+  colorStart 0.882353 0.941177 1
+  colorEnd 0.764706 0.878431 0.988235
+  alphaStart 0.6
+  alphaEnd 0
+  sizeStart 0.02
+  sizeEnd 0.01
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 4
+  lifeExp 0.18
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom MAmAr_001
+
+#MAXANIM ASCII
+newanim travel01 MAmAr_001
+  length 0.966667
+  transtime 0
+  animroot MAmAr_001
+  node dummy MAmAr_001
+    parent NULL
+  endnode
+  node dummy g_MAmAr_001
+    parent MAmAr_001
+  endnode
+  node emitter OmenEmitter01
+    parent MAmAr_001
+    birthratekey 5
+         0.0000000    4.0000000
+         0.8666670    4.0000000
+         0.9000000    4.0000000
+         0.9333330    4.0000000
+         0.9666670    4.0000000
+    lifeExpkey 5
+         0.0000000    0.1800000
+         0.8666670    0.2500000
+         0.9000000    0.2500000
+         0.9333330    0.2500000
+         0.9666670    0.0000000
+    fpskey 2
+         0.9333330    0.0000000
+         0.9666670    0.0000000
+  endnode
+doneanim travel01 MAmAr_001
+
+#MAXANIM ASCII
+newanim impact01 MAmAr_001
+  length 0.966667
+  transtime 0
+  animroot MAmAr_001
+  node dummy MAmAr_001
+    parent NULL
+  endnode
+  node dummy g_MAmAr_001
+    parent MAmAr_001
+  endnode
+  node emitter OmenEmitter01
+    parent MAmAr_001
+    birthratekey 2
+         0.0000000    0.0000000
+         0.0333333    0.0000000
+    lifeExpkey 2
+         0.0000000    0.0000000
+         0.0333333    0.0000000
+    velocitykey 2
+         0.0000000    0.0000000
+         0.0333333    0.0000000
+    fpskey 2
+         0.0000000    0.0000000
+         0.0333333    0.0000000
+  endnode
+doneanim impact01 MAmAr_001
+
+donemodel MAmAr_001
