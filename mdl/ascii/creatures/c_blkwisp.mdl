@@ -1,0 +1,221 @@
+#MAXMODEL ASCII
+# model: c_blkwisp
+filedependancy c_blkwisp.max
+newmodel c_blkwisp
+setsupermodel c_blkwisp c_a_bat
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom c_blkwisp
+node dummy c_blkwisp
+  parent NULL
+endnode
+node dummy bat_rootdummy
+  parent c_blkwisp
+  position 0 0 1.50072
+  orientation 0 0 0 0
+endnode
+node trimesh lantern_archon
+  parent bat_rootdummy
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 8
+      -0.0920000   -0.0920000   -1.4543999
+      -0.0920000    0.0920000   -1.4543999
+       0.0920000    0.0920000   -1.4543999
+       0.0920000   -0.0920000   -1.4543999
+      -0.0920000   -0.0920000    0.1424320
+       0.0920000   -0.0920000    0.1424320
+       0.0920000    0.0920000    0.1424320
+      -0.0920000    0.0920000    0.1424320
+  faces 12
+    0 1 2  1  0 0 0   2
+    2 3 0  1  0 0 0   2
+    4 5 6  1  0 0 0   1
+    6 7 4  1  0 0 0   1
+    0 3 5  2  0 0 0   5
+    5 4 0  2  0 0 0   5
+    3 2 6  4  0 0 0   4
+    6 5 3  4  0 0 0   4
+    2 1 7  2  0 0 0   6
+    7 6 2  2  0 0 0   6
+    1 0 4  4  0 0 0   3
+    4 7 1  4  0 0 0   3
+  position 0 0 -0.05
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  selfillumcolor 0 0 0
+endnode
+node emitter Lantern
+  parent lantern_archon
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 1
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxsf_bflare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.05
+  orientation 0 0 0 0
+  colorStart 0.2 0.2 0.2
+  colorEnd 0.01 0.01 0.01
+  alphaStart 0.5
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 1
+  birthrate 3
+  lifeExp 9
+  mass 0
+  spread 0
+  particleRot 0.3
+  velocity 0
+  randvel 0
+  fps 15
+  xsize 2
+  ysize 2
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Gravity01 
+  parent lantern_archon 
+  position 0 0 0.05
+  orientation  0.57735 -0.57735 0.57735  -2.0944
+  wirecolor 0.109804 0.109804 0.694118  
+  colorStart 0.1 0.1 0.1
+  colorEnd 0.1 0.1 0.1
+    alphaStart 1.0 
+    alphaEnd 1.0 
+    sizeStart 0.1 
+    sizeEnd 0.13 
+    sizeStart_y 0.0 
+    sizeEnd_y 0.0 
+    frameStart 0 
+    frameEnd 3 
+    birthrate 10 
+    spawnType 0 
+    lifeExp 2.0 
+    mass 0.0 
+    spread 6.28319 
+    particleRot 0.0 
+    velocity 0.5 
+    randvel 0.5 
+    fps 4 
+    random 1 
+    inherit 0 
+    inherit_local 1 
+    inherit_part 0 
+    inheritvel 0 
+    xsize 50 
+    ysize 5 
+    bounce 0 
+    bounce_co 0.0 
+    loop 0 
+    update Fountain 
+    render Normal 
+    Blend Normal 
+    update_sel 1 
+    render_sel 1 
+    blend_sel 3 
+    deadspace 0.0 
+    opacity 1.0 
+    blurlength 10.0 
+    lightningDelay 0.0 
+    lightningRadius 0.0 
+    lightningScale 0.0 
+    blastRadius 0.0 
+    blastLength 0.0 
+    twosidedtex 0 
+    p2p 1 
+    p2p_sel 2 
+    p2p_type Gravity 
+    p2p_bezier2 0.0 
+    p2p_bezier3 0.0 
+    combinetime 0.0 
+    drag 1.0 
+    grav 3.0 
+    threshold 0.0 
+    texture fxsf_bflare 
+    xgrid 1 
+    ygrid 1 
+    affectedByWind false 
+    m_isTinted 0 
+    renderorder 1 
+    Splat 0 
+endnode
+node reference OmenRef02 
+  parent Gravity01 
+  position 0 0 0.05
+  orientation  -1.0 0.0 0.0  -2.54818
+  wirecolor 0.878431 0.337255 0.337255  
+  refModel fx_ref 
+  reattachable 0 
+endnode
+node light AuroraLight01
+  parent Lantern
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 1
+  flareradius 0
+  position 0 0 0
+  orientation 0 0 0 0
+  radius 10
+  multiplier 1
+  color 0.1 0.1 0.1
+endnode
+node dummy head
+  parent Lantern
+  position 0 0 0.230495
+  orientation 0 0 0 0
+endnode
+node dummy headconjure
+  parent c_blkwisp
+  position 0 0.349097 2.00333
+  orientation 0 0 0 0
+endnode
+node dummy handconjure
+  parent c_blkwisp
+  position 0 0.647503 1.25154
+  orientation 0 0 0 0
+endnode
+endmodelgeom c_blkwisp
+
+donemodel c_blkwisp
