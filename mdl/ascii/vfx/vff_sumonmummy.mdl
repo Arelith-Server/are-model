@@ -1,0 +1,709 @@
+#MAXMODEL ASCII
+# model: vff_sumonmummy
+filedependancy vff_sumonmummy.max
+newmodel vff_sumonmummy
+setsupermodel vff_sumonmummy NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vff_sumonmummy
+node dummy vff_sumonmummy
+  parent NULL
+endnode
+node dummy DummyRotator
+  parent vff_sumonmummy
+  position 0 0 -0.694064
+  orientation 0 0 0 0
+endnode
+node emitter dust_colum
+  parent DummyRotator
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_mist
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 2.01823
+  orientation 0 -1 0 -1.5708
+  colorStart 0.866667 0.101961 0
+  colorEnd 0.443137 0.317647 0.203922
+  alphaStart 0.5
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1
+  mass 0.1
+  spread 6.28319
+  particleRot 0
+  velocity 0
+  randvel 0.5
+  fps 0
+  xsize 200
+  ysize 0
+  bounce_co 0.2
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter jojorumble
+  parent DummyRotator
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_jojorumble
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 1 1 1
+  orientation 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 5
+  sizeEnd 5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 1
+  lifeExp 1
+  mass 0
+  spread 6.28319
+  particleRot 0
+  velocity 0
+  randvel 0.5
+  fps 0
+  xsize 200
+  ysize 0
+  bounce_co 0.2
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter dust_colum01
+  parent DummyRotator
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 3
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_mist
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.694626
+  orientation 0 0 0 0
+  colorStart 0.901961 0.105882 0
+  colorEnd 0.360784 0.145098 0
+  alphaStart 0.5
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1
+  mass -0.2
+  spread 0
+  particleRot 0
+  velocity 0.5
+  randvel 0.2
+  fps 0
+  xsize 150
+  ysize 150
+  bounce_co 0.2
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter WIND_Dummy
+  parent vff_sumonmummy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture NULL
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 5
+  blastLength 1
+  position -0.00249214 0.000424422 0.390378
+  orientation -1 0 0 -3.14159
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 0
+  mass 0
+  spread 3.14159
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Rockssmall
+  parent vff_sumonmummy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_chunks
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.126079
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 3
+  mass 1
+  spread 0.698132
+  particleRot 0
+  velocity 8
+  randvel 4
+  fps 16
+  xsize 50
+  ysize 50
+  bounce_co 0.2
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Implosion
+  parent vff_sumonmummy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 5
+  spawntype 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_ripple
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.75826
+  orientation 0 0 0 0
+  colorStart 0.72549 0 0
+  colorEnd 0 0 0
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 9
+  sizeEnd 4
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 1
+  birthrate 50
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 1.7
+  velocity 0.4
+  randvel 0
+  fps 0
+  xsize 90
+  ysize 60
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter part2
+  parent vff_sumonmummy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 3
+  spawntype 0
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Symbl_004
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 20
+  blastLength 3
+  position 0 0 0.469835
+  orientation 0 0 0 0
+  colorStart 0.729412 0 0
+  colorEnd 0.729412 0 0
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 7.5
+  sizeEnd 7.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  lifeExp 4
+  mass 0
+  spread 0
+  particleRot -0.2
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Part1
+  parent vff_sumonmummy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 4
+  spawntype 0
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Symbl_001
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 20
+  blastLength 3
+  position 0 0 0.482724
+  orientation 0 0 0 0
+  colorStart 0.717647 0 0
+  colorEnd 0.717647 0 0
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 3.5
+  sizeEnd 3.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 2
+  frameEnd 2
+  birthrate 1
+  lifeExp 4
+  mass 0
+  spread 0
+  particleRot -0.05
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter part03
+  parent vff_sumonmummy
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 3
+  spawntype 0
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Symbl_004
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 20
+  blastLength 3
+  position 0 0 1.06875
+  orientation 0 0 0 0
+  colorStart 0.729412 0 0
+  colorEnd 0.729412 0 0
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 5.5
+  sizeEnd 5.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  lifeExp 4
+  mass 0
+  spread 0
+  particleRot 0.2
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vff_sumonmummy
+
+#MAXANIM ASCII
+newanim impact vff_sumonmummy
+  length 3.96667
+  transtime 0.25
+  animroot vff_sumonmummy
+  event 0.0333333 detonate
+  event 1.06667 detonate
+  node dummy vff_sumonmummy
+    parent NULL
+  endnode
+  node dummy DummyRotator
+    parent vff_sumonmummy
+    orientationkey 13
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         0.6333330   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         0.9666670   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         1.3000000    0.0000000    0.0000000    0.0000000    0.0000000
+         1.6333300   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         1.9666700   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         2.3000000   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         2.6333301    0.0000000    0.0000000    0.0000000    0.0000000
+         2.9666700   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         3.3000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         3.6333301   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         3.9666700    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node emitter dust_colum
+    parent DummyRotator
+    birthratekey 6
+         0.6333330    0.0000000
+         0.6666670    0.0000000
+         1.0000000    0.0000000
+         1.3000000  150.0000000
+         2.5666699  150.0000000
+         2.9000001    0.0000000
+  endnode
+  node emitter dust_colum01
+    parent DummyRotator
+    birthratekey 5
+         0.6333330    0.0000000
+         0.6666670    0.0000000
+         1.0000000  150.0000000
+         2.3666699  150.0000000
+         2.7000000    0.0000000
+  endnode
+  node emitter WIND_Dummy
+    parent vff_sumonmummy
+    birthratekey 3
+         0.0000000    0.0000000
+         0.0333333    1.0000000
+         0.0666667    0.0000000
+  endnode
+  node emitter Rockssmall
+    parent vff_sumonmummy
+    birthratekey 7
+         0.0000000    0.0000000
+         0.0333333    0.0000000
+         0.0666667    0.0000000
+         1.0000000    0.0000000
+         1.0333300    0.0000000
+         1.0666699   60.0000000
+         1.1000000    0.0000000
+  endnode
+  node emitter Implosion
+    parent vff_sumonmummy
+    alphaStartkey 4
+         0.0000000    0.0000000
+         1.4333301    0.0000000
+         1.4666700    0.0000000
+         2.0999999    0.5000000
+    alphaEndkey 4
+         0.0000000    1.0000000
+         0.2000000    0.0000000
+         0.4000000    1.0000000
+         0.4333330    1.0000000
+    sizeStart 9
+    sizeEndkey 6
+         0.0000000    4.0000000
+         0.2000000    4.0000000
+         0.9333330    4.0000000
+         0.9666670    4.0000000
+         1.4333301    4.0000000
+         1.8333300    0.0000000
+    birthratekey 4
+         0.0000000   50.0000000
+         0.9333330   50.0000000
+         0.9666670   50.0000000
+         1.8333300    0.0000000
+    lifeExpkey 5
+         0.0000000    1.0000000
+         0.9333330    1.0000000
+         0.9666670    1.0000000
+         1.4333301    0.8000000
+         1.8333300    0.5000000
+  endnode
+  node emitter part2
+    parent vff_sumonmummy
+    alphaStartkey 6
+         0.0000000    0.0000000
+         0.2000000    0.2500000
+         0.2333330    0.2500000
+         0.9666670    0.2500000
+         1.0000000    0.2500000
+         1.4333301    0.0000000
+    alphaEndkey 6
+         0.0000000    0.0000000
+         0.2000000    0.2500000
+         0.2333330    0.2500000
+         0.9666670    0.2500000
+         1.0000000    0.2500000
+         1.4333301    0.0000000
+  endnode
+  node emitter Part1
+    parent vff_sumonmummy
+    alphaStartkey 6
+         0.0000000    0.0000000
+         0.3000000    0.4000000
+         0.3333330    0.4000000
+         1.1000000    0.4000000
+         1.1333300    0.2000000
+         1.4666700    0.0000000
+    alphaEndkey 6
+         0.0000000    0.0000000
+         0.3000000    0.4000000
+         0.3333330    0.4000000
+         1.1000000    0.4000000
+         1.1333300    0.2000000
+         1.4666700    0.0000000
+  endnode
+  node emitter part03
+    parent vff_sumonmummy
+    alphaStartkey 6
+         0.0000000    0.0000000
+         0.2000000    0.2500000
+         0.2333330    0.2500000
+         0.9666670    0.2500000
+         1.0000000    0.2500000
+         1.4333301    0.0000000
+    alphaEndkey 6
+         0.0000000    0.0000000
+         0.2000000    0.2500000
+         0.2333330    0.2500000
+         0.9666670    0.2500000
+         1.0000000    0.2500000
+         1.4333301    0.0000000
+  endnode
+doneanim impact vff_sumonmummy
+
+donemodel vff_sumonmummy

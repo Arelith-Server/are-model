@@ -1,0 +1,585 @@
+#MAXMODEL ASCII
+# model: vff_sumonDragon
+filedependancy vff_sumonDragon.max
+newmodel vff_sumonDragon
+setsupermodel vff_sumonDragon NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vff_sumonDragon
+node dummy vff_sumonDragon
+  parent NULL
+endnode
+node light AuroraLight01
+  parent vff_sumonDragon
+  ambientonly 0
+  shadow 1
+  isdynamic 1
+  affectdynamic 1
+  lightpriority 1
+  fadingLight 0
+  flareradius 100
+  texturenames 5
+    FXPA_LENSFLARE
+    fxpa_flarel
+    FXPA_LENSRING
+    FXPA_LENSRING
+    fxpa_flarel
+  flaresizes 5
+    10
+    3
+    4
+    7
+    10
+  flarepositions 5
+    1
+    0.9
+    0.8
+    0.5
+    0
+  flarecolorshifts 5
+       0.0000000    0.0000000    0.0000000
+       0.0000000    0.0000000    0.0000000
+       0.0000000    0.0000000    0.0000000
+       0.0000000    0.0000000    0.0000000
+       0.0000000    0.0000000    0.0000000
+  position 0 0 1.24777
+  orientation 0 0 0 0
+  radius 5
+  multiplier 10
+  color 1.19209e-07 1.19209e-07 1.19209e-07
+endnode
+node emitter Splat
+  parent vff_sumonDragon
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.0163848
+  orientation 0 0 0 0
+  colorStart 0.921569 0.564706 0
+  colorEnd 1 0.984314 0.894118
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 5
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 0
+  lifeExp 1
+  mass 0
+  spread 0.523599
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 16
+  xsize 100
+  ysize 100
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter flares
+  parent vff_sumonDragon
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Motion_Blur
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.299241
+  orientation 0 0 0 0
+  colorStart 0.968628 0.501961 0
+  colorEnd 1 0.682353 0
+  alphaStart 0.1
+  alphaEnd 1
+  sizeStart 2
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 10
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 0.5
+  mass 0
+  spread 3.14159
+  particleRot 0
+  velocity 5
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Blast_01
+  parent vff_sumonDragon
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture fxpa_Dot01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 1 0.811765 0.513726
+  colorEnd 0.952941 0.584314 0
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 10
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 1
+  mass 0
+  spread 3.14159
+  particleRot 0
+  velocity 15
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Rawr
+  parent vff_sumonDragon
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 7
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_rawr
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 3
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 10
+  sizeEnd 12
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Blast_wave
+  parent vff_sumonDragon
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Billboard_to_World_Z
+  blend Lighten
+  texture FXPA_RINGWAVE
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.40848
+  orientation -1 0 0 -1.5708
+  colorStart 0.960784 0.498039 0
+  colorEnd 0 0 0
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 60
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 0
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Blast_02
+  parent vff_sumonDragon
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture fxpa_Dot01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.176412
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 0.952941 0.313726 0
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 5
+  sizeEnd 8
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 1.2
+  mass 0
+  spread 1.5708
+  particleRot 0
+  velocity 15
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter Blast_03
+  parent vff_sumonDragon
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Motion_Blur
+  blend Lighten
+  texture fxpa_Dot01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.0307625
+  orientation 0 0 0 0
+  colorStart 1 0.611765 0
+  colorEnd 0 0 0
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 0.2
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 10
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 2
+  mass 0
+  spread 3.14159
+  particleRot 0
+  velocity 6
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vff_sumonDragon
+
+#MAXANIM ASCII
+newanim impact vff_sumonDragon
+  length 3.3
+  transtime 0.25
+  animroot vff_sumonDragon
+  event 0.7 detonate
+  event 0.7 detonate
+  event 0.766667 detonate
+  event 0.833333 detonate
+  event 0.833333 detonate
+  node dummy vff_sumonDragon
+    parent NULL
+  endnode
+  node light AuroraLight01
+    parent vff_sumonDragon
+    colorkey 8
+         0.0000000    0.0000001    0.0000001    0.0000001
+         0.4333330    0.0000001    0.0000001    0.0000001
+         0.4666670    0.0000001    0.0000001    0.0000001
+         0.6333330    1.0000000    1.0000000    1.0000000
+         0.6666670    1.0000000    1.0000000    1.0000000
+         1.0000000    1.0000000    1.0000000    1.0000000
+         1.0333300    1.0000000    1.0000000    1.0000000
+         1.6000000    0.0000001    0.0000001    0.0000001
+  endnode
+  node emitter Splat
+    parent vff_sumonDragon
+    sizeStartkey 7
+         0.1666670    5.0000000
+         0.2000000    0.0000000
+         0.4333330    0.0000000
+         0.4666670    0.0000000
+         0.6666670   13.0000000
+         1.4666700   13.0000000
+         1.6333300    0.0000000
+    sizeEndkey 5
+         0.1666670    0.0000000
+         0.4666670    0.0000000
+         0.6666670   10.0000000
+         1.4666700   10.0000000
+         1.6333300    0.0000000
+    birthratekey 11
+         0.0000000    0.0000000
+         0.0666667    0.0000000
+         0.1000000    0.0000000
+         0.1666670    5.0000000
+         0.2000000    0.0000000
+         0.4333330    0.0000000
+         0.4666670    6.0000000
+         0.8666670    4.0000000
+         1.4666700    5.0000000
+         1.6333300    4.0000000
+         1.6666700    0.0000000
+  endnode
+  node emitter flares
+    parent vff_sumonDragon
+    birthratekey 10
+         0.0000000    0.0000000
+         0.0333333    0.0000000
+         0.0666667    0.0000000
+         0.1000000  100.0000000
+         0.1333330  100.0000000
+         0.5000000  100.0000000
+         0.5333330  100.0000000
+         0.9000000  100.0000000
+         0.9333330  100.0000000
+         0.9666670    0.0000000
+  endnode
+  node emitter Blast_01
+    parent vff_sumonDragon
+    birthratekey 6
+         0.6666670    0.0000000
+         0.7000000  100.0000000
+         0.7333330    0.0000000
+         0.7666670    0.0000000
+         0.8000000    0.0000000
+         0.8333330    0.0000000
+  endnode
+  node emitter Blast_wave
+    parent vff_sumonDragon
+    birthratekey 6
+         0.6666670    0.0000000
+         0.7000000    0.0000000
+         0.7333330    0.0000000
+         0.7666670    2.0000000
+         0.8000000    0.0000000
+         0.8333330    2.0000000
+  endnode
+  node emitter Blast_02
+    parent vff_sumonDragon
+    birthratekey 7
+         0.6666670    0.0000000
+         0.7000000    0.0000000
+         0.7333330    0.0000000
+         0.7666670    0.0000000
+         0.8000000    0.0000000
+         0.8333330  100.0000000
+         0.8666670    0.0000000
+  endnode
+  node emitter Blast_03
+    parent vff_sumonDragon
+    birthratekey 6
+         0.6666670    0.0000000
+         0.7000000  100.0000000
+         0.7333330    0.0000000
+         0.7666670    0.0000000
+         0.8000000    0.0000000
+         0.8333330    0.0000000
+  endnode
+doneanim impact vff_sumonDragon
+
+donemodel vff_sumonDragon
