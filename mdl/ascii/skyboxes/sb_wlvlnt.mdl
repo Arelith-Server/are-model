@@ -1,22 +1,22 @@
 # Exported from blender at Friday, 2017-12-29
 filedependancy unknown
-newmodel sb_cstro
-setsupermodel sb_cstro NULL
+newmodel sb_wlvlnt
+setsupermodel sb_wlvlnt NULL
 classification EFFECT
 setanimationscale 1.0
-beginmodelgeom sb_cstro
-node dummy sb_cstro
+beginmodelgeom sb_wlvlnt
+node dummy sb_wlvlnt
   parent null
 endnode
 node trimesh Cylinder01
-  parent sb_cstro
+  parent sb_wlvlnt
   position  100.00000  100.00000 -75.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor  0.89  0.89  0.89
   ambient  1.00  1.00  1.00
   diffuse  1.00  1.00  1.00
   specular  0.00  0.00  0.00
-  bitmap wells_ice_sundn
+  bitmap wells_ice_night
   alpha 1.0
   shininess 10
   selfillumcolor  0.00  0.00  0.00
@@ -192,7 +192,7 @@ node trimesh Cylinder01
      0.656  0.000  0
      0.719  0.000  0
 endnode
-endmodelgeom sb_cstro
+endmodelgeom sb_wlvlnt
 
 # ANIM ASCII
-donemodel sb_cstro
+donemodel sb_wlvlnt

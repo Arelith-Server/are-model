@@ -1,15 +1,15 @@
 # Exported from blender at Friday, 2017-12-29
 filedependancy unknown
-newmodel sb_astro
-setsupermodel sb_astro NULL
+newmodel sb_wlvldy
+setsupermodel sb_wlvldy NULL
 classification EFFECT
 setanimationscale 1.0
-beginmodelgeom sb_astro
-node dummy sb_astro
+beginmodelgeom sb_wlvldy
+node dummy sb_wlvldy
   parent null
 endnode
 node trimesh Cylinder01
-  parent sb_astro
+  parent sb_wlvldy
   position  100.00000  100.00000 -75.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor  0.89  0.89  0.89
@@ -192,7 +192,7 @@ node trimesh Cylinder01
      0.656  0.000  0
      0.719  0.000  0
 endnode
-endmodelgeom sb_astro
+endmodelgeom sb_wlvldy
 
 # ANIM ASCII
-donemodel sb_astro
+donemodel sb_wlvldy

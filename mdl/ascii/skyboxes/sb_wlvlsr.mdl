@@ -1,15 +1,15 @@
 # Exported from blender at Friday, 2017-12-29
 filedependancy unknown
-newmodel sb_dstro
-setsupermodel sb_dstro NULL
+newmodel sb_wlvlsr
+setsupermodel sb_wlvlsr NULL
 classification EFFECT
 setanimationscale 1.0
-beginmodelgeom sb_dstro
-node dummy sb_dstro
+beginmodelgeom sb_wlvlsr
+node dummy sb_wlvlsr
   parent null
 endnode
 node trimesh Cylinder01
-  parent sb_dstro
+  parent sb_wlvlsr
   position  100.00000  100.00000 -75.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor  0.89  0.89  0.89
@@ -192,7 +192,7 @@ node trimesh Cylinder01
      0.656  0.000  0
      0.719  0.000  0
 endnode
-endmodelgeom sb_dstro
+endmodelgeom sb_wlvlsr
 
 # ANIM ASCII
-donemodel sb_dstro
+donemodel sb_wlvlsr
