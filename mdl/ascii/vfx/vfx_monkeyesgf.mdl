@@ -1,0 +1,16 @@
+#MAXMODEL ASCII
+# model: vfx_monkeyesgf
+filedependancy vfx_monkeyesgf.max
+newmodel vfx_monkeyesgf
+setsupermodel vfx_monkeyesgf NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vfx_monkeyesgf
+node dummy vfx_monkeyesgf
+  parent NULL
+  #part-number 0
+endnode
+endmodelgeom vfx_monkeyesgf
+
+donemodel vfx_monkeyesgf
