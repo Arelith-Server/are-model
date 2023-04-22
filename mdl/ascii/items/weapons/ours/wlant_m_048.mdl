@@ -1,0 +1,193 @@
+# Exported from NeverBlender 2.8.22 - Saturday, 2023-04-22
+filedependancy unknown
+newmodel wlant_m_048
+setsupermodel wlant_m_048 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom wlant_m_048
+node dummy wlant_m_048
+  parent null
+endnode
+node emitter crystal
+  parent wlant_m_048
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 1
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position  0.00000 -0.21742 -0.02060
+  orientation 0 0 0 0
+  colorStart 0.45098 0.45098 0.45098
+  colorEnd 0.90 0.90 0.00
+  alphaStart 0.5
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 1
+  birthrate 3
+  lifeExp 9
+  mass 0
+  spread 0
+  particleRot 0.3
+  velocity 0
+  randvel 0
+  fps 15
+  xsize 2
+  ysize 2
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node light AuroraLight01
+  parent crystal
+  position  0.00087  0.04207  0.00151
+  orientation  0.44721 -0.44721 -0.77460  1.82348
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 2
+  fadingLight 1
+  radius 10.0
+  multiplier 3.0
+  color 0.90 0.90 0.00
+  flareradius 1.0
+endnode
+node emitter Gravity01 
+  parent crystal 
+  position 0.00087  0.04207  0.00151
+  orientation  0.57735 -0.57735 0.57735  -2.0944
+  wirecolor 0.109804 0.109804 0.694118  
+  colorStart 0.90 0.90 0.00
+  colorEnd 0.90 0.90 0.00
+    alphaStart 1.0 
+    alphaEnd 1.0 
+    sizeStart 0.1 
+    sizeEnd 0.13 
+    sizeStart_y 0.0 
+    sizeEnd_y 0.0 
+    frameStart 0 
+    frameEnd 3 
+    birthrate 10 
+    spawnType 0 
+    lifeExp 2.0 
+    mass 0.0 
+    spread 6.28319 
+    particleRot 0.0 
+    velocity 0.5 
+    randvel 0.5 
+    fps 4 
+    random 1 
+    inherit 0 
+    inherit_local 1 
+    inherit_part 0 
+    inheritvel 0 
+    xsize 50 
+    ysize 5 
+    bounce 0 
+    bounce_co 0.0 
+    loop 0 
+    update Fountain 
+    render Normal 
+    Blend Lighten 
+    update_sel 1 
+    render_sel 1 
+    blend_sel 3 
+    deadspace 0.0 
+    opacity 1.0 
+    blurlength 10.0 
+    lightningDelay 0.0 
+    lightningRadius 0.0 
+    lightningScale 0.0 
+    blastRadius 0.0 
+    blastLength 0.0 
+    twosidedtex 0 
+    p2p 1 
+    p2p_sel 2 
+    p2p_type Gravity 
+    p2p_bezier2 0.0 
+    p2p_bezier3 0.0 
+    combinetime 0.0 
+    drag 1.0 
+    grav 3.0 
+    threshold 0.0 
+    texture fxpa_StarBnW 
+    xgrid 2 
+    ygrid 2 
+    affectedByWind false 
+    m_isTinted 0 
+    renderorder 0 
+    Splat 0 
+endnode
+node reference OmenRef02 
+  parent Gravity01 
+  position 0.00087  0.04207  0.00151
+  orientation  -1.0 0.0 0.0  -2.54818
+  wirecolor 0.878431 0.337255 0.337255  
+  refModel fx_ref 
+  reattachable 0 
+endnode
+endmodelgeom wlant_m_048
+
+# ANIM ASCII
+newanim equip wlant_m_048
+  length 0.1
+  transtime 0.25
+  animroot wlant_m_048
+  node dummy wlant_m_048
+    parent null
+  endnode
+  node emitter crystal
+    parent wlant_m_048
+  endnode
+  node light AuroraLight01
+    parent crystal
+  endnode
+doneanim equip wlant_m_048
+
+newanim unequip wlant_m_048
+  length 0.1
+  transtime 0.25
+  animroot wlant_m_048
+  node dummy wlant_m_048
+    parent null
+  endnode
+  node emitter crystal
+    parent wlant_m_048
+  endnode
+  node light AuroraLight01
+    parent crystal
+  endnode
+doneanim unequip wlant_m_048
+
+donemodel wlant_m_048

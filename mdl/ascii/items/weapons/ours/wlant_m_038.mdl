@@ -1,0 +1,227 @@
+# Exported from NeverBlender 2.8.22 - Saturday, 2023-04-22
+filedependancy unknown
+newmodel wlant_m_038
+setsupermodel wlant_m_038 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom wlant_m_038
+node dummy wlant_m_038
+  parent null
+endnode
+node trimesh crystalL
+  parent wlant_m_038
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.65 0.89 0.89
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 1.00 1.00 1.00
+  bitmap crystal_white
+  shininess 10
+  render 1
+  shadow 0
+  verts 14
+    -0.04726 -0.14658 -0.13983
+    -0.03034 -0.16657 -0.13637
+    -0.02138 -0.14552 -0.14500
+    -0.03293 -0.12445 -0.14023
+    -0.05343 -0.12441 -0.12684
+    -0.06240 -0.14546 -0.11821
+    -0.05085 -0.16653 -0.12297
+    -0.01971 -0.16442 -0.12010
+    -0.01075 -0.14337 -0.12873
+    -0.02230 -0.12230 -0.12397
+    -0.04281 -0.12227 -0.11058
+    -0.05177 -0.14332 -0.10194
+    -0.04022 -0.16439 -0.10671
+    -0.02338 -0.14175 -0.10327
+  tverts 26
+     0.8333  0.0000  0
+     1.0000  0.3333  0
+     0.8333  0.3333  0
+     0.0000  0.0000  0
+     0.1666  0.3333  0
+     0.0000  0.3333  0
+     0.1666  0.0000  0
+     0.3333  0.3333  0
+     0.3333  0.0000  0
+     0.5000  0.3333  0
+     0.5000  0.0000  0
+     0.6666  0.3333  0
+     0.6666  0.0000  0
+     1.0000  0.6667  0
+     0.8333  0.6667  0
+     0.1666  0.6667  0
+     0.0000  0.6667  0
+     0.3333  0.6667  0
+     0.5000  0.6667  0
+     0.6666  0.6667  0
+     1.0000  1.0000  0
+     0.1666  1.0000  0
+     0.3333  1.0000  0
+     0.5000  1.0000  0
+     0.6666  1.0000  0
+     0.8333  1.0000  0
+  faces 24
+     0  2  1  1   0  1  2 0
+     0  3  2  2   3  4  5 0
+     0  4  3  3   6  7  4 0
+     0  5  4  4   8  9  7 0
+     0  6  5  5  10 11  9 0
+     0  1  6  6  12  2 11 0
+     1  8  7  7   2 13 14 0
+     1  2  8  8   2  1 13 0
+     2  9  8  9   5 15 16 0
+     2  3  9 10   5  4 15 0
+     3 10  9 11   4 17 15 0
+     3  4 10 12   4  7 17 0
+     4 11 10 13   7 18 17 0
+     4  5 11 14   7  9 18 0
+     5 12 11 15   9 19 18 0
+     5  6 12 16   9 11 19 0
+     6  7 12 17  11 14 19 0
+     6  1  7 18  11  2 14 0
+     7  8 13 19  14 13 20 0
+     8  9 13 20  16 15 21 0
+     9 10 13 21  15 17 22 0
+    10 11 13 22  17 18 23 0
+    11 12 13 23  18 19 24 0
+    12  7 13 24  19 14 25 0
+endnode
+node trimesh crystalR
+  parent wlant_m_038
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.65 0.89 0.89
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 1.00 1.00 1.00
+  bitmap crystal_white
+  shininess 10
+  render 1
+  shadow 0
+  verts 14
+     0.04777 -0.14663 -0.14015
+     0.05169 -0.16662 -0.12333
+     0.06328 -0.14557 -0.11880
+     0.05413 -0.12450 -0.12730
+     0.03339 -0.12447 -0.14034
+     0.02180 -0.14552 -0.14488
+     0.03096 -0.16658 -0.13637
+     0.04135 -0.16447 -0.10689
+     0.05294 -0.14342 -0.10235
+     0.04379 -0.12235 -0.11085
+     0.02305 -0.12232 -0.12389
+     0.01146 -0.14337 -0.12843
+     0.02062 -0.16444 -0.11993
+     0.02453 -0.14180 -0.10318
+  tverts 26
+     0.8333  0.0000  0
+     1.0000  0.3333  0
+     0.8333  0.3333  0
+     0.0000  0.0000  0
+     0.1666  0.3333  0
+     0.0000  0.3333  0
+     0.1666  0.0000  0
+     0.3333  0.3333  0
+     0.3333  0.0000  0
+     0.5000  0.3333  0
+     0.5000  0.0000  0
+     0.6666  0.3333  0
+     0.6666  0.0000  0
+     1.0000  0.6667  0
+     0.8333  0.6667  0
+     0.1666  0.6667  0
+     0.0000  0.6667  0
+     0.3333  0.6667  0
+     0.5000  0.6667  0
+     0.6666  0.6667  0
+     1.0000  1.0000  0
+     0.1666  1.0000  0
+     0.3333  1.0000  0
+     0.5000  1.0000  0
+     0.6666  1.0000  0
+     0.8333  1.0000  0
+  faces 24
+     0  2  1  1   0  1  2 0
+     0  3  2  2   3  4  5 0
+     0  4  3  3   6  7  4 0
+     0  5  4  4   8  9  7 0
+     0  6  5  5  10 11  9 0
+     0  1  6  6  12  2 11 0
+     1  8  7  7   2 13 14 0
+     1  2  8  8   2  1 13 0
+     2  9  8  9   5 15 16 0
+     2  3  9 10   5  4 15 0
+     3 10  9 11   4 17 15 0
+     3  4 10 12   4  7 17 0
+     4 11 10 13   7 18 17 0
+     4  5 11 14   7  9 18 0
+     5 12 11 15   9 19 18 0
+     5  6 12 16   9 11 19 0
+     6  7 12 17  11 14 19 0
+     6  1  7 18  11  2 14 0
+     7  8 13 19  14 13 20 0
+     8  9 13 20  16 15 21 0
+     9 10 13 21  15 17 22 0
+    10 11 13 22  17 18 23 0
+    11 12 13 23  18 19 24 0
+    12  7 13 24  19 14 25 0
+endnode
+node light AuroraLight01
+  parent wlant_m_038
+  position  0.00087 -0.15090 -0.13621
+  orientation  0.44721 -0.44721 -0.77460  1.82348
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 2
+  fadingLight 1
+  radius 10.0
+  multiplier 3.0
+  color 1.00 1.00 1.00
+  flareradius 1.0
+endnode
+endmodelgeom wlant_m_038
+
+# ANIM ASCII
+newanim equip wlant_m_038
+  length 0.1
+  transtime 0.25
+  animroot wlant_m_038
+  node dummy wlant_m_038
+    parent null
+  endnode
+  node trimesh crystalL
+    parent wlant_m_038
+  endnode
+  node trimesh crystalR
+    parent wlant_m_038
+  endnode
+  node light AuroraLight01
+    parent wlant_m_038
+  endnode
+doneanim equip wlant_m_038
+
+newanim unequip wlant_m_038
+  length 0.1
+  transtime 0.25
+  animroot wlant_m_038
+  node dummy wlant_m_038
+    parent null
+  endnode
+  node trimesh crystalL
+    parent wlant_m_038
+  endnode
+  node trimesh crystalR
+    parent wlant_m_038
+  endnode
+  node light AuroraLight01
+    parent wlant_m_038
+  endnode
+doneanim unequip wlant_m_038
+
+donemodel wlant_m_038
