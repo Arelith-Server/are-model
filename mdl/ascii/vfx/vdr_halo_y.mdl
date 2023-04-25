@@ -1,0 +1,459 @@
+# Exported from NeverBlender 2.8.43 - Thursday, 2023-04-20
+filedependancy unknown
+newmodel vdr_halo_y
+setsupermodel vdr_halo_y null
+classification EFFECT
+setanimationscale 0.94
+beginmodelgeom vdr_halo_y
+node dummy vdr_halo_y
+  parent null
+endnode
+node dummy halo
+  parent vdr_halo_y
+  position -0.00003  0.00002  0.13780
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node emitter fire04
+  parent halo
+  position  0.00003 -0.00003  0.00119
+  orientation  0.01004 -0.99950 -0.03004  3.12236
+  scale -0.029
+  xsize 0.00
+  ysize 0.00
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 6.28
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 0.96 0.60
+  colorend 1.00 0.96 0.60
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.38
+  sizeend 0.38
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_ring02
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter fire04.001
+  parent halo
+  position -0.14807  0.00009 -0.00004
+  orientation  0.70880 -0.70512 -0.01998  3.09657
+  xsize 13.59
+  ysize 0.32
+  update Fountain
+  render Aligned_to_World_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 80
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 0.96 0.60
+  colorend 1.00 0.96 0.60
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.02
+  sizeend 0.02
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter fire04.002
+  parent halo
+  position  0.15933 -0.00020 -0.00029
+  orientation  0.70054  0.71330  0.02124  3.09930
+  xsize 13.22
+  ysize 0.31
+  update Fountain
+  render Aligned_to_World_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 80
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 0.96 0.60
+  colorend 1.00 0.96 0.60
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.02
+  sizeend 0.02
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter fire04.003
+  parent halo
+  position -0.00014  0.15406  0.00027
+  orientation  0.99998  0.00284 -0.00526  3.08144
+  xsize 11.66
+  ysize 0.25
+  update Fountain
+  render Aligned_to_World_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 80
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 0.96 0.60
+  colorend 1.00 0.96 0.60
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.02
+  sizeend 0.02
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter fire04.004
+  parent halo
+  position  0.00025 -0.15976  0.00088
+  orientation  0.99999 -0.00456 -0.00169  3.08094
+  xsize 12.50
+  ysize 0.28
+  update Fountain
+  render Aligned_to_World_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 80
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 0.96 0.60
+  colorend 1.00 0.96 0.60
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.02
+  sizeend 0.02
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter fire04.005
+  parent halo
+  position -0.10655 -0.11566  0.00066
+  orientation  0.91717 -0.39810 -0.01783  3.06642
+  xsize 11.89
+  ysize 0.26
+  update Fountain
+  render Aligned_to_World_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 80
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 0.96 0.60
+  colorend 1.00 0.96 0.60
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.02
+  sizeend 0.02
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter fire04.006
+  parent halo
+  position  0.10936  0.11212  0.00002
+  orientation  0.29289 -0.11699 -0.94896  0.77092
+  xsize 12.71
+  ysize 0.30
+  update Fountain
+  render Aligned_to_World_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 80
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 0.96 0.60
+  colorend 1.00 0.96 0.60
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.02
+  sizeend 0.02
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter fire04.007
+  parent halo
+  position  0.11227 -0.11424  0.00082
+  orientation  0.38471  0.92303 -0.00261  3.12262
+  xsize 0.27
+  ysize 13.03
+  update Fountain
+  render Aligned_to_World_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 80
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 0.96 0.60
+  colorend 1.00 0.96 0.60
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.02
+  sizeend 0.02
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter fire04.008
+  parent halo
+  position -0.10368  0.11429  0.00039
+  orientation -0.93205 -0.36189  0.01795  3.05497
+  xsize 11.36
+  ysize 0.17
+  update Fountain
+  render Aligned_to_World_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 80
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 0.96 0.60
+  colorend 1.00 0.96 0.60
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.02
+  sizeend 0.02
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom vdr_halo_y
+donemodel vdr_halo_y
