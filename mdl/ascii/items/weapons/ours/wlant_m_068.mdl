@@ -1,0 +1,186 @@
+# Exported from NeverBlender 2.8.22 - Monday, 2023-04-24
+filedependancy unknown
+newmodel wlant_m_068
+setsupermodel wlant_m_068 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom wlant_m_068
+node dummy wlant_m_068
+  parent null
+endnode
+node trimesh Candle
+  parent wlant_m_068
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.80 0.80 0.80
+  bitmap candle_white
+  shininess 1
+  verts 13
+    -0.01653 -0.24801 -0.02117
+    -0.00683 -0.18368 -0.00805
+    -0.01653 -0.18368 -0.02117
+    -0.00826 -0.24801 -0.00686
+     0.00826 -0.18368 -0.00686
+     0.00826 -0.24801 -0.00686
+     0.01653 -0.18037 -0.02117
+     0.01653 -0.24801 -0.02117
+     0.00826 -0.18037 -0.03548
+     0.00826 -0.24801 -0.03548
+    -0.00826 -0.18368 -0.03548
+    -0.00826 -0.24801 -0.03548
+     0.00000 -0.18368 -0.02117
+  tverts 21
+     0.7954  0.9800  0
+     0.9362  0.2457  0
+     0.7954  0.2457  0
+     0.9298  0.9800  0
+     0.0703  0.9800  0
+     0.2312  0.2457  0
+     0.0766  0.2457  0
+     0.2312  0.9800  0
+     0.3656  0.2085  0
+     0.3656  0.9800  0
+     0.5001  0.2085  0
+     0.5001  0.9800  0
+     0.6609  0.2457  0
+     0.6609  0.9800  0
+     0.5886  0.1015  0
+     0.4100  0.0334  0
+     0.3222  0.0979  0
+     0.4027  0.1679  0
+     0.7180  0.1703  0
+     0.8849  0.1085  0
+     0.7405  0.0318  0
+  faces 18
+     0  1  2 1   0  1  2 0
+     0  3  1 1   0  3  1 0
+     3  4  1 1   4  5  6 0
+     3  5  4 1   4  7  5 0
+     5  6  4 1   7  8  5 0
+     5  7  6 1   7  9  8 0
+     7  8  6 1   9 10  8 0
+     7  9  8 1   9 11 10 0
+     9 10  8 1  11 12 10 0
+     9 11 10 1  11 13 12 0
+    11  2 10 1  13  2 12 0
+    11  0  2 1  13  0  2 0
+    12  2  1 2  14 15 16 0
+    12  1  4 2  14 16 17 0
+    12  4  6 2  14 17 18 0
+    12  6  8 2  14 18 19 0
+    12  8 10 2  14 19 20 0
+    12 10  2 2  14 20 15 0
+endnode
+node light AuroraLight01
+  parent Candle
+  position  0.00062 -0.17103 -0.02146
+  orientation  0.44655 -0.44655 -0.77536  1.82254
+  scale 0.331
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 2
+  fadingLight 1
+  radius 4.0
+  multiplier 3.0
+  color 0.90 0.90 0.90
+  flareradius 1.0
+endnode
+node emitter OmenEmitter74
+  parent Candle
+  position  0.00062 -0.17216 -0.02157
+  orientation -0.97839  0.14622  0.14622  1.59264
+  scale 0.331
+  xsize 0.00
+  ysize 0.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 2.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 0.00 0.00 0.00
+  alphastart 0.00
+  alphaend 1.00
+  sizestart 0.15
+  sizeend 0.15
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_cndl_white
+  twosidedtex 0
+  m_istinted 0
+  xgrid 3
+  ygrid 3
+  fps 16
+  framestart 0
+  frameend 8
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom wlant_m_068
+
+# ANIM ASCII
+newanim equip wlant_m_068
+  length 0.1
+  transtime 0.25
+  animroot wlant_m_068
+  node dummy wlant_m_068
+    parent null
+  endnode
+  node trimesh Candle
+    parent wlant_m_068
+  endnode
+  node light AuroraLight01
+    parent Candle
+  endnode
+  node emitter OmenEmitter74
+    parent Candle
+    birthratekey 1
+       0.000 3
+    endlist
+  endnode
+doneanim equip wlant_m_068
+
+newanim unequip wlant_m_068
+  length 0.1
+  transtime 0.25
+  animroot wlant_m_068
+  node dummy wlant_m_068
+    parent null
+  endnode
+  node trimesh Candle
+    parent wlant_m_068
+  endnode
+  node light AuroraLight01
+    parent Candle
+  endnode
+  node emitter OmenEmitter74
+    parent Candle
+  endnode
+doneanim unequip wlant_m_068
+
+donemodel wlant_m_068
