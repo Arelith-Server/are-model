@@ -1,0 +1,183 @@
+# Exported from NeverBlender 2.8.22 - Sunday, 2023-05-07
+filedependancy t1.blend
+newmodel wlant_m_071
+setsupermodel wlant_m_071 null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom wlant_m_071
+node dummy wlant_m_071
+  parent null
+endnode
+node light Light
+  parent wlant_m_071
+  position  0.00087  0.34742  0.00151
+  orientation  0.44721 -0.44721 -0.77460  1.82348
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 2
+  fadingLight 1
+  radius 10.0
+  multiplier 3.0
+  color 0.90 0.00 0.00
+  flareradius 1.0
+endnode
+node emitter Smoke
+  parent wlant_m_071
+  position  0.00000  0.63547  0.00000
+  orientation -1.00000  0.00000  0.00000  1.57080
+  xsize 0.00
+  ysize 0.00
+  update Fountain
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 0
+  lifeexp 2.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.20
+  particlerot 0.00
+  spread 6.28
+  splat 0
+  affectedbywind 0
+  colorstart 0.63 0.63 0.63
+  colorend 0.00 0.00 0.00
+  alphastart 0.40
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 30
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter Flame
+  parent wlant_m_071
+  position  0.00000  0.32737  0.00000
+  orientation -1.00000  0.00000  0.00000  1.57080
+  xsize 0.00
+  ysize 0.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 0
+  lifeexp 2.00
+  mass 0.00
+  velocity 0.15
+  randvel 0.10
+  particlerot 0.00
+  spread 0.17
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 0.90
+  alphaend 0.00
+  sizestart 0.05
+  sizeend 0.65
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flame_red
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom wlant_m_071
+
+# ANIM ASCII
+newanim equip wlant_m_071
+  length 0.1
+  transtime 0.25
+  animroot wlant_m_071
+  node dummy wlant_m_071
+    parent null
+  endnode
+  node light Light
+    parent wlant_m_071
+  endnode
+  node emitter Smoke
+    parent wlant_m_071
+    birthratekey 4
+       0.000 0
+       0.033 12
+       0.067 12
+       0.100 12
+    endlist
+  endnode
+  node emitter Flame
+    parent wlant_m_071
+    birthratekey 3
+       0.000 0
+       0.033 8
+       0.100 9
+    endlist
+  endnode
+doneanim equip wlant_m_071
+
+newanim unequip wlant_m_071
+  length 0.1
+  transtime 0.25
+  animroot wlant_m_071
+  node dummy wlant_m_071
+    parent null
+  endnode
+  node light Light
+    parent wlant_m_071
+  endnode
+  node emitter Smoke
+    parent wlant_m_071
+    birthratekey 2
+       0.000 0
+       0.033 0
+    endlist
+  endnode
+  node emitter Flame
+    parent wlant_m_071
+    birthratekey 3
+       0.000 12
+       0.033 0
+       0.100 0
+    endlist
+  endnode
+doneanim unequip wlant_m_071
+
+donemodel wlant_m_071

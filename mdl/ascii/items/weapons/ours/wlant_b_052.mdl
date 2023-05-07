@@ -1,0 +1,127 @@
+# Exported from NeverBlender 2.8.22 - Sunday, 2023-05-07
+filedependancy t1.blend
+newmodel wlant_b_052
+setsupermodel wlant_b_052 null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom wlant_b_052
+node dummy wlant_b_052
+  parent null
+endnode
+node trimesh Handle
+  parent wlant_b_052
+  position  0.00000 -0.09421  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap ad_stl_normal
+  shininess 26
+  render 1
+  shadow 0
+  verts 17
+     0.00000 -0.07791  0.00000
+     0.00562 -0.06204 -0.01731
+     0.01820 -0.06204  0.00000
+    -0.01473 -0.06204 -0.01070
+    -0.01473 -0.06204  0.01070
+     0.00562 -0.06204  0.01731
+     0.00549  0.13477 -0.01689
+     0.01776  0.13477  0.00000
+    -0.01437  0.13477 -0.01044
+    -0.01437  0.13477  0.01044
+     0.00549  0.13477  0.01689
+     0.00986  0.35348 -0.03036
+     0.03192  0.35348  0.00000
+    -0.02582  0.35348 -0.01876
+    -0.02582  0.35348  0.01876
+     0.00986  0.35348  0.03036
+    -0.00000  0.35796  0.00000
+  tverts 25
+     0.5450  0.0039  0
+     0.9653  0.0838  0
+     0.7785  0.0838  0
+     0.2181  0.0838  0
+     0.0314  0.0838  0
+     0.4049  0.0838  0
+     0.5917  0.0838  0
+     0.9653  0.8308  0
+     0.7785  0.8308  0
+     0.2181  0.8308  0
+     0.0314  0.8308  0
+     0.4049  0.8308  0
+     0.5917  0.8308  0
+     0.7785  0.9629  0
+     0.9653  0.1103  0
+     0.7785  0.1103  0
+     0.9653  0.9629  0
+     0.0314  0.9629  0
+     0.2181  0.1103  0
+     0.0314  0.1103  0
+     0.2181  0.9629  0
+     0.4049  0.1103  0
+     0.4049  0.9629  0
+     0.5917  0.1103  0
+     0.5917  0.9629  0
+  faces 30
+     0  1  2 1   0  1  2 0
+     0  3  1 1   0  3  4 0
+     0  4  3 1   0  5  3 0
+     0  5  4 1   0  6  5 0
+     0  2  5 1   0  2  6 0
+     2  6  7 1   2  7  8 0
+     2  1  6 1   2  1  7 0
+     1  8  6 1   4  9 10 0
+     1  3  8 1   4  3  9 0
+     3  9  8 1   3 11  9 0
+     3  4  9 1   3  5 11 0
+     4 10  9 1   5 12 11 0
+     4  5 10 1   5  6 12 0
+     5  7 10 1   6  8 12 0
+     5  2  7 1   6  2  8 0
+     7 11 12 1  13 14 15 0
+     7  6 11 1  13 16 14 0
+     6 13 11 1  17 18 19 0
+     6  8 13 1  17 20 18 0
+     8 14 13 1  20 21 18 0
+     8  9 14 1  20 22 21 0
+     9 15 14 1  22 23 21 0
+     9 10 15 1  22 24 23 0
+    10 12 15 1  24 15 23 0
+    10  7 12 1  24 13 15 0
+    13 14 16 2  18 21 18 0
+    12 11 16 2  15 14 15 0
+    14 15 16 2  21 23 21 0
+    11 13 16 2  19 18 19 0
+    15 12 16 2  23 15 23 0
+endnode
+endmodelgeom wlant_b_052
+
+# ANIM ASCII
+newanim equip wlant_b_052
+  length 0.1
+  transtime 0.25
+  animroot wlant_b_052
+  node dummy wlant_b_052
+    parent null
+  endnode
+  node trimesh Handle
+    parent wlant_b_052
+  endnode
+doneanim equip wlant_b_052
+
+newanim unequip wlant_b_052
+  length 0.1
+  transtime 0.25
+  animroot wlant_b_052
+  node dummy wlant_b_052
+    parent null
+  endnode
+  node trimesh Handle
+    parent wlant_b_052
+  endnode
+doneanim unequip wlant_b_052
+
+donemodel wlant_b_052
