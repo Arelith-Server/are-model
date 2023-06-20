@@ -1,4 +1,4 @@
-# Exported from NeverBlender 2.8.43 - Thursday, 2023-06-08
+# Exported from NeverBlender 2.8.43 - Tuesday, 2023-06-20
 filedependancy unknown
 newmodel c_ogremageb
 setsupermodel c_ogremageb c_ogrea
@@ -8,20 +8,20 @@ beginmodelgeom c_ogremageb
 node dummy c_ogremageb
   parent null
 endnode
-node dummy rootdummy.001
+node dummy rootdummy
   parent c_ogremageb
   position  0.00424 -0.36457  1.89891
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-node trimesh ogre_torso.001
-  parent rootdummy.001
+node trimesh ogre_torso
+  parent rootdummy
   position  0.00000 -0.02318 -0.05092
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -469,15 +469,15 @@ node trimesh ogre_torso.001
      72 138  16 1  42 49 14 0
     112 131 139 1  61 38 67 0
 endnode
-node trimesh ogre_rbicep.001
-  parent ogre_torso.001
+node trimesh ogre_rbicep
+  parent ogre_torso
   position  0.43590  0.08344  0.86582
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -756,15 +756,15 @@ node trimesh ogre_rbicep.001
     66 60 80 1  40 42 50 0
     61 81 60 1  43 50 42 0
 endnode
-node trimesh ogre_rforearm.001
-  parent ogre_rbicep.001
+node trimesh ogre_rforearm
+  parent ogre_rbicep
   position  0.17898 -0.00058 -0.61407
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -970,15 +970,15 @@ node trimesh ogre_rforearm.001
      1  0 60 1   1  0 42 0
      7 10 61 1   6  9 11 0
 endnode
-node trimesh ogre_rhand.001
-  parent ogre_rforearm.001
+node trimesh ogre_rhand
+  parent ogre_rforearm
   position  0.01677 -0.01872 -0.75076
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -1212,20 +1212,20 @@ node trimesh ogre_rhand.001
     66 18 50 1  35 15 31 0
     52 54 67 1  32 34 42 0
 endnode
-node dummy rhand.001
-  parent ogre_rhand.001
+node dummy rhand
+  parent ogre_rhand
   position -0.04050  0.03999 -0.23913
   orientation  0.77055 -0.57378  0.27757  0.23814
 endnode
 node trimesh r_bracelet02
-  parent ogre_rforearm.001
+  parent ogre_rforearm
   position  0.01361  0.00555 -0.47255
   orientation -0.30391 -0.11898  0.94524  0.31018
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -1311,14 +1311,14 @@ node trimesh r_bracelet02
     14 21 15 1  11 13 12 0
 endnode
 node trimesh r_bracelet01
-  parent ogre_rforearm.001
+  parent ogre_rforearm
   position  0.00393 -0.00765 -0.74893
   orientation -0.30391 -0.11898  0.94524  0.31018
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -1402,14 +1402,14 @@ node trimesh r_bracelet01
     21 13 12 1  11 10  9 0
 endnode
 node trimesh l_bracelet07
-  parent ogre_rbicep.001
+  parent ogre_rbicep
   position  0.13310 -0.01055 -0.33007
   orientation  0.09005  0.92947 -0.35775  0.13128
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -1531,14 +1531,14 @@ node trimesh l_bracelet07
      2  1 33 1   2  1  6 0
 endnode
 node trimesh r_bracelet04
-  parent ogre_rbicep.001
+  parent ogre_rbicep
   position  0.15044  0.05094 -0.52005
   orientation  0.11784  0.14310  0.98267  0.53746
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -1621,15 +1621,15 @@ node trimesh r_bracelet04
     19  6 20 1  11  5 10 0
     21 13 12 1  11 10  9 0
 endnode
-node trimesh ogre_lbicep.001
-  parent ogre_torso.001
+node trimesh ogre_lbicep
+  parent ogre_torso
   position -0.43590  0.08344  0.86582
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -1892,15 +1892,15 @@ node trimesh ogre_lbicep.001
     60 74 54 1  39 50 40 0
     55 54 75 1  41 40 50 0
 endnode
-node trimesh ogre_lforearm.001
-  parent ogre_lbicep.001
+node trimesh ogre_lforearm
+  parent ogre_lbicep
   position -0.17898 -0.00058 -0.61407
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -2106,20 +2106,20 @@ node trimesh ogre_lforearm.001
      2 60  0 1   2 42  0 0
      7 61 10 1   6 11  9 0
 endnode
-node dummy lforearm.001
-  parent ogre_lforearm.001
-  position -0.11521  0.01103 -0.44753
-  orientation  0.70643 -0.64904  0.28232  0.23475
+node dummy lforearm
+  parent ogre_lforearm
+  position -0.12126  0.01498 -0.43402
+  orientation  0.68516 -0.67689  0.26902  0.25064
 endnode
-node trimesh ogre_lhand.001
-  parent ogre_lforearm.001
+node trimesh ogre_lhand
+  parent ogre_lforearm
   position -0.01676 -0.01872 -0.75076
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -2353,20 +2353,20 @@ node trimesh ogre_lhand.001
     18 66 50 1  16 35 31 0
     54 53 67 1  34 33 42 0
 endnode
-node dummy lhand.001
-  parent ogre_lhand.001
-  position  0.09449  0.11429 -0.33007
-  orientation  0.76171  0.62343  0.17646  0.23101
+node dummy lhand
+  parent ogre_lhand
+  position  0.09751 -0.01880 -0.35194
+  orientation  0.72612  0.66817  0.16214  0.24158
 endnode
 node trimesh l_bracelet01
-  parent ogre_lforearm.001
+  parent ogre_lforearm
   position -0.01317  0.00137 -0.72795
   orientation  0.10111 -0.05454  0.99338  0.65149
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -2454,14 +2454,14 @@ node trimesh l_bracelet01
     23 12 13 1  10  8  9 0
 endnode
 node trimesh l_bracelet03
-  parent ogre_lforearm.001
+  parent ogre_lforearm
   position -0.00406 -0.00638 -0.21474
   orientation  0.02829  0.02061  0.99939  2.44609
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -2569,14 +2569,14 @@ node trimesh l_bracelet03
      3 29 13 1   3 10  9 0
 endnode
 node trimesh l_bracelet05
-  parent ogre_lbicep.001
+  parent ogre_lbicep
   position -0.13703 -0.00527 -0.35353
   orientation -0.01307  0.10317  0.99458  2.08019
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -2701,15 +2701,15 @@ node trimesh l_bracelet05
     10  9 34 1   8  2  9 0
      4 35  7 1   4  2  7 0
 endnode
-node trimesh ogre_neck.001
-  parent ogre_torso.001
+node trimesh ogre_neck
+  parent ogre_torso
   position  0.00128  0.26278  0.93333
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -2758,15 +2758,15 @@ node trimesh ogre_neck.001
      1  3 10 1  1 3 0 0
      7  4 11 1  0 2 1 0
 endnode
-node trimesh ogre_head.001
-  parent ogre_neck.001
+node trimesh ogre_head
+  parent ogre_neck
   position -0.00128  0.26220  0.08495
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -3572,15 +3572,15 @@ node trimesh ogre_head.001
     266 261 260 1  78 75 76 0
     263 267 264 1  76 80 79 0
 endnode
-node trimesh ogre_jaw.001
-  parent ogre_head.001
+node trimesh ogre_jaw
+  parent ogre_head
   position  0.00000  0.12239  0.00282
   orientation -0.99998  0.00446  0.00355  0.22689
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -3852,25 +3852,25 @@ node trimesh ogre_jaw.001
     81 77 86 1  23 20 25 0
     83 81 87 1  21 23 25 0
 endnode
-node dummy head.001
-  parent ogre_head.001
-  position  0.00000  0.20432  0.66712
+node dummy head
+  parent ogre_head
+  position  0.00000  0.20432  0.63170
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-node dummy impact.001
-  parent ogre_torso.001
+node dummy impact
+  parent ogre_torso
   position  0.00905  0.38636  0.46103
   orientation -0.89870 -0.19462 -0.39303  0.20069
 endnode
-node trimesh ogre_pelvis.001
-  parent rootdummy.001
+node trimesh ogre_pelvis
+  parent rootdummy
   position  0.00000 -0.02977 -0.06944
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -4045,15 +4045,15 @@ node trimesh ogre_pelvis.001
     41 43 48 1  24 30 23 0
     49 38 34 1  23 28 24 0
 endnode
-node trimesh ogre_lthigh.001
-  parent ogre_pelvis.001
+node trimesh ogre_lthigh
+  parent ogre_pelvis
   position -0.16931 -0.00140 -0.12179
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -4280,15 +4280,15 @@ node trimesh ogre_lthigh.001
     33 64 31 1  20 12 26 0
     10 12 65 1  10 12 20 0
 endnode
-node trimesh ogre_lcalf.001
-  parent ogre_lthigh.001
+node trimesh ogre_lcalf
+  parent ogre_lthigh
   position  0.05502 -0.06621 -0.81653
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -4474,15 +4474,15 @@ node trimesh ogre_lcalf.001
     48 49 50 1  35 36 37 0
     51 48 50 1  38 35 37 0
 endnode
-node trimesh ogre_lfoot.001
-  parent ogre_lcalf.001
+node trimesh ogre_lfoot
+  parent ogre_lcalf
   position -0.02172 -0.08510 -0.71984
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -4672,14 +4672,14 @@ node trimesh ogre_lfoot.001
     14 13 55 1  12 11 14 0
 endnode
 node trimesh lf_bracelet09
-  parent ogre_lcalf.001
+  parent ogre_lcalf
   position -0.04203 -0.01732 -0.13479
   orientation -0.83705  0.04413  0.54534  0.46681
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -4765,14 +4765,14 @@ node trimesh lf_bracelet09
     21 12 13 1  10  8  9 0
 endnode
 node trimesh lf_bracelet08
-  parent ogre_lcalf.001
+  parent ogre_lcalf
   position -0.04378 -0.10353 -0.61589
   orientation -0.35145 -0.06089  0.93422  0.27190
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -4855,15 +4855,15 @@ node trimesh lf_bracelet08
     20 10 11 1   6  5  7 0
     21 12 13 1   9  7  8 0
 endnode
-node trimesh ogre_rthigh.001
-  parent ogre_pelvis.001
+node trimesh ogre_rthigh
+  parent ogre_pelvis
   position  0.16931 -0.00140 -0.12179
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -5090,15 +5090,15 @@ node trimesh ogre_rthigh.001
     33 32 64 1  20 27 11 0
     10 65 11 1  10 20 11 0
 endnode
-node trimesh ogre_rcalf.001
-  parent ogre_rthigh.001
+node trimesh ogre_rcalf
+  parent ogre_rthigh
   position -0.05503 -0.06621 -0.81653
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -5284,15 +5284,15 @@ node trimesh ogre_rcalf.001
     48 49 50 1  35 36 37 0
     51 49 48 1  38 36 35 0
 endnode
-node trimesh ogre_rfoot.001
-  parent ogre_rcalf.001
+node trimesh ogre_rfoot
+  parent ogre_rcalf
   position  0.02172 -0.08510 -0.71984
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -5482,14 +5482,14 @@ node trimesh ogre_rfoot.001
     13 14 55 1  11 12 14 0
 endnode
 node trimesh rf_bracelet01
-  parent ogre_rcalf.001
+  parent ogre_rcalf
   position  0.04540 -0.10936 -0.58146
   orientation -0.43833  0.20575 -0.87495  0.45119
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
+  selfillumcolor 0.50 0.50 0.50
   bitmap c_ogremageb
   shininess 26
   render 1
@@ -5574,12 +5574,12 @@ node trimesh rf_bracelet01
      5 19 20 1   5 12 13 0
     21 15 13 1  13 12 11 0
 endnode
-node dummy headconjure.001
+node dummy headconjure
   parent c_ogremageb
   position  0.01793  0.90955  2.84668
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-node dummy handconjure.001
+node dummy handconjure
   parent c_ogremageb
   position  0.00163  2.30115  1.50925
   orientation  0.00000  1.00000  0.00000  0.00000
