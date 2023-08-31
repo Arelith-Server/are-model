@@ -1,30 +1,30 @@
-# Exported from NeverBlender 2.8.43 - Sunday, 2023-06-11
+# NeverBlender 2.8.47|Blender 2.93.0|2023-08-31
 filedependancy unknown
-newmodel c_minochiefB
-setsupermodel c_minochiefB c_minotaur
+newmodel c_minochief
+setsupermodel c_minochief c_minotaur
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom c_minochiefB
-node dummy c_minochiefB
+beginmodelgeom c_minochief
+node dummy c_minochief
   parent null
 endnode
 node dummy handconjure
-  parent c_minochiefB
+  parent c_minochief
   position  0.04536  1.49536  1.83362
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy headconjure
-  parent c_minochiefB
+  parent c_minochief
   position  0.00000  0.32680  2.64782
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-node dummy rootdummy
-  parent c_minochiefB
+node dummy rootdummy.002
+  parent c_minochief
   position  0.00837 -0.22086  1.17474
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh pelvis_g
-  parent rootdummy
+  parent rootdummy.002
   position  0.00000 -0.00990  0.12417
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -32,7 +32,7 @@ node trimesh pelvis_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -158,7 +158,7 @@ node trimesh torso_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -384,7 +384,7 @@ node trimesh lbicep_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -612,7 +612,7 @@ node trimesh lforearm_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -772,7 +772,7 @@ node trimesh lhand_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -846,7 +846,7 @@ node trimesh lthumb_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -892,7 +892,7 @@ node trimesh lpinky_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -942,7 +942,7 @@ node trimesh lfinger_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -1002,7 +1002,7 @@ node trimesh head_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -1272,7 +1272,7 @@ node trimesh jaw_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -1371,7 +1371,7 @@ endnode
 node dummy head
   parent head_g
   position -0.00837  0.19924  0.37171
-  orientation  0.99908 -0.00000  0.00000  0.00873
+  orientation  0.99946  0.00000  0.00000  0.00873
 endnode
 node trimesh rbicep_g
   parent torso_g
@@ -1382,7 +1382,7 @@ node trimesh rbicep_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -1480,7 +1480,7 @@ node trimesh rforearm_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -1640,7 +1640,7 @@ node trimesh rhand_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -1714,7 +1714,7 @@ node trimesh rthumb_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -1760,7 +1760,7 @@ node trimesh rfinger_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -1810,7 +1810,7 @@ node trimesh rpinky_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -1854,7 +1854,7 @@ endnode
 node dummy rhand
   parent rhand_g
   position  0.20916  0.02891 -0.15561
-  orientation -0.18336 -0.96579 -0.18336  1.60559
+  orientation -0.18921 -0.96354 -0.18921  1.60793
 endnode
 node dummy impact
   parent torso_g
@@ -1870,7 +1870,7 @@ node trimesh lthigh_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -1944,7 +1944,7 @@ node trimesh lcalf_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2022,7 +2022,7 @@ node trimesh lfoot_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2104,7 +2104,7 @@ node trimesh lfoot2_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2187,7 +2187,7 @@ node trimesh tail1
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2236,7 +2236,7 @@ node trimesh tail2
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2284,7 +2284,7 @@ node trimesh tail3
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2332,7 +2332,7 @@ node trimesh tail4
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2380,7 +2380,7 @@ node trimesh tail5
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2428,7 +2428,7 @@ node trimesh tailtip
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2500,7 +2500,7 @@ node trimesh rthigh_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2574,7 +2574,7 @@ node trimesh rcalf_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2652,7 +2652,7 @@ node trimesh rfoot_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2734,7 +2734,7 @@ node trimesh rfoot2_g
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochiefB
+  bitmap c_minochief
   shininess 26
   render 1
   shadow 1
@@ -2808,5 +2808,5 @@ node trimesh rfoot2_g
     11  3 12 1  27 28 29 0
      9  1  5 1  18 17 24 0
 endnode
-endmodelgeom c_minochiefB
-donemodel c_minochiefB
+endmodelgeom c_minochief
+donemodel c_minochief
