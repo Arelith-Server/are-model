@@ -1,4 +1,4 @@
-# NeverBlender 2.8.47|Blender 2.93.0|2023-08-31
+# NeverBlender 2.8.47|Blender 2.93.0|2023-09-01
 filedependancy unknown
 newmodel c_minochief
 setsupermodel c_minochief c_minotaur
@@ -18,13 +18,13 @@ node dummy headconjure
   position  0.00000  0.32680  2.64782
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-node dummy rootdummy.002
+node dummy rootdummy
   parent c_minochief
   position  0.00837 -0.22086  1.17474
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh pelvis_g
-  parent rootdummy.002
+  parent rootdummy
   position  0.00000 -0.00990  0.12417
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
