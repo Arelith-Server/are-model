@@ -1,0 +1,124 @@
+# Exported from NeverBlender 2.8.37 - Thursday, 2023-07-06
+filedependancy unknown
+newmodel al_block_09
+setsupermodel al_block_09 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom al_block_09
+node dummy al_block_09
+  parent null
+endnode
+node trimesh visible
+  parent al_block_09
+  position -0.00599 -0.00672  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.56 0.11 0.69
+  ambient 1.00 1.00 1.00
+  diffuse 0.59 0.59 0.59
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap tic01_books00
+  shininess 10
+  render 1
+  shadow 0
+  verts 8
+    -10.00000 -10.00000  0.00000
+     10.00000 -10.00000  0.00000
+    -10.00000  10.00000  0.00000
+     10.00000  10.00000  0.00000
+    -10.00000 -10.00000  4.00000
+     10.00000 -10.00000  4.00000
+    -10.00000  10.00000  4.00000
+     10.00000  10.00000  4.00000
+  faces 12
+    0 2 3 1  0 0 0 0
+    3 1 0 1  0 0 0 0
+    4 5 7 1  0 0 0 0
+    7 6 4 1  0 0 0 0
+    0 1 5 2  0 0 0 0
+    5 4 0 2  0 0 0 0
+    1 3 7 4  0 0 0 0
+    7 5 1 4  0 0 0 0
+    3 2 6 2  0 0 0 0
+    6 7 3 2  0 0 0 0
+    2 0 4 4  0 0 0 0
+    4 6 2 4  0 0 0 0
+endnode
+endmodelgeom al_block_09
+
+# ANIM ASCII
+newanim default al_block_09
+  length 0.033
+  transtime 0.25
+  animroot al_block_09
+  node dummy al_block_09
+    parent null
+  endnode
+  node trimesh visible
+    parent al_block_09
+    positionkey 2
+       0.000  0.00000  0.00000  0.05000
+       0.033  0.00000  0.00000  0.05000
+    endlist
+    orientationkey 2
+       0.000  0.00000  1.00000  0.00000  0.00000
+       0.033  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node pwk al_block_09_pwk
+    parent al_block_09
+  endnode
+  node trimesh _09_wg
+    parent al_block_09_pwk
+  endnode
+doneanim default al_block_09
+
+newanim on al_block_09
+  length 0.033
+  transtime 0.25
+  animroot al_block_09
+  node dummy al_block_09
+    parent null
+  endnode
+  node trimesh visible
+    parent al_block_09
+    positionkey 2
+       0.000  0.00000  0.00000  0.05000
+       0.033  0.00000  0.00000  0.05000
+    endlist
+    orientationkey 2
+       0.000  0.00000  1.00000  0.00000  0.00000
+       0.033  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node pwk al_block_09_pwk
+    parent al_block_09
+  endnode
+  node trimesh _09_wg
+    parent al_block_09_pwk
+  endnode
+doneanim on al_block_09
+
+newanim off al_block_09
+  length 0.033
+  transtime 0.25
+  animroot al_block_09
+  node dummy al_block_09
+    parent null
+  endnode
+  node trimesh visible
+    parent al_block_09
+    positionkey 2
+       0.000  0.00000  0.00000 -10.95000
+       0.033  0.00000  0.00000 -10.95000
+    endlist
+  endnode
+  node pwk al_block_09_pwk
+    parent al_block_09
+  endnode
+  node trimesh _09_wg
+    parent al_block_09_pwk
+  endnode
+doneanim off al_block_09
+
+donemodel al_block_09
