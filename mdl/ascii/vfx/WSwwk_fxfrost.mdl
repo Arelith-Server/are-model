@@ -1,0 +1,135 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Tue Jan 19 15:56:02 2021
+#MAXMODEL ASCII
+newmodel WSwwk_fxfrost
+  setsupermodel WSwwk_fxfrost NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom WSwwk_fxfrost
+node dummy WSwwk_fxfrost
+  parent NULL
+  #part-number 0
+endnode
+node emitter g_wswgs_v_cold01b
+  parent WSwwk_fxfrost
+  #part-number 2
+  position 0 0.36 0.01
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 4
+  ygrid 4
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_smoke01a
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  orientation 0.05 1 0 1.5708
+  colorStart 0.729412 0.839216 1
+  colorEnd 0 0 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 0.14
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 5
+  lifeExp 1.5
+  mass 0.17
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 2
+  ysize 50
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0.09
+  lightningRadius 0.045
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0.75
+  grav 0.7
+  threshold 0.01
+endnode
+node emitter g_wswgs_v_cold
+  parent WSwwk_fxfrost
+  #part-number 3
+  position 0 0.36 0.01
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 4
+  ygrid 4
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_smoke01a
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  orientation 0.05 1 0 1.5708
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.2
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0.75
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 6
+  lifeExp 2
+  mass 0.01
+  spread 3.14159
+  particleRot 0
+  velocity 0
+  randvel 0.1
+  fps 0
+  xsize 2
+  ysize 50
+  bounce_co 0
+  blurlength 0.5
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom WSwwk_fxfrost
+donemodel WSwwk_fxfrost
