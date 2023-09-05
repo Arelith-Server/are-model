@@ -1,0 +1,110 @@
+# Exported from blender Tuesday, 2021-01-19
+filedependancy unknown
+newmodel WPlLc_fxacid
+setsupermodel WPlLc_fxacid null
+Classification Item
+setanimationscale 1.0
+beginmodelgeom WPlLc_fxacid
+node dummy WPlLc_fxacid
+  parent null
+endnode
+node emitter g_wswgs_v_acid01
+  parent WPlLc_fxacid
+  position 0 1.5 0
+  orientation 0 1 0 1.5708
+  xsize 5
+  ysize 200
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 14
+  lifeexp 2
+  mass 0.00
+  velocity 0.00
+  randvel 0.05
+  particlerot 0.00
+  spread 2.27
+  splat 0
+  affectedbywind 0
+  colorstart 0.26 0.92 0.00
+  colorend 0.07 0.55 0.00
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.40
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter g_wswgs_v_acid_b
+  parent WPlLc_fxacid
+  position 0 1.5 0
+  orientation 0 1 0 1.5708
+  xsize 5
+  ysize 200
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 2
+  mass 1.50
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.26 0.92 0.00
+  colorend 0.07 0.55 0.00
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.20
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom WPlLc_fxacid
+donemodel WPlLc_fxacid
