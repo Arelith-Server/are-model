@@ -1,4 +1,4 @@
-# NeverBlender 2.8.47|Blender 2.93.0|2023-09-13
+# NeverBlender 2.8.47|Blender 2.93.0|2023-09-08
 filedependancy unknown
 newmodel c_gobchiefa
 setsupermodel c_gobchiefa c_goblina
@@ -235,7 +235,7 @@ node trimesh Lbicep_g
 endnode
 node trimesh Lbicep_g.001
   parent Lbicep_g
-  position  0.00000  0.00000  0.00000
+  position  0.00000  0.00000 -0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
@@ -1381,11 +1381,6 @@ node trimesh Demon_jaw02
      5 10  4 2   5 19  2 0
      8  9  1 1  11 18 12 0
      9  7  2 1  16  7  9 0
-endnode
-node dummy wings
-  parent torso_g
-  position  0.00000 -0.00492  0.15513
-  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh Rbicep_g
   parent torso_g
