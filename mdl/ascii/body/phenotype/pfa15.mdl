@@ -1,0 +1,287 @@
+# NeverBlender 2.8.47|Blender 2.93.0|2023-09-06
+filedependancy unknown
+newmodel pfa15
+setsupermodel pfa15 alt15_fa
+classification CHARACTER
+setanimationscale 0.64
+beginmodelgeom pfa15
+node dummy pfa15
+  parent null
+endnode
+node dummy rootdummy
+  parent pfa15
+  position  0.00025 -0.03255  0.75800
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy torso_g
+  parent rootdummy
+  position  0.00069  0.01070 -0.00054
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rbicep_g
+  parent torso_g
+  position  0.09763 -0.02564  0.21050
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rshoulder_g
+  parent rbicep_g
+  position -0.00500  0.00500  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rforearm_g
+  parent rbicep_g
+  position  0.01898 -0.01486 -0.20331
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rhand_g
+  parent rforearm_g
+  position  0.01643  0.00793 -0.16336
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rhand
+  parent rhand_g
+  position  0.00401 -0.00465 -0.05228
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lbicep_g
+  parent torso_g
+  position -0.09951 -0.02564  0.21050
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lshoulder_g
+  parent lbicep_g
+  position  0.00500  0.00500  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lforearm_g
+  parent lbicep_g
+  position -0.01898 -0.01486 -0.20331
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lhand_g
+  parent lforearm_g
+  position -0.01644  0.00793 -0.16336
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lhand
+  parent lhand_g
+  position -0.00401  0.00281 -0.05228
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lforearm
+  parent lforearm_g
+  position -0.01916 -0.00000 -0.12066
+  orientation -0.00000  0.99998  0.00005  0.06981
+endnode
+node dummy neck_g
+  parent torso_g
+  position -0.00108 -0.03198  0.24636
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy head_g
+  parent neck_g
+  position  0.00034  0.01063  0.05720
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy head
+  parent head_g
+  position -0.00029 -0.00500  0.15401
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Impact
+  parent torso_g
+  position  0.00189  0.02755  0.22907
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy wings
+  parent torso_g
+  position  0.00578 -0.05092  0.13151
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Cloak_g
+  parent torso_g
+  position  0.00000 -0.07307  0.25478
+  orientation -0.00000  0.00000  0.00000  0.00000
+endnode
+node dummy CL1_fg
+  parent Cloak_g
+  position -0.11846  0.00237  0.01756
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CR1_fg
+  parent Cloak_g
+  position  0.11846  0.00237  0.01756
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy cloak_shL
+  parent Cloak_g
+  position -0.05254  0.00000  0.02465
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy cloak_shR
+  parent Cloak_g
+  position  0.05254  0.00000  0.02465
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CL1_g
+  parent Cloak_g
+  position -0.11846  0.00237  0.00715
+  orientation -0.00000  0.00000 -0.00000  0.00000
+endnode
+node dummy CL2_g
+  parent CL1_g
+  position -0.01030 -0.05953 -0.24020
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CL3_g
+  parent CL2_g
+  position -0.00773 -0.00563 -0.17720
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CL4_g
+  parent CL3_g
+  position -0.01288 -0.01117 -0.24857
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CM1_g
+  parent Cloak_g
+  position  0.00000 -0.06195 -0.02684
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CM2_g
+  parent CM1_g
+  position  0.00000 -0.00425 -0.21699
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CM3_g
+  parent CM2_g
+  position  0.00000 -0.01482 -0.17227
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CM4_g
+  parent CM3_g
+  position  0.00000 -0.01613 -0.24827
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CR1_g
+  parent Cloak_g
+  position  0.11846  0.00237  0.00715
+  orientation -0.00000  0.00000  0.00000  0.00000
+endnode
+node dummy CR2_g
+  parent CR1_g
+  position  0.01030 -0.05953 -0.24020
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CR3_g
+  parent CR2_g
+  position  0.00773 -0.00563 -0.17720
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CR4_g
+  parent CR3_g
+  position  0.01288 -0.01117 -0.24857
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy pelvis_g
+  parent rootdummy
+  position  0.00069  0.01070 -0.00054
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rthigh_g
+  parent pelvis_g
+  position  0.05651 -0.02511 -0.10818
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rshin_g
+  parent rthigh_g
+  position -0.00679 -0.00482 -0.30370
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rfoot_g
+  parent rshin_g
+  position -0.02155 -0.03720 -0.23415
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lthigh_g
+  parent pelvis_g
+  position -0.05840 -0.02511 -0.10818
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lshin_g
+  parent lthigh_g
+  position  0.00679 -0.00482 -0.30370
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lfoot_g
+  parent lshin_g
+  position  0.02155 -0.03720 -0.23415
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy belt_g
+  parent pelvis_g
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy tail
+  parent pelvis_g
+  position -0.00066 -0.06421 -0.10639
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy belt_g1
+  parent rootdummy
+  position -0.00025  0.01034  0.00021
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy FB1_g01
+  parent belt_g1
+  position -0.00009 -0.09921 -0.05024
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy FB2_g01
+  parent FB1_g01
+  position  0.00000 -0.00929 -0.11678
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy FB4_g01
+  parent FB2_g01
+  position  0.00000 -0.00413 -0.15039
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy TF1_g
+  parent belt_g1
+  position -0.00009  0.05919 -0.04999
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy TF1L_g
+  parent TF1_g
+  position  0.00000  0.00000  0.00000
+  orientation -0.00000  0.00000  0.00000  0.00000
+endnode
+node dummy TF1R_g
+  parent TF1_g
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy TF2_g
+  parent TF1_g
+  position  0.00000  0.00522 -0.17955
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy TF3_g01
+  parent TF2_g
+  position  0.00000 -0.01359 -0.09019
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy headconjure
+  parent pfa15
+  position -0.00009 -0.10302  1.64265
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy handconjure
+  parent pfa15
+  position  0.00713  0.17303  0.91380
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+endmodelgeom pfa15
+donemodel pfa15

@@ -1,0 +1,639 @@
+# NeverBlender 2.8.47|Blender 2.93.0|2023-09-06
+filedependancy unknown
+newmodel pfh15
+setsupermodel pfh15 alt15_fa
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom pfh15
+node dummy pfh15
+  parent null
+endnode
+node trimesh rootdummy
+  parent pfh15
+  position -0.00336  0.02050  1.20720
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.52 0.52 0.52
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 0
+  render 0
+  shadow 0
+  tilefade 0
+  verts 8
+     0.02243 -0.01951 -0.01901
+    -0.02243 -0.01951 -0.01901
+     0.02243 -0.01951  0.01902
+    -0.02243 -0.01951  0.01902
+     0.02243  0.01852 -0.01901
+    -0.02243  0.01852 -0.01901
+     0.02243  0.01852  0.01902
+    -0.02243  0.01852  0.01902
+  faces 12
+    0 2 3 1  0 0 0 0
+    3 1 0 1  0 0 0 0
+    4 5 7 1  0 0 0 0
+    7 6 4 1  0 0 0 0
+    0 1 5 1  0 0 0 0
+    5 4 0 1  0 0 0 0
+    1 3 7 1  0 0 0 0
+    7 5 1 1  0 0 0 0
+    3 2 6 1  0 0 0 0
+    6 7 3 1  0 0 0 0
+    2 0 4 1  0 0 0 0
+    4 6 2 1  0 0 0 0
+endnode
+node dummy pelvis_g
+  parent rootdummy
+  position  0.00069  0.01070 -0.00054
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rthigh_g
+  parent pelvis_g
+  position  0.08151 -0.03311 -0.19018
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rshin_g
+  parent rthigh_g
+  position -0.01479 -0.00482 -0.46170
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rfoot_g
+  parent rshin_g
+  position -0.03355 -0.06120 -0.40415
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lthigh_g
+  parent pelvis_g
+  position -0.08340 -0.03311 -0.19018
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lshin_g
+  parent lthigh_g
+  position  0.01479 -0.00482 -0.46170
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lfoot_g
+  parent lshin_g
+  position  0.03355 -0.06120 -0.40415
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy belt_g
+  parent pelvis_g
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy tail
+  parent pelvis_g
+  position -0.00077 -0.10815 -0.08434
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy torso_g
+  parent rootdummy
+  position  0.00041  0.01034  0.00021
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rbicep_g
+  parent torso_g
+  position  0.13763 -0.03564  0.30550
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rshoulder_g
+  parent rbicep_g
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rforearm_g
+  parent rbicep_g
+  position  0.03198 -0.02486 -0.31631
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rhand_g
+  parent rforearm_g
+  position  0.02543  0.01393 -0.25236
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy rhand
+  parent rhand_g
+  position  0.00101  0.01042 -0.08187
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lbicep_g
+  parent torso_g
+  position -0.13951 -0.03564  0.30550
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lshoulder_g
+  parent lbicep_g
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lforearm_g
+  parent lbicep_g
+  position -0.03198 -0.02486 -0.31631
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lhand_g
+  parent lforearm_g
+  position -0.02544  0.01393 -0.25236
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lhand
+  parent lhand_g
+  position -0.00101  0.01027 -0.08210
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy lforearm
+  parent lforearm_g
+  position -0.03018 -0.00000 -0.18703
+  orientation -0.00000  0.99998  0.00005  0.06981
+endnode
+node dummy neck_g
+  parent torso_g
+  position -0.00108 -0.04498  0.34636
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy head_g
+  parent neck_g
+  position  0.00034  0.01863  0.11144
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy head
+  parent head_g
+  position -0.00020  0.02086  0.22081
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Impact
+  parent torso_g
+  position  0.00094  0.08702  0.10779
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Cloak_g
+  parent torso_g
+  position  0.00222 -0.09190  0.36431
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CL1_fg
+  parent Cloak_g
+  position -0.17229  0.00336  0.02674
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CL1_g
+  parent Cloak_g
+  position -0.17229  0.00336  0.01088
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CL2_g
+  parent CL1_g
+  position -0.01498 -0.08424 -0.36571
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CL3_g
+  parent CL2_g
+  position -0.01124 -0.00797 -0.26978
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CL4_g
+  parent CL3_g
+  position -0.01873 -0.01581 -0.37845
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy cloak_shL
+  parent Cloak_g
+  position -0.07641  0.00000  0.03753
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy cloak_shR
+  parent Cloak_g
+  position  0.07641  0.00000  0.03753
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CM1_g
+  parent Cloak_g
+  position  0.00000 -0.08766 -0.04087
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CM2_g
+  parent CM1_g
+  position  0.00000 -0.00601 -0.33037
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CM3_g
+  parent CM2_g
+  position  0.00000 -0.02097 -0.26229
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CM4_g
+  parent CM3_g
+  position  0.00000 -0.02283 -0.37799
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CR1_fg
+  parent Cloak_g
+  position  0.17229  0.00336  0.02674
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CR1_g
+  parent Cloak_g
+  position  0.17229  0.00336  0.01088
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CR2_g
+  parent CR1_g
+  position  0.01498 -0.08424 -0.36571
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CR3_g
+  parent CR2_g
+  position  0.01124 -0.00797 -0.26978
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy CR4_g
+  parent CR3_g
+  position  0.01873 -0.01581 -0.37845
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Impact.001
+  parent torso_g
+  position -0.00937  0.09348  0.22240
+  orientation  0.57735  0.57735  0.57735  2.09440
+endnode
+node dummy wings
+  parent torso_g
+  position -0.00100 -0.07339  0.18290
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node trimesh belt_g1
+  parent rootdummy
+  position  0.00000 -0.04271 -0.01472
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.87 0.87 0.87
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 3
+  render 0
+  shadow 0
+  tilefade 0
+  verts 14
+     0.00000 -0.03241 -0.19455
+     0.00000  0.07263 -0.00063
+     0.00000 -0.07174 -0.00789
+     0.00000 -0.05154  0.02799
+     0.06246 -0.00078  0.03765
+     0.06896  0.05835 -0.00039
+     0.06896 -0.05683 -0.00257
+    -0.06251 -0.00078  0.03765
+    -0.06901  0.05835 -0.00039
+    -0.06901 -0.05683 -0.00257
+     0.05268  0.06051 -0.05058
+     0.00000  0.06807 -0.05409
+    -0.05272  0.06051 -0.05058
+     0.00000 -0.00078  0.03765
+  faces 24
+     0  5  4 1  0 0 0 0
+     4  5  1 1  0 0 0 0
+     3  2  6 1  0 0 0 0
+     6  2  0 1  0 0 0 0
+     4  3  6 1  0 0 0 0
+     4  6  0 1  0 0 0 0
+     0 12 11 1  0 0 0 0
+     8  0  7 1  0 0 0 0
+     8  7  1 1  0 0 0 0
+     1  7 13 1  0 0 0 0
+     2  3  9 1  0 0 0 0
+     2  9  0 1  0 0 0 0
+     3 13  7 1  0 0 0 0
+     3  7  9 1  0 0 0 0
+     9  7  0 1  0 0 0 0
+     1 10 11 1  0 0 0 0
+     5 10  1 1  0 0 0 0
+     5  0 10 1  0 0 0 0
+    11 12  1 1  0 0 0 0
+    12  8  1 1  0 0 0 0
+    12  0  8 1  0 0 0 0
+    10  0 11 1  0 0 0 0
+     3  4 13 1  0 0 0 0
+     1 13  4 1  0 0 0 0
+endnode
+node trimesh FB1_g01
+  parent belt_g1
+  position -0.00014 -0.11275 -0.08103
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.78 0.78 0.78
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 14
+  render 0
+  shadow 0
+  tilefade 0
+  verts 13
+     0.00162  0.00070  0.00070
+     0.12433  0.04723  0.00521
+     0.10788  0.00897 -0.08614
+     0.00162 -0.00719 -0.18882
+     0.00162 -0.01206 -0.10971
+     0.05333 -0.02655 -0.10802
+     0.08853 -0.00596 -0.17969
+     0.05975 -0.00370 -0.00063
+    -0.12109  0.04723  0.00521
+    -0.05009 -0.02655 -0.10802
+    -0.05651 -0.00370 -0.00063
+    -0.10464  0.00897 -0.08614
+    -0.08528 -0.00596 -0.17969
+  faces 14
+     4  5  0 1  0 0 0 0
+     7  0  5 1  0 0 0 0
+     2  1  7 1  0 0 0 0
+     3  5  4 1  0 0 0 0
+     6  2  5 1  0 0 0 0
+     5  2  7 1  0 0 0 0
+     3  6  5 1  0 0 0 0
+     9  4  0 1  0 0 0 0
+     0 10  9 1  0 0 0 0
+     8 11 10 1  0 0 0 0
+     9  3  4 1  0 0 0 0
+    11 12  9 1  0 0 0 0
+    11  9 10 1  0 0 0 0
+    12  3  9 1  0 0 0 0
+endnode
+node trimesh FB2_g01
+  parent FB1_g01
+  position  0.00000 -0.01290 -0.18836
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.60 0.60 0.60
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 2
+  render 0
+  shadow 0
+  tilefade 0
+  verts 12
+     0.00162  0.00571 -0.00046
+     0.08853  0.00694  0.00868
+     0.00162  0.00061 -0.12314
+     0.08925  0.00281 -0.11476
+    -0.08528  0.00694  0.00868
+    -0.08601  0.00281 -0.11476
+     0.00162 -0.00450 -0.24581
+     0.00162  0.00061 -0.12314
+     0.08925  0.00281 -0.11477
+     0.08998 -0.00287 -0.23820
+    -0.08674 -0.00287 -0.23820
+    -0.08601  0.00281 -0.11477
+  faces 8
+     1  0  3 1  0 0 0 0
+     2  3  0 1  0 0 0 0
+     0  4  5 1  0 0 0 0
+     5  2  0 1  0 0 0 0
+     6  9  7 1  0 0 0 0
+     8  7  9 1  0 0 0 0
+    10  6  7 1  0 0 0 0
+     7 11 10 1  0 0 0 0
+endnode
+node trimesh FB4_g01
+  parent FB2_g01
+  position  0.00000 -0.00573 -0.24257
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.60 0.60 0.60
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 2
+  render 0
+  shadow 0
+  tilefade 0
+  verts 12
+     0.00162 -0.00387 -0.12592
+     0.00162  0.00124 -0.00324
+     0.08998  0.00286  0.00436
+     0.09071 -0.00229 -0.11908
+    -0.08674  0.00286  0.00436
+    -0.08747 -0.00229 -0.11908
+     0.00162 -0.00897 -0.24859
+     0.09144 -0.00643 -0.24251
+     0.00162 -0.00387 -0.12592
+     0.09071 -0.00229 -0.11908
+    -0.08819 -0.00643 -0.24251
+    -0.08747 -0.00229 -0.11908
+  faces 8
+     0  3  1 1  0 0 0 0
+     2  1  3 1  0 0 0 0
+     5  0  1 1  0 0 0 0
+     1  4  5 1  0 0 0 0
+     6  7  8 1  0 0 0 0
+     9  8  7 1  0 0 0 0
+    10  6  8 1  0 0 0 0
+     8 11 10 1  0 0 0 0
+endnode
+node trimesh TF1_g
+  parent belt_g1
+  position -0.00014  0.07462 -0.08063
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.87 0.87 0.87
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 2
+  render 0
+  shadow 0
+  tilefade 0
+  verts 22
+     0.00162  0.01284 -0.05284
+     0.08230 -0.01630  0.00153
+     0.13067 -0.03311 -0.05139
+     0.05884  0.00298 -0.05262
+     0.13392 -0.05841  0.00532
+     0.00162  0.01699 -0.14465
+     0.11247 -0.01330 -0.14463
+     0.00162  0.00497  0.00117
+     0.00161  0.01282 -0.05285
+     0.00159  0.01695 -0.14466
+     0.00162  0.00497  0.00117
+    -0.13065 -0.05845  0.00537
+    -0.07905 -0.01633  0.00155
+    -0.12742 -0.03317 -0.05136
+    -0.05561  0.00294 -0.05262
+    -0.10925 -0.01339 -0.14461
+     0.00162  0.01699 -0.14465
+     0.11247 -0.01330 -0.14463
+     0.00162  0.00864 -0.28921
+     0.09559 -0.01320 -0.28661
+    -0.09234 -0.01320 -0.28661
+    -0.10922 -0.01330 -0.14463
+  faces 18
+     2  1  4 1  0 0 0 0
+     5  0  3 1  0 0 0 0
+     6  5  3 1  0 0 0 0
+     2  3  1 1  0 0 0 0
+     3  0  7 1  0 0 0 0
+     7  1  3 1  0 0 0 0
+     2  6  3 1  0 0 0 0
+    12 13 11 1  0 0 0 0
+     8  9 14 1  0 0 0 0
+     9 15 14 1  0 0 0 0
+    14 13 12 1  0 0 0 0
+    10 14 12 1  0 0 0 0
+    14 10  8 1  0 0 0 0
+    15 13 14 1  0 0 0 0
+    16 19 18 1  0 0 0 0
+    17 19 16 1  0 0 0 0
+    20 16 18 1  0 0 0 0
+    20 21 16 1  0 0 0 0
+endnode
+node trimesh TF2_g
+  parent TF1_g
+  position  0.00000  0.00724 -0.28960
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.87 0.87 0.87
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 14
+  render 0
+  shadow 0
+  tilefade 0
+  verts 6
+     0.00162 -0.01122 -0.14665
+     0.00162  0.00140  0.00038
+     0.09016 -0.02956 -0.14680
+     0.09559 -0.02044  0.00299
+    -0.08691 -0.02956 -0.14680
+    -0.09234 -0.02044  0.00299
+  faces 4
+    2 0 3 1  0 0 0 0
+    1 3 0 1  0 0 0 0
+    0 4 5 1  0 0 0 0
+    5 1 0 1  0 0 0 0
+endnode
+node trimesh TF3_g01
+  parent TF2_g
+  position  0.00000 -0.01887 -0.14547
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.34 0.34 0.34
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 2
+  render 0
+  shadow 0
+  tilefade 0
+  verts 12
+     0.00162 -0.00497 -0.14821
+     0.00162  0.00765 -0.00118
+     0.09016 -0.01068 -0.00133
+     0.08904 -0.01260 -0.14729
+    -0.08691 -0.01068 -0.00133
+    -0.08579 -0.01260 -0.14729
+     0.00162 -0.01759 -0.29524
+     0.09089 -0.01866 -0.29326
+     0.00162 -0.00497 -0.14821
+     0.08904 -0.01260 -0.14729
+    -0.08764 -0.01866 -0.29326
+    -0.08579 -0.01260 -0.14729
+  faces 8
+     0  1  3 1  0 0 0 0
+     2  3  1 1  0 0 0 0
+     1  0  5 1  0 0 0 0
+     5  4  1 1  0 0 0 0
+     6  8  7 1  0 0 0 0
+     9  7  8 1  0 0 0 0
+     8  6 10 1  0 0 0 0
+    10 11  8 1  0 0 0 0
+endnode
+node trimesh TF1L_g
+  parent TF1_g
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.87 0.87 0.87
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 2
+  render 0
+  shadow 0
+  tilefade 0
+  verts 12
+     0.00162  0.01284 -0.05284
+     0.08230 -0.01630  0.00153
+     0.13067 -0.03311 -0.05139
+     0.05884  0.00298 -0.05262
+     0.13392 -0.05841  0.00532
+     0.00162  0.01699 -0.14465
+     0.11247 -0.01330 -0.14463
+     0.00162  0.00497  0.00117
+     0.00162  0.01699 -0.14465
+     0.11247 -0.01330 -0.14463
+     0.00162  0.00864 -0.28921
+     0.09559 -0.01320 -0.28661
+  faces 9
+     2  1  4 1  0 0 0 0
+     5  0  3 1  0 0 0 0
+     6  5  3 1  0 0 0 0
+     2  3  1 1  0 0 0 0
+     3  0  7 1  0 0 0 0
+     7  1  3 1  0 0 0 0
+     2  6  3 1  0 0 0 0
+     8 11 10 1  0 0 0 0
+     9 11  8 1  0 0 0 0
+endnode
+node trimesh TF1R_g
+  parent TF1_g
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 0.69 0.69 0.69
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 2
+  render 0
+  shadow 0
+  tilefade 0
+  verts 12
+     0.00161  0.01282 -0.05285
+     0.00159  0.01695 -0.14466
+     0.00162  0.00497  0.00117
+    -0.13065 -0.05845  0.00537
+    -0.07905 -0.01633  0.00155
+    -0.12742 -0.03317 -0.05136
+    -0.05561  0.00294 -0.05262
+    -0.10925 -0.01339 -0.14461
+     0.00162  0.01699 -0.14465
+     0.00162  0.00864 -0.28921
+    -0.09234 -0.01320 -0.28661
+    -0.10922 -0.01330 -0.14463
+  faces 9
+     4  5  3 1  0 0 0 0
+     0  1  6 1  0 0 0 0
+     1  7  6 1  0 0 0 0
+     6  5  4 1  0 0 0 0
+     2  6  4 1  0 0 0 0
+     6  2  0 1  0 0 0 0
+     7  5  6 1  0 0 0 0
+    10  8  9 1  0 0 0 0
+    10 11  8 1  0 0 0 0
+endnode
+node dummy handconjure
+  parent pfh15
+  position  0.00000  0.27838  1.40670
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy headconjure
+  parent pfh15
+  position  0.00000 -0.02788  2.31815
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+endmodelgeom pfh15
+donemodel pfh15
