@@ -1,0 +1,154 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Tue Jan 19 15:56:02 2021
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel wswnd_fxelect
+  Classification Item
+  setsupermodel wswnd_fxelect NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom wswnd_fxelect
+node dummy wswnd_fxelect
+  parent NULL
+endnode
+node emitter g_wswgs_v_elec_b01
+  parent wswnd_fxelect
+  position 0 0.74634  0.04283
+  alpha 0.5
+  orientation 1.00001  0.00000 -0.00000  0.05236
+  wirecolor 0.603922 0.603922 0.898039
+  colorStart 1 1 1
+  colorEnd 0.572549 0.643137 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 10
+  spawntype 0
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 12
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 4
+  ysize 115
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Linked
+  blend Lighten
+  deadspace 0
+  blurlength 10
+  lightningDelay 0.05
+  lightningRadius 0.05
+  lightningScale 0.5
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 1
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 10
+  drag 0.2
+  grav 0
+  threshold 0
+  texture fxpa_lightning2
+  xgrid 2
+  ygrid 2
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+endnode
+node reference g_wswgs_v_elec_b_ref01
+  parent g_wswgs_v_elec_b01
+  position 0 0 0
+  orientation 0 1 0 -1.5708
+  wirecolor 0.898039 0.603922 0.843137
+  refModel fx_ref
+  reattachable 1
+endnode
+node emitter g_wswgs_v_elec01
+  parent wswnd_fxelect
+  position 0 0.74634  0.04283
+  alpha 0.5
+  orientation 1.00001  0.00000 -0.00000  0.05236
+  wirecolor 0.6 0.894118 0.6
+  colorStart 1 1 1
+  colorEnd 0.545098 0.976471 0.737255
+  alphaStart 0.75
+  alphaEnd 0.5
+  sizeStart 0.1
+  sizeEnd 0.075
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 5
+  spawntype 0
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 200
+  velocity 0
+  randvel 0
+  fps 0
+  random 0
+  inherit 1
+  inherit_local 0
+  inherit_part 0
+  inheritvel 0
+  xsize 4
+  ysize 115
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Lightning
+  render Linked
+  blend Lighten
+  deadspace 0
+  blurlength 10
+  lightningDelay 0.09
+  lightningRadius 0.05
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_lightning2
+  xgrid 2
+  ygrid 2
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+endnode
+node reference g_wswgs_v_elec_ref01
+  parent g_wswgs_v_elec01
+  position 0 0 0
+  orientation -1 3.31644e-07 -2.13432e-07 -3.14159
+  wirecolor 0.898039 0.603922 0.843137
+  refModel fx_ref
+  reattachable 1
+endnode
+endmodelgeom wswnd_fxelect
+donemodel wswnd_fxelect
