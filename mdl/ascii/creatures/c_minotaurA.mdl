@@ -1,4 +1,4 @@
-# NeverBlender 2.8.47|Blender 2.93.0|2023-09-02
+# NeverBlender 2.8.47|Blender 2.93.0|2023-09-12
 filedependancy unknown
 newmodel c_minotaurA
 setsupermodel c_minotaurA c_minotaur
@@ -749,12 +749,12 @@ node trimesh lfinger_g
     7 5 8 1  7 5 8 0
     8 4 7 1  8 4 7 0
 endnode
-node dummy lhand.001
+node dummy lhand
   parent lhand_g
   position -0.22680  0.02891 -0.17157
   orientation -0.17928  0.96732  0.17928  1.60401
 endnode
-node dummy lforearm.001
+node dummy lforearm
   parent lforearm_g
   position -0.18796  0.02946 -0.01960
   orientation  0.00000  1.00000  0.00000  1.57080
@@ -1526,7 +1526,7 @@ endnode
 node dummy rhand
   parent rhand_g
   position  0.20916  0.02891 -0.15561
-  orientation -0.19462 -0.96138 -0.19462  1.61017
+  orientation -0.19918 -0.95951 -0.19918  1.61212
 endnode
 node dummy impact
   parent torso_g
