@@ -100,7 +100,7 @@ node emitter Sonic
   orientation  0.00000  0.00000 0.00000  0.00000
   xsize 28.53
   ysize 32.70
-  update Single
+  update Fountain
   render Aligned_to_Particle_Dir
   blend Lighten
   loop 1
@@ -145,6 +145,57 @@ node emitter Sonic
   inherit_local 0
   inherit_part 0
 endnode
+
+node emitter Ice
+  parent g_WAmAr_06
+  position  0.00024  0.10690  0.00982
+  orientation  1.00000  0.00000  0.00000  1.56932
+  xsize 3.00
+  ysize 4.41
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 1
+  renderorder 0
+  birthrate 60
+  lifeexp 0.2
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 1.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.10
+  sizeend 0.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+
 endmodelgeom WAmAr_fxsonic
 
 # ANIM ASCII
@@ -172,11 +223,29 @@ newanim travel01 WAmAr_fxsonic
        0.967 0.00
     endlist
     sizestartkey 5
-       0.000 1.00
-       0.100 0.75
-       0.200 0.50
-       0.300 0.25
+       0.000 0.50
+       0.100 0.40
+       0.200 0.30
+       0.300 0.20
        0.400 0.0
+    endlist
+  endnode
+
+  node emitter Ice
+    parent WAmAr_fxsonic
+    positionkey 2
+       0.000  0.00024  0.10690  0.00982
+       0.967  0.00024  0.10325  0.00982
+    endlist
+    orientationkey 1
+       0.000  1.00000  0.00000  0.00000  1.56932
+    endlist
+    lifeexpkey 1
+       0.000 0.40
+    endlist
+    sizestartkey 2
+       0.000 0.05
+       0.967 0.00
     endlist
   endnode
 doneanim travel01 WAmAr_fxsonic
