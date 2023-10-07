@@ -1,0 +1,200 @@
+# NeverBlender 2.8.47|Blender 3.3.10|2023-09-06
+filedependancy unknown
+newmodel WAmAr_fxfrost
+setsupermodel WAmAr_fxfrost null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom WAmAr_fxfrost
+node dummy WAmAr_fxfrost
+  parent null
+endnode
+node trimesh g_WAmAr_02
+  parent WAmAr_fxfrost
+  position  0.00018  0.02733 -0.00235
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap W_metal_tex
+  shininess 1
+  render 1
+  shadow 1
+  tilefade 0
+  verts 21
+    -0.00031  0.08442  0.04125
+     0.01776  0.09310  0.01721
+    -0.00031  0.14361  0.01716
+    -0.00031  0.08442 -0.00683
+    -0.01838  0.09310  0.01721
+    -0.00569  0.09376  0.02738
+     0.01200  0.09376  0.01721
+    -0.00569  0.09376  0.00699
+    -0.00569 -0.72756  0.02738
+     0.01200 -0.72756  0.01721
+    -0.00569 -0.72756  0.00699
+     0.03889 -0.72329  0.01749
+     0.03889 -0.60718  0.01749
+    -0.00165 -0.57114  0.01723
+    -0.03840 -0.72329  0.01749
+    -0.03840 -0.60718  0.01749
+     0.00011 -0.72329 -0.02128
+     0.00011 -0.60718 -0.02128
+     0.00038 -0.57114  0.01925
+     0.00011 -0.72329  0.05600
+     0.00011 -0.60718  0.05600
+  tverts 21
+     0.1524  0.7922  0
+     0.1917  0.8152  0
+     0.2310  0.9491  0
+     0.0347  0.8152  0
+     0.0739  0.7922  0
+     0.0739  0.9491  0
+     0.1132  0.8152  0
+     0.4037  0.4792  0
+     0.2902  0.4792  0
+     0.3551  0.4792  0
+     0.4684  0.4792  0
+     0.4037  0.3011  0
+     0.4684  0.3011  0
+     0.3551  0.3011  0
+     0.2902  0.3011  0
+     0.4945  0.0122  0
+     0.4945  0.1333  0
+     0.4340  0.1897  0
+     0.3792  0.0122  0
+     0.3792  0.1333  0
+     0.4397  0.1897  0
+  faces 26
+     0  1  2 1   0  1  2 0
+     1  3  2 1   3  4  5 0
+     2  4  0 2   5  6  0 0
+     2  3  4 2   5  4  6 0
+     3  1  4 4   4  3  6 0
+     0  4  1 4   0  6  1 0
+     5  6  7 1   7  8  9 0
+     6  8  9 2  10 11 12 0
+     6  5  8 2  10  7 11 0
+     5 10  8 2   7 13 11 0
+     5  7 10 2   7  9 13 0
+     7  9 10 2   9 14 13 0
+     7  6  9 2   9  8 14 0
+     8 10  9 1  11 13 14 0
+    11 12 13 1  15 16 17 0
+    13 14 11 1  17 18 15 0
+    12 11 14 2  16 15 18 0
+    14 13 12 2  18 17 16 0
+    14 15 13 4  18 19 17 0
+    14 13 15 8  18 17 19 0
+    16 17 18 1  18 19 20 0
+    18 19 16 2  20 15 18 0
+    18 16 19 4  20 18 15 0
+    16 18 17 8  18 20 19 0
+    19 20 18 1  15 16 20 0
+    19 18 20 8  15 20 16 0
+endnode
+node emitter Ice
+  parent g_WAmAr_02
+  position  0.00024  0.10690  0.00982
+  orientation  1.00000  0.00000  0.00000  1.56932
+  xsize 3.00
+  ysize 4.41
+  update Fountain
+  render Linked
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 60
+  lifeexp 1.00
+  mass -0.01
+  velocity 0.00
+  randvel 0.00
+  particlerot 1.00
+  spread 0.52
+  splat 0
+  affectedbywind 0
+  colorstart 0.40 0.85 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom WAmAr_fxfrost
+
+# ANIM ASCII
+newanim travel01 WAmAr_fxfrost
+  length 3.3
+  transtime 0.0
+  animroot WAmAr_fxfrost
+  node dummy WAmAr_fxfrost
+    parent null
+  endnode
+  node trimesh g_WAmAr_02
+    parent WAmAr_fxfrost
+  endnode
+  node emitter Ice
+    parent g_WAmAr_02
+    positionkey 2
+       0.000  0.00024  0.10690  0.00982
+       0.967  0.00024  0.10325  0.00982
+    endlist
+    orientationkey 1
+       0.000  1.00000  0.00000  0.00000  1.56932
+    endlist
+    birthratekey 4
+       0.000 600
+       0.967 600
+       1.000 60
+       1.967 30
+    endlist
+    masskey 1
+       0.000 0.00
+    endlist
+    velocitykey 3
+       0.000 0.30
+       0.967 0.30
+       1.000 0.00
+    endlist
+    lifeexpkey 3
+       0.000 1.00
+       1.000 1.00
+       2.000 0.30
+    endlist
+    spreadkey 2
+       0.000 3
+       0.967 1
+       1.000 0.3
+    endlist
+    sizestartkey 2
+       0.000 0.05
+       0.967 0.05
+    endlist
+  endnode
+doneanim travel01 WAmAr_fxfrost
+
+
+donemodel WAmAr_fxfrost
