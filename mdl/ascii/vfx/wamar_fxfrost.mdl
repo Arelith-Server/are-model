@@ -1,15 +1,15 @@
 # NeverBlender 2.8.47|Blender 3.3.10|2023-09-06
 filedependancy unknown
-newmodel WAmAr_fxfrost.001
-setsupermodel WAmAr_fxfrost.001 null
+newmodel WAmAr_fxfrost
+setsupermodel WAmAr_fxfrost null
 classification UNKNOWN
 setanimationscale 1.0
-beginmodelgeom WAmAr_fxfrost.001
-node dummy WAmAr_fxfrost.001
+beginmodelgeom WAmAr_fxfrost
+node dummy WAmAr_fxfrost
   parent null
 endnode
 node trimesh g_WAmAr_02
-  parent WAmAr_fxfrost.001
+  parent WAmAr_fxfrost
   position  0.00018  0.02733 -0.00235
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -143,18 +143,18 @@ node emitter Ice
   inherit_local 0
   inherit_part 0
 endnode
-endmodelgeom WAmAr_fxfrost.001
+endmodelgeom WAmAr_fxfrost
 
 # ANIM ASCII
-newanim travel01 WAmAr_fxfrost.001
+newanim travel01 WAmAr_fxfrost
   length 3.3
   transtime 0.0
-  animroot WAmAr_fxfrost.001
-  node dummy WAmAr_fxfrost.001
+  animroot WAmAr_fxfrost
+  node dummy WAmAr_fxfrost
     parent null
   endnode
   node trimesh g_WAmAr_02
-    parent WAmAr_fxfrost.001
+    parent WAmAr_fxfrost
   endnode
   node emitter Ice
     parent g_WAmAr_02
@@ -194,7 +194,7 @@ newanim travel01 WAmAr_fxfrost.001
        0.967 0.05
     endlist
   endnode
-doneanim travel01 WAmAr_fxfrost.001
+doneanim travel01 WAmAr_fxfrost
 
 
-donemodel WAmAr_fxfrost.001
+donemodel WAmAr_fxfrost
