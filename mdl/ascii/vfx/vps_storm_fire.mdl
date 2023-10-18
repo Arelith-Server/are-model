@@ -1,0 +1,1364 @@
+# NeverBlender 2.8.47|Blender 3.3.10|2023-10-16
+filedependancy unknown
+newmodel vps_storm_fire
+setsupermodel vps_storm_fire null
+classification EFFECT
+setanimationscale 1.0
+beginmodelgeom vps_storm_fire
+node dummy vps_storm_fire
+  parent null
+endnode
+node emitter dust06
+  parent vps_storm_fire
+  position -0.00000 -1.01746  0.17217
+  orientation  0.51999  0.51999 -0.67766  1.95044
+  xsize 20.00
+  ysize 100.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 1.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_firebb
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+node emitter dust07
+  parent vps_storm_fire
+  position  0.71946 -0.71946  0.17217
+  orientation  0.34246  0.82676 -0.44630  1.49626
+  xsize 20.00
+  ysize 100.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 1.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_firebb
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+node emitter dust05
+  parent vps_storm_fire
+  position -0.71946 -0.71946  0.17217
+  orientation  0.59028  0.24450 -0.76927  2.52465
+  xsize 20.00
+  ysize 100.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 1.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_firebb
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+node emitter dust04
+  parent vps_storm_fire
+  position -1.01746  0.00000  0.17217
+  orientation -0.60876  0.00000  0.79335  3.14159
+  xsize 20.00
+  ysize 100.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 1.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_firebb
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+node emitter dust03
+  parent vps_storm_fire
+  position -0.71946  0.71946  0.17217
+  orientation -0.59028  0.24450  0.76927  2.52465
+  xsize 20.00
+  ysize 100.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 1.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_firebb
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+node emitter dust02
+  parent vps_storm_fire
+  position  0.00000  1.01746  0.17217
+  orientation -0.51999  0.51999  0.67766  1.95044
+  xsize 20.00
+  ysize 100.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 1.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_firebb
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+node emitter dust01
+  parent vps_storm_fire
+  position  0.71946  0.71946  0.17217
+  orientation -0.34246  0.82676  0.44630  1.49626
+  xsize 20.00
+  ysize 100.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 1.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_firebb
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+node emitter dust
+  parent vps_storm_fire
+  position  1.01746 -0.00000  0.17217
+  orientation  0.00000  1.00000  0.00000  1.30900
+  xsize 20.00
+  ysize 100.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 1.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_firebb
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+
+node dummy Dummy01
+  parent vps_storm_fire
+  #part-number 1
+  position 0 0 2
+  orientation 0 0 0 0
+endnode
+
+node emitter OmenEmitter01
+  parent Dummy01
+  #part-number 2
+  p2p 1
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture NULL
+  chunkName fx_storm_fire
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.00940752961 -0.0802470967
+  orientation -1 0 0 -3.7349999
+  xsize 0.00
+  ysize 0.00
+  colorStart 0 0 0
+  colorEnd 0 0 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 2
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 2
+  mass 0
+  spread 12
+  particleRot 0.8
+  velocity 1.5
+  randvel 0
+  fps 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 1
+  grav 1.29999995
+  threshold 0
+endnode
+
+node reference OmenRef01
+  parent OmenEmitter01
+  #part-number 3
+  refModel fx_ref
+  reattachable 0
+  position 0.225106999 0.593083024 0.327401996
+  orientation -1 0 0 -2.5481801
+endnode
+
+
+node emitter OmenEmitter04
+  parent Dummy01
+  #part-number 4
+  p2p 1
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture NULL
+  chunkName fx_storm_fire
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.000461883988 0.0147901 -0.0802470967
+  orientation 0 -0.956304729 0.292371869 -3.14159012
+  xsize 0.00
+  ysize 0.00
+  colorStart 0 0 0
+  colorEnd 0 0 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 2
+  mass 0
+  spread 6.28318977
+  particleRot -0.200000003
+  velocity 1.5
+  randvel 0
+  fps 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 1
+  grav 1.29999995
+  threshold 0
+endnode
+node reference OmenRef02
+  parent OmenEmitter04
+  #part-number 5
+  refModel fx_ref
+  reattachable 0
+  position 0.225106999 0.611365974 0.315070003
+  orientation -1 0 0 -2.5481801
+endnode
+
+
+node emitter AuraEmitter04
+  parent vps_storm_fire
+  position  0.00000  0.00000  0.01336
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 0.00
+  ysize 0.00
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  loop 0
+  birthrate 1
+  lifeexp -1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.08
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 0.5
+  alphaend 0.5
+  sizestart 0.00
+  sizeend 0.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_ring_fire
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+
+endmodelgeom vps_storm_fire
+
+# ANIM ASCII
+newanim impact vps_storm_fire
+  length 0.3
+  transtime 0.0
+  animroot vps_storm_fire
+  node dummy vps_storm_fire
+    parent null
+  endnode
+  node emitter AuraEmitter01
+    parent vps_storm_fire
+    alphastartkey 1
+       0.300 1.00
+    endlist
+    alphaendkey 1
+       0.300 1.00
+    endlist
+    sizestartkey 4
+       0.000 0.00
+       0.167 2.00
+       0.200 2.00
+       0.300 2.00
+    endlist
+    sizeendkey 4
+       0.000 0.00
+       0.167 2.00
+       0.200 2.00
+       0.300 2.00
+    endlist
+  endnode
+  node emitter AuraEmitter02
+    parent vps_storm_fire
+    birthratekey 4
+       0.000 0
+       0.100 0
+       0.133 0
+       0.300 10
+    endlist
+  endnode
+  node dummy Dummy_rot
+    parent vps_storm_fire
+    orientationkey 1
+       0.300  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node emitter AuraEmitter03
+    parent Dummy_rot
+  endnode
+  node reference AuraRef01
+    parent AuraEmitter03
+  endnode
+  node emitter rings
+    parent vps_storm_fire
+    birthratekey 4
+       0.000 0
+       0.100 0
+       0.200 10
+       0.300 10
+    endlist
+  endnode
+  node emitter AuraEmitter04
+    parent vps_storm_fire
+    alphastartkey 1
+       0.300 0.5
+    endlist
+    alphaendkey 1
+       0.300 0.5
+    endlist
+    sizestartkey 4
+       0.000 0.00
+       0.167 6.00
+       0.200 6.00
+       0.300 6.00
+    endlist
+    sizeendkey 4
+       0.000 0.00
+       0.167 6.00
+       0.200 6.00
+       0.300 6.00
+    endlist
+  endnode
+  node dummy Dummy01
+    parent vps_storm_fire
+    #part-number 1
+    orientation 0 0 0 0
+  endnode
+  node emitter OmenEmitter01
+    parent Dummy01
+    #part-number 2
+    birthratekey 2
+      0 0
+      0.300000012 4
+  endnode
+  node dummy OmenRef01
+    parent OmenEmitter01
+    #part-number 3
+  endnode
+  node emitter OmenEmitter04
+    parent Dummy01
+    #part-number 4
+    birthratekey 2
+      0 0
+      0.300000012 4
+  endnode
+  node dummy OmenRef02
+    parent OmenEmitter04
+    #part-number 5
+  endnode
+doneanim impact vps_storm_fire
+
+newanim duration vps_storm_fire
+  length 1.0
+  transtime 0.0
+  animroot vps_storm_fire
+  node dummy vps_storm_fire
+    parent null
+  endnode
+  node emitter AuraEmitter01
+    parent vps_storm_fire
+    alphastartkey 5
+       0.000 1.00
+       0.033 1.00
+       0.433 0.70
+       0.967 1.00
+       1.000 1.00
+    endlist
+    alphaendkey 5
+       0.000 1.00
+       0.033 1.00
+       0.433 0.70
+       0.967 1.00
+       1.000 1.00
+    endlist
+    sizestartkey 4
+       0.000 2.00
+       0.033 2.00
+       0.967 2.00
+       1.000 2.00
+    endlist
+    sizeendkey 4
+       0.000 2.00
+       0.033 2.00
+       0.967 2.00
+       1.000 2.00
+    endlist
+  endnode
+  node emitter AuraEmitter02
+    parent vps_storm_fire
+    birthratekey 4
+       0.000 10
+       0.033 10
+       0.967 10
+       1.000 10
+    endlist
+  endnode
+  node dummy Dummy_rot
+    parent vps_storm_fire
+    orientationkey 5
+       0.000  0.00000  1.00000  0.00000  0.00000
+       0.267  0.00000  0.00000  1.00000  1.57080
+       0.500  0.00000  0.00000  1.00000  3.14159
+       0.767  0.00000  0.00000 -1.00000  1.57080
+       1.000  0.00000  0.00000  0.00000  0.00000
+    endlist
+  endnode
+  node emitter AuraEmitter03
+    parent Dummy_rot
+  endnode
+  node reference AuraRef01
+    parent AuraEmitter03
+  endnode
+  node emitter rings
+    parent vps_storm_fire
+    birthratekey 4
+       0.000 10
+       0.033 10
+       0.967 10
+       1.000 10
+    endlist
+  endnode
+  node emitter AuraEmitter04
+    parent vps_storm_fire
+    alphastartkey 5
+       0.000 0.5
+       0.033 0.5
+       0.433 0.5
+       0.967 0.5
+       1.000 0.5
+    endlist
+    alphaendkey 5
+       0.000 0.5
+       0.033 0.5
+       0.433 0.5
+       0.967 0.5
+       1.000 0.5
+    endlist
+    sizestartkey 4
+       0.000 6.00
+       0.033 6.00
+       0.967 6.00
+       1.000 6.00
+    endlist
+    sizeendkey 4
+       0.000 6.00
+       0.033 6.00
+       0.967 6.00
+       1.000 6.00
+    endlist
+  endnode
+  node dummy Dummy01
+    parent vps_storm_fire
+    #part-number 1
+    orientationkey 6
+      0.0333333015 -0 -0 -1 -1.57079995
+      0.366667002 -0 -0 -1 -3.14159012
+      0.699999988 -0 -0 -1 -4.71238995
+      1.03332996 0 0 0 0
+      1.33333004 -0 -0 1 -4.71238995
+      1.66666996 -0 -0 1 -3.14159012
+  endnode
+  node emitter OmenEmitter01
+    parent Dummy01
+    #part-number 2
+    birthratekey 4
+      0 4
+      0.0333333015 4
+      1.63332999 4
+      1.66666996 4
+    positionkey 80
+        0 0.0113918995 -0.0282409992 -0.00854736008
+        0.0337500013 0.0761905983 0.373268992 -0.0250888001
+        0.0675000027 0.26325199 0.734269977 -0.0792597979
+        0.10125 0.553749979 0.01857996 -0.133431002
+        0.135000005 0.91849798 0.19773996 -0.187601998
+        0.168750003 0.32088006 0.25381994 -0.241772994
+        0.202500001 0.72053003 0.18125999 -0.295944005
+        0.236249998 0.07735991 0.987398028 -0.350115001
+        0.270000011 0.35560989 0.691717982 -0.40428701
+        0.303750008 0.52739 0.323915988 -0.458456993
+        0.337500006 0.57552004 -0.0790942013 -0.512628973
+        0.371250004 0.49519992 -0.476879001 -0.566799998
+        0.405000001 0.29452991 -0.829541981 -0.620971024
+        0.438749999 0.99366999 -0.10171998 -0.67514199
+        0.472499996 0.62281001 -0.26612997 -0.729313016
+        0.506250024 0.21916997 -0.30630004 -0.783483982
+        0.540000021 0.823251009 -0.21822 -0.837656021
+        0.573750019 0.474759012 -0.01075006 -0.891826987
+        0.607500017 0.208648995 -0.704702973 -0.945998013
+        0.641250014 0.0516119003 -0.33079201 -1.00016999
+        0.675000012 0.0193967 0.0734696984 -1.05434
+        0.70875001 0.115234002 0.467528999 -1.10851002
+        0.742500007 0.329512 0.811851025 -1.16268003
+        0.776250005 0.640740991 0.07189 -1.21685004
+        0.810000002 0.01770997 0.22156 -1.27102005
+        0.84375 0.42259002 0.24582005 -1.32519996
+        0.877499998 0.81479001 0.14222002 -1.37936997
+        0.911249995 0.15493989 0.921136975 -1.43353999
+        0.944999993 0.40892005 0.604725003 -1.48771
+        0.97874999 0.55120993 0.224704996 -1.54188001
+        0.01250005 0.56750989 -0.180807993 -1.59605002
+        0.04624999 0.45615005 -0.571142018 -1.65022004
+        0.08000004 0.22827005 -0.907124996 -1.70439005
+        0.11374998 0.90666997 -0.15503001 -1.75856996
+        0.14750004 0.52359998 -0.28995001 -1.81273997
+        0.18124998 0.11746001 -0.29830003 -1.86690998
+        0.21500003 0.728989005 -0.17918003 -1.92107999
+        0.24874997 0.397175014 -0.944486976 -1.97525001
+        0.28250003 0.155339003 -0.617708981 -2.0294199
+        0.31624997 0.0277938992 -0.231582999 -2.06223989
+        0.35020995 0.0277987998 0.175121993 -2.06208992
+        0.38396001 0.155349001 0.561244011 -2.02927995
+        0.41770995 0.397188991 0.888016999 -1.97511005
+        0.45146 0.729003012 0.12269998 -1.92094004
+        0.48520994 0.11747003 0.24181998 -1.86677003
+        0.51896 0.52361 0.23345995 -1.81260002
+        0.55271006 0.90667999 0.09853995 -1.75841999
+        0.58645999 0.22827005 0.850637019 -1.70424998
+        0.62021005 0.45616007 0.514654994 -1.65007997
+        0.65395999 0.56750989 0.124324001 -1.59590995
+        0.68771005 0.55120993 -0.281188995 -1.54173994
+        0.72145998 0.40892005 -0.661206007 -1.48757005
+        0.75521004 0.15493989 -0.977617025 -1.43340003
+        0.78895998 0.81479001 -0.19869995 -1.37923002
+        0.82271004 0.42260003 -0.30229998 -1.32506001
+        0.85645998 0.01770997 -0.27804005 -1.27089
+        0.89021003 0.640749991 -0.12837994 -1.21671999
+        0.92395997 0.329519987 -0.868341982 -1.16253996
+        0.95771003 0.115239002 -0.524021983 -1.10836995
+        0.99145997 0.0193978995 -0.129966006 -1.05420005
+        0.0252099 0.0516078994 0.274293005 -1.00003004
+        0.05895996 0.208638996 0.648204982 -0.945860982
+        0.09271002 0.474743009 0.954253972 -0.891690016
+        0.12646008 0.823230982 0.16173005 -0.83751899
+        0.16020989 0.21914995 0.24981999 -0.783348024
+        0.19395995 0.62277997 0.20965004 -0.729176998
+        0.22771001 0.99363995 0.04525006 -0.675006986
+        0.26146007 0.29450989 0.773082972 -0.62083602
+        0.29520988 0.49518991 0.420426011 -0.566664994
+        0.32895994 0.57551003 0.0226454996 -0.512494028
+        0.36271 0.52740002 -0.380364001 -0.458323002
+        0.39646006 0.35562992 -0.748167992 -0.404152006
+        0.43021011 0.07738996 -0.04384995 -0.349981993
+        0.46395993 0.72056997 -0.23773003 -0.295810997
+        0.49770999 0.32091999 -0.31029999 -0.241640002
+        0.53146005 0.918540001 -0.25423002 -0.187469006
+        0.5652101 0.553786993 -0.07509005 -0.133297995
+        0.59895992 0.263282001 -0.790787995 -0.0791269019
+        0.63270998 0.0762085989 -0.429794997 -0.0249560997
+        0.66667008 0.0113957003 -0.0282901004 -0.00854828022
+  endnode
+  node dummy OmenRef01
+    parent OmenEmitter01
+    #part-number 3
+  endnode
+  node emitter OmenEmitter04
+    parent Dummy01
+    #part-number 4
+    birthratekey 4
+      0 4
+      0.0333333015 4
+      1.63332999 4
+      1.66666996 4
+      positionkey 80
+        0 0.0113918995 -0.0282409992 -0.00854736008
+        0.0337500013 0.0761905983 0.373268992 -0.0250888001
+        0.0675000027 0.26325199 0.734269977 -0.0792597979
+        0.10125 0.553749979 0.01857996 -0.133431002
+        0.135000005 0.91849798 0.19773996 -0.187601998
+        0.168750003 0.32088006 0.25381994 -0.241772994
+        0.202500001 0.72053003 0.18125999 -0.295944005
+        0.236249998 0.07735991 0.987398028 -0.350115001
+        0.270000011 0.35560989 0.691717982 -0.40428701
+        0.303750008 0.52739 0.323915988 -0.458456993
+        0.337500006 0.57552004 -0.0790942013 -0.512628973
+        0.371250004 0.49519992 -0.476879001 -0.566799998
+        0.405000001 0.29452991 -0.829541981 -0.620971024
+        0.438749999 0.99366999 -0.10171998 -0.67514199
+        0.472499996 0.62281001 -0.26612997 -0.729313016
+        0.506250024 0.21916997 -0.30630004 -0.783483982
+        0.540000021 0.823251009 -0.21822 -0.837656021
+        0.573750019 0.474759012 -0.01075006 -0.891826987
+        0.607500017 0.208648995 -0.704702973 -0.945998013
+        0.641250014 0.0516119003 -0.33079201 -1.00016999
+        0.675000012 0.0193967 0.0734696984 -1.05434
+        0.70875001 0.115234002 0.467528999 -1.10851002
+        0.742500007 0.329512 0.811851025 -1.16268003
+        0.776250005 0.640740991 0.07189 -1.21685004
+        0.810000002 0.01770997 0.22156 -1.27102005
+        0.84375 0.42259002 0.24582005 -1.32519996
+        0.877499998 0.81479001 0.14222002 -1.37936997
+        0.911249995 0.15493989 0.921136975 -1.43353999
+        0.944999993 0.40892005 0.604725003 -1.48771
+        0.97874999 0.55120993 0.224704996 -1.54188001
+        0.01250005 0.56750989 -0.180807993 -1.59605002
+        0.04624999 0.45615005 -0.571142018 -1.65022004
+        0.08000004 0.22827005 -0.907124996 -1.70439005
+        0.11374998 0.90666997 -0.15503001 -1.75856996
+        0.14750004 0.52359998 -0.28995001 -1.81273997
+        0.18124998 0.11746001 -0.29830003 -1.86690998
+        0.21500003 0.728989005 -0.17918003 -1.92107999
+        0.24874997 0.397175014 -0.944486976 -1.97525001
+        0.28250003 0.155339003 -0.617708981 -2.0294199
+        0.31624997 0.0277938992 -0.231582999 -2.06223989
+        0.35020995 0.0277987998 0.175121993 -2.06208992
+        0.38396001 0.155349001 0.561244011 -2.02927995
+        0.41770995 0.397188991 0.888016999 -1.97511005
+        0.45146 0.729003012 0.12269998 -1.92094004
+        0.48520994 0.11747003 0.24181998 -1.86677003
+        0.51896 0.52361 0.23345995 -1.81260002
+        0.55271006 0.90667999 0.09853995 -1.75841999
+        0.58645999 0.22827005 0.850637019 -1.70424998
+        0.62021005 0.45616007 0.514654994 -1.65007997
+        0.65395999 0.56750989 0.124324001 -1.59590995
+        0.68771005 0.55120993 -0.281188995 -1.54173994
+        0.72145998 0.40892005 -0.661206007 -1.48757005
+        0.75521004 0.15493989 -0.977617025 -1.43340003
+        0.78895998 0.81479001 -0.19869995 -1.37923002
+        0.82271004 0.42260003 -0.30229998 -1.32506001
+        0.85645998 0.01770997 -0.27804005 -1.27089
+        0.89021003 0.640749991 -0.12837994 -1.21671999
+        0.92395997 0.329519987 -0.868341982 -1.16253996
+        0.95771003 0.115239002 -0.524021983 -1.10836995
+        0.99145997 0.0193978995 -0.129966006 -1.05420005
+        0.0252099 0.0516078994 0.274293005 -1.00003004
+        0.05895996 0.208638996 0.648204982 -0.945860982
+        0.09271002 0.474743009 0.954253972 -0.891690016
+        0.12646008 0.823230982 0.16173005 -0.83751899
+        0.16020989 0.21914995 0.24981999 -0.783348024
+        0.19395995 0.62277997 0.20965004 -0.729176998
+        0.22771001 0.99363995 0.04525006 -0.675006986
+        0.26146007 0.29450989 0.773082972 -0.62083602
+        0.29520988 0.49518991 0.420426011 -0.566664994
+        0.32895994 0.57551003 0.0226454996 -0.512494028
+        0.36271 0.52740002 -0.380364001 -0.458323002
+        0.39646006 0.35562992 -0.748167992 -0.404152006
+        0.43021011 0.07738996 -0.04384995 -0.349981993
+        0.46395993 0.72056997 -0.23773003 -0.295810997
+        0.49770999 0.32091999 -0.31029999 -0.241640002
+        0.53146005 0.918540001 -0.25423002 -0.187469006
+        0.5652101 0.553786993 -0.07509005 -0.133297995
+        0.59895992 0.263282001 -0.790787995 -0.0791269019
+        0.63270998 0.0762085989 -0.429794997 -0.0249560997
+        0.66667008 0.0113957003 -0.0282901004 -0.00854828022
+  endnode
+  node dummy OmenRef02
+    parent OmenEmitter04
+    #part-number 5
+  endnode
+doneanim duration vps_storm_fire
+
+newanim cessation vps_storm_fire
+  length 2.0
+  transtime 0.0
+  animroot vps_storm_fire
+  event 0.2 detonate
+  node dummy vps_storm_fire
+    parent null
+  endnode
+  node emitter AuraEmitter01
+    parent vps_storm_fire
+    alphastartkey 2
+       0.000 1.00
+       0.367 1.00
+    endlist
+    alphaendkey 2
+       0.000 1.00
+       0.367 1.00
+    endlist
+    sizestartkey 3
+       0.000 2.00
+       0.367 2.00
+       0.667 0.00
+    endlist
+    sizeendkey 3
+       0.000 2.00
+       0.367 2.00
+       0.667 0.00
+    endlist
+  endnode
+  node emitter AuraEmitter02
+    parent vps_storm_fire
+    birthratekey 3
+       0.000 10
+       0.033 0
+       0.067 0
+    endlist
+  endnode
+  node dummy Dummy_rot
+    parent vps_storm_fire
+    orientationkey 10
+       0.000  0.00000  1.00000  0.00000  0.00000
+       0.233  0.00000  0.00000  1.00000  1.57080
+       0.467 -0.00000 -0.00000 -1.00000  3.14159
+       0.700  0.00000  0.00000 -1.00000  1.57080
+       0.933  0.00000  0.00000  0.00000  0.00000
+       1.167  0.00000  0.00000  1.00000  1.57080
+       1.367  0.00000  0.00000  1.00000  3.14159
+       1.567  0.00000  0.00000 -1.00000  1.57079
+       1.767  0.00000  0.00000  0.00000  0.00000
+       2.000  0.00000  0.00000  1.00000  1.57080
+    endlist
+  endnode
+  node emitter AuraEmitter03
+    parent Dummy_rot
+    gravkey 5
+       0.167 0.00
+       0.200 0.00
+       0.267 0.00
+       0.300 5.00
+       0.333 10.00
+    endlist
+  endnode
+  node reference AuraRef01
+    parent AuraEmitter03
+  endnode
+  node emitter rings
+    parent vps_storm_fire
+    birthratekey 3
+       0.000 10
+       0.033 0
+       0.067 0
+    endlist
+  endnode
+  node emitter AuraEmitter04
+    parent vps_storm_fire
+    alphastartkey 2
+       0.000 0.5
+       0.200 0.5
+    endlist
+    alphaendkey 2
+       0.000 0.5
+       0.200 0.5
+    endlist
+    sizestartkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+    sizeendkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+  endnode
+  node emitter dust
+    parent vps_storm_fire
+    alphastartkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    alphaendkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    sizestartkey 5
+       0.000 2.00
+       0.200 2.00
+       0.233 2.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+    sizeendkey 5
+       0.000 2.00
+       0.200 2.00
+       0.233 2.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+  endnode
+  node emitter dust01
+    parent vps_storm_fire
+    alphastartkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    alphaendkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    sizestartkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+    sizeendkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+  endnode
+  node emitter dust02
+    parent vps_storm_fire
+    alphastartkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    alphaendkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    sizestartkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+    sizeendkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+  endnode
+  node emitter dust03
+    parent vps_storm_fire
+    alphastartkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    alphaendkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    sizestartkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+    sizeendkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+  endnode
+  node emitter dust04
+    parent vps_storm_fire
+    alphastartkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    alphaendkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    sizestartkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+    sizeendkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+  endnode
+  node emitter dust05
+    parent vps_storm_fire
+    alphastartkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    alphaendkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    sizestartkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+    sizeendkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+  endnode
+  node emitter dust06
+    parent vps_storm_fire
+    alphastartkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    alphaendkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    sizestartkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+    sizeendkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+  endnode
+  node emitter dust07
+    parent vps_storm_fire
+    alphastartkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    alphaendkey 2
+       0.000 1.00
+       0.200 1.00
+    endlist
+    sizestartkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+    sizeendkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+  endnode
+  node dummy Dummy01
+    parent vps_storm_fire
+    #part-number 1
+    orientation -0 -0 1 -3.14159012
+  endnode
+  node emitter OmenEmitter01
+    parent Dummy01
+    #part-number 2
+    birthratekey 2
+      0 2
+      0.0333333015 0
+    endlist
+    alphastartkey 2
+       0.000 1.00
+       0.200 0.00
+    endlist
+    alphaendkey 2
+       0.000 1.00
+       0.200 0.00
+    endlist
+  endnode
+  node dummy OmenRef01
+    parent OmenEmitter01
+    #part-number 3
+  endnode
+  node emitter OmenEmitter04
+    parent Dummy01
+    #part-number 4
+    birthratekey 3
+      0 2
+      0.0333333015 0
+      0.100000001 -1
+    endlist
+    alphastartkey 2
+       0.000 1.00
+       0.200 0.00
+    endlist
+    alphaendkey 2
+       0.000 1.00
+       0.200 0.00
+    endlist
+  endnode
+  node dummy OmenRef02
+    parent OmenEmitter04
+    #part-number 5
+  endnode
+doneanim cessation vps_storm_fire
+
+donemodel vps_storm_fire

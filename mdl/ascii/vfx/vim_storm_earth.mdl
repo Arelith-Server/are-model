@@ -1,0 +1,447 @@
+# NeverBlender 2.8.47|Blender 3.3.10|2023-10-18
+filedependancy unknown
+newmodel vim_storm_earth
+setsupermodel vim_storm_earth null
+classification EFFECT
+setanimationscale 1.0
+beginmodelgeom vim_storm_earth
+node dummy vim_storm_earth
+  parent null
+endnode
+node emitter dust06
+  parent vim_storm_earth
+  position -0.00000 -1.01746  0.17217
+  orientation  0.51999  0.51999 -0.67766  1.95044
+  xsize 20.00
+  ysize 100.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 2.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter dust07
+  parent vim_storm_earth
+  position  0.71946 -0.71946  0.17217
+  orientation  0.34246  0.82676 -0.44630  1.49626
+  xsize 20.00
+  ysize 100.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 2.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter dust05
+  parent vim_storm_earth
+  position -0.71946 -0.71946  0.17217
+  orientation  0.59028  0.24450 -0.76927  2.52465
+  xsize 20.00
+  ysize 100.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 2.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter dust04
+  parent vim_storm_earth
+  position -1.01746  0.00000  0.17217
+  orientation -0.60876  0.00000  0.79335  3.14159
+  xsize 20.00
+  ysize 100.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 2.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter dust03
+  parent vim_storm_earth
+  position -0.71946  0.71946  0.17217
+  orientation -0.59028  0.24450  0.76927  2.52465
+  xsize 20.00
+  ysize 100.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 2.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter dust02
+  parent vim_storm_earth
+  position  0.00000  1.01746  0.17217
+  orientation -0.51999  0.51999  0.67766  1.95044
+  xsize 20.00
+  ysize 100.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 2.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter dust01
+  parent vim_storm_earth
+  position  0.71946  0.71946  0.17217
+  orientation -0.34246  0.82676  0.44630  1.49626
+  xsize 20.00
+  ysize 100.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 2.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter dust
+  parent vim_storm_earth
+  position  1.01746 -0.00000  0.17217
+  orientation  0.00000  1.00000  0.00000  1.30900
+  xsize 20.00
+  ysize 100.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.50
+  mass 0.00
+  velocity 2.00
+  randvel 0.00
+  particlerot 0.10
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.54 0.45 0.36
+  colorend 0.65 0.58 0.51
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 2.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom vim_storm_earth
+
+# ANIM ASCII
+newanim impact vim_storm_earth
+  length 1.967
+  transtime 0.25
+  animroot vim_storm_earth
+  event 0.0 detonate
+  event 0.0 detonate
+  event 0.0 detonate
+  event 0.0 detonate
+  event 0.0 detonate
+  event 0.0 detonate
+  event 0.0 detonate
+  event 0.0 detonate
+  node dummy vim_storm_earth
+    parent null
+  endnode
+  node emitter dust06
+    parent vim_storm_earth
+  endnode
+  node emitter dust07
+    parent vim_storm_earth
+  endnode
+  node emitter dust05
+    parent vim_storm_earth
+  endnode
+  node emitter dust04
+    parent vim_storm_earth
+  endnode
+  node emitter dust03
+    parent vim_storm_earth
+  endnode
+  node emitter dust02
+    parent vim_storm_earth
+  endnode
+  node emitter dust01
+    parent vim_storm_earth
+  endnode
+  node emitter dust
+    parent vim_storm_earth
+  endnode
+doneanim impact vim_storm_earth
+
+donemodel vim_storm_earth
