@@ -1,0 +1,293 @@
+# NeverBlender 2.8.47|Blender 3.3.10|2023-10-18
+filedependancy unknown
+newmodel vim_storm_fire
+setsupermodel vim_storm_fire null
+classification EFFECT
+setanimationscale 1.0
+beginmodelgeom vim_storm_fire
+node dummy vim_storm_fire
+  parent null
+endnode
+node dummy Dummy01
+  parent vim_storm_fire
+  position  0.00000  0.00000 -0.20833
+  orientation  0.00000  0.00000 -1.00000  0.12217
+endnode
+node emitter Flame01
+  parent Dummy01
+  position  0.00000  0.00000  0.32854
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 60.00
+  ysize 50.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 30
+  lifeexp 1.00
+  mass 0.00
+  velocity 3.00
+  randvel 0.40
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 2.00
+  sizeend 4.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_firebb
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter sparks01
+  parent vim_storm_fire
+  position  0.00000  0.00000  0.24561
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 0.00
+  ysize 0.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 1.00
+  mass 0.00
+  velocity 7.00
+  randvel 1.00
+  particlerot 0.00
+  spread 0.52
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 0.87 0.00
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.20
+  sizeend 0.30
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+node emitter Smoke
+  parent vim_storm_fire
+  position  0.00000  0.00000  0.46393
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 0.00
+  ysize 0.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 0
+  lifeexp 2.00
+  mass -0.06
+  velocity 1.50
+  randvel 0.50
+  particlerot 0.50
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.62 0.62 0.62
+  colorend 0.00 0.00 0.00
+  alphastart 0.20
+  alphaend 0.00
+  sizestart 0.50
+  sizeend 3.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01a
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+node light AuroraLight01
+  parent vim_storm_fire
+  position  0.00117  0.05493  0.33304
+  orientation  0.00000  1.00000  0.00000  0.00000
+  ambientonly 1
+  ndynamictype 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 3
+  fadingLight 0
+  radius 5.0
+  multiplier 1.0
+  color 0.95 0.74 0.42
+endnode
+endmodelgeom vim_storm_fire
+
+# ANIM ASCII
+newanim impact vim_storm_fire
+  length 1.633
+  transtime 0.25
+  animroot vim_storm_fire
+  node dummy vim_storm_fire
+    parent null
+  endnode
+  node dummy Dummy01
+    parent vim_storm_fire
+    orientationkey 11
+       0.000  0.00000  0.00000 -1.00000  0.12217
+       0.100  0.00000  0.00000 -1.00000  1.57080
+       0.233 -0.00000 -0.00000 -1.00000  3.14159
+       0.367  0.00000  0.00000  1.00000  1.57080
+       0.500  0.00000  0.00000 -0.00000  0.00000
+       0.633  0.00000  0.00000 -1.00000  1.57080
+       0.767  0.00000  0.00000  1.00000  3.14159
+       0.933  0.00000  0.00000  1.00000  1.57080
+       1.100  0.00000  0.00000 -0.00000  0.00000
+       1.267  0.00000  0.00000 -1.00000  1.57080
+       1.467 -0.00000 -0.00000 -1.00000  3.14159
+    endlist
+  endnode
+  node emitter Flame01
+    parent Dummy01
+    birthratekey 3
+       0.000 30
+       0.567 30
+       0.600 0
+    endlist
+    velocitykey 3
+       0.000 3.00
+       0.500 3.00
+       0.533 0.80
+    endlist
+    randvelkey 3
+       0.000 0.40
+       0.500 0.40
+       0.533 0.00
+    endlist
+    alphastartkey 5
+       0.500 0.60
+       0.533 0.60
+       0.567 0.60
+       0.600 0.60
+       0.967 0.00
+    endlist
+  endnode
+  node emitter sparks01
+    parent vim_storm_fire
+    birthratekey 6
+       0.000 3
+       0.133 11
+       0.267 10
+       0.400 5
+       0.567 5
+       0.600 0
+    endlist
+  endnode
+  node emitter Smoke
+    parent vim_storm_fire
+    birthratekey 4
+       0.000 0
+       0.033 15
+       0.500 15
+       0.533 0
+    endlist
+  endnode
+  node light AuroraLight01
+    parent vim_storm_fire
+    colorkey 6
+       0.000 0.95 0.74 0.42
+       0.300 0.97 0.85 0.68
+       0.567 0.94 0.71 0.34
+       0.833 0.93 0.68 0.28
+       0.867 0.00 0.00 0.00
+       1.100 0.00 0.00 0.00
+    endlist
+    radiuskey 5
+       0.000 5.00006
+       0.567 5.00216
+       0.933 5.00187
+       1.000 5.00200
+       1.100 0.00000
+    endlist
+    positionkey 23
+       0.000  0.00117  0.05493  0.33304
+       0.067 -0.04705  0.02336  0.33304
+       0.100 -0.04696 -0.01774  0.33304
+       0.167  0.09048  0.03047  0.33304
+       0.233 -0.02784 -0.08777  0.33304
+       0.300 -0.09285  0.20407  0.33304
+       0.367 -0.11193 -0.32443  0.33304
+       0.433  0.21843  0.04296  0.33304
+       0.500 -0.30260  0.22347  0.33304
+       0.567 -0.02478 -0.08823  0.33304
+       0.633  0.12706  0.06384  0.33304
+       0.733  0.11468  0.25633  0.33304
+       0.833 -0.26634 -0.19284  0.33304
+       0.933  0.36560 -0.12954  0.33304
+       1.000  0.05385  0.15040  0.33304
+       1.100 -0.11257 -0.01405  0.33304
+       1.167 -0.01593 -0.11044  0.33304
+       1.233  0.00095  0.52846  0.33304
+       1.300 -0.08774 -0.42681  0.33304
+       1.400  0.46444 -0.35629  0.33304
+       1.467  0.10883 -0.06113  0.33304
+       1.533 -0.40268 -0.18959  0.33304
+       1.600  0.36154  0.32989  0.33304
+    endlist
+  endnode
+doneanim impact vim_storm_fire
+
+donemodel vim_storm_fire

@@ -1,0 +1,188 @@
+# NeverBlender 2.8.47|Blender 3.3.10|2023-10-18
+filedependancy unknown
+newmodel vim_storm_cold
+setsupermodel vim_storm_cold null
+classification EFFECT
+setanimationscale 1.0
+beginmodelgeom vim_storm_cold
+node dummy vim_storm_cold
+  parent null
+endnode
+node emitter sparks
+  parent vim_storm_cold
+  position  0.00000  0.00443  0.00303
+  orientation  1.00000  0.00000  0.00000  3.14159
+  xsize 0.00
+  ysize 0.00
+  update Explosion
+  render Aligned_to_Particle_Dir
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 30
+  lifeexp 0.10
+  mass 0.00
+  velocity 8.00
+  randvel 1.00
+  particlerot 0.00
+  spread 6.28
+  splat 0
+  affectedbywind 0
+  colorstart 0.00 0.55 0.93
+  colorend 0.00 0.59 1.00
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 1.00
+  sizeend 0.05
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.17
+  texture fxpa_strk_b
+  twosidedtex 1
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter frost
+  parent vim_storm_cold
+  position  0.00000  0.00443  0.00559
+  orientation -1.00000 -0.00000 -0.00000  3.14159
+  xsize 0.00
+  ysize 0.00
+  update Explosion
+  render Aligned_to_Particle_Dir
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 50
+  lifeexp 0.20
+  mass 0.00
+  velocity 3.00
+  randvel 0.00
+  particlerot 0.00
+  spread 6.28
+  splat 0
+  affectedbywind 0
+  colorstart 0.00 0.00 1.00
+  colorend 0.00 0.28 1.00
+  alphastart 0.00
+  alphaend 0.50
+  sizestart 5.00
+  sizeend 2.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.21
+  texture fxpa_strk_b
+  twosidedtex 1
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter cloud
+  parent vim_storm_cold
+  position  0.00000  0.00000  0.00010
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 0.00
+  ysize 0.00
+  update Explosion
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 5
+  lifeexp 2.00
+  mass 0.00
+  velocity 0.30
+  randvel 0.30
+  particlerot 0.50
+  spread 1.05
+  splat 0
+  affectedbywind 0
+  colorstart 0.09 0.67 0.94
+  colorend 0.41 0.78 1.00
+  alphastart 0.40
+  alphaend 0.00
+  sizestart 0.50
+  sizeend 2.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01a
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+endmodelgeom vim_storm_cold
+
+# ANIM ASCII
+newanim impact vim_storm_cold
+  length 1.967
+  transtime 0.25
+  animroot vim_storm_cold
+  event 0.0 detonate
+  event 0.0 detonate
+  event 0.2 detonate
+  node dummy vim_storm_cold
+    parent null
+  endnode
+  node emitter sparks
+    parent vim_storm_cold
+    birthratekey 1
+       0.000 30
+    endlist
+    spreadkey 1
+       0.000 6.28
+    endlist
+  endnode
+  node emitter frost
+    parent vim_storm_cold
+  endnode
+  node emitter cloud
+    parent vim_storm_cold
+  endnode
+doneanim impact vim_storm_cold
+
+donemodel vim_storm_cold

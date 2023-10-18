@@ -1,0 +1,322 @@
+# NeverBlender 2.8.47|Blender 3.3.10|2023-10-18
+filedependancy unknown
+newmodel vim_storm_air
+setsupermodel vim_storm_air null
+classification EFFECT
+setanimationscale 1.0
+beginmodelgeom vim_storm_air
+node dummy vim_storm_air
+  parent null
+endnode
+node emitter lightning
+  parent vim_storm_air
+  position  0.00000 -0.00000  20.00410
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 0.00
+  ysize 0.00
+  update Fountain
+  render Linked
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 12
+  lifeexp 0.10
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 4.00
+  sizeend 4.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_lightning2
+  twosidedtex 0
+  m_istinted 0
+  xgrid 2
+  ygrid 2
+  fps 0
+  framestart 0
+  frameend 3
+  random 1
+  p2p 1
+  p2p_sel 1
+  p2p_bezier2 0.00
+  p2p_bezier3 0.00
+  src 0.00
+  target 0.00
+  combinetime 0.00
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node reference OmenRef01
+  parent lightning
+  position -0.00000 -0.00000 -19.30130
+  orientation  0.00000  0.00000 -1.00000  1.57080
+  refmodel fx_ref
+  reattachable 0
+endnode
+node emitter Grndflare
+  parent vim_storm_air
+  position  0.00000  0.00000  0.02690
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 0.00
+  ysize 0.00
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  loop 0
+  birthrate 1
+  lifeexp -1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.68 0.87 1.00
+  colorend 0.68 0.87 1.00
+  alphastart 0.50
+  alphaend 0.50
+  sizestart 10.00
+  sizeend 10.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_dot01
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+node emitter sparks
+  parent vim_storm_air
+  position  0.00028  0.00366 -0.04040
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 60.00
+  ysize 60.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 0
+  lifeexp 0.50
+  mass 0.00
+  velocity 3.00
+  randvel 0.00
+  particlerot 0.00
+  spread 1.57
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 0.51 0.70 1.00
+  alphastart 0.80
+  alphaend 0.00
+  sizestart 0.50
+  sizeend 4.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node light AuroraLight02
+  parent vim_storm_air
+  position -0.01153  0.00940  1.28457
+  orientation  0.57735 -0.57735 -0.57735  2.09440
+  ambientonly 0
+  ndynamictype 1
+  affectdynamic 1
+  shadow 1
+  lightpriority 3
+  fadingLight 0
+  radius 6.0
+  multiplier 3.0
+  color 0.00 0.00 0.00
+  flareradius 20.0
+  texturenames 4
+    fxpa_lensflare
+    fxpa_lensring
+    fxpa_lensring
+    fxpa_lensring
+  flarepositions 4
+    1.0
+    0.5
+    0.7
+    1.0
+  flaresizes 4
+    4.0
+    2.0
+    6.0
+    10.0
+  flarecolorshifts 4
+    0.00 0.00 0.00
+    0.00 0.00 0.00
+    0.00 0.00 0.00
+    0.00 0.00 0.00
+endnode
+endmodelgeom vim_storm_air
+
+# ANIM ASCII
+newanim impact vim_storm_air
+  length 1.8
+  transtime 0.0
+  animroot vim_storm_air
+  node dummy vim_storm_air
+    parent null
+  endnode
+  node emitter lightning
+    parent vim_storm_air
+    birthratekey 3
+       0.000 12
+       1.567 12
+       1.600 0
+    endlist
+  endnode
+  node reference OmenRef01
+    parent lightning
+  endnode
+  node emitter Grndflare
+    parent vim_storm_air
+    birthratekey 5
+       0.000 1
+       1.467 1
+       1.500 1
+       1.600 0
+       1.633 0
+    endlist
+    lifeexpkey 5
+       0.000 -1.00
+       1.467 -1.00
+       1.500 -1.00
+       1.600 0.00
+       1.633 0.00
+    endlist
+    sizestartkey 5
+       0.000 10.00
+       1.467 10.00
+       1.500 10.00
+       1.600 0.00
+       1.633 0.00
+    endlist
+    sizeendkey 5
+       0.000 10.00
+       1.467 10.00
+       1.500 10.00
+       1.600 0.00
+       1.633 0.00
+    endlist
+  endnode
+  node emitter sparks
+    parent vim_storm_air
+    birthratekey 4
+       0.000 0
+       0.033 30
+       1.167 30
+       1.200 0
+    endlist
+  endnode
+  node light AuroraLight02
+    parent vim_storm_air
+    colorkey 44
+       0.000 0.00 0.00 0.00
+       0.100 1.00 1.00 1.00
+       0.133 0.00 0.00 0.00
+       0.167 1.00 1.00 1.00
+       0.200 0.00 0.00 0.00
+       0.233 1.00 1.00 1.00
+       0.267 1.00 1.00 1.00
+       0.300 0.00 0.00 0.00
+       0.333 1.00 1.00 1.00
+       0.367 1.00 1.00 1.00
+       0.400 0.00 0.00 0.00
+       0.433 1.00 1.00 1.00
+       0.467 0.00 0.00 0.00
+       0.500 1.00 1.00 1.00
+       0.533 1.00 1.00 1.00
+       0.567 0.00 0.00 0.00
+       0.600 1.00 1.00 1.00
+       0.633 0.00 0.00 0.00
+       0.667 1.00 1.00 1.00
+       0.700 0.00 0.00 0.00
+       0.733 1.00 1.00 1.00
+       0.767 0.00 0.00 0.00
+       0.800 1.00 1.00 1.00
+       0.833 1.00 1.00 1.00
+       0.867 0.00 0.00 0.00
+       0.900 1.00 1.00 1.00
+       0.933 0.00 0.00 0.00
+       0.967 1.00 1.00 1.00
+       1.000 0.00 0.00 0.00
+       1.033 1.00 1.00 1.00
+       1.067 0.00 0.00 0.00
+       1.100 1.00 1.00 1.00
+       1.133 1.00 1.00 1.00
+       1.167 0.00 0.00 0.00
+       1.200 1.00 1.00 1.00
+       1.233 0.00 0.00 0.00
+       1.267 1.00 1.00 1.00
+       1.300 1.00 1.00 1.00
+       1.333 0.00 0.00 0.00
+       1.367 1.00 1.00 1.00
+       1.400 0.00 0.00 0.00
+       1.433 1.00 1.00 1.00
+       1.467 0.00 0.00 0.00
+       1.800 0.00 0.00 0.00
+    endlist
+    positionkey 1
+       1.433 -0.01153  0.00940  1.28457
+    endlist
+  endnode
+doneanim impact vim_storm_air
+
+donemodel vim_storm_air
