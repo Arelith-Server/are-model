@@ -1,53 +1,53 @@
 # NeverBlender 2.8.47|Blender 2.92.0|2023-10-27
 filedependancy unknown
-newmodel WSpSc_fxholy
-setsupermodel WSpSc_fxholy null
+newmodel WSpSc_fxsonic
+setsupermodel WSpSc_fxsonic null
 classification UNKNOWN
 setanimationscale 1.0
-beginmodelgeom WSpSc_fxholy
-node dummy WSpSc_fxholy
+beginmodelgeom WSpSc_fxsonic
+node dummy WSpSc_fxsonic
   parent null
 endnode
-node emitter g_WSwGs_V_Holy
-  parent WSpSc_fxholy
-  position  0.00000  0.19976  0.08567
-  orientation  1.00000 -0.00000  0.00000  0.72391
-  xsize 1.67
-  ysize 15.99
+node emitter g_WSwGs_V_Sonic01
+  parent WSpSc_fxsonic
+  position  0.00000  0.33172  0.13311
+  orientation -1.00000  0.00000 -0.00000  1.48353
+  xsize 1.00
+  ysize 1.00
   update Fountain
   render Normal
   blend Lighten
   spawntype 0
   renderorder 0
-  birthrate 5
-  lifeexp 2.00
+  birthrate 20
+  lifeexp 0.15
   mass 0.00
-  velocity 0.00
+  velocity 1.00
   randvel 0.00
   particlerot 0.00
   spread 0.00
   splat 0
   affectedbywind 0
-  colorstart 0.81 0.73 0.54
-  colorend 0.79 0.60 0.36
-  alphastart 1.00
-  alphaend 0.00
-  sizestart 0.00
-  sizeend 0.50
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 0.70
+  alphaend 0.50
+  sizestart 0.30
+  sizeend 0.30
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 0
   bounce_co 0.00
-  blurlength 10.00
+  blurlength 0.20
   deadspace 0.00
-  texture fxpa_starbnw
+  texture fxpa_flare
   twosidedtex 0
   m_istinted 0
-  xgrid 2
-  ygrid 2
+  xgrid 1
+  ygrid 1
   fps 0
   framestart 0
-  frameend 3
+  frameend 0
   random 0
   p2p 0
   blastradius 0.00
@@ -57,46 +57,46 @@ node emitter g_WSwGs_V_Holy
   inherit_local 0
   inherit_part 0
 endnode
-node emitter g_WSwGs_V_Holy01
-  parent WSpSc_fxholy
-  position  0.00000  0.36695  0.12630
-  orientation -1.00001 -0.00000 -0.00000  0.08727
-  xsize 2.23
-  ysize 20.61
+node emitter g_WSwGs_V_Sonic
+  parent WSpSc_fxsonic
+  position  0.00000  0.18238  0.06834
+  orientation -1.00000  0.00000 -0.00000  0.61086
+  xsize 1.00
+  ysize 1.00
   update Fountain
   render Normal
   blend Lighten
   spawntype 0
   renderorder 0
-  birthrate 5
-  lifeexp 2.00
+  birthrate 20
+  lifeexp 0.15
   mass 0.00
-  velocity 0.00
+  velocity 1.00
   randvel 0.00
   particlerot 0.00
   spread 0.00
   splat 0
   affectedbywind 0
-  colorstart 0.81 0.73 0.54
-  colorend 0.79 0.60 0.36
-  alphastart 1.00
-  alphaend 0.00
-  sizestart 0.00
-  sizeend 0.50
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 0.70
+  alphaend 0.50
+  sizestart 0.30
+  sizeend 0.30
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 0
   bounce_co 0.00
-  blurlength 10.00
+  blurlength 0.20
   deadspace 0.00
-  texture fxpa_starbnw
+  texture fxpa_flare
   twosidedtex 0
   m_istinted 0
-  xgrid 2
-  ygrid 2
+  xgrid 1
+  ygrid 1
   fps 0
   framestart 0
-  frameend 3
+  frameend 0
   random 0
   p2p 0
   blastradius 0.00
@@ -106,46 +106,46 @@ node emitter g_WSwGs_V_Holy01
   inherit_local 0
   inherit_part 0
 endnode
-node emitter g_WSwGs_V_Holy02
-  parent WSpSc_fxholy
-  position  0.00000  0.46975 -0.02409
-  orientation -1.00000  0.00000  0.00000  1.48353
-  xsize 1.71
-  ysize 24.03
+node emitter g_WSwGs_V_Sonic02
+  parent WSpSc_fxsonic
+  position  0.00000  0.46941  0.03218
+  orientation -1.00000  0.00000 -0.00000  3.11542
+  xsize 1.00
+  ysize 1.00
   update Fountain
   render Normal
   blend Lighten
   spawntype 0
   renderorder 0
-  birthrate 5
-  lifeexp 2.00
+  birthrate 20
+  lifeexp 0.15
   mass 0.00
-  velocity 0.00
+  velocity 1.00
   randvel 0.00
   particlerot 0.00
   spread 0.00
   splat 0
   affectedbywind 0
-  colorstart 0.81 0.73 0.54
-  colorend 0.79 0.60 0.36
-  alphastart 1.00
-  alphaend 0.00
-  sizestart 0.00
-  sizeend 0.50
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 0.70
+  alphaend 0.50
+  sizestart 0.30
+  sizeend 0.30
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 0
   bounce_co 0.00
-  blurlength 10.00
+  blurlength 0.20
   deadspace 0.00
-  texture fxpa_starbnw
+  texture fxpa_flare
   twosidedtex 0
   m_istinted 0
-  xgrid 2
-  ygrid 2
+  xgrid 1
+  ygrid 1
   fps 0
   framestart 0
-  frameend 3
+  frameend 0
   random 0
   p2p 0
   blastradius 0.00
@@ -155,5 +155,5 @@ node emitter g_WSwGs_V_Holy02
   inherit_local 0
   inherit_part 0
 endnode
-endmodelgeom WSpSc_fxholy
-donemodel WSpSc_fxholy
+endmodelgeom WSpSc_fxsonic
+donemodel WSpSc_fxsonic

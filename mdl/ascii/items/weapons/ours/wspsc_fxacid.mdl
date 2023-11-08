@@ -1,315 +1,290 @@
-#MAXMODEL ASCII
-# model: wspsc_fxacid
-filedependancy wspsc_fxacid.max
-newmodel wspsc_fxacid
-setsupermodel wspsc_fxacid NULL
-classification CHARACTER
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom wspsc_fxacid
-node dummy wspsc_fxacid
+# Exported from NWmax 0.8 b60 at 10/26/2023 2:08:37 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: WSpSc_fxacid
+#local file: C:\Users\ShadowMD\Desktop\Sickle effects\Sickle Acid.gmax
+filedependancy Sickle Acid.gmax
+newmodel WSpSc_fxacid
+setsupermodel WSpSc_fxacid NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom WSpSc_fxacid
+node dummy WSpSc_fxacid
   parent NULL
 endnode
 node emitter g_WSwGs_V_Acid_b
-  parent wspsc_fxacid
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
-  bounce 1
-  random 0
-  inherit 0
-  inheritvel 0
-  inherit_local 0
-  inherit_part 0
-  splat 0
-  renderorder 0
-  spawntype 0
+  parent WSpSc_fxacid
+  position 0.0 0.325139 0.133246
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
   update Fountain
+  render_sel 1
   render Normal
-  blend Lighten
-  texture fxpa_flare
-  xgrid 1
-  ygrid 1
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0 0.427564 0.0558832
-  orientation 1 0 0 -1.00356
-  xsize 2
-  ysize 24
-  threshold 0
-  combinetime 0
-  colorStart 0.258824 0.921569 0
-  colorEnd 0.0666667 0.552941 0
-  alphaStart 1
-  alphaEnd 1
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 2.0
+  ySize 24.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.258824 0.921569 0.0 
+  colorEnd 0.0666667 0.552941 0.0 
+  alphaStart 1.0
+  alphaEnd 1.0
   sizeStart 0.1
   sizeEnd 0.1
-  sizeStart_y 0
-  sizeEnd_y 0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
   birthrate 1
-  lifeExp 2
+  lifeExp 2.0
   mass 1.5
-  spread 0
-  particleRot 0
-  velocity 0
-  randvel 0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
   bounce_co 0.06
-  blurlength 10
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_flare
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
   fps 0
-  frameStart 0
-  frameEnd 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
+  framestart 0
+  frameend 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
 endnode
 node emitter g_WSwGs_V_Acid
-  parent wspsc_fxacid
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
-  bounce 0
-  random 0
-  inherit 1
-  inheritvel 0
-  inherit_local 0
-  inherit_part 0
-  splat 0
-  renderorder 0
-  spawntype 0
+  parent WSpSc_fxacid
+  position 0.0 0.209179 0.100204
+  orientation -0.327079 -0.886588 -0.327081 -1.69088
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
   update Fountain
+  render_sel 1
   render Normal
-  blend Lighten
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 3.0
+  ySize 19.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.258824 0.921569 0.0 
+  colorEnd 0.0666667 0.552941 0.0 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 0.0
+  sizeEnd 0.4
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 8
+  lifeExp 1.0
+  mass 0.0
+  spread 2.26893
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.05
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
   texture fxpa_flare
+  twosidedtex 0
   xgrid 1
   ygrid 1
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0 0.351217 0.138636
-  orientation 0.112487 -0.9872659 0.112484 -1.58361
-  xsize 3
-  ysize 19
-  threshold 0
-  combinetime 0
-  colorStart 0.258824 0.921569 0
-  colorEnd 0.0666667 0.552941 0
-  alphaStart 1
-  alphaEnd 0
-  sizeStart 0
-  sizeEnd 0.4
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 8
-  lifeExp 1
-  mass 0
-  spread 2.26893
-  particleRot 0
-  velocity 0
-  randvel 0.05
-  bounce_co 0
-  blurlength 10
   fps 0
-  frameStart 0
-  frameEnd 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
+  framestart 0
+  frameend 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
 endnode
 node emitter g_WSwGs_V_Acid01
-  parent wspsc_fxacid
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
-  bounce 0
-  random 0
+  parent WSpSc_fxacid
+  position 0.0 0.469452 -0.018618
+  orientation 0.48077 -0.733295 0.480769 -1.87615
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 3.0
+  ySize 15.0
   inherit 1
-  inheritvel 0
   inherit_local 0
+  inheritvel 0
   inherit_part 0
-  splat 0
   renderorder 0
-  spawntype 0
-  update Fountain
-  render Normal
-  blend Lighten
-  texture fxpa_flare
-  xgrid 1
-  ygrid 1
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0 0.463509 0.0324007
-  orientation 0.5134378 -0.6875778 0.5134378 -1.93692
-  xsize 3
-  ysize 15
-  threshold 0
-  combinetime 0
-  colorStart 0.258824 0.921569 0
-  colorEnd 0.0666667 0.552941 0
-  alphaStart 1
-  alphaEnd 0
-  sizeStart 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.258824 0.921569 0.0 
+  colorEnd 0.0666667 0.552941 0.0 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 0.0
   sizeEnd 0.4
-  sizeStart_y 0
-  sizeEnd_y 0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
   birthrate 8
-  lifeExp 1
-  mass 0
+  lifeExp 1.0
+  mass 0.0
   spread 2.26893
-  particleRot 0
-  velocity 0
+  particleRot 0.0
+  velocity 0.0
   randvel 0.05
-  bounce_co 0
-  blurlength 10
-  fps 0
-  frameStart 0
-  frameEnd 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
-endnode
-node emitter g_WSwGs_V_Acid_b01
-  parent wspsc_fxacid
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
   m_isTinted 0
-  bounce 1
-  random 0
-  inherit 0
-  inheritvel 0
-  inherit_local 0
-  inherit_part 0
   splat 0
-  renderorder 0
-  spawntype 0
-  update Fountain
-  render Normal
-  blend Lighten
+  affectedByWind false
   texture fxpa_flare
+  twosidedtex 0
   xgrid 1
   ygrid 1
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0 0.245217 0.0969178
-  orientation -1 0 0 -0.5759591
-  xsize 2
-  ysize 24
-  threshold 0
-  combinetime 0
-  colorStart 0.258824 0.921569 0
-  colorEnd 0.0666667 0.552941 0
-  alphaStart 1
-  alphaEnd 1
-  sizeStart 0.1
-  sizeEnd 0.1
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 1
-  lifeExp 2
-  mass 1.5
-  spread 0
-  particleRot 0
-  velocity 0
-  randvel 0
-  bounce_co 0.06
-  blurlength 10
   fps 0
-  frameStart 0
-  frameEnd 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
+  framestart 0
+  frameend 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
 endnode
 node emitter g_WSwGs_V_Acid02
-  parent wspsc_fxacid
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
-  bounce 0
-  random 0
-  inherit 1
-  inheritvel 0
-  inherit_local 0
-  inherit_part 0
-  splat 0
-  renderorder 0
-  spawntype 0
+  parent WSpSc_fxacid
+  position 0.0 0.32591 0.142708
+  orientation -0.0609335 -0.99628 -0.0609363 -1.57452
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
   update Fountain
+  render_sel 1
   render Normal
-  blend Lighten
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 3.0
+  ySize 19.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.258824 0.921569 0.0 
+  colorEnd 0.0666667 0.552941 0.0 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 0.0
+  sizeEnd 0.4
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 8
+  lifeExp 1.0
+  mass 0.0
+  spread 2.26893
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.05
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
   texture fxpa_flare
+  twosidedtex 0
   xgrid 1
   ygrid 1
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0 0.190383 0.0710783
-  orientation -0.3830608 -0.8405517 -0.3830629 -1.74362
-  xsize 3
-  ysize 19
-  threshold 0
-  combinetime 0
-  colorStart 0.258824 0.921569 0
-  colorEnd 0.0666667 0.552941 0
-  alphaStart 1
-  alphaEnd 0
-  sizeStart 0
-  sizeEnd 0.4
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 8
-  lifeExp 1
-  mass 0
-  spread 2.26893
-  particleRot 0
-  velocity 0
-  randvel 0.05
-  bounce_co 0
-  blurlength 10
   fps 0
-  frameStart 0
-  frameEnd 0
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
+  framestart 0
+  frameend 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
 endnode
-endmodelgeom wspsc_fxacid
-
-donemodel wspsc_fxacid
+endmodelgeom WSpSc_fxacid
+donemodel WSpSc_fxacid
