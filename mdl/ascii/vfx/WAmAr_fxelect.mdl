@@ -106,19 +106,19 @@ node emitter Elect
   spawntype 0
   renderorder 0
   birthrate 70
-  lifeexp 0.4
+  lifeexp 0.1
   mass 0.00
-  velocity 0.30
+  velocity 0
   randvel 0.00
   particlerot 0.00
-  spread 0.52
+  spread 0.00
   splat 0
   affectedbywind 0
   colorstart 1.00 1.00 1.00
   colorend 0.32 0.45 0.99
   alphastart 1.00
   alphaend 0.30
-  sizestart 0.20
+  sizestart 1.00
   sizeend 0.00
   sizestart_y 0.00
   sizeend_y 0.00
@@ -168,19 +168,16 @@ newanim travel01 WAmAr_fxelect
     endlist
     birthratekey 2
        0.000 60
-       0.967 60
+       0.100 60
     endlist
     masskey 2
        0.000 0.00
-       0.967 0.00
     endlist
     velocitykey 2
        0.000 0.00
-       0.967 0.00
     endlist
     spreadkey 2
        0.000 0.00
-       0.967 0.00
     endlist
     sizestartkey 2
        0.000 0.20
@@ -202,7 +199,6 @@ newanim impact01 WAmAr_fxelect
   node emitter Elect
     parent g_WAmAr_04
     scalekey 2
-       0.000  1.00000
        1.233  1.00000
     endlist
     positionkey 5
@@ -225,6 +221,21 @@ newanim impact01 WAmAr_fxelect
        1.000 70
        1.000 70
        1.000 0
+    endlist
+    lifeexpkey 4
+       0.05 1.00
+    endlist
+    masskey 4
+       0.000 0.20
+    endlist
+    velocitykey 5
+       0.000 0.30
+    endlist
+    spreadkey 5
+       0.000 0.52
+    endlist
+    sizestartkey 5
+       0.000 0.20
     endlist
   endnode
 doneanim impact01 WAmAr_fxelect
