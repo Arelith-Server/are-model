@@ -1,15 +1,15 @@
 # Exported from NeverBlender 2.8.43 - Sunday, 2023-10-15
 filedependancy rapier_1.blend
 newmodel wswrp_t_074
-setsupermodel wswrp_t_064 null
-classification UNKNOWN
+setsupermodel wswrp_t_074 null
+classification ITEM
 setanimationscale 1.0
-beginmodelgeom wswrp_t_064
-node dummy wswrp_t_064
+beginmodelgeom wswrp_t_074
+node dummy wswrp_t_074
   parent null
 endnode
 node trimesh rp_t_11
-  parent wswrp_t_064
+  parent wswrp_t_074
   position  0.00000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  1.57080
   wirecolor 1.00 1.00 1.00
@@ -17,7 +17,7 @@ node trimesh rp_t_11
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  materialname Barr_rp_1_4
+  bitmap Barr_rp_1_4
   shininess 1
   render 1
   shadow 1
@@ -302,5 +302,5 @@ node trimesh rp_t_11
      41  61  43 1  46  8 48 0
      33  49  42 1  36 56 57 0
 endnode
-endmodelgeom wswrp_t_064
-donemodel wswrp_t_064
+endmodelgeom wswrp_t_074
+donemodel wswrp_t_074
