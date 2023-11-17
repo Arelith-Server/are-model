@@ -1,15 +1,15 @@
 # Exported from NeverBlender 2.8.43 - Friday, 2023-10-20
 filedependancy ls_2_output.blend
-newmodel wswls_b_114
-setsupermodel wswls_b_114 null
-classification UNKNOWN
+newmodel wswls_b_092
+setsupermodel wswls_b_092 null
+classification ITEM
 setanimationscale 1.0
-beginmodelgeom wswls_b_114
-node dummy wswls_b_114
+beginmodelgeom wswls_b_092
+node dummy wswls_b_092
   parent null
 endnode
 node trimesh ls_2_b_low
-  parent wswls_b_114
+  parent wswls_b_092
   position  0.00000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  1.57080
   wirecolor 1.00 1.00 1.00
@@ -17,7 +17,7 @@ node trimesh ls_2_b_low
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  materialname Barr_ls_2_4
+  bitmap Barr_ls_2_2
   shininess 1
   render 1
   shadow 1
@@ -1255,5 +1255,5 @@ node trimesh ls_2_b_low
     215 194 371 1  276 255 257 0
     517 368 214 1  254 253 277 0
 endnode
-endmodelgeom wswls_b_114
-donemodel wswls_b_114
+endmodelgeom wswls_b_092
+donemodel wswls_b_092
