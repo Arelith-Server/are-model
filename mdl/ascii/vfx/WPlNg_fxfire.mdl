@@ -1,31 +1,16 @@
-# Rewritten by CleanModels 3 Version 3.5.2d Tue Jan 19 15:56:02 2021
 #MAXMODEL ASCII
-newmodel WPlNg_fxfire
-  setsupermodel WPlNg_fxfire NULL
-  setanimationscale 1
-#MAXGEOM ASCII
-beginmodelgeom WPlNg_fxfire
-node dummy WPlNg_fxfire
+# model: wplng_fxfire
+filedependancy wplng_fxfire.max
+newmodel wplng_fxfire
+setsupermodel wplng_fxfire NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom wplng_fxfire
+node dummy wplng_fxfire
   parent NULL
-  #part-number 0
 endnode
-node emitter g_wswgs_v_fire01
-  parent WPlNg_fxfire
-  #part-number 2
-  position 0 1.4 0.03
-  deadspace 0
-  blastRadius 0
-  blastLength 0
-  xgrid 4
-  ygrid 4
-  spawntype 0
-  update Fountain
-  render Normal
-  blend Lighten
-  texture fxpa_flame00
-  twosidedtex 0
-  loop 0
-  renderorder 0
+node emitter g_WSwGs_V_Fire
+  parent wplng_fxfire
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -35,9 +20,23 @@ node emitter g_wswgs_v_fire01
   inherit 1
   inheritvel 0
   inherit_local 0
-  splat 0
   inherit_part 0
-  orientation 1 1 0 0.2
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flame00
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 1.28133 -0.099938
+  orientation -0.211541 -0.9542017 -0.211541 -1.61766
   colorStart 0.996079 1 0.894118
   colorEnd 0.886275 0.556863 0.0392157
   alphaStart 0.4
@@ -48,7 +47,7 @@ node emitter g_wswgs_v_fire01
   sizeEnd_y 0
   frameStart 0
   frameEnd 15
-  birthrate 16
+  birthrate 24
   lifeExp 2
   mass 0
   spread 0.174533
@@ -56,8 +55,8 @@ node emitter g_wswgs_v_fire01
   velocity 0
   randvel 0
   fps 16
-  xsize 2
-  ysize 50
+  xsize 16
+  ysize 42
   bounce_co 0
   blurlength 10
   lightningDelay 0
@@ -70,5 +69,126 @@ node emitter g_wswgs_v_fire01
   grav 0
   threshold 0
 endnode
-endmodelgeom WPlNg_fxfire
-donemodel WPlNg_fxfire
+node emitter g_WSwGs_V_Fire_b
+  parent wplng_fxfire
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 1.11019 -0.122709
+  orientation -0.08682656 0.9924325 0.08682656 -1.57839
+  colorStart 0.992157 1 0.764706
+  colorEnd 0.92549 0.713726 0.380392
+  alphaStart 0.5
+  alphaEnd 0.25
+  sizeStart 0.09
+  sizeEnd 0.03
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 10
+  lifeExp 0.5
+  mass -1
+  spread 0.174533
+  particleRot 2
+  velocity 0
+  randvel 0.5
+  fps 0
+  xsize 16
+  ysize 80
+  bounce_co 0.2
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter g_WSwGs_V_Fire01
+  parent wplng_fxfire
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flame00
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.894786 -0.161207
+  orientation 0 -1 0 -1.5708
+  colorStart 0.996079 1 0.894118
+  colorEnd 0.886275 0.556863 0.0392157
+  alphaStart 0.4
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0.75
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 24
+  lifeExp 2
+  mass 0
+  spread 0.174533
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 16
+  xsize 16
+  ysize 42
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom wplng_fxfire
+
+donemodel wplng_fxfire

@@ -1,31 +1,16 @@
-# Rewritten by CleanModels 3 Version 3.5.2d Tue Jan 19 15:56:02 2021
 #MAXMODEL ASCII
+# model: wswnd_fxneg
+filedependancy wswnd_fxneg.max
 newmodel wswnd_fxneg
-  setsupermodel wswnd_fxneg NULL
-  setanimationscale 1
-#MAXGEOM ASCII
+setsupermodel wswnd_fxneg NULL
+setanimationscale 1
+#MAXGEOM  ASCII
 beginmodelgeom wswnd_fxneg
 node dummy wswnd_fxneg
   parent NULL
-  #part-number 0
 endnode
-node emitter g_wswgs_v_neg01
+node emitter g_wswnd_V_Neg
   parent wswnd_fxneg
-  #part-number 2
-  position 0 0.74634  0.04283
-  deadspace 0
-  blastRadius 0
-  blastLength 0
-  xgrid 4
-  ygrid 4
-  spawntype 0
-  update Fountain
-  render Normal
-  blend Lighten
-  texture fxpa_sparks
-  twosidedtex 0
-  loop 0
-  renderorder 0
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -35,8 +20,22 @@ node emitter g_wswgs_v_neg01
   inherit 1
   inheritvel 0
   inherit_local 0
-  splat 0
   inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Sparks
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.74634 0.04283
   orientation 1.00001  0.00000 -0.00000  0.05236
   colorStart 1 0 0
   colorEnd 0.466667 0 0
@@ -48,7 +47,7 @@ node emitter g_wswgs_v_neg01
   sizeEnd_y 0
   frameStart 0
   frameEnd 15
-  birthrate 16
+  birthrate 60
   lifeExp 1
   mass 0
   spread 2.26893
@@ -56,7 +55,7 @@ node emitter g_wswgs_v_neg01
   velocity 0
   randvel 0.05
   fps 0
-  xsize 4
+  xsize 2
   ysize 115
   bounce_co 0
   blurlength 10
@@ -71,4 +70,5 @@ node emitter g_wswgs_v_neg01
   threshold 0
 endnode
 endmodelgeom wswnd_fxneg
+
 donemodel wswnd_fxneg

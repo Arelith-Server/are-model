@@ -1,31 +1,76 @@
-# Rewritten by CleanModels 3 Version 3.5.2d Tue Jan 19 15:56:02 2021
 #MAXMODEL ASCII
+# model: wswnd_fxfrost
+filedependancy wswnd_fxfrost.max
 newmodel wswnd_fxfrost
-  setsupermodel wswnd_fxfrost NULL
-  setanimationscale 1
-#MAXGEOM ASCII
+setsupermodel wswnd_fxfrost NULL
+setanimationscale 1
+#MAXGEOM  ASCII
 beginmodelgeom wswnd_fxfrost
 node dummy wswnd_fxfrost
   parent NULL
-  #part-number 0
 endnode
-node emitter g_wswgs_v_cold01b
+node emitter g_WSwGs_V_Cold
   parent wswnd_fxfrost
-  #part-number 2
-  position 0 0.74634  0.04283
-  deadspace 0
-  blastRadius 0
-  blastLength 0
-  xgrid 4
-  ygrid 4
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
   spawntype 0
   update Fountain
   render Normal
   blend Lighten
-  texture fxpa_smoke01a
-  twosidedtex 0
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
   loop 0
-  renderorder 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.74634 0.04283
+  orientation 1.00001  0.00000 -0.00000  0.05236
+  colorStart 0.670588 0.878431 1
+  colorEnd 0 0 0
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 60
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 1
+  ysize 115
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0.09
+  lightningRadius 0.045
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0.75
+  grav 0.7
+  threshold 0.01
+endnode
+node emitter g_WSwGs_V_Cold01
+  parent wswnd_fxfrost
   p2p 0
   p2p_sel 0
   affectedByWind 0
@@ -35,8 +80,22 @@ node emitter g_wswgs_v_cold01b
   inherit 0
   inheritvel 0
   inherit_local 0
-  splat 0
   inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.00000  0.74634  0.04283
   orientation 1.00001  0.00000 -0.00000  0.05236
   colorStart 0.729412 0.839216 1
   colorEnd 0 0 0
@@ -56,7 +115,7 @@ node emitter g_wswgs_v_cold01b
   velocity 0
   randvel 0
   fps 0
-  xsize 4
+  xsize 0
   ysize 115
   bounce_co 0
   blurlength 10
@@ -70,25 +129,10 @@ node emitter g_wswgs_v_cold01b
   grav 0.7
   threshold 0.01
 endnode
-node emitter g_wswgs_v_cold
+node emitter g_WSwGs_V_Cold02
   parent wswnd_fxfrost
-  #part-number 3
-  position 0 0.74634  0.04283
-  deadspace 0
-  blastRadius 0
-  blastLength 0
-  xgrid 4
-  ygrid 4
-  spawntype 0
-  update Fountain
-  render Normal
-  blend Lighten
-  texture fxpa_smoke01a
-  twosidedtex 0
-  loop 0
-  renderorder 0
   p2p 0
-  p2p_sel 1
+  p2p_sel 0
   affectedByWind 0
   m_isTinted 0
   bounce 0
@@ -96,40 +140,55 @@ node emitter g_wswgs_v_cold
   inherit 1
   inheritvel 0
   inherit_local 0
-  splat 0
   inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.00000  0.74634  0.04283
   orientation 1.00001  0.00000 -0.00000  0.05236
-  colorStart 1 1 1
-  colorEnd 1 1 1
-  alphaStart 0.2
-  alphaEnd 0
-  sizeStart 0
-  sizeEnd 0.75
+  colorStart 0.894118 0.952941 1
+  colorEnd 0 0 0
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 0.3
+  sizeEnd 0.1
   sizeStart_y 0
   sizeEnd_y 0
   frameStart 0
-  frameEnd 0
-  birthrate 6
-  lifeExp 2
-  mass 0.01
-  spread 3.14159
+  frameEnd 15
+  birthrate 60
+  lifeExp 1
+  mass 0
+  spread 0
   particleRot 0
   velocity 0
-  randvel 0.1
+  randvel 0
   fps 0
-  xsize 4
+  xsize 1
   ysize 115
   bounce_co 0
-  blurlength 0.5
-  lightningDelay 0
-  lightningRadius 0
+  blurlength 10
+  lightningDelay 0.09
+  lightningRadius 0.045
   lightningScale 0
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
-  drag 0
-  grav 0
-  threshold 0
+  drag 0.75
+  grav 0.7
+  threshold 0.01
 endnode
 endmodelgeom wswnd_fxfrost
+
 donemodel wswnd_fxfrost

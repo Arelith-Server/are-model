@@ -1,74 +1,110 @@
-# Rewritten by CleanModels 3 Version 3.5.2d Tue Jan 19 15:56:02 2021
-#MAXMODEL ASCII
-newmodel WBlgcl_fxneg
-  setsupermodel WBlgcl_fxneg NULL
-  setanimationscale 1
-#MAXGEOM ASCII
-beginmodelgeom WBlgcl_fxneg
-node dummy WBlgcl_fxneg
-  parent NULL
-  #part-number 0
+# Exported from Blender on Saturday, 2020-02-29
+filedependancy unknown
+newmodel wblgcl_fxneg
+setsupermodel wblgcl_fxneg null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom wblgcl_fxneg
+node dummy wblgcl_fxneg
+  parent null
 endnode
-node emitter g_wswgs_v_neg01
-  parent WBlgcl_fxneg
-  #part-number 2
-  position 0 0.3 0
-  deadspace 0
-  blastRadius 0
-  blastLength 0
-  xgrid 4
-  ygrid 4
-  spawntype 0
+node emitter g_WSwGs_V_Neg
+  parent wblgcl_fxneg
+  position  0.00000  0.30225  0.00003
+  orientation  0.00000  1.00000  0.00000  1.57080
+  xsize 28.00
+  ysize 64.00
   update Fountain
   render Normal
   blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 14
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.05
+  particlerot 0.00
+  spread 2.27
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 0.00 0.00
+  colorend 0.47 0.00 0.00
+  alphastart 0.00
+  alphaend 1.00
+  sizestart 0.65
+  sizeend 0.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
   texture fxpa_sparks
   twosidedtex 0
-  loop 0
-  renderorder 0
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
-  bounce 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
   random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
   inherit 1
   inheritvel 0
   inherit_local 0
-  splat 0
   inherit_part 0
-  orientation 0 1 0 0
-  colorStart 1 0 0
-  colorEnd 0.466667 0 0
-  alphaStart 0
-  alphaEnd 1
-  sizeStart 0.7
-  sizeEnd 0
-  sizeStart_y 0
-  sizeEnd_y 0
-  frameStart 0
-  frameEnd 15
-  birthrate 16
-  lifeExp 1
-  mass 0
-  spread 2.26893
-  particleRot 0
-  velocity 0
-  randvel 0.05
-  fps 0
-  xsize 20
-  ysize 60
-  bounce_co 0
-  blurlength 10
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  combinetime 0
-  drag 0
-  grav 0
-  threshold 0
 endnode
-endmodelgeom WBlgcl_fxneg
-donemodel WBlgcl_fxneg
+node emitter g_WSwGs_V_Neg01
+  parent wblgcl_fxneg
+  position  0.00000  0.30867  0.00003
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 28.00
+  ysize 68.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 14
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.05
+  particlerot 0.00
+  spread 2.27
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 0.00 0.00
+  colorend 0.47 0.00 0.00
+  alphastart 0.00
+  alphaend 1.00
+  sizestart 0.65
+  sizeend 0.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_sparks
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 0
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom wblgcl_fxneg
+donemodel wblgcl_fxneg

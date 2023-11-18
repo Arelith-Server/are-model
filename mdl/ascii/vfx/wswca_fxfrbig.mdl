@@ -2,17 +2,15 @@
 # model: wswca_fxfrbig
 filedependancy wswca_fxfrbig.max
 newmodel wswca_fxfrbig
-setsupermodel wswca_fxfrbig null
+setsupermodel wswca_fxfrbig NULL
 setanimationscale 1
 #MAXGEOM  ASCII
 beginmodelgeom wswca_fxfrbig
 node dummy wswca_fxfrbig
   parent NULL
-  #part-number 0
 endnode
-node emitter g_wswgs_v_holy_b
+node emitter g_wswca_V_Fire
   parent wswca_fxfrbig
-  #part-number 1
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -22,42 +20,102 @@ node emitter g_wswgs_v_holy_b
   inherit 1
   inheritvel 0
   inherit_local 0
-  splat 0
   inherit_part 0
+  splat 0
   renderorder 0
   spawntype 0
   update Fountain
   render Normal
   blend Lighten
   texture fxpa_flame04
-  xgrid 2
-  ygrid 2
+  xgrid 4
+  ygrid 4
   loop 0
   deadspace 0
   twosidedtex 0
   blastRadius 0
   blastLength 0
-  position 0.0 0.609027 0.00530495
-  orientation 0.0 0.0 0.0 0.0
-  colorStart 0.811765015 0.725489974 0.541176021
-  colorEnd 0.788235009 0.596077979 0.360783994
-  alphaStart 0.800000012
+  position 0 0.609027 0.0053049
+  orientation 0 -1 0 -1.5708
+  colorStart 1 0.921569 0.682353
+  colorEnd 0.886275 0.556863 0.0392157
+  alphaStart 0.6
   alphaEnd 0
   sizeStart 0
-  sizeEnd 0.600000024
+  sizeEnd 0.7
   sizeStart_y 0
   sizeEnd_y 0
   frameStart 0
-  frameEnd 3
-  birthrate 27
-  lifeExp 2
+  frameEnd 15
+  birthrate 40
+  lifeExp 1.75
   mass 0
-  spread 0
+  spread 0.174533
   particleRot 0
   velocity 0
   randvel 0
+  fps 16
+  xsize 8
+  ysize 85
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter g_wswca_V_Fire_b
+  parent wswca_fxfrbig
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.61935 0.00530494
+  orientation 0 0 0 0
+  colorStart 0.996079 1 0.894118
+  colorEnd 0.886275 0.556863 0.0392157
+  alphaStart 0.5
+  alphaEnd 0.25
+  sizeStart 0.07
+  sizeEnd 0.04
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 10
+  lifeExp 0.5
+  mass -1
+  spread 0.174533
+  particleRot 2
+  velocity 0
+  randvel 0.5
   fps 0
-  xsize 4
+  xsize 3
   ysize 90
   bounce_co 0
   blurlength 10
@@ -71,66 +129,103 @@ node emitter g_wswgs_v_holy_b
   grav 0
   threshold 0
 endnode
-node emitter g_wswgs_v_holy
+node emitter g_wswca_V_frbig_rune 
   parent wswca_fxfrbig
-  #part-number 2
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
+  position  0.0200  0.47500 -0.00000
+  orientation  0.57735  0.57735  0.57735  2.09439
+  xsize 1
+  ysize 1
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 1
+  lifeexp -1
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0
+  splat 0
+  affectedbywind 0
+  colorStart 1 0.921569 0.682353
+  colorEnd 0.886275 0.556863 0.0392157
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.5
+  sizeend 0.5
+  sizestart_y 0.04
+  sizeend_y 0.04
   bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_firerunes
+  twosidedtex 1
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
   random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
   inherit 1
   inheritvel 0
   inherit_local 0
-  splat 0
   inherit_part 0
-  renderorder 0
-  spawntype 0
-  update Fountain
-  render Normal
+endnode
+node emitter g_wswca_V_frbig_rune2 
+  parent wswca_fxfrbig
+  position  -0.0200  0.47500 -0.00000
+  orientation  0.57735 -0.57735 -0.57735  2.09440
+  xsize 1
+  ysize 1
+  update Single
+  render Billboard_to_Local_Z
   blend Lighten
-  texture fxpa_flame04
-  xgrid 2
-  ygrid 2
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0.0 0.609027 0.00530495
-  orientation 0.0 0.0 0.0 0.0
-  colorStart 0.811765015 0.725489974 0.541176021
-  colorEnd 0.788235009 0.596077979 0.360783994
-  alphaStart 0.800000012
-  alphaEnd 0
-  sizeStart 0
-  sizeEnd 0.600000024
-  sizeStart_y 0
-  sizeEnd_y 0
-  frameStart 0
-  frameEnd 3
-  birthrate 27
-  lifeExp 2
-  mass 0
+  spawntype 0
+  renderorder 0
+  birthrate 1
+  lifeexp -1
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
   spread 0
-  particleRot 0
-  velocity 0
-  randvel 0
+  splat 0
+  affectedbywind 0
+  colorStart 1 0.921569 0.682353
+  colorEnd 0.886275 0.556863 0.0392157
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.5
+  sizeend 0.5
+  sizestart_y 0.04
+  sizeend_y 0.04
+  bounce 0
+  bounce_co 0.00
+  blurlength 0.00
+  deadspace 0.00
+  texture fxpa_firerunes
+  twosidedtex 1
+  m_istinted 0
+  xgrid 1
+  ygrid 1
   fps 0
-  xsize 4
-  ysize 90
-  bounce_co 0
-  blurlength 10
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  combinetime 0
-  drag 0
-  grav 0
-  threshold 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
 endnode
 endmodelgeom wswca_fxfrbig
 

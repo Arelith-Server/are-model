@@ -1,19 +1,19 @@
-# Exported from blender Tuesday, 2021-01-19
-filedependancy unknown
+# Exported from blender Wednesday, 2021-03-17
+filedependancy CHARACTER
 newmodel whdkr_fxacid
 setsupermodel whdkr_fxacid null
-Classification Item
+classification CHARACTER
 setanimationscale 1.0
 beginmodelgeom whdkr_fxacid
 node dummy whdkr_fxacid
   parent null
 endnode
-node emitter g_wswgs_v_acid01
+node emitter g_whdkr_v_acid01
   parent whdkr_fxacid
-  position 0 0 -0.3
-  orientation 0 1 0 1.5708
-  xsize 40
-  ysize 10
+  position  0.00000  0.00000  -0.24800
+  orientation  0.00000  1.00000  0.00000  1.57080
+  xsize 31.00000023841858
+  ysize 10.40000629425049
   update Fountain
   render Normal
   blend Lighten
@@ -57,12 +57,12 @@ node emitter g_wswgs_v_acid01
   inherit_local 0
   inherit_part 0
 endnode
-node emitter g_wswgs_v_acid_b
+node emitter g_whdkr_v_acid_b
   parent whdkr_fxacid
-  position 0 0 -0.3
-  orientation 0 1 0 1.5708
-  xsize 40
-  ysize 10
+  position  0.00000  0.00000 -0.08000
+  orientation  0.00000  1.00000  0.00000  1.57080
+  xsize 31.00000023841858
+  ysize 10.40000629425049
   update Fountain
   render Normal
   blend Lighten
