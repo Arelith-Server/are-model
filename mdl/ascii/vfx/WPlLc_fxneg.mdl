@@ -1,207 +1,74 @@
-# Exported from blender Wednesday, 2021-02-10
-filedependancy unknown
-newmodel wpllc_fxneg
-setsupermodel wpllc_fxneg null
-setanimationscale 1.0
-beginmodelgeom wpllc_fxneg
-node dummy wpllc_fxneg
-  parent null
+# Rewritten by CleanModels 3 Version 3.5.2d Tue Jan 19 15:56:02 2021
+#MAXMODEL ASCII
+newmodel WPlLc_fxneg
+  setsupermodel WPlLc_fxneg NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom WPlLc_fxneg
+node dummy WPlLc_fxneg
+  parent NULL
+  #part-number 0
 endnode
 node emitter g_wswgs_v_neg01
-  parent wpllc_fxneg
-  position -0.00000  1.51471  0.00000
-  orientation -0.00000  0.00000  0.00000  0.00000
-  xsize 19.999998807907104
-  ysize 269.2858695983887
+  parent WPlLc_fxneg
+  #part-number 2
+  position 0 1.5 0
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 4
+  ygrid 4
+  spawntype 0
   update Fountain
   render Normal
   blend Lighten
-  spawntype 0
-  renderorder 0
-  birthrate 20
-  lifeexp 1
-  mass 0.00
-  velocity 0.00
-  randvel 0.05
-  particlerot 0.00
-  spread 2.27
-  splat 0
-  affectedbywind 0
-  colorstart 1.00 0.00 0.00
-  colorend 0.47 0.00 0.00
-  alphastart 0.00
-  alphaend 1.00
-  sizestart 0.65
-  sizeend 0.00
-  sizestart_y 0.00
-  sizeend_y 0.00
-  bounce 0
-  bounce_co 0.00
-  blurlength 10.00
-  deadspace 0.00
   texture fxpa_sparks
   twosidedtex 0
-  m_istinted 0
-  xgrid 4
-  ygrid 4
-  fps 0
-  framestart 0
-  frameend 15
-  random 0
+  loop 0
+  renderorder 0
   p2p 0
-  blastradius 0.00
-  blastlength 0.00
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
   inherit 1
   inheritvel 0
   inherit_local 0
-  inherit_part 0
-endnode
-node emitter g_wswgs_v_neg01.001
-  parent wpllc_fxneg
-  position  0.00000 -0.35048  0.00000
-  orientation -0.00000  0.00000  0.00000  0.00000
-  xsize 19.999998807907104
-  ysize 44.75949704647064
-  update Fountain
-  render Normal
-  blend Lighten
-  spawntype 0
-  renderorder 0
-  birthrate 5
-  lifeexp 1
-  mass 0.00
-  velocity 0.00
-  randvel 0.05
-  particlerot 0.00
-  spread 2.27
   splat 0
-  affectedbywind 0
-  colorstart 1.00 0.00 0.00
-  colorend 0.47 0.00 0.00
-  alphastart 0.00
-  alphaend 1.00
-  sizestart 0.65
-  sizeend 0.00
-  sizestart_y 0.00
-  sizeend_y 0.00
-  bounce 0
-  bounce_co 0.00
-  blurlength 10.00
-  deadspace 0.00
-  texture fxpa_sparks
-  twosidedtex 0
-  m_istinted 0
-  xgrid 4
-  ygrid 4
-  fps 0
-  framestart 0
-  frameend 15
-  random 0
-  p2p 0
-  blastradius 0.00
-  blastlength 0.00
-  inherit 1
-  inheritvel 0
-  inherit_local 0
   inherit_part 0
-endnode
-node emitter g_wswgs_v_neg
-  parent wpllc_fxneg
-  position  0.00000  1.51471 -0.00000
-  orientation -0.00000  1.00000  0.00000  1.57080
-  xsize 19.999998807907104
-  ysize 269.2858695983887
-  update Fountain
-  render Normal
-  blend Lighten
-  spawntype 0
-  renderorder 0
-  birthrate 20
-  lifeexp 1
-  mass 0.00
-  velocity 0.00
+  orientation 0 1 0 1.5708
+  colorStart 1 0 0
+  colorEnd 0.466667 0 0
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 0.7
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 16
+  lifeExp 1
+  mass 0
+  spread 2.26893
+  particleRot 0
+  velocity 0
   randvel 0.05
-  particlerot 0.00
-  spread 2.27
-  splat 0
-  affectedbywind 0
-  colorstart 1.00 0.00 0.00
-  colorend 0.47 0.00 0.00
-  alphastart 0.00
-  alphaend 1.00
-  sizestart 0.65
-  sizeend 0.00
-  sizestart_y 0.00
-  sizeend_y 0.00
-  bounce 0
-  bounce_co 0.00
-  blurlength 10.00
-  deadspace 0.00
-  texture fxpa_sparks
-  twosidedtex 0
-  m_istinted 0
-  xgrid 4
-  ygrid 4
   fps 0
-  framestart 0
-  frameend 15
-  random 0
-  p2p 0
-  blastradius 0.00
-  blastlength 0.00
-  inherit 1
-  inheritvel 0
-  inherit_local 0
-  inherit_part 0
+  xsize 5
+  ysize 200
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
 endnode
-node emitter g_wswgs_v_neg.001
-  parent wpllc_fxneg
-  position  0.00000 -0.35048  0.00000
-  orientation -0.00000  1.00000  0.00000  1.57080
-  xsize 19.999998807907104
-  ysize 44.75949704647064
-  update Fountain
-  render Normal
-  blend Lighten
-  spawntype 0
-  renderorder 0
-  birthrate 5
-  lifeexp 1
-  mass 0.00
-  velocity 0.00
-  randvel 0.05
-  particlerot 0.00
-  spread 2.27
-  splat 0
-  affectedbywind 0
-  colorstart 1.00 0.00 0.00
-  colorend 0.47 0.00 0.00
-  alphastart 0.00
-  alphaend 1.00
-  sizestart 0.65
-  sizeend 0.00
-  sizestart_y 0.00
-  sizeend_y 0.00
-  bounce 0
-  bounce_co 0.00
-  blurlength 10.00
-  deadspace 0.00
-  texture fxpa_sparks
-  twosidedtex 0
-  m_istinted 0
-  xgrid 4
-  ygrid 4
-  fps 0
-  framestart 0
-  frameend 15
-  random 0
-  p2p 0
-  blastradius 0.00
-  blastlength 0.00
-  inherit 1
-  inheritvel 0
-  inherit_local 0
-  inherit_part 0
-endnode
-endmodelgeom wpllc_fxneg
-donemodel wpllc_fxneg
+endmodelgeom WPlLc_fxneg
+donemodel WPlLc_fxneg

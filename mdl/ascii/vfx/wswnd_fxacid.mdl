@@ -1,134 +1,110 @@
-#MAXMODEL ASCII
-# model: wswnd_fxacid
-filedependancy wswnd_fxacid.max
+# Exported from blender Tuesday, 2021-01-19
+filedependancy unknown
 newmodel wswnd_fxacid
-setsupermodel wswnd_fxacid NULL
-setanimationscale 1
-#MAXGEOM  ASCII
+setsupermodel wswnd_fxacid null
+Classification Item
+setanimationscale 1.0
 beginmodelgeom wswnd_fxacid
 node dummy wswnd_fxacid
-  parent NULL
+  parent null
 endnode
-node emitter g_wswnd_V_Acid
+node emitter g_wswgs_v_acid01
   parent wswnd_fxacid
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
+  position 0 0.74634  0.04283
+  orientation 1.00001  0.00000 -0.00000  0.05236
+  xsize 4
+  ysize 115
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 14
+  lifeexp 2
+  mass 0.00
+  velocity 0.00
+  randvel 0.05
+  particlerot 0.00
+  spread 2.27
+  splat 0
+  affectedbywind 0
+  colorstart 0.26 0.92 0.00
+  colorend 0.07 0.55 0.00
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.40
+  sizestart_y 0.00
+  sizeend_y 0.00
   bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
   random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
   inherit 1
   inheritvel 0
   inherit_local 0
   inherit_part 0
-  splat 0
-  renderorder 0
-  spawntype 0
+endnode
+node emitter g_wswgs_v_acid_b
+  parent wswnd_fxacid
+  position 0 0.74634  0.04283
+  orientation 1.00001  0.00000 -0.00000  0.05236
+  xsize 4
+  ysize 115
   update Fountain
   render Normal
   blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 2
+  mass 1.50
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.26 0.92 0.00
+  colorend 0.07 0.55 0.00
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.20
+  blurlength 10.00
+  deadspace 0.00
   texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
   xgrid 1
   ygrid 1
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0.00000  0.74730  0.01542
-  orientation 0.01745  0.99970  0.01745  1.57110
-  colorStart 0.258824 0.921569 0
-  colorEnd 0.0666667 0.552941 0
-  alphaStart 1
-  alphaEnd 0
-  sizeStart 0
-  sizeEnd 0.4
-  sizeStart_y 0
-  sizeEnd_y 0
-  frameStart 0
-  frameEnd 0
-  birthrate 60
-  lifeExp 1.5
-  mass 0
-  spread 2.26893
-  particleRot 0
-  velocity 0
-  randvel 0.05
   fps 0
-  xsize 8
-  ysize 115
-  bounce_co 0
-  blurlength 10
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  combinetime 0
-  drag 0
-  grav 0
-  threshold 0
-endnode
-node emitter g_wswnd_V_Acid_b
-  parent wswnd_fxacid
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
-  bounce 1
+  framestart 0
+  frameend 0
   random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
   inherit 0
   inheritvel 0
   inherit_local 0
   inherit_part 0
-  splat 0
-  renderorder 0
-  spawntype 0
-  update Fountain
-  render Normal
-  blend Lighten
-  texture fxpa_flare
-  xgrid 1
-  ygrid 1
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0.00000  0.74730  0.01542
-  orientation 1.00005  0.00000 -0.00000  0.03490
-  colorStart 0.258824 0.921569 0
-  colorEnd 0.0666667 0.552941 0
-  alphaStart 1
-  alphaEnd 1
-  sizeStart 0.1
-  sizeEnd 0.1
-  sizeStart_y 0
-  sizeEnd_y 0
-  frameStart 0
-  frameEnd 0
-  birthrate 3
-  lifeExp 1
-  mass 1.5
-  spread 0
-  particleRot 0
-  velocity 0
-  randvel 0
-  fps 0
-  xsize 2
-  ysize 115
-  bounce_co 0.2
-  blurlength 10
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  combinetime 0
-  drag 0
-  grav 0
-  threshold 0
 endnode
 endmodelgeom wswnd_fxacid
-
 donemodel wswnd_fxacid

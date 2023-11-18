@@ -1,16 +1,31 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Tue Jan 19 15:56:02 2021
 #MAXMODEL ASCII
-# model: wswwk_fxneg
-filedependancy wswwk_fxneg.max
-newmodel wswwk_fxneg
-setsupermodel wswwk_fxneg NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom wswwk_fxneg
-node dummy wswwk_fxneg
+newmodel WSwwk_fxneg
+  setsupermodel WSwwk_fxneg NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom WSwwk_fxneg
+node dummy WSwwk_fxneg
   parent NULL
+  #part-number 0
 endnode
-node emitter g_WSwGs_V_Neg
-  parent wswwk_fxneg
+node emitter g_wswgs_v_neg01
+  parent WSwwk_fxneg
+  #part-number 2
+  position 0 0.36 0.01
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 4
+  ygrid 4
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_sparks
+  twosidedtex 0
+  loop 0
+  renderorder 0
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -20,34 +35,20 @@ node emitter g_WSwGs_V_Neg
   inherit 1
   inheritvel 0
   inherit_local 0
-  inherit_part 0
   splat 0
-  renderorder 0
-  spawntype 0
-  update Fountain
-  render Normal
-  blend Lighten
-  texture fxpa_Sparks
-  xgrid 4
-  ygrid 4
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0 0.357289 0.00530493
-  orientation 0 0 0 0
+  inherit_part 0
+  orientation 0.05 1 0 1.5708
   colorStart 1 0 0
   colorEnd 0.466667 0 0
   alphaStart 0
   alphaEnd 1
-  sizeStart 0.6
+  sizeStart 0.7
   sizeEnd 0
   sizeStart_y 0
   sizeEnd_y 0
   frameStart 0
   frameEnd 15
-  birthrate 50
+  birthrate 16
   lifeExp 1
   mass 0
   spread 2.26893
@@ -69,6 +70,5 @@ node emitter g_WSwGs_V_Neg
   grav 0
   threshold 0
 endnode
-endmodelgeom wswwk_fxneg
-
-donemodel wswwk_fxneg
+endmodelgeom WSwwk_fxneg
+donemodel WSwwk_fxneg

@@ -1,207 +1,74 @@
-# Exported from blender Wednesday, 2021-02-10
-filedependancy unknown
-newmodel wpllc_fxholy
-setsupermodel wpllc_fxholy null
-setanimationscale 1.0
-beginmodelgeom wpllc_fxholy
-node dummy wpllc_fxholy
-  parent null
+# Rewritten by CleanModels 3 Version 3.5.2d Tue Jan 19 15:56:02 2021
+#MAXMODEL ASCII
+newmodel WPlLc_fxholy
+  setsupermodel WPlLc_fxholy NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom WPlLc_fxholy
+node dummy WPlLc_fxholy
+  parent NULL
+  #part-number 0
 endnode
-node emitter g_wswgs_v_holy
-  parent wpllc_fxholy
-  position  0.00000  1.52092  0.00000
-  orientation  0.00000  1.00000 -0.00000  1.57079
-  xsize 19.999998807907104
-  ysize 266.40000343322754
+node emitter g_wswgs_v_holy_b
+  parent WPlLc_fxholy
+  #part-number 2
+  position 0 1.5 0
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 2
+  ygrid 2
+  spawntype 0
   update Fountain
   render Normal
   blend Lighten
-  spawntype 0
-  renderorder 0
-  birthrate 15
-  lifeexp 2
-  mass 0.00
-  velocity 0.00
-  randvel 0.00
-  particlerot 0.00
-  spread 0.00
-  splat 0
-  affectedbywind 0
-  colorstart 0.81 0.73 0.54
-  colorend 0.79 0.60 0.36
-  alphastart 0.80
-  alphaend 0.00
-  sizestart 0.00
-  sizeend 0.80
-  sizestart_y 0.00
-  sizeend_y 0.00
-  bounce 0
-  bounce_co 0.00
-  blurlength 10.00
-  deadspace 0.00
   texture fxpa_starbnw
   twosidedtex 0
-  m_istinted 0
-  xgrid 2
-  ygrid 2
-  fps 0
-  framestart 0
-  frameend 3
-  random 0
+  loop 0
+  renderorder 0
   p2p 0
-  blastradius 0.00
-  blastlength 0.00
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
   inherit 1
   inheritvel 0
   inherit_local 0
-  inherit_part 0
-endnode
-node emitter g_wswgs_v_holy.001
-  parent wpllc_fxholy
-  position -0.00000 -0.34252 -0.00000
-  orientation  0.00000  1.00000 -0.00000  1.57079
-  xsize 19.999998807907104
-  ysize 45.573729276657104
-  update Fountain
-  render Normal
-  blend Lighten
-  spawntype 0
-  renderorder 0
-  birthrate 5
-  lifeexp 2
-  mass 0.00
-  velocity 0.00
-  randvel 0.00
-  particlerot 0.00
-  spread 0.00
   splat 0
-  affectedbywind 0
-  colorstart 0.81 0.73 0.54
-  colorend 0.79 0.60 0.36
-  alphastart 0.80
-  alphaend 0.00
-  sizestart 0.00
-  sizeend 0.80
-  sizestart_y 0.00
-  sizeend_y 0.00
-  bounce 0
-  bounce_co 0.00
-  blurlength 10.00
-  deadspace 0.00
-  texture fxpa_starbnw
-  twosidedtex 0
-  m_istinted 0
-  xgrid 2
-  ygrid 2
-  fps 0
-  framestart 0
-  frameend 3
-  random 0
-  p2p 0
-  blastradius 0.00
-  blastlength 0.00
-  inherit 1
-  inheritvel 0
-  inherit_local 0
   inherit_part 0
-endnode
-node emitter g_wswgs_v_holy01
-  parent wpllc_fxholy
-  position -0.00000  1.52092  0.00000
-  orientation -0.00000 -0.00000  0.00000  0.00000
-  xsize 19.999998807907104
-  ysize 266.40000343322754
-  update Fountain
-  render Normal
-  blend Lighten
-  spawntype 0
-  renderorder 0
-  birthrate 15
-  lifeexp 2
-  mass 0.00
-  velocity 0.00
-  randvel 0.00
-  particlerot 0.00
-  spread 0.00
-  splat 0
-  affectedbywind 0
-  colorstart 0.81 0.73 0.54
-  colorend 0.79 0.60 0.36
-  alphastart 0.80
-  alphaend 0.00
-  sizestart 0.00
-  sizeend 0.80
-  sizestart_y 0.00
-  sizeend_y 0.00
-  bounce 0
-  bounce_co 0.00
-  blurlength 10.00
-  deadspace 0.00
-  texture fxpa_starbnw
-  twosidedtex 0
-  m_istinted 0
-  xgrid 2
-  ygrid 2
+  orientation 0 1 0 1.5708
+  colorStart 0.811765 0.72549 0.541176
+  colorEnd 0.788235 0.596078 0.360784
+  alphaStart 0.8
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0.6
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 20
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
   fps 0
-  framestart 0
-  frameend 3
-  random 0
-  p2p 0
-  blastradius 0.00
-  blastlength 0.00
-  inherit 1
-  inheritvel 0
-  inherit_local 0
-  inherit_part 0
+  xsize 5
+  ysize 200
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
 endnode
-node emitter g_wswgs_v_holy01.001
-  parent wpllc_fxholy
-  position  0.00000 -0.34252 -0.00000
-  orientation -0.00000 -0.00000  0.00000  0.00000
-  xsize 19.999998807907104
-  ysize 45.573729276657104
-  update Fountain
-  render Normal
-  blend Lighten
-  spawntype 0
-  renderorder 0
-  birthrate 5
-  lifeexp 2
-  mass 0.00
-  velocity 0.00
-  randvel 0.00
-  particlerot 0.00
-  spread 0.00
-  splat 0
-  affectedbywind 0
-  colorstart 0.81 0.73 0.54
-  colorend 0.79 0.60 0.36
-  alphastart 0.80
-  alphaend 0.00
-  sizestart 0.00
-  sizeend 0.80
-  sizestart_y 0.00
-  sizeend_y 0.00
-  bounce 0
-  bounce_co 0.00
-  blurlength 10.00
-  deadspace 0.00
-  texture fxpa_starbnw
-  twosidedtex 0
-  m_istinted 0
-  xgrid 2
-  ygrid 2
-  fps 0
-  framestart 0
-  frameend 3
-  random 0
-  p2p 0
-  blastradius 0.00
-  blastlength 0.00
-  inherit 1
-  inheritvel 0
-  inherit_local 0
-  inherit_part 0
-endnode
-endmodelgeom wpllc_fxholy
-donemodel wpllc_fxholy
+endmodelgeom WPlLc_fxholy
+donemodel WPlLc_fxholy

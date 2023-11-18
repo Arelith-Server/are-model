@@ -1,163 +1,74 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Tue Jan 19 15:56:02 2021
 #MAXMODEL ASCII
-# model: wplng_fxsonic 
-filedependancy wplng.max
-newmodel wplng_fxsonic 
-setsupermodel wplng_fxsonic NULL
-classification Item
-#MAXGEOM  ASCII
-beginmodelgeom wplng_fxsonic 
-node dummy wplng_fxsonic 
-  parent NULL 
+newmodel WPlNg_fxsonic
+  setsupermodel WPlNg_fxsonic NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom WPlNg_fxsonic
+node dummy WPlNg_fxsonic
+  parent NULL
+  #part-number 0
 endnode
-node emitter g_WSwGs_V_Sonic01 
-  parent wplng_fxsonic 
-  position 0.00204285 0.97243 -0.147533
-  orientation  0.0 0.707107 -0.707107  -3.14159
-  wirecolor 0.6 0.894118 0.6  
-    colorStart 1.0 1.0 1.0  
-    colorEnd 1.0 1.0 1.0  
-    alphaStart 0.7 
-    alphaEnd 0.5 
-    sizeStart 0.4 
-    sizeEnd 0.4 
-    sizeStart_y 0.0 
-    sizeEnd_y 0.0 
-    frameStart 0 
-    frameEnd 0 
-    birthrate 20 
-    spawnType 0 
-    lifeExp 0.5 
-    mass 0.0 
-    spread 0.0 
-    particleRot 3.0 
-    velocity 0.0 
-    randvel 0.0 
-    fps 0 
-    random 0 
-    inherit 1 
-    inherit_local 0 
-    inherit_part 0 
-    inheritvel 0 
-    xsize 0 
-    ysize 0 
-    bounce 0 
-    bounce_co 0.0 
-    loop 0 
-    update Fountain 
-    render Normal 
-    Blend Lighten 
-    update_sel 1 
-    render_sel 1 
-    blend_sel 3 
-    deadspace 0.0 
-    opacity 0.2 
-    blurlength 0.2 
-    lightningDelay 0.0 
-    lightningRadius 0.0 
-    lightningScale 0.0 
-    blastRadius 0.0 
-    blastLength 0.0 
-    twosidedtex 0 
-    p2p 1 
-    p2p_sel 1 
-    p2p_type Bezier 
-    p2p_bezier2 0.0 
-    p2p_bezier3 0.0 
-    combinetime 0.0 
-    drag 0.0 
-    grav 0.0 
-    threshold 0.0 
-    texture fxpa_flare 
-    xgrid 1 
-    ygrid 1 
-    affectedByWind false 
-    m_isTinted 0 
-    renderorder 0 
-    Splat 0 
+node emitter g_wswgs_v_sonic01
+  parent WPlNg_fxsonic
+  #part-number 1
+  position 0 1.4 0.03
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_flare
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  orientation 1 1 0 0.2
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.5
+  alphaEnd 0.5
+  sizeStart 0.4
+  sizeEnd 0.4
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 26
+  lifeExp 0.1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 2
+  randvel 0
+  fps 0
+  xsize 2
+  ysize 50
+  bounce_co 0
+  blurlength 0.2
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
 endnode
-node reference OmenRef02 
-  parent g_WSwGs_V_Sonic01 
-  position -0.0034829 -0.070795 0.223777
-  orientation  -1.0 0.0 0.0  -1.95477
-  wirecolor 0.541176 0.0313726 0.431373  
-  refModel fx_ref 
-  reattachable 0 
-endnode
-node emitter g_WSwGs_V_Sonic 
-  parent wplng_fxsonic 
-  position 0.00552551 1.14157 -0.147533
-  orientation  1.0 -1.30089e-007 1.7535e-007  -1.5708
-  wirecolor 0.6 0.894118 0.6  
-    colorStart 1.0 1.0 1.0  
-    colorEnd 1.0 1.0 1.0  
-    alphaStart 0.7 
-    alphaEnd 0.5 
-    sizeStart 0.4 
-    sizeEnd 0.4 
-    sizeStart_y 0.0 
-    sizeEnd_y 0.0 
-    frameStart 0 
-    frameEnd 0 
-    birthrate 20 
-    spawnType 0 
-    lifeExp 0.5 
-    mass 0.0 
-    spread 0.0 
-    particleRot 3.0 
-    velocity 0.0 
-    randvel 0.0 
-    fps 0 
-    random 0 
-    inherit 1 
-    inherit_local 0 
-    inherit_part 0 
-    inheritvel 0 
-    xsize 0 
-    ysize 0 
-    bounce 0 
-    bounce_co 0.0 
-    loop 0 
-    update Fountain 
-    render Normal 
-    Blend Lighten 
-    update_sel 1 
-    render_sel 1 
-    blend_sel 3 
-    deadspace 0.0 
-    opacity 0.2 
-    blurlength 0.2 
-    lightningDelay 0.0 
-    lightningRadius 0.0 
-    lightningScale 0.0 
-    blastRadius 0.0 
-    blastLength 0.0 
-    twosidedtex 0 
-    p2p 1 
-    p2p_sel 1 
-    p2p_type Bezier 
-    p2p_bezier2 0.0 
-    p2p_bezier3 0.0 
-    combinetime 0.0 
-    drag 0.0 
-    grav 0.0 
-    threshold 0.0 
-    texture fxpa_flare 
-    xgrid 1 
-    ygrid 1 
-    affectedByWind false 
-    m_isTinted 0 
-    renderorder 0 
-    Splat 0 
-endnode
-node reference OmenRef01 
-  parent g_WSwGs_V_Sonic 
-  position -0.00348293 -0.124597 0.293018
-  orientation  -1.0 0.0 0.0  -1.95477
-  wirecolor 0.541176 0.0313726 0.431373  
-  refModel fx_ref 
-  reattachable 0 
-endnode
-endmodelgeom wplng_fxsonic 
-
-donemodel wplng_fxsonic 
-
+endmodelgeom WPlNg_fxsonic
+donemodel WPlNg_fxsonic

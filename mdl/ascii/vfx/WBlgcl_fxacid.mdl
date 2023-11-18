@@ -1,26 +1,26 @@
-# Exported from Blender on Saturday, 2020-02-29
+# Exported from blender Tuesday, 2021-01-19
 filedependancy unknown
-newmodel wblgcl_fxacid
-setsupermodel wblgcl_fxacid null
-classification UNKNOWN
+newmodel WBlgcl_fxacid
+setsupermodel WBlgcl_fxacid null
+Classification Item
 setanimationscale 1.0
-beginmodelgeom wblgcl_fxacid
-node dummy wblgcl_fxacid
+beginmodelgeom WBlgcl_fxacid
+node dummy WBlgcl_fxacid
   parent null
 endnode
-node emitter g_WSwGs_V_Acid01
-  parent wblgcl_fxacid
-  position  0.00000  0.30565  0.00003
-  orientation  0.00000  1.00000  0.00000  0.00000
-  xsize 28.00
-  ysize 72.00
+node emitter g_wswgs_v_acid01
+  parent WBlgcl_fxacid
+  position 0 0.3 0
+  orientation 0 1 0 0
+  xsize 20
+  ysize 60
   update Fountain
   render Normal
   blend Lighten
   spawntype 0
   renderorder 0
-  birthrate 6
-  lifeexp 1.00
+  birthrate 14
+  lifeexp 2
   mass 0.00
   velocity 0.00
   randvel 0.05
@@ -33,7 +33,7 @@ node emitter g_WSwGs_V_Acid01
   alphastart 1.00
   alphaend 0.00
   sizestart 0.00
-  sizeend 0.50
+  sizeend 0.40
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 0
@@ -57,19 +57,19 @@ node emitter g_WSwGs_V_Acid01
   inherit_local 0
   inherit_part 0
 endnode
-node emitter g_WSwGs_V_Acid_b
-  parent wblgcl_fxacid
-  position  0.00000  0.30887  0.00003
-  orientation  0.00000  1.00000  0.00000  1.57080
-  xsize 28.00
-  ysize 68.00
+node emitter g_wswgs_v_acid_b
+  parent WBlgcl_fxacid
+  position 0 0.3 0
+  orientation 0 1 0 0
+  xsize 20
+  ysize 60
   update Fountain
   render Normal
   blend Lighten
   spawntype 0
   renderorder 0
-  birthrate 2
-  lifeexp 2.00
+  birthrate 3
+  lifeexp 2
   mass 1.50
   velocity 0.00
   randvel 0.00
@@ -81,8 +81,8 @@ node emitter g_WSwGs_V_Acid_b
   colorend 0.07 0.55 0.00
   alphastart 1.00
   alphaend 1.00
-  sizestart 0.08
-  sizeend 0.08
+  sizestart 0.10
+  sizeend 0.10
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 1
@@ -106,54 +106,5 @@ node emitter g_WSwGs_V_Acid_b
   inherit_local 0
   inherit_part 0
 endnode
-node emitter g_WSwGs_V_Acid
-  parent wblgcl_fxacid
-  position  0.00000  0.30165  0.00003
-  orientation  0.00000  1.00000  0.00000  1.57080
-  xsize 28.00
-  ysize 68.00
-  update Fountain
-  render Normal
-  blend Lighten
-  spawntype 0
-  renderorder 0
-  birthrate 6
-  lifeexp 1.00
-  mass 0.00
-  velocity 0.00
-  randvel 0.05
-  particlerot 0.00
-  spread 2.27
-  splat 0
-  affectedbywind 0
-  colorstart 0.26 0.92 0.00
-  colorend 0.07 0.55 0.00
-  alphastart 1.00
-  alphaend 0.00
-  sizestart 0.00
-  sizeend 0.50
-  sizestart_y 0.00
-  sizeend_y 0.00
-  bounce 0
-  bounce_co 0.00
-  blurlength 10.00
-  deadspace 0.00
-  texture fxpa_flare
-  twosidedtex 0
-  m_istinted 0
-  xgrid 1
-  ygrid 1
-  fps 0
-  framestart 0
-  frameend 0
-  random 0
-  p2p 0
-  blastradius 0.00
-  blastlength 0.00
-  inherit 1
-  inheritvel 0
-  inherit_local 0
-  inherit_part 0
-endnode
-endmodelgeom wblgcl_fxacid
-donemodel wblgcl_fxacid
+endmodelgeom WBlgcl_fxacid
+donemodel WBlgcl_fxacid

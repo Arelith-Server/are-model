@@ -1,72 +1,74 @@
-# Exported from Blender on Sunday, 2020-03-01
-filedependancy unknown
-newmodel wblgcl_fxsonic
-setsupermodel wblgcl_fxsonic null
-classification ITEM
-setanimationscale 1.0
-beginmodelgeom wblgcl_fxsonic
-node dummy wblgcl_fxsonic
-  parent null
+# Rewritten by CleanModels 3 Version 3.5.2d Tue Jan 19 15:56:02 2021
+#MAXMODEL ASCII
+newmodel WBlgcl_fxsonic
+  setsupermodel WBlgcl_fxsonic NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom WBlgcl_fxsonic
+node dummy WBlgcl_fxsonic
+  parent NULL
+  #part-number 0
 endnode
-node emitter g_WSwGs_V_Sonic
-  parent wblgcl_fxsonic
-  position -0.00472  0.17407 -0.00030
-  orientation -1.00000  0.00000 -0.00000  1.57080
-  xsize 0.00
-  ysize 0.00
+node emitter g_wswgs_v_sonic01
+  parent WBlgcl_fxsonic
+  #part-number 1
+  position 0 0.3 0
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
   update Fountain
   render Normal
   blend Lighten
-  spawntype 0
-  renderorder 0
-  birthrate 15
-  lifeexp 0.50
-  mass 0.00
-  velocity 0.00
-  randvel 0.00
-  particlerot 3.00
-  spread 0.00
-  splat 0
-  affectedbywind 0
-  colorstart 1.00 1.00 1.00
-  colorend 1.00 1.00 1.00
-  alphastart 0.70
-  alphaend 0.50
-  sizestart 0.33
-  sizeend 0.33
-  sizestart_y 0.00
-  sizeend_y 0.00
-  bounce 0
-  bounce_co 0.00
-  blurlength 0.20
-  deadspace 0.00
   texture fxpa_flare
   twosidedtex 0
-  m_istinted 0
-  xgrid 1
-  ygrid 1
-  fps 0
-  framestart 0
-  frameend 0
-  random 0
-  p2p 1
+  loop 0
+  renderorder 0
+  p2p 0
   p2p_sel 1
-  p2p_bezier2 0.00
-  p2p_bezier3 0.00
-  combinetime 0.00
-  blastradius 0.00
-  blastlength 0.00
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
   inherit 1
   inheritvel 0
   inherit_local 0
+  splat 0
   inherit_part 0
+  orientation 0 1 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0.5
+  alphaEnd 0.5
+  sizeStart 0.4
+  sizeEnd 0.4
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 26
+  lifeExp 0.1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 2
+  randvel 0
+  fps 0
+  xsize 20
+  ysize 60
+  bounce_co 0
+  blurlength 0.2
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
 endnode
-node reference OmenRef01
-  parent g_WSwGs_V_Sonic
-  position -0.00348  0.00015  0.23489
-  orientation  1.00000 -0.00000  0.00000  1.57080
-  refmodel fx_ref
-  reattachable 0
-endnode
-endmodelgeom wblgcl_fxsonic
-donemodel wblgcl_fxsonic
+endmodelgeom WBlgcl_fxsonic
+donemodel WBlgcl_fxsonic
