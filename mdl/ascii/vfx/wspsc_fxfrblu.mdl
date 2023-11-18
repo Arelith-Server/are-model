@@ -1,198 +1,208 @@
-#MAXMODEL ASCII
-# model: WSpSc_fxfrblu
-filedependancy WSpSc_fxfrblu.max
-newmodel WSpSc_fxfrblu
-setsupermodel WSpSc_fxfrblu NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom WSpSc_fxfrblu
-node dummy WSpSc_fxfrblu
-  parent NULL
-  #part-number 0
+# NeverBlender 2.8.47|Blender 2.93.0|2023-11-19
+filedependancy unknown
+newmodel wspsc_fxfrblu
+setsupermodel wspsc_fxfrblu null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom wspsc_fxfrblu
+node dummy wspsc_fxfrblu
+  parent null
 endnode
 node emitter g_WSwGs_V_Fire
-  parent WSpSc_fxfrblu
-  #part-number 1
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
-  bounce 0
-  random 0
-  inherit 1
-  inheritvel 0
-  inherit_local 0
-  splat 0
-  inherit_part 0
-  renderorder 0
-  spawntype 0
+  parent wspsc_fxfrblu
+  position  0.00000  0.18957  0.06848
+  orientation  0.39697  0.82754  0.39697  1.75897
+  xsize 6.00
+  ysize 16.00
   update Fountain
   render Normal
   blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.75
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.17
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
   texture fxpa_flame99_blu
+  twosidedtex 0
+  m_istinted 0
   xgrid 4
   ygrid 4
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0 0.338799 0.0458993986
-  orientation -0.323616028 -0.889126182 -0.323616028 -1.68804002
-  colorStart 0.9647 0.9647 0.9647
-  colorEnd 0.3922 0.5882 0.8863
-  alphaStart 0.600000024
-  alphaEnd 0
-  sizeStart 0
-  sizeEnd 0.5
-  sizeStart_y 0
-  sizeEnd_y 0
-  frameStart 0
-  frameEnd 15
-  birthrate 10
-  lifeExp 1.75
-  mass 0
-  spread 0.174532995
-  particleRot 0
-  velocity 0
-  randvel 0
   fps 16
-  xsize 6
-  ysize 16
-  bounce_co 0
-  blurlength 10
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  combinetime 0
-  drag 0
-  grav 0
-  threshold 0
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
 endnode
 node emitter g_WSwGs_V_Fire_b
-  parent WSpSc_fxfrblu
-  #part-number 2
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
+  parent wspsc_fxfrblu
+  position  0.00000  0.33281  0.12425
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 3.00
+  ysize 16.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 5
+  lifeexp 0.50
+  mass -1.00
+  velocity 0.00
+  randvel 0.50
+  particlerot 2.00
+  spread 0.17
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 0.89
+  colorend 1.00 1.00 1.00
+  alphastart 0.50
+  alphaend 0.25
+  sizestart 0.06
+  sizeend 0.07
+  sizestart_y 0.00
+  sizeend_y 0.00
   bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
   random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
   inherit 0
   inheritvel 0
   inherit_local 0
-  splat 0
   inherit_part 0
-  renderorder 0
-  spawntype 0
+endnode
+node emitter g_WSwGs_V_Fire01
+  parent wspsc_fxfrblu
+  position  0.00000  0.34902  0.13507
+  orientation -0.07727  0.99401 -0.07726  1.57680
+  xsize 5.93
+  ysize 20.08
   update Fountain
   render Normal
   blend Lighten
-  texture fxpa_flare
-  xgrid 1
-  ygrid 1
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0 0.397145003 0.0210200995
-  orientation 0 0 0 0
-  colorStart 0.9647 0.9647 0.9647
-  colorEnd 0.3922 0.5882 0.8863
-  alphaStart 0.5
-  alphaEnd 0.25
-  sizeStart 0.0599999987
-  sizeEnd 0.0700000003
-  sizeStart_y 0
-  sizeEnd_y 0
-  frameStart 0
-  frameEnd 0
-  birthrate 5
-  lifeExp 0.5
-  mass -1
-  spread 0.174532995
-  particleRot 2
-  velocity 0
-  randvel 0.5
-  fps 0
-  xsize 3
-  ysize 16
-  bounce_co 0
-  blurlength 10
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  combinetime 0
-  drag 0
-  grav 0
-  threshold 0
-endnode
-node emitter g_WSwGs_V_Fire01
-  parent WSpSc_fxfrblu
-  #part-number 3
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.75
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.17
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 0.89
+  colorend 1.00 1.00 1.00
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.50
+  sizestart_y 0.00
+  sizeend_y 0.00
   bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flame99_blu
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
   random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
   inherit 1
   inheritvel 0
   inherit_local 0
-  splat 0
   inherit_part 0
-  renderorder 0
-  spawntype 0
+endnode
+node emitter g_WSwGs_V_Fire02
+  parent wspsc_fxfrblu
+  position  0.00000  0.47187 -0.02376
+  orientation -0.58022  0.57156 -0.58022  2.10310
+  xsize 8.34
+  ysize 22.24
   update Fountain
   render Normal
   blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 1.75
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.17
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 0.89
+  colorend 1.00 1.00 1.00
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
   texture fxpa_flame99_blu
+  twosidedtex 0
+  m_istinted 0
   xgrid 4
   ygrid 4
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0 0.455074012 0.0356454998
-  orientation 0.447213739 -0.774596512 0.447213739 -1.82348001
-  colorStart 0.9647 0.9647 0.9647
-  colorEnd 0.3922 0.5882 0.8863
-  alphaStart 0.600000024
-  alphaEnd 0
-  sizeStart 0
-  sizeEnd 0.5
-  sizeStart_y 0
-  sizeEnd_y 0
-  frameStart 0
-  frameEnd 15
-  birthrate 10
-  lifeExp 1.75
-  mass 0
-  spread 0.174532995
-  particleRot 0
-  velocity 0
-  randvel 0
   fps 16
-  xsize 6
-  ysize 16
-  bounce_co 0
-  blurlength 10
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  combinetime 0
-  drag 0
-  grav 0
-  threshold 0
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
 endnode
-endmodelgeom WSpSc_fxfrblu
-
-donemodel WSpSc_fxfrblu
+endmodelgeom wspsc_fxfrblu
+donemodel wspsc_fxfrblu
