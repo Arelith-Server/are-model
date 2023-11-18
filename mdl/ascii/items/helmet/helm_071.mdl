@@ -1,15 +1,15 @@
 # NeverBlender 2.8.47|Blender 2.93.0|2023-09-28
 filedependancy unknown
-newmodel helm_054
-setsupermodel helm_054 null
+newmodel helm_071
+setsupermodel helm_071 null
 classification UNKNOWN
 setanimationscale 1.0
-beginmodelgeom helm_054
-node dummy helm_054
+beginmodelgeom helm_071
+node dummy helm_071
   parent null
 endnode
-node danglymesh helm_054g
-  parent helm_054
+node danglymesh helm_071g
+  parent helm_071
   position  0.00000  0.00000  0.03042
   orientation  1.00001  0.00000  0.00000  0.08727
   wirecolor 1.00 1.00 1.00
@@ -244,7 +244,7 @@ node danglymesh helm_054g
      80.0
 endnode
 node trimesh mask
-  parent helm_054
+  parent helm_071
   position -0.00167  0.05861  0.04297
   orientation -0.99996 -0.00000 -0.00000  0.03767
   wirecolor 0.54 0.54 0.54
@@ -574,5 +574,5 @@ node trimesh mask
     43 92 93 1  67 70 71 0
     93 83 43 2  71 65 67 0
 endnode
-endmodelgeom helm_054
-donemodel helm_054
+endmodelgeom helm_071
+donemodel helm_071
