@@ -22,7 +22,7 @@ node emitter dust06
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -33,7 +33,7 @@ node emitter dust06
   alphastart 0.60
   alphaend 0.00
   sizestart 0.00
-  sizeend 2.50
+  sizeend 5
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 0
@@ -54,7 +54,7 @@ node emitter dust06
   blastlength 0.00
   inherit 0
   inheritvel 0
-  inherit_local 0
+  inherit_local 1
   inherit_part 0
 endnode
 node emitter dust07
@@ -71,7 +71,7 @@ node emitter dust07
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -82,7 +82,7 @@ node emitter dust07
   alphastart 0.60
   alphaend 0.00
   sizestart 0.00
-  sizeend 2.50
+  sizeend 5
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 0
@@ -103,7 +103,7 @@ node emitter dust07
   blastlength 0.00
   inherit 0
   inheritvel 0
-  inherit_local 0
+  inherit_local 1
   inherit_part 0
 endnode
 node emitter dust05
@@ -120,7 +120,7 @@ node emitter dust05
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -131,7 +131,7 @@ node emitter dust05
   alphastart 0.60
   alphaend 0.00
   sizestart 0.00
-  sizeend 2.50
+  sizeend 5
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 0
@@ -152,7 +152,7 @@ node emitter dust05
   blastlength 0.00
   inherit 0
   inheritvel 0
-  inherit_local 0
+  inherit_local 1
   inherit_part 0
 endnode
 node emitter dust04
@@ -169,7 +169,7 @@ node emitter dust04
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -180,7 +180,7 @@ node emitter dust04
   alphastart 0.60
   alphaend 0.00
   sizestart 0.00
-  sizeend 2.50
+  sizeend 5
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 0
@@ -201,7 +201,7 @@ node emitter dust04
   blastlength 0.00
   inherit 0
   inheritvel 0
-  inherit_local 0
+  inherit_local 1
   inherit_part 0
 endnode
 node emitter dust03
@@ -218,7 +218,7 @@ node emitter dust03
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -229,7 +229,7 @@ node emitter dust03
   alphastart 0.60
   alphaend 0.00
   sizestart 0.00
-  sizeend 2.50
+  sizeend 5
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 0
@@ -250,7 +250,7 @@ node emitter dust03
   blastlength 0.00
   inherit 0
   inheritvel 0
-  inherit_local 0
+  inherit_local 1
   inherit_part 0
 endnode
 node emitter dust02
@@ -267,7 +267,7 @@ node emitter dust02
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -278,7 +278,7 @@ node emitter dust02
   alphastart 0.60
   alphaend 0.00
   sizestart 0.00
-  sizeend 2.50
+  sizeend 5
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 0
@@ -299,7 +299,7 @@ node emitter dust02
   blastlength 0.00
   inherit 0
   inheritvel 0
-  inherit_local 0
+  inherit_local 1
   inherit_part 0
 endnode
 node emitter dust01
@@ -316,7 +316,7 @@ node emitter dust01
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -327,7 +327,7 @@ node emitter dust01
   alphastart 0.60
   alphaend 0.00
   sizestart 0.00
-  sizeend 2.50
+  sizeend 5
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 0
@@ -348,7 +348,7 @@ node emitter dust01
   blastlength 0.00
   inherit 0
   inheritvel 0
-  inherit_local 0
+  inherit_local 1
   inherit_part 0
 endnode
 node emitter dust
@@ -365,7 +365,7 @@ node emitter dust
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -376,7 +376,7 @@ node emitter dust
   alphastart 0.60
   alphaend 0.00
   sizestart 0.00
-  sizeend 2.50
+  sizeend 5
   sizestart_y 0.00
   sizeend_y 0.00
   bounce 0
@@ -397,7 +397,7 @@ node emitter dust
   blastlength 0.00
   inherit 0
   inheritvel 0
-  inherit_local 0
+  inherit_local 1
   inherit_part 0
 endnode
 
@@ -675,15 +675,15 @@ newanim impact vps_storm_earth
     endlist
     sizestartkey 4
        0.000 0.00
-       0.167 6.00
-       0.200 6.00
-       0.300 6.00
+       0.167 11.00
+       0.200 11.00
+       0.300 11.00
     endlist
     sizeendkey 4
        0.000 0.00
-       0.167 6.00
-       0.200 6.00
-       0.300 6.00
+       0.167 11.00
+       0.200 11.00
+       0.300 11.00
     endlist
   endnode
   node dummy Dummy01
@@ -802,16 +802,16 @@ newanim duration vps_storm_earth
        1.000 0.5
     endlist
     sizestartkey 4
-       0.000 6.00
-       0.033 6.00
-       0.967 6.00
-       1.000 6.00
+       0.000 11.00
+       0.033 11.00
+       0.967 11.00
+       1.000 11.00
     endlist
     sizeendkey 4
-       0.000 6.00
-       0.033 6.00
-       0.967 6.00
-       1.000 6.00
+       0.000 11.00
+       0.033 11.00
+       0.967 11.00
+       1.000 11.00
     endlist
   endnode
   node dummy Dummy01

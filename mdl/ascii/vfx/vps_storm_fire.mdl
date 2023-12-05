@@ -22,7 +22,7 @@ node emitter dust06
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -71,7 +71,7 @@ node emitter dust07
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -120,7 +120,7 @@ node emitter dust05
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -169,7 +169,7 @@ node emitter dust04
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -218,7 +218,7 @@ node emitter dust03
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -267,7 +267,7 @@ node emitter dust02
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -316,7 +316,7 @@ node emitter dust01
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -365,7 +365,7 @@ node emitter dust
   birthrate 10
   lifeexp 1.50
   mass 0.00
-  velocity 1.00
+  velocity 2.00
   randvel 0.00
   particlerot 0.10
   spread 1.05
@@ -442,8 +442,8 @@ node emitter OmenEmitter01
   ysize 0.00
   colorStart 0 0 0
   colorEnd 0 0 0
-  alphaStart 1
-  alphaEnd 1
+  alphaStart 0.5
+  alphaEnd 0
   sizeStart 2
   sizeEnd 2
   sizeStart_y 0
@@ -515,8 +515,8 @@ node emitter OmenEmitter04
   ysize 0.00
   colorStart 0 0 0
   colorEnd 0 0 0
-  alphaStart 1
-  alphaEnd 1
+  alphaStart 0.5
+  alphaEnd 0
   sizeStart 0.100000001
   sizeEnd 0.100000001
   sizeStart_y 0
@@ -675,15 +675,15 @@ newanim impact vps_storm_fire
     endlist
     sizestartkey 4
        0.000 0.00
-       0.167 6.00
-       0.200 6.00
-       0.300 6.00
+       0.167 11.00
+       0.200 11.00
+       0.300 11.00
     endlist
     sizeendkey 4
        0.000 0.00
-       0.167 6.00
-       0.200 6.00
-       0.300 6.00
+       0.167 11.00
+       0.200 11.00
+       0.300 11.00
     endlist
   endnode
   node dummy Dummy01
@@ -802,16 +802,16 @@ newanim duration vps_storm_fire
        1.000 0.5
     endlist
     sizestartkey 4
-       0.000 6.00
-       0.033 6.00
-       0.967 6.00
-       1.000 6.00
+       0.000 11.00
+       0.033 11.00
+       0.967 11.00
+       1.000 11.00
     endlist
     sizeendkey 4
-       0.000 6.00
-       0.033 6.00
-       0.967 6.00
-       1.000 6.00
+       0.000 11.00
+       0.033 11.00
+       0.967 11.00
+       1.000 11.00
     endlist
   endnode
   node dummy Dummy01
