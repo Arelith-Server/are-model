@@ -1,0 +1,191 @@
+#MAXMODEL ASCII
+# model: vdr_bludrise
+filedependancy vdr_bludrise.max
+newmodel vdr_bludrise
+setsupermodel vdr_bludrise NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vdr_bludrise
+node dummy vdr_bludrise
+  parent NULL
+endnode
+node emitter blood
+  parent vdr_bludrise
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 3
+  spawntype 0
+  update Fountain
+  render Aligned_to_World_Z
+  blend Normal
+  texture NULL
+  chunkName blood_droplet
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 -0.5
+  orientation 0 0 0 0
+  colorStart 0.533 0 0
+  colorEnd 0.133 0 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 1
+  sizeEnd 1
+  sizeStart_y 0.3
+  sizeEnd_y 0.3
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 8
+  mass -0.07
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 120
+  ysize 120
+  bounce_co 0
+  blurlength 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0.4
+  grav 3
+  threshold 0
+endnode
+node emitter ground
+  parent vdr_bludrise
+  position  0 0 0
+  orientation  1.00000  0.00000  0.00000  3.14159
+  xsize 20.00
+  ysize 20.00
+  update Fountain
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 7
+  lifeexp 3.00
+  mass 0.30
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.50
+  spread 0.52
+  splat 1
+  affectedbywind 0
+  colorstart 0.74 0.03 0.03
+  colorend 0.54 0.03 0.03
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 1.80
+  sizeend 1.80
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.30
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_splash
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+endnode
+endmodelgeom vdr_bludrise
+
+#MAXANIM ASCII
+newanim impact vdr_bludrise
+  length 0.3
+  transtime 0.25
+  animroot vdr_bludrise
+  node dummy vdr_bludrise
+    parent NULL
+  endnode
+  node emitter blood
+    parent vdr_bludrise
+    birthratekey 2
+         0.0000000    0.0000000
+         0.3000000   50.0000000
+  endnode
+  node emitter ground
+    parent vdr_bludrise
+    birthratekey 2
+         0.0000000    0.0000000
+         0.3000000   50.0000000
+  endnode
+doneanim impact vdr_bludrise
+
+#MAXANIM ASCII
+newanim duration vdr_bludrise
+  length 0.333333
+  transtime 0.25
+  animroot vdr_bludrise
+  node dummy vdr_bludrise
+    parent NULL
+  endnode
+  node emitter blood
+    parent vdr_bludrise
+    birthratekey 2
+         0.0000000   30.0000000
+         0.3333330   30.0000000
+  endnode
+  node emitter ground
+    parent vdr_bludrise
+    birthratekey 2
+         0.0000000   50.0000000
+         0.3333330   50.0000000
+  endnode
+doneanim duration vdr_bludrise
+
+#MAXANIM ASCII
+newanim cessation vdr_bludrise
+  length 0.333333
+  transtime 0.25
+  animroot vdr_bludrise
+  node dummy vdr_bludrise
+    parent NULL
+  endnode
+  node emitter blood
+    parent vdr_bludrise
+    birthratekey 2
+         0.0000000   50.0000000
+         0.3333330    0.0000000
+  endnode
+  node emitter ground
+    parent vdr_bludrise
+    birthratekey 2
+         0.0000000   50.0000000
+         0.3333330    0.0000000
+  endnode
+doneanim cessation vdr_bludrise
+
+donemodel vdr_bludrise
