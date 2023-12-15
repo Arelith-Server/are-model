@@ -1,0 +1,123 @@
+#MAXMODEL ASCII
+# model: vdr_constel
+filedependancy vdr_constel.max
+newmodel vdr_constel
+setsupermodel vdr_constel NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vdr_constel
+node dummy vdr_constel
+  parent NULL
+endnode
+node emitter OmenEmitter01
+  parent vdr_constel
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 1
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture vfx_constel
+  xgrid 3
+  ygrid 3
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 8
+  birthrate 0
+  lifeExp 2
+  mass 0
+  spread 0.374533
+  particleRot 2
+  velocity 0.5
+  randvel 0
+  fps 2
+  xsize 30
+  ysize 15
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vdr_constel
+
+#MAXANIM ASCII
+newanim impact vdr_constel
+  length 0.3
+  transtime 0.25
+  animroot vdr_constel
+  node dummy vdr_constel
+    parent NULL
+  endnode
+  node emitter OmenEmitter01
+    parent vdr_constel
+    birthratekey 2
+         0.0000000    0.0000000
+         0.3000000    5.0000000
+  endnode
+doneanim impact vdr_constel
+
+#MAXANIM ASCII
+newanim duration vdr_constel
+  length 0.333333
+  transtime 0.25
+  animroot vdr_constel
+  node dummy vdr_constel
+    parent NULL
+  endnode
+  node emitter OmenEmitter01
+    parent vdr_constel
+    birthratekey 2
+         0.0000000    5.0000000
+         0.3333330    5.0000000
+  endnode
+doneanim duration vdr_constel
+
+#MAXANIM ASCII
+newanim cessation vdr_constel
+  length 0.333333
+  transtime 0.25
+  animroot vdr_constel
+  node dummy vdr_constel
+    parent NULL
+  endnode
+  node emitter OmenEmitter01
+    parent vdr_constel
+    birthratekey 2
+         0.0000000    5.0000000
+         0.3333330    0.0000000
+  endnode
+doneanim cessation vdr_constel
+
+donemodel vdr_constel
