@@ -1,0 +1,133 @@
+# NeverBlender 2.8.47|Blender 2.93.0|2023-11-09
+filedependancy unknown
+newmodel wplbh_fxshorg
+setsupermodel wplbh_fxshorg null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom wplbh_fxshorg
+node dummy wplbh_fxshorg
+  parent null
+endnode
+node emitter g_WSwGs_V_Elec_b
+  parent wplbh_fxshorg
+  position  0.00000  0.86710 -0.00347
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 4.00
+  ysize 40.00
+  update Fountain
+  render Linked
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 20
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 0.59 0.00
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_lightning_o
+  twosidedtex 0
+  m_istinted 0
+  xgrid 2
+  ygrid 2
+  fps 12
+  framestart 0
+  frameend 3
+  random 0
+  p2p 1
+  p2p_sel 1
+  p2p_bezier2 0.00
+  p2p_bezier3 0.00
+  src 0.00
+  target 0.00
+  combinetime 10.00
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node reference g_WSwGs_V_Elec_b_ref
+  parent g_WSwGs_V_Elec_b
+  position  0.00000  0.19449  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  refmodel fx_ref
+  reattachable 1
+endnode
+node emitter g_WSwGs_V_Elec
+  parent wplbh_fxshorg
+  position -0.00000  0.67694 -0.00531
+  orientation -1.00000  0.00000  0.00000  1.57080
+  xsize 1.00
+  ysize 10.00
+  update Lightning
+  render Linked
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 5
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 200.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 0.59 0.00
+  alphastart 0.75
+  alphaend 0.10
+  sizestart 0.10
+  sizeend 0.08
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_lightning_o
+  twosidedtex 0
+  m_istinted 0
+  xgrid 2
+  ygrid 2
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  lightningdelay 0.09
+  lightningradius 0.05
+  lightningscale 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node reference g_WSwGs_V_Elec_ref
+  parent g_WSwGs_V_Elec
+  position -0.00832 -0.00485  0.35928
+  orientation  1.00000 -0.00000  0.00000  3.14159
+  refmodel fx_ref
+  reattachable 1
+endnode
+endmodelgeom wplbh_fxshorg
+donemodel wplbh_fxshorg
