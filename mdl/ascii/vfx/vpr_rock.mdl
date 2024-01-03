@@ -1,0 +1,74 @@
+#MAXMODEL ASCII
+# model: vPR_magmisl
+filedependancy vPR_magmisl.max
+newmodel vPR_magmisl
+setsupermodel vPR_magmisl NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vPR_magmisl
+node dummy vPR_magmisl
+  parent NULL
+endnode
+node emitter star
+  parent vPR_magmisl
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Normal
+  blend Normal
+  texture vfx_rockr
+  xgrid 5
+  ygrid 6
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 -1 0 -1.5708
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 2
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 29
+  birthrate 1
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 1
+  velocity 0
+  randvel 0
+  fps 30
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vPR_magmisl
+donemodel vPR_magmisl
