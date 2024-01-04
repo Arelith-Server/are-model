@@ -1,0 +1,110 @@
+# NeverBlender 2.8.47|Blender 2.93.0|2023-11-09
+filedependancy unknown
+newmodel wplyr_fxdryel
+setsupermodel wplyr_fxdryel null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom wplyr_fxdryel
+node dummy wplyr_fxdryel
+  parent null
+endnode
+node emitter g_WSwGs_V_Acid
+  parent wplyr_fxdryel
+  position  0.00000  0.86710 -0.00347
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 4.00
+  ysize 40.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 16
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.05
+  particlerot 0.00
+  spread 2.27
+  splat 0
+  affectedbywind 0
+  colorstart 0.91 0.91 0.00
+  colorend 0.45 0.45 0.00
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.40
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter g_WSwGs_V_Acid_b
+  parent wplyr_fxdryel
+  position  0.00000  0.87005 -0.00347
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 2.00
+  ysize 40.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 2
+  lifeexp 2.00
+  mass 1.50
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.91 0.91 0.00
+  colorend 0.45 0.45 0.00
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.20
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flare
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom wplyr_fxdryel
+donemodel wplyr_fxdryel

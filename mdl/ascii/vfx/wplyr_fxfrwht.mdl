@@ -1,0 +1,61 @@
+# NeverBlender 2.8.47|Blender 2.93.0|2023-11-09
+filedependancy unknown
+newmodel wplyr_fxfrwht
+setsupermodel wplyr_fxfrwht null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom wplyr_fxfrwht
+node dummy wplyr_fxfrwht
+  parent null
+endnode
+node emitter g_WSwGs_V_Fire
+  parent wplyr_fxfrwht
+  position  0.00000  0.86710 -0.00347
+  orientation  0.00000  1.00000  0.00000  1.57080
+  xsize 6.00
+  ysize 40.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 20
+  lifeexp 1.75
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.17
+  splat 0
+  affectedbywind 0
+  colorstart 0.96 0.96 0.96
+  colorend 0.89 0.89 0.89
+  alphastart 0.60
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.50
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flame99_wht
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom wplyr_fxfrwht
+donemodel wplyr_fxfrwht
