@@ -1,0 +1,429 @@
+#MAXMODEL ASCII
+# model: vdr_overhealA
+filedependancy vdr_overhealA.max
+newmodel vdr_overhealA
+setsupermodel vdr_overhealA NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vdr_overhealA
+node dummy vdr_overhealA
+  parent NULL
+endnode
+node dummy Dummy01
+  parent vdr_overhealA
+  position 0 0 0.2
+  orientation 0 0 0 0
+endnode
+node emitter Sparkles
+  parent Dummy01
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  chunkName vfx_overha
+  texture NULL
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 1 0 0
+  orientation 0 0 0 0
+  colorStart 0
+  colorEnd 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.2
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 0.1
+  mass 4
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 1
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0.4
+  grav 0
+  threshold 0
+endnode
+node emitter Sparkles01
+  parent Dummy01
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  chunkName vfx_overha
+  texture NULL
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -1 0 0
+  orientation 0 0 0 0
+  colorStart 0
+  colorEnd 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.2
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 0.1
+  mass 4
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 1
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0.4
+  grav 0
+  threshold 0
+endnode
+node emitter Sparkles03
+  parent Dummy01
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  chunkName vfx_overha
+  texture NULL
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 1 0
+  orientation 0 0 0 0
+  colorStart 0
+  colorEnd 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.2
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 0.1
+  mass 4
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 1
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0.4
+  grav 0
+  threshold 0
+endnode
+node emitter Sparkles02
+  parent Dummy01
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  chunkName vfx_overha
+  texture NULL
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.20944
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 -1 0
+  orientation 0 0 0 0
+  colorStart 0
+  colorEnd 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.2
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 0.1
+  mass 4
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 1
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0.4
+  grav 1
+  threshold 0
+endnode
+endmodelgeom vdr_overhealA
+
+#MAXANIM ASCII
+newanim impact vdr_overhealA
+  length 1
+  transtime 0.25
+  animroot vdr_overhealA
+  node dummy vdr_overhealA
+    parent NULL
+  endnode
+  node dummy Dummy01
+    parent vdr_overhealA
+    orientationkey 13
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         0.6333330   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         0.9666670   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         1.3000000    0.0000000    0.0000000    0.0000000    0.0000000
+         1.6333300   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         1.9666700   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         2.3000000   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         2.6333301    0.0000000    0.0000000    0.0000000    0.0000000
+         2.9666700   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         3.3000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         3.6333301   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         3.9666700    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node emitter Sparkles
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         0.5000000   50.0000000
+         1.0000000    0.0000000
+  endnode
+  node emitter Sparkles01
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         0.5000000   50.0000000
+         1.0000000    0.0000000
+  endnode
+  node emitter Sparkles03
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         0.5000000   50.0000000
+         1.0000000    0.0000000
+  endnode
+  node emitter Sparkles02
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         0.5000000   50.0000000
+         1.0000000    0.0000000
+  endnode
+doneanim impact vdr_overhealA
+
+#MAXANIM ASCII
+newanim duration vdr_overhealA
+  length 1
+  transtime 0.25
+  animroot vdr_overhealA
+  node dummy vdr_overhealA
+    parent NULL
+  endnode
+  node dummy Dummy01
+    parent vdr_overhealA
+    orientationkey 13
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         0.6333330   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         0.9666670   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         1.3000000    0.0000000    0.0000000    0.0000000    0.0000000
+         1.6333300   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         1.9666700   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         2.3000000   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         2.6333301    0.0000000    0.0000000    0.0000000    0.0000000
+         2.9666700   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         3.3000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         3.6333301   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         3.9666700    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node emitter Sparkles
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         0.5000000  100.0000000
+         1.0000000  100.0000000
+  endnode
+  node emitter Sparkles01
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         0.5000000  100.0000000
+         1.0000000  100.0000000
+  endnode
+  node emitter Sparkles03
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         0.5000000  100.0000000
+         1.0000000  100.0000000
+  endnode
+  node emitter Sparkles02
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         0.5000000  100.0000000
+         1.0000000  100.0000000
+  endnode
+doneanim duration vdr_overhealA
+
+#MAXANIM ASCII
+newanim cessation vdr_overhealA
+  length 1
+  transtime 0.25
+  animroot vdr_overhealA
+  node dummy vdr_overhealA
+    parent NULL
+  endnode
+  node dummy Dummy01
+    parent vdr_overhealA
+    orientationkey 13
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         0.6333330   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         0.9666670   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         1.3000000    0.0000000    0.0000000    0.0000000    0.0000000
+         1.6333300   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         1.9666700   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         2.3000000   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         2.6333301    0.0000000    0.0000000    0.0000000    0.0000000
+         2.9666700   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         3.3000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         3.6333301   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         3.9666700    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node emitter Sparkles
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         0.5000000   50.0000000
+         1.0000000    0.0000000
+  endnode
+  node emitter Sparkles01
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         0.5000000   50.0000000
+         1.0000000    0.0000000
+  endnode
+  node emitter Sparkles03
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         0.5000000   50.0000000
+         1.0000000    0.0000000
+  endnode
+  node emitter Sparkles02
+    parent Dummy01
+    birthratekey 3
+         0.0000000  100.0000000
+         0.5000000   50.0000000
+         1.0000000    0.0000000
+  endnode
+doneanim cessation vdr_overhealA
+
+donemodel vdr_overhealA
