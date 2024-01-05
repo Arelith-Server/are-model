@@ -1,0 +1,314 @@
+# Exported from NeverBlender 2.8.22 - Wednesday, 2024-01-03
+filedependancy unknown
+newmodel c_smogsprite
+setsupermodel c_smogsprite c_a_bat
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom c_smogsprite
+node dummy c_smogsprite
+  parent null
+endnode
+node dummy bat_rootdummy
+  parent c_smogsprite
+  position  0.00000  0.00000  1.50072
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node trimesh lantern_archon
+  parent bat_rootdummy
+  position  0.00000  0.00000 -0.05000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  bitmap null
+  shininess 1
+  render 0
+  shadow 0
+  verts 8
+    -0.09200 -0.09200 -1.45440
+    -0.09200  0.09200 -1.45440
+     0.09200  0.09200 -1.45440
+     0.09200 -0.09200 -1.45440
+    -0.09200 -0.09200  0.14243
+     0.09200 -0.09200  0.14243
+     0.09200  0.09200  0.14243
+    -0.09200  0.09200  0.14243
+  faces 12
+    0 1 2 1  0 0 0 0
+    2 3 0 1  0 0 0 0
+    4 5 6 2  0 0 0 0
+    6 7 4 2  0 0 0 0
+    0 3 5 3  0 0 0 0
+    5 4 0 3  0 0 0 0
+    3 2 6 4  0 0 0 0
+    6 5 3 4  0 0 0 0
+    2 1 7 5  0 0 0 0
+    7 6 2 5  0 0 0 0
+    1 0 4 6  0 0 0 0
+    4 7 1 6  0 0 0 0
+endnode
+node emitter Lantern
+  parent lantern_archon
+  position  0.00000  0.00000  0.05000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 35.00
+  ysize 35.00
+  update Fountain
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 5
+  lifeexp 6.00
+  mass 0.01
+  velocity 0.20
+  randvel 0.10
+  particlerot 0.00
+  spread 6.28
+  splat 0
+  affectedbywind 0
+  colorstart 0.61 0.61 0.61
+  colorend 0.75 0.75 0.75
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 2.00
+  sizeend 1.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  framestart 0
+  frameend 15
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node dummy head
+  parent Lantern
+  position  0.00000  0.00000  0.23050
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node emitter L_eye
+  parent lantern_archon
+  position -0.05954  0.15804 -0.06481
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 0.00
+  ysize 0.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 1
+  birthrate 30
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.10
+  randvel 0.09
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.80 0.00 0.00
+  colorend 1.00 0.00 0.00
+  alphastart 0.50
+  alphaend 0.00
+  sizestart 0.05
+  sizeend 0.03
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_dot01
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter R_eye
+  parent lantern_archon
+  position  0.06117  0.15843 -0.06400
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 0.00
+  ysize 0.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 1
+  birthrate 30
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.10
+  randvel 0.09
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.80 0.00 0.00
+  colorend 1.00 0.00 0.00
+  alphastart 0.50
+  alphaend 0.00
+  sizestart 0.05
+  sizeend 0.03
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_dot01
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter L_eye01
+  parent lantern_archon
+  position -0.05954  0.15804 -0.06481
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 0.00
+  ysize 0.00
+  update Single
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 1
+  loop 0
+  birthrate 1
+  lifeexp -1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.80 0.00 0.00
+  colorend 0.80 0.00 0.00
+  alphastart 0.50
+  alphaend 0.50
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_dot01
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter R_eye01
+  parent lantern_archon
+  position  0.06117  0.15843 -0.06400
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 0.00
+  ysize 0.00
+  update Single
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 1
+  loop 0
+  birthrate 1
+  lifeexp -1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.80 0.00 0.00
+  colorend 0.80 0.00 0.00
+  alphastart 0.50
+  alphaend 0.50
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_dot01
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node dummy headconjure
+  parent c_smogsprite
+  position  0.00000  0.34910  2.00333
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy handconjure
+  parent c_smogsprite
+  position  0.00000  0.64750  1.25154
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+endmodelgeom c_smogsprite
+donemodel c_smogsprite
