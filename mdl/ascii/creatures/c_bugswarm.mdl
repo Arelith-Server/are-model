@@ -1,0 +1,252 @@
+#MAXMODEL ASCII
+# model: c_bugswarm
+filedependancy c_bugswarm.max
+newmodel c_bugswarm
+setsupermodel c_bugswarm c_a_bat
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom c_bugswarm
+node dummy c_bugswarm
+  parent NULL
+endnode
+node dummy bat_rootdummy
+  parent c_bugswarm
+  position 0 0 1.50072
+  orientation 0 0 0 0
+endnode
+node trimesh clickable
+  parent bat_rootdummy
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 8
+      -0.0920000   -0.0920000   -1.4543999
+      -0.0920000    0.0920000   -1.4543999
+       0.0920000    0.0920000   -1.4543999
+       0.0920000   -0.0920000   -1.4543999
+      -0.0920000   -0.0920000    0.1424320
+       0.0920000   -0.0920000    0.1424320
+       0.0920000    0.0920000    0.1424320
+      -0.0920000    0.0920000    0.1424320
+  faces 12
+    0 1 2  1  0 0 0   2
+    2 3 0  1  0 0 0   2
+    4 5 6  1  0 0 0   1
+    6 7 4  1  0 0 0   1
+    0 3 5  2  0 0 0   5
+    5 4 0  2  0 0 0   5
+    3 2 6  4  0 0 0   4
+    6 5 3  4  0 0 0   4
+    2 1 7  2  0 0 0   6
+    7 6 2  2  0 0 0   6
+    1 0 4  4  0 0 0   3
+    4 7 1  4  0 0 0   3
+  position 0 0 -0.05
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  selfillumcolor 0 0 0
+endnode
+node trimesh clickable
+  parent bat_rootdummy
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 8
+      -0.0920000   -0.0920000   -1.4543999
+      -0.0920000    0.0920000   -1.4543999
+       0.0920000    0.0920000   -1.4543999
+       0.0920000   -0.0920000   -1.4543999
+      -0.0920000   -0.0920000    0.1424320
+       0.0920000   -0.0920000    0.1424320
+       0.0920000    0.0920000    0.1424320
+      -0.0920000    0.0920000    0.1424320
+  faces 12
+    0 1 2  1  0 0 0   2
+    2 3 0  1  0 0 0   2
+    4 5 6  1  0 0 0   1
+    6 7 4  1  0 0 0   1
+    0 3 5  2  0 0 0   5
+    5 4 0  2  0 0 0   5
+    3 2 6  4  0 0 0   4
+    6 5 3  4  0 0 0   4
+    2 1 7  2  0 0 0   6
+    7 6 2  2  0 0 0   6
+    1 0 4  4  0 0 0   3
+    4 7 1  4  0 0 0   3
+  position 0 0 -0.05
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  selfillumcolor 0 0 0
+endnode
+node emitter OmenEmitter01
+  parent clickable
+  p2p 1
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_dot01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation -1 0 0 -3.735
+  colorStart 0.0666667 0.0666667 0.0666667
+  colorEnd 0.0666667 0.0666667 0.0666667
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.07
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 10
+  lifeExp 2
+  mass 0
+  spread 6.28319
+  particleRot 0
+  velocity 1.5
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 1
+  grav 3
+  threshold 0
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+  refModel fx_ref
+  reattachable 0
+  position 0 0 -0.2
+  orientation -1 0 0 -2.54818
+endnode
+node dummy head
+  parent clickable
+  position 0 0 0.230495
+  orientation 0 0 0 0
+endnode
+node dummy headconjure
+  parent c_bugswarm
+  position 0 0.349097 2.00333
+  orientation 0 0 0 0
+endnode
+node dummy handconjure
+  parent c_bugswarm
+  position 0 0.647503 1.25154
+  orientation 0 0 0 0
+endnode
+endmodelgeom c_bugswarm
+
+newanim impact c_bugswarm
+  length 0
+  transtime 0
+  animroot c_bugswarm
+  node dummy c_bugswarm
+    parent NULL
+  endnode
+  node dummy bat_rootdummy
+    parent c_bugswarm
+    orientation 0 0 0 0
+  endnode
+  node emitter OmenEmitter01
+    parent bat_rootdummy
+    birthrate 10
+  endnode
+  node dummy OmenRef01
+    parent OmenEmitter01
+  endnode
+doneanim impact c_bugswarm
+
+#MAXANIM ASCII
+newanim duration c_bugswarm
+  length 1.3
+  transtime 0
+  animroot c_bugswarm
+  node dummy c_bugswarm
+    parent NULL
+  endnode
+  node dummy bat_rootdummy
+    parent c_bugswarm
+    orientationkey 5
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.2666670   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         0.5333330   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         0.8666670   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         1.2000000    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node emitter OmenEmitter01
+    parent bat_rootdummy
+    birthratekey 5
+         0.0000000   10.0000000
+         0.2333330   11.0000000
+         1.2333300   21.0000000
+         1.2666700   21.0000000
+         1.3000000    5.0000000
+  endnode
+  node dummy OmenRef01
+    parent OmenEmitter01
+  endnode
+doneanim duration c_bugswarm
+
+#MAXANIM ASCII
+newanim cessation c_bugswarm
+  length 1
+  transtime 0
+  animroot c_bugswarm
+  node dummy c_bugswarm
+    parent NULL
+  endnode
+  node dummy bat_rootdummy
+    parent c_bugswarm
+    orientationkey 3
+         0.2333330   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         0.5666670   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         0.9000000   -0.0000000   -0.0000000    1.0000000   -1.5707999
+  endnode
+  node emitter OmenEmitter01
+    parent bat_rootdummy
+    birthratekey 2
+         0.0000000    5.0000000
+         0.1333330    0.0000000
+  endnode
+  node dummy OmenRef01
+    parent OmenEmitter01
+  endnode
+doneanim cessation c_bugswarm
+donemodel c_bugswarm
