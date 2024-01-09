@@ -1,137 +1,110 @@
-#MAXMODEL ASCII
-# model: wswca_fxfrbig
-filedependancy wswca_fxfrbig.max
+# NeverBlender 2.8.47|Blender 2.93.0|2024-01-06
+filedependancy unknown
 newmodel wswca_fxfrbig
 setsupermodel wswca_fxfrbig null
-setanimationscale 1
-#MAXGEOM  ASCII
+classification UNKNOWN
+setanimationscale 1.0
 beginmodelgeom wswca_fxfrbig
 node dummy wswca_fxfrbig
-  parent NULL
-  #part-number 0
-endnode
-node emitter g_wswgs_v_holy_b
-  parent wswca_fxfrbig
-  #part-number 1
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
-  bounce 0
-  random 0
-  inherit 1
-  inheritvel 0
-  inherit_local 0
-  splat 0
-  inherit_part 0
-  renderorder 0
-  spawntype 0
-  update Fountain
-  render Normal
-  blend Lighten
-  texture fxpa_flame04
-  xgrid 2
-  ygrid 2
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0.0 0.609027 0.00530495
-  orientation 0.0 0.0 0.0 0.0
-  colorStart 0.811765015 0.725489974 0.541176021
-  colorEnd 0.788235009 0.596077979 0.360783994
-  alphaStart 0.800000012
-  alphaEnd 0
-  sizeStart 0
-  sizeEnd 0.600000024
-  sizeStart_y 0
-  sizeEnd_y 0
-  frameStart 0
-  frameEnd 3
-  birthrate 27
-  lifeExp 2
-  mass 0
-  spread 0
-  particleRot 0
-  velocity 0
-  randvel 0
-  fps 0
-  xsize 4
-  ysize 90
-  bounce_co 0
-  blurlength 10
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  combinetime 0
-  drag 0
-  grav 0
-  threshold 0
+  parent null
 endnode
 node emitter g_wswgs_v_holy
   parent wswca_fxfrbig
-  #part-number 2
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
-  bounce 0
-  random 0
-  inherit 1
-  inheritvel 0
-  inherit_local 0
-  splat 0
-  inherit_part 0
-  renderorder 0
-  spawntype 0
+  position  0.00000  0.60903  0.00530
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 4.00
+  ysize 90.00
   update Fountain
   render Normal
   blend Lighten
-  texture fxpa_flame04
-  xgrid 2
-  ygrid 2
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0.0 0.609027 0.00530495
-  orientation 0.0 0.0 0.0 0.0
-  colorStart 0.811765015 0.725489974 0.541176021
-  colorEnd 0.788235009 0.596077979 0.360783994
-  alphaStart 0.800000012
-  alphaEnd 0
-  sizeStart 0
-  sizeEnd 0.600000024
-  sizeStart_y 0
-  sizeEnd_y 0
-  frameStart 0
-  frameEnd 3
+  spawntype 0
+  renderorder 0
   birthrate 27
-  lifeExp 2
-  mass 0
-  spread 0
-  particleRot 0
-  velocity 0
-  randvel 0
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.81 0.73 0.54
+  colorend 0.79 0.60 0.36
+  alphastart 0.80
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.60
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flame04
+  twosidedtex 0
+  m_istinted 0
+  xgrid 0
+  ygrid 0
   fps 0
-  xsize 4
-  ysize 90
-  bounce_co 0
-  blurlength 10
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  combinetime 0
-  drag 0
-  grav 0
-  threshold 0
+  framestart 0
+  frameend 3
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter g_wswgs_v_holy.001
+  parent g_wswgs_v_holy
+  position  0.00000  0.00903  0.00530
+  orientation -0.00000 -1.00000 -0.00000  1.57080
+  xsize 4.00
+  ysize 90.00
+  update Fountain
+  render Normal
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 27
+  lifeexp 1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.00
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.81 0.73 0.54
+  colorend 0.79 0.60 0.36
+  alphastart 0.80
+  alphaend 0.00
+  sizestart 0.00
+  sizeend 0.60
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_flame04
+  twosidedtex 0
+  m_istinted 0
+  xgrid 0
+  ygrid 0
+  fps 0
+  framestart 0
+  frameend 3
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
 endnode
 endmodelgeom wswca_fxfrbig
-
 donemodel wswca_fxfrbig
