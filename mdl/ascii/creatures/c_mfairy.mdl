@@ -1,22 +1,22 @@
-# Exported from NeverBlender 2.8.43 - Friday, 2023-04-14
+# NeverBlender 2.8.48|Blender 3.3.9|2024-01-24
 filedependancy unknown
-newmodel c_mfairy
-setsupermodel c_mfairy null
+newmodel c_mfairy.002
+setsupermodel c_mfairy.002 null
 classification CHARACTER
 setanimationscale 1.2
-beginmodelgeom c_mfairy
-node dummy c_mfairy
+beginmodelgeom c_mfairy.002
+node dummy c_mfairy.002
   parent null
 endnode
 node dummy Root_dummy
-  parent c_mfairy
-  position  0.00000  0.00728  1.24420
-  orientation  0.01637 -0.87024 -0.49235  3.12307
+  parent c_mfairy.002
+  position  0.00000 -0.00152  1.26529
+  orientation  0.01031 -0.87031 -0.49239  3.12993
 endnode
 node trimesh pixie_pelvis
   parent Root_dummy
   position  0.00178  0.00000 -0.00865
-  orientation  0.00135  0.89164  0.45275  3.13697
+  orientation  0.00189  0.89580  0.44445  3.13511
   scale 0.240
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
@@ -653,7 +653,7 @@ endnode
 node trimesh pixie_legl
   parent pixie_pelvis
   position -0.12080 -0.01478 -0.12447
-  orientation  0.26176 -0.01715 -0.96498  0.26091
+  orientation  0.01145 -0.02196 -0.99969  0.25239
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -840,7 +840,7 @@ endnode
 node trimesh pixie_shinl
   parent pixie_legl
   position  0.01321  0.01569 -0.45448
-  orientation -0.80138 -0.54566 -0.24515  0.11722
+  orientation -0.43500 -0.88709  0.15425  0.05910
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -1100,7 +1100,7 @@ endnode
 node trimesh M_Foot.001
   parent pixie_shinl
   position  0.06027 -0.00494 -0.46185
-  orientation -0.98036 -0.02454  0.19569  0.19103
+  orientation -0.99851  0.03861  0.03863  0.91951
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -1760,7 +1760,7 @@ endnode
 node trimesh pixie_legr
   parent pixie_pelvis
   position  0.13768 -0.01512 -0.12285
-  orientation -0.71873 -0.65304 -0.23867  0.21957
+  orientation -0.83248 -0.52421 -0.17939  0.26661
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -1947,7 +1947,7 @@ endnode
 node trimesh pixie_shinr
   parent pixie_legr
   position -0.02702  0.01900 -0.47797
-  orientation -0.99487  0.09829  0.02385  0.53656
+  orientation -0.99705  0.06931  0.03284  0.70337
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -2867,7 +2867,7 @@ endnode
 node trimesh pixie_torso
   parent Root_dummy
   position -0.00028 -0.00110 -0.00186
-  orientation  0.00508  0.86042  0.50957  3.10362
+  orientation  0.00652  0.87268  0.48825  3.12254
   scale 0.240
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
@@ -3360,7 +3360,7 @@ endnode
 node trimesh fairy_head
   parent M_Neck
   position -0.00502  0.01104  0.10837
-  orientation  0.99895  0.03173 -0.03293  0.33124
+  orientation  0.99907  0.02656 -0.03392  0.37126
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -4873,8 +4873,8 @@ node dummy head
 endnode
 node trimesh fairy_bicepl
   parent pixie_torso
-  position -0.18567 -0.05410  0.38387
-  orientation -0.36867  0.30366 -0.87856  0.65456
+  position -0.15712 -0.02429  0.38207
+  orientation -0.88959  0.45369 -0.05284  0.31464
   wirecolor 0.89 0.72 0.60
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -5232,7 +5232,7 @@ endnode
 node trimesh fairy_forearml
   parent fairy_bicepl
   position -0.02577  0.06505 -0.29195
-  orientation  0.99945  0.02454 -0.02214  0.57885
+  orientation  0.98116  0.10543 -0.16191  0.45600
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -6752,7 +6752,7 @@ endnode
 node trimesh fairy_forearmr
   parent fairy_bicepr
   position  0.06020  0.29048 -0.02406
-  orientation  0.99412  0.10632 -0.02063  1.11275
+  orientation  0.99737  0.07045 -0.01709  0.94585
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -7915,7 +7915,7 @@ endnode
 node dummy Dummy02
   parent pixie_torso
   position -0.09640 -0.02924  0.39453
-  orientation -0.39512 -0.52375  0.75469  2.52157
+  orientation -0.69146 -0.44080  0.57234  2.26571
 endnode
 node emitter Wing02
   parent Dummy02
@@ -7969,7 +7969,7 @@ endnode
 node dummy Dummy01
   parent pixie_torso
   position  0.14734 -0.02924  0.39913
-  orientation  0.73045  0.52939  0.43149  1.52101
+  orientation  0.47765  0.72789  0.49196  2.02873
 endnode
 node emitter Wing01
   parent Dummy01
@@ -8075,31 +8075,31 @@ node dummy Impact
   orientation  1.00000  0.00000  0.00000  0.26180
 endnode
 node dummy handconjure
-  parent c_mfairy
+  parent c_mfairy.002
   position  0.00000  0.27802  1.26997
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy headconjure
-  parent c_mfairy
+  parent c_mfairy.002
   position  0.00000 -0.00230  1.79764
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-endmodelgeom c_mfairy
+endmodelgeom c_mfairy.002
 
 # ANIM ASCII
-newanim cwalk c_mfairy
+newanim cwalk c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 3
-       0.000  0.00000 -0.00127  1.28838
-       0.400  0.01109  0.00668  1.30628
-       0.967  0.00000 -0.00127  1.28838
+       0.000  0.00000 -0.00152  1.54606
+       0.400  0.01331  0.00802  1.56754
+       0.967  0.00000 -0.00152  1.54606
     endlist
     orientationkey 2
        0.000 -0.00000  0.87036  0.49242  3.14159
@@ -8132,9 +8132,7 @@ newanim cwalk c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 3
-       0.000 -1.00000  0.00000  0.00000  0.59341
-       0.467 -0.98441  0.17581  0.00486  0.77116
+    orientationkey 1
        0.967 -1.00000  0.00000  0.00000  0.59341
     endlist
   endnode
@@ -8194,11 +8192,6 @@ newanim cwalk c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       0.000  0.97676 -0.17782 -0.11970  1.26151
-       0.533  0.98776  0.04502  0.14937  0.74606
-       0.967  0.97676 -0.17782 -0.11970  1.26151
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -8260,28 +8253,28 @@ newanim cwalk c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cwalk c_mfairy
+doneanim cwalk c_mfairy.002
 
-newanim crun c_mfairy
+newanim crun c_mfairy.002
   length 0.633
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 5
-       0.000  0.00000 -0.00127  1.28838
-       0.300  0.00555  0.01650  1.21538
-       0.367  0.00694  0.01454  1.21538
-       0.600  0.00000 -0.00127  1.28838
-       0.633  0.00000 -0.00127  1.28838
+       0.000  0.00000 -0.00152  1.54606
+       0.300  0.00666  0.01980  1.45846
+       0.367  0.00833  0.01745  1.45846
+       0.600  0.00000 -0.00152  1.54606
+       0.633  0.00000 -0.00152  1.54606
     endlist
     orientationkey 3
        0.000  0.00000  0.94264  0.33381  3.14159
@@ -8314,11 +8307,6 @@ newanim crun c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 3
-       0.000 -0.64624  0.02857 -0.76260  0.18100
-       0.300 -0.96833  0.23989 -0.06918  0.71220
-       0.633 -0.64625  0.02858 -0.76260  0.18100
-    endlist
   endnode
   node trimesh pixie_legr
     parent pixie_pelvis
@@ -8380,30 +8368,9 @@ newanim crun c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    scalekey 1
-       0.467  1.00000
-    endlist
-    positionkey 1
-       0.467 -0.02577  0.06505 -0.29195
-    endlist
-    orientationkey 4
-       0.000  0.00765 -0.55852 -0.82946  0.24358
-       0.367  0.32842 -0.05316  0.94303  0.12046
-       0.467  0.97741 -0.20946  0.02820  0.21786
-       0.633  0.00766 -0.55852 -0.82946  0.24358
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
-    scalekey 1
-       0.467  1.00000
-    endlist
-    positionkey 1
-       0.467 -0.13578  0.00952 -0.21532
-    endlist
-    orientationkey 1
-       0.467  0.65355 -0.62519  0.42663  0.34338
-    endlist
   endnode
   node trimesh fairy_bicepr
     parent pixie_torso
@@ -8456,31 +8423,30 @@ newanim crun c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim crun c_mfairy
+doneanim crun c_mfairy.002
 
-newanim cpause1 c_mfairy
+newanim cpause1 c_mfairy.002
   length 1.967
   transtime 0.6
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 3
-       0.000  0.00000 -0.00127  1.28838
-       1.000  0.00000  0.00865  1.23713
-       1.967  0.00000 -0.00127  1.28838
+       0.000  0.00000 -0.00152  1.28838
+       1.000  0.00000 -0.00152  1.23890
+       1.933  0.00000 -0.00152  1.28836
     endlist
-    orientationkey 3
-       0.000 -0.00000  0.87036  0.49242  3.14159
+    orientationkey 2
        1.000  0.01899 -0.87020 -0.49233  3.12011
-       1.967 -0.00000  0.87036  0.49242  3.14159
+       1.933 -0.00000  0.87036  0.49242  3.14159
     endlist
   endnode
   node trimesh pixie_pelvis
@@ -8512,16 +8478,7 @@ newanim cpause1 c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    scalekey 1
-       1.233  1.00000
-    endlist
-    positionkey 1
-       1.233  0.06060 -0.00545 -0.46235
-    endlist
-    orientationkey 4
-       0.000 -0.99839  0.04040  0.03987  0.97654
-       0.933 -0.99186  0.12658  0.01412  0.43130
-       1.233 -0.71230 -0.32799  0.62060  0.09362
+    orientationkey 1
        1.967 -0.99839  0.04040  0.03987  0.97654
     endlist
   endnode
@@ -8572,25 +8529,9 @@ newanim cpause1 c_mfairy
   endnode
   node trimesh fairy_bicepl
     parent pixie_torso
-    scalekey 1
-       0.300  1.00000
-    endlist
-    positionkey 1
-       0.300 -0.18567 -0.05410  0.38387
-    endlist
-    orientationkey 1
-       0.300 -0.36867  0.30366 -0.87856  0.65456
-    endlist
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 5
-       0.000  0.95393  0.17447 -0.24409  0.40560
-       0.333  0.87891  0.27328 -0.39094  0.34641
-       0.967  0.99945  0.02454 -0.02214  0.57885
-       1.867  0.99945  0.02453 -0.02214  0.57885
-       1.967  0.96818  0.14665 -0.20280  0.42797
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -8672,28 +8613,28 @@ newanim cpause1 c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cpause1 c_mfairy
+doneanim cpause1 c_mfairy.002
 
-newanim chturnl c_mfairy
+newanim chturnl c_mfairy.002
   length 0.967
   transtime 0.2
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 5
-       0.000  0.00000 -0.00127  1.28838
-       0.233  0.00694  0.00865  1.25191
-       0.533  0.00416 -0.00127  1.29789
-       0.733 -0.00556  0.00668  1.27349
-       0.967  0.00000 -0.00127  1.28838
+       0.000  0.00000 -0.00152  1.54606
+       0.233  0.00833  0.01038  1.50229
+       0.533  0.00499 -0.00152  1.55747
+       0.733 -0.00667  0.00802  1.52819
+       0.967  0.00000 -0.00152  1.54606
     endlist
     orientationkey 2
        0.000 -0.00000  0.87036  0.49242  3.14159
@@ -8727,10 +8668,7 @@ newanim chturnl c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 4
-       0.000 -0.99839  0.04040  0.03987  0.97654
-       0.333 -0.99283 -0.01452 -0.11868  0.46287
-       0.467  0.13282 -0.12038 -0.98380  0.25429
+    orientationkey 1
        0.967 -0.99839  0.04040  0.03987  0.97654
     endlist
   endnode
@@ -8790,12 +8728,6 @@ newanim chturnl c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 4
-       0.000  0.95393  0.17447 -0.24409  0.40560
-       0.233  0.99988  0.00691 -0.01375  1.31992
-       0.567  0.99913  0.03258 -0.02598  0.45676
-       0.967  0.95393  0.17448 -0.24408  0.40560
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -8858,30 +8790,30 @@ newanim chturnl c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim chturnl c_mfairy
+doneanim chturnl c_mfairy.002
 
-newanim chturnr c_mfairy
+newanim chturnr c_mfairy.002
   length 0.967
   transtime 0.2
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 8
-       0.000  0.00000 -0.00127  1.28838
-       0.200  0.00555  0.00668  1.22993
-       0.300  0.00406 -0.00127  1.24679
-       0.433  0.00000 -0.00903  1.30628
-       0.533 -0.00201 -0.00915  1.28838
-       0.700 -0.00418 -0.00903  1.22993
-       0.800 -0.00209 -0.00127  1.24679
+       0.000  0.00000 -0.00152  1.54606
+       0.200  0.00666  0.00802  1.47592
+       0.300  0.00487 -0.00152  1.49615
+       0.433  0.00000 -0.01084  1.56754
+       0.533 -0.00241 -0.01098  1.54606
+       0.700 -0.00502 -0.01084  1.47592
+       0.800 -0.00251 -0.00152  1.49615
        0.967  0.00000 -0.00127  1.28838
     endlist
     orientationkey 7
@@ -8925,13 +8857,7 @@ newanim chturnr c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 7
-       0.000 -0.99839  0.04040  0.03987  0.97654
-       0.200 -0.99977  0.02142  0.00133  1.56119
-       0.333 -0.99919  0.01921 -0.03531  1.02139
-       0.433 -0.99555  0.00620 -0.09401  0.63552
-       0.533 -0.99003 -0.00976 -0.14054  0.52477
-       0.700 -0.99794  0.02113 -0.06054  0.54163
+    orientationkey 1
        0.967 -0.99839  0.04040  0.03988  0.97653
     endlist
   endnode
@@ -8994,11 +8920,6 @@ newanim chturnr c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       0.000  0.95393  0.17447 -0.24409  0.40560
-       0.333  0.96443 -0.16752 -0.20449  0.38337
-       0.967  0.95393  0.17449 -0.24409  0.40560
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -9063,41 +8984,41 @@ newanim chturnr c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim chturnr c_mfairy
+doneanim chturnr c_mfairy.002
 
-newanim cconjure1 c_mfairy
+newanim cconjure1 c_mfairy.002
   length 1.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 19
-       0.000  0.00000 -0.00127  1.28838
-       0.200  0.00000 -0.00127  1.22993
-       0.267  0.00000 -0.00127  1.24679
-       0.367  0.00000 -0.00127  1.30628
-       0.400  0.00000 -0.00127  1.31299
-       0.433  0.00000 -0.00127  1.31299
-       0.533  0.00000 -0.00127  1.35057
-       0.600  0.00000 -0.00127  1.33862
-       0.700  0.00000 -0.00127  1.33293
-       0.733  0.00000 -0.00127  1.33424
-       0.833  0.00000 -0.00127  1.42937
-       0.900  0.00000 -0.00127  1.47258
-       1.233  0.00000 -0.00127  1.42857
-       1.300  0.00000 -0.00127  1.38002
-       1.367  0.00000 -0.00127  1.36299
-       1.567  0.00000 -0.00127  1.22993
-       1.700  0.00000 -0.00127  1.24679
-       1.867  0.00000 -0.00127  1.30628
+       0.000  0.00000 -0.00152  1.54606
+       0.200  0.00000 -0.00152  1.47592
+       0.267  0.00000 -0.00152  1.49615
+       0.367  0.00000 -0.00152  1.56754
+       0.400  0.00000 -0.00152  1.57559
+       0.433  0.00000 -0.00152  1.57559
+       0.533  0.00000 -0.00152  1.62068
+       0.600  0.00000 -0.00152  1.60634
+       0.700  0.00000 -0.00152  1.59952
+       0.733  0.00000 -0.00152  1.60109
+       0.833  0.00000 -0.00152  1.71524
+       0.900  0.00000 -0.00152  1.76710
+       1.233  0.00000 -0.00152  1.71428
+       1.300  0.00000 -0.00152  1.65602
+       1.367  0.00000 -0.00152  1.63559
+       1.567  0.00000 -0.00152  1.47592
+       1.700  0.00000 -0.00152  1.49615
+       1.867  0.00000 -0.00152  1.56754
        1.967  0.00000 -0.00127  1.28838
     endlist
     orientationkey 7
@@ -9143,14 +9064,7 @@ newanim cconjure1 c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 8
-       0.000 -1.00000  0.00000  0.00000  0.59341
-       0.267 -0.95378  0.24760  0.17030  0.91730
-       0.467 -0.27696  0.11134  0.95440  0.09807
-       0.967 -0.97899 -0.01462 -0.20338  0.49926
-       1.367 -0.96166 -0.16065 -0.22227  1.33401
-       1.567 -0.97929 -0.12394 -0.16009  1.23988
-       1.667 -0.99246  0.00857 -0.12228  0.82409
+    orientationkey 1
        1.967 -1.00000  0.00000  0.00000  0.59341
     endlist
   endnode
@@ -9229,12 +9143,6 @@ newanim cconjure1 c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 4
-       0.000  0.74516  0.57503  0.33776  1.38911
-       0.433  0.99982  0.01094 -0.01567  1.03249
-       1.333  0.99863  0.04237 -0.03064  0.36277
-       1.967  0.74516  0.57503  0.33776  1.38911
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -9320,28 +9228,28 @@ newanim cconjure1 c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cconjure1 c_mfairy
+doneanim cconjure1 c_mfairy.002
 
-newanim ccastout c_mfairy
+newanim ccastout c_mfairy.002
   length 0.467
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 6
-       0.000  0.00000 -0.00127  1.28838
-       0.100  0.00000 -0.02464  1.29691
-       0.233  0.00000  0.01857  1.44186
-       0.333  0.00000  0.05785  1.52445
-       0.400  0.00000 -0.00127  1.18769
+       0.000  0.00000 -0.00152  1.54606
+       0.100  0.00000 -0.02957  1.55629
+       0.233  0.00000  0.02228  1.73023
+       0.333  0.00000  0.06942  1.82934
+       0.400  0.00000 -0.00152  1.42523
        0.467  0.00000 -0.00127  1.18036
     endlist
     orientationkey 7
@@ -9384,8 +9292,7 @@ newanim ccastout c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 2
-       0.000 -1.00000  0.00000  0.00000  0.59341
+    orientationkey 1
        0.467 -1.00000  0.00000  0.00000  0.59341
     endlist
   endnode
@@ -9442,11 +9349,6 @@ newanim ccastout c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       0.000  0.99945  0.02454 -0.02214  0.57885
-       0.267  0.98304 -0.12804 -0.13130  0.52542
-       0.467  0.99605 -0.04837 -0.07448  0.54981
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -9501,29 +9403,29 @@ newanim ccastout c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ccastout c_mfairy
+doneanim ccastout c_mfairy.002
 
-newanim ctaunt c_mfairy
+newanim ctaunt c_mfairy.002
   length 1.067
   transtime 0.4
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 6
-       0.000  0.00000 -0.00127  1.28838
-       0.133  0.00000 -0.00127  1.29691
-       0.333  0.00000 -0.00127  1.44186
-       0.467  0.00000 -0.00127  1.52445
-       0.767  0.00000 -0.00127  1.61675
-       1.067  0.00000 -0.00127  1.28838
+       0.000  0.00000 -0.00152  1.54606
+       0.133  0.00000 -0.00152  1.55629
+       0.333  0.00000 -0.00152  1.73023
+       0.467  0.00000 -0.00152  1.82934
+       0.767  0.00000 -0.00152  1.94010
+       1.067  0.00000 -0.00152  1.54606
     endlist
     orientationkey 9
        0.000 -0.00000  0.87036  0.49242  3.14159
@@ -9580,13 +9482,7 @@ newanim ctaunt c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 7
-       0.000 -1.00000  0.00000  0.00000  0.59341
-       0.133 -1.00000  0.00000  0.00000  0.78793
-       0.233 -1.00000  0.00000  0.00000  0.32153
-       0.367 -1.00000  0.00001 -0.00000  0.24252
-       0.467 -1.00000  0.00000  0.00000  0.24516
-       0.567  1.00000  0.00000  0.00000  0.27925
+    orientationkey 1
        1.067 -1.00000  0.00000  0.00000  0.59341
     endlist
   endnode
@@ -9661,15 +9557,6 @@ newanim ctaunt c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 7
-       0.000  0.99985 -0.00192 -0.01743  1.55294
-       0.267  0.99925  0.03842 -0.00445  0.78944
-       0.400 -0.93709  0.30401  0.17178  0.08650
-       0.633  0.99988  0.01249 -0.00895  1.88868
-       0.767  0.99838  0.05537 -0.01292  0.38961
-       0.900  0.99981  0.01127 -0.01601  1.01305
-       1.067  0.99985 -0.00192 -0.01743  1.55294
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -9739,27 +9626,27 @@ newanim ctaunt c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ctaunt c_mfairy
+doneanim ctaunt c_mfairy.002
 
-newanim ccwalkf c_mfairy
+newanim ccwalkf c_mfairy.002
   length 0.467
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 5
-       0.000  0.00000 -0.00127  1.30628
-       0.100  0.02158  0.00045  1.27468
-       0.233  0.00979  0.00462  1.25642
-       0.333  0.01341 -0.00127  1.28399
+       0.000  0.00000 -0.00152  1.56754
+       0.100  0.02590  0.00054  1.52962
+       0.233  0.01175  0.00554  1.50770
+       0.333  0.01609 -0.00152  1.54079
        0.467  0.00000 -0.00127  1.30628
     endlist
     orientationkey 3
@@ -9795,9 +9682,7 @@ newanim ccwalkf c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 3
-       0.000 -1.00000  0.00000  0.00000  0.59341
-       0.100 -0.97660  0.12366  0.17596  1.14771
+    orientationkey 1
        0.467 -1.00000  0.00000  0.00000  0.59341
     endlist
   endnode
@@ -9860,11 +9745,6 @@ newanim ccwalkf c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       0.000  0.97676 -0.17782 -0.11970  1.26151
-       0.267  0.98776  0.04502  0.14937  0.74607
-       0.467  0.97676 -0.17782 -0.11970  1.26151
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -9920,33 +9800,33 @@ newanim ccwalkf c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ccwalkf c_mfairy
+doneanim ccwalkf c_mfairy.002
 
-newanim cdodgelr c_mfairy
+newanim cdodgelr c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 11
-       0.000  0.00000 -0.00127  1.28838
-       0.100  0.00000 -0.07311  1.26827
-       0.167  0.00000 -0.09230  1.22993
-       0.267  0.00000 -0.30558  1.31490
-       0.333  0.00000 -0.48859  1.33223
-       0.400  0.00000 -0.85449  1.23151
-       0.467  0.00000 -1.02695  1.06236
-       0.667  0.00000 -0.92806  0.95890
-       0.767  0.00000 -0.62747  1.11932
-       0.867  0.00000 -0.34870  1.22390
+       0.000  0.00000 -0.00152  1.54606
+       0.100  0.00000 -0.08773  1.52192
+       0.167  0.00000 -0.11076  1.47592
+       0.267  0.00000 -0.36670  1.57788
+       0.333  0.00000 -0.58631  1.59868
+       0.400  0.00000 -1.02539  1.47781
+       0.467  0.00000 -1.23234  1.27483
+       0.667  0.00000 -1.11367  1.15068
+       0.767  0.00000 -0.75296  1.34318
+       0.867  0.00000 -0.41844  1.46868
        0.967  0.00000 -0.00127  1.28838
     endlist
     orientationkey 7
@@ -9995,11 +9875,7 @@ newanim cdodgelr c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 5
-       0.000 -1.00000  0.00000  0.00000  0.59341
-       0.200 -0.98314  0.10301  0.15107  1.00634
-       0.467 -0.37142  0.13991 -0.91786  0.24771
-       0.500 -0.49319  0.11606 -0.86215  0.24810
+    orientationkey 1
        0.967 -1.00000  0.00000  0.00000  0.59341
     endlist
   endnode
@@ -10067,13 +9943,6 @@ newanim cdodgelr c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 5
-       0.000  0.97676 -0.17782 -0.11970  1.26151
-       0.200  0.98526 -0.15714  0.06755  0.14730
-       0.467  0.99215  0.05217  0.11366  0.76372
-       0.667 -0.99838 -0.05685 -0.00221  3.06719
-       0.967  0.97676 -0.17782 -0.11970  1.26151
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -10139,27 +10008,27 @@ newanim cdodgelr c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cdodgelr c_mfairy
+doneanim cdodgelr c_mfairy.002
 
-newanim ccwalkl c_mfairy
+newanim ccwalkl c_mfairy.002
   length 0.467
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 4
-       0.000  0.00000 -0.00127  1.28838
-       0.133  0.00575  0.00500  1.27430
-       0.233  0.00000  0.00970  1.26375
-       0.467 -0.00536 -0.00127  1.28838
+       0.000  0.00000 -0.00152  1.54606
+       0.133  0.00690  0.00600  1.52916
+       0.233  0.00000  0.01164  1.51650
+       0.467 -0.00643 -0.00152  1.54606
     endlist
     orientationkey 2
        0.000 -0.00000  0.87036  0.49242  3.14159
@@ -10187,7 +10056,7 @@ newanim ccwalkl c_mfairy
        0.167  1.00000
     endlist
     positionkey 1
-       0.167  0.01321  0.01569 -0.45448
+       0.167  0.01585  0.01883 -0.54538
     endlist
     orientationkey 4
        0.000  1.00025  0.00005  0.00006  0.01746
@@ -10198,19 +10067,7 @@ newanim ccwalkl c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    scalekey 2
-       0.300  1.00000
-       0.333  1.00000
-    endlist
-    positionkey 2
-       0.300  0.05667  0.02847 -0.46275
-       0.333  0.05901 -0.01707 -0.47892
-    endlist
-    orientationkey 5
-       0.000 -1.00000  0.00000  0.00000  0.59341
-       0.233 -0.83939  0.37026  0.39790  0.43799
-       0.300 -0.10867 -0.29936  0.94793  0.26403
-       0.333 -0.67254 -0.06489  0.73721  0.39668
+    orientationkey 1
        0.467 -1.00000  0.00000  0.00000  0.59341
     endlist
   endnode
@@ -10269,12 +10126,6 @@ newanim ccwalkl c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 4
-       0.000  0.97676 -0.17782 -0.11970  1.26151
-       0.133  0.99394 -0.09921  0.04727  1.19785
-       0.300  0.98912 -0.02455  0.14504  1.15048
-       0.467  0.97676 -0.17782 -0.11970  1.26151
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -10326,27 +10177,27 @@ newanim ccwalkl c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ccwalkl c_mfairy
+doneanim ccwalkl c_mfairy.002
 
-newanim ccwalkr c_mfairy
+newanim ccwalkr c_mfairy.002
   length 0.467
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 5
-       0.000  0.00000 -0.00127  1.28838
-       0.200  0.00000 -0.00127  1.24521
-       0.267  0.00000 -0.00127  1.24679
-       0.433  0.00000 -0.00127  1.29563
+       0.000  0.00000 -0.00152  1.54606
+       0.200  0.00000 -0.00152  1.49425
+       0.267  0.00000 -0.00152  1.49615
+       0.433  0.00000 -0.00152  1.55476
        0.467  0.00000 -0.00127  1.28838
     endlist
     orientationkey 4
@@ -10383,15 +10234,7 @@ newanim ccwalkr c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    scalekey 1
-       0.000  1.00000
-    endlist
-    positionkey 1
-       0.000  0.05203 -0.01688 -0.43457
-    endlist
-    orientationkey 3
-       0.000 -1.00000  0.00000  0.00000  0.59341
-       0.233  0.74434  0.58946  0.31384  0.13034
+    orientationkey 1
        0.467 -1.00000  0.00000  0.00000  0.59341
     endlist
   endnode
@@ -10453,12 +10296,6 @@ newanim ccwalkr c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 4
-       0.000  0.97676 -0.17782 -0.11970  1.26151
-       0.133  0.98656 -0.16275 -0.01484  0.91310
-       0.267  0.88799 -0.40630  0.21539  0.23498
-       0.467  0.97676 -0.17782 -0.11970  1.26151
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -10512,39 +10349,39 @@ newanim ccwalkr c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ccwalkr c_mfairy
+doneanim ccwalkr c_mfairy.002
 
-newanim creadyr c_mfairy
+newanim creadyr c_mfairy.002
   length 1.967
   transtime 0.5
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 17
-       0.000 -0.00478 -0.00127  1.30030
-       0.200 -0.02389 -0.00127  1.22993
-       0.300 -0.02132 -0.00127  1.24679
-       0.433 -0.00405 -0.00127  1.30628
-       0.500  0.00330 -0.00127  1.30324
-       0.700  0.02351 -0.00127  1.22993
-       0.800  0.01984 -0.00127  1.24679
-       0.933  0.00330 -0.00127  1.30628
-       1.000 -0.00368 -0.00127  1.30471
-       1.167 -0.02390 -0.00127  1.22993
-       1.267 -0.02132 -0.00127  1.24679
-       1.400 -0.00368 -0.00127  1.30628
-       1.467  0.00477 -0.00127  1.30030
-       1.667  0.02351 -0.00127  1.22993
-       1.767  0.01984 -0.00127  1.24679
-       1.900  0.00293 -0.00127  1.30628
+       0.000 -0.00574 -0.00152  1.56036
+       0.200 -0.02867 -0.00152  1.47592
+       0.300 -0.02558 -0.00152  1.49615
+       0.433 -0.00486 -0.00152  1.56754
+       0.500  0.00396 -0.00152  1.56389
+       0.700  0.02821 -0.00152  1.47592
+       0.800  0.02381 -0.00152  1.49615
+       0.933  0.00396 -0.00152  1.56754
+       1.000 -0.00442 -0.00152  1.56565
+       1.167 -0.02868 -0.00152  1.47592
+       1.267 -0.02558 -0.00152  1.49615
+       1.400 -0.00442 -0.00152  1.56754
+       1.467  0.00572 -0.00152  1.56036
+       1.667  0.02821 -0.00152  1.47592
+       1.767  0.02381 -0.00152  1.49615
+       1.900  0.00352 -0.00152  1.56754
        1.967 -0.00478 -0.00127  1.30030
     endlist
     orientationkey 2
@@ -10599,16 +10436,7 @@ newanim creadyr c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 10
-       0.000 -0.99953 -0.02221  0.02112  0.30541
-       0.200 -1.00000  0.00000  0.00000  0.17453
-       0.400  0.00000  1.00000  0.00000  0.00000
-       0.700 -1.00000 -0.00001 -0.00001  0.17453
-       0.900 -0.99936 -0.02594  0.02465  0.34907
-       1.200 -1.00000  0.00000 -0.00001  0.17453
-       1.400  0.00000  1.00000  0.00000  0.00000
-       1.700 -1.00000 -0.00001 -0.00001  0.17453
-       1.900 -0.99936 -0.02594  0.02465  0.34907
+    orientationkey 1
        1.967 -0.99953 -0.02222  0.02112  0.30541
     endlist
   endnode
@@ -10678,18 +10506,6 @@ newanim creadyr c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    scalekey 2
-       0.000  1.00000
-       1.967  1.00000
-    endlist
-    positionkey 2
-       0.000 -0.02577  0.06505 -0.29195
-       1.967 -0.02577  0.06505 -0.29195
-    endlist
-    orientationkey 2
-       0.000  0.99491 -0.07335  0.06907  1.63802
-       1.967  0.99033 -0.13837 -0.00955  2.29371
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -10775,40 +10591,40 @@ newanim creadyr c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim creadyr c_mfairy
+doneanim creadyr c_mfairy.002
 
-newanim creadyl c_mfairy
+newanim creadyl c_mfairy.002
   length 1.967
   transtime 0.5
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 17
-       0.000 -0.00628 -0.00127  1.30030
-       0.200 -0.03126 -0.00127  1.22993
-       0.300 -0.02655 -0.00127  1.24679
-       0.433  0.00000 -0.00127  1.30628
-       0.500  0.00000 -0.00127  1.30324
-       0.700  0.02895 -0.00127  1.22993
-       0.800  0.02438 -0.00127  1.24679
-       0.933  0.00359 -0.00127  1.30628
-       1.000 -0.00472 -0.00127  1.30471
-       1.167 -0.03108 -0.00127  1.22993
-       1.267 -0.02759 -0.00127  1.24679
-       1.400 -0.00472 -0.00127  1.30628
-       1.467  0.00619 -0.00127  1.30030
-       1.667  0.02832 -0.00127  1.22993
-       1.767  0.02386 -0.00127  1.24679
-       1.900  0.00359 -0.00127  1.30628
-       1.967 -0.00628 -0.00127  1.30030
+       0.000 -0.00754 -0.00152  1.56036
+       0.200 -0.03751 -0.00152  1.47592
+       0.300 -0.03186 -0.00152  1.49615
+       0.433  0.00000 -0.00152  1.56754
+       0.500  0.00000 -0.00152  1.56389
+       0.700  0.03474 -0.00152  1.47592
+       0.800  0.02926 -0.00152  1.49615
+       0.933  0.00431 -0.00152  1.56754
+       1.000 -0.00566 -0.00152  1.56565
+       1.167 -0.03730 -0.00152  1.47592
+       1.267 -0.03311 -0.00152  1.49615
+       1.400 -0.00566 -0.00152  1.56754
+       1.467  0.00743 -0.00152  1.56036
+       1.667  0.03398 -0.00152  1.47592
+       1.767  0.02863 -0.00152  1.49615
+       1.900  0.00431 -0.00152  1.56754
+       1.967 -0.00754 -0.00152  1.56036
     endlist
     orientationkey 2
        0.000  0.04304 -0.86955 -0.49197  2.98974
@@ -10862,16 +10678,7 @@ newanim creadyl c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 10
-       0.000 -0.99953 -0.02222  0.02112  0.30541
-       0.200 -1.00000  0.00000 -0.00001  0.17453
-       0.400  0.00000  1.00000  0.00000  0.00000
-       0.700 -1.00000  0.00000 -0.00001  0.17453
-       0.900 -0.99936 -0.02594  0.02465  0.34907
-       1.200 -1.00000 -0.00001 -0.00001  0.17453
-       1.400  0.00000  1.00000  0.00000  0.00000
-       1.700 -1.00000 -0.00001 -0.00001  0.17453
-       1.900 -0.99936 -0.02594  0.02465  0.34907
+    orientationkey 1
        1.967 -0.99953 -0.02222  0.02112  0.30541
     endlist
   endnode
@@ -10941,14 +10748,6 @@ newanim creadyl c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 6
-       0.000  0.84770 -0.28348 -0.44838  0.48125
-       0.133  0.81227 -0.29844 -0.50115  0.43694
-       0.600  0.94564 -0.21889 -0.24053  0.79849
-       1.100  0.82180 -0.29468 -0.48766  0.44747
-       1.600  0.94564 -0.21889 -0.24053  0.79849
-       1.967  0.84770 -0.28348 -0.44838  0.48125
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -11032,32 +10831,32 @@ newanim creadyl c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim creadyl c_mfairy
+doneanim creadyl c_mfairy.002
 
-newanim ca1slashl c_mfairy
+newanim ca1slashl c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 9
-       0.000 -0.00478 -0.00127  1.30030
-       0.067  0.24592  0.25365  1.39362
-       0.200  0.73778  0.76349  0.71280
-       0.333  0.57763  1.25342  0.95487
-       0.467  0.29773  1.54019  1.19693
-       0.533 -0.04443  1.73223  1.31713
-       0.600 -0.53502  1.66846  1.43734
-       0.733 -0.74647  0.80802  1.36963
-       0.967 -0.00628 -0.00127  1.30030
+       0.000 -0.00574 -0.00152  1.56036
+       0.067  0.29510  0.30438  1.67234
+       0.200  0.88534  0.91619  0.85536
+       0.333  0.69316  1.50410  1.14584
+       0.467  0.35728  1.84823  1.43632
+       0.533 -0.05332  2.07868  1.58056
+       0.600 -0.64202  2.00215  1.72481
+       0.733 -0.89576  0.96962  1.64356
+       0.967 -0.00754 -0.00152  1.56036
     endlist
     orientationkey 6
        0.000  0.13081  0.86288  0.48819  2.68716
@@ -11101,11 +10900,7 @@ newanim ca1slashl c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 5
-       0.000 -0.99953 -0.02222  0.02112  0.30541
-       0.200  1.00000  0.00000  0.00001  0.24895
-       0.567 -1.00000  0.00000  0.00000  0.81848
-       0.700 -1.00000  0.00001  0.00001  0.09200
+    orientationkey 1
        0.967 -0.99953 -0.02222  0.02112  0.30541
     endlist
   endnode
@@ -11167,13 +10962,6 @@ newanim ca1slashl c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 5
-       0.000  0.99033 -0.13837 -0.00955  2.29370
-       0.200  0.93244 -0.23106 -0.27778  0.71489
-       0.467  0.98925 -0.14406 -0.02513  2.08817
-       0.700  0.54442 -0.35843 -0.75838  0.30258
-       0.967  0.84770 -0.28348 -0.44838  0.48125
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -11240,34 +11028,34 @@ newanim ca1slashl c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ca1slashl c_mfairy
+doneanim ca1slashl c_mfairy.002
 
-newanim ca1stab c_mfairy
+newanim ca1stab c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 12
-       0.000  0.00000 -0.00127  1.28838
-       0.100  0.00000  0.35125  1.00726
-       0.233  0.00000  0.82127  0.83829
-       0.333  0.00000  1.17379  0.73795
-       0.400  0.00000  1.49633  0.92296
-       0.467  0.00000  1.64381  1.34554
-       0.600  0.00000  1.46816  1.65089
-       0.667  0.00000  1.20099  1.73535
-       0.733  0.00000  0.93382  1.76261
-       0.833  0.00000  0.53307  1.67690
-       0.900  0.00000  0.15117  1.52755
+       0.000  0.00000 -0.00152  1.54606
+       0.100  0.00000  0.42150  1.20871
+       0.233  0.00000  0.98552  1.00595
+       0.333  0.00000  1.40855  0.88554
+       0.400  0.00000  1.79560  1.10755
+       0.467  0.00000  1.97257  1.61465
+       0.600  0.00000  1.76179  1.98107
+       0.667  0.00000  1.44119  2.08242
+       0.733  0.00000  1.12058  2.11513
+       0.833  0.00000  0.63968  2.01228
+       0.900  0.00000  0.18140  1.83306
        0.967  0.00000 -0.00127  1.28838
     endlist
     orientationkey 9
@@ -11318,11 +11106,7 @@ newanim ca1stab c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 5
-       0.000 -1.00000  0.00000  0.00000  0.68691
-       0.467 -0.36218  0.90213  0.23451  0.37478
-       0.567 -1.00001 -0.00001  0.00000  0.12218
-       0.667  0.71292  0.70124 -0.00160  0.12099
+    orientationkey 1
        0.967 -1.00000  0.00000  0.00000  0.68691
     endlist
   endnode
@@ -11384,11 +11168,6 @@ newanim ca1stab c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       0.000  0.98170 -0.16755 -0.09051  1.45188
-       0.233  0.32687 -0.37045 -0.86944  0.26834
-       0.967  0.98170 -0.16755 -0.09051  1.45188
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -11453,31 +11232,31 @@ newanim ca1stab c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ca1stab c_mfairy
+doneanim ca1stab c_mfairy.002
 
-newanim ca1slashr c_mfairy
+newanim ca1slashr c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 9
-       0.000 -0.00628 -0.00127  1.30030
-       0.133 -0.50148  0.40445  1.00996
-       0.233 -0.81910  0.95551  0.80489
-       0.333 -0.64372  1.29082  0.93851
-       0.467 -0.15798  1.49984  1.18732
-       0.567  0.27058  1.42199  1.44574
-       0.700  0.61948  1.04029  1.65598
-       0.800  0.49765  0.43648  1.58004
+       0.000 -0.00754 -0.00152  1.56036
+       0.133 -0.60178  0.48534  1.21195
+       0.233 -0.98292  1.14661  0.96587
+       0.333 -0.77246  1.54898  1.12621
+       0.467 -0.18958  1.79981  1.42478
+       0.567  0.32470  1.70639  1.73489
+       0.700  0.74338  1.24835  1.98718
+       0.800  0.59718  0.52378  1.89605
        0.967 -0.00478 -0.00127  1.30030
     endlist
     orientationkey 9
@@ -11520,8 +11299,7 @@ newanim ca1slashr c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 2
-       0.000 -0.99953 -0.02222  0.02112  0.30541
+    orientationkey 1
        0.967 -0.99953 -0.02222  0.02112  0.30541
     endlist
   endnode
@@ -11580,12 +11358,6 @@ newanim ca1slashr c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 4
-       0.000  0.84770 -0.28348 -0.44838  0.48125
-       0.367 -0.06122 -0.34310 -0.93730  0.25400
-       0.567  0.99009 -0.13978 -0.01340  2.24091
-       0.967  0.99033 -0.13837 -0.00955  2.29370
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -11650,32 +11422,32 @@ newanim ca1slashr c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ca1slashr c_mfairy
+doneanim ca1slashr c_mfairy.002
 
-newanim ccloseh c_mfairy
+newanim ccloseh c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 10
-       0.000  0.00000 -0.00127  1.28838
-       0.100  0.00000  0.07141  1.00726
-       0.233  0.00000  0.23274  0.83829
-       0.333  0.00000  0.43882  0.66208
-       0.400  0.00000  0.54747  0.75015
-       0.467  0.00000  0.65612  0.89957
-       0.600  0.00000  0.74531  1.87076
-       0.733  0.00000  0.36425  1.76261
-       0.900  0.00000  0.15117  1.52755
+       0.000  0.00000 -0.00152  1.54606
+       0.100  0.00000  0.08569  1.20871
+       0.233  0.00000  0.27929  1.00595
+       0.333  0.00000  0.52658  0.79450
+       0.400  0.00000  0.65696  0.90018
+       0.467  0.00000  0.78734  1.07948
+       0.600  0.00000  0.89437  2.24491
+       0.733  0.00000  0.43710  2.11513
+       0.900  0.00000  0.18140  1.83306
        0.967  0.00000 -0.00127  1.28838
     endlist
     orientationkey 8
@@ -11725,10 +11497,7 @@ newanim ccloseh c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 4
-       0.000 -1.00000  0.00000  0.00000  0.68691
-       0.467 -1.00018 -0.00001 -0.00022  0.00952
-       0.667 -1.00001  0.00000  0.00000  0.13682
+    orientationkey 1
        0.967 -1.00000  0.00000  0.00000  0.68691
     endlist
   endnode
@@ -11788,11 +11557,6 @@ newanim ccloseh c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       0.000  0.98170 -0.16755 -0.09052  1.45189
-       0.233  0.32687 -0.37045 -0.86944  0.26833
-       0.967  0.98170 -0.16755 -0.09051  1.45189
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -11855,34 +11619,34 @@ newanim ccloseh c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ccloseh c_mfairy
+doneanim ccloseh c_mfairy.002
 
-newanim creach c_mfairy
+newanim creach c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 11
-       0.000  0.00000 -0.00127  1.28838
-       0.100  0.00000  0.29007  0.91292
-       0.233  0.00000  0.99758  0.60181
-       0.333  0.00000  1.93011  0.51580
-       0.400  0.00000  2.32163  0.58620
-       0.467  0.00000  2.56495  1.02451
-       0.600  0.00000  2.41823  1.68092
-       0.667  0.00000  1.77428  1.91135
-       0.733  0.00000  1.21119  1.90523
-       0.833  0.00000  0.56043  1.76541
-       0.967  0.00000 -0.00127  1.28838
+       0.000  0.00000 -0.00152  1.54606
+       0.100  0.00000  0.34808  1.09550
+       0.233  0.00000  1.19710  0.72217
+       0.333  0.00000  2.31613  0.61896
+       0.400  0.00000  2.78596  0.70344
+       0.467  0.00000  3.07794  1.22941
+       0.600  0.00000  2.90188  2.01710
+       0.667  0.00000  2.12914  2.29362
+       0.733  0.00000  1.45343  2.28628
+       0.833  0.00000  0.67252  2.11849
+       0.967  0.00000 -0.00152  1.54606
     endlist
     orientationkey 11
        0.000  0.05090  0.86923  0.49179  2.96215
@@ -11929,10 +11693,7 @@ newanim creach c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 4
-       0.000 -1.00000  0.00000  0.00000  0.68691
-       0.300  0.35050  0.08652 -0.93256  0.66783
-       0.467  0.09091  0.16427 -0.98222  0.43498
+    orientationkey 1
        0.967 -1.00000  0.00000  0.00000  0.68691
     endlist
   endnode
@@ -11995,11 +11756,6 @@ newanim creach c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       0.000  0.98170 -0.16755 -0.09051  1.45188
-       0.233  0.32686 -0.37045 -0.86944  0.26833
-       0.967  0.98170 -0.16755 -0.09051  1.45188
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -12064,34 +11820,34 @@ newanim creach c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim creach c_mfairy
+doneanim creach c_mfairy.002
 
-newanim cparryl c_mfairy
+newanim cparryl c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 12
-       0.000  0.00000 -0.00127  1.28838
-       0.067  0.00000 -0.14509  1.35673
-       0.167  0.00000 -0.17608  1.08582
-       0.300  0.00000 -0.04091  0.87751
-       0.367 -0.00813  0.12939  0.75327
-       0.433 -0.02525  0.41138  0.75876
-       0.467 -0.01625  0.41138  0.72966
-       0.533 -0.01300  0.15253  0.86278
-       0.600 -0.00975  0.00647  0.99591
-       0.700 -0.00488 -0.04041  1.19559
-       0.800  0.00000 -0.00582  1.39528
+       0.000  0.00000 -0.00152  1.54606
+       0.067  0.00000 -0.17411  1.62808
+       0.167  0.00000 -0.21130  1.30298
+       0.300  0.00000 -0.04909  1.05301
+       0.367 -0.00976  0.15527  0.90392
+       0.433 -0.03030  0.49366  0.91051
+       0.467 -0.01950  0.49366  0.87559
+       0.533 -0.01560  0.18304  1.03534
+       0.600 -0.01170  0.00776  1.19509
+       0.700 -0.00586 -0.04849  1.43471
+       0.800  0.00000 -0.00698  1.67434
        0.967  0.00000 -0.00127  1.28838
     endlist
     orientationkey 6
@@ -12130,10 +11886,7 @@ newanim cparryl c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 4
-       0.000 -1.00000  0.00000  0.00000  0.68691
-       0.200 -1.00000  0.00000  0.00000  1.03598
-       0.533  1.00000  0.00000  0.00000  0.33752
+    orientationkey 1
        0.967 -1.00000  0.00000  0.00000  0.68691
     endlist
   endnode
@@ -12189,13 +11942,6 @@ newanim cparryl c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 5
-       0.000  0.98170 -0.16755 -0.09051  1.45189
-       0.300  0.98483 -0.15960 -0.06817  1.63210
-       0.433  0.98483 -0.15960 -0.06817  1.63210
-       0.533  0.98483 -0.15960 -0.06817  1.63210
-       0.967  0.98170 -0.16755 -0.09052  1.45188
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -12260,34 +12006,34 @@ newanim cparryl c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cparryl c_mfairy
+doneanim cparryl c_mfairy.002
 
-newanim cparryr c_mfairy
+newanim cparryr c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 11
-       0.000  0.00000 -0.00127  1.28838
-       0.167  0.00000 -0.15395  1.00256
-       0.300  0.00000  0.01978  0.78751
-       0.367 -0.00813  0.12939  0.75327
-       0.433 -0.04996  0.41138  0.75876
-       0.467 -0.04996  0.43311  0.75876
-       0.533 -0.02986  0.33928  0.86651
-       0.600 -0.00975  0.05499  0.99591
-       0.700 -0.00488 -0.02048  1.19559
-       0.800  0.00000 -0.00582  1.39528
-       0.967  0.00000 -0.00127  1.28838
+       0.000  0.00000 -0.00152  1.54606
+       0.167  0.00000 -0.18474  1.20307
+       0.300  0.00000  0.02374  0.94501
+       0.367 -0.00976  0.15527  0.90392
+       0.433 -0.05995  0.49366  0.91051
+       0.467 -0.05995  0.51973  0.91051
+       0.533 -0.03583  0.40714  1.03981
+       0.600 -0.01170  0.06599  1.19509
+       0.700 -0.00586 -0.02458  1.43471
+       0.800  0.00000 -0.00698  1.67434
+       0.967  0.00000 -0.00152  1.54606
     endlist
     orientationkey 7
        0.000  0.05090  0.86923  0.49179  2.96215
@@ -12331,10 +12077,7 @@ newanim cparryr c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 4
-       0.000 -1.00000  0.00000  0.00000  0.68691
-       0.200 -1.00000  0.00000  0.00000  1.03598
-       0.533  1.00000  0.00001 -0.00000  0.33752
+    orientationkey 1
        0.967 -1.00000  0.00000  0.00000  0.68691
     endlist
   endnode
@@ -12392,14 +12135,6 @@ newanim cparryr c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 6
-       0.000  0.98170 -0.16755 -0.09051  1.45188
-       0.267  0.80378 -0.30165 -0.51278  0.42825
-       0.433  0.97084 -0.18794 -0.14885  1.11085
-       0.467  0.97084 -0.18794 -0.14885  1.11085
-       0.633  0.95957 -0.22572 -0.16813  1.16832
-       0.967  0.98170 -0.16755 -0.09051  1.45189
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -12466,29 +12201,29 @@ newanim cparryr c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cparryr c_mfairy
+doneanim cparryr c_mfairy.002
 
-newanim ccwalkb c_mfairy
+newanim ccwalkb c_mfairy.002
   length 0.467
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 6
-       0.000  0.00000 -0.00127  1.28838
-       0.067  0.00000 -0.00127  1.22993
-       0.133  0.00000 -0.00127  1.24679
-       0.333  0.00000 -0.00127  1.30628
-       0.367  0.00000 -0.00127  1.28838
-       0.467  0.00000 -0.00127  1.28838
+       0.000  0.00000 -0.00152  1.54606
+       0.067  0.00000 -0.00152  1.47592
+       0.133  0.00000 -0.00152  1.49615
+       0.333  0.00000 -0.00152  1.56754
+       0.367  0.00000 -0.00152  1.54606
+       0.467  0.00000 -0.00152  1.54606
     endlist
     orientationkey 6
        0.000 -0.00000  0.87036  0.49242  3.14159
@@ -12530,10 +12265,7 @@ newanim ccwalkb c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 4
-       0.000 -1.00000  0.00000  0.00000  0.59341
-       0.100 -0.98314  0.10301  0.15107  1.00634
-       0.233 -0.58065  0.06968 -0.81117  0.30412
+    orientationkey 1
        0.467 -1.00000  0.00000  0.00000  0.59341
     endlist
   endnode
@@ -12598,13 +12330,6 @@ newanim ccwalkb c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 5
-       0.000  0.97676 -0.17782 -0.11970  1.26151
-       0.100  0.98526 -0.15714  0.06754  0.14730
-       0.267  0.99766  0.05375  0.04234  1.96164
-       0.400  0.98424 -0.09562 -0.14873  0.65449
-       0.467  0.97676 -0.17782 -0.11970  1.26151
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -12659,28 +12384,28 @@ newanim ccwalkb c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ccwalkb c_mfairy
+doneanim ccwalkb c_mfairy.002
 
-newanim cdodges c_mfairy
+newanim cdodges c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 6
-       0.000  0.00000 -0.00127  1.28838
-       0.200  0.00000 -0.00127  0.64900
-       0.433  0.00000 -0.00127  0.45159
-       0.833  0.00000 -0.00127  1.24679
-       0.900  0.00000 -0.00127  1.32873
+       0.000  0.00000 -0.00152  1.54606
+       0.200  0.00000 -0.00152  0.77880
+       0.433  0.00000 -0.00152  0.54191
+       0.833  0.00000 -0.00152  1.49615
+       0.900  0.00000 -0.00152  1.59448
        0.967  0.00000 -0.00127  1.28838
     endlist
     orientationkey 4
@@ -12717,8 +12442,7 @@ newanim cdodges c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 2
-       0.000 -1.00000  0.00000  0.00000  0.59341
+    orientationkey 1
        0.967 -1.00000  0.00000  0.00000  0.59341
     endlist
   endnode
@@ -12776,13 +12500,6 @@ newanim cdodges c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 5
-       0.000  0.97676 -0.17782 -0.11970  1.26151
-       0.200  0.98526 -0.15714  0.06754  0.14730
-       0.533  0.99766  0.05375  0.04234  1.96163
-       0.800  0.98425 -0.09561 -0.14873  0.65449
-       0.967  0.97676 -0.17782 -0.11970  1.26151
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -12848,28 +12565,28 @@ newanim cdodges c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cdodges c_mfairy
+doneanim cdodges c_mfairy.002
 
-newanim cdamagel c_mfairy
+newanim cdamagel c_mfairy.002
   length 0.367
   transtime 0.15
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 5
-       0.000  0.00000  0.00425  1.31458
-       0.100  0.00000 -0.05289  1.10472
-       0.167  0.00000 -0.25601  1.08878
-       0.267  0.00000 -0.19213  1.28180
-       0.367  0.00000  0.00425  1.31458
+       0.000  0.00000  0.00510  1.57750
+       0.100  0.00000 -0.06347  1.32566
+       0.167  0.00000 -0.30721  1.30654
+       0.267  0.00000 -0.23056  1.53816
+       0.367  0.00000  0.00510  1.57750
     endlist
     orientationkey 5
        0.000 -0.00000  0.85567  0.51753  3.14159
@@ -12906,8 +12623,7 @@ newanim cdamagel c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 2
-       0.000 -0.99762  0.03886  0.05699  0.70099
+    orientationkey 1
        0.367 -0.99762  0.03886  0.05699  0.70099
     endlist
   endnode
@@ -12962,11 +12678,6 @@ newanim cdamagel c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       0.000  0.97787 -0.17703 -0.11147  0.96375
-       0.300  0.99386 -0.11055  0.00348  2.13752
-       0.367  0.97787 -0.17703 -0.11147  0.96374
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -13017,27 +12728,27 @@ newanim cdamagel c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cdamagel c_mfairy
+doneanim cdamagel c_mfairy.002
 
-newanim cdamager c_mfairy
+newanim cdamager c_mfairy.002
   length 0.367
   transtime 0.15
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 5
-       0.000  0.00000  0.00425  1.31458
-       0.100  0.00000 -0.05289  1.10472
-       0.167  0.00000 -0.25601  1.08878
-       0.267  0.00000 -0.19213  1.28180
+       0.000  0.00000  0.00510  1.57750
+       0.100  0.00000 -0.06347  1.32566
+       0.167  0.00000 -0.30721  1.30654
+       0.267  0.00000 -0.23056  1.53816
        0.367  0.00000  0.00425  1.31458
     endlist
     orientationkey 5
@@ -13075,8 +12786,7 @@ newanim cdamager c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 2
-       0.000 -0.99762  0.03886  0.05699  0.70099
+    orientationkey 1
        0.367 -0.99762  0.03886  0.05699  0.70099
     endlist
   endnode
@@ -13131,11 +12841,6 @@ newanim cdamager c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       0.000  0.97787 -0.17703 -0.11147  0.96375
-       0.300  0.99386 -0.11055  0.00348  2.13751
-       0.367  0.97787 -0.17703 -0.11147  0.96375
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -13186,27 +12891,27 @@ newanim cdamager c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cdamager c_mfairy
+doneanim cdamager c_mfairy.002
 
-newanim cdamages c_mfairy
+newanim cdamages c_mfairy.002
   length 0.367
   transtime 0.15
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 5
-       0.000  0.00000  0.00425  1.31458
-       0.100  0.00000 -0.05289  1.10472
-       0.167  0.00000 -0.25601  1.08878
-       0.267  0.00000 -0.19213  1.28180
+       0.000  0.00000  0.00510  1.57750
+       0.100  0.00000 -0.06347  1.32566
+       0.167  0.00000 -0.30721  1.30654
+       0.267  0.00000 -0.23056  1.53816
        0.367  0.00000  0.00425  1.31458
     endlist
     orientationkey 5
@@ -13244,8 +12949,7 @@ newanim cdamages c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 2
-       0.000 -0.99762  0.03886  0.05699  0.70099
+    orientationkey 1
        0.367 -0.99762  0.03886  0.05699  0.70099
     endlist
   endnode
@@ -13300,11 +13004,6 @@ newanim cdamages c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       0.000  0.97787 -0.17703 -0.11147  0.96375
-       0.300  0.99386 -0.11055  0.00348  2.13751
-       0.367  0.97787 -0.17703 -0.11147  0.96374
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -13355,27 +13054,27 @@ newanim cdamages c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cdamages c_mfairy
+doneanim cdamages c_mfairy.002
 
-newanim cgetmid c_mfairy
+newanim cgetmid c_mfairy.002
   length 0.5
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 4
-       0.000  0.00000 -0.00127  1.28838
-       0.267  0.00000  0.04661  1.10465
-       0.467  0.00000  0.06006  0.95666
-       0.500  0.00000  0.04648  0.92162
+       0.000  0.00000 -0.00152  1.54606
+       0.267  0.00000  0.05593  1.32558
+       0.467  0.00000  0.07207  1.14799
+       0.500  0.00000  0.05578  1.10594
     endlist
     orientationkey 4
        0.000 -0.00000  0.87036  0.49242  3.14159
@@ -13410,11 +13109,6 @@ newanim cgetmid c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 3
-       0.000 -1.00000  0.00000  0.00000  0.59341
-       0.467 -0.99344  0.06877  0.09137  0.78021
-       0.500 -0.99410  0.06521  0.08663  0.76753
-    endlist
   endnode
   node trimesh pixie_legr
     parent pixie_pelvis
@@ -13468,12 +13162,6 @@ newanim cgetmid c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 4
-       0.000  0.97676 -0.17782 -0.11970  1.26150
-       0.200  0.91156 -0.34542 -0.22305  0.22172
-       0.400  0.98776  0.04502  0.14937  0.74607
-       0.500  0.87467  0.06277  0.48064  1.03717
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -13528,32 +13216,32 @@ newanim cgetmid c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cgetmid c_mfairy
+doneanim cgetmid c_mfairy.002
 
-newanim ckdbck c_mfairy
+newanim ckdbck c_mfairy.002
   length 0.967
   transtime 0.15
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 9
-       0.000  0.00000 -0.00127  1.28838
-       0.267  0.00000  0.01669  1.44602
-       0.300  0.00000  0.02267  1.45409
-       0.333  0.00000  0.02866  1.38660
-       0.533  0.00000  0.04661  1.10465
-       0.700  0.00000  0.06006  0.03048
-       0.767  0.00000  0.06006  0.09529
-       0.833  0.00000  0.06006  0.02709
-       0.967  0.00000  0.06006  0.02355
+       0.000  0.00000 -0.00152  1.54606
+       0.267  0.00000  0.02003  1.73522
+       0.300  0.00000  0.02720  1.74491
+       0.333  0.00000  0.03439  1.66392
+       0.533  0.00000  0.05593  1.32558
+       0.700  0.00000  0.07207  0.03658
+       0.767  0.00000  0.07207  0.11435
+       0.833  0.00000  0.07207  0.03251
+       0.967  0.00000  0.07207  0.02826
     endlist
     orientationkey 5
        0.000 -0.00000  0.87036  0.49242  3.14159
@@ -13595,10 +13283,7 @@ newanim ckdbck c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 4
-       0.000 -1.00000  0.00000  0.00000  0.59341
-       0.233 -0.78047  0.51031  0.36106  0.04977
-       0.467 -0.99344  0.06878  0.09136  0.78021
+    orientationkey 1
        0.967 -1.00000  0.00000  0.00000  1.32645
     endlist
   endnode
@@ -13667,14 +13352,6 @@ newanim ckdbck c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 6
-       0.000  0.97676 -0.17782 -0.11970  1.26150
-       0.200  0.91156 -0.34542 -0.22305  0.22172
-       0.400  0.98776  0.04502  0.14937  0.74607
-       0.500  0.87467  0.06277  0.48064  1.03717
-       0.767  0.99280 -0.05552  0.10617  1.43645
-       0.967  0.98583 -0.15666 -0.05997  1.70713
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -13739,26 +13416,26 @@ newanim ckdbck c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ckdbck c_mfairy
+doneanim ckdbck c_mfairy.002
 
-newanim ckdbckps c_mfairy
+newanim ckdbckps c_mfairy.002
   length 1.0
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 3
-       0.000  0.00000  0.06006  0.02868
-       0.533  0.00000  0.06006  0.03265
-       1.000  0.00000  0.06006  0.02868
+       0.000  0.00000  0.07207  0.03442
+       0.533  0.00000  0.07207  0.03918
+       1.000  0.00000  0.07207  0.03442
     endlist
     orientationkey 2
        0.000 -0.00000  0.97992  0.19937  3.14159
@@ -13789,11 +13466,6 @@ newanim ckdbckps c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 3
-       0.000 -1.00000  0.00000  0.00000  1.32645
-       0.567 -1.00000  0.00000  0.00000  1.64934
-       1.000 -1.00000  0.00000  0.00000  1.32645
-    endlist
   endnode
   node trimesh pixie_legr
     parent pixie_pelvis
@@ -13847,12 +13519,6 @@ newanim ckdbckps c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 4
-       0.000  0.98583 -0.15666 -0.05997  1.70714
-       0.333  0.96755 -0.19288 -0.16323  1.04791
-       0.400  0.97031 -0.18875 -0.15121  1.10007
-       1.000  0.98583 -0.15666 -0.05997  1.70713
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -13917,25 +13583,25 @@ newanim ckdbckps c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ckdbckps c_mfairy
+doneanim ckdbckps c_mfairy.002
 
-newanim ckdbckdmg c_mfairy
+newanim ckdbckdmg c_mfairy.002
   length 0.267
   transtime 0.15
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 3
-       0.000  0.00000  0.06006  0.02526
-       0.167  0.00000  0.06006  0.03848
+       0.000  0.00000  0.07207  0.03031
+       0.167  0.00000  0.07207  0.04618
        0.267  0.00000  0.06006  0.02526
     endlist
     orientationkey 3
@@ -13968,8 +13634,7 @@ newanim ckdbckdmg c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 2
-       0.000  1.00000  0.00004  0.00003  0.06109
+    orientationkey 1
        0.267 -1.00000  0.00000  0.00000  1.32645
     endlist
   endnode
@@ -14023,10 +13688,6 @@ newanim ckdbckdmg c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 2
-       0.000  0.97099 -0.18769 -0.14813  1.11418
-       0.267  0.98583 -0.15666 -0.05997  1.70714
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -14075,29 +13736,29 @@ newanim ckdbckdmg c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ckdbckdmg c_mfairy
+doneanim ckdbckdmg c_mfairy.002
 
-newanim ckdbckdie c_mfairy
+newanim ckdbckdie c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 7
-       0.000  0.00000  0.06006  0.02868
-       0.200  0.00000  0.06006  0.02868
-       0.233  0.00000  0.06006  0.02868
-       0.433  0.00000  0.06006  0.03371
-       0.667  0.00000  0.06006  0.02868
-       0.733  0.00000  0.06006  0.01960
+       0.000  0.00000  0.07207  0.03442
+       0.200  0.00000  0.07207  0.03442
+       0.233  0.00000  0.07207  0.03442
+       0.433  0.00000  0.07207  0.04045
+       0.667  0.00000  0.07207  0.03442
+       0.733  0.00000  0.07207  0.02352
        0.967  0.00000  0.06006  0.01960
     endlist
     orientationkey 6
@@ -14143,10 +13804,7 @@ newanim ckdbckdie c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 4
-       0.000 -1.00000  0.00000  0.00000  1.32645
-       0.333 -0.99632  0.08017  0.03024  1.88046
-       0.533 -0.72202 -0.57094  0.39079  0.38760
+    orientationkey 1
        0.967 -0.72202 -0.57093  0.39080  0.38760
     endlist
   endnode
@@ -14215,14 +13873,6 @@ newanim ckdbckdie c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 6
-       0.000  0.98583 -0.15666 -0.05997  1.70714
-       0.133  0.98583 -0.15666 -0.05997  1.70715
-       0.300  0.41705  0.67034  0.61377  0.72359
-       0.667  0.97610  0.20786  0.06335  0.41921
-       0.800  0.87399 -0.27034 -0.40380  0.52636
-       0.967  0.87399 -0.27034 -0.40381  0.52636
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -14282,27 +13932,27 @@ newanim ckdbckdie c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ckdbckdie c_mfairy
+doneanim ckdbckdie c_mfairy.002
 
-newanim cguptokdb c_mfairy
+newanim cguptokdb c_mfairy.002
   length 0.633
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 4
-       0.000  0.00000  0.06006  0.01960
-       0.300  0.00000  0.06006  0.01192
-       0.433  0.00000  0.06006  0.00509
-       0.633  0.00000  0.06006  0.05466
+       0.000  0.00000  0.07207  0.02352
+       0.300  0.00000  0.07207  0.01430
+       0.433  0.00000  0.07207  0.00611
+       0.633  0.00000  0.07207  0.06559
     endlist
     orientationkey 4
        0.000  0.00000  0.92269  0.38554  3.14159
@@ -14337,11 +13987,6 @@ newanim cguptokdb c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 3
-       0.000 -0.72202 -0.57093  0.39080  0.38760
-       0.533 -1.00000  0.00000  0.00000  1.32645
-       0.633 -1.00000  0.00000  0.00000  1.32645
-    endlist
   endnode
   node trimesh pixie_legr
     parent pixie_pelvis
@@ -14397,12 +14042,6 @@ newanim cguptokdb c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 4
-       0.000  0.87399 -0.27034 -0.40381  0.52636
-       0.233  0.98160 -0.16779 -0.09120  1.44687
-       0.533  0.98583 -0.15666 -0.05997  1.70714
-       0.633  0.98583 -0.15666 -0.05997  1.70714
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -14456,31 +14095,31 @@ newanim cguptokdb c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cguptokdb c_mfairy
+doneanim cguptokdb c_mfairy.002
 
-newanim cgustandb c_mfairy
+newanim cgustandb c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 9
-       0.000  0.00000  0.06006  0.02868
-       0.100 -0.01619  0.10728  0.29244
-       0.167 -0.01494  0.05199  0.27738
-       0.300 -0.01494  0.05199  0.20022
-       0.467 -0.01494  0.05199  0.34721
-       0.567 -0.00896  0.03069  1.02493
-       0.700 -0.00498  0.01649  1.36536
-       0.833 -0.00436  0.01427  1.45531
+       0.000  0.00000  0.07207  0.03442
+       0.100 -0.01943  0.12874  0.35093
+       0.167 -0.01793  0.06239  0.33286
+       0.300 -0.01793  0.06239  0.24026
+       0.467 -0.01793  0.06239  0.41665
+       0.567 -0.01075  0.03683  1.22992
+       0.700 -0.00598  0.01979  1.63843
+       0.833 -0.00523  0.01712  1.74637
        0.967  0.00000 -0.00127  1.28838
     endlist
     orientationkey 6
@@ -14528,15 +14167,7 @@ newanim cgustandb c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 9
-       0.000 -1.00000  0.00000  0.00000  1.32645
-       0.100 -1.00000  0.00000  0.00000  0.26102
-       0.167 -1.00000  0.00000  0.00000  0.77246
-       0.300 -0.99990 -0.00994  0.01019  1.45282
-       0.367 -0.99990 -0.01060  0.00897  0.92585
-       0.433 -0.99985 -0.01420  0.01003  0.25345
-       0.467 -1.00000  0.00000  0.00000  0.26631
-       0.567  1.00001  0.00000  0.00000  0.07842
+    orientationkey 1
        0.967 -1.00000  0.00000  0.00000  0.59341
     endlist
   endnode
@@ -14615,14 +14246,6 @@ newanim cgustandb c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 6
-       0.000  0.98583 -0.15666 -0.05997  1.70714
-       0.167  0.95889 -0.20433 -0.19690  0.92349
-       0.300  0.98091 -0.16934 -0.09557  1.41559
-       0.467 -0.56383 -0.22155 -0.79562  0.30735
-       0.567  0.94026 -0.22407 -0.25633  0.76086
-       0.967  0.97676 -0.17782 -0.11970  1.26151
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -14687,25 +14310,25 @@ newanim cgustandb c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cgustandb c_mfairy
+doneanim cgustandb c_mfairy.002
 
-newanim cdead c_mfairy
+newanim cdead c_mfairy.002
   length 0.033
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 2
-       0.000  0.00000  0.06006  0.01960
-       0.033  0.00000  0.06006  0.01960
+       0.000  0.00000  0.07207  0.02352
+       0.033  0.00000  0.07207  0.02352
     endlist
     orientationkey 2
        0.000  0.00000  0.92269  0.38554  3.14159
@@ -14735,10 +14358,6 @@ newanim cdead c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 2
-       0.000 -0.72202 -0.57093  0.39080  0.38760
-       0.033 -0.72202 -0.57093  0.39080  0.38760
-    endlist
   endnode
   node trimesh pixie_legr
     parent pixie_pelvis
@@ -14786,10 +14405,6 @@ newanim cdead c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 2
-       0.000  0.87399 -0.27034 -0.40380  0.52636
-       0.033  0.87399 -0.27034 -0.40380  0.52636
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -14834,31 +14449,31 @@ newanim cdead c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cdead c_mfairy
+doneanim cdead c_mfairy.002
 
-newanim cclosel c_mfairy
+newanim cclosel c_mfairy.002
   length 0.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 8
-       0.000  0.00000 -0.00127  1.28838
-       0.167  0.00000  0.30036  1.64449
-       0.300  0.00000  0.52156  1.66752
-       0.467  0.00000  0.91998  0.41433
-       0.633  0.00000  0.91998  0.36400
-       0.767  0.00000  0.49333  0.58501
-       0.900  0.00000  0.04844  1.02351
-       0.967  0.00000 -0.00127  1.28838
+       0.000  0.00000 -0.00152  1.54606
+       0.167  0.00000  0.36043  1.97339
+       0.300  0.00000  0.62587  2.00102
+       0.467  0.00000  1.10398  0.49720
+       0.633  0.00000  1.10398  0.43680
+       0.767  0.00000  0.59200  0.70201
+       0.900  0.00000  0.05813  1.22821
+       0.967  0.00000 -0.00152  1.54606
     endlist
     orientationkey 7
        0.000  0.05090  0.86923  0.49178  2.96215
@@ -14913,16 +14528,7 @@ newanim cclosel c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 10
-       0.000 -1.00000  0.00000  0.00000  0.68691
-       0.300 -1.00000  0.00000  0.00000  1.88332
-       0.367  0.73619 -0.33985 -0.58526  0.15087
-       0.467 -1.00020  0.00000 -0.00001  0.00947
-       0.567 -0.99645  0.07771 -0.03232  0.84724
-       0.633 -0.96109  0.18066 -0.20897  1.43958
-       0.700  0.08135 -0.24902 -0.96508  0.61612
-       0.767 -0.33577 -0.29508 -0.89453  0.51122
-       0.800  0.58611 -0.16431 -0.79339  0.43182
+    orientationkey 1
        0.967 -1.00000  0.00000  0.00000  0.68691
     endlist
   endnode
@@ -15000,11 +14606,6 @@ newanim cclosel c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       0.000  0.98170 -0.16755 -0.09051  1.45188
-       0.233  0.97651 -0.17828 -0.12103  1.25388
-       0.967  0.98170 -0.16755 -0.09051  1.45188
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -15068,31 +14669,31 @@ newanim cclosel c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cclosel c_mfairy
+doneanim cclosel c_mfairy.002
 
-newanim ccastoutlp c_mfairy
+newanim ccastoutlp c_mfairy.002
   length 1.0
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 8
-       0.000  0.00000 -0.00127  1.18036
-       0.233  0.00000 -0.00127  1.13232
-       0.367  0.00000 -0.00127  1.09687
-       0.433  0.00000 -0.00127  1.07804
-       0.567  0.00000 -0.00127  1.11955
-       0.667  0.00000 -0.00127  1.16313
-       0.833  0.00000 -0.00127  1.12419
-       1.000  0.00000 -0.00127  1.18036
+       0.000  0.00000 -0.00152  1.41643
+       0.233  0.00000 -0.00152  1.35878
+       0.367  0.00000 -0.00152  1.31624
+       0.433  0.00000 -0.00152  1.29365
+       0.567  0.00000 -0.00152  1.34346
+       0.667  0.00000 -0.00152  1.39576
+       0.833  0.00000 -0.00152  1.34903
+       1.000  0.00000 -0.00152  1.41643
     endlist
     orientationkey 5
        0.000  0.00910 -0.87022 -0.49258  3.11495
@@ -15129,10 +14730,6 @@ newanim ccastoutlp c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 2
-       0.000 -1.00000  0.00000  0.00000  0.59341
-       1.000 -1.00000  0.00000  0.00000  0.59341
-    endlist
   endnode
   node trimesh pixie_legr
     parent pixie_pelvis
@@ -15185,11 +14782,6 @@ newanim ccastoutlp c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       0.000  0.99605 -0.04836 -0.07448  0.54981
-       0.500  0.42038 -0.85075 -0.31546  0.26115
-       1.000  0.99605 -0.04837 -0.07448  0.54981
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -15255,29 +14847,29 @@ newanim ccastoutlp c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ccastoutlp c_mfairy
+doneanim ccastoutlp c_mfairy.002
 
-newanim cappear c_mfairy
+newanim cappear c_mfairy.002
   length 2.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 7
-       0.000  0.00000 -0.00127  20.07190
-       1.867  0.00000 -0.00127  2.96969
-       2.033  0.00000 -0.00854  1.64449
-       2.333  0.00000  0.00287  0.41433
-       2.467  0.00000  0.00287  0.36400
-       2.700  0.00000  0.00128  0.64331
+       0.000  0.00000 -0.00152  24.08628
+       1.867  0.00000 -0.00152  3.56363
+       2.033  0.00000 -0.01025  1.97339
+       2.333  0.00000  0.00344  0.49720
+       2.467  0.00000  0.00344  0.43680
+       2.700  0.00000  0.00154  0.77197
        2.967  0.00000 -0.00127  1.28838
     endlist
     orientationkey 6
@@ -15321,12 +14913,7 @@ newanim cappear c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 6
-       2.000 -1.00000  0.00000  0.00000  0.68691
-       2.467 -1.00020  0.00007 -0.00002  0.00947
-       2.567 -0.99951  0.01481 -0.02751  0.84935
-       2.700  0.63455 -0.11874 -0.76371  0.83246
-       2.767  0.56499  0.05134 -0.82350  0.65918
+    orientationkey 1
        2.967 -1.00000  0.00000  0.00000  0.68691
     endlist
   endnode
@@ -15392,11 +14979,6 @@ newanim cappear c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 3
-       2.000  0.98170 -0.16755 -0.09051  1.45188
-       2.233  0.97651 -0.17828 -0.12103  1.25388
-       2.967  0.98170 -0.16755 -0.09051  1.45189
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -15497,30 +15079,30 @@ newanim cappear c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cappear c_mfairy
+doneanim cappear c_mfairy.002
 
-newanim cdisappear c_mfairy
+newanim cdisappear c_mfairy.002
   length 2.967
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 8
-       0.000  0.00000 -0.00127  1.28838
-       0.167  0.00000 -0.00854  1.64449
-       0.467  0.00000  0.00287  0.41433
-       0.567  0.00000  0.00287  0.36400
-       0.967  0.00000 -0.00127  1.28838
-       1.300  0.00000 -0.00127  2.74886
-       1.767  0.00000 -0.00127  5.50298
+       0.000  0.00000 -0.00152  1.54606
+       0.167  0.00000 -0.01025  1.97339
+       0.467  0.00000  0.00344  0.49720
+       0.567  0.00000  0.00344  0.43680
+       0.967  0.00000 -0.00152  1.54606
+       1.300  0.00000 -0.00152  3.29863
+       1.767  0.00000 -0.00152  6.60358
        2.967  0.00000 -0.00127  20.07190
     endlist
     orientationkey 5
@@ -15569,13 +15151,7 @@ newanim cdisappear c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 7
-       0.000 -1.00000  0.00000  0.00000  0.68691
-       0.467 -1.00020  0.00038  0.00014  0.00947
-       0.567 -0.99951  0.01481 -0.02751  0.84935
-       0.700 -0.46485  0.48804 -0.73873  0.65847
-       0.833  0.17939  0.29502 -0.93850  0.29641
-       0.967  1.00006 -0.00000 -0.00002  0.07230
+    orientationkey 1
        2.967  0.97583  0.20543  0.07425  0.04185
     endlist
   endnode
@@ -15647,12 +15223,6 @@ newanim cdisappear c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 4
-       0.000  0.98170 -0.16755 -0.09051  1.45189
-       0.233  0.97651 -0.17828 -0.12103  1.25387
-       0.967  0.98170 -0.16755 -0.09051  1.45188
-       2.967  0.98476 -0.15178 -0.08496  1.30055
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -15755,26 +15325,26 @@ newanim cdisappear c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cdisappear c_mfairy
+doneanim cdisappear c_mfairy.002
 
-newanim cspasm c_mfairy
+newanim cspasm c_mfairy.002
   length 0.5
   transtime 0.2
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 3
-       0.000  0.00000 -0.00127  1.28838
-       0.233  0.00000 -0.00127  1.23713
-       0.500  0.00000 -0.00127  1.28838
+       0.000  0.00000 -0.00152  1.54606
+       0.233  0.00000 -0.00152  1.48456
+       0.500  0.00000 -0.00152  1.54606
     endlist
     orientationkey 3
        0.000  0.00000  0.71325  0.70091  3.14159
@@ -15814,12 +15384,6 @@ newanim cspasm c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 4
-       0.000 -0.90185  0.40633  0.14688  0.12334
-       0.233 -0.85411  0.51653  0.06076  0.13295
-       0.367 -0.98984  0.13234  0.05196  0.43083
-       0.500 -0.90185  0.40633  0.14688  0.12334
-    endlist
   endnode
   node trimesh pixie_legr
     parent pixie_pelvis
@@ -15881,13 +15445,6 @@ newanim cspasm c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 5
-       0.000  0.99945  0.02454 -0.02214  0.57885
-       0.067  0.87891  0.27328 -0.39094  0.34642
-       0.233  0.99979  0.01260 -0.01645  0.94525
-       0.367  0.97335  0.09036 -0.21078  0.73321
-       0.500  0.99945  0.02454 -0.02214  0.57885
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -15943,25 +15500,25 @@ newanim cspasm c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cspasm c_mfairy
+doneanim cspasm c_mfairy.002
 
-newanim cgetmidlp c_mfairy
+newanim cgetmidlp c_mfairy.002
   length 0.033
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 2
-       0.000  0.00000  0.04648  0.92162
-       0.033  0.00000  0.04648  0.92162
+       0.000  0.00000  0.05578  1.10594
+       0.033  0.00000  0.05578  1.10594
     endlist
     orientationkey 2
        0.000  0.00000  0.81487  0.57965  3.14159
@@ -15991,10 +15548,6 @@ newanim cgetmidlp c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 2
-       0.000 -0.99410  0.06521  0.08663  0.76753
-       0.033 -0.99410  0.06521  0.08663  0.76753
-    endlist
   endnode
   node trimesh pixie_legr
     parent pixie_pelvis
@@ -16042,10 +15595,6 @@ newanim cgetmidlp c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 2
-       0.000  0.87467  0.06277  0.48064  1.03717
-       0.033  0.87467  0.06277  0.48064  1.03718
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -16090,25 +15639,25 @@ newanim cgetmidlp c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cgetmidlp c_mfairy
+doneanim cgetmidlp c_mfairy.002
 
-newanim cdisappearlp c_mfairy
+newanim cdisappearlp c_mfairy.002
   length 0.033
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 2
-       0.000  0.00000 -0.00127  20.07190
-       0.033  0.00000 -0.00127  20.07190
+       0.000  0.00000 -0.00152  24.08628
+       0.033  0.00000 -0.00152  24.08628
     endlist
     orientationkey 2
        0.000  0.05090  0.86923  0.49178  2.96215
@@ -16138,10 +15687,6 @@ newanim cdisappearlp c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    orientationkey 2
-       0.000  0.97584  0.20542  0.07423  0.04185
-       0.033  0.97584  0.20543  0.07423  0.04185
-    endlist
   endnode
   node trimesh pixie_legr
     parent pixie_pelvis
@@ -16189,10 +15734,6 @@ newanim cdisappearlp c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 2
-       0.000  0.98476 -0.15178 -0.08496  1.30056
-       0.033  0.98476 -0.15178 -0.08496  1.30058
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -16237,28 +15778,28 @@ newanim cdisappearlp c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim cdisappearlp c_mfairy
+doneanim cdisappearlp c_mfairy.002
 
-newanim ccturnr c_mfairy
+newanim ccturnr c_mfairy.002
   length 0.467
   transtime 0.25
-  animroot c_mfairy
-  node dummy c_mfairy
+  animroot c_mfairy.002
+  node dummy c_mfairy.002
     parent null
   endnode
   node dummy Root_dummy
-    parent c_mfairy
+    parent c_mfairy.002
     positionkey 5
-       0.000  0.00000 -0.00127  1.28838
-       0.200  0.00000 -0.00127  1.24521
-       0.267  0.00000 -0.00127  1.24679
-       0.433  0.00000 -0.00127  1.29563
-       0.467  0.00000 -0.00127  1.28838
+       0.000  0.00000 -0.00152  1.54606
+       0.200  0.00000 -0.00152  1.49425
+       0.267  0.00000 -0.00152  1.49615
+       0.433  0.00000 -0.00152  1.55476
+       0.467  0.00000 -0.00152  1.54606
     endlist
     orientationkey 4
        0.000 -0.00000  0.87036  0.49242  3.14159
@@ -16294,15 +15835,7 @@ newanim ccturnr c_mfairy
   endnode
   node trimesh M_Foot.001
     parent pixie_shinl
-    scalekey 1
-       0.000  1.00000
-    endlist
-    positionkey 1
-       0.000  0.03787  0.03411 -0.42748
-    endlist
-    orientationkey 3
-       0.000 -0.99293 -0.07653  0.09077  1.31627
-       0.233  0.74434  0.58947  0.31384  0.13033
+    orientationkey 1
        0.467 -1.00000  0.00000  0.00000  0.59341
     endlist
   endnode
@@ -16364,12 +15897,6 @@ newanim ccturnr c_mfairy
   endnode
   node trimesh fairy_forearml
     parent fairy_bicepl
-    orientationkey 4
-       0.000  0.97676 -0.17782 -0.11970  1.26151
-       0.133  0.98656 -0.16275 -0.01484  0.91310
-       0.267  0.88799 -0.40630  0.21539  0.23498
-       0.467  0.97676 -0.17782 -0.11970  1.26151
-    endlist
   endnode
   node trimesh fairy_handl
     parent fairy_forearml
@@ -16423,11 +15950,11 @@ newanim ccturnr c_mfairy
     parent pixie_torso
   endnode
   node dummy handconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
   node dummy headconjure
-    parent c_mfairy
+    parent c_mfairy.002
   endnode
-doneanim ccturnr c_mfairy
+doneanim ccturnr c_mfairy.002
 
-donemodel c_mfairy
+donemodel c_mfairy.002
