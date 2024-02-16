@@ -1,19 +1,19 @@
 # NeverBlender 4.0.2|Blender 4.0.0|2024-02-15
 filedependancy unknown
-newmodel c_troglodyteA
-setsupermodel c_troglodyteA a_ba
+newmodel c_troglodyte
+setsupermodel c_troglodyte a_ba
 classification CHARACTER
 setanimationscale 0.8
-beginmodelgeom c_troglodyteA
-node dummy c_troglodyteA
+beginmodelgeom c_troglodyte
+node dummy c_troglodyte
   parent null
 endnode
 node trimesh rootdummy
-  parent c_troglodyteA
+  parent c_troglodyte
   position  0.00000 -0.02004  0.94456
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -54,7 +54,7 @@ node danglymesh pelvis_g
   position -0.00024 -0.02760 -0.04877
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -293,7 +293,7 @@ node trimesh lthigh_g
   position -0.08660 -0.01252 -0.10696
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -460,7 +460,7 @@ node trimesh lshin_g
   position -0.01697  0.01786 -0.34437
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -574,7 +574,7 @@ node trimesh lfoot_g
   position  0.00451 -0.12977 -0.23278
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -705,7 +705,7 @@ node trimesh rthigh_g
   position  0.08708 -0.01252 -0.10696
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -872,7 +872,7 @@ node trimesh rshin_g
   position  0.01697  0.01786 -0.34437
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -986,7 +986,7 @@ node trimesh rfoot_g
   position -0.00451 -0.12977 -0.23278
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -1117,7 +1117,7 @@ node trimesh torso_g
   position -0.00024 -0.01192 -0.04877
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -1384,11 +1384,6 @@ node trimesh torso_g
     66 64 57 1  49 40 32 0
     66 57 59 1  44 29 30 0
 endnode
-node dummy wings
-  parent torso_g
-  position -0.00186 -0.10040  0.35038
-  orientation  0.00000  1.00000  0.00000  0.00000
-endnode
 node danglymesh Hipbag_g
   parent torso_g
   position -0.11898 -0.04504  0.10965
@@ -1511,6 +1506,11 @@ node danglymesh Hipbag_g
      183.0
      238.0
       0.0
+endnode
+node dummy wings
+  parent torso_g
+  position -0.00186 -0.10040  0.35038
+  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh sidepad_g
   parent torso_g
@@ -1693,7 +1693,7 @@ node trimesh neck_g
   position  0.00000 -0.04968  0.49370
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -1805,7 +1805,7 @@ node danglymesh head_g
   position  0.00000  0.04702  0.08609
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -2349,7 +2349,7 @@ node trimesh lbicep_g
   position -0.13233 -0.05301  0.41719
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -2537,7 +2537,7 @@ node trimesh lshould_g
   position -0.06081  0.01253  0.00909
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -2567,7 +2567,7 @@ node trimesh lforearm_g
   position -0.08257 -0.01119 -0.27189
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -2714,7 +2714,7 @@ node trimesh lhand_g
   position -0.02786  0.03481 -0.25214
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -2801,7 +2801,7 @@ node trimesh rbicep_g
   position  0.13281 -0.05301  0.41719
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -2989,7 +2989,7 @@ node trimesh rshould_g
   position  0.06081  0.01253  0.00909
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -3151,7 +3151,7 @@ node trimesh rforearm_g
   position  0.08257 -0.01119 -0.27189
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -3298,7 +3298,7 @@ node trimesh rhand_g
   position  0.02786  0.03481 -0.25214
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap c_troglodyte_b
+  bitmap c_troglodyte
   texture1 null
   texture2 null
   shininess 11
@@ -3381,14 +3381,14 @@ node dummy impact
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy headconjure
-  parent c_troglodyteA
+  parent c_troglodyte
   position  0.00000 -0.03878  2.23093
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy handconjure
-  parent c_troglodyteA
+  parent c_troglodyte
   position  0.00000  0.60616  1.22059
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-endmodelgeom c_troglodyteA
-donemodel c_troglodyteA
+endmodelgeom c_troglodyte
+donemodel c_troglodyte
