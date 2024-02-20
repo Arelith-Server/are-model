@@ -1,6 +1,6 @@
 #MAXMODEL ASCII
 # model: c_troglodyte_wE
-filedependancy c_troglodyte_w.max
+filedependancy c_troglodyte_wE.max
 newmodel c_troglodyte_wE
 setsupermodel c_troglodyte_wE a_ba
 classification CHARACTER
@@ -1358,6 +1358,11 @@ node trimesh torso_g
   orientation 0 0 0 0
   scale 1
   alpha 1
+endnode
+node dummy wings
+  parent torso_g
+  position -0.00186 -0.10040  0.35038
+  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh neck_g
   parent torso_g

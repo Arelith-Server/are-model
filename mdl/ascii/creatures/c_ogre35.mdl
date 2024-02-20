@@ -1,4 +1,4 @@
-# Exported from NeverBlender 2.8.43 - Monday, 2023-06-12
+# NeverBlender 4.0.2|Blender 4.0.0|2024-02-14
 filedependancy unknown
 newmodel c_ogre35
 setsupermodel c_ogre35 c_ogre
@@ -23,12 +23,14 @@ node trimesh ogre_lthigh
   position -0.16907  0.01027 -0.12174
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -180,12 +182,14 @@ node trimesh ogre_lcalf
   position  0.05661  0.01895 -0.81889
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -348,12 +352,14 @@ node trimesh ogre_lfoot
   position -0.03954 -0.08517 -0.71979
   orientation  1.00000  0.00000  0.00000  0.26180
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -598,12 +604,14 @@ node trimesh ogre_rthigh
   position  0.16954  0.00996 -0.12101
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -755,12 +763,14 @@ node trimesh ogre_rcalf
   position -0.05502 -0.06621 -0.81653
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -923,12 +933,14 @@ node trimesh ogre_rfoot
   position  0.02171 -0.08510 -0.71985
   orientation  1.00000  0.00000  0.00000  0.26180
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -1171,11 +1183,12 @@ node trimesh ogre_pelvis_g
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap null
-  shininess 13
+  selfillumcolor 0.00 0.00 0.00
   render 0
   shadow 1
   tilefade 0
@@ -1358,12 +1371,14 @@ node trimesh ogre_torso
   position -0.00427 -0.01798  0.00377
   orientation -0.99970 -0.02310 -0.00854  0.09460
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -1697,17 +1712,24 @@ node trimesh ogre_torso
     107 108 102 1  31 32 26 0
     109 100 102 1  32 24 26 0
 endnode
+node dummy wings
+  parent ogre_torso
+  position -0.00695 -0.23761  0.62103
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
 node trimesh ogre_rbicep
   parent ogre_torso
   position  0.43776  0.00171  0.86890
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -1959,12 +1981,14 @@ node trimesh ogre_rforearm
   position  0.18035  0.05725 -0.61099
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -2159,12 +2183,14 @@ node trimesh ogre_rhand
   position  0.00880 -0.00024 -0.74712
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -2456,12 +2482,14 @@ node trimesh ogre_lbicep
   position -0.43404  0.00092  0.87077
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -2717,12 +2745,14 @@ node trimesh ogre_lforearm
   position -0.18001  0.07231 -0.58398
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -2922,12 +2952,14 @@ node trimesh ogre_lhand
   position -0.12105 -0.05809 -0.76075
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -3199,18 +3231,19 @@ endnode
 node dummy ogre_neck
   parent ogre_torso
   position  0.00378  0.17347  0.95397
-  orientation  0.99727  0.06921  0.02546  0.09483
+  orientation  0.99732  0.06921  0.02546  0.09483
 endnode
 node trimesh ogre_hair2
   parent ogre_neck
   position -0.00854 -0.00228  0.27685
-  orientation -0.99727 -0.06921 -0.02546  0.09483
+  orientation -0.99732 -0.06921 -0.02546  0.09483
   wirecolor 1.00 1.00 1.00
+  bitmap null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap null
-  shininess 13
+  selfillumcolor 0.00 0.00 0.00
   render 0
   shadow 1
   tilefade 0
@@ -3321,12 +3354,14 @@ node danglymesh object01
   position  0.00480  0.28144 -0.16611
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -3446,14 +3481,16 @@ endnode
 node danglymesh ogre_head
   parent ogre_neck
   position -0.00191  0.26221  0.08494
-  orientation -0.99727 -0.06921 -0.02546  0.09483
+  orientation -0.99732 -0.06921 -0.02546  0.09483
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -4182,12 +4219,14 @@ node danglymesh ogre_jaw
   position -0.00008  0.12158  0.01437
   orientation -0.99806  0.05451  0.03014  0.13258
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -4893,12 +4932,14 @@ node skin ogre_hair
   position  0.00189  0.04365  2.96427
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -5137,12 +5178,14 @@ node skin ogre_loincloth
   position -0.00004 -0.38765  1.88191
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_ogre35
+  texture1 null
+  texture2 null
+  shininess 13
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_ogre35
-  shininess 13
   render 1
   shadow 1
   tilefade 0
@@ -5823,7 +5866,7 @@ newanim ca1slashl c_ogre35
        0.067 -0.99584  0.08894 -0.01987  1.58636
        0.133 -0.99592  0.08794 -0.02031  1.54823
        0.200 -0.99658  0.07895 -0.02431  1.26380
-       0.233 -0.99713  0.07019 -0.02820  1.06322
+       0.233 -0.99714  0.07019 -0.02820  1.06322
        0.267 -0.99787  0.05503 -0.03492  0.82738
        0.300 -0.99700  0.07250 -0.02718  1.11042
        0.333 -0.99636  0.08205 -0.02293  1.35119
@@ -5937,6 +5980,9 @@ newanim ca1slashl c_ogre35
        0.967 -0.46568  0.80342  0.37102  0.28474
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 7
@@ -6047,7 +6093,7 @@ newanim ca1slashl c_ogre35
        0.000 -0.99999  0.00302  0.00265  0.32289
        0.233 -0.99998  0.00603 -0.00300  0.87442
        0.567 -0.99999  0.00390  0.00209  0.62369
-       0.733 -0.99962  0.02446  0.01295  0.07951
+       0.733 -0.99970  0.02446  0.01295  0.07950
        0.967 -0.99999  0.00302  0.00265  0.32289
     endlist
   endnode
@@ -6240,6 +6286,9 @@ newanim ca1slashr c_ogre35
        0.633 -0.73887 -0.63697 -0.21986  0.38305
        0.967 -0.42681 -0.06354 -0.90211  0.80331
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -6576,6 +6625,9 @@ newanim ca1stab c_ogre35
        1.000 -0.81831  0.28992  0.49630  0.64732
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 12
@@ -6803,7 +6855,7 @@ newanim cappear c_ogre35
   node trimesh ogre_lfoot
     parent ogre_lcalf
     orientationkey 9
-       0.000  0.98893 -0.13726 -0.05629  0.74803
+       0.000  0.98894 -0.13726 -0.05629  0.74803
        0.167  0.98864 -0.14037 -0.05377  0.75643
        0.500  0.98936 -0.14148 -0.03378  0.74951
        0.667  0.98994 -0.13914 -0.02558  0.73772
@@ -6811,7 +6863,7 @@ newanim cappear c_ogre35
        1.000  0.99043 -0.13547 -0.02653  0.72676
        1.433  0.99032 -0.13345 -0.03830  0.72689
        1.833  0.98940 -0.13535 -0.05265  0.74028
-       2.000  0.98893 -0.13726 -0.05629  0.74803
+       2.000  0.98894 -0.13726 -0.05629  0.74803
     endlist
   endnode
   node trimesh ogre_rthigh
@@ -6869,15 +6921,18 @@ newanim cappear c_ogre35
        2.000 -0.93941  0.16015  0.30310  0.60092
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 14
        0.000 -0.99876  0.02493 -0.04314  0.57754
-       0.067 -0.99875  0.02509 -0.04336  0.57439
+       0.067 -0.99874  0.02509 -0.04336  0.57439
        0.333 -0.99874  0.02761 -0.04186  0.57612
        0.500 -0.99877  0.03093 -0.03867  0.59234
        0.600 -0.99880  0.03282 -0.03649  0.60663
-       0.667 -0.99880  0.03403 -0.03508  0.61615
+       0.667 -0.99881  0.03403 -0.03508  0.61615
        0.833 -0.99881  0.03385 -0.03499  0.61892
        1.000 -0.99882  0.03291 -0.03573  0.61568
        1.333 -0.99883  0.03136 -0.03687  0.61164
@@ -7197,6 +7252,9 @@ newanim ccastout c_ogre35
        0.467 -0.93460  0.09866 -0.34175  1.04682
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 4
@@ -7450,6 +7508,9 @@ newanim ccastoutlp c_ogre35
        1.000 -0.93460  0.09866 -0.34175  1.04682
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 12
@@ -7671,7 +7732,7 @@ newanim ccloseh c_ogre35
     parent ogre_pelvis
     orientationkey 5
        0.000  0.99586  0.05636 -0.07135  1.20910
-       0.267  0.88340  0.02686 -0.46786  0.23028
+       0.267  0.88339  0.02686 -0.46786  0.23028
        0.500  0.93355  0.35481 -0.05087  1.76330
        0.733  0.89840  0.42979 -0.09037  1.54214
        0.967  0.99586  0.05635 -0.07135  1.20910
@@ -7738,6 +7799,9 @@ newanim ccloseh c_ogre35
        0.433 -0.97966  0.12244 -0.15896  0.76112
        0.967 -0.84915  0.20726 -0.48579  0.28317
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -7910,7 +7974,7 @@ newanim cclosel c_ogre35
     parent ogre_pelvis
     orientationkey 5
        0.000  0.99586  0.05636 -0.07135  1.20910
-       0.267  0.88340  0.02686 -0.46786  0.23028
+       0.267  0.88339  0.02686 -0.46786  0.23028
        0.500  0.93355  0.35481 -0.05087  1.76330
        0.733  0.89840  0.42979 -0.09037  1.54214
        0.967  0.99586  0.05635 -0.07135  1.20910
@@ -7978,6 +8042,9 @@ newanim cclosel c_ogre35
        0.967 -0.84915  0.20726 -0.48579  0.28317
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 7
@@ -8006,7 +8073,7 @@ newanim cclosel c_ogre35
     orientationkey 5
        0.000  0.12405  0.07079  0.98975  0.86465
        0.267 -0.01432 -0.07133  0.99735  1.29105
-       0.500  0.09077 -0.48550 -0.86951  0.26351
+       0.500  0.09077 -0.48550 -0.86952  0.26351
        0.733  0.52254  0.10625  0.84597  0.80805
        0.967  0.12404  0.07079  0.98975  0.86464
     endlist
@@ -8251,13 +8318,16 @@ newanim cconjure1 c_ogre35
     parent rootdummy
     orientationkey 7
        0.000 -0.84915  0.20726 -0.48578  0.28318
-       0.233 -0.17958  0.00148 -0.98374  0.28165
+       0.233 -0.17958  0.00148 -0.98375  0.28165
        0.467 -0.84273  0.07358 -0.53328  0.67308
        0.633 -0.92364  0.09518 -0.37126  1.02956
        0.967  0.02292  0.94630 -0.32248  0.24331
        1.533 -0.96662  0.17113 -0.19069  0.50064
        1.967 -0.84915  0.20726 -0.48579  0.28318
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -8373,7 +8443,7 @@ newanim cconjure1 c_ogre35
     orientationkey 12
        0.000  0.99945  0.03163  0.01898  0.03493
        0.167 -0.97257 -0.06317 -0.22388  0.42447
-       0.333 -0.96372 -0.07715 -0.25552  0.15911
+       0.333 -0.96373 -0.07715 -0.25552  0.15911
        0.500 -0.88210  0.14065 -0.44957  0.13854
        0.667 -0.97813 -0.02076 -0.20696  0.50152
        0.833 -0.97976  0.10100 -0.17286  0.25994
@@ -8530,6 +8600,9 @@ newanim ccturnr c_ogre35
        0.400 -0.92846 -0.25413 -0.27089  0.48165
        0.500 -0.93129 -0.24784 -0.26696  0.49131
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -8714,7 +8787,7 @@ newanim ccwalkb c_ogre35
        0.133  0.96433  0.21098 -0.15989  0.54329
        0.233  0.98707  0.03700 -0.15597  0.41964
        0.267  0.95316  0.13361 -0.27136  0.38174
-       0.400  0.71520 -0.07176 -0.69521  0.08457
+       0.400  0.71525 -0.07177 -0.69526  0.08456
        0.500  0.99480 -0.06351 -0.07958  0.66654
     endlist
   endnode
@@ -8761,6 +8834,9 @@ newanim ccwalkb c_ogre35
        0.233 -0.77249  0.17140  0.61146  0.72112
        0.500 -0.77345  0.38956  0.50003  0.65080
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -8953,7 +9029,7 @@ newanim ccwalkf c_ogre35
     parent ogre_lcalf
     orientationkey 6
        0.000  0.99480 -0.06351 -0.07958  0.66654
-       0.100  0.71525 -0.07176 -0.69526  0.08456
+       0.100  0.71521 -0.07176 -0.69522  0.08456
        0.233  0.95316  0.13361 -0.27136  0.38174
        0.267  0.98707  0.03700 -0.15597  0.41964
        0.367  0.96433  0.21098 -0.15989  0.54329
@@ -9003,6 +9079,9 @@ newanim ccwalkf c_ogre35
        0.267 -0.77249  0.17139  0.61147  0.72112
        0.500 -0.77345  0.38956  0.50003  0.65080
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -9164,7 +9243,7 @@ newanim ccwalkl c_ogre35
     orientationkey 5
        0.000 -0.82134  0.50182 -0.27127  0.28326
        0.100 -0.96267 -0.16743 -0.21269  0.27744
-       0.233 -0.95669 -0.20579 -0.20588  0.28130
+       0.233 -0.95670 -0.20579 -0.20588  0.28130
        0.367 -0.88605  0.37703 -0.26975  0.27096
        0.500 -0.82134  0.50182 -0.27127  0.28326
     endlist
@@ -9240,6 +9319,9 @@ newanim ccwalkl c_ogre35
        0.367 -0.94664  0.15678  0.28158  0.52378
        0.500 -0.77345  0.38955  0.50003  0.65080
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -9401,7 +9483,7 @@ newanim ccwalkr c_ogre35
     orientationkey 5
        0.000 -0.82134  0.50182 -0.27127  0.28326
        0.133 -0.88605  0.37703 -0.26975  0.27096
-       0.267 -0.95669 -0.20579 -0.20588  0.28130
+       0.267 -0.95670 -0.20579 -0.20588  0.28130
        0.400 -0.96267 -0.16743 -0.21269  0.27744
        0.500 -0.82134  0.50182 -0.27127  0.28326
     endlist
@@ -9477,6 +9559,9 @@ newanim ccwalkr c_ogre35
        0.367 -0.81617  0.06900  0.57368  0.61431
        0.500 -0.77345  0.38956  0.50003  0.65080
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -9676,6 +9761,9 @@ newanim cdead c_ogre35
        0.033  0.94936 -0.29811  0.09922  1.54052
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 2
@@ -9838,7 +9926,7 @@ newanim cdisappear c_ogre35
   node trimesh ogre_lfoot
     parent ogre_lcalf
     orientationkey 9
-       0.000  0.98893 -0.13726 -0.05629  0.74803
+       0.000  0.98894 -0.13726 -0.05629  0.74803
        0.167  0.98864 -0.14037 -0.05377  0.75643
        0.500  0.98936 -0.14148 -0.03378  0.74951
        0.667  0.98994 -0.13914 -0.02558  0.73772
@@ -9846,7 +9934,7 @@ newanim cdisappear c_ogre35
        1.000  0.99043 -0.13547 -0.02653  0.72676
        1.433  0.99032 -0.13345 -0.03830  0.72689
        1.833  0.98940 -0.13535 -0.05265  0.74028
-       2.000  0.98893 -0.13726 -0.05629  0.74803
+       2.000  0.98894 -0.13726 -0.05629  0.74803
     endlist
   endnode
   node trimesh ogre_rthigh
@@ -9904,11 +9992,14 @@ newanim cdisappear c_ogre35
        2.000 -0.93941  0.16015  0.30310  0.60092
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 14
        0.000 -0.99876  0.02493 -0.04314  0.57754
-       0.067 -0.99875  0.02509 -0.04336  0.57439
+       0.067 -0.99874  0.02509 -0.04336  0.57439
        0.333 -0.99874  0.02761 -0.04186  0.57612
        0.500 -0.99877  0.03093 -0.03867  0.59234
        0.600 -0.99880  0.03282 -0.03649  0.60662
@@ -10139,7 +10230,7 @@ newanim cdisappearlp c_ogre35
   node trimesh ogre_lfoot
     parent ogre_lcalf
     orientationkey 9
-       0.000  0.98893 -0.13726 -0.05629  0.74803
+       0.000  0.98894 -0.13726 -0.05629  0.74803
        0.167  0.98864 -0.14037 -0.05377  0.75643
        0.500  0.98936 -0.14148 -0.03378  0.74951
        0.667  0.98994 -0.13914 -0.02558  0.73772
@@ -10147,7 +10238,7 @@ newanim cdisappearlp c_ogre35
        1.000  0.99043 -0.13547 -0.02653  0.72676
        1.433  0.99032 -0.13345 -0.03830  0.72689
        1.833  0.98940 -0.13535 -0.05265  0.74028
-       2.000  0.98893 -0.13726 -0.05629  0.74803
+       2.000  0.98894 -0.13726 -0.05629  0.74803
     endlist
   endnode
   node trimesh ogre_rthigh
@@ -10205,15 +10296,18 @@ newanim cdisappearlp c_ogre35
        2.000 -0.93941  0.16015  0.30310  0.60092
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 14
        0.000 -0.99876  0.02493 -0.04314  0.57754
-       0.067 -0.99875  0.02509 -0.04336  0.57439
+       0.067 -0.99874  0.02509 -0.04336  0.57439
        0.333 -0.99874  0.02761 -0.04186  0.57612
        0.500 -0.99877  0.03093 -0.03867  0.59234
        0.600 -0.99880  0.03282 -0.03649  0.60663
-       0.667 -0.99880  0.03403 -0.03508  0.61615
+       0.667 -0.99881  0.03403 -0.03508  0.61615
        0.833 -0.99881  0.03385 -0.03499  0.61892
        1.000 -0.99882  0.03291 -0.03573  0.61568
        1.333 -0.99883  0.03136 -0.03687  0.61164
@@ -10523,7 +10617,7 @@ newanim cdodgelr c_ogre35
        0.433  0.65762  0.75325  0.01200  0.25593
        0.467 -0.57262  0.75302 -0.32414  0.26571
        0.667 -0.76693  0.50122 -0.40074  0.36659
-       0.700 -0.20779  0.95136 -0.22743  0.16730
+       0.700 -0.20779  0.95138 -0.22743  0.16730
        0.733  0.74952  0.65686  0.08218  0.23302
        0.767  0.91234  0.38937  0.12664  0.40777
        0.800  0.95062  0.28854  0.11433  0.59520
@@ -10545,6 +10639,9 @@ newanim cdodgelr c_ogre35
        0.833 -0.80586  0.51383  0.29422  0.31264
        1.000 -0.81831  0.28992  0.49630  0.64733
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -10574,8 +10671,8 @@ newanim cdodgelr c_ogre35
        0.000 -0.80737 -0.19907  0.55545  0.94856
        0.133 -0.55306  0.19069  0.81102  0.78019
        0.333 -0.40837  0.20658  0.88913  0.77109
-       0.467 -0.99392 -0.08495 -0.06998  0.78984
-       0.667 -0.99392 -0.08495 -0.06998  0.78984
+       0.467 -0.99393 -0.08495 -0.06998  0.78984
+       0.667 -0.99393 -0.08495 -0.06998  0.78984
        1.000 -0.80737 -0.19907  0.55545  0.94856
     endlist
   endnode
@@ -10628,7 +10725,7 @@ newanim cdodgelr c_ogre35
        0.000 -0.91237  0.19237 -0.36134  0.42078
        0.133 -0.92467  0.14605 -0.35166  0.45626
        0.333 -0.91237  0.19237 -0.36134  0.42078
-       0.467  0.33754 -0.21396 -0.91667  0.13556
+       0.467  0.33754 -0.21396 -0.91668  0.13556
        0.667  0.08511 -0.20951 -0.97410  0.12806
        0.833 -0.79679  0.11524 -0.59317  0.23406
        1.000 -0.91237  0.19237 -0.36134  0.42078
@@ -10836,6 +10933,9 @@ newanim cdodges c_ogre35
        0.667 -0.48215  0.70693  0.51748  0.25925
        1.000 -0.81831  0.28992  0.49630  0.64732
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -11099,6 +11199,9 @@ newanim cgetmid c_ogre35
        0.500 -0.98117  0.18963 -0.03670  0.56606
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 8
@@ -11212,7 +11315,7 @@ newanim cgetmid c_ogre35
     parent ogre_torso
     orientationkey 2
        0.000 -0.99992 -0.01201 -0.00503  0.17913
-       0.267 -0.99995 -0.00998 -0.00438  0.21404
+       0.267 -0.99994 -0.00998 -0.00438  0.21404
     endlist
   endnode
   node dummy headconjure
@@ -11305,6 +11408,9 @@ newanim cgetmidlp c_ogre35
        0.000 -0.98117  0.18963 -0.03670  0.56606
        0.033 -0.98117  0.18963 -0.03670  0.56606
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -11474,7 +11580,7 @@ newanim cguptokdb c_ogre35
     orientationkey 3
        0.000 -0.91160  0.11224  0.39547  0.68371
        0.633 -0.37187 -0.92407 -0.08839  0.86168
-       1.000  0.18508  0.40820  0.89393  0.28654
+       1.000  0.18508  0.40820  0.89394  0.28654
     endlist
   endnode
   node trimesh ogre_pelvis_g
@@ -11486,6 +11592,9 @@ newanim cguptokdb c_ogre35
        0.000  0.94936 -0.29811  0.09922  1.54052
        1.000  0.95244 -0.28572  0.10590  1.57917
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -11754,6 +11863,9 @@ newanim cgustandb c_ogre35
        1.000 -0.86618  0.28352  0.41151  0.61708
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 11
@@ -11765,7 +11877,7 @@ newanim cgustandb c_ogre35
        0.333 -0.81029 -0.56350 -0.16093  0.80612
        0.433 -0.78118 -0.61133 -0.12662  1.25896
        0.500  0.30133 -0.95258  0.04232  1.39550
-       0.600  0.05112 -0.99447  0.09169  0.87573
+       0.600  0.05112 -0.99448  0.09169  0.87573
        0.767 -0.02773 -0.72271 -0.69059  0.63222
        1.000 -0.80563 -0.42039  0.41741  0.55661
     endlist
@@ -11966,7 +12078,7 @@ newanim ckdbck c_ogre35
        0.733  0.98418 -0.15183  0.09126  1.39181
        0.833  0.98764 -0.15360  0.03108  0.75158
        0.900  0.96647  0.02437 -0.25561  0.25722
-       0.933 -0.15130  0.45579  0.87713  0.15204
+       0.933 -0.15130  0.45580  0.87714  0.15204
        1.000 -0.53247  0.33584  0.77697  0.29911
     endlist
   endnode
@@ -11978,7 +12090,7 @@ newanim ckdbck c_ogre35
        0.300 -0.85726 -0.38647 -0.34022  0.31665
        0.367 -0.82609 -0.39881 -0.39816  0.26604
        0.633 -0.98727 -0.05770  0.14825  0.14124
-       0.733 -0.91678 -0.08359 -0.39054  0.21471
+       0.733 -0.91679 -0.08359 -0.39054  0.21471
        0.833 -0.96724 -0.14779 -0.20641  0.52525
        0.900 -0.97397 -0.16716 -0.15311  0.90540
        0.933 -0.72022 -0.22663 -0.65568  0.60325
@@ -12068,12 +12180,15 @@ newanim ckdbck c_ogre35
        1.000  0.95244 -0.28572  0.10590  1.57917
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 8
        0.000 -0.06308 -0.96401  0.25829  0.29760
        0.133 -0.45720 -0.85251  0.25338  0.43735
-       0.367 -0.20292 -0.85044  0.48535  0.41530
+       0.367 -0.20292 -0.85045  0.48535  0.41530
        0.500 -0.47436 -0.80453  0.35736  0.61357
        0.567 -0.43297 -0.81955  0.37532  0.59513
        0.733 -0.23179 -0.86432  0.44635  0.53604
@@ -12187,7 +12302,7 @@ newanim ckdbck c_ogre35
     orientationkey 4
        0.000 -0.83603 -0.52896  0.14587  0.07123
        0.067 -0.98396 -0.16804 -0.05988  0.46605
-       0.367  0.63572 -0.00027  0.77193  0.11515
+       0.367  0.63573 -0.00027  0.77195  0.11515
        1.000  0.00000  1.00000  0.00000  0.00000
     endlist
   endnode
@@ -12299,7 +12414,7 @@ newanim ckdbckdie c_ogre35
   node trimesh ogre_rfoot
     parent ogre_rcalf
     orientationkey 7
-       0.000  0.18507  0.40819  0.89394  0.28655
+       0.000  0.18507  0.40819  0.89395  0.28655
        0.267 -0.31085 -0.94333 -0.11623  0.81401
        0.500 -0.50651 -0.84871  0.15211  0.57839
        0.600  0.30366 -0.46991  0.82884  0.22047
@@ -12324,6 +12439,9 @@ newanim ckdbckdie c_ogre35
        0.867  0.95132 -0.28390  0.12000  1.46194
        1.000  0.94936 -0.29811  0.09922  1.54052
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -12566,6 +12684,9 @@ newanim ckdbckdmg c_ogre35
        0.267  0.95244 -0.28572  0.10590  1.57917
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 4
@@ -12760,7 +12881,7 @@ newanim ckdbckps c_ogre35
   node trimesh ogre_rfoot
     parent ogre_rcalf
     orientationkey 5
-       0.000  0.18507  0.40819  0.89394  0.28655
+       0.000  0.18507  0.40819  0.89395  0.28655
        0.067  0.19875  0.40797  0.89110  0.28857
        0.567  0.40552  0.39437  0.82464  0.33321
        0.733  0.37145  0.39803  0.83881  0.32357
@@ -12779,6 +12900,9 @@ newanim ckdbckps c_ogre35
        0.733  0.94779 -0.30412  0.09597  1.52233
        1.000  0.95244 -0.28572  0.10590  1.57917
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -12876,9 +13000,9 @@ newanim ckdbckps c_ogre35
     parent ogre_head
     orientationkey 5
        0.000  0.00000  1.00000  0.00000  0.00000
-       0.067 -0.44703  0.16660 -0.87938  0.02870
+       0.067 -0.44701  0.16659 -0.87934  0.02869
        0.567 -0.99139  0.03597 -0.12595  0.19639
-       0.733 -0.98730  0.04095 -0.15350  0.16186
+       0.733 -0.98731  0.04095 -0.15350  0.16186
        1.000  0.00000  1.00000  0.00000  0.00000
     endlist
   endnode
@@ -13048,6 +13172,9 @@ newanim cparryl c_ogre35
        1.000 -0.81831  0.28992  0.49630  0.64732
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 8
@@ -13132,7 +13259,7 @@ newanim cparryl c_ogre35
     parent ogre_torso
     orientationkey 7
        0.000 -0.91237  0.19237 -0.36134  0.42078
-       0.167 -0.91237  0.19237 -0.36134  0.42079
+       0.167 -0.91238  0.19237 -0.36134  0.42079
        0.400 -0.83021 -0.54271 -0.12737  0.33971
        0.467 -0.94049 -0.29622 -0.16652  0.43308
        0.667 -0.61260 -0.10534 -0.78334  0.48877
@@ -13209,7 +13336,7 @@ newanim cparryr c_ogre35
     orientationkey 6
        0.000  0.73009  0.07674  0.67903  0.30714
        0.167  0.73009  0.07674  0.67903  0.30714
-       0.400  0.66482  0.05524  0.74497  0.33827
+       0.400  0.66481  0.05524  0.74496  0.33827
        0.467  0.81441  0.10722  0.57030  0.27427
        0.600  0.89625  0.14195  0.42023  0.24814
        1.000  0.73009  0.07674  0.67903  0.30714
@@ -13327,6 +13454,9 @@ newanim cparryr c_ogre35
        0.833 -0.83384 -0.01999 -0.55165  0.47474
        1.000 -0.81831  0.28992  0.49630  0.64732
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -13533,7 +13663,7 @@ newanim cpause1 c_ogre35
   node trimesh ogre_lfoot
     parent ogre_lcalf
     orientationkey 9
-       0.000  0.98893 -0.13726 -0.05629  0.74803
+       0.000  0.98894 -0.13726 -0.05629  0.74803
        0.167  0.98864 -0.14037 -0.05376  0.75643
        0.500  0.98936 -0.14148 -0.03378  0.74950
        0.667  0.98994 -0.13914 -0.02558  0.73772
@@ -13599,15 +13729,18 @@ newanim cpause1 c_ogre35
        2.000 -0.93941  0.16015  0.30310  0.60092
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 14
        0.000 -0.99876  0.02493 -0.04314  0.57754
-       0.067 -0.99874  0.02509 -0.04336  0.57439
+       0.067 -0.99875  0.02509 -0.04336  0.57439
        0.333 -0.99874  0.02761 -0.04186  0.57612
        0.500 -0.99877  0.03093 -0.03867  0.59234
        0.600 -0.99880  0.03282 -0.03649  0.60663
-       0.667 -0.99880  0.03403 -0.03508  0.61615
+       0.667 -0.99881  0.03403 -0.03508  0.61615
        0.833 -0.99881  0.03385 -0.03499  0.61892
        1.000 -0.99882  0.03291 -0.03573  0.61567
        1.333 -0.99883  0.03136 -0.03687  0.61164
@@ -13953,7 +14086,7 @@ newanim creach c_ogre35
        0.000 -0.81831  0.28992  0.49630  0.64733
        0.167 -0.96258  0.10762  0.24870  0.94473
        0.233 -0.95209  0.10709  0.28644  0.71846
-       0.333  0.93431 -0.09520  0.34353  0.23115
+       0.333  0.93430 -0.09520  0.34353  0.23115
        0.400  0.47060  0.08613  0.87813  0.36525
        0.467 -0.28938  0.23263  0.92852  0.46663
        0.500 -0.73871  0.25427  0.62422  1.02389
@@ -13961,6 +14094,9 @@ newanim creach c_ogre35
        0.833 -0.95782  0.12612  0.25822  1.09793
        1.000 -0.81831  0.28992  0.49630  0.64732
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -14275,6 +14411,9 @@ newanim creadyl c_ogre35
        1.000 -0.81831  0.28992  0.49630  0.64732
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 3
@@ -14373,7 +14512,7 @@ newanim creadyl c_ogre35
     parent ogre_head
     orientationkey 4
        0.000  0.00000  1.00000  0.00000  0.00000
-       0.233 -0.99990 -0.00867  0.01178  0.08725
+       0.233 -0.99996 -0.00867  0.01178  0.08724
        0.600  0.99935  0.03631  0.00937  0.05467
        1.000  0.00000  1.00000  0.00000  0.00000
     endlist
@@ -14426,9 +14565,9 @@ newanim creadyr c_ogre35
   node dummy ogre_pelvis
     parent rootdummy
     orientationkey 3
-       0.000 -0.92801  0.21250 -0.30600  0.28502
+       0.000 -0.92802  0.21250 -0.30600  0.28502
        0.667 -0.95264 -0.03089 -0.30254  0.26590
-       1.000 -0.92801  0.21250 -0.30600  0.28502
+       1.000 -0.92802  0.21250 -0.30600  0.28502
     endlist
   endnode
   node trimesh ogre_lthigh
@@ -14515,6 +14654,9 @@ newanim creadyr c_ogre35
        0.833 -0.79790 -0.41729 -0.43501  0.60294
        1.000 -0.74894 -0.41116 -0.51966  0.56799
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -14692,7 +14834,7 @@ newanim crun c_ogre35
        0.500  0.01338  0.96763  0.25200  0.85827
        0.567  0.38480  0.90901  0.16007  0.78650
        0.633  0.72915  0.68238  0.05185  0.83294
-       0.733  0.97867  0.20434  0.02099  0.96137
+       0.733  0.97868  0.20434  0.02099  0.96137
        0.767  0.98623  0.15781  0.04956  1.06503
        0.867  0.98019  0.01723  0.19732  1.07476
        1.000  0.90446 -0.15834  0.39609  0.93441
@@ -14780,7 +14922,7 @@ newanim crun c_ogre35
        0.267  0.97129 -0.12304 -0.20362  1.01277
        0.300  0.96333 -0.14096 -0.22833  0.88428
        0.500  0.95444 -0.24398 -0.17184  0.38589
-       0.567  0.72877 -0.48236 -0.48602  0.16059
+       0.567  0.72878 -0.48237 -0.48603  0.16059
        0.633  0.98461 -0.17437  0.01174  0.52334
        0.733  0.99022 -0.04427  0.13229  1.00424
        0.767  0.98940 -0.02022  0.14378  1.15602
@@ -14803,6 +14945,9 @@ newanim crun c_ogre35
        0.833 -0.87249 -0.29939 -0.38617  1.26925
        1.000 -0.88953 -0.31589 -0.33006  1.15581
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -14832,7 +14977,7 @@ newanim crun c_ogre35
     parent ogre_rforearm
     orientationkey 7
        0.000 -0.50355  0.75822 -0.41417  0.30516
-       0.167 -0.05019  0.97285 -0.22592  0.26663
+       0.167 -0.05019  0.97286 -0.22592  0.26663
        0.333  0.51565  0.83346 -0.19861  0.34432
        0.500  0.65732  0.70405 -0.26877  0.44025
        0.667  0.47184  0.65392 -0.59140  0.29163
@@ -15090,6 +15235,9 @@ newanim cspasm c_ogre35
        0.500 -0.84915  0.20726 -0.48579  0.28317
     endlist
   endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
   node trimesh ogre_rbicep
     parent ogre_torso
     orientationkey 9
@@ -15177,7 +15325,7 @@ newanim cspasm c_ogre35
        0.000  0.78044 -0.11572 -0.61443  0.40807
        0.100  0.95730  0.24691 -0.15035  0.74563
        0.167  0.78044 -0.11573 -0.61443  0.40806
-       0.200  0.05771 -0.03338 -0.99777  0.25448
+       0.200  0.05771 -0.03338 -0.99778  0.25448
        0.300  0.84466 -0.38313 -0.37385  0.90346
        0.367  0.78044 -0.11572 -0.61443  0.40807
        0.433  0.89872 -0.12577 -0.42011  0.58613
@@ -15306,7 +15454,7 @@ newanim ctaunt c_ogre35
        0.500  0.91090  0.01815  0.41223  0.22730
        0.667  0.87649  0.06498  0.47702  0.20896
        0.867  0.97119 -0.10758  0.21262  0.41619
-       1.067  0.92870 -0.16157  0.33378  0.19439
+       1.067  0.92871 -0.16157  0.33378  0.19439
        1.267  0.98674 -0.11136  0.11812  0.41075
        1.467  0.97141 -0.22564  0.07380  0.19866
        1.667  0.97104 -0.22605 -0.07734  0.18762
@@ -15386,6 +15534,9 @@ newanim ctaunt c_ogre35
        1.667 -0.81206  0.08627  0.57717  0.36350
        2.167 -0.86619  0.28352  0.41151  0.61709
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -15523,10 +15674,10 @@ newanim ctaunt c_ogre35
        1.000 -0.98275  0.02959 -0.18254  0.72349
        1.100 -0.99116 -0.00413 -0.13263  0.23718
        1.300 -0.98139  0.02431 -0.19046  0.45231
-       1.400 -0.98623  0.01386 -0.16477  0.81250
+       1.400 -0.98624  0.01386 -0.16477  0.81250
        1.500 -0.99621 -0.07903 -0.03631  0.37647
-       1.667  0.10778 -0.66959  0.73480  0.02842
-       2.167  0.10791 -0.66956  0.73481  0.02842
+       1.667  0.10784 -0.66999  0.73523  0.02840
+       2.167  0.10797 -0.66996  0.73524  0.02840
     endlist
   endnode
   node dummy impact
@@ -15676,6 +15827,9 @@ newanim cturnr c_ogre35
        0.400 -0.92846 -0.25413 -0.27089  0.48165
        0.500 -0.93129 -0.24784 -0.26696  0.49131
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -15846,7 +16000,7 @@ newanim cwalk c_ogre35
        0.333  0.73963  0.67007  0.06284  1.11437
        0.467  0.72276  0.66960  0.17103  0.76162
        0.667  0.34720  0.56023  0.75206  0.32003
-       0.833 -0.60566 -0.05738  0.79365  0.29203
+       0.833 -0.60566 -0.05738  0.79366  0.29203
        0.933 -0.84237 -0.28420  0.45786  0.46773
        1.000 -0.81742 -0.37167  0.44009  0.50222
        1.167  0.61645  0.10475  0.78040  0.25878
@@ -15951,7 +16105,7 @@ newanim cwalk c_ogre35
        0.400  0.78722  0.61660 -0.00933  1.07484
        0.667  0.47972  0.86780 -0.12961  0.55973
        1.000 -0.28760  0.44768 -0.84668  0.51714
-       1.167 -0.52990  0.58160 -0.61721  0.18596
+       1.167 -0.52991  0.58161 -0.61722  0.18596
        1.333  0.93814  0.34393  0.04005  0.54306
        1.433  0.94784  0.31870  0.00625  0.73620
        1.500  0.95130  0.30782 -0.01633  0.84412
@@ -15975,6 +16129,9 @@ newanim cwalk c_ogre35
        1.600 -0.99455  0.06315  0.08302  0.72539
        2.000 -0.93940  0.16016  0.30310  0.60092
     endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
   endnode
   node trimesh ogre_rbicep
     parent ogre_torso
@@ -16034,7 +16191,7 @@ newanim cwalk c_ogre35
        0.333 -0.46896 -0.04208  0.88222  0.45589
        0.433 -0.19131  0.20236  0.96044  0.35870
        0.600  0.20830  0.56259  0.80007  0.31758
-       0.667  0.08026  0.67252  0.73571  0.27945
+       0.667  0.08026  0.67253  0.73572  0.27945
        0.833 -0.81453  0.32500  0.48055  0.31102
        1.000 -0.99358  0.05792  0.09719  0.57136
        1.167 -0.99118 -0.11407  0.06742  0.81997
@@ -16092,7 +16249,7 @@ newanim cwalk c_ogre35
        0.000  0.79671 -0.60430  0.00923  0.17311
        0.833  0.87546  0.48323 -0.00728  0.16275
        1.000  0.79669  0.60431 -0.00958  0.17311
-       1.833  0.88002 -0.47486  0.00794  0.16218
+       1.833  0.88004 -0.47487  0.00794  0.16218
        2.000  0.79670 -0.60430  0.00923  0.17311
     endlist
   endnode
@@ -16111,7 +16268,7 @@ newanim cwalk c_ogre35
        0.667  0.98173  0.00363  0.19026  0.37038
        0.833  0.93187 -0.00723  0.36273  0.37324
        1.000  0.68568 -0.05493  0.72583  0.27967
-       1.267 -0.77141 -0.09374  0.62939  0.17548
+       1.267 -0.77142 -0.09374  0.62940  0.17548
        1.333 -0.92300 -0.07236  0.37794  0.23502
        1.667  0.98311 -0.01744 -0.18220  0.38008
        1.833  0.94169 -0.00506 -0.33645  0.40272
@@ -16128,7 +16285,7 @@ newanim cwalk c_ogre35
   node dummy impact
     parent ogre_torso
     orientationkey 2
-       0.000 -0.99992  0.01174  0.00489  0.18326
+       0.000 -0.99993  0.01174  0.00489  0.18326
        2.000 -0.99992 -0.01201 -0.00503  0.17913
     endlist
   endnode

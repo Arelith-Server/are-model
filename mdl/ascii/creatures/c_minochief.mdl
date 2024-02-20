@@ -1,4 +1,4 @@
-# NeverBlender 2.8.47|Blender 2.93.0|2023-09-01
+# NeverBlender 4.0.2|Blender 4.0.0|2024-02-14
 filedependancy unknown
 newmodel c_minochief
 setsupermodel c_minochief c_minotaur
@@ -28,12 +28,14 @@ node trimesh pelvis_g
   position  0.00000 -0.00990  0.12417
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -154,12 +156,14 @@ node trimesh torso_g
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -375,17 +379,24 @@ node trimesh torso_g
     45 44 33 1  62 54 42 0
     40 44 39 1  64 54 63 0
 endnode
+node dummy wings
+  parent torso_g
+  position -0.00695 -0.09124  0.46222
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
 node trimesh lbicep_g
   parent torso_g
   position -0.38122  0.12301  0.54292
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -608,12 +619,14 @@ node trimesh lforearm_g
   position -0.59105 -0.05031  0.02210
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -768,12 +781,14 @@ node trimesh lhand_g
   position -0.37594  0.01613 -0.01504
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -842,12 +857,14 @@ node trimesh lthumb_g
   position -0.18983  0.15400 -0.11058
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -888,12 +905,14 @@ node trimesh lpinky_g
   position -0.23573 -0.12406 -0.00559
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -938,12 +957,14 @@ node trimesh lfinger_g
   position -0.27161  0.02891 -0.01431
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -998,12 +1019,14 @@ node trimesh head_g
   position  0.00000  0.40956  0.77353
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -1268,12 +1291,14 @@ node trimesh jaw_g
   position  0.00000  0.06543 -0.07488
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -1378,12 +1403,14 @@ node trimesh rbicep_g
   position  0.38122  0.12301  0.54292
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -1476,12 +1503,14 @@ node trimesh rforearm_g
   position  0.57433 -0.05119  0.02210
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -1636,12 +1665,14 @@ node trimesh rhand_g
   position  0.37594  0.01613 -0.01504
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -1710,12 +1741,14 @@ node trimesh rthumb_g
   position  0.18983  0.15400 -0.11058
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -1756,12 +1789,14 @@ node trimesh rfinger_g
   position  0.27161  0.02891 -0.01431
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -1806,12 +1841,14 @@ node trimesh rpinky_g
   position  0.23573 -0.12406 -0.00559
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -1854,7 +1891,7 @@ endnode
 node dummy rhand
   parent rhand_g
   position  0.20916  0.02891 -0.15561
-  orientation -0.18921 -0.96354 -0.18921  1.60793
+  orientation -0.19424 -0.96153 -0.19424  1.61001
 endnode
 node dummy impact
   parent torso_g
@@ -1866,12 +1903,14 @@ node trimesh lthigh_g
   position -0.16065 -0.02453 -0.23291
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -1940,12 +1979,14 @@ node trimesh lcalf_g
   position -0.02008 -0.04236 -0.68998
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -2018,12 +2059,14 @@ node trimesh lfoot_g
   position  0.00595 -0.01979 -0.57582
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -2100,12 +2143,14 @@ node trimesh lfoot2_g
   position  0.03603 -0.00064 -0.37779
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -2183,12 +2228,14 @@ node trimesh tail1
   position  0.00000 -0.19626 -0.08334
   orientation -0.99500  0.09646 -0.02605  1.26949
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -2232,12 +2279,14 @@ node trimesh tail2
   position  0.00000 -0.03119 -0.11640
   orientation  0.99813 -0.06105  0.00000  1.30900
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -2280,12 +2329,14 @@ node trimesh tail3
   position  0.00000 -0.15666  0.00412
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -2328,12 +2379,14 @@ node trimesh tail4
   position  0.00392 -0.15505  0.00791
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -2376,12 +2429,14 @@ node trimesh tail5
   position  0.00282 -0.15758  0.00429
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -2424,12 +2479,14 @@ node trimesh tailtip
   position  0.00144 -0.17593 -0.00147
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -2496,12 +2553,14 @@ node trimesh rthigh_g
   position  0.14392 -0.02453 -0.23291
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -2570,12 +2629,14 @@ node trimesh rcalf_g
   position  0.02008 -0.04236 -0.68998
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -2648,12 +2709,14 @@ node trimesh rfoot_g
   position -0.00595 -0.01979 -0.57582
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
@@ -2730,12 +2793,14 @@ node trimesh rfoot2_g
   position -0.03603 -0.00064 -0.37779
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
+  bitmap c_minochief
+  texture1 null
+  texture2 null
+  shininess 26
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap c_minochief
-  shininess 26
   render 1
   shadow 1
   tilefade 0
