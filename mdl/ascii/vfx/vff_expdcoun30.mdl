@@ -1,0 +1,273 @@
+#MAXMODEL ASCII
+# model: vff_expdcoun30
+filedependancy vff_expdcoun30.max
+newmodel vff_expdcoun30
+setsupermodel vff_expdcoun30 NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vff_expdcoun30
+node dummy vff_expdcoun30
+  parent NULL
+endnode
+node emitter groundsyb
+  parent vff_expdcoun30
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture sf_evoccirc
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.0438979
+  orientation 0 0 0 0
+  colorStart 0.914 0.333 0.188
+  colorEnd 0.914 0.333 0.188
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 3
+  frameEnd 3
+  birthrate 1
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node dummy Dummy01
+  parent vff_expdcoun30
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node emitter OmenEmitter01
+  parent Dummy01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Motion_Blur
+  blend Normal
+  texture fxsf_bflare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 2.97774 0 -0.0577082
+  orientation 0 0 0 0
+  colorStart 0.914 0.333 0.188
+  colorEnd 0.914 0.333 0.188
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.2
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 200
+  lifeExp 0.7
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 20
+  randvel 20
+  fps 0
+  xsize 1000
+  ysize 1000
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter WIND_Dummy
+  parent vff_expdcoun30
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Lighten
+  texture NULL
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 16
+  blastLength 1
+  position -0.00249214 0.000424422 0.390378
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vff_expdcoun30
+
+#MAXANIM ASCII
+newanim impact vff_expdcoun30
+  length 1.63333
+  transtime 0.25
+  animroot vff_expdcoun30
+  event 0 detonate
+  node dummy vff_expdcoun30
+    parent NULL
+  endnode
+  node emitter groundsyb
+    parent vff_expdcoun30
+    alphaStartkey 3
+         0.0000000    1.0000000
+         0.0666667    1.0000000
+         0.5000000    0.0000000
+    alphaEndkey 3
+         0.0000000    1.0000000
+         0.0666667    1.0000000
+         0.5000000    0.0000000
+    sizeStartkey 2
+         0.0000000    0.0000000
+         0.2000000   21.0000000
+    sizeEndkey 2
+         0.0000000    0.0000000
+         0.2000000   21.0000000
+  endnode
+  node dummy Dummy01
+    parent vff_expdcoun30
+    orientationkey 25
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.0666667   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         0.1333330   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         0.2000000   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         0.2666670    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3333330   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         0.4000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         0.4666670   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         0.5333330    0.0000000    0.0000000    0.0000000    0.0000000
+         0.6000000   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         0.6666670   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         0.7333330   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         0.8000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.8666670   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         0.9333330   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         1.0000000   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         1.0666699    0.0000000    0.0000000    0.0000000    0.0000000
+         1.1333300   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         1.2000000   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         1.2666700   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         1.3333300    0.0000000    0.0000000    0.0000000    0.0000000
+         1.4000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         1.4666700   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         1.5333300   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         1.6000000    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node emitter OmenEmitter01
+    parent Dummy01
+    alphaStartkey 2
+         0.4666670    1.0000000
+         1.5666699    0.0000000
+    alphaEndkey 2
+         0.4666670    1.0000000
+         1.5666699    0.0000000
+    birthratekey 3
+         0.4666670  200.0000000
+         0.6666670  -20.0000000
+         1.5666699 -150.0000000
+  endnode
+  node emitter WIND_Dummy
+    parent vff_expdcoun30
+  endnode
+doneanim impact vff_expdcoun30
+
+donemodel vff_expdcoun30
