@@ -1,4 +1,4 @@
-# NeverBlender 2.8.48|Blender 3.3.9|2024-02-14
+# NeverBlender 2.8.48|Blender 3.3.9|2024-02-28
 filedependancy unknown
 newmodel c_kenku_mma
 setsupermodel c_kenku_mma a_da
@@ -852,7 +852,7 @@ node trimesh torso_g
 endnode
 node dummy wings
   parent torso_g
-  position  0.00258 -0.17248  0.25605
+  position  0.00258 -0.16248  0.25605
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh neck_g
@@ -1333,7 +1333,7 @@ endnode
 node dummy lforearm
   parent lforearm_g
   position -0.02821  0.00000 -0.17480
-  orientation -0.00000  1.00001  0.00005  0.06981
+  orientation  0.00000  1.00001  0.00005  0.06981
 endnode
 node trimesh rbicep_g
   parent torso_g
