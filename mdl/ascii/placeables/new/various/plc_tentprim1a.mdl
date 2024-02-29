@@ -1,4 +1,4 @@
-# Exported from NeverBlender 2.8.31
+# NeverBlender 4.0.2|Blender 4.0.0|2024-02-29
 filedependancy unknown
 newmodel plc_tentprim1a
 setsupermodel plc_tentprim1a null
@@ -13,14 +13,17 @@ node trimesh tent_base
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 0
+  tilefade 0
   verts 399
      0.00000  11.89040  1.20123
      0.00000  11.87000  1.19257
@@ -1460,132 +1463,22 @@ node trimesh tent_base
     397 396 398 1  303 302 301 0
     398 386 397 1  301 244 303 0
 endnode
-node trimesh tent_carpet
-  parent plc_tentprim1a
-  position  0.00000  0.00000  0.03000
-  orientation  0.00000  1.00000  0.00000  0.00000
-  wirecolor 0.80 0.80 0.80
-  ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
-  specular 0.00 0.00 0.00
-  selfillumcolor 0.00 0.00 0.00
-  bitmap plc_fabric
-  shininess 1
-  render 1
-  shadow 0
-  verts 32
-    -4.13938  9.25911 -0.00003
-    -3.28899  9.81975 -0.00003
-    -2.65305  9.93516 -0.00003
-    -1.89918  11.66560 -0.00003
-    -4.30857  4.87934 -0.00003
-    -4.81512  6.18101 -0.00003
-    -4.80159  6.93905 -0.00003
-    -4.53656  8.34270 -0.00003
-    -4.28424  9.10942 -0.00003
-    -1.58014  3.62910 -0.00003
-    -2.47525  3.90368 -0.00003
-    -3.55344  3.66222 -0.00003
-    -3.98999  3.80515 -0.00003
-    -1.42956  12.31590 -0.00006
-     0.00000  12.70370 -0.00005
-     4.30857  4.87934 -0.00003
-     4.53656  8.34270 -0.00003
-     4.80159  6.93905 -0.00003
-     4.81512  6.18101 -0.00003
-     4.28424  9.10942 -0.00003
-     4.13938  9.25911 -0.00003
-     1.89918  11.66560 -0.00003
-     2.65305  9.93516 -0.00003
-     3.28899  9.81975 -0.00003
-     1.42956  12.31590 -0.00006
-     3.98999  3.80515  0.04112
-     3.55344  3.66222 -0.00003
-     2.47525  3.90368 -0.00003
-     1.58014  3.62910 -0.00003
-     0.00000  6.93903 -0.00004
-     0.00000  9.93517 -0.00004
-     0.00000  3.62910 -0.00003
-  tverts 32
-     1.2357  0.5000  0
-    -0.6306 -1.1526  0
-     0.3613 -2.3259  0
-    -0.6306  0.5000  0
-    -1.7086  1.6830  0
-    -2.1136  1.3905  0
-    -0.5587 -1.5488  0
-    -0.2095 -2.0785  0
-    -2.1136 -0.3905  0
-    -1.7086 -0.6830  0
-    -0.6306  2.1526  0
-     0.3613  3.3259  0
-     2.5187 -2.1839  0
-     3.1265 -1.0419  0
-     3.1265  2.0419  0
-     2.5187  3.1839  0
-    -0.1163 -2.1687  0
-     1.2357 -2.4910  0
-    -2.3552  0.5000  0
-    -0.5587  2.5488  0
-     1.2357  3.4910  0
-    -0.1163  3.1687  0
-    -0.2095  3.0785  0
-     3.2975  0.5000  0
-     3.2975 -0.4843  0
-     1.7079 -2.4994  0
-     3.1879 -1.9854  0
-     3.2769 -1.7135  0
-     1.7079  3.4994  0
-     3.2975  1.4843  0
-     3.2769  2.7135  0
-     3.1888  2.9869  0
-  faces 32
-    29  2  7 1   0  1  2 0
-    30 21 24 1   3  4  5 0
-     1  0  7 1   6  7  2 0
-    30 13  3 1   3  8  9 0
-    22 29 16 1  10  0 11 0
-    29  4 10 1   0 12 13 0
-    29 27 15 1   0 14 15 0
-     0  8  7 1   7 16  2 0
-     7  6 29 1   2 17  0 0
-     1  7  2 1   6  2  1 0
-    29 30  2 1   0  3  1 0
-    24 14 30 1   5 18  3 0
-    30 22 21 1   3 10  4 0
-     3  2 30 1   9  1  3 0
-    30 14 13 1   3 18  8 0
-    23 22 16 1  19 10 11 0
-    22 30 29 1  10  3  0 0
-    29 17 16 1   0 20 11 0
-    16 19 20 1  11 21 22 0
-    23 16 20 1  19 11 22 0
-    31 29  9 1  23  0 24 0
-    29  6  5 1   0 17 25 0
-     4 29  5 1  12  0 25 0
-     4 12 11 1  12 26 27 0
-    10  9 29 1  13 24  0 0
-     4 11 10 1  12 27 13 0
-    18 17 29 1  28 20  0 0
-    29 31 28 1   0 23 29 0
-    27 26 15 1  14 30 15 0
-    26 25 15 1  30 31 15 0
-    29 28 27 1   0 29 14 0
-    15 18 29 1  15 28  0 0
-endnode
 node trimesh tent_entry
   parent plc_tentprim1a
   position  0.00000  0.00000  0.00000
-  orientation  0.00000  0.00000 -1.00000  1.57080
+  orientation -0.00000 -0.00000 -1.00000  1.57080
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 0
+  tilefade 0
   verts 22
     -0.38687  1.12156 -0.00003
     -0.23524  0.07017  2.98105
@@ -1645,14 +1538,17 @@ node trimesh tent_horn01
   position -5.92449  6.23739  1.27553
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 37
      0.13237  0.15046 -0.43850
     -0.03686  0.15683 -0.46738
@@ -1808,14 +1704,17 @@ node trimesh tent_horn02
   position  5.79956  6.44981  1.15787
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 21
      0.10035  0.03003  0.57129
     -0.19537 -0.22663 -0.37151
@@ -1906,14 +1805,17 @@ node trimesh tent_horn03
   position  1.65293  12.64470  0.87640
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 31
      0.02579 -0.07712  0.19652
     -0.05994 -0.10292 -0.08151
@@ -2044,14 +1946,17 @@ node trimesh tent_horn04
   position -1.63190  12.45840  1.09717
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 21
      0.00201  0.11460 -0.01179
     -0.05904 -0.00260 -0.03345
@@ -2142,14 +2047,17 @@ node trimesh tent_horn05
   position  3.95913  3.57510  0.59995
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 25
     -0.00047 -0.10838  0.45503
      0.04450 -0.02819  0.46395
@@ -2255,14 +2163,17 @@ node trimesh tent_horn06
   position -4.02461  3.60413  0.51170
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 25
      0.00749 -0.08932  0.03958
      0.06108 -0.02554  0.06912
@@ -2368,14 +2279,17 @@ node trimesh tent_horn07
   position  2.53410  9.99780  1.18956
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 21
     -0.30055 -0.17367 -0.42670
     -0.16481 -0.30687 -0.43653
@@ -2466,14 +2380,17 @@ node trimesh tent_horn08
   position -2.50865  9.88907  1.49878
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 16
      0.00298  0.07432 -0.39407
     -0.04630 -0.02031 -0.41156
@@ -2543,14 +2460,17 @@ node trimesh tent_horn09
   position  4.32364  9.27197  0.63366
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 11
      0.00074  0.07571 -0.63368
     -0.07942  0.05690  0.33340
@@ -2599,14 +2519,17 @@ node trimesh tent_horn10
   position -4.45538  9.19599  0.67111
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 13
     -0.09336  0.00842  0.35341
     -0.06190  0.06934  0.35833
@@ -2662,14 +2585,17 @@ node trimesh tent_horn11
   position -1.82962  3.53704  0.60254
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 25
     -0.03933  0.08494  0.13289
      0.00817  0.09608 -0.17216
@@ -2775,14 +2701,17 @@ node trimesh tent_horn12
   position  1.77328  3.37700  0.46751
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 16
     -0.13035 -0.04192 -0.46756
     -0.00130 -0.05321 -0.46756
@@ -2852,14 +2781,17 @@ node trimesh tent_horn13
   position -3.11930  6.78514  7.62121
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 35
     -0.53299  0.23789  0.69473
     -0.43175  0.04850  0.20642
@@ -3009,14 +2941,17 @@ node trimesh tent_horn14
   position  3.12071  6.72767  7.62295
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 30
      0.39889  0.28776  1.26507
      0.17860  0.51451  1.88743
@@ -3145,14 +3080,17 @@ node trimesh tent_horn15
   position -0.00071  7.05190  9.12969
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 29
     -0.09507 -0.17754 -0.78333
     -0.13544 -0.35297 -1.29594
@@ -3277,14 +3215,17 @@ node trimesh tent_horn16
   position -0.06610  6.97800  9.26301
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 24
     -0.43777  0.40299  1.52259
     -0.35118  0.51802  1.47409
@@ -3388,14 +3329,17 @@ node trimesh tent_horns_entry
   position  0.09000  0.22000  2.97000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 1
+  tilefade 0
   verts 114
      0.00158  0.08552  0.32066
     -0.01423  0.12434  0.21074
@@ -3878,14 +3822,17 @@ node trimesh tent_pole01
   position -1.40000  10.02000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 0
+  tilefade 0
   verts 24
      0.02159 -0.00605  1.86017
      0.03466 -0.10563  1.85601
@@ -3983,14 +3930,17 @@ node trimesh tent_pole02
   position  0.00000  10.70000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 0
+  tilefade 0
   verts 24
      0.02159 -0.00605  1.86017
      0.03466 -0.10563  1.85601
@@ -4088,14 +4038,17 @@ node trimesh tent_pole03
   position  1.50000  10.02000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 0
+  tilefade 0
   verts 24
      0.02159 -0.00605  1.86017
      0.03466 -0.10563  1.85601
@@ -4193,14 +4146,17 @@ node trimesh tent_pole04
   position  1.80000  4.40000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 0
+  tilefade 0
   verts 24
      0.02159  0.07681  1.50723
      0.03466 -0.02278  1.50307
@@ -4298,14 +4254,17 @@ node trimesh tent_pole05
   position -1.90000  4.40000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 0
+  tilefade 0
   verts 24
      0.02159  0.07681  1.50723
      0.03466 -0.02278  1.50307
@@ -4403,14 +4362,17 @@ node trimesh tent_horns_noshd
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1a
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1a
-  shininess 1
   render 1
   shadow 0
+  tilefade 0
   verts 921
      0.06163  3.73232  3.95293
      0.15764  3.66678  3.90428
@@ -7449,13 +7411,15 @@ node trimesh tent_shadow1
   position  0.00000  6.50000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap null
-  shininess 1
+  selfillumcolor 0.00 0.00 0.00
   render 0
   shadow 1
+  tilefade 0
   verts 207
      0.00000  5.39040 -1.79877
      0.09711  5.34430 -1.79511
@@ -8046,13 +8010,15 @@ node trimesh tent_shadow2
   position  0.00000  6.50000  6.40000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
-  bitmap null
-  shininess 1
+  selfillumcolor 0.00 0.00 0.00
   render 0
   shadow 1
+  tilefade 0
   verts 45
     -2.55276  0.03619 -0.27943
     -2.34168  0.03518  0.24226
@@ -8192,14 +8158,17 @@ node trimesh tent_top
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1b
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1b
-  shininess 1
   render 1
   shadow 0
+  tilefade 0
   verts 44
     -2.55276  6.53619  6.12057
     -2.34168  6.53518  6.64226
@@ -8367,14 +8336,17 @@ node trimesh tent_deco
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
+  bitmap plc_tentprim1b
+  texture1 null
+  texture2 null
+  shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap plc_tentprim1b
-  shininess 1
   render 1
   shadow 0
+  tilefade 0
   verts 152
     -1.79029  5.48213  4.53982
     -1.79029  5.48213  3.69747
