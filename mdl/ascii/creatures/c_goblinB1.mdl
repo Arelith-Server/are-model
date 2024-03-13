@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: c_goblinB
-filedependancy c_goblinB.max
-newmodel c_goblinB
-setsupermodel c_goblinB c_goblina
+# model: c_goblinb1
+filedependancy c_goblinb1.max
+newmodel c_goblinb1
+setsupermodel c_goblinb1 c_goblina
 classification CHARACTER
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom c_goblinB
-node dummy c_goblinB
+beginmodelgeom c_goblinb1
+node dummy c_goblinb1
   parent NULL
 endnode
 node dummy rootdummy
-  parent c_goblinB
+  parent c_goblinb1
   position 0 0.01208 0.7026
   orientation 0 0 0 0
 endnode
@@ -455,62 +455,62 @@ node trimesh head_g
        0.0500000    0.0100000    0.0300000
        0.1200000   -0.0800000    0.1600000
   faces 56
-     0  1  2  1          0         0         0   0
-     3  4  5  1          0         0         0   0
-     4  3  6  1          0         0         0   0
-     7  8  9  1          0         0         0   0
-     9 10  7  1          0         0         0   0
-     5 11 12  1          0         0         0   0
-    11  5  4  1          0         0         0   0
-     0 11  1  1          0         0         0   0
-     8 12  9  1          0         0         0   0
-    12 11  0  1          0         0         0   0
-     0  9 12  1          0         0         0   0
-    11 13  1  1          0         0         0   0
-     3 14 15  1          0         0         0   0
-     8  7 14  2          0         0         0   0
-    14  5  8  1          0         0         0   0
-    12  8  5  1          0         0         0   0
-    14  3  5  1          0         0         0   0
-     3 15  6  1          0         0         0   0
-    16 17 18  1          0         0         0   0
-    18 19 16  1          0         0         0   0
-    17 16 19  2          0         0         0   0
-    19 18 17  2          0         0         0   0
-     0  2 20  2          0         0         0   0
-     9  0 20  2          0         0         0   0
-     9 20 21  2          0         0         0   0
-    10  9 21  2          0         0         0   0
-     6 13  4  2          0         0         0   0
-     4 13 11  2          0         0         0   0
-    22  2  1  1          0         0         0   0
-    23 24 25  1          0         0         0   0
-    25  6 23  1          0         0         0   0
-     7 26 27  1          0         0         0   0
-    26  7 10  1          0         0         0   0
-    24 28 29  1          0         0         0   0
-    29 25 24  1          0         0         0   0
-    22  1 29  1          0         0         0   0
-    27 26 28  1          0         0         0   0
-    28 22 29  1          0         0         0   0
-    22 28 26  1          0         0         0   0
-    29  1 13  1          0         0         0   0
-    23 15 14  1          0         0         0   0
-    27 14  7  2          0         0         0   0
-    14 27 24  1          0         0         0   0
-    28 24 27  1          0         0         0   0
-    14 24 23  1          0         0         0   0
-    23  6 15  1          0         0         0   0
-    30 31 32  1          0         0         0   0
-    31 30 33  1          0         0         0   0
-    32 33 30  2          0         0         0   0
-    33 32 31  2          0         0         0   0
-    22 20  2  2          0         0         0   0
-    26 20 22  2          0         0         0   0
-    26 21 20  2          0         0         0   0
-    10 21 26  2          0         0         0   0
-     6 25 13  2          0         0         0   0
-    25 29 13  2          0         0         0   0
+     0  1  2  1           0          0          0   0
+     3  4  5  1           0          0          0   0
+     4  3  6  1           0          0          0   0
+     7  8  9  1           0          0          0   0
+     9 10  7  1           0          0          0   0
+     5 11 12  1           0          0          0   0
+    11  5  4  1           0          0          0   0
+     0 11  1  1           0          0          0   0
+     8 12  9  1           0          0          0   0
+    12 11  0  1           0          0          0   0
+     0  9 12  1           0          0          0   0
+    11 13  1  1           0          0          0   0
+     3 14 15  1           0          0          0   0
+     8  7 14  2           0          0          0   0
+    14  5  8  1           0          0          0   0
+    12  8  5  1           0          0          0   0
+    14  3  5  1           0          0          0   0
+     3 15  6  1           0          0          0   0
+    16 17 18  1           0          0          0   0
+    18 19 16  1           0          0          0   0
+    17 16 19  2           0          0          0   0
+    19 18 17  2           0          0          0   0
+     0  2 20  2           0          0          0   0
+     9  0 20  2           0          0          0   0
+     9 20 21  2           0          0          0   0
+    10  9 21  2           0          0          0   0
+     6 13  4  2           0          0          0   0
+     4 13 11  2           0          0          0   0
+    22  2  1  1           0          0          0   0
+    23 24 25  1           0          0          0   0
+    25  6 23  1           0          0          0   0
+     7 26 27  1           0          0          0   0
+    26  7 10  1           0          0          0   0
+    24 28 29  1           0          0          0   0
+    29 25 24  1           0          0          0   0
+    22  1 29  1           0          0          0   0
+    27 26 28  1           0          0          0   0
+    28 22 29  1           0          0          0   0
+    22 28 26  1           0          0          0   0
+    29  1 13  1           0          0          0   0
+    23 15 14  1           0          0          0   0
+    27 14  7  2           0          0          0   0
+    14 27 24  1           0          0          0   0
+    28 24 27  1           0          0          0   0
+    14 24 23  1           0          0          0   0
+    23  6 15  1           0          0          0   0
+    30 31 32  1           0          0          0   0
+    31 30 33  1           0          0          0   0
+    32 33 30  2           0          0          0   0
+    33 32 31  2           0          0          0   0
+    22 20  2  2           0          0          0   0
+    26 20 22  2           0          0          0   0
+    26 21 20  2           0          0          0   0
+    10 21 26  2           0          0          0   0
+     6 25 13  2           0          0          0   0
+    25 29 13  2           0          0          0   0
   position 0 0.03677 0.10628
   orientation 0 0 0 0
 endnode
@@ -1153,8 +1153,8 @@ node dummy rhand
 endnode
 node dummy wings
   parent torso_g
-  position  0.00000 -0.02000  0.15660
-  orientation  0.00000  1.00000  0.00000  0.00000
+  position 0 -0.02 0.1566
+  orientation 0 0 0 0
 endnode
 node trimesh pelvis_g
   parent rootdummy
@@ -1323,7 +1323,7 @@ node trimesh Goblin_pouchA
     0 2 7  1  0 2 7   0
     6 7 2  1  6 7 2   0
   position 0.13077 -0.00034 -0.05557
-  orientation 0.4974411 0.0944402 -0.8623418 -0.43341
+  orientation 0.4974411 0.09444019 -0.8623418 -0.43341
 endnode
 node trimesh Rthigh_g
   parent pelvis_g
@@ -1692,15 +1692,15 @@ node trimesh Lfoot_g
   orientation 0 0 0 0
 endnode
 node dummy handconjure
-  parent c_goblinB
+  parent c_goblinb1
   position 0.00791 0.38522 0.95162
   orientation 0 0 0 0
 endnode
 node dummy headconjure
-  parent c_goblinB
+  parent c_goblinb1
   position 0 0.05 1.5862
   orientation 0 0 0 0
 endnode
-endmodelgeom c_goblinB
+endmodelgeom c_goblinb1
 
-donemodel c_goblinB
+donemodel c_goblinb1
