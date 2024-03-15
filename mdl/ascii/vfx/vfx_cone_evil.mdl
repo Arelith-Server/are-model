@@ -1,0 +1,234 @@
+#MAXMODEL ASCII
+# model: vfx_cone_evil
+filedependancy Unknown
+newmodel vfx_cone_evil
+setsupermodel vfx_cone_evil NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vfx_cone_evil
+node dummy vfx_cone_evil
+  parent NULL
+  #part-number 0
+endnode
+node emitter OmenEmitter03
+  parent vfx_cone_evil
+  #part-number 1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.00172952004 0.159918994 -0.00372558995
+  orientation -0.577350259 -0.577350259 -0.577350259 -4.18878984
+  colorStart 0.545098007 0 0
+  colorEnd 0.545098007 0 0
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.699999988
+  sizeEnd 5
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 80
+  lifeExp 0.699999988
+  mass 0
+  spread 0.698131979
+  particleRot 0
+  velocity 16
+  randvel 0.5
+  fps 16
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter01
+  parent vfx_cone_evil
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.0042891698 0.329715997 -0.00372558995
+  orientation -0.640434682 -0.423894823 -0.640434682 -3.94345999
+  colorStart 0.486274987 0 0
+  colorEnd 0.486274987 0 0
+  alphaStart 0.5
+  alphaEnd 0
+  sizeStart 0.5
+  sizeEnd 6
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 60
+  lifeExp 0.699999988
+  mass 0
+  spread 0.349065989
+  particleRot 5
+  velocity 16
+  randvel 0.5
+  fps 16
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter02
+  parent vfx_cone_evil
+  #part-number 3
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.000376668002 0.329715997 -0.00372558995
+  orientation -0.485652775 -0.726830661 -0.485652775 -4.39861012
+  colorStart 0.447059005 0 0
+  colorEnd 0.447059005 0 0
+  alphaStart 0.5
+  alphaEnd 0
+  sizeStart 0.5
+  sizeEnd 6
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 60
+  lifeExp 0.699999988
+  mass 0
+  spread 0.349065989
+  particleRot -5
+  velocity 16
+  randvel 0.5
+  fps 16
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vfx_cone_evil
+
+#MAXANIM ASCII
+newanim cast01 vfx_cone_evil
+  length 1.96667004
+  transtime 0.25
+  animroot vfx_cone_evil
+node dummy vfx_cone_evil
+  parent NULL
+  #part-number 0
+endnode
+node emitter OmenEmitter03
+  parent vfx_cone_evil
+  #part-number 1
+  birthratekey 3
+    0 80
+    1.29999995 80
+    1.33333004 0
+endnode
+node emitter OmenEmitter01
+  parent vfx_cone_evil
+  #part-number 2
+  birthratekey 3
+    0 60
+    1.29999995 60
+    1.33333004 0
+endnode
+node emitter OmenEmitter02
+  parent vfx_cone_evil
+  #part-number 3
+  birthratekey 3
+    0 60
+    1.29999995 60
+    1.33333004 0
+endnode
+doneanim cast01 vfx_cone_evil
+
+donemodel vfx_cone_evil
