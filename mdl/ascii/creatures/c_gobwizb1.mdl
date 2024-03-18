@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: c_gobwizb
-filedependancy c_gobwizb.max
-newmodel c_gobwizb
-setsupermodel c_gobwizb c_goblina
+# model: c_gobwizb1
+filedependancy c_gobwizb1.max
+newmodel c_gobwizb1
+setsupermodel c_gobwizb1 c_goblina
 classification CHARACTER
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom c_gobwizb
-node dummy c_gobwizb
+beginmodelgeom c_gobwizb1
+node dummy c_gobwizb1
   parent NULL
 endnode
 node dummy rootdummy
-  parent c_gobwizb
+  parent c_gobwizb1
   position 0 0.01208 0.7026
   orientation 0 0 0 0
 endnode
@@ -1255,8 +1255,8 @@ node dummy rhand
 endnode
 node dummy wings
   parent torso_g
-  position  0.00000 -0.02000  0.15660
-  orientation  0.00000  1.00000  0.00000  0.00000
+  position 0 -0.02 0.1566
+  orientation 0 0 0 0
 endnode
 node danglymesh pelvis_g
   parent rootdummy
@@ -1764,15 +1764,15 @@ node trimesh Rfoot_g
   orientation 0 0 0 0
 endnode
 node dummy handconjure
-  parent c_gobwizb
+  parent c_gobwizb1
   position 0.00791 0.38522 0.95162
   orientation 0 0 0 0
 endnode
 node dummy headconjure
-  parent c_gobwizb
+  parent c_gobwizb1
   position 0 0.05 1.5862
   orientation 0 0 0 0
 endnode
-endmodelgeom c_gobwizb
+endmodelgeom c_gobwizb1
 
-donemodel c_gobwizb
+donemodel c_gobwizb1
