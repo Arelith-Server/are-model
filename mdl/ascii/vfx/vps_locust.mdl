@@ -1,0 +1,165 @@
+#MAXMODEL ASCII
+# model: vps_locust
+filedependancy Unknown
+newmodel vps_locust
+setsupermodel vps_locust NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vps_locust
+node dummy vps_locust
+  parent NULL
+endnode
+node dummy Dummy01
+  parent vps_locust
+  position 0 0 -0.214821
+  orientation 0 0 0 0
+endnode
+node emitter OmenEmitter01
+  parent Dummy01
+  p2p 1
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_dot01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 1.02031 2.13096
+  orientation -1 0 0 -3.735
+  colorStart 0.7666667 0.0666667 0.0666667
+  colorEnd 0.7666667 0.0666667 0.0666667
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.07
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 10
+  lifeExp 2
+  mass 0
+  spread 6.28319
+  particleRot 0
+  velocity 1.5
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 1
+  grav 3
+  threshold 0
+endnode
+node reference OmenRef01
+  parent OmenEmitter01
+  refModel fx_ref
+  reattachable 0
+  position 0.225107 1.14803 -0.0805
+  orientation -1 0 0 -2.54818
+endnode
+endmodelgeom vps_locust
+
+#MAXANIM ASCII
+newanim impact vps_locust
+  length 0
+  transtime 0
+  animroot vps_locust
+  node dummy vps_locust
+    parent NULL
+  endnode
+  node dummy Dummy01
+    parent vps_locust
+    orientation 0 0 0 0
+  endnode
+  node emitter OmenEmitter01
+    parent Dummy01
+    birthrate 10
+  endnode
+  node dummy OmenRef01
+    parent OmenEmitter01
+  endnode
+doneanim impact vps_locust
+
+#MAXANIM ASCII
+newanim duration vps_locust
+  length 1.3
+  transtime 0
+  animroot vps_locust
+  node dummy vps_locust
+    parent NULL
+  endnode
+  node dummy Dummy01
+    parent vps_locust
+    orientationkey 5
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.2666670   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         0.5333330   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         0.8666670   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         1.2000000    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node emitter OmenEmitter01
+    parent Dummy01
+    birthratekey 5
+         0.0000000   10.0000000
+         0.2333330   11.0000000
+         1.2333300   21.0000000
+         1.2666700   21.0000000
+         1.3000000    5.0000000
+  endnode
+  node dummy OmenRef01
+    parent OmenEmitter01
+  endnode
+doneanim duration vps_locust
+
+#MAXANIM ASCII
+newanim cessation vps_locust
+  length 1
+  transtime 0
+  animroot vps_locust
+  node dummy vps_locust
+    parent NULL
+  endnode
+  node dummy Dummy01
+    parent vps_locust
+    orientationkey 3
+         0.2333330   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         0.5666670   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         0.9000000   -0.0000000   -0.0000000    1.0000000   -1.5707999
+  endnode
+  node emitter OmenEmitter01
+    parent Dummy01
+    birthratekey 2
+         0.0000000    5.0000000
+         0.1333330    0.0000000
+  endnode
+  node dummy OmenRef01
+    parent OmenEmitter01
+  endnode
+doneanim cessation vps_locust
+
+donemodel vps_locust

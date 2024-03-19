@@ -1,0 +1,335 @@
+#MAXMODEL ASCII
+# model: vfx_cone_cold
+filedependancy Unknown
+newmodel vfx_cone_cold
+setsupermodel vfx_cone_cold NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vfx_cone_cold
+node dummy vfx_cone_cold
+  parent NULL
+  #part-number 0
+endnode
+node emitter OmenEmitter03
+  parent vfx_cone_cold
+  #part-number 1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.000457306014 0.0902111009 -0.00372558995
+  orientation -0.577350259 -0.577350259 -0.577350259 -4.18878984
+  colorStart 0.262744993 0.643136978 1
+  colorEnd 0 0 0
+  alphaStart 0.5
+  alphaEnd 1
+  sizeStart 0.600000024
+  sizeEnd 6
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 40
+  lifeExp 0.699999988
+  mass 0
+  spread 0.698131979
+  particleRot 0
+  velocity 16
+  randvel 0
+  fps 16
+  xsize 10
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter01
+  parent vfx_cone_cold
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.00210232008 0.260008007 -0.00372558995
+  orientation -0.622785687 -0.473577797 -0.622785687 -4.02616978
+  colorStart 0.235293999 0.686275005 1
+  colorEnd 0 0 0
+  alphaStart 0.600000024
+  alphaEnd 1
+  sizeStart 0.600000024
+  sizeEnd 6
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 45
+  lifeExp 0.699999988
+  mass 0
+  spread 0.698131979
+  particleRot -5
+  velocity 16
+  randvel 0
+  fps 16
+  xsize 10
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter02
+  parent vfx_cone_cold
+  #part-number 3
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_Smoke01a
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.00181018002 0.260008007 -0.00372558995
+  orientation -0.519987762 -0.677661777 -0.519987762 -4.33273983
+  colorStart 0.145098001 0.729412019 1
+  colorEnd 0 0 0
+  alphaStart 0.600000024
+  alphaEnd 1
+  sizeStart 0.600000024
+  sizeEnd 6
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 15
+  birthrate 45
+  lifeExp 0.699999988
+  mass 0
+  spread 0.698131979
+  particleRot 5
+  velocity 16
+  randvel 0
+  fps 16
+  xsize 10
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node light AuroraLight02
+  parent vfx_cone_cold
+  #part-number 4
+  ambientonly 1
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadingLight 1
+  flareradius 0
+  position -0.000731276989 1.68478 0
+  orientation 0 0 0 0
+  radius 2
+  multiplier 1
+  color 0.419607997 0.717647016 0.945097983
+endnode
+endmodelgeom vfx_cone_cold
+
+#MAXANIM ASCII
+newanim cast01 vfx_cone_cold
+  length 1.96667004
+  transtime 0.25
+  animroot vfx_cone_cold
+node dummy vfx_cone_cold
+  parent NULL
+  #part-number 0
+endnode
+node emitter OmenEmitter03
+  parent vfx_cone_cold
+  #part-number 1
+  birthratekey 3
+    0 40
+    1.29999995 40
+    1.33333004 -10
+endnode
+node emitter OmenEmitter01
+  parent vfx_cone_cold
+  #part-number 2
+  birthratekey 3
+    0 45
+    1.29999995 45
+    1.33333004 -5
+endnode
+node emitter OmenEmitter02
+  parent vfx_cone_cold
+  #part-number 3
+  birthratekey 3
+    0 45
+    1.29999995 45
+    1.33333004 -5
+endnode
+node light AuroraLight02
+  parent vfx_cone_cold
+  #part-number 4
+  positionkey 26
+    0 -0.000731276989 1.71575999 0
+    0.133332998 0.224332005 2.94871998 0
+    0.166666999 -0.615890026 4.52743006 0
+    0.333332986 0.542035997 3.28876996 0
+    0.400000006 0.568526983 5.46803999 0
+    0.466666996 -0.120756 4.47365999 0
+    0.533333004 -0.367926002 2.62960005 0
+    0.600000024 0.128741995 3.13212991 0
+    0.666666985 0.0736567006 5.77994013 0
+    0.733332992 -0.394203991 4.94958019 0
+    0.800000012 0.570492029 4.2048502 0
+    0.866666973 -0.504177988 3.82071996 0
+    0.93333298 -0.42008701 5.9980402 0
+    1 1.06769001 6.0202198 0
+    1.06666994 -0.283461988 4.77607012 0
+    1.13332999 0.653436005 4.63757992 0
+    1.16666996 -0.916926026 5.93101978 0
+    1.23333001 -0.33634001 2.76028991 0
+    1.29999995 0.215305999 4.11569023 0
+    1.36667001 -0.886026978 5.98912001 0
+    1.46667004 -0.222935006 6.72703981 0
+    1.56666994 0.493598998 6.03083992 0
+    1.63332999 -0.333137989 7.18151999 0
+    1.70000005 0.879154027 7.28192997 0
+    1.76666999 -0.333903015 6.72133017 0
+    1.83333004 -0.0300082993 7.51161003 0
+  colorkey 27
+    0 0.419607997 0.705882013 0.925490975
+    0.0666666999 0.458824009 0.870588005 1
+    0.100000001 0.419607997 0.705882013 0.925490975
+    0.133332998 0.439215988 0.788236022 1
+    0.166666999 0.458824009 0.870588005 1
+    0.200000003 0.419607997 0.705882013 0.925490975
+    0.266667008 0.458824009 0.870588005 1
+    0.366667002 0.419607997 0.705882013 0.925490975
+    0.433333009 0.458824009 0.870588005 1
+    0.466666996 0.419607997 0.705882013 0.925490975
+    0.533333004 0.419607997 0.705882013 0.925490975
+    0.600000024 0.458824009 0.870588005 1
+    0.633333027 0.419607997 0.705882013 0.925490975
+    0.699999988 0.458824009 0.870588005 1
+    0.733332992 0.419607997 0.705882013 0.925490975
+    0.800000012 0.458824009 0.870588005 1
+    0.899999976 0.419607997 0.705882013 0.925490975
+    0.966666996 0.458824009 0.870588005 1
+    1 0.419607997 0.705882013 0.925490975
+    1.06666994 0.419607997 0.705882013 0.925490975
+    1.13332999 0.419607997 0.705882013 0.925490975
+    1.20000005 0.458824009 0.870588005 1
+    1.23333001 0.419607997 0.705882013 0.925490975
+    1.29999995 0.466666996 0.866666973 1
+    1.33333004 0.380391985 0.686275005 0.92156899
+    1.39999998 0.458824009 0.870588005 1
+    1.83333004 0 0 1.19208998e-007
+  radiuskey 25
+    0 3
+    0.0666666999 -1
+    0.100000001 2
+    0.166666999 1
+    0.200000003 2
+    0.266667008 0
+    0.366667002 2
+    0.433333009 -3.79999995
+    0.466666996 2
+    0.533333004 3
+    0.600000024 -1
+    0.633333027 2
+    0.699999988 1
+    0.733332992 2
+    0.800000012 0
+    0.899999976 2
+    0.966666996 -3.79999995
+    1 2
+    1.06666994 2
+    1.13332999 3
+    1.20000005 -1
+    1.23333001 2
+    1.29999995 1
+    1.33333004 2
+    1.39999998 0
+endnode
+doneanim cast01 vfx_cone_cold
+
+donemodel vfx_cone_cold
