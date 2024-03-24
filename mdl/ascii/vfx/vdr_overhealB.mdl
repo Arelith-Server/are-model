@@ -18,7 +18,7 @@ endnode
 node emitter Sparkles
   parent Dummy01
   p2p 0
-  p2p_sel 0
+  p2p_sel 1
   affectedByWind 0
   m_isTinted 0
   bounce 0
@@ -33,37 +33,36 @@ node emitter Sparkles
   update Fountain
   render Normal
   blend Lighten
-  chunkName vfx_overhb
-  texture NULL
+  texture fxpa_flare02
   xgrid 1
   ygrid 1
   loop 0
-  deadspace 0.20944
+  deadspace 0
   twosidedtex 0
   blastRadius 0
   blastLength 0
-  position 1 0 0
+  position 1 0 0.05
   orientation 0 0 0 0
-  colorStart 0
-  colorEnd 0
+  colorStart 0.75 0.25 0
+  colorEnd 0.25 0.75 0.25
   alphaStart 1
   alphaEnd 1
-  sizeStart 0.2
+  sizeStart 0.1
   sizeEnd 0.1
-  sizeStart_y 0
-  sizeEnd_y 0
+  sizeStart_y 0.5
+  sizeEnd_y 0.7
   frameStart 0
-  frameEnd 0
-  birthrate 0
-  lifeExp 0.1
-  mass 4
+  frameEnd 1
+  birthrate 10
+  lifeExp 0.5
+  mass 0
   spread 0
   particleRot 0
-  velocity 0
+  velocity -0.5
   randvel 0
-  fps 0
-  xsize 0
-  ysize 1
+  fps 15
+  xsize 5
+  ysize 5
   bounce_co 0
   blurlength 10
   lightningDelay 0
@@ -72,14 +71,14 @@ node emitter Sparkles
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
-  drag 0.4
-  grav 0
+  drag 0
+  grav 1
   threshold 0
 endnode
 node emitter Sparkles01
   parent Dummy01
   p2p 0
-  p2p_sel 0
+  p2p_sel 1
   affectedByWind 0
   m_isTinted 0
   bounce 0
@@ -94,37 +93,36 @@ node emitter Sparkles01
   update Fountain
   render Normal
   blend Lighten
-  chunkName vfx_overhb
-  texture NULL
+  texture fxpa_flare02
   xgrid 1
   ygrid 1
   loop 0
-  deadspace 0.20944
+  deadspace 0
   twosidedtex 0
   blastRadius 0
   blastLength 0
-  position -1 0 0
+  position 0 1 0.05
   orientation 0 0 0 0
-  colorStart 0
-  colorEnd 0
+  colorStart 0.75 0.25 0
+  colorEnd 0.25 0.75 0.25
   alphaStart 1
   alphaEnd 1
-  sizeStart 0.2
+  sizeStart 0.1
   sizeEnd 0.1
-  sizeStart_y 0
-  sizeEnd_y 0
+  sizeStart_y 0.5
+  sizeEnd_y 0.7
   frameStart 0
-  frameEnd 0
-  birthrate 0
-  lifeExp 0.1
-  mass 4
+  frameEnd 1
+  birthrate 10
+  lifeExp 0.5
+  mass 0
   spread 0
   particleRot 0
-  velocity 0
+  velocity -0.5
   randvel 0
-  fps 0
-  xsize 0
-  ysize 1
+  fps 15
+  xsize 5
+  ysize 5
   bounce_co 0
   blurlength 10
   lightningDelay 0
@@ -133,14 +131,14 @@ node emitter Sparkles01
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
-  drag 0.4
-  grav 0
+  drag 0
+  grav 1
   threshold 0
 endnode
 node emitter Sparkles03
   parent Dummy01
   p2p 0
-  p2p_sel 0
+  p2p_sel 1
   affectedByWind 0
   m_isTinted 0
   bounce 0
@@ -155,37 +153,36 @@ node emitter Sparkles03
   update Fountain
   render Normal
   blend Lighten
-  chunkName vfx_overhb
-  texture NULL
+  texture fxpa_flare02
   xgrid 1
   ygrid 1
   loop 0
-  deadspace 0.20944
+  deadspace 0
   twosidedtex 0
   blastRadius 0
   blastLength 0
-  position 0 1 0
+  position -1 0 0.05
   orientation 0 0 0 0
-  colorStart 0
-  colorEnd 0
+  colorStart 0.75 0.25 0
+  colorEnd 0.25 0.75 0.25
   alphaStart 1
   alphaEnd 1
-  sizeStart 0.2
+  sizeStart 0.1
   sizeEnd 0.1
-  sizeStart_y 0
-  sizeEnd_y 0
+  sizeStart_y 0.5
+  sizeEnd_y 0.7
   frameStart 0
-  frameEnd 0
-  birthrate 0
-  lifeExp 0.1
-  mass 4
+  frameEnd 1
+  birthrate 10
+  lifeExp 0.5
+  mass 0
   spread 0
   particleRot 0
-  velocity 0
+  velocity -0.5
   randvel 0
-  fps 0
-  xsize 0
-  ysize 1
+  fps 15
+  xsize 5
+  ysize 5
   bounce_co 0
   blurlength 10
   lightningDelay 0
@@ -194,14 +191,14 @@ node emitter Sparkles03
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
-  drag 0.4
-  grav 0
+  drag 0
+  grav 1
   threshold 0
 endnode
 node emitter Sparkles02
   parent Dummy01
   p2p 0
-  p2p_sel 0
+  p2p_sel 1
   affectedByWind 0
   m_isTinted 0
   bounce 0
@@ -216,37 +213,36 @@ node emitter Sparkles02
   update Fountain
   render Normal
   blend Lighten
-  chunkName vfx_overhb
-  texture NULL
+  texture fxpa_flare02
   xgrid 1
   ygrid 1
   loop 0
-  deadspace 0.20944
+  deadspace 0
   twosidedtex 0
   blastRadius 0
   blastLength 0
-  position 0 -1 0
+  position 0 -1 0.05
   orientation 0 0 0 0
-  colorStart 0
-  colorEnd 0
+  colorStart 0.75 0.25 0
+  colorEnd 0.25 0.75 0.25
   alphaStart 1
   alphaEnd 1
-  sizeStart 0.2
+  sizeStart 0.1
   sizeEnd 0.1
-  sizeStart_y 0
-  sizeEnd_y 0
+  sizeStart_y 0.5
+  sizeEnd_y 0.7
   frameStart 0
-  frameEnd 0
-  birthrate 0
-  lifeExp 0.1
-  mass 4
+  frameEnd 1
+  birthrate 10
+  lifeExp 0.5
+  mass 0
   spread 0
   particleRot 0
-  velocity 0
+  velocity -0.5
   randvel 0
-  fps 0
-  xsize 0
-  ysize 1
+  fps 15
+  xsize 5
+  ysize 5
   bounce_co 0
   blurlength 10
   lightningDelay 0
@@ -255,7 +251,7 @@ node emitter Sparkles02
   p2p_bezier2 0
   p2p_bezier3 0
   combinetime 0
-  drag 0.4
+  drag 0
   grav 1
   threshold 0
 endnode
@@ -273,46 +269,46 @@ newanim impact vdr_overhealB
     parent vdr_overhealB
     orientationkey 13
          0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
-         0.3000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
-         0.6333330   -0.0000000   -0.0000000   -1.0000000   -3.1415901
-         0.9666670   -0.0000000   -0.0000000   -1.0000000   -1.5707999
-         1.3000000    0.0000000    0.0000000    0.0000000    0.0000000
-         1.6333300   -0.0000000   -0.0000000    1.0000000   -1.5707999
-         1.9666700   -0.0000000   -0.0000000    1.0000000   -3.1415901
-         2.3000000   -0.0000000   -0.0000000    1.0000000   -4.7123899
-         2.6333301    0.0000000    0.0000000    0.0000000    0.0000000
-         2.9666700   -0.0000000   -0.0000000   -1.0000000   -4.7123899
-         3.3000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
-         3.6333301   -0.0000000   -0.0000000   -1.0000000   -1.5707999
-         3.9666700    0.0000000    0.0000000    0.0000000    0.0000000
+         1.0000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         2.0000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         3.0000000   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         4.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         5.0000000   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         6.0000000   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         7.0000000   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         8.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         9.0000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+        10.0000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+        11.0000000   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+        12.0000000    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter Sparkles
     parent Dummy01
     birthratekey 3
-         0.0000000  100.0000000
-         0.5000000   50.0000000
-         1.0000000    0.0000000
+         0.0000000     0.0000000
+         0.5000000    10.0000000
+         1.0000000    20.0000000
   endnode
   node emitter Sparkles01
     parent Dummy01
     birthratekey 3
-         0.0000000  100.0000000
-         0.5000000   50.0000000
-         1.0000000    0.0000000
+         0.0000000     0.0000000
+         0.5000000    10.0000000
+         1.0000000    20.0000000
   endnode
   node emitter Sparkles03
     parent Dummy01
     birthratekey 3
-         0.0000000  100.0000000
-         0.5000000   50.0000000
-         1.0000000    0.0000000
+         0.0000000     0.0000000
+         0.5000000    10.0000000
+         1.0000000    20.0000000
   endnode
   node emitter Sparkles02
     parent Dummy01
     birthratekey 3
-         0.0000000  100.0000000
-         0.5000000   50.0000000
-         1.0000000    0.0000000
+         0.0000000     0.0000000
+         0.5000000    10.0000000
+         1.0000000    20.0000000
   endnode
 doneanim impact vdr_overhealB
 
@@ -328,46 +324,46 @@ newanim duration vdr_overhealB
     parent vdr_overhealB
     orientationkey 13
          0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
-         0.3000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
-         0.6333330   -0.0000000   -0.0000000   -1.0000000   -3.1415901
-         0.9666670   -0.0000000   -0.0000000   -1.0000000   -1.5707999
-         1.3000000    0.0000000    0.0000000    0.0000000    0.0000000
-         1.6333300   -0.0000000   -0.0000000    1.0000000   -1.5707999
-         1.9666700   -0.0000000   -0.0000000    1.0000000   -3.1415901
-         2.3000000   -0.0000000   -0.0000000    1.0000000   -4.7123899
-         2.6333301    0.0000000    0.0000000    0.0000000    0.0000000
-         2.9666700   -0.0000000   -0.0000000   -1.0000000   -4.7123899
-         3.3000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
-         3.6333301   -0.0000000   -0.0000000   -1.0000000   -1.5707999
-         3.9666700    0.0000000    0.0000000    0.0000000    0.0000000
+         1.0000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         2.0000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         3.0000000   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         4.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         5.0000000   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         6.0000000   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         7.0000000   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         8.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         9.0000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+        10.0000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+        11.0000000   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+        12.0000000    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter Sparkles
     parent Dummy01
     birthratekey 3
-         0.0000000  100.0000000
-         0.5000000  100.0000000
-         1.0000000  100.0000000
+         0.0000000  20.0000000
+         0.5000000  20.0000000
+         1.0000000  20.0000000
   endnode
   node emitter Sparkles01
     parent Dummy01
     birthratekey 3
-         0.0000000  100.0000000
-         0.5000000  100.0000000
-         1.0000000  100.0000000
+         0.0000000  20.0000000
+         0.5000000  20.0000000
+         1.0000000  20.0000000
   endnode
   node emitter Sparkles03
     parent Dummy01
     birthratekey 3
-         0.0000000  100.0000000
-         0.5000000  100.0000000
-         1.0000000  100.0000000
+         0.0000000  20.0000000
+         0.5000000  20.0000000
+         1.0000000  20.0000000
   endnode
   node emitter Sparkles02
     parent Dummy01
     birthratekey 3
-         0.0000000  100.0000000
-         0.5000000  100.0000000
-         1.0000000  100.0000000
+         0.0000000  20.0000000
+         0.5000000  20.0000000
+         1.0000000  20.0000000
   endnode
 doneanim duration vdr_overhealB
 
@@ -383,45 +379,45 @@ newanim cessation vdr_overhealB
     parent vdr_overhealB
     orientationkey 13
          0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
-         0.3000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
-         0.6333330   -0.0000000   -0.0000000   -1.0000000   -3.1415901
-         0.9666670   -0.0000000   -0.0000000   -1.0000000   -1.5707999
-         1.3000000    0.0000000    0.0000000    0.0000000    0.0000000
-         1.6333300   -0.0000000   -0.0000000    1.0000000   -1.5707999
-         1.9666700   -0.0000000   -0.0000000    1.0000000   -3.1415901
-         2.3000000   -0.0000000   -0.0000000    1.0000000   -4.7123899
-         2.6333301    0.0000000    0.0000000    0.0000000    0.0000000
-         2.9666700   -0.0000000   -0.0000000   -1.0000000   -4.7123899
-         3.3000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
-         3.6333301   -0.0000000   -0.0000000   -1.0000000   -1.5707999
-         3.9666700    0.0000000    0.0000000    0.0000000    0.0000000
+         1.0000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         2.0000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         3.0000000   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         4.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         5.0000000   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         6.0000000   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         7.0000000   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         8.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         9.0000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+        10.0000000   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+        11.0000000   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+        12.0000000    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter Sparkles
     parent Dummy01
     birthratekey 3
-         0.0000000  100.0000000
-         0.5000000   50.0000000
+         0.0000000   20.0000000
+         0.5000000   10.0000000
          1.0000000    0.0000000
   endnode
   node emitter Sparkles01
     parent Dummy01
     birthratekey 3
-         0.0000000  100.0000000
-         0.5000000   50.0000000
+         0.0000000   20.0000000
+         0.5000000   10.0000000
          1.0000000    0.0000000
   endnode
   node emitter Sparkles03
     parent Dummy01
     birthratekey 3
-         0.0000000  100.0000000
-         0.5000000   50.0000000
+         0.0000000   20.0000000
+         0.5000000   10.0000000
          1.0000000    0.0000000
   endnode
   node emitter Sparkles02
     parent Dummy01
     birthratekey 3
-         0.0000000  100.0000000
-         0.5000000   50.0000000
+         0.0000000   20.0000000
+         0.5000000   10.0000000
          1.0000000    0.0000000
   endnode
 doneanim cessation vdr_overhealB
