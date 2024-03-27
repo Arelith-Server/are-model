@@ -891,6 +891,11 @@ node dummy wings
   position  0.00258 -0.22779  0.36534
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
+node dummy Impact
+  parent torso_g
+  position  0.00000  0.18131  0.21933
+  orientation  0.59615  0.55006  0.58484  2.10225
+endnode
 node trimesh neck_g
   parent torso_g
   position  0.00000 -0.08000  0.46000
