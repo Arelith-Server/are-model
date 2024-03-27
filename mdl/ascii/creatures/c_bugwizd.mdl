@@ -1,4 +1,4 @@
-# NeverBlender 4.0.2|Blender 4.0.0|2024-03-26
+# NeverBlender 4.0.2|Blender 4.0.0|2024-03-27
 filedependancy unknown
 newmodel c_bugwizd
 setsupermodel c_bugwizd c_bugbeara
@@ -1018,6 +1018,11 @@ node dummy wings
   parent torso_g
   position  0.00258 -0.37248  0.35605
   orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Impact
+  parent torso_g
+  position  0.00000  0.18131  0.21933
+  orientation  0.59615  0.55006  0.58484  2.10225
 endnode
 node trimesh neck_g
   parent torso_g
@@ -3528,7 +3533,7 @@ node danglymesh head_g
 endnode
 node dummy head
   parent head_g
-  position  0.00965  0.17694  2.04114
+  position  0.00000 -0.00304  0.32173
   orientation -0.00204 -0.03373 -0.99945  0.13264
 endnode
 node trimesh C_Bugbear_Eye01
