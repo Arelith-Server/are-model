@@ -1,15 +1,15 @@
 # Exported from NeverBlender 2.8.22 - Sunday, 2024-04-07
 filedependancy unknown
-newmodel it_torch_023
-setsupermodel it_torch_023 null
+newmodel it_torch_021
+setsupermodel it_torch_021 null
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom it_torch_023
-node dummy it_torch_023
+beginmodelgeom it_torch_021
+node dummy it_torch_021
   parent null
 endnode
 node trimesh nwn_arelith_bell_japanese_lowpoly
-  parent it_torch_023
+  parent it_torch_021
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -17,7 +17,7 @@ node trimesh nwn_arelith_bell_japanese_lowpoly
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap it_torch_023
+  bitmap it_torch_021
   shininess 1
   render 1
   shadow 0
@@ -529,31 +529,31 @@ node trimesh nwn_arelith_bell_japanese_lowpoly
       3  98  99 1  168  88  90 0
       7  96  97 1  165  17  19 0
 endnode
-endmodelgeom it_torch_023
+endmodelgeom it_torch_021
 
 # ANIM ASCII
-newanim equip it_torch_023
+newanim equip it_torch_021
   length 0.1
   transtime 0.25
-  animroot it_torch_023
-  node dummy it_torch_023
+  animroot it_torch_021
+  node dummy it_torch_021
     parent null
   endnode
   node trimesh nwn_arelith_bell_japanese_lowpoly
-    parent it_torch_023
+    parent it_torch_021
   endnode
-doneanim equip it_torch_023
+doneanim equip it_torch_021
 
-newanim unequip it_torch_023
+newanim unequip it_torch_021
   length 0.1
   transtime 0.25
-  animroot it_torch_023
-  node dummy it_torch_023
+  animroot it_torch_021
+  node dummy it_torch_021
     parent null
   endnode
   node trimesh nwn_arelith_bell_japanese_lowpoly
-    parent it_torch_023
+    parent it_torch_021
   endnode
-doneanim unequip it_torch_023
+doneanim unequip it_torch_021
 
-donemodel it_torch_023
+donemodel it_torch_021
