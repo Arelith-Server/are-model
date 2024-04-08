@@ -1,17 +1,18 @@
-# NeverBlender 4.0.2|Blender 4.0.0|2024-02-12
+# NeverBlender 4.0.2|Blender 4.0.0|2024-04-08
 filedependancy unknown
 newmodel c_grodd_war_a
 setsupermodel c_grodd_war_a c_goblina
 classification CHARACTER
-setanimationscale 1.1
+setanimationscale 1.05
 beginmodelgeom c_grodd_war_a
 node dummy c_grodd_war_a
   parent null
 endnode
 node dummy rootdummy
   parent c_grodd_war_a
-  position  0.00000  0.01562  0.77344
+  position  0.00000  0.01365  0.72873
   orientation  0.00000  1.00000  0.00000  0.00000
+  scale 0.960
 endnode
 node trimesh pelvis_g
   parent rootdummy
@@ -576,6 +577,8 @@ node trimesh crotchguard_g
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   bitmap gob_armor
+  texture1 null
+  texture2 null
   shininess 10
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -2887,6 +2890,8 @@ node trimesh armorf_g
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   bitmap gob_armor
+  texture1 null
+  texture2 null
   shininess 10
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -3549,13 +3554,15 @@ node trimesh armorf_g
 endnode
 node dummy handconjure
   parent c_grodd_war_a
-  position  0.00000  0.42188  1.04688
+  position  0.00000  0.36844  0.94028
   orientation  0.00000  0.00000  1.00025  0.01746
+  scale 0.960
 endnode
 node dummy headconjure
   parent c_grodd_war_a
-  position  0.00000  0.26562  1.74219
+  position  0.00000  0.23197  1.47449
   orientation  0.00000  1.00000  0.00000  0.00000
+  scale 0.960
 endnode
 endmodelgeom c_grodd_war_a
 donemodel c_grodd_war_a
