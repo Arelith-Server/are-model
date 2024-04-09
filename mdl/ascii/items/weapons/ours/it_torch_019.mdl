@@ -1,15 +1,15 @@
 # Exported from NeverBlender 2.8.22 - Tuesday, 2024-04-09
 filedependancy unknown
-newmodel it_torch_018
-setsupermodel it_torch_018 null
+newmodel it_torch_019
+setsupermodel it_torch_019 null
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom it_torch_018
-node dummy it_torch_018
+beginmodelgeom it_torch_019
+node dummy it_torch_019
   parent null
 endnode
 node trimesh lopoly_censer
-  parent it_torch_018
+  parent it_torch_019
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -17,7 +17,7 @@ node trimesh lopoly_censer
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap it_torch_018
+  bitmap it_torch_019
   shininess 1
   render 1
   shadow 0
@@ -2962,8 +2962,8 @@ node emitter smoke
   spread 0.52
   splat 0
   affectedbywind 0
-  colorstart 0.71 0.69 0.76
-  colorend 0.71 0.69 0.76
+  colorstart 0.67 0.85 0.62
+  colorend 0.67 0.85 0.62
   alphastart 0.08
   alphaend 0.00
   sizestart 0.25
@@ -2991,5 +2991,5 @@ node emitter smoke
   inherit_local 0
   inherit_part 0
 endnode
-endmodelgeom it_torch_018
-donemodel it_torch_018
+endmodelgeom it_torch_019
+donemodel it_torch_019
