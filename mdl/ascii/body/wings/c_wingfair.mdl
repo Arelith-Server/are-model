@@ -21,7 +21,7 @@ endnode
 node danglymesh Raptor_Rwingbase
   parent Cylinder01
   position -0.00234 -0.03237  0.09486
-  orientation -0.88413 -0.29948  0.35865  1.80127
+  orientation -0.82465 -0.37723  0.42148  1.87760
   wirecolor 1.00 1.00 1.00
   bitmap null
   shininess 1
@@ -3147,7 +3147,7 @@ endnode
 node danglymesh Raptor_Lwingbase
   parent Cylinder01
   position  0.01945 -0.03237  0.09486
-  orientation -0.89667  0.28067 -0.34236  1.78498
+  orientation -0.82465  0.37723 -0.42148  1.87760
   wirecolor 1.00 1.00 1.00
   bitmap null
   shininess 1
@@ -6319,7 +6319,7 @@ endmodelgeom c_wingfair
 
 # ANIM ASCII
 newanim 2hreadyr c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.75
   animroot c_wingfair
   node dummy c_wingfair
@@ -6407,7 +6407,7 @@ newanim 2hreadyr c_wingfair
 doneanim 2hreadyr c_wingfair
 
 newanim 2hreadyl c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.75
   animroot c_wingfair
   node dummy c_wingfair
@@ -6495,7 +6495,7 @@ newanim 2hreadyl c_wingfair
 doneanim 2hreadyl c_wingfair
 
 newanim plreadyr c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.75
   animroot c_wingfair
   node dummy c_wingfair
@@ -6583,7 +6583,7 @@ newanim plreadyr c_wingfair
 doneanim plreadyr c_wingfair
 
 newanim plreadyl c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.75
   animroot c_wingfair
   node dummy c_wingfair
@@ -6671,7 +6671,7 @@ newanim plreadyl c_wingfair
 doneanim plreadyl c_wingfair
 
 newanim 2hslashl c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -6762,7 +6762,7 @@ newanim 2hslashl c_wingfair
 doneanim 2hslashl c_wingfair
 
 newanim 2hslashr c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -6853,7 +6853,7 @@ newanim 2hslashr c_wingfair
 doneanim 2hslashr c_wingfair
 
 newanim 2hstab c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -6944,7 +6944,7 @@ newanim 2hstab c_wingfair
 doneanim 2hstab c_wingfair
 
 newanim 2hcloseh c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -7035,7 +7035,7 @@ newanim 2hcloseh c_wingfair
 doneanim 2hcloseh c_wingfair
 
 newanim 2hclosel c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -7126,7 +7126,7 @@ newanim 2hclosel c_wingfair
 doneanim 2hclosel c_wingfair
 
 newanim 2hreach c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -7217,7 +7217,7 @@ newanim 2hreach c_wingfair
 doneanim 2hreach c_wingfair
 
 newanim 2hparryl c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -7296,7 +7296,7 @@ newanim 2hparryl c_wingfair
 doneanim 2hparryl c_wingfair
 
 newanim 2hparryr c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -7375,7 +7375,7 @@ newanim 2hparryr c_wingfair
 doneanim 2hparryr c_wingfair
 
 newanim plslashl c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -7466,7 +7466,7 @@ newanim plslashl c_wingfair
 doneanim plslashl c_wingfair
 
 newanim plslashr c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -7557,7 +7557,7 @@ newanim plslashr c_wingfair
 doneanim plslashr c_wingfair
 
 newanim plstab c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -7648,7 +7648,7 @@ newanim plstab c_wingfair
 doneanim plstab c_wingfair
 
 newanim plcloseh c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -7739,7 +7739,7 @@ newanim plcloseh c_wingfair
 doneanim plcloseh c_wingfair
 
 newanim plclosel c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -7830,7 +7830,7 @@ newanim plclosel c_wingfair
 doneanim plclosel c_wingfair
 
 newanim plreach c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -7921,7 +7921,7 @@ newanim plreach c_wingfair
 doneanim plreach c_wingfair
 
 newanim plparryl c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -8000,7 +8000,7 @@ newanim plparryl c_wingfair
 doneanim plparryl c_wingfair
 
 newanim plparryr c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -8079,7 +8079,7 @@ newanim plparryr c_wingfair
 doneanim plparryr c_wingfair
 
 newanim plslasho c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -8158,7 +8158,7 @@ newanim plslasho c_wingfair
 doneanim plslasho c_wingfair
 
 newanim walk c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.2
   animroot c_wingfair
   node dummy c_wingfair
@@ -8213,7 +8213,7 @@ newanim walk c_wingfair
 doneanim walk c_wingfair
 
 newanim pause1 c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.7
   animroot c_wingfair
   node dummy c_wingfair
@@ -8258,7 +8258,7 @@ newanim pause1 c_wingfair
 doneanim pause1 c_wingfair
 
 newanim hturnl c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -8323,7 +8323,7 @@ newanim hturnl c_wingfair
 doneanim hturnl c_wingfair
 
 newanim hturnr c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -8387,7 +8387,7 @@ newanim hturnr c_wingfair
 doneanim hturnr c_wingfair
 
 newanim pausesh c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.6
   animroot c_wingfair
   node dummy c_wingfair
@@ -8451,7 +8451,7 @@ newanim pausesh c_wingfair
 doneanim pausesh c_wingfair
 
 newanim pausebrd c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -8515,7 +8515,7 @@ newanim pausebrd c_wingfair
 doneanim pausebrd c_wingfair
 
 newanim pausetrd c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -8579,7 +8579,7 @@ newanim pausetrd c_wingfair
 doneanim pausetrd c_wingfair
 
 newanim pausepsn c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.7
   animroot c_wingfair
   node dummy c_wingfair
@@ -8643,7 +8643,7 @@ newanim pausepsn c_wingfair
 doneanim pausepsn c_wingfair
 
 newanim listen c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -8707,7 +8707,7 @@ newanim listen c_wingfair
 doneanim listen c_wingfair
 
 newanim salute c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -8771,7 +8771,7 @@ newanim salute c_wingfair
 doneanim salute c_wingfair
 
 newanim bow c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -8835,7 +8835,7 @@ newanim bow c_wingfair
 doneanim bow c_wingfair
 
 newanim drink c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -8899,7 +8899,7 @@ newanim drink c_wingfair
 doneanim drink c_wingfair
 
 newanim read c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -8963,7 +8963,7 @@ newanim read c_wingfair
 doneanim read c_wingfair
 
 newanim tlknorm c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -9027,7 +9027,7 @@ newanim tlknorm c_wingfair
 doneanim tlknorm c_wingfair
 
 newanim tlkplead c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -9091,7 +9091,7 @@ newanim tlkplead c_wingfair
 doneanim tlkplead c_wingfair
 
 newanim tlkforce c_wingfair
-  length 0.3
+  length 0.8
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -9143,7 +9143,7 @@ newanim tlkforce c_wingfair
 doneanim tlkforce c_wingfair
 
 newanim tlklaugh c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -9207,7 +9207,7 @@ newanim tlklaugh c_wingfair
 doneanim tlklaugh c_wingfair
 
 newanim greeting c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -9271,7 +9271,7 @@ newanim greeting c_wingfair
 doneanim greeting c_wingfair
 
 newanim run c_wingfair
-  length 0.3
+  length 0.6
   transtime 0.2
   animroot c_wingfair
   node dummy c_wingfair
@@ -9289,12 +9289,13 @@ newanim run c_wingfair
   endnode
   node danglymesh Raptor_Rwingbase
     parent Cylinder01
-    orientationkey 5
-       0.000 -0.84156 -0.28476  0.45900  1.51811
-       0.067 -0.66440 -0.41351  0.62257  1.72996
-       0.167 -0.93913 -0.22749  0.25746  1.96587
-       0.233 -0.97284 -0.15496  0.17196  1.89182
-       0.300 -0.84156 -0.28476  0.45900  1.51811
+    orientationkey 6
+       0.000 -0.96235 -0.18764  0.19666  1.55703
+       0.100 -0.83892 -0.37362  0.39575  1.67798
+       0.233 -0.75231 -0.45714  0.47439  1.85055
+       0.333 -0.85430 -0.33480  0.39758  1.89529
+       0.467 -0.95628 -0.18022  0.23034  1.72442
+       0.600 -0.96235 -0.18764  0.19666  1.55703
     endlist
   endnode
   node trimesh RWing
@@ -9302,19 +9303,21 @@ newanim run c_wingfair
   endnode
   node danglymesh Raptor_Lwingbase
     parent Cylinder01
-    positionkey 5
+    positionkey 6
        0.000  0.01945 -0.03237  0.09486
-       0.067  0.01945 -0.03237  0.09486
-       0.167  0.01945 -0.03237  0.09486
+       0.100  0.01945 -0.03237  0.09486
        0.233  0.01945 -0.03237  0.09486
-       0.300  0.01945 -0.03237  0.09486
+       0.333  0.01945 -0.03237  0.09486
+       0.467  0.01945 -0.03237  0.09486
+       0.600  0.01945 -0.03237  0.09486
     endlist
-    orientationkey 5
-       0.000 -0.84156  0.28476 -0.45900  1.51811
-       0.067 -0.66440  0.41351 -0.62257  1.72996
-       0.167 -0.93913  0.22749 -0.25746  1.96587
-       0.233 -0.97284  0.15496 -0.17196  1.89182
-       0.300 -0.84156  0.28476 -0.45901  1.51811
+    orientationkey 6
+       0.000 -0.96235  0.18764 -0.19666  1.55703
+       0.100 -0.83892  0.37362 -0.39575  1.67798
+       0.233 -0.75231  0.45714 -0.47439  1.85055
+       0.333 -0.85430  0.33480 -0.39758  1.89529
+       0.467 -0.95628  0.18022 -0.23034  1.72442
+       0.600 -0.96235  0.18764 -0.19666  1.55703
     endlist
   endnode
   node trimesh LWing
@@ -9323,7 +9326,7 @@ newanim run c_wingfair
 doneanim run c_wingfair
 
 newanim getlow c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -9387,7 +9390,7 @@ newanim getlow c_wingfair
 doneanim getlow c_wingfair
 
 newanim getmid c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -9451,7 +9454,7 @@ newanim getmid c_wingfair
 doneanim getmid c_wingfair
 
 newanim torchl c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -9515,7 +9518,7 @@ newanim torchl c_wingfair
 doneanim torchl c_wingfair
 
 newanim sitdown c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -9579,7 +9582,7 @@ newanim sitdown c_wingfair
 doneanim sitdown c_wingfair
 
 newanim walkdead c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -9643,7 +9646,7 @@ newanim walkdead c_wingfair
 doneanim walkdead c_wingfair
 
 newanim kneel c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -9707,7 +9710,7 @@ newanim kneel c_wingfair
 doneanim kneel c_wingfair
 
 newanim meditate c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.8
   animroot c_wingfair
   node dummy c_wingfair
@@ -9771,7 +9774,7 @@ newanim meditate c_wingfair
 doneanim meditate c_wingfair
 
 newanim worship c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.8
   animroot c_wingfair
   node dummy c_wingfair
@@ -9835,7 +9838,7 @@ newanim worship c_wingfair
 doneanim worship c_wingfair
 
 newanim walkinj c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.2
   animroot c_wingfair
   node dummy c_wingfair
@@ -9890,7 +9893,7 @@ newanim walkinj c_wingfair
 doneanim walkinj c_wingfair
 
 newanim pause2 c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.7
   animroot c_wingfair
   node dummy c_wingfair
@@ -9936,7 +9939,7 @@ newanim pause2 c_wingfair
 doneanim pause2 c_wingfair
 
 newanim getmidlp c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -10000,7 +10003,7 @@ newanim getmidlp c_wingfair
 doneanim getmidlp c_wingfair
 
 newanim getlowlp c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -10064,7 +10067,7 @@ newanim getlowlp c_wingfair
 doneanim getlowlp c_wingfair
 
 newanim lookfar c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -10128,7 +10131,7 @@ newanim lookfar c_wingfair
 doneanim lookfar c_wingfair
 
 newanim sit c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.6
   animroot c_wingfair
   node dummy c_wingfair
@@ -10174,7 +10177,7 @@ newanim sit c_wingfair
 doneanim sit c_wingfair
 
 newanim sitcross c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -10220,7 +10223,7 @@ newanim sitcross c_wingfair
 doneanim sitcross c_wingfair
 
 newanim sitcrossps c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.7
   animroot c_wingfair
   node dummy c_wingfair
@@ -10266,7 +10269,7 @@ newanim sitcrossps c_wingfair
 doneanim sitcrossps c_wingfair
 
 newanim drwright c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -10330,7 +10333,7 @@ newanim drwright c_wingfair
 doneanim drwright c_wingfair
 
 newanim drwleft c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -10394,7 +10397,7 @@ newanim drwleft c_wingfair
 doneanim drwleft c_wingfair
 
 newanim taunt c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -10449,7 +10452,7 @@ newanim taunt c_wingfair
 doneanim taunt c_wingfair
 
 newanim steal c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -10513,7 +10516,7 @@ newanim steal c_wingfair
 doneanim steal c_wingfair
 
 newanim pauseturn c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.2
   animroot c_wingfair
   node dummy c_wingfair
@@ -10578,7 +10581,7 @@ newanim pauseturn c_wingfair
 doneanim pauseturn c_wingfair
 
 newanim pausewalkl c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.2
   animroot c_wingfair
   node dummy c_wingfair
@@ -10633,7 +10636,7 @@ newanim pausewalkl c_wingfair
 doneanim pausewalkl c_wingfair
 
 newanim pausewalkr c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.2
   animroot c_wingfair
   node dummy c_wingfair
@@ -11420,7 +11423,7 @@ newanim xbowr c_wingfair
 doneanim xbowr c_wingfair
 
 newanim pausewalkfl c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.2
   animroot c_wingfair
   node dummy c_wingfair
@@ -11475,7 +11478,7 @@ newanim pausewalkfl c_wingfair
 doneanim pausewalkfl c_wingfair
 
 newanim pausewalkfr c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.2
   animroot c_wingfair
   node dummy c_wingfair
@@ -11530,7 +11533,7 @@ newanim pausewalkfr c_wingfair
 doneanim pausewalkfr c_wingfair
 
 newanim runfl c_wingfair
-  length 0.3
+  length 0.8
   transtime 0.2
   animroot c_wingfair
   node dummy c_wingfair
@@ -11582,7 +11585,7 @@ newanim runfl c_wingfair
 doneanim runfl c_wingfair
 
 newanim runfr c_wingfair
-  length 0.3
+  length 0.8
   transtime 0.2
   animroot c_wingfair
   node dummy c_wingfair
@@ -11634,7 +11637,7 @@ newanim runfr c_wingfair
 doneanim runfr c_wingfair
 
 newanim plpause1 c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -11698,7 +11701,7 @@ newanim plpause1 c_wingfair
 doneanim plpause1 c_wingfair
 
 newanim 1hreadyr c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -11786,7 +11789,7 @@ newanim 1hreadyr c_wingfair
 doneanim 1hreadyr c_wingfair
 
 newanim 1hreadyl c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -11874,7 +11877,7 @@ newanim 1hreadyl c_wingfair
 doneanim 1hreadyl c_wingfair
 
 newanim 2wreadyr c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -11962,7 +11965,7 @@ newanim 2wreadyr c_wingfair
 doneanim 2wreadyr c_wingfair
 
 newanim 2wreadyl c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -12050,7 +12053,7 @@ newanim 2wreadyl c_wingfair
 doneanim 2wreadyl c_wingfair
 
 newanim nwreadyl c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -12138,7 +12141,7 @@ newanim nwreadyl c_wingfair
 doneanim nwreadyl c_wingfair
 
 newanim nwreadyr c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -12226,7 +12229,7 @@ newanim nwreadyr c_wingfair
 doneanim nwreadyr c_wingfair
 
 newanim 1hslashl c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -12317,7 +12320,7 @@ newanim 1hslashl c_wingfair
 doneanim 1hslashl c_wingfair
 
 newanim 1hslashr c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -12408,7 +12411,7 @@ newanim 1hslashr c_wingfair
 doneanim 1hslashr c_wingfair
 
 newanim 1hstab c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -12499,7 +12502,7 @@ newanim 1hstab c_wingfair
 doneanim 1hstab c_wingfair
 
 newanim 1hcloseh c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -12590,7 +12593,7 @@ newanim 1hcloseh c_wingfair
 doneanim 1hcloseh c_wingfair
 
 newanim 1hclosel c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.31
   animroot c_wingfair
   node dummy c_wingfair
@@ -12681,7 +12684,7 @@ newanim 1hclosel c_wingfair
 doneanim 1hclosel c_wingfair
 
 newanim 1hreach c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -12772,7 +12775,7 @@ newanim 1hreach c_wingfair
 doneanim 1hreach c_wingfair
 
 newanim 1hparryr c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -12851,7 +12854,7 @@ newanim 1hparryr c_wingfair
 doneanim 1hparryr c_wingfair
 
 newanim 1hparryl c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -12930,7 +12933,7 @@ newanim 1hparryl c_wingfair
 doneanim 1hparryl c_wingfair
 
 newanim dodgelr c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -13009,7 +13012,7 @@ newanim dodgelr c_wingfair
 doneanim dodgelr c_wingfair
 
 newanim dodges c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -13088,7 +13091,7 @@ newanim dodges c_wingfair
 doneanim dodges c_wingfair
 
 newanim damages c_wingfair
-  length 0.333
+  length 0.833
   transtime 0.15
   animroot c_wingfair
   node dummy c_wingfair
@@ -13152,7 +13155,7 @@ newanim damages c_wingfair
 doneanim damages c_wingfair
 
 newanim cwalkf c_wingfair
-  length 0.6
+  length 0.9
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -13240,7 +13243,7 @@ newanim cwalkf c_wingfair
 doneanim cwalkf c_wingfair
 
 newanim cwalkb c_wingfair
-  length 0.6
+  length 0.9
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -13328,7 +13331,7 @@ newanim cwalkb c_wingfair
 doneanim cwalkb c_wingfair
 
 newanim cwalkl c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -13410,7 +13413,7 @@ newanim cwalkl c_wingfair
 doneanim cwalkl c_wingfair
 
 newanim cwalkr c_wingfair
-  length 0.533
+  length 0.833
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -13492,7 +13495,7 @@ newanim cwalkr c_wingfair
 doneanim cwalkr c_wingfair
 
 newanim 2wslashl c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -13583,7 +13586,7 @@ newanim 2wslashl c_wingfair
 doneanim 2wslashl c_wingfair
 
 newanim 2wslashr c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -13674,7 +13677,7 @@ newanim 2wslashr c_wingfair
 doneanim 2wslashr c_wingfair
 
 newanim 2wstab c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -13765,7 +13768,7 @@ newanim 2wstab c_wingfair
 doneanim 2wstab c_wingfair
 
 newanim 2wcloseh c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -13856,7 +13859,7 @@ newanim 2wcloseh c_wingfair
 doneanim 2wcloseh c_wingfair
 
 newanim 2wclosel c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -13947,7 +13950,7 @@ newanim 2wclosel c_wingfair
 doneanim 2wclosel c_wingfair
 
 newanim 2wreach c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -14038,7 +14041,7 @@ newanim 2wreach c_wingfair
 doneanim 2wreach c_wingfair
 
 newanim nwslashl c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -14129,7 +14132,7 @@ newanim nwslashl c_wingfair
 doneanim nwslashl c_wingfair
 
 newanim nwstab c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -14220,7 +14223,7 @@ newanim nwstab c_wingfair
 doneanim nwstab c_wingfair
 
 newanim throwr c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -14311,7 +14314,7 @@ newanim throwr c_wingfair
 doneanim throwr c_wingfair
 
 newanim 2wparryl c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.29
   animroot c_wingfair
   node dummy c_wingfair
@@ -14390,7 +14393,7 @@ newanim 2wparryl c_wingfair
 doneanim 2wparryl c_wingfair
 
 newanim 2wparryr c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -14469,7 +14472,7 @@ newanim 2wparryr c_wingfair
 doneanim 2wparryr c_wingfair
 
 newanim shieldl c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -14560,7 +14563,7 @@ newanim shieldl c_wingfair
 doneanim shieldl c_wingfair
 
 newanim kdbck c_wingfair
-  length 0.5
+  length 0.8
   transtime 0.15
   animroot c_wingfair
   node dummy c_wingfair
@@ -14621,7 +14624,7 @@ newanim kdbck c_wingfair
 doneanim kdbck c_wingfair
 
 newanim kdbckps c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -14664,7 +14667,7 @@ newanim kdbckps c_wingfair
 doneanim kdbckps c_wingfair
 
 newanim kdbckdmg c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.15
   animroot c_wingfair
   node dummy c_wingfair
@@ -14707,7 +14710,7 @@ newanim kdbckdmg c_wingfair
 doneanim kdbckdmg c_wingfair
 
 newanim kdbckdie c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -14750,7 +14753,7 @@ newanim kdbckdie c_wingfair
 doneanim kdbckdie c_wingfair
 
 newanim gutokdb c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -14793,7 +14796,7 @@ newanim gutokdb c_wingfair
 doneanim gutokdb c_wingfair
 
 newanim gustandb c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -14930,7 +14933,7 @@ newanim kdfnt c_wingfair
 doneanim kdfnt c_wingfair
 
 newanim kdfntps c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -14973,7 +14976,7 @@ newanim kdfntps c_wingfair
 doneanim kdfntps c_wingfair
 
 newanim kdfntdmg c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.15
   animroot c_wingfair
   node dummy c_wingfair
@@ -15016,7 +15019,7 @@ newanim kdfntdmg c_wingfair
 doneanim kdfntdmg c_wingfair
 
 newanim kdfntdie c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -15059,7 +15062,7 @@ newanim kdfntdie c_wingfair
 doneanim kdfntdie c_wingfair
 
 newanim gutokdf c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -15102,7 +15105,7 @@ newanim gutokdf c_wingfair
 doneanim gutokdf c_wingfair
 
 newanim gustandf c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -15273,7 +15276,7 @@ newanim damager c_wingfair
 doneanim damager c_wingfair
 
 newanim nwcloseh c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -15364,7 +15367,7 @@ newanim nwcloseh c_wingfair
 doneanim nwcloseh c_wingfair
 
 newanim nwclosel c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -15455,7 +15458,7 @@ newanim nwclosel c_wingfair
 doneanim nwclosel c_wingfair
 
 newanim spasm c_wingfair
-  length 0.4
+  length 0.9
   transtime 0.2
   animroot c_wingfair
   node dummy c_wingfair
@@ -15513,7 +15516,7 @@ newanim spasm c_wingfair
 doneanim spasm c_wingfair
 
 newanim deadfnt c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -15556,7 +15559,7 @@ newanim deadfnt c_wingfair
 doneanim deadfnt c_wingfair
 
 newanim deadbck c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -15599,7 +15602,7 @@ newanim deadbck c_wingfair
 doneanim deadbck c_wingfair
 
 newanim nwreach c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -15690,7 +15693,7 @@ newanim nwreach c_wingfair
 doneanim nwreach c_wingfair
 
 newanim nwkickl c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -15781,7 +15784,7 @@ newanim nwkickl c_wingfair
 doneanim nwkickl c_wingfair
 
 newanim nwkickr c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -15872,7 +15875,7 @@ newanim nwkickr c_wingfair
 doneanim nwkickr c_wingfair
 
 newanim nwslashr c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.25
   animroot c_wingfair
   node dummy c_wingfair
@@ -15963,7 +15966,7 @@ newanim nwslashr c_wingfair
 doneanim nwslashr c_wingfair
 
 newanim nwkicks c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -16054,7 +16057,7 @@ newanim nwkicks c_wingfair
 doneanim nwkicks c_wingfair
 
 newanim bowrdy c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -16142,7 +16145,7 @@ newanim bowrdy c_wingfair
 doneanim bowrdy c_wingfair
 
 newanim xbowrdy c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -16230,7 +16233,7 @@ newanim xbowrdy c_wingfair
 doneanim xbowrdy c_wingfair
 
 newanim bowshot c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -16318,7 +16321,7 @@ newanim bowshot c_wingfair
 doneanim bowshot c_wingfair
 
 newanim xbowshot c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -16406,7 +16409,7 @@ newanim xbowshot c_wingfair
 doneanim xbowshot c_wingfair
 
 newanim 2wslasho c_wingfair
-  length 1.1
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -16494,7 +16497,7 @@ newanim 2wslasho c_wingfair
 doneanim 2wslasho c_wingfair
 
 newanim nwslasho c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -16585,7 +16588,7 @@ newanim nwslasho c_wingfair
 doneanim nwslasho c_wingfair
 
 newanim 1hslasho c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -16676,7 +16679,7 @@ newanim 1hslasho c_wingfair
 doneanim 1hslasho c_wingfair
 
 newanim 2hslasho c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.4
   animroot c_wingfair
   node dummy c_wingfair
@@ -16767,7 +16770,7 @@ newanim 2hslasho c_wingfair
 doneanim 2hslasho c_wingfair
 
 newanim cturnr c_wingfair
-  length 0.433
+  length 0.933
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -16892,7 +16895,7 @@ newanim damageb c_wingfair
 doneanim damageb c_wingfair
 
 newanim conjure1 c_wingfair
-  length 0.433
+  length 0.933
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -16953,7 +16956,7 @@ newanim conjure1 c_wingfair
 doneanim conjure1 c_wingfair
 
 newanim conjure2 c_wingfair
-  length 0.433
+  length 0.933
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -17087,7 +17090,7 @@ newanim castout c_wingfair
 doneanim castout c_wingfair
 
 newanim castoutlp c_wingfair
-  length 0.433
+  length 0.933
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -17221,7 +17224,7 @@ newanim castself c_wingfair
 doneanim castself c_wingfair
 
 newanim castselflp c_wingfair
-  length 0.433
+  length 0.933
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -17355,7 +17358,7 @@ newanim castup c_wingfair
 doneanim castup c_wingfair
 
 newanim castuplp c_wingfair
-  length 0.433
+  length 0.933
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -17489,7 +17492,7 @@ newanim castarea c_wingfair
 doneanim castarea c_wingfair
 
 newanim castarealp c_wingfair
-  length 0.433
+  length 0.933
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -17550,7 +17553,7 @@ newanim castarealp c_wingfair
 doneanim castarealp c_wingfair
 
 newanim victorymg c_wingfair
-  length 0.433
+  length 0.933
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -17611,7 +17614,7 @@ newanim victorymg c_wingfair
 doneanim victorymg c_wingfair
 
 newanim victoryth c_wingfair
-  length 0.433
+  length 0.933
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -17672,7 +17675,7 @@ newanim victoryth c_wingfair
 doneanim victoryth c_wingfair
 
 newanim victoryfr c_wingfair
-  length 0.433
+  length 0.933
   transtime 0.5
   animroot c_wingfair
   node dummy c_wingfair
@@ -17806,7 +17809,7 @@ newanim castpoint c_wingfair
 doneanim castpoint c_wingfair
 
 newanim castpointlp c_wingfair
-  length 0.433
+  length 0.933
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -17867,7 +17870,7 @@ newanim castpointlp c_wingfair
 doneanim castpointlp c_wingfair
 
 newanim disappear c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
@@ -17958,7 +17961,7 @@ newanim disappear c_wingfair
 doneanim disappear c_wingfair
 
 newanim appear c_wingfair
-  length 1.0
+  length 1.5
   transtime 0.3
   animroot c_wingfair
   node dummy c_wingfair
