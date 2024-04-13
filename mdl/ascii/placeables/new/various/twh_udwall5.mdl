@@ -5,11 +5,11 @@ setsupermodel twh_udwall5 null
 classification CHARACTER
 setanimationscale 1.0
 beginmodelgeom twh_udwall5
-node dummy thp_a05
+node dummy twh_udwall5
   parent null
 endnode
 node trimesh box10_06_01.003
-  parent thp_a05
+  parent twh_udwall5
   position -0.81000  0.86000  11.82000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.84 0.26 0.05
@@ -698,7 +698,7 @@ node trimesh box10_06_01.003
     115 113 123 2  299 301 300 0
 endnode
 node trimesh object02.003
-  parent thp_a05
+  parent twh_udwall5
   position  0.00000  5.00000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -742,7 +742,7 @@ node trimesh object02.003
     6 7 3 1  10 11  8 0
 endnode
 node trimesh bm_floor.003
-  parent thp_a05
+  parent twh_udwall5
   position  0.00000  5.00000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -770,7 +770,7 @@ node trimesh bm_floor.003
     1 3 2 1  2 3 0 0
 endnode
 node trimesh bm_wall.003
-  parent thp_a05
+  parent twh_udwall5
   position  0.00000  5.00000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -827,7 +827,7 @@ node trimesh bm_wall.003
     10 12 13 2   0 10  8 0
 endnode
 node trimesh object03.003
-  parent thp_a05
+  parent twh_udwall5
   position -0.80000  1.00000  10.05000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.11 0.58 0.69
@@ -949,7 +949,7 @@ node trimesh object03.003
     36 38 34 1  1 2 3 0
 endnode
 node trimesh object01.004
-  parent thp_a05
+  parent twh_udwall5
   position  1.45000  1.00000  10.05000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.11 0.58 0.69
@@ -1071,7 +1071,7 @@ node trimesh object01.004
     36 38 34 1  1 2 3 0
 endnode
 node trimesh object07
-  parent thp_a05
+  parent twh_udwall5
   position  1.45000  1.00000  5.20000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.11 0.58 0.69
@@ -1193,7 +1193,7 @@ node trimesh object07
     36 38 34 1  1 2 3 0
 endnode
 node trimesh bottom_wall1
-  parent thp_a05
+  parent twh_udwall5
   position  0.00000  5.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1237,7 +1237,7 @@ node trimesh bottom_wall1
      8 11  7 1  4 5 3 0
 endnode
 node trimesh mid_wall1
-  parent thp_a05
+  parent twh_udwall5
   position  0.00000  5.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1271,7 +1271,7 @@ node trimesh mid_wall1
     0 2 7 1  2 3 0 0
 endnode
 node trimesh mid_wall2
-  parent thp_a05
+  parent twh_udwall5
   position  0.00000 -5.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1305,7 +1305,7 @@ node trimesh mid_wall2
     0 2 7 1  2 3 0 0
 endnode
 node trimesh bottom_wall2
-  parent thp_a05
+  parent twh_udwall5
   position  0.00000 -5.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1349,7 +1349,7 @@ node trimesh bottom_wall2
      8 11  7 1  4 5 3 0
 endnode
 node trimesh object08
-  parent thp_a05
+  parent twh_udwall5
   position  1.45000 -9.00000  5.20000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.11 0.58 0.69
@@ -1471,7 +1471,7 @@ node trimesh object08
     36 38 34 1  1 2 3 0
 endnode
 node trimesh object04.003
-  parent thp_a05
+  parent twh_udwall5
   position -0.80000 -9.00000  5.20000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.11 0.58 0.69
@@ -1593,7 +1593,7 @@ node trimesh object04.003
     36 38 34 1  1 2 3 0
 endnode
 node trimesh object05.003
-  parent thp_a05
+  parent twh_udwall5
   position -0.80000  1.00000  5.20000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.11 0.58 0.69
@@ -1715,7 +1715,7 @@ node trimesh object05.003
     36 38 34 1  1 2 3 0
 endnode
 node trimesh top_wall1
-  parent thp_a05
+  parent twh_udwall5
   position  0.00000  5.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1749,7 +1749,7 @@ node trimesh top_wall1
     3 7 5 1  1 3 2 0
 endnode
 node trimesh top_wall2
-  parent thp_a05
+  parent twh_udwall5
   position  0.00000 -5.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1783,7 +1783,7 @@ node trimesh top_wall2
     3 7 5 1  1 3 2 0
 endnode
 node trimesh bm_wall01
-  parent thp_a05
+  parent twh_udwall5
   position  0.00000 -5.00000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -1840,7 +1840,7 @@ node trimesh bm_wall01
     10 12 13 2   0 10  8 0
 endnode
 node trimesh box10_06_02
-  parent thp_a05
+  parent twh_udwall5
   position -0.81000 -9.14000  11.82000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.84 0.26 0.05
@@ -2529,7 +2529,7 @@ node trimesh box10_06_02
     115 113 123 2  299 301 300 0
 endnode
 node trimesh bm_floor01
-  parent thp_a05
+  parent twh_udwall5
   position  0.00000 -5.00000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -2557,7 +2557,7 @@ node trimesh bm_floor01
     1 3 2 1  2 3 0 0
 endnode
 node trimesh object06
-  parent thp_a05
+  parent twh_udwall5
   position  0.00000 -5.00000  3.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -2601,7 +2601,7 @@ node trimesh object06
     6 7 3 1  10 11  8 0
 endnode
 node trimesh object09
-  parent thp_a05
+  parent twh_udwall5
   position  1.45000 -9.00000  10.05000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.11 0.58 0.69
@@ -2723,7 +2723,7 @@ node trimesh object09
     36 38 34 1  1 2 3 0
 endnode
 node trimesh object10
-  parent thp_a05
+  parent twh_udwall5
   position -0.80000 -9.00000  10.05000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.11 0.58 0.69
@@ -2845,29 +2845,29 @@ node trimesh object10
     36 38 34 1  1 2 3 0
 endnode
 node dummy a05_ground
-  parent thp_a05
+  parent twh_udwall5
   position  0.21000 -0.07000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy a05_hand
-  parent thp_a05
+  parent twh_udwall5
   position  0.21000  10.00000  9.31000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy a05_head
-  parent thp_a05
+  parent twh_udwall5
   position  0.21000 -0.07000  13.33000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy a05_head_hit
-  parent thp_a05
+  parent twh_udwall5
   position  0.21000 -0.07000  13.53000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy a05_impact
-  parent thp_a05
+  parent twh_udwall5
   position  0.21000 -0.07000  9.31000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-endmodelgeom thp_a05
-donemodel thp_a05
+endmodelgeom twh_udwall5
+donemodel twh_udwall5

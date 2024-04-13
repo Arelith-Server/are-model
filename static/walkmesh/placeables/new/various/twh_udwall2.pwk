@@ -1,17 +1,17 @@
 # Exported from blender Friday, 2019-09-13
 filedependancy unknown
-node dummy a01_pwk_use01
-  parent thp_a01_pwk
+node dummy udwall2_pwk_use01
+  parent twh_udwall2_pwk
   position  0.00000 -5.50000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
-node dummy a01_pwk_use02
-  parent thp_a01_pwk
+node dummy udwall2_pwk_use02
+  parent twh_udwall2_pwk
   position  0.00000  5.50000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
 endnode
-node trimesh a01_wg
-  parent thp_a01_pwk
+node trimesh udwall2_wg
+  parent twh_udwall2_pwk
   position  0.00000  0.00000  0.00000
   orientation  1.00000  0.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
