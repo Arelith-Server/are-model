@@ -7,11 +7,11 @@ classification CHARACTER
 setanimationscale 1
 #MAXGEOM  ASCII
 beginmodelgeom PX2_G02
-node dummy phod_weboid_v
+node dummy PX2_G02
   parent NULL
 endnode
 node emitter AuraEmitter23
-  parent phod_weboid_v
+  parent PX2_G02
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -71,7 +71,7 @@ node emitter AuraEmitter23
   threshold 0
 endnode
 node emitter AuraEmitter24
-  parent phod_weboid_v
+  parent PX2_G02
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -131,7 +131,7 @@ node emitter AuraEmitter24
   threshold 0
 endnode
 node emitter AuraEmitter25
-  parent phod_weboid_v
+  parent PX2_G02
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -191,32 +191,32 @@ node emitter AuraEmitter25
   threshold 0
 endnode
 node dummy G01_hand01
-  parent phod_weboid_v
+  parent PX2_G02
   position -0.13403 0.00838501 1.06226
   orientation 0 0 0 0
 endnode
 node dummy G01_head_hit01
-  parent phod_weboid_v
+  parent PX2_G02
   position 0.206968 0.0108252 1.29292
   orientation 0 0 0 0
 endnode
 node dummy G01_head01
-  parent phod_weboid_v
+  parent PX2_G02
   position 0.251426 0.0108252 1.90896
   orientation 0 0 0 0
 endnode
 node dummy G01_impact01
-  parent phod_weboid_v
+  parent PX2_G02
   position 0.185939 0.011001 0.914189
   orientation 0 0 0 0
 endnode
 node dummy G02_ground
-  parent phod_weboid_v
+  parent PX2_G02
   position -0.00363281 0.0069873 0
   orientation 0 0 0 0
 endnode
 node emitter fire!197
-  parent phod_weboid_v
+  parent PX2_G02
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -276,7 +276,7 @@ node emitter fire!197
   threshold 0
 endnode
 node trimesh Box21
-  parent phod_weboid_v
+  parent PX2_G02
   ambient 0.2 0.2 0.2
   diffuse 0.8 0.8 0.8
   specular 0 0 0
@@ -313,194 +313,194 @@ node trimesh Box21
   scale 1
   selfillumcolor 0 0 0
 endnode
-endmodelgeom phod_weboid_v
+endmodelgeom PX2_G02
 
 #MAXANIM ASCII
-newanim die phod_weboid_v
+newanim die PX2_G02
   length 0.0333333
   transtime 0.25
-  animroot phod_weboid_v
+  animroot PX2_G02
   event 0.0333333 detonate
-  node dummy phod_weboid_v
+  node dummy PX2_G02
     parent NULL
   endnode
   node emitter AuraEmitter23
-    parent phod_weboid_v
+    parent PX2_G02
     positionkey 2
          0.0000000    0.8165370    0.1957060   -3.7505100
          0.0333333    0.8165370    0.1957060   -3.7505100
   endnode
   node emitter AuraEmitter24
-    parent phod_weboid_v
+    parent PX2_G02
     positionkey 2
          0.0000000   -0.5557680    0.0330820   -3.9841900
          0.0333333   -0.5557680    0.0330820   -3.9841900
   endnode
   node emitter AuraEmitter25
-    parent phod_weboid_v
+    parent PX2_G02
     positionkey 2
          0.0000000    0.1667950   -0.2264830   -3.9841900
          0.0333333    0.1667950   -0.2264830   -3.9841900
   endnode
   node dummy G01_hand01
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node dummy G01_head_hit01
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node dummy G01_head01
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node dummy G01_impact01
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node dummy G02_ground
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
-  node dummy phod_weboid_v_pwk
-    parent phod_weboid_v
+  node dummy PX2_G02_pwk
+    parent PX2_G02
   endnode
   node dummy G02_pwk_use01
-    parent phod_weboid_v_pwk
+    parent PX2_G02_pwk
   endnode
   node dummy G02_pwk_use02
-    parent phod_weboid_v_pwk
+    parent PX2_G02_pwk
   endnode
-  node dummy phod_weboid_v_wg
-    parent phod_weboid_v_pwk
+  node dummy PX2_G02_wg
+    parent PX2_G02_pwk
   endnode
   node emitter fire!197
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node trimesh Box21
-    parent phod_weboid_v
+    parent PX2_G02
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
     lightmapped 112
   endnode
-doneanim die phod_weboid_v
+doneanim die PX2_G02
 
 #MAXANIM ASCII
-newanim dead phod_weboid_v
+newanim dead PX2_G02
   length 0
   transtime 0.25
-  animroot phod_weboid_v
+  animroot PX2_G02
   event 0 detonate
-  node dummy phod_weboid_v
+  node dummy PX2_G02
     parent NULL
   endnode
   node emitter AuraEmitter23
-    parent phod_weboid_v
+    parent PX2_G02
     position 0.816537 0.195706 -3.75051
   endnode
   node emitter AuraEmitter24
-    parent phod_weboid_v
+    parent PX2_G02
     position -0.555768 0.033082 -3.98419
   endnode
   node emitter AuraEmitter25
-    parent phod_weboid_v
+    parent PX2_G02
     position 0.166795 -0.226483 -3.98419
   endnode
   node dummy G01_hand01
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node dummy G01_head_hit01
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node dummy G01_head01
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node dummy G01_impact01
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node dummy G02_ground
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
-  node dummy phod_weboid_v_pwk
-    parent phod_weboid_v
+  node dummy PX2_G02_pwk
+    parent PX2_G02
   endnode
   node dummy G02_pwk_use01
-    parent phod_weboid_v_pwk
+    parent PX2_G02_pwk
   endnode
   node dummy G02_pwk_use02
-    parent phod_weboid_v_pwk
+    parent PX2_G02_pwk
   endnode
-  node dummy phod_weboid_v_wg
-    parent phod_weboid_v_pwk
+  node dummy PX2_G02_wg
+    parent PX2_G02_pwk
   endnode
   node emitter fire!197
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node trimesh Box21
-    parent phod_weboid_v
+    parent PX2_G02
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
     lightmapped 112
   endnode
-doneanim dead phod_weboid_v
+doneanim dead PX2_G02
 
 #MAXANIM ASCII
-newanim default phod_weboid_v
+newanim default PX2_G02
   length 0
   transtime 0.25
-  animroot phod_weboid_v
-  node dummy phod_weboid_v
+  animroot PX2_G02
+  node dummy PX2_G02
     parent NULL
   endnode
   node emitter AuraEmitter23
-    parent phod_weboid_v
+    parent PX2_G02
     position 0.816537 0.195706 1.49253
   endnode
   node emitter AuraEmitter24
-    parent phod_weboid_v
+    parent PX2_G02
     position -0.555768 0.033082 1.25885
   endnode
   node emitter AuraEmitter25
-    parent phod_weboid_v
+    parent PX2_G02
     position 0.166795 -0.226483 1.25885
   endnode
   node dummy G01_hand01
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node dummy G01_head_hit01
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node dummy G01_head01
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node dummy G01_impact01
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node dummy G02_ground
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
-  node dummy phod_weboid_v_pwk
-    parent phod_weboid_v
+  node dummy PX2_G02_pwk
+    parent PX2_G02
   endnode
   node dummy G02_pwk_use01
-    parent phod_weboid_v_pwk
+    parent PX2_G02_pwk
   endnode
   node dummy G02_pwk_use02
-    parent phod_weboid_v_pwk
+    parent PX2_G02_pwk
   endnode
-  node dummy phod_weboid_v_wg
-    parent phod_weboid_v_pwk
+  node dummy PX2_G02_wg
+    parent PX2_G02_pwk
   endnode
   node emitter fire!197
-    parent phod_weboid_v
+    parent PX2_G02
   endnode
   node trimesh Box21
-    parent phod_weboid_v
+    parent PX2_G02
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
     lightmapped 112
   endnode
-doneanim default phod_weboid_v
+doneanim default PX2_G02
 
-donemodel phod_weboid_v
+donemodel PX2_G02
