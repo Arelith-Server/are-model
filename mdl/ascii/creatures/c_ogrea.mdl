@@ -1,4 +1,4 @@
-# NeverBlender 4.0.2|Blender 4.0.0|2024-02-14
+# NeverBlender 4.0.2|Blender 4.0.0|2024-04-17
 filedependancy unknown
 newmodel c_ogrea.001
 setsupermodel c_ogrea.001 null
@@ -10,13 +10,13 @@ node dummy c_ogrea.001
 endnode
 node dummy rootdummy
   parent c_ogrea.001
-  position  0.00424 -0.36457  1.89891
-  orientation  0.00000  1.00000  0.00000  0.00000
+  position -0.00335 -0.29835  0.29706
+  orientation  0.85316  0.51627  0.07479  0.33575
 endnode
 node trimesh ogre_torso
   parent rootdummy
   position  0.00000 -0.02318 -0.05092
-  orientation  0.00000  1.00000  0.00000  0.00000
+  orientation -0.83512  0.15362  0.52818  0.42688
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -244,7 +244,7 @@ endnode
 node trimesh ogre_rbicep
   parent ogre_torso
   position  0.43590  0.08344  0.86582
-  orientation  0.00000  1.00000  0.00000  0.00000
+  orientation  0.49212 -0.06023 -0.86844  1.16084
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -396,7 +396,7 @@ endnode
 node trimesh ogre_rforearm
   parent ogre_rbicep
   position  0.17898 -0.00058 -0.61407
-  orientation -0.87896  0.41612 -0.23298  0.31600
+  orientation  0.60210  0.44177  0.66507  1.26535
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -503,7 +503,7 @@ endnode
 node trimesh ogre_rhand
   parent ogre_rforearm
   position  0.01677 -0.01872 -0.75076
-  orientation  0.00000  1.00000  0.00000  0.00000
+  orientation -0.17319 -0.50351  0.84645  0.95935
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -634,12 +634,12 @@ endnode
 node dummy rhand
   parent ogre_rhand
   position -0.04050  0.03999 -0.23913
-  orientation  0.77054 -0.57378  0.27757  0.23813
+  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh ogre_lbicep
   parent ogre_torso
   position -0.43590  0.08344  0.86582
-  orientation  0.09005  0.92947 -0.35775  0.13128
+  orientation  0.51439 -0.18752  0.83681  0.36619
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -791,7 +791,7 @@ endnode
 node trimesh ogre_lforearm
   parent ogre_lbicep
   position -0.17898 -0.00058 -0.61407
-  orientation -0.42195 -0.06453 -0.90432  0.40223
+  orientation  0.68115 -0.02188 -0.73182  1.17734
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -898,12 +898,12 @@ endnode
 node dummy lforearm
   parent ogre_lforearm
   position -0.09263 -0.02396 -0.44251
-  orientation  0.70992 -0.65216  0.26590  0.25948
+  orientation  0.00000  1.00001  0.00000  0.06981
 endnode
 node trimesh ogre_lhand
   parent ogre_lforearm
   position -0.01676 -0.01872 -0.75076
-  orientation  0.00000  1.00000  0.00000  0.00000
+  orientation  0.10729  0.86979 -0.48161  0.72514
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -1034,12 +1034,12 @@ endnode
 node dummy lhand
   parent ogre_lhand
   position  0.11410  0.04559 -0.32349
-  orientation  0.72613  0.66818  0.16214  0.24158
+  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh ogre_neck
   parent ogre_torso
   position  0.00128  0.26278  0.93333
-  orientation  0.00000  1.00000  0.00000  0.00000
+  orientation -0.51991  0.14244 -0.84226  0.19432
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -1081,7 +1081,7 @@ endnode
 node trimesh ogre_head
   parent ogre_neck
   position -0.00128  0.26220  0.08495
-  orientation  0.00000  1.00000  0.00000  0.00000
+  orientation  0.70255 -0.69893  0.13390  0.20245
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -1390,7 +1390,7 @@ endnode
 node trimesh ogre_jaw
   parent ogre_head
   position  0.00000  0.12239  0.00282
-  orientation -0.99998  0.00446  0.00355  0.22689
+  orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -1537,7 +1537,7 @@ endnode
 node trimesh ogre_pelvis
   parent rootdummy
   position  0.00000 -0.02977 -0.06944
-  orientation  0.00000  1.00000  0.00000  0.00000
+  orientation -0.80290  0.19947 -0.56176  0.10540
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -1639,7 +1639,7 @@ endnode
 node trimesh ogre_lthigh
   parent ogre_pelvis
   position -0.16931 -0.00140 -0.12179
-  orientation  0.32151  0.93998 -0.11427  0.09748
+  orientation  0.97439  0.03827  0.22160  2.16243
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -1765,7 +1765,7 @@ endnode
 node trimesh ogre_lcalf
   parent ogre_lthigh
   position  0.05502 -0.06621 -0.81653
-  orientation -0.35695 -0.93294 -0.04716  0.14715
+  orientation -0.99965  0.01501 -0.02185  1.43741
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -1874,7 +1874,7 @@ endnode
 node trimesh ogre_lfoot
   parent ogre_lcalf
   position -0.02172 -0.08510 -0.71984
-  orientation  0.96638  0.21679 -0.13823  0.16620
+  orientation -0.97985  0.19959  0.00794  0.68036
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -1979,8 +1979,8 @@ node trimesh ogre_lfoot
 endnode
 node trimesh ogre_rthigh
   parent ogre_pelvis
-  position  0.16931 -0.00140 -0.12179
-  orientation  0.00000  1.00000  0.00000  0.00000
+  position  0.15328  0.01391 -0.04506
+  orientation  0.75901  0.05005 -0.64916  2.45240
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -2105,8 +2105,8 @@ node trimesh ogre_rthigh
 endnode
 node trimesh ogre_rcalf
   parent ogre_rthigh
-  position -0.05503 -0.06621 -0.81653
-  orientation  0.00000  1.00000  0.00000  0.00000
+  position -0.07356 -0.06311 -0.81576
+  orientation -1.00000 -0.00000 -0.00000  1.98089
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -2215,7 +2215,7 @@ endnode
 node trimesh ogre_rfoot
   parent ogre_rcalf
   position  0.02172 -0.08510 -0.71984
-  orientation  0.99850  0.05324  0.01316  0.12758
+  orientation -0.75463  0.52859  0.38877  0.31258
   wirecolor 1.00 1.00 1.00
   bitmap c_ogrea
   texture1 null
@@ -3818,7 +3818,7 @@ newanim ccastout c_ogrea.001
        0.067  0.98023  0.19785  0.00345  0.31594
        0.100  0.93582  0.31422  0.15973  0.20458
        0.133  0.84731  0.38821  0.36247  0.14738
-       0.167  0.81448  0.36838  0.44826  0.14400
+       0.167  0.81449  0.36839  0.44826  0.14400
        0.200  0.88892  0.27719  0.36467  0.16070
        0.233  0.96258  0.14933  0.22614  0.22374
        0.267  0.99708  0.03954  0.06526  0.36899
@@ -4452,7 +4452,7 @@ newanim ccloseh c_ogrea.001
        0.167 -0.98437  0.09043 -0.15112  1.37677
        0.333 -0.97530  0.14224 -0.16899  1.06225
        0.433 -0.97216  0.15692 -0.17399  0.99561
-       0.500 -0.98310  0.09886 -0.15405  1.31514
+       0.500 -0.98311  0.09886 -0.15405  1.31514
        0.667 -0.98889  0.05420 -0.13840  1.70439
        0.733 -0.99035  0.03897 -0.13300  1.87894
        0.833 -0.99148  0.02464 -0.12789  2.06663
@@ -8075,7 +8075,7 @@ newanim cdodges c_ogrea.001
     parent ogre_rcalf
     orientationkey 11
        0.000  0.89418  0.44548  0.04470  0.95942
-       0.133  0.83512  0.53815  0.11383  1.01763
+       0.133  0.83513  0.53815  0.11383  1.01763
        0.267  0.81613  0.55316  0.16717  1.09651
        0.367  0.24249  0.78604  0.56864  0.94529
        0.400  0.89577  0.42908  0.11609  1.15974
@@ -8283,7 +8283,7 @@ newanim cgetmid c_ogrea.001
        0.133  0.58937 -0.76327 -0.26484  0.11200
        0.200  0.53748 -0.83677  0.10456  0.05849
        0.267  0.34499  0.46107  0.81761  0.04924
-       0.333  0.77694  0.42447  0.46513  0.07209
+       0.333  0.77694  0.42447  0.46513  0.07207
        0.500  0.96966 -0.03111  0.24243  0.12176
     endlist
   endnode
@@ -9139,8 +9139,8 @@ newanim chturnl c_ogrea.001
     parent rootdummy
     orientationkey 4
        0.000 -0.96961 -0.05770 -0.23775  0.24522
-       0.333 -0.88583  0.45686 -0.08123  0.26784
-       0.667 -0.88583  0.45686 -0.08123  0.26784
+       0.333 -0.88582  0.45686 -0.08123  0.26784
+       0.667 -0.88582  0.45686 -0.08123  0.26784
        1.000 -0.96961 -0.05770 -0.23775  0.24522
     endlist
   endnode
@@ -9174,7 +9174,7 @@ newanim chturnl c_ogrea.001
        0.000  0.99194 -0.10074 -0.07680  0.59999
        0.167  0.99305 -0.08205 -0.08442  0.56691
        0.333  0.99525  0.02711 -0.09350  0.58035
-       0.500  0.99514  0.03088 -0.09357  0.58529
+       0.500  0.99513  0.03088 -0.09357  0.58529
        0.667  0.99501  0.03460 -0.09361  0.59024
        0.833  0.99556 -0.03955 -0.08540  0.59559
        1.000  0.99194 -0.10074 -0.07680  0.59999
@@ -9638,7 +9638,7 @@ newanim ckdbck c_ogrea.001
     orientationkey 4
        0.000 -0.83603 -0.52895  0.14587  0.07123
        0.067 -0.98396 -0.16804 -0.05988  0.46605
-       0.367  0.63571 -0.00026  0.77192  0.11515
+       0.367  0.63573 -0.00026  0.77195  0.11515
        1.000  0.00000  1.00000  0.00000  0.00000
     endlist
   endnode
@@ -9701,7 +9701,7 @@ newanim ckdbck c_ogrea.001
        0.367 -0.78620  0.61613 -0.04763  0.70814
        0.633 -0.73033  0.57520 -0.36847  0.75113
        0.733  0.14283  0.85682 -0.49545  0.32680
-       0.833  0.95575  0.11522  0.27070  0.38480
+       0.833  0.95574  0.11522  0.27070  0.38480
        0.900  0.71778 -0.35511  0.59890  0.71949
        0.933 -0.49321 -0.29392  0.81875  0.60983
        1.000 -0.80129 -0.14922  0.57936  0.88590
@@ -10341,7 +10341,7 @@ newanim ckdbckps c_ogrea.001
     parent ogre_head
     orientationkey 5
        0.000  0.00000  1.00000  0.00000  0.00000
-       0.067 -0.44703  0.16659 -0.87939  0.02870
+       0.067 -0.44685  0.16652 -0.87903  0.02869
        0.567 -0.99138  0.03597 -0.12595  0.19639
        0.733 -0.98730  0.04095 -0.15350  0.16185
        1.000  0.00000  1.00000  0.00000  0.00000
@@ -10660,7 +10660,7 @@ newanim cparryl c_ogrea.001
        0.000  0.99347 -0.00251 -0.11410  0.52157
        0.167  0.99106 -0.05190 -0.12290  0.51087
        0.267  0.98924 -0.03882 -0.14103  0.31523
-       0.400  0.94908  0.15497 -0.27641  0.02876
+       0.400  0.94890  0.15494 -0.27636  0.02874
        0.467  0.97262 -0.11207 -0.20359  0.41502
        0.533  0.96351 -0.14210 -0.22686  0.29025
        0.600  0.93645 -0.23627 -0.25931  0.16203
@@ -12057,7 +12057,7 @@ newanim creadyr c_ogrea.001
     parent ogre_head
     orientationkey 4
        0.000  0.00000  1.00000  0.00000  0.00000
-       0.233 -0.99996 -0.00867  0.01178  0.08724
+       0.233 -0.99994 -0.00867  0.01178  0.08724
        0.600  0.99935  0.03631  0.00937  0.05467
        1.000  0.00000  1.00000  0.00000  0.00000
     endlist
@@ -12995,7 +12995,7 @@ newanim ctaunt c_ogrea.001
        1.000  0.93995  0.33110  0.08290  1.13037
        1.333  0.92776  0.36744  0.06513  1.16138
        1.500  0.92247  0.38181  0.05727  1.16241
-       1.667  0.91764  0.39420  0.05033  1.16708
+       1.667  0.91765  0.39420  0.05033  1.16708
        1.833  0.90234  0.43093  0.00929  1.18281
        2.167  0.86727  0.49479 -0.05494  1.19267
     endlist
@@ -13466,4 +13466,281 @@ newanim cwalk c_ogrea.001
   endnode
 doneanim cwalk c_ogrea.001
 
+newanim sitcrossps c_ogrea.001
+  length 1.967
+  transtime 0.7
+  animroot rootdummy
+  node dummy c_ogrea.001
+    parent null
+  endnode
+  node dummy rootdummy
+    parent c_ogrea.001
+    positionkey 7
+       0.000 -0.00335 -0.29835  0.29706
+       0.067 -0.00335 -0.29835  0.29706
+       0.933 -0.00335 -0.29835  0.29706
+       1.000 -0.00335 -0.29835  0.29706
+       1.067 -0.00335 -0.29835  0.29706
+       1.900 -0.00335 -0.29835  0.29706
+       1.967 -0.00335 -0.29835  0.29706
+    endlist
+    orientationkey 7
+       0.000  0.85316  0.51627  0.07479  0.33575
+       0.067  0.85316  0.51627  0.07479  0.33575
+       0.933  0.85316  0.51627  0.07479  0.33575
+       1.000  0.85316  0.51627  0.07479  0.33575
+       1.067  0.85316  0.51627  0.07479  0.33575
+       1.900  0.85316  0.51627  0.07479  0.33575
+       1.967  0.85316  0.51627  0.07479  0.33575
+    endlist
+  endnode
+  node trimesh ogre_torso
+    parent rootdummy
+    scalekey 2
+       0.000  1.00000
+       1.967  1.00000
+    endlist
+    positionkey 2
+       0.000  0.00000 -0.02318 -0.05092
+       1.967  0.00000 -0.02318 -0.05092
+    endlist
+    orientationkey 3
+       0.000 -0.83512  0.15362  0.52818  0.42688
+       1.967 -0.83512  0.15362  0.52818  0.42688
+       1.967 -0.93941  0.16016  0.30309  0.60092
+    endlist
+  endnode
+  node dummy wings
+    parent ogre_torso
+  endnode
+  node trimesh ogre_rbicep
+    parent ogre_torso
+    scalekey 1
+       0.000  1.00000
+    endlist
+    positionkey 1
+       0.000  0.43590  0.08344  0.86582
+    endlist
+    orientationkey 3
+       0.000  0.49212 -0.06023 -0.86844  1.16084
+       1.967  0.49212 -0.06023 -0.86844  1.16084
+       1.967  0.94887  0.01511 -0.31530  0.80216
+    endlist
+  endnode
+  node trimesh ogre_rforearm
+    parent ogre_rbicep
+    scalekey 1
+       0.000  1.00000
+    endlist
+    positionkey 1
+       0.000  0.17898 -0.00058 -0.61407
+    endlist
+    orientationkey 2
+       0.000  0.60210  0.44177  0.66507  1.26535
+       1.967  0.60210  0.44177  0.66507  1.26535
+    endlist
+  endnode
+  node trimesh ogre_rhand
+    parent ogre_rforearm
+    scalekey 1
+       0.000  1.00000
+    endlist
+    positionkey 1
+       0.000  0.01677 -0.01872 -0.75076
+    endlist
+    orientationkey 2
+       0.000 -0.17319 -0.50351  0.84645  0.95935
+       1.967 -0.17319 -0.50351  0.84645  0.95935
+    endlist
+  endnode
+  node dummy rhand
+    parent ogre_rhand
+    orientationkey 2
+       0.000  0.00000  1.00000  0.00000  0.00000
+       1.967  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node trimesh ogre_lbicep
+    parent ogre_torso
+    scalekey 1
+       0.000  1.00000
+    endlist
+    positionkey 1
+       0.000 -0.43590  0.08344  0.86582
+    endlist
+    orientationkey 3
+       0.000  0.51439 -0.18752  0.83681  0.36619
+       1.967  0.51439 -0.18752  0.83681  0.36619
+       1.967  0.64448  0.26281  0.71804  0.41954
+    endlist
+  endnode
+  node trimesh ogre_lforearm
+    parent ogre_lbicep
+    scalekey 1
+       0.000  1.00000
+    endlist
+    positionkey 1
+       0.000 -0.17898 -0.00058 -0.61407
+    endlist
+    orientationkey 3
+       0.000  0.68115 -0.02188 -0.73182  1.17734
+       1.967  0.68115 -0.02188 -0.73182  1.17734
+       1.967  0.74963 -0.02329 -0.66145  1.23583
+    endlist
+  endnode
+  node dummy lforearm
+    parent ogre_lforearm
+    orientationkey 2
+       0.000  0.00000  1.00001  0.00000  0.06981
+       1.967  0.00000  1.00001  0.00000  0.06981
+    endlist
+  endnode
+  node trimesh ogre_lhand
+    parent ogre_lforearm
+    orientationkey 2
+       0.000  0.10729  0.86979 -0.48161  0.72514
+       1.967  0.10729  0.86979 -0.48161  0.72514
+    endlist
+  endnode
+  node dummy lhand
+    parent ogre_lhand
+    orientationkey 1
+       0.000  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node trimesh ogre_neck
+    parent ogre_torso
+    scalekey 2
+       0.000  1.00000
+       0.900  1.00000
+    endlist
+    positionkey 2
+       0.000  0.00128  0.26278  0.93333
+       0.900  0.00128  0.26278  0.93333
+    endlist
+    orientationkey 3
+       0.000 -0.55461  0.14938 -0.81859  0.20261
+       0.900 -0.47076  0.13270 -0.87223  0.18447
+       1.967 -0.55461  0.14938 -0.81859  0.20261
+    endlist
+  endnode
+  node trimesh ogre_head
+    parent ogre_neck
+    scalekey 2
+       0.000  1.00000
+       0.967  1.00000
+    endlist
+    positionkey 2
+       0.000 -0.00128  0.26220  0.08495
+       0.967 -0.00128  0.26220  0.08495
+    endlist
+    orientationkey 3
+       0.000  0.71948 -0.69378  0.03211  0.20191
+       0.967  0.66670 -0.69392  0.27201  0.20699
+       1.967  0.71948 -0.69378  0.03211  0.20191
+    endlist
+  endnode
+  node trimesh ogre_jaw
+    parent ogre_head
+  endnode
+  node dummy head
+    parent ogre_head
+  endnode
+  node dummy impact
+    parent ogre_torso
+  endnode
+  node trimesh ogre_pelvis
+    parent rootdummy
+    orientationkey 7
+       0.000 -0.80290  0.19947 -0.56177  0.10540
+       0.067 -0.80290  0.19947 -0.56177  0.10540
+       0.933 -0.80292  0.19947 -0.56177  0.10540
+       1.000 -0.80291  0.19946 -0.56175  0.10540
+       1.067 -0.80291  0.19947 -0.56178  0.10540
+       1.900 -0.80290  0.19947 -0.56177  0.10540
+       1.967 -0.80293  0.19948 -0.56178  0.10540
+    endlist
+  endnode
+  node trimesh ogre_lthigh
+    parent ogre_pelvis
+    orientationkey 7
+       0.000  0.97439  0.03827  0.22160  2.16243
+       0.067  0.97439  0.03827  0.22160  2.16243
+       0.933  0.97439  0.03827  0.22160  2.16242
+       1.000  0.97439  0.03827  0.22160  2.16243
+       1.067  0.97439  0.03827  0.22160  2.16243
+       1.900  0.97439  0.03827  0.22160  2.16242
+       1.967  0.97439  0.03827  0.22160  2.16241
+    endlist
+  endnode
+  node trimesh ogre_lcalf
+    parent ogre_lthigh
+    orientationkey 7
+       0.000 -0.99965  0.01501 -0.02185  1.43741
+       0.067 -0.99965  0.01501 -0.02185  1.43741
+       0.933 -0.99965  0.01501 -0.02185  1.43741
+       1.000 -0.99965  0.01501 -0.02185  1.43742
+       1.067 -0.99965  0.01501 -0.02185  1.43739
+       1.900 -0.99965  0.01501 -0.02185  1.43740
+       1.967 -0.99965  0.01501 -0.02185  1.43741
+    endlist
+  endnode
+  node trimesh ogre_lfoot
+    parent ogre_lcalf
+    orientationkey 7
+       0.000 -0.97985  0.19959  0.00794  0.68035
+       0.067 -0.97985  0.19959  0.00794  0.68036
+       0.933 -0.97985  0.19959  0.00794  0.68036
+       1.000 -0.97985  0.19959  0.00794  0.68036
+       1.067 -0.97985  0.19959  0.00794  0.68035
+       1.900 -0.97985  0.19959  0.00794  0.68035
+       1.967 -0.97985  0.19959  0.00794  0.68036
+    endlist
+  endnode
+  node trimesh ogre_rthigh
+    parent ogre_pelvis
+    orientationkey 3
+       0.000  0.75901  0.05005 -0.64916  2.45241
+       0.033  0.75901  0.05005 -0.64916  2.45240
+       1.967  0.75901  0.05005 -0.64916  2.45240
+    endlist
+  endnode
+  node trimesh ogre_rcalf
+    parent ogre_rthigh
+    scalekey 1
+       0.467  1.00000
+    endlist
+    positionkey 1
+       0.467 -0.07356 -0.06311 -0.81576
+    endlist
+    orientationkey 8
+       0.000 -1.00000 -0.00000 -0.00000  1.98088
+       0.067 -1.00000 -0.00000 -0.00000  1.98089
+       0.467 -1.00000 -0.00000 -0.00000  1.98089
+       0.933 -1.00000 -0.00000 -0.00000  1.98089
+       1.000 -1.00000 -0.00000 -0.00000  1.98087
+       1.067 -1.00000 -0.00000 -0.00000  1.98088
+       1.900 -1.00000 -0.00000 -0.00000  1.98088
+       1.967 -1.00000 -0.00000 -0.00000  1.98089
+    endlist
+  endnode
+  node trimesh ogre_rfoot
+    parent ogre_rcalf
+    orientationkey 7
+       0.000 -0.75462  0.52859  0.38877  0.31258
+       0.067 -0.75462  0.52859  0.38877  0.31258
+       0.933 -0.75462  0.52859  0.38877  0.31258
+       1.000 -0.75462  0.52859  0.38878  0.31258
+       1.067 -0.75462  0.52859  0.38877  0.31258
+       1.900 -0.75462  0.52859  0.38877  0.31258
+       1.967 -0.75462  0.52859  0.38877  0.31258
+    endlist
+  endnode
+  node dummy handconjure
+    parent c_ogrea.001
+  endnode
+  node dummy headconjure
+    parent c_ogrea.001
+  endnode
+doneanim sitcrossps c_ogrea.001
 donemodel c_ogrea.001
