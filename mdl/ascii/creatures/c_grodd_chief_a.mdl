@@ -1,4 +1,4 @@
-# NeverBlender 4.0.2|Blender 4.0.0|2024-02-11
+# NeverBlender 4.0.2|Blender 4.0.0|2024-04-16
 filedependancy unknown
 newmodel c_grodd_chief_a
 setsupermodel c_grodd_chief_a c_goblina
@@ -922,7 +922,7 @@ endnode
 node trimesh rhand_g
   parent rforearm_g
   position  0.03125  0.00000 -0.25000
-  orientation -0.96868  0.00845 -0.24851  0.07018
+  orientation -0.96869  0.00845 -0.24851  0.07016
   wirecolor 1.00 1.00 1.00
   bitmap gob_bod
   texture1 null
@@ -1589,7 +1589,7 @@ endnode
 node trimesh lhand_g
   parent lforearm_g
   position -0.03125  0.00000 -0.25000
-  orientation -0.96868  0.00845 -0.24851  0.07018
+  orientation -0.96869  0.00845 -0.24851  0.07016
   wirecolor 1.00 1.00 1.00
   bitmap gob_bod
   texture1 null
@@ -2294,6 +2294,11 @@ node trimesh head_g
     20 13 21 4  22 21 23 0
     41 47 42 2  55 60 56 0
     42 37 41 4  56 57 55 0
+endnode
+node dummy impact
+  parent head_g
+  position  0.00781  0.12577  0.06346
+  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh jaw_g
   parent head_g

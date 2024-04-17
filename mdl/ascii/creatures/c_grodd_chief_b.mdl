@@ -1,4 +1,4 @@
-# NeverBlender 4.0.2|Blender 4.0.0|2024-04-09
+# NeverBlender 4.0.2|Blender 4.0.0|2024-04-16
 filedependancy unknown
 newmodel c_grodd_chief_b
 setsupermodel c_grodd_chief_b c_goblina
@@ -2371,6 +2371,11 @@ node trimesh head_g
     190 191 192  1   80  81  83 0
     190 186 163  1   79  71  70 0
     168 189 190  1   75  77  80 0
+endnode
+node dummy impact
+  parent head_g
+  position  0.00711  0.11860  0.04718
+  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh jaw_g
   parent head_g
