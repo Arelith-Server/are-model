@@ -1,4 +1,4 @@
-# NeverBlender 4.0.2|Blender 4.0.0|2024-03-04
+# NeverBlender 4.0.2|Blender 4.0.0|2024-04-08
 filedependancy unknown
 newmodel c_gowo_grwa_a
 setsupermodel c_gowo_grwa_a c_gob_worg
@@ -109,12 +109,12 @@ node trimesh Wolf_ribcage
 endnode
 node dummy gobroot
   parent Wolf_ribcage
-  position  0.00000  0.09367  0.46857
+  position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh pelvis_g
   parent gobroot
-  position -0.00781  0.00000  0.00000
+  position -0.00710  0.09344  0.43733
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   bitmap gob_bod
@@ -1109,7 +1109,7 @@ node trimesh crotchguard_g
 endnode
 node trimesh torso_g
   parent gobroot
-  position -0.00781  0.00000  0.00000
+  position -0.00710  0.09344  0.43733
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   bitmap gob_bod
@@ -3657,7 +3657,7 @@ node trimesh armorf_g
 endnode
 node dummy impact
   parent torso_g
-  position -0.00000  0.09911  0.07791
+  position  0.00000  0.09911  0.07791
   orientation -0.99992  0.01745  0.00000  0.06800
 endnode
 node trimesh Wolf_Rfrontupperleg
