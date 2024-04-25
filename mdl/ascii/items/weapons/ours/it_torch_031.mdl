@@ -1,15 +1,15 @@
 # Exported from NeverBlender 2.8.22 - Thursday, 2024-04-25
 filedependancy unknown
-newmodel it_torch_029
-setsupermodel it_torch_029 null
+newmodel it_torch_031
+setsupermodel it_torch_031 null
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom it_torch_029
-node dummy it_torch_029
+beginmodelgeom it_torch_031
+node dummy it_torch_031
   parent null
 endnode
 node trimesh doll_lopoly
-  parent it_torch_029
+  parent it_torch_031
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -2600,31 +2600,31 @@ node trimesh doll_lopoly
      82  63  18 4  826 716 722 0
      82  31   5 4  826 828 829 0
 endnode
-endmodelgeom it_torch_029
+endmodelgeom it_torch_031
 
 # ANIM ASCII
-newanim equip it_torch_029
+newanim equip it_torch_031
   length 0.1
   transtime 0.25
-  animroot it_torch_029
-  node dummy it_torch_029
+  animroot it_torch_031
+  node dummy it_torch_031
     parent null
   endnode
   node trimesh doll_lopoly
-    parent it_torch_029
+    parent it_torch_031
   endnode
-doneanim equip it_torch_029
+doneanim equip it_torch_031
 
-newanim unequip it_torch_029
+newanim unequip it_torch_031
   length 0.1
   transtime 0.25
-  animroot it_torch_029
-  node dummy it_torch_029
+  animroot it_torch_031
+  node dummy it_torch_031
     parent null
   endnode
   node trimesh doll_lopoly
-    parent it_torch_029
+    parent it_torch_031
   endnode
-doneanim unequip it_torch_029
+doneanim unequip it_torch_031
 
-donemodel it_torch_029
+donemodel it_torch_031
