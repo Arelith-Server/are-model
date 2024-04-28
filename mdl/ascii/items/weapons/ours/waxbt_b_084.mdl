@@ -1,15 +1,15 @@
 # NeverBlender 4.0.0|Blender 4.0.2|2024-04-18
 filedependancy ex.blend
-newmodel waxbt_b_074
-setsupermodel waxbt_b_074 null
+newmodel waxbt_b_084
+setsupermodel waxbt_b_084 null
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom waxbt_b_074
-node dummy waxbt_b_074
+beginmodelgeom waxbt_b_084
+node dummy waxbt_b_084
   parent null
 endnode
 node trimesh pommel.002
-  parent waxbt_b_074
+  parent waxbt_b_084
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
@@ -1384,5 +1384,5 @@ node trimesh pommel.002
     256 255 121 1  307 309 308 0
       3   6 255 1    5   6 309 0
 endnode
-endmodelgeom waxbt_b_074
-donemodel waxbt_b_074
+endmodelgeom waxbt_b_084
+donemodel waxbt_b_084
