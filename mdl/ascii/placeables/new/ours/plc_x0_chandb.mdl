@@ -1,17 +1,17 @@
 #MAXMODEL ASCII
-# model: PLC_X0_CHB
-filedependancy PLC_X0_CHB.max
-newmodel PLC_X0_CHB
-setsupermodel PLC_X0_CHB NULL
+# model: PLC_X0_CHANDB
+filedependancy PLC_X0_CHANDB.max
+newmodel PLC_X0_CHANDB
+setsupermodel PLC_X0_CHANDB NULL
 classification CHARACTER
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom PLC_X0_CHB
-node dummy PLC_X0_CHB
+beginmodelgeom PLC_X0_CHANDB
+node dummy PLC_X0_CHANDB
   parent NULL
 endnode
 node emitter CandleEmitter01
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -71,32 +71,32 @@ node emitter CandleEmitter01
   threshold 0
 endnode
 node dummy x15_hand
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   position -0.0533301 -0.447945 4.27588
   orientation 0 0 0 0
 endnode
 node dummy x15_head
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   position -0.0533301 0.0680755 5.51778
   orientation 0 0 0 0
 endnode
 node dummy x15_head_hit
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   position -0.0533301 0.0680755 5.24185
   orientation 0 0 0 0
 endnode
 node dummy x15_impact
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   position -0.0533301 0.0682513 4.20961
   orientation 0 0 0 0
 endnode
 node dummy x15_ground
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   position -0.0609522 0.0642376 3.34148
   orientation 0 0 0 0
 endnode
 node emitter CandleEmitter03
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -156,7 +156,7 @@ node emitter CandleEmitter03
   threshold 0
 endnode
 node emitter ChunkyWood94
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -217,7 +217,7 @@ node emitter ChunkyWood94
   threshold 0
 endnode
 node emitter fire!58
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -277,7 +277,7 @@ node emitter fire!58
   threshold 0
 endnode
 node emitter CandleEmiitter05
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -337,7 +337,7 @@ node emitter CandleEmiitter05
   threshold 0
 endnode
 node emitter CandleEmitter02
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -397,7 +397,7 @@ node emitter CandleEmitter02
   threshold 0
 endnode
 node emitter CandleEmitter06
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -457,7 +457,7 @@ node emitter CandleEmitter06
   threshold 0
 endnode
 node emitter CandleEmitter04
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -517,7 +517,7 @@ node emitter CandleEmitter04
   threshold 0
 endnode
 node emitter CandleEmiitter08
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -577,7 +577,7 @@ node emitter CandleEmiitter08
   threshold 0
 endnode
 node emitter CandleEmiitter07
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   p2p 0
   p2p_sel 1
   affectedByWind 0
@@ -637,7 +637,7 @@ node emitter CandleEmiitter07
   threshold 0
 endnode
 node trimesh NGon07
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   ambient 1 1 1
   diffuse 1 1 1
   specular 0 0 0
@@ -827,7 +827,7 @@ node trimesh NGon07
   orientation 0 0 0 0
 endnode
 node trimesh Mesh1496
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   ambient 1 1 1
   diffuse 1 1 1
   specular 0 0 0
@@ -907,7 +907,7 @@ node trimesh Mesh1496
   orientation 0 0 0 0
 endnode
 node trimesh damage21
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   ambient 0.0705882 0 1
   diffuse 1 0.501961 0.643137
   specular 0 0 0
@@ -957,7 +957,7 @@ node trimesh damage21
   orientation 0 0 0 0
 endnode
 node trimesh Candles02
-  parent PLC_X0_CHB
+  parent PLC_X0_CHANDB
   ambient 1 1 1
   diffuse 1 1 1
   specular 0 0 0
@@ -1147,146 +1147,146 @@ node trimesh Candles02
   position -0.0891097 0.00568896 3.11
   orientation 0 0 -1 -1.20594
 endnode
-endmodelgeom PLC_X0_CHB
+endmodelgeom PLC_X0_CHANDB
 
 #MAXANIM ASCII
-newanim on2off PLC_X0_CHB
+newanim on2off PLC_X0_CHANDB
   length 0.0333333
   transtime 0
-  animroot PLC_X0_CHB
-  node dummy PLC_X0_CHB
+  animroot PLC_X0_CHANDB
+  node dummy PLC_X0_CHANDB
     parent NULL
   endnode
   node emitter CandleEmiitter05
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    0.0000000
   endnode
   node dummy x15_hand
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head_hit
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_impact
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_ground
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node trimesh damage21
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node emitter ChunkyWood94
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter fire!58
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmitter01
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    0.0000000
   endnode
   node emitter CandleEmitter02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    0.0000000
   endnode
   node emitter CandleEmitter06
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    0.0000000
   endnode
   node emitter CandleEmitter03
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    0.0000000
   endnode
   node emitter CandleEmitter04
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    0.0000000
   endnode
   node trimesh Mesh1496
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node trimesh NGon07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node trimesh Candles02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node emitter CandleEmiitter07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    0.0000000
   endnode
   node emitter CandleEmiitter08
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    0.0000000
   endnode
-doneanim on2off PLC_X0_CHB
+doneanim on2off PLC_X0_CHANDB
 
 #MAXANIM ASCII
-newanim off2on PLC_X0_CHB
+newanim off2on PLC_X0_CHANDB
   length 0.0333333
   transtime 0
-  animroot PLC_X0_CHB
-  node dummy PLC_X0_CHB
+  animroot PLC_X0_CHANDB
+  node dummy PLC_X0_CHANDB
     parent NULL
   endnode
   node emitter CandleEmiitter05
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    3.0000000
   endnode
   node dummy x15_hand
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head_hit
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_impact
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_ground
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node trimesh damage21
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -1297,107 +1297,107 @@ newanim off2on PLC_X0_CHB
          0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter ChunkyWood94
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter fire!58
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmitter01
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    3.0000000
   endnode
   node emitter CandleEmitter02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    3.0000000
   endnode
   node emitter CandleEmitter06
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    3.0000000
   endnode
   node emitter CandleEmitter03
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    3.0000000
   endnode
   node emitter CandleEmitter04
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    3.0000000
   endnode
   node trimesh Mesh1496
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node trimesh NGon07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node trimesh Candles02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node emitter CandleEmiitter07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    3.0000000
   endnode
   node emitter CandleEmiitter08
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    3.0000000
   endnode
-doneanim off2on PLC_X0_CHB
+doneanim off2on PLC_X0_CHANDB
 
 #MAXANIM ASCII
-newanim on PLC_X0_CHB
+newanim on PLC_X0_CHANDB
   length 0.0333333
   transtime 0
-  animroot PLC_X0_CHB
-  node dummy PLC_X0_CHB
+  animroot PLC_X0_CHANDB
+  node dummy PLC_X0_CHANDB
     parent NULL
   endnode
   node emitter CandleEmiitter05
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    3.0000000
   endnode
   node dummy x15_hand
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head_hit
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_impact
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_ground
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node trimesh damage21
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -1406,211 +1406,211 @@ newanim on PLC_X0_CHB
     orientation 0 0 0 0
   endnode
   node emitter ChunkyWood94
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter fire!58
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmitter01
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    3.0000000
   endnode
   node emitter CandleEmitter02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    3.0000000
   endnode
   node emitter CandleEmitter06
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    3.0000000
   endnode
   node emitter CandleEmitter03
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    3.0000000
   endnode
   node emitter CandleEmitter04
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    3.0000000
   endnode
   node trimesh Mesh1496
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node trimesh NGon07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node trimesh Candles02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node emitter CandleEmiitter07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    3.0000000
   endnode
   node emitter CandleEmiitter08
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    3.0000000
          0.0333333    3.0000000
   endnode
-doneanim on PLC_X0_CHB
+doneanim on PLC_X0_CHANDB
 
 #MAXANIM ASCII
-newanim off PLC_X0_CHB
+newanim off PLC_X0_CHANDB
   length 0.0333333
   transtime 0
-  animroot PLC_X0_CHB
-  node dummy PLC_X0_CHB
+  animroot PLC_X0_CHANDB
+  node dummy PLC_X0_CHANDB
     parent NULL
   endnode
   node emitter CandleEmiitter05
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    0.0000000
   endnode
   node dummy x15_hand
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head_hit
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_impact
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_ground
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node trimesh damage21
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node emitter ChunkyWood94
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter fire!58
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmitter01
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    0.0000000
   endnode
   node emitter CandleEmitter02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    0.0000000
   endnode
   node emitter CandleEmitter06
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    0.0000000
   endnode
   node emitter CandleEmitter03
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    0.0000000
   endnode
   node emitter CandleEmitter04
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    0.0000000
   endnode
   node trimesh Mesh1496
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node trimesh NGon07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node trimesh Candles02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node emitter CandleEmiitter07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    0.0000000
   endnode
   node emitter CandleEmiitter08
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthratekey 2
          0.0000000    0.0000000
          0.0333333    0.0000000
   endnode
-doneanim off PLC_X0_CHB
+doneanim off PLC_X0_CHANDB
 
 #MAXANIM ASCII
-newanim damage PLC_X0_CHB
+newanim damage PLC_X0_CHANDB
   length 0.133333
   transtime 0
-  animroot PLC_X0_CHB
-  node dummy PLC_X0_CHB
+  animroot PLC_X0_CHANDB
+  node dummy PLC_X0_CHANDB
     parent NULL
   endnode
   node emitter CandleEmiitter05
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_hand
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head_hit
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_impact
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_ground
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node trimesh damage21
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -1626,67 +1626,67 @@ newanim damage PLC_X0_CHB
          0.1333330    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter ChunkyWood94
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter fire!58
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmitter01
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmitter02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmitter06
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmitter03
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmitter04
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node trimesh Mesh1496
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node trimesh NGon07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node trimesh Candles02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node emitter CandleEmiitter07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmiitter08
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
-doneanim damage PLC_X0_CHB
+doneanim damage PLC_X0_CHANDB
 
 #MAXANIM ASCII
-newanim die PLC_X0_CHB
+newanim die PLC_X0_CHANDB
   length 0.166667
   transtime 0
-  animroot PLC_X0_CHB
+  animroot PLC_X0_CHANDB
   event 0 detonate
   event 0 detonate
-  node dummy PLC_X0_CHB
+  node dummy PLC_X0_CHANDB
     parent NULL
   endnode
   node emitter CandleEmiitter05
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 3
          0.0000000    0.9416060    0.0939964    3.8643799
          0.0333333    0.9416060    0.0939964   -9.7630196
@@ -1725,22 +1725,22 @@ newanim die PLC_X0_CHB
     combinetime 0
   endnode
   node dummy x15_hand
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head_hit
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_impact
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_ground
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node trimesh damage21
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -1754,13 +1754,13 @@ newanim die PLC_X0_CHB
          0.1666670    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter ChunkyWood94
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter fire!58
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmitter01
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 3
          0.0000000    0.7055650   -0.5101920    3.8857701
          0.0333333    0.7055650   -0.5101920   -9.7416401
@@ -1799,7 +1799,7 @@ newanim die PLC_X0_CHB
     combinetime 0
   endnode
   node emitter CandleEmitter02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 3
          0.0000000   -0.9369500   -0.4051500    3.9866300
          0.0333333   -0.9369500   -0.4051500   -9.6407804
@@ -1838,7 +1838,7 @@ newanim die PLC_X0_CHB
     combinetime 0
   endnode
   node emitter CandleEmitter06
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 3
          0.0000000   -0.6508860    0.9015240    3.8643799
          0.0333333   -0.6508860    0.9015240   -9.7630196
@@ -1877,7 +1877,7 @@ newanim die PLC_X0_CHB
     combinetime 0
   endnode
   node emitter CandleEmitter03
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 3
          0.0000000    0.0168666   -0.9400570    3.9866300
          0.0333333    0.0168666   -0.9400570   -9.6407804
@@ -1916,7 +1916,7 @@ newanim die PLC_X0_CHB
     combinetime 0
   endnode
   node emitter CandleEmitter04
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 3
          0.0000000    0.6978780    0.5576210    3.8857701
          0.0333333    0.6978780    0.5576210   -9.7416401
@@ -1955,7 +1955,7 @@ newanim die PLC_X0_CHB
     combinetime 0
   endnode
   node trimesh Mesh1496
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -1969,7 +1969,7 @@ newanim die PLC_X0_CHB
          0.1666670    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node trimesh NGon07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -1983,7 +1983,7 @@ newanim die PLC_X0_CHB
          0.1666670    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node trimesh Candles02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -1997,7 +1997,7 @@ newanim die PLC_X0_CHB
          0.1666670   -0.0000000   -0.0000000   -1.0000000   -1.2059400
   endnode
   node emitter CandleEmiitter07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 3
          0.0000000   -0.0227689    0.9794000    3.8361499
          0.0333333   -0.0227689    0.9794000   -9.7912502
@@ -2036,7 +2036,7 @@ newanim die PLC_X0_CHB
     combinetime 0
   endnode
   node emitter CandleEmiitter08
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 3
          0.0000000   -0.9491210    0.4158590    3.8361499
          0.0333333   -0.9491210    0.4158590   -9.7912502
@@ -2074,18 +2074,18 @@ newanim die PLC_X0_CHB
     threshold 0
     combinetime 0
   endnode
-doneanim die PLC_X0_CHB
+doneanim die PLC_X0_CHANDB
 
 #MAXANIM ASCII
-newanim dead PLC_X0_CHB
+newanim dead PLC_X0_CHANDB
   length 0.0333333
   transtime 0
-  animroot PLC_X0_CHB
-  node dummy PLC_X0_CHB
+  animroot PLC_X0_CHANDB
+  node dummy PLC_X0_CHANDB
     parent NULL
   endnode
   node emitter CandleEmiitter05
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 2
          0.0000000    0.9416060    0.0939964   -9.7630196
          0.0333333    0.9416060    0.0939964   -9.7630196
@@ -2094,22 +2094,22 @@ newanim dead PLC_X0_CHB
          0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node dummy x15_hand
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head_hit
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_impact
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_ground
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node trimesh damage21
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -2122,13 +2122,13 @@ newanim dead PLC_X0_CHB
          0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter ChunkyWood94
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter fire!58
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmitter01
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 2
          0.0000000    0.7055650   -0.5101920   -9.7416401
          0.0333333    0.7055650   -0.5101920   -9.7416401
@@ -2137,7 +2137,7 @@ newanim dead PLC_X0_CHB
          0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter CandleEmitter02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 2
          0.0000000   -0.9369500   -0.4051500   -9.6407804
          0.0333333   -0.9369500   -0.4051500   -9.6407804
@@ -2146,7 +2146,7 @@ newanim dead PLC_X0_CHB
          0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter CandleEmitter06
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 2
          0.0000000   -0.6508860    0.9015240   -9.7630196
          0.0333333   -0.6508860    0.9015240   -9.7630196
@@ -2155,7 +2155,7 @@ newanim dead PLC_X0_CHB
          0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter CandleEmitter03
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 2
          0.0000000    0.0168666   -0.9400570   -9.6407804
          0.0333333    0.0168666   -0.9400570   -9.6407804
@@ -2164,7 +2164,7 @@ newanim dead PLC_X0_CHB
          0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter CandleEmitter04
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 2
          0.0000000    0.6978780    0.5576210   -9.7416401
          0.0333333    0.6978780    0.5576210   -9.7416401
@@ -2173,7 +2173,7 @@ newanim dead PLC_X0_CHB
          0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node trimesh Mesh1496
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -2186,7 +2186,7 @@ newanim dead PLC_X0_CHB
          0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node trimesh NGon07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -2199,7 +2199,7 @@ newanim dead PLC_X0_CHB
          0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node trimesh Candles02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -2212,7 +2212,7 @@ newanim dead PLC_X0_CHB
          0.0333333   -0.0000000   -0.0000000   -1.0000000   -1.2059400
   endnode
   node emitter CandleEmiitter07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 2
          0.0000000   -0.0227689    0.9794000   -9.7912502
          0.0333333   -0.0227689    0.9794000   -9.7912502
@@ -2221,7 +2221,7 @@ newanim dead PLC_X0_CHB
          0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
   node emitter CandleEmiitter08
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     positionkey 2
          0.0000000   -0.9491210    0.4158590   -9.7912502
          0.0333333   -0.9491210    0.4158590   -9.7912502
@@ -2229,37 +2229,37 @@ newanim dead PLC_X0_CHB
          0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
          0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
   endnode
-doneanim dead PLC_X0_CHB
+doneanim dead PLC_X0_CHANDB
 
 #MAXANIM ASCII
-newanim default PLC_X0_CHB
+newanim default PLC_X0_CHANDB
   length 0
   transtime 0.25
-  animroot PLC_X0_CHB
-  node dummy PLC_X0_CHB
+  animroot PLC_X0_CHANDB
+  node dummy PLC_X0_CHANDB
     parent NULL
   endnode
   node emitter CandleEmiitter05
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthrate 3
   endnode
   node dummy x15_hand
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_head_hit
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_impact
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node dummy x15_ground
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node trimesh damage21
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
@@ -2268,60 +2268,60 @@ newanim default PLC_X0_CHB
     orientation 0 0 0 0
   endnode
   node emitter ChunkyWood94
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter fire!58
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
   endnode
   node emitter CandleEmitter01
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthrate 3
   endnode
   node emitter CandleEmitter02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthrate 3
   endnode
   node emitter CandleEmitter06
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthrate 3
   endnode
   node emitter CandleEmitter03
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthrate 3
   endnode
   node emitter CandleEmitter04
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthrate 3
   endnode
   node trimesh Mesh1496
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node trimesh NGon07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node trimesh Candles02
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     ambient 0.2 0.2 0.2
     diffuse 0.8 0.8 0.8
     specular 0 0 0
     shininess 1
   endnode
   node emitter CandleEmiitter07
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthrate 3
   endnode
   node emitter CandleEmiitter08
-    parent PLC_X0_CHB
+    parent PLC_X0_CHANDB
     birthrate 3
   endnode
-doneanim default PLC_X0_CHB
+doneanim default PLC_X0_CHANDB
 
-donemodel PLC_X0_CHB
+donemodel PLC_X0_CHANDB
