@@ -1,15 +1,15 @@
-# NeverBlender 4.0.0|Blender 4.0.2|2024-02-06
+# NeverBlender 4.0.0|Blender 4.0.2|2024-04-27
 filedependancy ex.blend
-newmodel WAxGr_b_052
-setsupermodel WAxGr_b_052 null
-classification UNKNOWN
+newmodel waxgr_b_052
+setsupermodel waxgr_b_052 null
+classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom WAxGr_b_052
-node dummy WAxGr_b_052
+beginmodelgeom waxgr_b_052
+node dummy waxgr_b_052
   parent null
 endnode
-node trimesh g_axgr_b_052
-  parent WAxGr_b_052
+node trimesh pommel.004
+  parent waxgr_b_052
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.80 0.80 0.80
@@ -1384,5 +1384,5 @@ node trimesh g_axgr_b_052
     257 256 255 1  308 310 309 0
     256   3   6 1  310   4   5 0
 endnode
-endmodelgeom WAxGr_b_052
-donemodel WAxGr_b_052
+endmodelgeom waxgr_b_052
+donemodel waxgr_b_052
