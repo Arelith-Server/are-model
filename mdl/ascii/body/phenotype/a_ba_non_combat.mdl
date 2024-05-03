@@ -10,7 +10,7 @@ node dummy a_ba_non_combat
 endnode
 node trimesh rootdummy
   parent a_ba_non_combat
-  position  0.07355 -0.02411  1.18615
+  position  0.07401 -0.02653  1.18657
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.22 0.03 0.53
   ambient 1.00 1.00 1.00
@@ -47,7 +47,7 @@ endnode
 node trimesh torso_g
   parent rootdummy
   position  0.00041  0.01034  0.00021
-  orientation -0.98241 -0.14681  0.11556  0.13232
+  orientation -0.98150 -0.14971  0.11941  0.12954
   wirecolor 0.24 0.52 0.02
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -223,7 +223,7 @@ endnode
 node trimesh rbicep_g
   parent torso_g
   position  0.20101 -0.07949  0.34999
-  orientation -0.05339 -0.91921 -0.39015  0.12479
+  orientation  0.05931 -0.91673 -0.39508  0.12502
   wirecolor 0.87 0.34 0.34
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -333,7 +333,7 @@ endnode
 node trimesh rforearm_g
   parent rbicep_g
   position  0.03903  0.02122 -0.30192
-  orientation  0.95285  0.30256  0.02332  0.13909
+  orientation  0.91856  0.38841  0.07334  0.14578
   wirecolor 0.87 0.34 0.34
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -422,7 +422,7 @@ endnode
 node trimesh rhand_g
   parent rforearm_g
   position  0.03309  0.02289 -0.29176
-  orientation -0.89376  0.42616 -0.13999  0.09895
+  orientation -0.92957  0.35157 -0.11093  0.12041
   wirecolor 0.87 0.34 0.34
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -573,7 +573,7 @@ endnode
 node trimesh lbicep_g
   parent torso_g
   position -0.20100 -0.07949  0.34999
-  orientation -0.59779  0.76326  0.24512  0.21244
+  orientation  0.34800  0.48285 -0.80359  1.11283
   wirecolor 0.11 0.35 0.69
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -683,7 +683,7 @@ endnode
 node trimesh lforearm_g
   parent lbicep_g
   position -0.03903  0.02122 -0.30192
-  orientation  0.92182 -0.37071 -0.11324  0.29836
+  orientation  0.64381  0.28433  0.71040  1.06756
   wirecolor 0.11 0.35 0.69
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -772,7 +772,7 @@ endnode
 node dummy lforearm
   parent lforearm_g
   position -0.03018  0.00000 -0.18703
-  orientation -0.00006  1.00001  0.00005  0.06982
+  orientation  0.74708  0.09660  0.65768  0.52115
 endnode
 node trimesh g_AShTo_011a
   parent lforearm
@@ -841,7 +841,7 @@ endnode
 node trimesh lhand_g
   parent lforearm_g
   position -0.03309  0.02289 -0.29176
-  orientation  0.92182 -0.37071 -0.11324  0.29836
+  orientation  0.74708  0.09660  0.65768  0.52115
   wirecolor 0.11 0.35 0.69
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -905,12 +905,12 @@ endnode
 node dummy lhand
   parent lhand_g
   position -0.01534  0.00000 -0.09452
-  orientation  0.00000  1.00000  0.00000  0.00000
+  orientation -0.98082 -0.10418  0.16478  0.13088
 endnode
 node trimesh lshould_g
   parent lbicep_g
   position  0.00000  0.00000  0.00000
-  orientation  0.98977  0.00151 -0.14270  0.16330
+  orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.11 0.35 0.69
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -992,7 +992,7 @@ endnode
 node trimesh neck_g
   parent torso_g
   position  0.00000 -0.08105  0.46895
-  orientation -1.00001  0.00000  0.00000  0.06815
+  orientation -1.00000  0.00000  0.00000  0.06118
   wirecolor 0.56 0.87 0.34
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -1052,7 +1052,7 @@ endnode
 node trimesh head_g
   parent neck_g
   position  0.00000  0.01870  0.07672
-  orientation  0.98977  0.00151 -0.14270  0.16330
+  orientation  0.98941  0.00175 -0.14519  0.16049
   wirecolor 0.56 0.87 0.34
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -1367,7 +1367,7 @@ endnode
 node trimesh pelvis_g
   parent rootdummy
   position  0.00356  0.01034  0.00021
-  orientation -0.07261 -0.37816 -0.92289  0.15026
+  orientation -0.07261 -0.37816 -0.92291  0.15025
   wirecolor 0.24 0.52 0.02
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -1575,7 +1575,7 @@ endnode
 node trimesh lthigh_g
   parent pelvis_g
   position -0.10807 -0.02344 -0.18244
-  orientation  0.71506  0.60391  0.35212  0.49413
+  orientation  0.71236  0.60553  0.35479  0.49281
   wirecolor 0.03 0.03 0.53
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -1664,7 +1664,7 @@ endnode
 node trimesh lshin_g
   parent lthigh_g
   position  0.03062 -0.01647 -0.46094
-  orientation -0.98387  0.09233 -0.15323  0.49320
+  orientation -0.98803  0.14359 -0.05638  0.22688
   wirecolor 0.03 0.03 0.53
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -1763,7 +1763,7 @@ endnode
 node trimesh lfoot_g
   parent lshin_g
   position  0.02043 -0.06663 -0.42741
-  orientation -0.32695 -0.71946  0.61276  0.34940
+  orientation -0.45784 -0.67252  0.58147  0.36152
   wirecolor 0.03 0.03 0.53
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -1834,7 +1834,7 @@ endnode
 node trimesh rthigh_g
   parent pelvis_g
   position  0.10807 -0.02344 -0.18244
-  orientation -0.16414 -0.15945 -0.97347  0.29450
+  orientation -0.17893 -0.15057 -0.97227  0.27780
   wirecolor 0.55 0.03 0.23
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -1923,7 +1923,7 @@ endnode
 node trimesh rshin_g
   parent rthigh_g
   position -0.03062 -0.01647 -0.46094
-  orientation -1.00001  0.00000  0.00000  0.14030
+  orientation -1.00000  0.00000  0.00000  0.13012
   wirecolor 0.55 0.03 0.23
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -2022,7 +2022,7 @@ endnode
 node trimesh rfoot_g
   parent rshin_g
   position -0.02043 -0.06663 -0.42741
-  orientation  0.62041  0.50779 -0.59771  0.25959
+  orientation  0.58296  0.48271 -0.65356  0.26413
   wirecolor 0.55 0.03 0.23
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -6590,7 +6590,7 @@ newanim hturnr a_ba_non_combat
        0.667 -0.49174 -0.74109 -0.45716  0.15334
        1.000 -0.58613 -0.70923 -0.39173  0.15922
        1.400 -0.49091 -0.81304 -0.31303  0.13885
-       1.867 -0.05886 -0.94265 -0.32857  0.12165
+       1.867 -0.05886 -0.94267 -0.32858  0.12165
        2.000 -0.05337 -0.91921 -0.39015  0.12479
     endlist
   endnode
@@ -6982,7 +6982,7 @@ newanim pausesh a_ba_non_combat
        1.033  0.98403  0.17810  0.00938  0.07700
        1.167  0.90819  0.39298  0.14394  0.06772
        1.267  0.88182  0.46324  0.08827  0.08843
-       1.500  0.81372  0.55817 -0.16248  0.08943
+       1.500  0.81370  0.55816 -0.16248  0.08943
        1.600  0.80520  0.55335 -0.21325  0.10540
        1.900  0.90134  0.29487  0.31683  0.03200
        2.000  0.84658 -0.13769  0.51433  0.01212
@@ -8565,7 +8565,7 @@ newanim bow a_ba_non_combat
     parent torso_g
     orientationkey 10
        0.000 -0.05339 -0.91921 -0.39015  0.12479
-       0.067  0.36691 -0.89597 -0.25022  0.13399
+       0.067  0.36692 -0.89598 -0.25023  0.13399
        0.200  0.92765 -0.35217  0.12430  0.34813
        0.333  0.94513 -0.26915  0.18519  0.63598
        0.400  0.94816 -0.25255  0.19289  0.69862
@@ -9560,7 +9560,7 @@ newanim tlknorm a_ba_non_combat
   node trimesh rforearm_g
     parent rbicep_g
     orientationkey 10
-       0.000  0.91619  0.39397  0.07362  0.14353
+       0.000  0.91617  0.39396  0.07362  0.14353
        0.133  0.91278  0.40098  0.07775  0.14090
        0.200  0.91610  0.39394  0.07466  0.14356
        0.800  0.93909  0.33987  0.05109  0.16786
@@ -10238,7 +10238,7 @@ newanim tlkforce a_ba_non_combat
        0.067  0.02920  0.37997 -0.92454  0.19586
        0.333  0.01427  0.79104 -0.61163  0.14233
        0.533 -0.31808  0.80315 -0.50377  0.13548
-       0.600 -0.51376  0.64690 -0.56352  0.15212
+       0.600 -0.51377  0.64691 -0.56353  0.15212
        0.667 -0.51702  0.81334 -0.26678  0.12394
        0.900  0.99812  0.04120 -0.04530  1.17559
        1.000  0.98463  0.17335 -0.02107  1.24157
@@ -16514,7 +16514,7 @@ newanim drwleft a_ba_non_combat
        0.300  0.98554  0.16943  0.00243  0.34078
        0.433  0.99273  0.11859  0.02069  0.48581
        0.500  0.99421  0.10404  0.02703  0.54620
-       0.667  0.91619  0.39397  0.07362  0.14353
+       0.667  0.91617  0.39396  0.07362  0.14353
     endlist
   endnode
   node trimesh rhand_g
@@ -18153,7 +18153,7 @@ newanim pausewalkr a_ba_non_combat
     orientationkey 6
        0.000  0.99783 -0.01578  0.06398  0.09774
        0.067  0.61621 -0.58457  0.52773  0.04450
-       0.200 -0.29355  0.03962  0.95521  0.05104
+       0.200 -0.29352  0.03962  0.95513  0.05104
        0.300 -0.91347  0.23270  0.33380  0.27746
        0.433  0.36751  0.92990 -0.01572  0.15526
        0.500  0.99783 -0.01578  0.06398  0.09774
