@@ -1,15 +1,15 @@
 # NeverBlender 2.8.48|Blender 3.3.9|2024-05-08
 filedependancy icon_generator.blend
-newmodel wdbcn_b_044
-setsupermodel wdbcn_b_044 null
+newmodel wdbcn_b_062
+setsupermodel wdbcn_b_062 null
 classification UNKNOWN
 setanimationscale 1.0
-beginmodelgeom wdbcn_b_044
-node dummy wdbcn_b_044
+beginmodelgeom wdbcn_b_062
+node dummy wdbcn_b_062
   parent null
 endnode
 node trimesh Linea03.001
-  parent wdbcn_b_044
+  parent wdbcn_b_062
   position -0.00291 -0.26553 -0.00109
   orientation  1.00000  0.00000 -0.00000  3.08782
   wirecolor 0.87 0.87 0.87
@@ -55,29 +55,29 @@ node trimesh Linea03.001
      0.00270  0.06044  0.01822
      0.00270  0.06240 -0.01381
   tverts 23
-     0.8292  0.5474  0
-     0.8381  0.5671  0
-     0.8269  0.5660  0
-     0.8219  0.5480  0
-     0.7838  0.5467  0
-     0.7911  0.5474  0
-     0.7822  0.5671  0
-     0.7710  0.5682  0
-     0.7939  0.5193  0
-     0.8492  0.5682  0
-     0.8244  0.5982  0
-     0.8172  0.5907  0
-     0.8028  0.5908  0
-     0.7955  0.5983  0
-     0.8100  0.5983  0
-     0.8263  0.5193  0
-     0.8365  0.5467  0
-     0.7984  0.5480  0
-     0.7933  0.5660  0
-     0.8100  0.5832  0
-     0.8245  0.6709  0
-     0.8100  0.6709  0
-     0.7956  0.6709  0
+     0.7042  0.5474  0
+     0.7131  0.5671  0
+     0.7019  0.5660  0
+     0.6969  0.5480  0
+     0.6588  0.5467  0
+     0.6661  0.5474  0
+     0.6572  0.5671  0
+     0.6460  0.5682  0
+     0.6689  0.5193  0
+     0.7242  0.5682  0
+     0.6994  0.5982  0
+     0.6922  0.5907  0
+     0.6778  0.5908  0
+     0.6705  0.5983  0
+     0.6850  0.5983  0
+     0.7013  0.5193  0
+     0.7115  0.5467  0
+     0.6734  0.5480  0
+     0.6683  0.5660  0
+     0.6850  0.5832  0
+     0.6995  0.6709  0
+     0.6850  0.6709  0
+     0.6706  0.6709  0
   faces 58
     15 12 19 1   0  1  2 0
     19 16 15 1   2  3  0 0
@@ -138,5 +138,5 @@ node trimesh Linea03.001
     30 27 29 4  21 22 21 0
     29 28 30 4  21 20 21 0
 endnode
-endmodelgeom wdbcn_b_044
-donemodel wdbcn_b_044
+endmodelgeom wdbcn_b_062
+donemodel wdbcn_b_062
