@@ -1,0 +1,663 @@
+# NeverBlender 4.0.3|Blender 4.0.2|2024-05-08
+filedependancy Placeables.blend
+newmodel plc_a_coalpile
+setsupermodel plc_a_coalpile null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom plc_a_coalpile
+node dummy plc_a_coalpile
+  parent null
+endnode
+node dummy a_coalpile_hand
+  parent plc_a_coalpile
+  position  0.00399 -0.50520  0.93440
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Coal_head
+  parent plc_a_coalpile
+  position  0.11287 -0.00741  1.07484
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy a_coalpile_head_hit
+  parent plc_a_coalpile
+  position -0.20287  0.17431  0.25884
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy a_coalpile_impact
+  parent plc_a_coalpile
+  position  0.32506 -0.31201  0.30161
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy a_coalpile_ground
+  parent plc_a_coalpile
+  position -0.00363  0.00699  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node emitter fire!81
+  parent plc_a_coalpile
+  position  0.08523  0.01098  0.28420
+  orientation  1.00000  0.00000  0.00000  1.57080
+  xsize 100.00
+  ysize 99.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 2.50
+  mass 0.09
+  velocity 2.00
+  randvel 0.50
+  particlerot 0.50
+  spread 2.97
+  splat 0
+  affectedbywind 0
+  colorstart 0.47 0.45 0.41
+  colorend 0.82 0.80 0.75
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 4.00
+  sizeend 1.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 1
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.20
+  blastlength 1.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter ChunkyCoal130
+  parent plc_a_coalpile
+  position  0.08523  0.01098  0.46446
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 89.00
+  ysize 40.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 0.75
+  mass 3.00
+  velocity 8.00
+  randvel 0.30
+  particlerot 2.90
+  spread 1.22
+  splat 0
+  affectedbywind 0
+  colorstart 0.14 0.12 0.09
+  colorend 0.19 0.18 0.13
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.50
+  blurlength 10.00
+  deadspace 0.00
+  chunkName plc_chunk_s02
+  texture fxpa_cloud02
+  twosidedtex 1
+  m_istinted 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter ChunkyCoal131
+  parent plc_a_coalpile
+  position  0.08523  0.01098  0.35824
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 89.00
+  ysize 40.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 0.75
+  mass 3.00
+  velocity 8.00
+  randvel 0.30
+  particlerot 5.00
+  spread 1.22
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.50
+  blurlength 10.00
+  deadspace 0.00
+  chunkName plc_chunk_s01
+  texture fxpa_cloud02
+  twosidedtex 0
+  m_istinted 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node trimesh damage41
+  parent plc_a_coalpile
+  position  0.12881 -0.00958  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  bitmap null
+  shininess 24
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  render 0
+  shadow 0
+  tilefade 0
+  verts 12
+    -0.19542 -0.18622  0.00000
+    -0.19542  0.18622  0.00000
+     0.19542  0.18622  0.00000
+     0.19542 -0.18622  0.00000
+    -0.19542 -0.18622  0.50000
+     0.19542 -0.18622  0.50000
+     0.19542  0.18622  0.50000
+    -0.19542  0.18622  0.50000
+     0.10394 -0.09905  0.25000
+    -0.10394 -0.09905  0.25000
+     0.10394  0.09905  0.25000
+    -0.10394  0.09905  0.25000
+  faces 20
+     0  1  2 1  0 0 0 0
+     2  3  0 1  0 0 0 0
+     4  5  6 1  0 0 0 0
+     6  7  4 1  0 0 0 0
+     0  3  8 2  0 0 0 0
+     8  9  0 2  0 0 0 0
+     9  8  5 2  0 0 0 0
+     5  4  9 2  0 0 0 0
+     3  2 10 4  0 0 0 0
+    10  8  3 4  0 0 0 0
+     8 10  6 4  0 0 0 0
+     6  5  8 4  0 0 0 0
+     2  1 11 2  0 0 0 0
+    11 10  2 2  0 0 0 0
+    10 11  7 2  0 0 0 0
+     7  6 10 2  0 0 0 0
+     1  0  9 4  0 0 0 0
+     9 11  1 4  0 0 0 0
+    11  9  4 4  0 0 0 0
+     4  7 11 4  0 0 0 0
+endnode
+node trimesh Coalpile
+  parent damage41
+  position -0.81253 -0.16019  0.02553
+  orientation -0.70662 -0.70662  0.06783  0.00618
+  wirecolor 1.00 1.00 1.00
+  bitmap plc_a_coalpile
+  shininess 1
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  render 1
+  shadow 1
+  tilefade 0
+  verts 30
+     0.07908 -0.53535 -0.02506
+     1.70910 -0.66522 -0.03274
+     0.19348  0.81967  0.00619
+     1.82020  0.93757 -0.02623
+     0.32650 -0.82194 -0.02739
+     0.43088  1.00300 -0.01988
+     1.26455 -1.02790 -0.03238
+     1.45507  1.30723 -0.02302
+    -0.05414  0.77961 -0.01874
+     0.52835  0.63225  0.37452
+     1.26705  0.78322  0.37196
+     2.03384  0.58403 -0.02870
+    -0.12282  0.24623 -0.02077
+     2.02531  0.22814 -0.03022
+     0.57041  0.25699  0.56436
+     1.26730  0.23150  0.48042
+     1.72261 -0.29655 -0.03119
+     0.03250 -0.15141 -0.02318
+     0.42468 -0.36809  0.14099
+     1.26657 -0.32279  0.36401
+     0.86801 -0.47510  0.38218
+     0.90737  0.78151  0.44954
+     0.72971 -1.09695 -0.03035
+     0.95808  0.23418  0.64609
+     0.74893  1.35804 -0.01972
+     1.54454 -0.29754  0.21433
+     1.63008  0.68873  0.23797
+     1.62436  0.22945  0.34846
+     0.23620  0.70616  0.17728
+     0.23625  0.24195  0.29399
+  tverts 36
+     0.0077  0.2627  0
+     0.0684  0.1342  0
+     0.1615  0.2945  0
+     0.2289  0.8694  0
+     0.3023  0.6775  0
+     0.4428  0.7287  0
+     0.6235  0.9938  0
+     0.5712  0.7576  0
+     0.7134  0.7637  0
+     0.4879  0.5211  0
+     0.6126  0.5589  0
+     0.8921  0.7862  0
+     0.9328  0.6607  0
+     0.0464  0.7623  0
+     0.1740  0.7200  0
+     0.1371  0.7895  0
+     0.7434  0.5987  0
+     0.9143  0.4339  0
+     0.0000  0.5658  0
+     0.1774  0.5404  0
+     0.6944  0.3695  0
+     0.6567  0.0062  0
+     0.8315  0.1102  0
+     0.0223  0.4072  0
+     0.9127  0.4289  0
+     0.8029  0.4100  0
+     0.9328  0.2949  0
+     0.3600  0.9924  0
+     0.5851  0.2664  0
+     0.4189  0.1824  0
+     0.3379  0.5229  0
+     0.7840  0.8946  0
+     0.1427  0.7971  0
+     0.1771  0.7268  0
+     0.4735  0.0083  0
+     0.4703  0.4645  0
+  faces 42
+     0  4 18 1   0  1  2 0
+     5  9 21 1   3  4  5 0
+     7 10 26 1   6  7  8 0
+    10 23 15 1   7  9 10 0
+    11 26 13 1  11  8 12 0
+     8 28  2 1  13 14 15 0
+    13 27 16 1  12 16 17 0
+    12 29  8 1  18 19 13 0
+    15 23 19 2  10  9 20 0
+    19 22  6 1  20 21 22 0
+    17 18 29 1  23  2 19 0
+    16 25  1 1  24 25 26 0
+    24 21 10 1  27  5  7 0
+    20 23 18 1  28  9 29 0
+    22 20 18 2  21 28 29 0
+    23 21 14 1   9  5 30 0
+    27 26 15 1  16  8 10 0
+     6 25 19 2  22 25 20 0
+     3 26 11 2  31  8 11 0
+    25 27 19 1  25 16 20 0
+    29 18 14 2  19  2 30 0
+    28 29  9 1  14 19  4 0
+     2 28  5 2  32 33  3 0
+    18  4 22 4  29 34 21 0
+    18 23 14 4   2 35 30 0
+    10  7 24 2   7  6 27 0
+    26  3  7 4   8 31  6 0
+    21 24  5 2   5 27  3 0
+     9 29 14 4   4 19 30 0
+     5 28  9 4   3 33  4 0
+    18 17  0 2   2 23  0 0
+    29 12 17 2  19 18 23 0
+    19 23 20 4  20  9 28 0
+    22 19 20 8  21 20 28 0
+    14 21  9 2  30  5  4 0
+    23 10 21 2   9  7  5 0
+    15 26 10 2  10  8  7 0
+    19 27 15 4  20 16 10 0
+    13 26 27 2  12  8 16 0
+    16 27 25 2  17 16 25 0
+     1 25  6 4  26 25 22 0
+     8 29 28 2  13 19 14 0
+endnode
+node trimesh Coalscatter
+  parent Coalpile
+  position  0.99033  0.17778 -0.02592
+  orientation  0.70662  0.70662 -0.06783  0.00618
+  wirecolor 1.00 1.00 1.00
+  bitmap plc_a_coalpile
+  shininess 1
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  render 1
+  shadow 0
+  tilefade 0
+  verts 9
+    -1.63870 -0.64882  0.00602
+     0.42265 -1.83766 -0.00000
+    -0.52815  1.66227  0.01199
+     1.63373  0.52695 -0.00000
+    -1.28498  0.59471  0.00771
+     1.06587 -0.65663  0.00000
+    -0.62875 -1.31398  0.00000
+     0.64810  1.20596  0.00162
+     0.13479 -0.15241  0.05727
+  tverts 9
+     0.2693  0.1064  0
+     0.3284  0.1684  0
+     0.2702  0.1698  0
+     0.3294  0.0466  0
+     0.2700  0.0447  0
+     0.2074  0.0470  0
+     0.2051  0.1079  0
+     0.2074  0.1675  0
+     0.3289  0.1080  0
+  faces 8
+    8 3 7 1  0 1 2 0
+    1 8 6 1  3 0 4 0
+    0 8 4 1  5 0 6 0
+    8 2 4 2  0 7 6 0
+    8 5 3 2  0 8 1 0
+    1 5 8 4  3 8 0 0
+    0 6 8 2  5 4 0 0
+    8 7 2 4  0 2 7 0
+endnode
+endmodelgeom plc_a_coalpile
+
+# ANIM ASCII
+newanim default plc_a_coalpile
+  length 0.0
+  transtime 0.25
+  animroot plc_a_coalpile
+  node dummy plc_a_coalpile
+    parent null
+  endnode
+  node dummy a_coalpile_hand
+    parent plc_a_coalpile
+  endnode
+  node dummy Coal_head
+    parent plc_a_coalpile
+  endnode
+  node dummy a_coalpile_head_hit
+    parent plc_a_coalpile
+  endnode
+  node dummy a_coalpile_impact
+    parent plc_a_coalpile
+  endnode
+  node dummy a_coalpile_ground
+    parent plc_a_coalpile
+  endnode
+  node emitter fire!81
+    parent plc_a_coalpile
+  endnode
+  node emitter ChunkyCoal130
+    parent plc_a_coalpile
+  endnode
+  node emitter ChunkyCoal131
+    parent plc_a_coalpile
+  endnode
+  node trimesh damage41
+    parent plc_a_coalpile
+    positionkey 1
+       0.000  0.12881 -0.00958  0.00000
+    endlist
+    orientationkey 1
+       0.000  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node trimesh Coalpile
+    parent damage41
+  endnode
+  node trimesh Coalscatter
+    parent Coalpile
+  endnode
+  node pwk plc_a_coalpile_pwk
+    parent plc_a_coalpile
+  endnode
+  node dummy ile_pwk_use01
+    parent plc_a_coalpile_pwk
+  endnode
+  node dummy ile_pwk_use02
+    parent plc_a_coalpile_pwk
+  endnode
+  node trimesh ile_wg
+    parent plc_a_coalpile_pwk
+  endnode
+doneanim default plc_a_coalpile
+
+newanim damage plc_a_coalpile
+  length 0.133
+  transtime 0.0
+  animroot plc_a_coalpile
+  node dummy plc_a_coalpile
+    parent null
+  endnode
+  node dummy a_coalpile_hand
+    parent plc_a_coalpile
+  endnode
+  node dummy Coal_head
+    parent plc_a_coalpile
+  endnode
+  node dummy a_coalpile_head_hit
+    parent plc_a_coalpile
+  endnode
+  node dummy a_coalpile_impact
+    parent plc_a_coalpile
+  endnode
+  node dummy a_coalpile_ground
+    parent plc_a_coalpile
+  endnode
+  node emitter fire!81
+    parent plc_a_coalpile
+  endnode
+  node emitter ChunkyCoal130
+    parent plc_a_coalpile
+  endnode
+  node emitter ChunkyCoal131
+    parent plc_a_coalpile
+  endnode
+  node trimesh damage41
+    parent plc_a_coalpile
+    positionkey 3
+       0.000  0.12881 -0.00958  0.00000
+       0.033  0.12881 -0.00958  0.02446
+       0.133  0.12881 -0.00958  0.00000
+    endlist
+    orientationkey 4
+       0.000  0.00000  1.00000  0.00000  0.00000
+       0.033 -0.37134  0.92848 -0.00810  0.04699
+       0.100  0.59998 -0.80001 -0.01047  0.04363
+       0.133  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node trimesh Coalpile
+    parent damage41
+  endnode
+  node trimesh Coalscatter
+    parent Coalpile
+  endnode
+  node pwk plc_a_coalpile_pwk
+    parent plc_a_coalpile
+  endnode
+  node dummy ile_pwk_use01
+    parent plc_a_coalpile_pwk
+  endnode
+  node dummy ile_pwk_use02
+    parent plc_a_coalpile_pwk
+  endnode
+  node trimesh ile_wg
+    parent plc_a_coalpile_pwk
+  endnode
+doneanim damage plc_a_coalpile
+
+newanim die plc_a_coalpile
+  length 0.5
+  transtime 0.0
+  animroot plc_a_coalpile
+  event 0.033 detonate
+  event 0.033 detonate
+  event 0.033 detonate
+  node dummy plc_a_coalpile
+    parent null
+  endnode
+  node dummy a_coalpile_hand
+    parent plc_a_coalpile
+  endnode
+  node dummy Coal_head
+    parent plc_a_coalpile
+  endnode
+  node dummy a_coalpile_head_hit
+    parent plc_a_coalpile
+  endnode
+  node dummy a_coalpile_impact
+    parent plc_a_coalpile
+  endnode
+  node dummy a_coalpile_ground
+    parent plc_a_coalpile
+  endnode
+  node emitter fire!81
+    parent plc_a_coalpile
+  endnode
+  node emitter ChunkyCoal130
+    parent plc_a_coalpile
+  endnode
+  node emitter ChunkyCoal131
+    parent plc_a_coalpile
+  endnode
+  node trimesh damage41
+    parent plc_a_coalpile
+  endnode
+  node trimesh Coalpile
+    parent damage41
+    positionkey 4
+       0.000 -0.81253 -0.16019  0.02553
+       0.100 -0.81253 -0.16019  0.02553
+       0.433 -0.80639 -0.16632 -1.37935
+       0.500 -0.80639 -0.16632 -1.37935
+    endlist
+    orientationkey 4
+       0.000 -0.70662 -0.70662  0.06783  0.00618
+       0.100 -0.70662 -0.70662  0.06783  0.00618
+       0.433  0.98658  0.13578 -0.09072  0.29630
+       0.500  0.98658  0.13578 -0.09072  0.29630
+    endlist
+  endnode
+  node trimesh Coalscatter
+    parent Coalpile
+  endnode
+  node pwk plc_a_coalpile_pwk
+    parent plc_a_coalpile
+  endnode
+  node dummy ile_pwk_use01
+    parent plc_a_coalpile_pwk
+  endnode
+  node dummy ile_pwk_use02
+    parent plc_a_coalpile_pwk
+  endnode
+  node trimesh ile_wg
+    parent plc_a_coalpile_pwk
+  endnode
+doneanim die plc_a_coalpile
+
+newanim dead plc_a_coalpile
+  length 0.033
+  transtime 0.0
+  animroot plc_a_coalpile
+  node dummy plc_a_coalpile
+    parent null
+  endnode
+  node dummy a_coalpile_hand
+    parent plc_a_coalpile
+  endnode
+  node dummy Coal_head
+    parent plc_a_coalpile
+  endnode
+  node dummy a_coalpile_head_hit
+    parent plc_a_coalpile
+  endnode
+  node dummy a_coalpile_impact
+    parent plc_a_coalpile
+  endnode
+  node dummy a_coalpile_ground
+    parent plc_a_coalpile
+  endnode
+  node emitter fire!81
+    parent plc_a_coalpile
+  endnode
+  node emitter ChunkyCoal130
+    parent plc_a_coalpile
+  endnode
+  node emitter ChunkyCoal131
+    parent plc_a_coalpile
+  endnode
+  node trimesh damage41
+    parent plc_a_coalpile
+  endnode
+  node trimesh Coalpile
+    parent damage41
+    positionkey 2
+       0.000 -0.80639 -0.16632 -1.37935
+       0.033 -0.80639 -0.16632 -1.37935
+    endlist
+    orientationkey 2
+       0.000  0.98658  0.13578 -0.09072  0.29630
+       0.033  0.98658  0.13578 -0.09072  0.29630
+    endlist
+  endnode
+  node trimesh Coalscatter
+    parent Coalpile
+  endnode
+  node pwk plc_a_coalpile_pwk
+    parent plc_a_coalpile
+  endnode
+  node dummy ile_pwk_use01
+    parent plc_a_coalpile_pwk
+  endnode
+  node dummy ile_pwk_use02
+    parent plc_a_coalpile_pwk
+  endnode
+  node trimesh ile_wg
+    parent plc_a_coalpile_pwk
+  endnode
+doneanim dead plc_a_coalpile
+
+donemodel plc_a_coalpile
