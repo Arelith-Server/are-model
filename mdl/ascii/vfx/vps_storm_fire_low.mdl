@@ -1,0 +1,167 @@
+# NeverBlender 2.8.48|Blender 3.3.9|2024-05-06
+filedependancy unknown
+newmodel vps_storm_fire
+setsupermodel vps_storm_fire null
+classification EFFECT
+setanimationscale 1.0
+beginmodelgeom vps_storm_fire
+node dummy vps_storm_fire
+  parent null
+endnode
+node emitter AuraEmitter04
+  parent vps_storm_fire
+  position  0.00000  0.00000  0.01336
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 0.00
+  ysize 0.00
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  spawntype 0
+  renderorder 0
+  loop 0
+  birthrate 1
+  lifeexp -1.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.08
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 0.50
+  alphaend 0.50
+  sizestart 11.00
+  sizeend 11.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_ring_fire
+  twosidedtex 0
+  m_istinted 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  framestart 0
+  frameend 0
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+endmodelgeom vps_storm_fire
+
+# ANIM ASCII
+newanim impact vps_storm_fire
+  length 0.3
+  transtime 0.0
+  animroot vps_storm_fire
+  node dummy vps_storm_fire
+    parent null
+  endnode
+  node emitter AuraEmitter04
+    parent vps_storm_fire
+    alphastartkey 1
+       0.300 0.50
+    endlist
+    alphaendkey 1
+       0.300 0.50
+    endlist
+    sizestartkey 4
+       0.000 0.00
+       0.167 11.00
+       0.200 11.00
+       0.300 11.00
+    endlist
+    sizeendkey 4
+       0.000 0.00
+       0.167 11.00
+       0.200 11.00
+       0.300 11.00
+    endlist
+  endnode
+doneanim impact vps_storm_fire
+
+newanim duration vps_storm_fire
+  length 1.0
+  transtime 0.0
+  animroot vps_storm_fire
+  node dummy vps_storm_fire
+    parent null
+  endnode
+  node emitter AuraEmitter04
+    parent vps_storm_fire
+    alphastartkey 5
+       0.000 0.50
+       0.033 0.50
+       0.433 0.50
+       0.967 0.50
+       1.000 0.50
+    endlist
+    alphaendkey 5
+       0.000 0.50
+       0.033 0.50
+       0.433 0.50
+       0.967 0.50
+       1.000 0.50
+    endlist
+    sizestartkey 4
+       0.000 11.00
+       0.033 11.00
+       0.967 11.00
+       1.000 11.00
+    endlist
+    sizeendkey 4
+       0.000 11.00
+       0.033 11.00
+       0.967 11.00
+       1.000 11.00
+    endlist
+  endnode
+doneanim duration vps_storm_fire
+
+newanim cessation vps_storm_fire
+  length 2.0
+  transtime 0.0
+  animroot vps_storm_fire
+  event 0.2 detonate
+  node dummy vps_storm_fire
+    parent null
+  endnode
+  node emitter AuraEmitter04
+    parent vps_storm_fire
+    alphastartkey 2
+       0.000 0.50
+       0.200 0.50
+    endlist
+    alphaendkey 2
+       0.000 0.50
+       0.200 0.50
+    endlist
+    sizestartkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+    sizeendkey 5
+       0.000 1.00
+       0.200 1.00
+       0.233 1.00
+       0.533 0.00
+       0.667 0.00
+    endlist
+  endnode
+doneanim cessation vps_storm_fire
+
+donemodel vps_storm_fire
