@@ -1,40 +1,40 @@
 # NeverBlender 4.0.3|Blender 4.0.2|2024-05-19
 filedependancy 002_anvil.blend
-newmodel PLC_SteelAnv
-setsupermodel PLC_SteelAnv null
+newmodel plc_steelanv
+setsupermodel plc_steelanv null
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom PLC_SteelAnv
-node dummy PLC_SteelAnv
+beginmodelgeom plc_steelanv
+node dummy plc_steelanv
   parent null
 endnode
 node dummy H06_hand
-  parent PLC_SteelAnv
+  parent plc_steelanv
   position  0.00399 -0.50520  0.64958
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy H06_head
-  parent PLC_SteelAnv
+  parent plc_steelanv
   position  0.00399  0.01083  1.44491
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy H06_head_hit
-  parent PLC_SteelAnv
+  parent plc_steelanv
   position  0.00399  0.01083  0.96344
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy H06_impact
-  parent PLC_SteelAnv
+  parent plc_steelanv
   position  0.00399  0.01100  0.58331
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy H06_ground
-  parent PLC_SteelAnv
+  parent plc_steelanv
   position -0.00363  0.00699  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node trimesh damage08
-  parent PLC_SteelAnv
+  parent plc_steelanv
   position  0.01475  0.01450  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -421,7 +421,7 @@ node trimesh 001_anvil_lopoly
     49 50 51 1  122   8  10 0
 endnode
 node emitter ChunkyWood70
-  parent PLC_SteelAnv
+  parent plc_steelanv
   position  0.01318 -0.02534  0.71294
   orientation  0.00000  1.00000  0.00000  0.00000
   xsize 89.00
@@ -470,7 +470,7 @@ node emitter ChunkyWood70
   inherit_part 0
 endnode
 node emitter fire!42
-  parent PLC_SteelAnv
+  parent plc_steelanv
   position  0.01318 -0.02534  0.53267
   orientation  1.00000  0.00000  0.00000  1.57080
   xsize 100.00
@@ -519,7 +519,7 @@ node emitter fire!42
   inherit_part 0
 endnode
 node emitter ChunkyWood71
-  parent PLC_SteelAnv
+  parent plc_steelanv
   position  0.01318 -0.02534  0.60672
   orientation  0.00000  1.00000  0.00000  0.00000
   xsize 89.00
@@ -567,33 +567,33 @@ node emitter ChunkyWood71
   inherit_local 0
   inherit_part 0
 endnode
-endmodelgeom PLC_SteelAnv
+endmodelgeom plc_steelanv
 
 # ANIM ASCII
-newanim default PLC_SteelAnv
+newanim default plc_steelanv
   length 0.0
   transtime 0.25
-  animroot PLC_SteelAnv
-  node dummy PLC_SteelAnv
+  animroot plc_steelanv
+  node dummy plc_steelanv
     parent null
   endnode
   node dummy H06_hand
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_head
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_head_hit
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_impact
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_ground
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node trimesh damage08
-    parent PLC_SteelAnv
+    parent plc_steelanv
     positionkey 1
        0.000  0.01475  0.01450  0.00000
     endlist
@@ -605,40 +605,40 @@ newanim default PLC_SteelAnv
     parent damage08
   endnode
   node emitter ChunkyWood70
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node emitter fire!42
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node emitter ChunkyWood71
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
-doneanim default PLC_SteelAnv
+doneanim default plc_steelanv
 
-newanim damage PLC_SteelAnv
+newanim damage plc_steelanv
   length 0.133
   transtime 0.0
-  animroot PLC_SteelAnv
-  node dummy PLC_SteelAnv
+  animroot plc_steelanv
+  node dummy plc_steelanv
     parent null
   endnode
   node dummy H06_hand
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_head
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_head_hit
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_impact
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_ground
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node trimesh damage08
-    parent PLC_SteelAnv
+    parent plc_steelanv
     positionkey 3
        0.000  0.01475  0.01450  0.00000
        0.033  0.01475  0.01450  0.02446
@@ -655,43 +655,43 @@ newanim damage PLC_SteelAnv
     parent damage08
   endnode
   node emitter ChunkyWood70
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node emitter fire!42
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node emitter ChunkyWood71
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
-doneanim damage PLC_SteelAnv
+doneanim damage plc_steelanv
 
-newanim die PLC_SteelAnv
+newanim die plc_steelanv
   length 0.167
   transtime 0.0
-  animroot PLC_SteelAnv
+  animroot plc_steelanv
   event 0.033 detonate
   event 0.033 detonate
   event 0.033 detonate
-  node dummy PLC_SteelAnv
+  node dummy plc_steelanv
     parent null
   endnode
   node dummy H06_hand
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_head
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_head_hit
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_impact
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_ground
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node trimesh damage08
-    parent PLC_SteelAnv
+    parent plc_steelanv
     positionkey 1
        0.000  0.01475  0.01450  0.00000
     endlist
@@ -703,40 +703,40 @@ newanim die PLC_SteelAnv
     parent damage08
   endnode
   node emitter ChunkyWood70
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node emitter fire!42
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node emitter ChunkyWood71
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
-doneanim die PLC_SteelAnv
+doneanim die plc_steelanv
 
-newanim dead PLC_SteelAnv
+newanim dead plc_steelanv
   length 0.033
   transtime 0.0
-  animroot PLC_SteelAnv
-  node dummy PLC_SteelAnv
+  animroot plc_steelanv
+  node dummy plc_steelanv
     parent null
   endnode
   node dummy H06_hand
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_head
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_head_hit
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_impact
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node dummy H06_ground
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node trimesh damage08
-    parent PLC_SteelAnv
+    parent plc_steelanv
     positionkey 2
        0.000  0.01475  0.01450 -3.77999
        0.033  0.01475  0.01450 -3.77999
@@ -746,14 +746,14 @@ newanim dead PLC_SteelAnv
     parent damage08
   endnode
   node emitter ChunkyWood70
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node emitter fire!42
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
   node emitter ChunkyWood71
-    parent PLC_SteelAnv
+    parent plc_steelanv
   endnode
-doneanim dead PLC_SteelAnv
+doneanim dead plc_steelanv
 
-donemodel PLC_SteelAnv
+donemodel plc_steelanv
