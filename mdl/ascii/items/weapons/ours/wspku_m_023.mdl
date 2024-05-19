@@ -1,15 +1,15 @@
-# NeverBlender 4.0.0|Blender 4.0.2|2024-05-03
+# NeverBlender 4.0.0|Blender 4.0.2|2024-05-19
 filedependancy newswordandstuff.blend
-newmodel wspku_m_23
-setsupermodel wspku_m_23 null
+newmodel wspku_m_023
+setsupermodel wspku_m_023 null
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom wspku_m_23
-node dummy wspku_m_23
+beginmodelgeom wspku_m_023
+node dummy wspku_m_023
   parent null
 endnode
 node trimesh HighPoly_Plane.011
-  parent wspku_m_23
+  parent wspku_m_023
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -368,5 +368,5 @@ node trimesh HighPoly_Plane.011
     76 83 52 1  64 69 60 0
     53 93 86 1  63 66 65 0
 endnode
-endmodelgeom wspku_m_23
-donemodel wspku_m_23
+endmodelgeom wspku_m_023
+donemodel wspku_m_023
