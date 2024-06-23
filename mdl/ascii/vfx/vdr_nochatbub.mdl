@@ -1,0 +1,30 @@
+#MAXMODEL ASCII
+# model: vdr_nochatbub
+filedependancy vdr_nochatbub.max
+newmodel vdr_nochatbub
+setsupermodel vdr_nochatbub NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vdr_nochatbub
+node dummy vdr_nochatbub
+  parent NULL
+endnode
+node dummy Dummy01
+  parent vdr_nochatbub
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom vdr_nochatbub
+
+#MAXANIM ASCII
+newanim duration vdr_nochatbub
+  length 1.0
+  transtime 0
+  animroot vdr_nochatbub
+  node dummy vdr_nochatbub
+    parent NULL
+  endnode
+doneanim duration vdr_nochatbub
+
+donemodel vdr_nochatbub
