@@ -1,0 +1,147 @@
+filedependancy Unknown
+newmodel plc_smokevol
+setsupermodel plc_smokevol NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom plc_smokevol
+node dummy plc_smokevol
+  parent NULL
+endnode
+node emitter fire!03
+  parent plc_smokevol
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+    colorStart 0.898039 0.890196 0.890196
+    colorEnd 1 1 1
+    alphaStart 0.5
+    alphaEnd 0
+    sizeStart 1
+    sizeEnd 6
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 5
+    spawnType 0
+    lifeExp 10
+    mass 0
+    spread 1.0472
+    particleRot 0.2
+    velocity 0.5
+    randvel 0.4
+    fps 10
+    random 1
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 40
+    ysize 40
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Normal
+    update_sel 1
+    render_sel 4
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 1
+    m_isTinted 1
+    renderorder 0
+    Splat 0
+endnode
+node trimesh Rectangle141
+  parent plc_smokevol
+  position 0.0663644 -0.048646 0
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  render 0
+  Shadow 0
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 8
+    -0.3 -0.3 0.322903
+    0.3 -0.3 0.322903
+    0.3 0.3 0.322903
+    -0.3 0.3 0.322903
+    -0.3 -0.3 0
+    0.3 -0.3 0
+    0.3 0.3 0
+    -0.3 0.3 0
+  faces 10
+    0 1 2  1  0 0 0  0
+    3 0 2  1  0 0 0  0
+    4 5 1  1  0 0 0  0
+    1 0 4  1  0 0 0  0
+    5 6 2  1  0 0 0  0
+    2 1 5  1  0 0 0  0
+    7 4 0  1  0 0 0  0
+    0 3 7  1  0 0 0  0
+    6 7 3  1  0 0 0  0
+    3 2 6  1  0 0 0  0
+  tverts 1
+    0 0 0
+endnode
+node dummy smokewht_hand
+  parent plc_smokevol
+  position 0.00398437 -0.505195 0.587124
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+endnode
+node dummy smokewht_head
+  parent plc_smokevol
+  position 0 0 0.861455
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+endnode
+node dummy smokewht_head_hit
+  parent plc_smokevol
+  position 0 0 0.379977
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+endnode
+node dummy smokewht_impact
+  parent plc_smokevol
+  position 0 0 0.231613
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+endnode
+node dummy smokewht_ground
+  parent plc_smokevol
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+endnode
+endmodelgeom plc_smokevol
+donemodel plc_smokevol
