@@ -13,10 +13,10 @@ node emitter fire!03
   position 0 0 0
   orientation 0 0 0 0
   wirecolor 0.777344 0.777344 0.777344
-    colorStart 0.898039 0.890196 0.890196
-    colorEnd 1 1 1
-    alphaStart 0.5
-    alphaEnd 0
+	colorStart 0.223529 0.223529 0.223529
+	colorEnd 0.513726 0.513726 0.513726
+	alphaStart 0.7
+	alphaEnd 0.1
     sizeStart 1
     sizeEnd 6
     sizeStart_y 0
@@ -66,11 +66,11 @@ node emitter fire!03
     drag 0
     grav 0
     threshold 0
-    texture fxpa_smoke01
+	texture fxpa_mist
     xgrid 4
     ygrid 4
     affectedByWind 1
-    m_isTinted 1
+    m_isTinted 0
     renderorder 0
     Splat 0
 endnode
