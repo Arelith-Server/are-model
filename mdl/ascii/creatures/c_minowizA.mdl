@@ -526,6 +526,11 @@ node trimesh lforearm_g
   position -0.59105 -0.05031 0.0221
   orientation 0 0 0 0
 endnode
+node dummy lforearm
+  parent lforearm_g
+  position -0.18796  0.02946 -0.01960
+  orientation  0.00000  1.00000  0.00000  1.57080
+endnode
 node trimesh lhand_g
   parent lforearm_g
   ambient 1 1 1
