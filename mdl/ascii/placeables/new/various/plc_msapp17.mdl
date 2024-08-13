@@ -1,4 +1,4 @@
-# Exported from NeverBlender 2.8.37 - Monday, 2023-09-18
+# NeverBlender 4.0.2|Blender 4.0.0|2024-08-13
 filedependancy unknown
 newmodel plc_msapp17
 setsupermodel plc_msapp17 null
@@ -13,14 +13,17 @@ node trimesh SpellBasinBody
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.11 0.11 0.11
+  bitmap ttu01_drkstone
+  texture1 null
+  texture2 null
+  shininess 10
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
-  specular 0.5 0.5 0.5
+  specular 0.50 0.50 0.50
   selfillumcolor 0.00 0.00 0.00
-  bitmap ttu01_drkstone
-  shininess 10
   render 1
   shadow 1
+  tilefade 0
   verts 834
     -0.20596 -0.20226  0.82302
      0.24227 -0.68216  1.08634
@@ -3466,14 +3469,17 @@ node trimesh SpellBasinLiquid
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  ambient 0.25097999 0.360783994 0.631372988
-  diffuse 0.25097999 0.360783994 0.631372988
+  bitmap mtp_water01
+  texture1 null
+  texture2 null
+  shininess 10
+  ambient 0.25 0.36 0.63
+  diffuse 0.25 0.36 0.63
   specular 0.00 0.00 0.00
   selfillumcolor 0.40 0.40 0.50
-  bitmap mtp_water01
-  shininess 10
   render 1
   shadow 0
+  tilefade 0
   verts 51
      0.58308  0.00031  1.05442
      0.57975 -0.06158  1.05442
@@ -3629,19 +3635,27 @@ node trimesh SpellBasinLiquid
     27 21 14 8  38  2 33 0
     21 44 24 8   2  7 18 0
 endnode
+node dummy msapp17_hand
+  parent plc_msapp17
+  position  0.00399 -1.18901  0.93440
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
 node trimesh SpellBasinLiquid1
   parent plc_msapp17
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  ambient 0.25097999 0.360783994 0.631372988
-  diffuse 0.25097999 0.360783994 0.631372988
+  bitmap plx_water01
+  texture1 null
+  texture2 null
+  shininess 10
+  ambient 0.25 0.36 0.63
+  diffuse 0.25 0.36 0.63
   specular 0.00 0.00 0.00
   selfillumcolor 0.40 0.40 0.50
-  bitmap plx_water01
-  shininess 10
   render 1
   shadow 0
+  tilefade 0
   verts 51
      0.58308  0.00031  1.04442
      0.57975 -0.06158  1.04442
@@ -3797,65 +3811,74 @@ node trimesh SpellBasinLiquid1
     27 21 14 8  38  2 33 0
     21 44 24 8   2  7 18 0
 endnode
+node dummy msapp17_head
+  parent plc_msapp17
+  position  0.00399  0.01083  1.61929
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
 node emitter OmenEmitter245
   parent plc_msapp17
-  p2p 0
-  p2p_sel 1
-  affectedByWind 0
-  m_isTinted 0
-  bounce 0
-  random 1
-  inherit 1
-  inheritvel 0
-  inherit_local 0
-  splat 0
-  inherit_part 0
-  renderorder 0
-  spawntype 0
+  position  0.01340  0.00658  1.06000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 50.00
+  ysize 50.00
   update Fountain
   render Billboard_to_World_Z
   blend Lighten
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 3.00
+  mass 0.00
+  velocity 0.00
+  randvel 0.00
+  particlerot 0.05
+  spread 0.00
+  splat 0
+  affectedbywind 0
+  colorstart 0.47 0.51 0.78
+  colorend 0.00 0.00 0.00
+  alphastart 0.00
+  alphaend 0.30
+  sizestart 0.55
+  sizeend 0.90
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
   texture plc_test
+  twosidedtex 0
+  m_istinted 0
   xgrid 1
   ygrid 1
-  loop 0
-  deadspace 0
-  twosidedtex 0
-  blastRadius 0
-  blastLength 0
-  position 0.0133963004 0.00657959003 1.06
-  orientation 0 0 0 0
-  xsize 50
-  ysize 50
-  threshold 0
-  combinetime 0
-  colorStart 0.474510014 0.50980401 0.776471019
-  colorEnd 0 0 0
-  alphaStart 0.0
-  alphaEnd 0.3
-  sizeStart 0.55
-  sizeEnd 0.9
-  sizeStart_y 0
-  sizeEnd_y 0
-  birthrate 3
-  lifeExp 3
-  mass 0
-  spread 0
-  particleRot 0.05
-  velocity 0
-  randvel 0
-  bounce_co 0
-  blurlength 10
   fps 16
-  frameStart 0
-  frameEnd 8
-  lightningDelay 0
-  lightningRadius 0
-  lightningScale 0
-  p2p_bezier2 0
-  p2p_bezier3 0
-  grav 0
-  drag 0
+  framestart 0
+  frameend 8
+  random 1
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node dummy msapp17_head_hit
+  parent plc_msapp17
+  position  0.00399  0.01083  1.04974
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy msapp17_impact
+  parent plc_msapp17
+  position  0.00399  0.01100  1.02420
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy msapp17_ground
+  parent plc_msapp17
+  position -0.00363  0.00699  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 endmodelgeom plc_msapp17
 donemodel plc_msapp17
