@@ -7062,4 +7062,230 @@ node dummy headconjure
 endnode
 endmodelgeom ad_shambler
 
+newanim plpause1 ad_shambler
+  length 2.0
+  transtime 0.4
+  animroot rootdummy
+  node dummy ad_shambler
+    parent null
+  endnode
+  node dummy rootdummy
+    parent ad_shambler
+  endnode
+  node trimesh torso_g
+    parent rootdummy
+  endnode
+  node trimesh neck_g
+    parent torso_g
+  endnode
+  node trimesh head_g
+    parent neck_g
+  endnode
+  node dummy head
+    parent head_g
+  endnode
+  node trimesh Lbicep_g
+    parent torso_g
+  endnode
+  node trimesh Lshoulder_g
+    parent Lbicep_g
+  endnode
+  node trimesh lforearm_g
+    parent Lbicep_g
+  endnode
+  node dummy lforearm
+    parent lforearm_g
+  endnode
+  node trimesh lhand_g
+    parent lforearm_g
+  endnode
+  node dummy lhand
+    parent lhand_g
+  endnode
+  node trimesh Rbicep_g
+    parent torso_g
+  endnode
+  node trimesh Rshoulder_g
+    parent Rbicep_g
+  endnode
+  node trimesh rforearm_g
+    parent Rbicep_g
+  endnode
+  node trimesh rhand_g
+    parent rforearm_g
+  endnode
+  node dummy rhand
+    parent rhand_g
+    orientationkey 2
+       0.000 -0.00000 -1.00000 -0.00000  1.58825
+       2.000 -0.00000 -1.00000  0.00000  1.58825
+    endlist
+  endnode
+  node trimesh Cloak_g
+    parent torso_g
+  endnode
+  node trimesh CL1_fg
+    parent Cloak_g
+  endnode
+  node trimesh CR1_fg
+    parent Cloak_g
+    orientationkey 13
+       0.000  0.00000  1.00000  0.00000  0.00000
+       0.167  0.00000  1.00000  0.00000  0.00000
+       0.333  0.00000  1.00000  0.00000  0.00000
+       0.500  0.00000  1.00000  0.00000  0.00000
+       0.667  0.00000  1.00000  0.00000  0.00000
+       0.833  0.00000  1.00000  0.00000  0.00000
+       1.000  0.00000  1.00000  0.00000  0.00000
+       1.167  0.00000  1.00000  0.00000  0.00000
+       1.333  0.00000  1.00000  0.00000  0.00000
+       1.500  0.00000  1.00000  0.00000  0.00000
+       1.667  0.00000  1.00000  0.00000  0.00000
+       1.833  0.00000  1.00000  0.00000  0.00000
+       2.000  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node trimesh cloak_shL
+    parent Cloak_g
+  endnode
+  node trimesh cloak_shR
+    parent Cloak_g
+    orientationkey 13
+       0.000  0.00000  1.00000  0.00000  0.00000
+       0.167  0.00000  1.00000  0.00000  0.00000
+       0.333  0.00000  1.00000  0.00000  0.00000
+       0.500  0.00000  1.00000  0.00000  0.00000
+       0.667  0.00000  1.00000  0.00000  0.00000
+       0.833  0.00000  1.00000  0.00000  0.00000
+       1.000  0.00000  1.00000  0.00000  0.00000
+       1.167  0.00000  1.00000  0.00000  0.00000
+       1.333  0.00000  1.00000  0.00000  0.00000
+       1.500  0.00000  1.00000  0.00000  0.00000
+       1.667  0.00000  1.00000  0.00000  0.00000
+       1.833  0.00000  1.00000  0.00000  0.00000
+       2.000  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node trimesh CL1_g
+    parent Cloak_g
+  endnode
+  node trimesh CL2_g
+    parent CL1_g
+  endnode
+  node trimesh CL3_g
+    parent CL2_g
+  endnode
+  node trimesh CL4_g
+    parent CL3_g
+  endnode
+  node trimesh CM1_g
+    parent Cloak_g
+  endnode
+  node trimesh CM2_g
+    parent CM1_g
+  endnode
+  node trimesh CM3_g
+    parent CM2_g
+  endnode
+  node trimesh CM4_g
+    parent CM3_g
+  endnode
+  node trimesh CR1_g
+    parent Cloak_g
+    orientationkey 13
+       0.000  0.00000  1.00000  0.00000  0.00000
+       0.167  0.00000  1.00000  0.00000  0.00000
+       0.333  0.00000  1.00000  0.00000  0.00000
+       0.500  0.00000  1.00000  0.00000  0.00000
+       0.667  0.00000  1.00000  0.00000  0.00000
+       0.833  0.00000  1.00000  0.00000  0.00000
+       1.000  0.00000  1.00000  0.00000  0.00000
+       1.167  0.00000  1.00000  0.00000  0.00000
+       1.333  0.00000  1.00000  0.00000  0.00000
+       1.500  0.00000  1.00000  0.00000  0.00000
+       1.667  0.00000  1.00000  0.00000  0.00000
+       1.833  0.00000  1.00000  0.00000  0.00000
+       2.000  0.00000  1.00000  0.00000  0.00000
+    endlist
+  endnode
+  node trimesh CR2_g
+    parent CR1_g
+  endnode
+  node trimesh CR3_g
+    parent CR2_g
+  endnode
+  node trimesh CR4_g
+    parent CR3_g
+  endnode
+  node dummy Impact
+    parent torso_g
+  endnode
+  node dummy wings
+    parent torso_g
+  endnode
+  node trimesh pelvis_g
+    parent rootdummy
+  endnode
+  node trimesh lthigh_g
+    parent pelvis_g
+  endnode
+  node trimesh lshin_g
+    parent lthigh_g
+  endnode
+  node trimesh lfoot_g
+    parent lshin_g
+  endnode
+  node trimesh rthigh_g
+    parent pelvis_g
+  endnode
+  node trimesh rshin_g
+    parent rthigh_g
+  endnode
+  node trimesh rfoot_g
+    parent rshin_g
+  endnode
+  node dummy tail
+    parent pelvis_g
+  endnode
+  node trimesh belt_g
+    parent pelvis_g
+  endnode
+  node trimesh belt_pelvis
+    parent pelvis_g
+  endnode
+  node trimesh belt_g1
+    parent rootdummy
+  endnode
+  node trimesh FB1_g01
+    parent belt_g1
+  endnode
+  node trimesh FB2_g01
+    parent FB1_g01
+  endnode
+  node trimesh FB4_g01
+    parent FB2_g01
+  endnode
+  node trimesh TF1_g
+    parent belt_g1
+  endnode
+  node trimesh TF1L_g
+    parent TF1_g
+  endnode
+  node trimesh TF2_g
+    parent TF1_g
+  endnode
+  node trimesh TF3_g01
+    parent TF2_g
+  endnode
+  node trimesh TF1R_g
+    parent TF1_g
+  endnode
+  node dummy handconjure
+    parent ad_shambler
+  endnode
+  node dummy headconjure
+    parent ad_shambler
+  endnode
+doneanim plpause1 ad_shambler
+
 donemodel ad_shambler
