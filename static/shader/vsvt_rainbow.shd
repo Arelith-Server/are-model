@@ -1,0 +1,11 @@
+#define SHADER_TYPE 1
+
+#define NORMAL_MAP 0
+#define ENVIRONMENT_MAP 0
+#define POSITION_WORLD 1
+#include "inc_standard"
+
+void main ()
+{
+	ApplyStandardShader();
+}
