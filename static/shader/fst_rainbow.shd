@@ -1,0 +1,27 @@
+#define SHADER_TYPE 2
+
+#define NORMAL_MAP 0
+#define SPECULAR_MAP 0
+#define ROUGHNESS_MAP 0
+#define HEIGHT_MAP 0
+#define SELF_ILLUMINATION_MAP 0
+#define ENVIRONMENT_MAP 0
+#define POSITION_WORLD 1
+#define POSITION_VIEW 1
+
+
+#include "inc_standard"
+#include "inc_rainbow"
+
+uniform lowp vec4 globalColor;
+
+void main ()
+{
+	FragmentColor = globalColor;
+
+    SetupStandardShaderInputs();
+    ApplyStandardShader();
+    mainImage(FragmentColor);
+	
+	gl_FragColor = FragmentColor;
+}
