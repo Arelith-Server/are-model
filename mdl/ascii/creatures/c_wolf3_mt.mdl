@@ -1,25 +1,25 @@
 # NeverBlender 2.8.51|Blender 3.3.20|2024-08-22
 filedependancy unknown
-newmodel c_wolf_mt
-setsupermodel c_wolf_mt h_ba
+newmodel c_wolf3_mt
+setsupermodel c_wolf3_mt h_ba
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom c_wolf_mt
-node dummy c_wolf_mt
+beginmodelgeom c_wolf3_mt
+node dummy c_wolf3_mt
   parent null
 endnode
 node dummy handconjure
-  parent c_wolf_mt
+  parent c_wolf3_mt
   position  0.00713  0.92025  2.36769
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy headconjure
-  parent c_wolf_mt
+  parent c_wolf3_mt
   position -0.00009 -0.10790  2.80694
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy rootdummy_h
-  parent c_wolf_mt
+  parent c_wolf3_mt
   position  0.00000 -0.52500  1.47000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
@@ -1270,17 +1270,17 @@ node dummy x_rootdummy
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy c_Boar1_mt.armature
-  parent c_wolf_mt
+  parent c_wolf3_mt
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-node dummy c_wolf_mt.armature
-  parent c_wolf_mt
+node dummy c_wolf3_mt.armature
+  parent c_wolf3_mt
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node skin wolf_front
-  parent c_wolf_mt.armature
+  parent c_wolf3_mt.armature
   position  0.00000  0.54260  0.47885
   orientation  0.00000 -0.70711 -0.70711  3.14159
   wirecolor 0.80 0.80 0.80
@@ -14971,5 +14971,5 @@ node skin wolf_front
     pelvis_h 0.497  rhip_h 0.256  lhip_h 0.168  lthigh_h 0.079
     pelvis_h 0.545  lhip_h 0.197  rhip_h 0.197  lthigh_h 0.060
 endnode
-endmodelgeom c_wolf_mt
-donemodel c_wolf_mt
+endmodelgeom c_wolf3_mt
+donemodel c_wolf3_mt
