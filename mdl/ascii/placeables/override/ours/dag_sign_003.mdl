@@ -1,0 +1,810 @@
+# NeverBlender 4.0.2|Blender 4.0.0|2024-10-22
+filedependancy unknown
+newmodel dag_sign_003
+setsupermodel dag_sign_003 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom dag_sign_003
+node dummy dag_sign_003
+  parent null
+endnode
+node trimesh mount
+  parent dag_sign_003
+  position  0.53518 -0.00000  3.26812
+  orientation  0.57735 -0.57735 -0.57735  2.09440
+  wirecolor 1.00 1.00 1.00
+  bitmap tno01_wood02
+  texture1 null
+  texture2 null
+  shininess 11
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  render 1
+  shadow 1
+  tilefade 0
+  verts 8
+     0.10000  1.06214  0.10000
+    -0.10000  1.06214  0.10000
+    -0.10000 -0.50000  0.10000
+     0.10000 -0.50000  0.10000
+     0.10000  1.06214 -0.00000
+    -0.10000  1.06214 -0.00000
+    -0.10000 -0.50000  0.00000
+     0.10000 -0.50000  0.00000
+  tverts 12
+     0.6000  1.0681  0
+     0.4000  1.0681  0
+     0.4000 -0.0681  0
+     0.6000 -0.0681  0
+     0.6000  0.5500  0
+     0.4000  0.5500  0
+     0.4000  0.4500  0
+     0.6000  0.4500  0
+     0.4500  1.0681  0
+     0.4500 -0.0681  0
+     0.5500 -0.0681  0
+     0.5500  1.0681  0
+  faces 10
+    0 1 2 1   0  1  2 0
+    3 0 2 1   3  0  2 0
+    4 5 1 2   4  5  6 0
+    1 0 4 2   6  7  4 0
+    5 6 2 4   8  9 10 0
+    2 1 5 4  10 11  8 0
+    7 4 0 4  10 11  8 0
+    0 3 7 4   8  9 10 0
+    6 7 3 2   4  5  6 0
+    3 2 6 2   6  7  4 0
+endnode
+node trimesh Object06
+  parent mount
+  position -0.04814  0.32923  0.79341
+  orientation -0.00000  1.00000  0.00000  1.57080
+  wirecolor 1.00 1.00 1.00
+  bitmap pdag_sign01
+  shininess 11
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  render 1
+  shadow 1
+  tilefade 0
+  verts 8
+    -0.76388  0.10520  0.00000
+    -0.76388 -0.10520  0.00000
+    -0.76388 -0.10520  0.09606
+    -0.76388  0.10520  0.09606
+     0.76388 -0.10520  0.09606
+     0.76388  0.10520  0.09606
+     0.76388  0.10520  0.00000
+     0.76388 -0.10520  0.00000
+  tverts 16
+     0.6007  0.4331  0
+     0.6007  0.2263  0
+     0.6674  0.2263  0
+     0.6674  0.4331  0
+     0.4519  0.2042  0
+     0.9844  0.2042  0
+     0.9844  0.2631  0
+     0.4519  0.2631  0
+     0.9572  0.2042  0
+     0.9572  0.2631  0
+     0.4280  0.2631  0
+     0.4280  0.2042  0
+     0.4594  0.2010  0
+     0.9995  0.2010  0
+     0.9995  0.2652  0
+     0.4594  0.2652  0
+  faces 8
+    0 1 2 1   0  1  2 0
+    2 3 0 1   2  3  0 0
+    2 4 5 2   4  5  6 0
+    5 3 2 2   6  7  4 0
+    1 0 6 2   8  9 10 0
+    6 7 1 2  10 11  8 0
+    6 0 3 4  12 13 14 0
+    3 5 6 4  14 15 12 0
+endnode
+node trimesh Box01
+  parent mount
+  position -0.05287 -0.36247  1.09303
+  orientation -0.00000  1.00000  0.00000  1.57080
+  wirecolor 1.00 1.00 1.00
+  bitmap pdag_sign01
+  shininess 11
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  render 1
+  shadow 1
+  tilefade 0
+  verts 8
+    -0.35348 -0.39836  0.00000
+    -0.35348  0.52831  0.00000
+     0.56033  0.52831  0.00000
+     0.56033 -0.39836  0.00000
+    -0.35348 -0.39836  0.10520
+     0.56033 -0.39836  0.10520
+     0.56033  0.52831  0.10520
+    -0.35348  0.52831  0.10520
+  tverts 23
+     0.4874  0.5029  0
+     0.4874  0.9995  0
+     0.0005  0.9995  0
+     0.0005  0.5029  0
+     0.0005  0.5077  0
+     0.4898  0.5077  0
+     0.4898  0.9995  0
+     0.4522  0.2300  0
+     0.9778  0.2300  0
+     0.9778  0.2966  0
+     0.4522  0.2966  0
+     0.4836  0.3628  0
+     0.9995  0.3628  0
+     0.9995  0.4488  0
+     0.4836  0.4488  0
+     0.4860  0.3242  0
+     0.9995  0.3242  0
+     0.9995  0.4343  0
+     0.4860  0.4343  0
+     0.4908  0.2372  0
+     0.9995  0.2372  0
+     0.9995  0.3377  0
+     0.4908  0.3377  0
+  faces 12
+    0 1 2 1   0  1  2 0
+    2 3 0 1   2  3  0 0
+    4 5 6 1   4  5  6 0
+    6 7 4 1   6  2  4 0
+    0 3 5 2   7  8  9 0
+    5 4 0 2   9 10  7 0
+    3 2 6 4  11 12 13 0
+    6 5 3 4  13 14 11 0
+    2 1 7 2  15 16 17 0
+    7 6 2 2  17 18 15 0
+    1 0 4 4  19 20 21 0
+    4 7 1 4  21 22 19 0
+endnode
+node trimesh support
+  parent mount
+  position  0.00000  0.46643  0.97889
+  orientation -1.00000 -0.00000  0.00000  1.16938
+  wirecolor 1.00 1.00 1.00
+  bitmap tno01_wood02
+  texture1 null
+  texture2 null
+  shininess 11
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  render 1
+  shadow 1
+  tilefade 0
+  verts 8
+     0.02710  1.06214  0.10000
+    -0.03143  1.06214  0.10000
+    -0.03143 -0.50000  0.10000
+     0.02710 -0.50000  0.10000
+     0.02710  1.06214 -0.00000
+    -0.03143  1.06214 -0.00000
+    -0.03143 -0.50000 -0.00000
+     0.02710 -0.50000  0.00000
+  tverts 12
+     0.6000  1.0681  0
+     0.4000  1.0681  0
+     0.4000 -0.0681  0
+     0.6000 -0.0681  0
+     0.6000  0.5500  0
+     0.4000  0.5500  0
+     0.4000  0.4500  0
+     0.6000  0.4500  0
+     0.4500  1.0681  0
+     0.4500 -0.0681  0
+     0.5500 -0.0681  0
+     0.5500  1.0681  0
+  faces 10
+    0 1 2 1   0  1  2 0
+    3 0 2 1   3  0  2 0
+    4 5 1 2   4  5  6 0
+    1 0 4 2   6  7  4 0
+    5 6 2 4   8  9 10 0
+    2 1 5 4  10 11  8 0
+    7 4 0 4  10 11  8 0
+    0 3 7 4   8  9 10 0
+    6 7 3 2   4  5  6 0
+    3 2 6 2   6  7  4 0
+endnode
+node trimesh line06
+  parent mount
+  position -0.00043  0.19766  0.65094
+  orientation  0.57687  0.57829 -0.57688  2.09298
+  wirecolor 1.00 1.00 1.00
+  bitmap tno01_rope02
+  texture1 null
+  texture2 null
+  shininess 11
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  render 1
+  shadow 1
+  tilefade 0
+  verts 6
+    -0.00261 -0.02989  0.04285
+    -0.00261 -0.02989 -0.04285
+     0.02719  0.01268 -0.04285
+     0.02719  0.01268  0.04285
+    -0.02457  0.01721 -0.04285
+    -0.02457  0.01721  0.04285
+  tverts 10
+     0.3432  0.7678  0
+     0.3432  0.2322  0
+     0.6568  0.2322  0
+     0.6568  0.7678  0
+     0.5728  0.2322  0
+     0.5728  0.7678  0
+     0.2322  0.3432  0
+     0.7678  0.3432  0
+     0.7678  0.6568  0
+     0.2322  0.6568  0
+  faces 6
+    0 1 2 1   0  1  2 0
+    2 3 0 1   2  3  0 0
+    3 2 4 1   0  1  4 0
+    4 5 3 1   4  5  0 0
+    5 4 1 1   6  7  8 0
+    1 0 5 1   8  9  6 0
+endnode
+node trimesh line05
+  parent mount
+  position -0.00043  0.19766  1.31255
+  orientation  0.57687  0.57829 -0.57688  2.09298
+  wirecolor 1.00 1.00 1.00
+  bitmap tno01_rope02
+  texture1 null
+  texture2 null
+  shininess 11
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  render 1
+  shadow 1
+  tilefade 0
+  verts 6
+    -0.02121 -0.02121  0.04285
+    -0.02121 -0.02121 -0.04285
+     0.02898 -0.00776 -0.04285
+     0.02898 -0.00776  0.04285
+    -0.00776  0.02898 -0.04285
+    -0.00776  0.02898  0.04285
+  tverts 10
+     0.3432  0.7678  0
+     0.3432  0.2322  0
+     0.6568  0.2322  0
+     0.6568  0.7678  0
+     0.5728  0.2322  0
+     0.5728  0.7678  0
+     0.2322  0.3432  0
+     0.7678  0.3432  0
+     0.7678  0.6568  0
+     0.2322  0.6568  0
+  faces 6
+    0 1 2 1   0  1  2 0
+    2 3 0 1   2  3  0 0
+    3 2 4 1   0  1  4 0
+    4 5 3 1   4  5  0 0
+    5 4 1 1   6  7  8 0
+    1 0 5 1   8  9  6 0
+endnode
+node trimesh grabme
+  parent dag_sign_003
+  position -0.00444  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  bitmap null
+  shininess 0
+  ambient 1.00 1.00 1.00
+  diffuse 0.00 0.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  render 0
+  shadow 0
+  tilefade 0
+  verts 8
+    -0.48000 -0.04800  3.32515
+     0.48000 -0.04800  3.32515
+     0.48000  0.04800  3.32515
+    -0.48000  0.04800  3.32515
+    -0.48000 -0.04800  0.00000
+     0.48000 -0.04800  0.00000
+     0.48000  0.04800  0.00000
+    -0.48000  0.04800  0.00000
+  faces 10
+    0 1 2 1  0 0 0 0
+    2 3 0 1  0 0 0 0
+    4 5 1 2  0 0 0 0
+    1 0 4 2  0 0 0 0
+    5 6 2 4  0 0 0 0
+    2 1 5 4  0 0 0 0
+    6 7 3 2  0 0 0 0
+    3 2 6 2  0 0 0 0
+    7 4 0 4  0 0 0 0
+    0 3 7 4  0 0 0 0
+endnode
+node emitter esmoke
+  parent dag_sign_003
+  position  0.00845 -0.01988  2.96769
+  orientation  1.00000  0.00000  0.00000  0.05710
+  xsize 100.00
+  ysize 99.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 10
+  lifeexp 2.50
+  mass 0.09
+  velocity 2.00
+  randvel 0.50
+  particlerot 0.50
+  spread 2.97
+  splat 0
+  affectedbywind 0
+  colorstart 0.47 0.44 0.36
+  colorend 0.82 0.80 0.71
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 1.00
+  sizeend 0.30
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
+  texture fxpa_smoke01
+  twosidedtex 0
+  m_istinted 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.20
+  blastlength 1.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter echunkywood02
+  parent dag_sign_003
+  position  0.00845 -0.01988  3.06942
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 89.00
+  ysize 40.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 0.75
+  mass 3.00
+  velocity 8.00
+  randvel 0.30
+  particlerot 2.90
+  spread 1.22
+  splat 0
+  affectedbywind 0
+  colorstart 0.48 0.44 0.32
+  colorend 0.58 0.53 0.41
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.50
+  blurlength 10.00
+  deadspace 0.00
+  chunkName plc_chunk_w02
+  texture fxpa_cloud02
+  twosidedtex 0
+  m_istinted 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node emitter echunkywood01
+  parent dag_sign_003
+  position  0.00845 -0.01988  2.96319
+  orientation  0.00000  1.00000  0.00000  0.00000
+  xsize 89.00
+  ysize 40.00
+  update Explosion
+  render Normal
+  blend Normal
+  spawntype 0
+  renderorder 0
+  birthrate 3
+  lifeexp 0.75
+  mass 3.00
+  velocity 8.00
+  randvel 0.30
+  particlerot 5.00
+  spread 1.22
+  splat 0
+  affectedbywind 0
+  colorstart 1.00 1.00 1.00
+  colorend 1.00 1.00 1.00
+  alphastart 1.00
+  alphaend 1.00
+  sizestart 0.10
+  sizeend 0.10
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 1
+  bounce_co 0.50
+  blurlength 10.00
+  deadspace 0.00
+  chunkName plc_chunk_w01
+  texture fxpa_cloud02
+  twosidedtex 0
+  m_istinted 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  p2p 0
+  blastradius 0.00
+  blastlength 0.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+endnode
+node dummy sign_003_ground
+  parent dag_sign_003
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy sign_003_hand
+  parent dag_sign_003
+  position -0.08287  0.00000  3.23851
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy sign_003_head
+  parent dag_sign_003
+  position  0.00000  0.00000  3.23851
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy sign_003_head_hit
+  parent dag_sign_003
+  position  0.00000  0.00000  3.99895
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy sign_003_impact
+  parent dag_sign_003
+  position  0.00000  0.00000  3.23851
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+endmodelgeom dag_sign_003
+
+# ANIM ASCII
+newanim default dag_sign_003
+  length 0.033
+  transtime 0.0
+  animroot dag_sign_003
+  node dummy dag_sign_003
+    parent null
+  endnode
+  node trimesh mount
+    parent dag_sign_003
+    positionkey 2
+       0.000  0.53518 -0.00000  3.26812
+       0.033  0.53518 -0.00000  3.26812
+    endlist
+    orientationkey 2
+       0.000  0.57735 -0.57735 -0.57735  2.09440
+       0.033  0.57735 -0.57735 -0.57735  2.09440
+    endlist
+  endnode
+  node trimesh Object06
+    parent mount
+  endnode
+  node trimesh Box01
+    parent mount
+  endnode
+  node trimesh support
+    parent mount
+    positionkey 2
+       0.000  0.00000  0.46643  0.97889
+       0.033  0.00000  0.46643  0.97889
+    endlist
+    orientationkey 2
+       0.000 -1.00000 -0.00000  0.00000  1.16938
+       0.033 -1.00000 -0.00000  0.00000  1.16938
+    endlist
+  endnode
+  node trimesh line06
+    parent mount
+  endnode
+  node trimesh line05
+    parent mount
+  endnode
+  node trimesh grabme
+    parent dag_sign_003
+  endnode
+  node emitter esmoke
+    parent dag_sign_003
+  endnode
+  node emitter echunkywood02
+    parent dag_sign_003
+  endnode
+  node emitter echunkywood01
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_ground
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_hand
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_head
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_head_hit
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_impact
+    parent dag_sign_003
+  endnode
+doneanim default dag_sign_003
+
+newanim damage dag_sign_003
+  length 0.167
+  transtime 0.0
+  animroot dag_sign_003
+  node dummy dag_sign_003
+    parent null
+  endnode
+  node trimesh mount
+    parent dag_sign_003
+    positionkey 2
+       0.000  0.53518 -0.00000  3.26812
+       0.167  0.53518 -0.00000  3.26812
+    endlist
+    orientationkey 3
+       0.000  0.57735 -0.57735 -0.57735  2.09440
+       0.100  0.58491 -0.58491 -0.56193  2.11768
+       0.167  0.57735 -0.57735 -0.57735  2.09440
+    endlist
+  endnode
+  node trimesh Object06
+    parent mount
+  endnode
+  node trimesh Box01
+    parent mount
+  endnode
+  node trimesh support
+    parent mount
+    positionkey 2
+       0.000  0.00000  0.46643  0.97889
+       0.167  0.00000  0.46643  0.97889
+    endlist
+    orientationkey 3
+       0.000 -1.00000 -0.00000  0.00000  1.16938
+       0.100 -1.00000 -0.00000  0.00000  1.12932
+       0.167 -1.00000 -0.00000  0.00000  1.16937
+    endlist
+  endnode
+  node trimesh line06
+    parent mount
+  endnode
+  node trimesh line05
+    parent mount
+  endnode
+  node trimesh grabme
+    parent dag_sign_003
+  endnode
+  node emitter esmoke
+    parent dag_sign_003
+  endnode
+  node emitter echunkywood02
+    parent dag_sign_003
+  endnode
+  node emitter echunkywood01
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_ground
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_hand
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_head
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_head_hit
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_impact
+    parent dag_sign_003
+  endnode
+doneanim damage dag_sign_003
+
+newanim die dag_sign_003
+  length 0.5
+  transtime 0.0
+  animroot dag_sign_003
+  event 0.333 detonate
+  event 0.333 detonate
+  node dummy dag_sign_003
+    parent null
+  endnode
+  node trimesh mount
+    parent dag_sign_003
+    positionkey 4
+       0.000  0.53518 -0.00000  3.26812
+       0.167  0.32943 -0.08289  3.26812
+       0.333  0.12430  0.00000  1.23858
+       0.500  0.53518  0.00000 -4.00000
+    endlist
+    orientationkey 4
+       0.000  0.57735 -0.57735 -0.57735  2.09440
+       0.167  0.72897 -0.58558 -0.35454  2.50965
+       0.333  0.85806 -0.45451 -0.23907  2.88660
+       0.500  0.57735 -0.57735 -0.57735  2.09440
+    endlist
+  endnode
+  node trimesh Object06
+    parent mount
+  endnode
+  node trimesh Box01
+    parent mount
+  endnode
+  node trimesh support
+    parent mount
+    positionkey 4
+       0.000  0.00000  0.46643  0.97889
+       0.167  0.08289  0.46643  1.18464
+       0.333  0.00001 -1.56311  1.38977
+       0.500  0.00002 -6.80169  0.97891
+    endlist
+    orientationkey 4
+       0.000 -1.00000 -0.00000  0.00001  1.16937
+       0.167 -0.94092  0.00353 -0.33862  0.58804
+       0.333 -0.22845 -0.06559 -0.97134  0.61252
+       0.500 -1.00000 -0.00000  0.00000  1.16937
+    endlist
+  endnode
+  node trimesh line06
+    parent mount
+  endnode
+  node trimesh line05
+    parent mount
+  endnode
+  node trimesh grabme
+    parent dag_sign_003
+  endnode
+  node emitter esmoke
+    parent dag_sign_003
+  endnode
+  node emitter echunkywood02
+    parent dag_sign_003
+  endnode
+  node emitter echunkywood01
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_ground
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_hand
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_head
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_head_hit
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_impact
+    parent dag_sign_003
+  endnode
+doneanim die dag_sign_003
+
+newanim dead dag_sign_003
+  length 0.033
+  transtime 0.0
+  animroot dag_sign_003
+  node dummy dag_sign_003
+    parent null
+  endnode
+  node trimesh mount
+    parent dag_sign_003
+    positionkey 2
+       0.000  0.53518  0.00000 -4.00000
+       0.033  0.53518  0.00000 -4.00000
+    endlist
+    orientationkey 2
+       0.000  0.57735 -0.57735 -0.57735  2.09440
+       0.033  0.57735 -0.57735 -0.57735  2.09440
+    endlist
+  endnode
+  node trimesh Object06
+    parent mount
+  endnode
+  node trimesh Box01
+    parent mount
+  endnode
+  node trimesh support
+    parent mount
+    positionkey 2
+       0.000  0.00002 -6.80169  0.97891
+       0.033  0.00002 -6.80169  0.97891
+    endlist
+    orientationkey 2
+       0.000 -1.00000 -0.00000  0.00000  1.16938
+       0.033 -1.00000 -0.00000  0.00000  1.16938
+    endlist
+  endnode
+  node trimesh line06
+    parent mount
+  endnode
+  node trimesh line05
+    parent mount
+  endnode
+  node trimesh grabme
+    parent dag_sign_003
+  endnode
+  node emitter esmoke
+    parent dag_sign_003
+  endnode
+  node emitter echunkywood02
+    parent dag_sign_003
+  endnode
+  node emitter echunkywood01
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_ground
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_hand
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_head
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_head_hit
+    parent dag_sign_003
+  endnode
+  node dummy sign_003_impact
+    parent dag_sign_003
+  endnode
+doneanim dead dag_sign_003
+
+donemodel dag_sign_003
