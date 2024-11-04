@@ -8,7 +8,7 @@ beginmodelgeom pmg0_belt073
 node dummy pmg0_belt073
   parent null
 endnode
-node trimesh quiver_g.001
+node trimesh quiver_g
   parent pmg0_belt073
   position -0.1686640 -0.0256689 -0.0512736
   orientation  0.00000  0.00000  1.00000  1.59722
@@ -82,7 +82,7 @@ node trimesh quiver_g.001
     10  2 12 2  13  4 15 0
 endnode
 node trimesh arrows_g.001
-  parent quiver_g.001
+  parent quiver_g
   position 0.0524560 -0.0104733 0.0938448
   orientation -0.50475  0.17906 -0.84449  0.61947
   wirecolor 0.19 0.19 0.19
@@ -133,7 +133,7 @@ node trimesh arrows_g.001
      9 11 10 1   4 10  5 0
 endnode
 node trimesh arrows_g.002
-  parent quiver_g.001
+  parent quiver_g
   position 0.0642000 -0.0107892 0.0847392
   orientation -0.50475  0.17906 -0.84449  0.61947
   wirecolor 0.19 0.19 0.19
@@ -184,7 +184,7 @@ node trimesh arrows_g.002
      9 11 10 1   4 10  5 0
 endnode
 node trimesh arrows_g.003
-  parent quiver_g.001
+  parent quiver_g
   position 0.0752560 -0.0110808 0.0740376
   orientation -0.50475  0.17906 -0.84449  0.61947
   wirecolor 0.19 0.19 0.19
@@ -235,7 +235,7 @@ node trimesh arrows_g.003
      9 11 10 1   4 10  5 0
 endnode
 node trimesh arrows_g.004
-  parent quiver_g.001
+  parent quiver_g
   position 0.0401920 -0.0101412 0.1030176
   orientation -0.50475  0.17906 -0.84449  0.61947
   wirecolor 0.19 0.19 0.19

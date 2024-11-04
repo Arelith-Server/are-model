@@ -232,7 +232,7 @@ node trimesh box01
     21 19 20 2  23 22 24 0
     16 21 20 1  14 20 19 0
 endnode
-node trimesh quiver_g.001
+node trimesh quiver_g
   parent pfg2_belt073
   position -0.1641280 -0.0347680 -0.0295600
   orientation  0.00000  0.00000  1.00000  1.59722
@@ -305,7 +305,7 @@ node trimesh quiver_g.001
     10  2 12 2  13  4 15 0
 endnode
 node trimesh arrows_g.001
-  parent quiver_g.001
+  parent quiver_g
   position 0.0524560 -0.0103440 0.0893760
   orientation -0.50475  0.17906 -0.84449  0.61947
   wirecolor 0.19 0.19 0.19
@@ -356,7 +356,7 @@ node trimesh arrows_g.001
      9 11 10 1   4 10  5 0
 endnode
 node trimesh arrows_g.002
-  parent quiver_g.001
+  parent quiver_g
   position 0.0642000 -0.0106560 0.0807040
   orientation -0.50475  0.17906 -0.84449  0.61947
   wirecolor 0.19 0.19 0.19
@@ -407,7 +407,7 @@ node trimesh arrows_g.002
      9 11 10 1   4 10  5 0
 endnode
 node trimesh arrows_g.003
-  parent quiver_g.001
+  parent quiver_g
   position 0.0752560 -0.0109440 0.0705120
   orientation -0.50475  0.17906 -0.84449  0.61947
   wirecolor 0.19 0.19 0.19
@@ -458,7 +458,7 @@ node trimesh arrows_g.003
      9 11 10 1   4 10  5 0
 endnode
 node trimesh arrows_g.004
-  parent quiver_g.001
+  parent quiver_g
   position 0.0401920 -0.0100160 0.0981120
   orientation -0.50475  0.17906 -0.84449  0.61947
   wirecolor 0.19 0.19 0.19
