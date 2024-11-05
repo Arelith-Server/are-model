@@ -1,25 +1,25 @@
 # NeverBlender 2.8.51|Blender 3.3.20|2024-10-30
 filedependancy unknown
-newmodel goatbr_mt
-setsupermodel goatbr_mt h_ba
+newmodel goat2_mt
+setsupermodel goat2_mt h_ba
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom goatbr_mt
-node dummy goatbr_mt
+beginmodelgeom goat2_mt
+node dummy goat2_mt
   parent null
 endnode
 node dummy handconjure
-  parent goatbr_mt
+  parent goat2_mt
   position  0.00713  0.92025  2.36769
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy headconjure
-  parent goatbr_mt
+  parent goat2_mt
   position -0.00009 -0.10790  2.80694
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy rootdummy_h
-  parent goatbr_mt
+  parent goat2_mt
   position  0.00000 -0.52500  1.47000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
@@ -1269,18 +1269,18 @@ node dummy x_rootdummy
   position  0.00000  0.50836  0.46456
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-node dummy goatbr_mt.armature.001
-  parent goatbr_mt
+node dummy goat2_mt.armature.001
+  parent goat2_mt
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-node dummy goatbr_mt.armature
-  parent goatbr_mt
+node dummy goat2_mt.armature
+  parent goat2_mt
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node skin node_id85
-  parent goatbr_mt.armature
+  parent goat2_mt.armature
   position  0.00000 -0.02757 -0.00005
   orientation -0.00000 -0.00000 -1.00000  3.14159
   wirecolor 1.00 1.00 1.00
@@ -10196,5 +10196,5 @@ node skin node_id85
     torso_h 0.382  rootdummy_h 0.382  neck_h 0.135  head_h 0.102
     rootdummy_h 0.488  lbicep_h 0.259  lshoulder_h 0.131  neck_h 0.122
 endnode
-endmodelgeom goatbr_mt
-donemodel goatbr_mt
+endmodelgeom goat2_mt
+donemodel goat2_mt
