@@ -1,15 +1,15 @@
 # NeverBlender 2.8.51|Blender 3.3.21|2024-11-22
 filedependancy unknown
-newmodel pme0_head073
-setsupermodel pme0_head073 null
+newmodel pme0_head243
+setsupermodel pme0_head243 null
 classification CHARACTER
 setanimationscale 0.0
-beginmodelgeom pme0_head073
-node dummy pme0_head073
+beginmodelgeom pme0_head243
+node dummy pme0_head243
   parent null
 endnode
-node trimesh pme0_head073g
-  parent pme0_head073
+node trimesh pme0_head243g
+  parent pme0_head243
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
@@ -786,9 +786,9 @@ node trimesh pme0_head073g
     223 207 206 1  215 199 198 0
 endnode
 node dummy impact
-  parent pme0_head073g
+  parent pme0_head243g
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
 endnode
-endmodelgeom pme0_head073
-donemodel pme0_head073
+endmodelgeom pme0_head243
+donemodel pme0_head243
