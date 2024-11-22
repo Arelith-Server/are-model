@@ -1,4 +1,4 @@
-# NeverBlender 2.8.51|Blender 3.3.20|2024-10-08
+# NeverBlender 2.8.51|Blender 3.3.20|2024-11-20
 filedependancy unknown
 newmodel pfe0_belt075
 setsupermodel pfe0_belt075 null
@@ -1136,13 +1136,6 @@ node trimesh Gravity01
     155 151 150 2  396 400 397 0
     156 154 150 4  393 395 398 0
     153 151 155 4  399 401 396 0
-endnode
-node reference OmenRef02
-  parent Gravity01
-  position  0.00078  0.03786  0.00139
-  orientation  1.00000  0.00000  0.00000  2.54818
-  refmodel fx_ref
-  reattachable 0
 endnode
 endmodelgeom pfe0_belt075
 donemodel pfe0_belt075
