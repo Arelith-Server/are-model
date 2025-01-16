@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pmg0_head044
+# model: PMG0_HEAD030 
 #local file: Unknown
 filedependancy Unknown
-newmodel pmg0_head044
-setsupermodel pmg0_head044 a_ba
+newmodel PMG0_HEAD030 
+setsupermodel PMG0_HEAD030  a_ba
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pmg0_head044
-node dummy pmg0_head044
+beginmodelgeom PMG0_HEAD030 
+node dummy PMG0_HEAD030 
   parent NULL
 endnode
 node danglymesh Jan_Head
-  parent pmg0_head044
+  parent PMG0_HEAD030 
   position 0.0 -0.002081 0.0323013
   orientation 0.0 0.0 -1.0 -3.14159
   wirecolor 0.87451 0.776471 0.337255 
@@ -40,7 +40,7 @@ node danglymesh Jan_Head
   showdispl true
   displtype 1
   center 0.0241499 -0.43395 3.97005 
-  bitmap pmg0_head044
+  bitmap pmg0_head030
   verts 298
     0.0177094 -0.0905534 0.0652707
     0.021493 -0.0805805 0.0619802
@@ -1577,5 +1577,5 @@ node danglymesh Jan_Head
     0.0
     0.0
 endnode
-endmodelgeom pmg0_head044
-donemodel pmg0_head044
+endmodelgeom PMG0_HEAD030 
+donemodel PMG0_HEAD030 

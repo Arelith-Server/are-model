@@ -1,15 +1,15 @@
 # Exported from Blender on Wednesday, 2021-01-27
 filedependancy unknown
-newmodel bat_udplat01
-setsupermodel bat_udplat01 null
+newmodel bat_udplat01_0
+setsupermodel bat_udplat01_0 null
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom bat_udplat01
-node dummy bat_udplat01
+beginmodelgeom bat_udplat01_0
+node dummy bat_udplat01_0
   parent null
 endnode
 node trimesh Plateau
-  parent bat_udplat01
+  parent bat_udplat01_0
   position  0.00000  0.00000  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 0.10 0.69 0.10
@@ -331,5 +331,5 @@ node trimesh Plateau
     63 62 78 1  64 78 70 0
     50 79 61 1  51 66 71 0
 endnode
-endmodelgeom bat_udplat01
-donemodel bat_udplat01
+endmodelgeom bat_udplat01_0
+donemodel bat_udplat01_0
