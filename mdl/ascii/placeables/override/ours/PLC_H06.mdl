@@ -1,10 +1,10 @@
 # Exported from Blender on Tuesday, 2020-05-12
 filedependancy anvil_001.blend
-newmodel PLC_H06.001
-setsupermodel PLC_H06.001 null
+newmodel PLC_H06
+setsupermodel PLC_H06 null
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom PLC_H06.001
+beginmodelgeom PLC_H06
 node dummy PLC_H06
   parent null
 endnode
@@ -1900,10 +1900,10 @@ node emitter ChunkyWood71
   inherit_local 0
   inherit_part 0
 endnode
-endmodelgeom PLC_H06.001
+endmodelgeom PLC_H06
 
 # ANIM ASCII
-newanim default PLC_H06.001
+newanim default PLC_H06
   length 0.0
   transtime 0.25
   animroot PLC_H06
@@ -1946,9 +1946,9 @@ newanim default PLC_H06.001
   node emitter ChunkyWood71
     parent PLC_H06
   endnode
-doneanim default PLC_H06.001
+doneanim default PLC_H06
 
-newanim damage PLC_H06.001
+newanim damage PLC_H06
   length 0.133
   transtime 0.0
   animroot PLC_H06
@@ -1996,9 +1996,9 @@ newanim damage PLC_H06.001
   node emitter ChunkyWood71
     parent PLC_H06
   endnode
-doneanim damage PLC_H06.001
+doneanim damage PLC_H06
 
-newanim die PLC_H06.001
+newanim die PLC_H06
   length 0.167
   transtime 0.0
   animroot PLC_H06
@@ -2045,9 +2045,9 @@ newanim die PLC_H06.001
   node emitter ChunkyWood71
     parent PLC_H06
   endnode
-doneanim die PLC_H06.001
+doneanim die PLC_H06
 
-newanim dead PLC_H06.001
+newanim dead PLC_H06
   length 0.033
   transtime 0.0
   animroot PLC_H06
@@ -2088,6 +2088,6 @@ newanim dead PLC_H06.001
   node emitter ChunkyWood71
     parent PLC_H06
   endnode
-doneanim dead PLC_H06.001
+doneanim dead PLC_H06
 
-donemodel PLC_H06.001
+donemodel PLC_H06
