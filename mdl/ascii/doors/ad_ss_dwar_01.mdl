@@ -1,683 +1,620 @@
-# Exported from NWmax 0.7 at 15/02/2005 22.28.06
-# mdl file
-#
-#NWmax MODEL ASCII
-# model: ad_ss_dwar_01
-filedependancy Unknown
+# NeverBlender 2.8.51|Blender 3.3.21|2025-02-02
+filedependancy unknown
 newmodel ad_ss_dwar_01
-setsupermodel ad_ss_dwar_01 NULL
-classification Door
-#NWmax GEOM  ASCII
+setsupermodel ad_ss_dwar_01 null
+classification DOOR
+setanimationscale 1.0
 beginmodelgeom ad_ss_dwar_01
 node dummy ad_ss_dwar_01
-  parent NULL
+  parent null
 endnode
 node dummy TIN01_B13_04
   parent ad_ss_dwar_01
-  position -1.0 0.0 -2.44141e-006
-  orientation 0.0 0.0 -1.0 -1.5708
-  wirecolor 0.341176 0.878431 0.560784 
+  position -1.00000  0.00000 -0.00000
+  orientation  0.00000  0.00000  1.00000  1.57080
 endnode
 node trimesh Mesh898
   parent TIN01_B13_04
-  position 2.92897e-006 0.0162305 2.44141e-006
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 1
-  beaming 0
-  inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  center 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 2.0
-  selfillumcolor 0.0 0.0 0.0 
+  position  0.00000  0.01623  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
   bitmap ad_ss_dwar_01
+  shininess 2
+  render 1
+  shadow 1
   verts 8
-    -0.073 -2.00623 2.97
-    0.0970858 -2.00623 2.97
-    0.0970858 -0.00622841 2.97
-    -0.073 -0.0062291 2.97
-    -0.073 -2.00623 -1.83105e-006
-    0.0970858 -2.00623 -2.13623e-006
-    0.097087 -0.00622841 -2.13623e-006
-    -0.073 -0.0062291 -1.83105e-006
+    -0.07300 -2.00623  2.97000
+     0.09709 -2.00623  2.97000
+     0.09709 -0.00623  2.97000
+    -0.07300 -0.00623  2.97000
+    -0.07300 -2.00623 -0.00000
+     0.09709 -2.00623 -0.00000
+     0.09709 -0.00623 -0.00000
+    -0.07300 -0.00623 -0.00000
+  tverts 16
+     0.8724  0.1943  0
+     0.9255  0.1942  0
+     0.9262  0.6880  0
+     0.8731  0.6881  0
+     0.8741 -0.0011  0
+     0.9234 -0.0011  0
+     0.9234  0.8748  0
+     0.8741  0.8748  0
+     0.5821  0.0060  0
+     0.6216  0.0060  0
+     0.6200  0.8694  0
+     0.5790  0.8694  0
+     0.5038  0.0005  0
+     0.9975  0.0005  0
+     0.9975  0.8763  0
+     0.5038  0.8763  0
   faces 10
-    0 1 2  1  0 1 2  1
-    2 3 0  1  2 3 0  1
-    4 5 1  2  4 5 6  5
-    1 0 4  2  6 7 4  5
-    6 7 3  2  8 9 10  6
-    3 2 6  2  10 2 8  6
-    7 4 0  4  11 12 13  3
-    0 3 7  4  13 14 11  3
-    5 6 1  4  12 11 13  3
-    2 1 6  4  14 13 11  3
-  tverts 37
-    0.494271 0.823172 0
-    0.494271 0.876312 0
-    0.000499815 0.876312 0
-    0.000499815 0.823172 0
-    0.942267 0.000499547 0
-    0.991606 0.000499547 0
-    0.991606 0.876312 0
-    0.942267 0.876312 0
-    0.000499517 0.000499666 0
-    0.0399706 0.000499666 0
-    0.0399709 0.876312 0
-    0.503756 0.000499666 0
-    0.997527 0.000499547 0
-    0.997527 0.876312 0
-    0.503756 0.876312 0
-    0.404025 1.00107 0
-    0.376395 1.00107 0
-    0.376395 0.873324 0
-    0.404025 0.873324 0
-    0.945294 0.967256 0
-    0.945294 1.00107 0
-    0.376395 0.967256 0
-    0.945294 0.873323 0
-    0.945294 0.904724 0
-    0.376395 0.904725 0
-    0.359456 0.908255 0
-    0.359456 0.969073 0
-    0.130792 0.976294 0
-    0.130792 0.898473 0
-    0.736125 0.94309 0
-    0.731695 0.92433 0
-    0.50422 0.920523 0
-    0.504703 0.944927 0
-    0.00251082 0.874318 0
-    0.357483 0.8841 0
-    0.357483 0.985981 0
-    0.00251082 0.993202 0
+    0 1 2 1   0  1  2 0
+    2 3 0 1   2  3  0 0
+    4 5 1 2   4  5  6 0
+    1 0 4 2   6  7  4 0
+    6 7 3 2   8  9 10 0
+    3 2 6 2  10 11  8 0
+    7 4 0 4  12 13 14 0
+    0 3 7 4  14 15 12 0
+    5 6 1 4  13 12 14 0
+    2 1 6 4  15 14 12 0
 endnode
 node trimesh sam
   parent ad_ss_dwar_01
-  position -1.0 -0.00941646 0.0
-  orientation 0.0 0.0 -1.0 -1.5708
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 0
-  beaming 0
-  inheritcolor 0
-  selfillumcolor 0.0 0.0 0.0 
-  rotatetexture 0
-  alpha 0.0
-  transparencyhint 1
-  center 3.37718 -100.623 148.5 
-  ambient 0.2 0.2 0.2 
-  diffuse 0.8 0.8 0.8 
-  specular 0.0 0.0 0.0 
-  shininess 2.0
-  selfillumcolor 0.0 0.0 0.0 
+  position -1.00000 -0.00942  0.00000
+  orientation  0.00000  0.00000  1.00000  1.57080
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 0.80 0.80 0.80
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  alpha 0.00
   bitmap sam
+  shininess 2
+  render 1
+  shadow 0
+  transparencyhint 1
   verts 8
-    0.0135813 -0.0062291 -1.83105e-006
-    0.0135813 -2.00623 -1.83105e-006
-    0.0135813 -2.00623 2.97
-    0.0135813 -0.0062291 2.97
-    0.0539622 -2.00623 -1.83105e-006
-    0.0539622 -0.0062291 -1.83105e-006
-    0.0539622 -2.00623 2.97
-    0.0539622 -0.0062291 2.97
-  faces 4
-    0 1 2  1  0 1 2  18
-    2 3 0  1  2 3 0  18
-    4 5 6  1  1 0 2  18
-    7 6 5  1  3 2 0  18
+     0.01358 -0.00623 -0.00000
+     0.01358 -2.00623 -0.00000
+     0.01358 -2.00623  2.97000
+     0.01358 -0.00623  2.97000
+     0.05396 -2.00623 -0.00000
+     0.05396 -0.00623 -0.00000
+     0.05396 -2.00623  2.97000
+     0.05396 -0.00623  2.97000
   tverts 4
-    0.000499517 0.000499666 0
-    0.49427 0.000499547 0
-    0.494271 0.876312 0
-    0.000499815 0.876312 0
+     0.0005  0.0005  0
+     0.4943  0.0005  0
+     0.4943  0.8763  0
+     0.0005  0.8763  0
+  faces 4
+    0 1 2 1  0 1 2 0
+    2 3 0 1  2 3 0 0
+    4 5 6 1  1 0 2 0
+    7 6 5 1  3 2 0 0
 endnode
 node emitter fire!08
   parent ad_ss_dwar_01
-  position -0.00162842 0.00554687 0.928905
-  orientation -1.0 0.0 0.0 -1.5708
-  wirecolor 1.0 1.0 1.0 
-  update_sel 3
+  position -0.00163  0.00555  0.92891
+  orientation  1.00000  0.00000  0.00000  1.57080
+  xsize 100.00
+  ysize 99.00
   update Explosion
-  render_sel 1
   render Normal
-  blend_sel 1
-  Blend Normal
-  spawnType 0
-  xSize 100.0
-  ySize 99.0
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
+  blend Normal
+  spawntype 0
   renderorder 0
-  threshold 0.0
-  combinetime 0.0
-  deadspace 0.0
-  opacity 0.5
-  colorStart 0.47451 0.439216 0.364706 
-  colorEnd 0.819608 0.796079 0.709804 
-  alphaStart 1.0
-  alphaEnd 0.0
-  sizeStart 4.0
-  sizeEnd 1.0
-  sizeStart_y 0.0
-  sizeEnd_y 0.0
   birthrate 10
-  lifeExp 2.5
+  lifeexp 2.50
   mass 0.09
-  spread 2.96706
-  particleRot 0.5
-  velocity 2.0
-  randvel 0.5
-  bounce_co 0.0
-  blurlength 10.0
-  loop 0
-  bounce 0
-  m_isTinted 1
+  velocity 2.00
+  randvel 0.50
+  particlerot 0.50
+  spread 2.97
   splat 0
-  affectedByWind false
+  affectedbywind 0
+  colorstart 0.47 0.44 0.36
+  colorend 0.82 0.80 0.71
+  alphastart 1.00
+  alphaend 0.00
+  sizestart 4.00
+  sizeend 1.00
+  sizestart_y 0.00
+  sizeend_y 0.00
+  bounce 0
+  bounce_co 0.00
+  blurlength 10.00
+  deadspace 0.00
   texture fxpa_smoke01
   twosidedtex 0
+  m_istinted 1
   xgrid 4
   ygrid 4
   fps 10
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
-  lightningDelay 0.0
-  lightningRadius 0.0
-  lightningSubDiv 0
-  lightningScale 0.0
-  blastRadius 0.2
-  blastLength 1.0
   p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0.0
-  p2p_bezier3 0.0
-  grav 0.0
-  drag 0.0
+  blastradius 0.20
+  blastlength 1.00
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
 endnode
 node dummy ad_ss_dwar_01head
   parent ad_ss_dwar_01
-  position 0.0 0.0 2.50064
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.341176 0.878431 0.776471 
+  position  0.00000  0.00000  2.50064
+  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy ad_ss_dwar_01hhit
   parent ad_ss_dwar_01
-  position 0.0 0.0 2.17507
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.341176 0.878431 0.776471 
+  position  0.00000  0.00000  2.17507
+  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy ad_ss_dwar_01impc
   parent ad_ss_dwar_01
-  position 0.0 0.0 1.63648
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.341176 0.878431 0.776471 
+  position  0.00000  0.00000  1.63648
+  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 node dummy ad_ss_dwar_01grnd
   parent ad_ss_dwar_01
-  position 0.0 0.0 0.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.341176 0.878431 0.776471 
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
 endnode
 endmodelgeom ad_ss_dwar_01
-#NWmax ANIM ASCII
+
+# ANIM ASCII
 newanim opening1 ad_ss_dwar_01
   length 1.0
   transtime 0.25
   animroot ad_ss_dwar_01
-    node dummy ad_ss_dwar_01
-        parent NULL
-    endnode
-    node dummy TIN01_B13_04
-        parent ad_ss_dwar_01
-        positionkey
-            0.0 -1.0 0.0 -2.44141e-006
-            0.0333333 -1.0 0.0 -2.44141e-006
-            1.0 -1.0 0.0 -2.44141e-006
-        endlist
-        orientationkey
-            0.0 0.0 0.0 -1.0 -1.5708
-            0.0333333 0.0 0.0 -1.0 -1.5708
-            0.333333 0.0 0.0 -1.0 -1.5708
-            0.433333 0.0 0.0 -1.0 -1.47299
-            0.533333 0.0 0.0 -1.0 -1.43808
-            0.733333 0.0 0.0 -1.0 -0.583658
-            0.766667 0.0 0.0 -1.0 -0.515247
-            0.866667 0.0 0.0 -1.0 -0.310014
-            0.933333 0.0 0.0 -1.0 -0.2618
-            1.0 0.0 3.08389e-007 -1.0 -0.23562
-        endlist
-    endnode
-    node trimesh Mesh898
-        parent TIN01_B13_04
-    endnode
-    node trimesh sam
-        parent ad_ss_dwar_01
-    endnode
-    node emitter fire!08
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01head
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01hhit
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01impc
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01grnd
-        parent ad_ss_dwar_01
-    endnode
+  node dummy ad_ss_dwar_01
+    parent null
+  endnode
+  node dummy TIN01_B13_04
+    parent ad_ss_dwar_01
+    positionkey 3
+       0.000 -1.00000  0.00000 -0.00000
+       0.033 -1.00000  0.00000 -0.00000
+       1.000 -1.00000  0.00000 -0.00000
+    endlist
+    orientationkey 10
+       0.000  0.00000  0.00000  1.00000  1.57080
+       0.033  0.00000  0.00000  1.00000  1.57080
+       0.333  0.00000  0.00000  1.00000  1.57080
+       0.433  0.00000  0.00000  1.00000  1.47299
+       0.533  0.00000  0.00000  1.00000  1.43808
+       0.733  0.00000  0.00000  1.00000  0.58366
+       0.767  0.00000  0.00000  1.00000  0.51525
+       0.867  0.00000  0.00000  1.00000  0.31001
+       0.933  0.00000  0.00000  1.00000  0.26180
+       1.000  0.00000 -0.00000  1.00000  0.23562
+    endlist
+  endnode
+  node trimesh Mesh898
+    parent TIN01_B13_04
+  endnode
+  node trimesh sam
+    parent ad_ss_dwar_01
+  endnode
+  node emitter fire!08
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01head
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01hhit
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01impc
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01grnd
+    parent ad_ss_dwar_01
+  endnode
 doneanim opening1 ad_ss_dwar_01
-#NWmax ANIM ASCII
+
 newanim closing1 ad_ss_dwar_01
-  length 0.666667
+  length 0.667
   transtime 0.25
   animroot ad_ss_dwar_01
-    node dummy ad_ss_dwar_01
-        parent NULL
-    endnode
-    node dummy TIN01_B13_04
-        parent ad_ss_dwar_01
-        positionkey
-            0.0 -1.0 0.0 -2.44141e-006
-            0.0333333 -1.0 0.0 -2.44141e-006
-            0.666667 -1.0 0.0 -2.44141e-006
-        endlist
-        orientationkey
-            0.0 0.0 3.08389e-007 -1.0 -0.23562
-            0.0333333 0.0 3.08389e-007 -1.0 -0.23562
-            0.1 0.0 2.62031e-007 -1.0 -0.278195
-            0.166667 0.0 2.43911e-007 -1.0 -0.306578
-            0.3 0.0 1.4632e-007 -1.0 -0.504164
-            0.366667 0.0 0.0 -1.0 -0.602957
-            0.5 0.0 0.0 -1.0 -1.50128
-            0.566667 0.0 0.0 -1.0 -1.5708
-            0.6 0.0 0.0 -1.0 -1.5708
-            0.633333 0.0 0.0 -1.0 -1.5708
-            0.666667 0.0 0.0 -1.0 -1.5708
-        endlist
-    endnode
-    node trimesh Mesh898
-        parent TIN01_B13_04
-    endnode
-    node trimesh sam
-        parent ad_ss_dwar_01
-    endnode
-    node emitter fire!08
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01head
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01hhit
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01impc
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01grnd
-        parent ad_ss_dwar_01
-    endnode
+  node dummy ad_ss_dwar_01
+    parent null
+  endnode
+  node dummy TIN01_B13_04
+    parent ad_ss_dwar_01
+    positionkey 3
+       0.000 -1.00000  0.00000 -0.00000
+       0.033 -1.00000  0.00000 -0.00000
+       0.667 -1.00000  0.00000 -0.00000
+    endlist
+    orientationkey 11
+       0.000  0.00000 -0.00000  1.00000  0.23562
+       0.033  0.00000 -0.00000  1.00000  0.23562
+       0.100  0.00000 -0.00000  1.00000  0.27819
+       0.167 -0.00000 -0.00000  1.00000  0.30658
+       0.300  0.00000 -0.00000  1.00000  0.50416
+       0.367  0.00000  0.00000  1.00000  0.60296
+       0.500  0.00000  0.00000  1.00000  1.50128
+       0.567  0.00000  0.00000  1.00000  1.57080
+       0.600  0.00000  0.00000  1.00000  1.57080
+       0.633  0.00000  0.00000  1.00000  1.57080
+       0.667  0.00000  0.00000  1.00000  1.57080
+    endlist
+  endnode
+  node trimesh Mesh898
+    parent TIN01_B13_04
+  endnode
+  node trimesh sam
+    parent ad_ss_dwar_01
+  endnode
+  node emitter fire!08
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01head
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01hhit
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01impc
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01grnd
+    parent ad_ss_dwar_01
+  endnode
 doneanim closing1 ad_ss_dwar_01
-#NWmax ANIM ASCII
+
 newanim opening2 ad_ss_dwar_01
   length 1.0
   transtime 0.25
   animroot ad_ss_dwar_01
-    node dummy ad_ss_dwar_01
-        parent NULL
-    endnode
-    node dummy TIN01_B13_04
-        parent ad_ss_dwar_01
-        positionkey
-            0.0 -1.0 0.0 -2.44141e-006
-            0.0333333 -1.0 0.0 -2.44141e-006
-            1.0 -1.0 0.0 -2.44141e-006
-        endlist
-        orientationkey
-            0.0 0.0 0.0 -1.0 -1.5708
-            0.0333333 0.0 0.0 -1.0 -1.5708
-            0.333333 0.0 0.0 -1.0 -1.5708
-            0.433333 0.0 0.0 -1.0 -1.6686
-            0.533333 0.0 0.0 -1.0 -1.70351
-            0.733333 0.0 0.0 -1.0 -2.55794
-            0.766667 0.0 0.0 -1.0 -2.62635
-            0.866667 0.0 0.0 -1.0 -2.83157
-            0.933333 0.0 0.0 -1.0 -2.87979
-            1.0 0.0 0.0 -1.0 -2.90597
-        endlist
-    endnode
-    node trimesh Mesh898
-        parent TIN01_B13_04
-    endnode
-    node trimesh sam
-        parent ad_ss_dwar_01
-    endnode
-    node emitter fire!08
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01head
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01hhit
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01impc
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01grnd
-        parent ad_ss_dwar_01
-    endnode
+  node dummy ad_ss_dwar_01
+    parent null
+  endnode
+  node dummy TIN01_B13_04
+    parent ad_ss_dwar_01
+    positionkey 3
+       0.000 -1.00000  0.00000 -0.00000
+       0.033 -1.00000  0.00000 -0.00000
+       1.000 -1.00000  0.00000 -0.00000
+    endlist
+    orientationkey 10
+       0.000  0.00000  0.00000  1.00000  1.57080
+       0.033  0.00000  0.00000  1.00000  1.57080
+       0.333  0.00000  0.00000  1.00000  1.57080
+       0.433  0.00000  0.00000  1.00000  1.66860
+       0.533  0.00000  0.00000  1.00000  1.70351
+       0.733  0.00000  0.00000  1.00000  2.55794
+       0.767  0.00000  0.00000  1.00000  2.62635
+       0.867  0.00000  0.00000  1.00000  2.83157
+       0.933  0.00000  0.00000  1.00000  2.87979
+       1.000  0.00000  0.00000  1.00000  2.90597
+    endlist
+  endnode
+  node trimesh Mesh898
+    parent TIN01_B13_04
+  endnode
+  node trimesh sam
+    parent ad_ss_dwar_01
+  endnode
+  node emitter fire!08
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01head
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01hhit
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01impc
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01grnd
+    parent ad_ss_dwar_01
+  endnode
 doneanim opening2 ad_ss_dwar_01
-#NWmax ANIM ASCII
-newanim die ad_ss_dwar_01
-  length 0.666667
-  transtime 0.25
-  animroot ad_ss_dwar_01
-  event 0.0333333 detonate
-    node dummy ad_ss_dwar_01
-        parent NULL
-    endnode
-    node dummy TIN01_B13_04
-        parent ad_ss_dwar_01
-        positionkey
-            0.0 -1.0 0.0 -2.44141e-006
-            0.1 -0.895449 0.0 -0.570152
-            0.133333 -0.895449 0.0 -0.81911
-            0.366667 -0.721199 0.0 -0.901047
-            0.666667 0.262883 1.08648 -2.83311
-        endlist
-        orientationkey
-            0.0 0.0 0.0 -1.0 -1.5708
-            0.1 -0.0700964 -0.0906631 -0.993412 -1.43993
-            0.133333 -0.0700964 -0.0906631 -0.993412 -1.43993
-            0.266667 -0.0711772 0.023546 -0.997186 -1.4857
-            0.333333 -0.105541 0.0251409 -0.994097 -1.51399
-            0.666667 -0.326389 0.362491 -0.872966 -1.60174
-        endlist
-    endnode
-    node trimesh Mesh898
-        parent TIN01_B13_04
-    endnode
-    node trimesh sam
-        parent ad_ss_dwar_01
-    endnode
-    node emitter fire!08
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01head
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01hhit
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01impc
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01grnd
-        parent ad_ss_dwar_01
-    endnode
-doneanim die ad_ss_dwar_01
-#NWmax ANIM ASCII
-newanim closing2 ad_ss_dwar_01
-  length 0.633333
-  transtime 0.25
-  animroot ad_ss_dwar_01
-    node dummy ad_ss_dwar_01
-        parent NULL
-    endnode
-    node dummy TIN01_B13_04
-        parent ad_ss_dwar_01
-        positionkey
-            0.0 -1.0 0.0 -2.44141e-006
-            0.0333333 -1.0 0.0 -2.44141e-006
-        endlist
-        orientationkey
-            0.0 0.0 0.0 -1.0 -2.90597
-            0.0333333 0.0 0.0 -1.0 -2.90597
-            0.1 0.0 0.0 -1.0 -2.8634
-            0.166667 0.0 0.0 -1.0 -2.83501
-            0.3 0.0 0.0 -1.0 -2.63744
-            0.366667 0.0 0.0 -1.0 -2.53863
-            0.5 0.0 0.0 -1.0 -1.64031
-            0.566667 0.0 0.0 -1.0 -1.5708
-            0.6 0.0 0.0 -1.0 -1.5708
-            0.633333 0.0 0.0 -1.0 -1.5708
-        endlist
-    endnode
-    node trimesh Mesh898
-        parent TIN01_B13_04
-    endnode
-    node trimesh sam
-        parent ad_ss_dwar_01
-    endnode
-    node emitter fire!08
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01head
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01hhit
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01impc
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01grnd
-        parent ad_ss_dwar_01
-    endnode
-doneanim closing2 ad_ss_dwar_01
-#NWmax ANIM ASCII
-newanim closed ad_ss_dwar_01
-  length 0.0333333
-  transtime 0.25
-  animroot ad_ss_dwar_01
-    node dummy ad_ss_dwar_01
-        parent NULL
-    endnode
-    node dummy TIN01_B13_04
-        parent ad_ss_dwar_01
-        positionkey
-            0.0 -1.0 0.0 -2.44141e-006
-            0.0333333 -1.0 0.0 -2.44141e-006
-        endlist
-        orientationkey
-            0.0 8.6466e-007 -8.64663e-007 -1.0 -1.5708
-            0.0333333 1.73046e-006 -1.73047e-006 -1.0 -1.5708
-        endlist
-    endnode
-    node trimesh Mesh898
-        parent TIN01_B13_04
-    endnode
-    node trimesh sam
-        parent ad_ss_dwar_01
-    endnode
-    node emitter fire!08
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01head
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01hhit
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01impc
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01grnd
-        parent ad_ss_dwar_01
-    endnode
-doneanim closed ad_ss_dwar_01
-#NWmax ANIM ASCII
-newanim opened2 ad_ss_dwar_01
-  length 0.0333333
-  transtime 0.25
-  animroot ad_ss_dwar_01
-    node dummy ad_ss_dwar_01
-        parent NULL
-    endnode
-    node dummy TIN01_B13_04
-        parent ad_ss_dwar_01
-        positionkey
-            0.0 -1.0 0.0 -2.44141e-006
-            0.0333333 -1.0 0.0 -2.44141e-006
-        endlist
-        orientationkey
-            0.0 0.0 0.0 -1.0 -2.90597
-            0.0333333 0.0 0.0 -1.0 -2.90597
-        endlist
-    endnode
-    node trimesh Mesh898
-        parent TIN01_B13_04
-    endnode
-    node trimesh sam
-        parent ad_ss_dwar_01
-    endnode
-    node emitter fire!08
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01head
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01hhit
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01impc
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01grnd
-        parent ad_ss_dwar_01
-    endnode
-doneanim opened2 ad_ss_dwar_01
-#NWmax ANIM ASCII
-newanim opened1 ad_ss_dwar_01
-  length 0.0333333
-  transtime 0.25
-  animroot ad_ss_dwar_01
-    node dummy ad_ss_dwar_01
-        parent NULL
-    endnode
-    node dummy TIN01_B13_04
-        parent ad_ss_dwar_01
-        positionkey
-            0.0 -1.0 0.0 -2.44141e-006
-            0.0333333 -1.0 0.0 -2.44141e-006
-        endlist
-        orientationkey
-            0.0 0.0 3.08389e-007 -1.0 -0.23562
-            0.0333333 2.51798e-007 2.78587e-007 -1.0 -0.23562
-        endlist
-    endnode
-    node trimesh Mesh898
-        parent TIN01_B13_04
-    endnode
-    node trimesh sam
-        parent ad_ss_dwar_01
-    endnode
-    node emitter fire!08
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01head
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01hhit
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01impc
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01grnd
-        parent ad_ss_dwar_01
-    endnode
-doneanim opened1 ad_ss_dwar_01
-#NWmax ANIM ASCII
-newanim trans ad_ss_dwar_01
-  length 0.0333333
-  transtime 0.25
-  animroot ad_ss_dwar_01
-    node dummy ad_ss_dwar_01
-        parent NULL
-    endnode
-    node dummy TIN01_B13_04
-        parent ad_ss_dwar_01
-    endnode
-    node trimesh Mesh898
-        parent TIN01_B13_04
-    endnode
-    node trimesh sam
-        parent ad_ss_dwar_01
-    endnode
-    node emitter fire!08
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01head
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01hhit
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01impc
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01grnd
-        parent ad_ss_dwar_01
-    endnode
-doneanim trans ad_ss_dwar_01
-#NWmax ANIM ASCII
-newanim dead ad_ss_dwar_01
-  length 0.0333333
-  transtime 0.25
-  animroot ad_ss_dwar_01
-    node dummy ad_ss_dwar_01
-        parent NULL
-    endnode
-    node dummy TIN01_B13_04
-        parent ad_ss_dwar_01
-        positionkey
-            0.0 0.262883 1.08648 -2.83311
-            0.0333333 0.262883 1.08648 -2.83311
-        endlist
-        orientationkey
-            0.0 -0.326389 0.362491 -0.872966 -1.60174
-            0.0333333 -0.326389 0.362491 -0.872966 -1.60174
-        endlist
-    endnode
-    node trimesh Mesh898
-        parent TIN01_B13_04
-    endnode
-    node trimesh sam
-        parent ad_ss_dwar_01
-    endnode
-    node emitter fire!08
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01head
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01hhit
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01impc
-        parent ad_ss_dwar_01
-    endnode
-    node dummy ad_ss_dwar_01grnd
-        parent ad_ss_dwar_01
-    endnode
-doneanim dead ad_ss_dwar_01
-donemodel ad_ss_dwar_01
 
+newanim die ad_ss_dwar_01
+  length 0.667
+  transtime 0.25
+  animroot ad_ss_dwar_01
+  event 0.033 detonate
+  node dummy ad_ss_dwar_01
+    parent null
+  endnode
+  node dummy TIN01_B13_04
+    parent ad_ss_dwar_01
+    positionkey 5
+       0.000 -1.00000  0.00000 -0.00000
+       0.100 -0.89545  0.00000 -0.57015
+       0.133 -0.89545  0.00000 -0.81911
+       0.367 -0.72120  0.00000 -0.90105
+       0.667  0.26288  1.08648 -2.83311
+    endlist
+    orientationkey 6
+       0.000  0.00000  0.00000  1.00000  1.57080
+       0.100  0.07010  0.09066  0.99341  1.43993
+       0.133  0.07010  0.09066  0.99341  1.43993
+       0.267  0.07118 -0.02355  0.99719  1.48570
+       0.333  0.10554 -0.02514  0.99410  1.51399
+       0.667  0.32639 -0.36249  0.87297  1.60174
+    endlist
+  endnode
+  node trimesh Mesh898
+    parent TIN01_B13_04
+  endnode
+  node trimesh sam
+    parent ad_ss_dwar_01
+  endnode
+  node emitter fire!08
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01head
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01hhit
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01impc
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01grnd
+    parent ad_ss_dwar_01
+  endnode
+doneanim die ad_ss_dwar_01
+
+newanim closing2 ad_ss_dwar_01
+  length 0.633
+  transtime 0.25
+  animroot ad_ss_dwar_01
+  node dummy ad_ss_dwar_01
+    parent null
+  endnode
+  node dummy TIN01_B13_04
+    parent ad_ss_dwar_01
+    positionkey 2
+       0.000 -1.00000  0.00000 -0.00000
+       0.033 -1.00000  0.00000 -0.00000
+    endlist
+    orientationkey 10
+       0.000  0.00000  0.00000  1.00000  2.90597
+       0.033  0.00000  0.00000  1.00000  2.90597
+       0.100  0.00000  0.00000  1.00000  2.86340
+       0.167  0.00000  0.00000  1.00000  2.83501
+       0.300  0.00000  0.00000  1.00000  2.63744
+       0.367  0.00000  0.00000  1.00000  2.53863
+       0.500  0.00000  0.00000  1.00000  1.64031
+       0.567  0.00000  0.00000  1.00000  1.57080
+       0.600  0.00000  0.00000  1.00000  1.57080
+       0.633  0.00000  0.00000  1.00000  1.57080
+    endlist
+  endnode
+  node trimesh Mesh898
+    parent TIN01_B13_04
+  endnode
+  node trimesh sam
+    parent ad_ss_dwar_01
+  endnode
+  node emitter fire!08
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01head
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01hhit
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01impc
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01grnd
+    parent ad_ss_dwar_01
+  endnode
+doneanim closing2 ad_ss_dwar_01
+
+newanim closed ad_ss_dwar_01
+  length 0.033
+  transtime 0.25
+  animroot ad_ss_dwar_01
+  node dummy ad_ss_dwar_01
+    parent null
+  endnode
+  node dummy TIN01_B13_04
+    parent ad_ss_dwar_01
+    positionkey 2
+       0.000 -1.00000  0.00000 -0.00000
+       0.033 -1.00000  0.00000 -0.00000
+    endlist
+    orientationkey 2
+       0.000 -0.00000  0.00000  1.00000  1.57080
+       0.033 -0.00000  0.00000  1.00000  1.57080
+    endlist
+  endnode
+  node trimesh Mesh898
+    parent TIN01_B13_04
+  endnode
+  node trimesh sam
+    parent ad_ss_dwar_01
+  endnode
+  node emitter fire!08
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01head
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01hhit
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01impc
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01grnd
+    parent ad_ss_dwar_01
+  endnode
+doneanim closed ad_ss_dwar_01
+
+newanim opened2 ad_ss_dwar_01
+  length 0.033
+  transtime 0.25
+  animroot ad_ss_dwar_01
+  node dummy ad_ss_dwar_01
+    parent null
+  endnode
+  node dummy TIN01_B13_04
+    parent ad_ss_dwar_01
+    positionkey 2
+       0.000 -1.00000  0.00000 -0.00000
+       0.033 -1.00000  0.00000 -0.00000
+    endlist
+    orientationkey 2
+       0.000  0.00000  0.00000  1.00000  2.90597
+       0.033  0.00000  0.00000  1.00000  2.90597
+    endlist
+  endnode
+  node trimesh Mesh898
+    parent TIN01_B13_04
+  endnode
+  node trimesh sam
+    parent ad_ss_dwar_01
+  endnode
+  node emitter fire!08
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01head
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01hhit
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01impc
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01grnd
+    parent ad_ss_dwar_01
+  endnode
+doneanim opened2 ad_ss_dwar_01
+
+newanim opened1 ad_ss_dwar_01
+  length 0.033
+  transtime 0.25
+  animroot ad_ss_dwar_01
+  node dummy ad_ss_dwar_01
+    parent null
+  endnode
+  node dummy TIN01_B13_04
+    parent ad_ss_dwar_01
+    positionkey 2
+       0.000 -1.00000  0.00000 -0.00000
+       0.033 -1.00000  0.00000 -0.00000
+    endlist
+    orientationkey 2
+       0.000  0.00000 -0.00000  1.00000  0.23562
+       0.033 -0.00000 -0.00000  1.00000  0.23562
+    endlist
+  endnode
+  node trimesh Mesh898
+    parent TIN01_B13_04
+  endnode
+  node trimesh sam
+    parent ad_ss_dwar_01
+  endnode
+  node emitter fire!08
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01head
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01hhit
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01impc
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01grnd
+    parent ad_ss_dwar_01
+  endnode
+doneanim opened1 ad_ss_dwar_01
+
+newanim trans ad_ss_dwar_01
+  length 0.033
+  transtime 0.25
+  animroot ad_ss_dwar_01
+  node dummy ad_ss_dwar_01
+    parent null
+  endnode
+  node dummy TIN01_B13_04
+    parent ad_ss_dwar_01
+  endnode
+  node trimesh Mesh898
+    parent TIN01_B13_04
+  endnode
+  node trimesh sam
+    parent ad_ss_dwar_01
+  endnode
+  node emitter fire!08
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01head
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01hhit
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01impc
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01grnd
+    parent ad_ss_dwar_01
+  endnode
+doneanim trans ad_ss_dwar_01
+
+newanim dead ad_ss_dwar_01
+  length 0.033
+  transtime 0.25
+  animroot ad_ss_dwar_01
+  node dummy ad_ss_dwar_01
+    parent null
+  endnode
+  node dummy TIN01_B13_04
+    parent ad_ss_dwar_01
+    positionkey 2
+       0.000  0.26288  1.08648 -2.83311
+       0.033  0.26288  1.08648 -2.83311
+    endlist
+    orientationkey 2
+       0.000  0.32639 -0.36249  0.87297  1.60174
+       0.033  0.32639 -0.36249  0.87297  1.60174
+    endlist
+  endnode
+  node trimesh Mesh898
+    parent TIN01_B13_04
+  endnode
+  node trimesh sam
+    parent ad_ss_dwar_01
+  endnode
+  node emitter fire!08
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01head
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01hhit
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01impc
+    parent ad_ss_dwar_01
+  endnode
+  node dummy ad_ss_dwar_01grnd
+    parent ad_ss_dwar_01
+  endnode
+doneanim dead ad_ss_dwar_01
+
+donemodel ad_ss_dwar_01
