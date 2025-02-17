@@ -1,0 +1,400 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: ori_c03
+filedependancy Lanterns off.max
+newmodel ori_c03
+setsupermodel ori_c03 NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom ori_c03
+node dummy ori_c03
+  parent NULL
+endnode
+node trimesh Plane04
+  parent ori_c03
+  position 1.25 3.75 0.01
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane03
+  parent ori_c03
+  position 3.75 1.25 0.01
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane01
+  parent ori_c03
+  position 3.75 3.75 0.01
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane02
+  parent ori_c03
+  position 1.25 1.25 0.01
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane05
+  parent ori_c03
+  position -1.25 1.25 0.01
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane06
+  parent ori_c03
+  position -3.75 1.25 0.01
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane07
+  parent ori_c03
+  position -3.75 3.75 0.01
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane08
+  parent ori_c03
+  position -1.25 3.75 0.01
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane09
+  parent ori_c03
+  position -1.25 -3.75 0.01
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane10
+  parent ori_c03
+  position -3.75 -3.75 0.01
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane11
+  parent ori_c03
+  position -3.75 -1.25 0.01
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane12
+  parent ori_c03
+  position -1.25 -1.25 0.01
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane13
+  parent ori_c03
+  position 3.75 -3.75 0.01
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane14
+  parent ori_c03
+  position 1.25 -3.75 0.01
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane15
+  parent ori_c03
+  position 1.25 -1.25 0.01
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Plane16
+  parent ori_c03
+  position 3.75 -1.25 0.01
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap Tatami1_128
+  verts 4
+    1.25 1.25 0
+    -1.25 1.25 0
+    1.25 -1.25 0
+    -1.25 -1.25 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.000499755 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+endmodelgeom ori_c03
+donemodel ori_c03
