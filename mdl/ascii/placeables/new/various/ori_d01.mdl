@@ -1,0 +1,183 @@
+#MAXMODEL ASCII
+# model: ori_d01
+filedependancy ori_d01.max
+newmodel ori_d01
+setsupermodel ori_d01 null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom ori_d01
+node dummy ori_d01
+  parent NULL
+  #part-number 0
+endnode
+node trimesh box04
+  parent ori_d01
+  #part-number 1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  bitmap win1_64x64
+  verts 4
+    -1.25 -0.150000006 0.100000001
+    1.25 -0.150000006 0.100000001
+    1.25 -0.150000006 3.9000001
+    -1.25 -0.150000006 3.9000001
+  tverts 4
+    -0.485652 -0.946919024 0
+    1.45232999 -0.946919024 0
+    1.45232999 1.99881995 0
+    -0.485652 1.99881995 0
+  faces 2
+    0 1 2 1 0 1 2 5
+    2 3 0 1 2 3 0 5
+  position 0 0 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+endnode
+node trimesh object07
+  parent box04
+  #part-number 2
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  bitmap tic01_hrdwd02
+  verts 6
+    -1.35000002 -0.150000006 0
+    -1.35000002 0.150000006 0
+    1.35000002 0.150000006 0
+    1.25 -0.150000006 0.100000001
+    -1.25 -0.150000006 0.100000001
+    1.35000002 -0.150000006 0
+  tverts 8
+    0.413217008 -0.0399999991 0
+    0.533217013 -0.0399999991 0
+    0.533217013 1.03999996 0
+    0.526260972 -0.0399999991 0
+    0.48626101 1 0
+    0.48626101 0 0
+    0.526260972 1.03999996 0
+    0.413217008 1.03999996 0
+  faces 4
+    0 1 2 1 0 1 2 1
+    0 3 4 2 3 4 5 5
+    0 5 3 2 3 6 4 5
+    2 5 0 1 2 7 0 1
+  position 0 0 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+endnode
+node trimesh object05
+  parent box04
+  #part-number 3
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  bitmap tic01_hrdwd02
+  verts 6
+    1.35000002 -0.150000006 0
+    1.35000002 0.150000006 0
+    1.35000002 0.150000006 4
+    1.35000002 -0.150000006 4
+    1.25 -0.150000006 3.9000001
+    1.25 -0.150000006 0.100000001
+  tverts 8
+    0.37066099 -0.300000012 0
+    0.490660995 -0.300000012 0
+    0.490660995 1.29999995 0
+    0.37066099 1.29999995 0
+    0.527840972 1.29999995 0
+    0.48784101 1.25999999 0
+    0.48784101 -0.25999999 0
+    0.527840972 -0.300000012 0
+  faces 4
+    0 1 2 1 0 1 2 2
+    2 3 0 1 2 3 0 2
+    3 4 5 2 4 5 6 5
+    0 3 5 2 7 4 6 5
+  position 0 0 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+endnode
+node trimesh object06
+  parent box04
+  #part-number 4
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  bitmap tic01_hrdwd02
+  verts 6
+    -1.35000002 -0.150000006 4
+    -1.35000002 0.150000006 4
+    -1.35000002 0.150000006 0
+    -1.25 -0.150000006 0.100000001
+    -1.25 -0.150000006 3.9000001
+    -1.35000002 -0.150000006 0
+  tverts 8
+    0.530313015 1.29999995 0
+    0.41031301 1.29999995 0
+    0.41031301 -0.300000012 0
+    0.479999989 1.29999995 0
+    0.519999981 -0.25999999 0
+    0.519999981 1.25999999 0
+    0.479999989 -0.300000012 0
+    0.530313015 -0.300000012 0
+  faces 4
+    0 1 2 1 0 1 2 3
+    0 3 4 2 3 4 5 5
+    0 5 3 2 3 6 4 5
+    2 5 0 1 2 7 0 3
+  position 0 0 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+endnode
+node trimesh object04
+  parent box04
+  #part-number 5
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  bitmap tic01_hrdwd02
+  verts 6
+    1.35000002 0.150000006 4
+    -1.35000002 0.150000006 4
+    -1.35000002 -0.150000006 4
+    1.35000002 -0.150000006 4
+    -1.25 -0.150000006 3.9000001
+    1.25 -0.150000006 3.9000001
+  tverts 8
+    0.406767994 1.03999996 0
+    0.406767994 -0.0399999991 0
+    0.526768029 -0.0399999991 0
+    0.526768029 1.03999996 0
+    0.37479201 1.03999996 0
+    0.37479201 -0.0399999991 0
+    0.414792001 0 0
+    0.414792001 1 0
+  faces 4
+    0 1 2 1 0 1 2 65536
+    2 3 0 1 2 3 0 65536
+    3 2 4 2 4 5 6 5
+    5 3 4 2 7 4 6 5
+  position 0 0 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom ori_d01
+
+donemodel ori_d01
