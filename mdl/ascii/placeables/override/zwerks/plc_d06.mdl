@@ -1,4 +1,4 @@
-# NeverBlender 4.0.8|Blender 4.0.0|2025-03-17
+# NeverBlender 4.0.8|Blender 4.0.0|2025-03-18
 filedependancy unknown
 newmodel PLC_D06
 setsupermodel PLC_D06 null
@@ -236,7 +236,7 @@ node trimesh Box1207
   position -0.06188 -0.02607  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_rck
+  bitmap plx_rock
   texture1 null
   texture2 null
   shininess 1
@@ -439,7 +439,7 @@ node trimesh Mesh97
   position -0.02277 -0.35722  1.13331
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_rck
+  bitmap plx_rock
   texture1 null
   texture2 null
   shininess 1
@@ -504,7 +504,7 @@ node trimesh Box1208
   position -0.06188 -0.35164  1.31205
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_rugdmtlbrk
+  bitmap plx_rugdmtlbrk
   texture1 null
   texture2 null
   shininess 1
@@ -569,9 +569,7 @@ node trimesh Mesh84
   position  0.00000 -0.27972  0.34543
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_crpsbksrp
-  texture1 null
-  texture2 null
+  bitmap plx_corpses
   shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -590,20 +588,20 @@ node trimesh Mesh84
      0.03467  0.08129 -0.04529
     -0.03467  0.08129 -0.04529
   tverts 14
-     0.6455  0.9113  0
-     0.6190  0.9203  0
-     0.6114  0.9012  0
-     0.6275  0.8865  0
-     0.6070  0.9468  0
-     0.6052  0.8729  0
-     0.6449  0.9348  0
-     0.6430  0.8608  0
-     0.6495  0.9347  0
-     0.6476  0.8608  0
-     0.6088  0.9468  0
-     0.6069  0.8728  0
-     0.6466  0.9347  0
-     0.6448  0.8608  0
+     0.9042  0.1303  0
+     0.8777  0.1393  0
+     0.8701  0.1202  0
+     0.8862  0.1055  0
+     0.8657  0.1658  0
+     0.8639  0.0919  0
+     0.9036  0.1538  0
+     0.9017  0.0798  0
+     0.9082  0.1537  0
+     0.9063  0.0798  0
+     0.8675  0.1658  0
+     0.8656  0.0918  0
+     0.9053  0.1537  0
+     0.9035  0.0798  0
   faces 10
     0 1 2 1   0  1  2 0
     2 3 0 1   2  3  0 0
@@ -621,7 +619,7 @@ node trimesh Object28
   position -0.10185 -0.40891  1.49282
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_rck
+  bitmap plx_rock
   texture1 null
   texture2 null
   shininess 1
@@ -706,7 +704,7 @@ node trimesh Mesh82
   position -0.06188 -0.02607  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_rck
+  bitmap plx_rock
   texture1 null
   texture2 null
   shininess 1
@@ -818,7 +816,7 @@ node trimesh Mesh79
   position  0.00000  0.00000  0.15212
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_rck
+  bitmap plx_rock
   texture1 null
   texture2 null
   shininess 1
@@ -1084,7 +1082,7 @@ newanim on2off PLC_D06
     parent damage64
     orientationkey 4
        0.000  0.00000  1.00000  0.00000  0.00000
-       0.100  1.00001  0.00000  0.00000  0.15065
+       0.100  1.00000  0.00000  0.00000  0.15065
        0.533  1.00000  0.00000  0.00000  1.41087
        0.633  1.00000  0.00000  0.00000  1.56207
     endlist
@@ -1212,8 +1210,8 @@ newanim damage PLC_D06
     endlist
     orientationkey 4
        0.000  0.00000  1.00000  0.00000  0.00000
-       0.033 -0.37134  0.92848 -0.00810  0.04699
-       0.100  0.59998 -0.80001 -0.01047  0.04363
+       0.033 -0.37135  0.92851 -0.00810  0.04699
+       0.100  0.59994 -0.79996 -0.01047  0.04363
        0.133  0.00000  1.00000  0.00000  0.00000
     endlist
   endnode

@@ -1,4 +1,4 @@
-# NeverBlender 4.0.8|Blender 4.0.0|2025-03-17
+# NeverBlender 4.0.8|Blender 4.0.0|2025-03-18
 filedependancy unknown
 newmodel PLC_D05
 setsupermodel PLC_D05 null
@@ -264,7 +264,9 @@ node trimesh Object27
   position -0.10185 -0.22645  1.34071
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_rck
+  bitmap plx_rock
+  texture1 null
+  texture2 null
   shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -319,7 +321,9 @@ node trimesh Mesh76
   position -0.02277 -0.17476  0.98119
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_rck
+  bitmap plx_rock
+  texture1 null
+  texture2 null
   shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -382,7 +386,7 @@ node trimesh Box1205
   position -0.16900  0.00821  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_wood256
+  bitmap plx_wood01
   texture1 null
   texture2 null
   shininess 1
@@ -472,7 +476,7 @@ node trimesh Box155713
   position -0.06188 -0.18012  1.15993
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_rugdmtlbrk
+  bitmap plx_rugdmtlbrk
   texture1 null
   texture2 null
   shininess 1
@@ -537,9 +541,7 @@ node trimesh Mesh1832
   position  0.00000 -0.27972  0.34543
   orientation  1.00000  0.00000  0.00000  0.68068
   wirecolor 1.00 1.00 1.00
-  bitmap plc_crpsbksrp
-  texture1 null
-  texture2 null
+  bitmap plx_corpses
   shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -558,20 +560,20 @@ node trimesh Mesh1832
      0.03467  0.03467 -0.08636
     -0.03467  0.03467 -0.08636
   tverts 14
-     0.6455  0.9113  0
-     0.6190  0.9203  0
-     0.6114  0.9012  0
-     0.6275  0.8865  0
-     0.6070  0.9468  0
-     0.6052  0.8729  0
-     0.6449  0.9348  0
-     0.6430  0.8608  0
-     0.6495  0.9347  0
-     0.6476  0.8608  0
-     0.6088  0.9468  0
-     0.6069  0.8728  0
-     0.6466  0.9347  0
-     0.6448  0.8608  0
+     0.9088  0.1411  0
+     0.8823  0.1501  0
+     0.8747  0.1310  0
+     0.8908  0.1163  0
+     0.8703  0.1766  0
+     0.8685  0.1027  0
+     0.9082  0.1646  0
+     0.9063  0.0906  0
+     0.9128  0.1645  0
+     0.9109  0.0906  0
+     0.8721  0.1766  0
+     0.8702  0.1026  0
+     0.9099  0.1645  0
+     0.9081  0.0906  0
   faces 10
     0 1 2 1   0  1  2 0
     2 3 0 1   2  3  0 0
@@ -589,7 +591,7 @@ node trimesh Line43
   position -0.06188  0.00327  3.74368
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_wood256
+  bitmap plx_wood01
   texture1 null
   texture2 null
   shininess 1
@@ -643,7 +645,7 @@ node trimesh Box155728
   position  0.37066 -0.00487  3.44368
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_wood256
+  bitmap plx_wood01
   texture1 null
   texture2 null
   shininess 1
@@ -694,7 +696,7 @@ node trimesh Mesh1839
   position -0.16900  0.00821  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_wood256
+  bitmap plx_wood01
   texture1 null
   texture2 null
   shininess 1
@@ -757,7 +759,7 @@ node trimesh Box155729
   position -0.49441 -0.00487  3.44368
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_wood256
+  bitmap plx_wood01
   texture1 null
   texture2 null
   shininess 1
@@ -808,7 +810,9 @@ node trimesh Mesh74
   position -0.16900  0.00821  0.00000
   orientation  0.00000  1.00000  0.00000  0.00000
   wirecolor 1.00 1.00 1.00
-  bitmap plc_rck
+  bitmap plx_rock
+  texture1 null
+  texture2 null
   shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -1183,7 +1187,7 @@ newanim on2off PLC_D05
     parent damage65
     orientationkey 4
        0.000  0.00000  1.00000  0.00000  0.00000
-       0.100  1.00001  0.00000  0.00000  0.15065
+       0.100  1.00000  0.00000  0.00000  0.15065
        0.533  1.00000  0.00000  0.00000  1.41087
        0.633  1.00000  0.00000  0.00000  1.56207
     endlist
@@ -1323,8 +1327,8 @@ newanim damage PLC_D05
     endlist
     orientationkey 4
        0.000  0.00000  1.00000  0.00000  0.00000
-       0.033 -0.37134  0.92848 -0.00810  0.04699
-       0.100  0.59998 -0.80001 -0.01047  0.04363
+       0.033 -0.37135  0.92851 -0.00810  0.04699
+       0.100  0.59994 -0.79996 -0.01047  0.04363
        0.133  0.00000  1.00000  0.00000  0.00000
     endlist
   endnode
